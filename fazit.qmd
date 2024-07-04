@@ -1,0 +1,149 @@
+---
+title: "Fazit und Ausblick"
+editor: visual
+---
+
+-          AUFLISTEN / TABELLE: Gründe für „nicht repliziert\"
+
+-          Neue Wissenschaft: Meta-Wissenschaft, die mit sozialwissenschaftlichen Methoden arbeitet
+
+-          Höherer Grad an Systematizität (Hoyningen-Huene)
+
+-          Selbstkorrektur von Wissenschaft als aktive Arbeit statt Invisible Hand
+
+### Was hat sich verbessert?
+
+-          Review der Veränderungen <https://www.researchgate.net/publication/355421853_Replicability_Robustness_and_Reproducibility_in_Psychological_Science>
+
+-          journal guidelines und reporting: [https://www.researchgate.net/publication/364374923_The_influence_of_journal_submission_guidelines_on_authors'\_reporting_of_statistics_and_use_of_open_research_practices_Five_years_later](https://www.researchgate.net/publication/364374923_The_influence_of_journal_submission_guidelines_on_authors'_reporting_of_statistics_and_use_of_open_research_practices_Five_years_later)
+
+-          <https://www.nature.com/articles/s41562-023-01749-9> extreme Erhöhung von Replikationsrate durch neue Methoden in kleienr Stichprobe von Phänomenen
+
+-          <https://www.nature.com/articles/s44271-023-00003-2> positive structural, procedural, and community changes
+
+-          Neue Meinung zu OS Praktiken: <https://www.researchgate.net/publication/373685253_Survey_of_open_science_practices_and_attitudes_in_the_social_sciences>
+
+-          Meta-Wissenschaftliche Evaluation von neuen Methoden
+
+o   Bisherige Vorschläge sind zum Teil intuitiv und nicht ausführlich geprüft <https://journals.sagepub.com/doi/10.1177/10892680241235120>; manche der Intuitionen sind auch falsch (z.B. wichtig ist nur, was replizierbar ist)
+
+o   Initial evidence registerd reports
+
+o   Nosek 2023 paper (protzko?)
+
+o   Hilft Preregistration gegen p-hacking? <https://ideas.repec.org/p/zbw/i4rdps/101.html>
+
+-          Strikte Normen könnten Flexibilität verringern und Offenheit und Innovationspotenziale einschränken
+
+o   Anfänglich unplausible Hypothesen sollten nicht direkt verworfen werden, manchmal führt auch eine Beharrungstendenz von Wissenschaftler\*innen dazu, dass sich neue, anfänglich unplausible Theorien, durchsetzen (<https://journals.sagepub.com/doi/10.1177/10892680241235120>)
+
+### Was ist noch zu tun?
+
+Wissenschaft zeigt, dass Selbstkorrekturprozesse existieren, Replikationskrise ist allerdings noch nicht annähernd überwunden
+
+-          Lösungen für Strukturelle Probleme erst am Anfang der Umsetzung
+
+-          Open Access Problematik aktuell mit Momentum, allerdings unklar, ob weitere Jahrzehnte zur Lösung benötigt werden
+
+-          Änderungsvorschläge müssen wissenschaftlich geprüft werden
+
+o   Interventionen oft sinnvoll, manchmal aufwändig, aber oft ist unklar, wie viel sie bringen (z.B. Präregistrierungen)
+
+o   Selbst Artikel, die sich mit Open Science befassen, halten sich selbst manchmal nicht an die Standards (z.B. REF[\[LR1\]](#_msocom_1) )
+
+-          Replikationsraten (Replikationen pro Publikationen) maximal 5%, eher \<1%
+
+o   <https://twitter.com/giladfeldman/status/1735950123291779119>
+
+o   <https://osf.io/preprints/psyarxiv/sa6rc> in Psychologie „54 out of 88 journals did not publish any direct replication articles in the eleven years surveyed\" (Abstract)
+
+-          Interdisziplinäres Problem erfordert Zusammenarbeit
+
+o   Replikationsdefinitionen wurden zB in Psychologie (Hüffmeier et al.), Digital Humanities (Repetitive Research) und Marketing (<https://doi.org/10.1093/jcr/ucae007>, Table 1) erstellt, sind aber völlig redundant
+
+Policy pyramide[\[LR2\]](#_msocom_2) ?
+
+-          Offene thematische Punkte
+
+o   Wie sieht Replizierbarkeit jenseits von Sozialwissenschaften aus? (cognitive, behavioral, social)
+
+o   Welche alternativen Anforderungen bestehen in logisch-formalen und qualitativ/hermeneutischen Disziplinen?
+
+o   Credibility beyond replicability <https://www.researchgate.net/publication/359766772_Credibility_Beyond_Replicability_Improving_the_Four_Validities_in_Psychological_Science>
+
+o   Welche Rolle spielt Open Science bei sich verschließenden Nationen und im Krieg
+
+§  Positivistisch: Abtrennung
+
+§  Relationistisch: Die anderen haben eh ein anderes Bild, ihnen hilft das nicht
+
+§  Altruistisch/Idealistisch: Wissenschaft soll der Menschheit helfen und nicht diskriminieren
+
+§  Nationalistisch: Gesellschaft bezahlt Wissenschaft, sie muss auch primär davon profitieren
+
+-          Infrastructure (make it possible)
+
+o   Offenheit des gesamten Wissenschaftsprozesses fördern\
+<https://doi.org/10.1371/journal.pbio.3002362>
+
+o   Deal-Gruppe ist damit, Ausbeutung von Wissenschaft durch Großverlage zu stoppen, gescheitert (<https://www.faz.net/aktuell/wissen/forschung-politik/wissenschaftliche-grossverlage-wissenschaftliche-grossverlage-19344181.html>)
+
+o    
+
+-          User interface / experience (make it easy)
+
+o   Viele OS Lösungen sehr einfach
+
+o   Open Source Software z.T. sehr schwierig (Literaturverwaltung, Statistik, Publikationssysteme erfordern Eingabe via klobigem Interface)
+
+-          Communities (make it normative)
+
+o   Wissenschaftler\*innen, die angesehene Kolleg\*innen kritisieren werden oft verklagt (z.B. Datacolada oder Elisabeth Bik, <https://www.buzzfeednews.com/article/stephaniemlee/elisabeth-bik-didier-raoult-hydroxychloroquine-study>)
+
+o    
+
+-          Incentives (make it rewarding)
+
+o   Forschende und Bibliotheken stehen immernoch in einer Art Gefangenendilemma und wer sich zuerst bewegt, hat einen Nachteil
+
+o   Impact Factors und Berufungskommissionen immernoch verrückt nach Zitationen: <https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6>
+
+o   Index jacking (<https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/asi.24855>)
+
+o  
+
+-          Policy (make it required)
+
+o   TOP guidelines als Norm vielerorts noch nicht durchgesetzt
+
+o   Open Science ist noch nicht die Norm, wie jeder dazu beitragen kann, wird hier zusammengefasst <https://doi.org/10.7554/eLife.89736>
+
+o   Neue Probleme wie Open Washing (<https://epdos.nl>) oder vermeintliche Transformationsverträge von Verlagen mit Universitätsbibliotheken, bei denen das Ziel ist, sich langfristig von Verlagen unabhängig zu machen, gleichzeitig aber keine Transformation stattfindet sondern Folgeverträge vereinbart werden
+
+o    
+
+### Was geschieht jetzt gerade?
+
+This is not final. Netherlands reports of scientific misconduct Stay up to date
+
+\- pscyh methods discussion group
+
+\- open science initiatives (Germany: NOSI)
+
+\- Retrationwatch blog
+
+\- FORRT
+
+\- Institutionalisierung von Open Science im Rahmen von dafür zuständigen Personen in Universitäten (MüCOS!)
+
+## Literaturempfehlungen
+
+·         Chris Chambers Buch <https://doi.org/10.2307/j.ctvc779w5>
+
+·         Charlotte Pennington Buch, hier ein Kapitel: <https://osf.io/preprints/psyarxiv/2tqep>
+
+·         Matters of Significance <https://discovery.ucl.ac.uk/id/eprint/10186829/1/Matters-of-Significance.pdf>
+
+ [\[LR1\]](#_msoanchor_1)<https://ideas.repec.org/p/stg/wpaper/2020_01.html>
+
+ [\[LR2\]](#_msoanchor_2)

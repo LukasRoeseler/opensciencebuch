@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.53">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Probleme – Open Science für alle</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Open Science für alle</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./landing.html"> 
+<span class="menu-text">landing</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./einleitung.html"> 
+<span class="menu-text">Einleitung</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./geschichte.html"> 
+<span class="menu-text">Die Geschichte der Open Science Bewegung</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./probleme.html" aria-current="page"> 
+<span class="menu-text">Probleme</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./lösungen.html"> 
+<span class="menu-text">Lösungen</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./fazit.html"> 
+<span class="menu-text">Fazit und Ausblick</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/LukasRoeseler">
+            Source Code
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/LukasRoeseler">
+            Report a Bug
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Probleme</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="probleme-die-im-rahmen-der-revolution-identifiziert-wurden" class="level1">
+<h1>Probleme, die im Rahmen der Revolution identifiziert wurden</h1>
+<section id="probleme-des-wissenschaftlichen-systems" class="level2">
+<h2 class="anchored" data-anchor-id="probleme-des-wissenschaftlichen-systems">Probleme des Wissenschaftlichen Systems</h2>
+<p>Neben dem Idealbild davon, was Wissenschaft sein sollte oder wie sie funktionieren sollte, existiert die Wissenschaft, wie sie in unser Gesellschaftssystem integriert ist. Besonderheiten sind dabei, dass Wissenschaftler*innen ihre Tätigkeit als Beruf ausüben, also Geld dabei verdienen. Wie das Geld, das größtenteils aus Steuergeldern stammt, verteilt werden soll entscheiden Gremien, die wiederum selbst aus Wissenschaftler*innen bestehen. Durch die hohe Arbeitsbelastung, gleichzeitig Wissenschaft zu betreiben und zu verwalten vereinfachen sich die Entscheider*innen die Arbeit und verwenden zur Auswahl hochqualifizierter Personen Abkürzungen. So konnte es passieren, dass die Währung in der Wissenschaft die Anzahl an Publikationen und Zitationszahlen sind. Vorbilder wie Charles Darwin oder William James hätten nach dem heutigen Maßstab keine Chance auf eine unbefristete Stelle - sie haben einfach nicht genug Paper geschrieben. Viele der hier diskutierten Problemen, sind beispielsweise in der Psychologie seit mehreren Jahrzehnten bekannt, sodass eine Replikationskrise unabwendbar erschienen haben muss (Cronbach et al., 1991; Greenwald, 1976).</p>
+<section id="wissenschaft-versus-academia" class="level3">
+<h3 class="anchored" data-anchor-id="wissenschaft-versus-academia">Wissenschaft versus Academia</h3>
+<p>Während Wissenschaften in ihrer Anfangszeit oft von Buchveröffentlichungen leben, die eine umfangreiche Basis von meist einzelnen Personen darlegen (e.g., Galileo, James, Darwin) stehen heutzutage wissenschaftliche Fachzeitschriften im Fokus. Diese Zeitschriften sind vergleichbar mit solchen, die es im Kiosk gibt, nur bestehen sie halt aus (meist englischsprachigen) Artikeln, die Wissenschaftler*innen verfasst und eingereicht haben und sind in vielen Fällen nur noch online oder in Büchereien erhältlich. Forschende laden sich dann einzelne Artikel aus den Zeitschriften herunter und Bibliotheken haben Verträge mit Verlagen und zahlen Geld, damit Universitätsangehörige Zugriff zu den Katalogen haben. Jeder eingereichte Artikel befasst sich mit einer Fragestellung, die von den Forschenden selbst festgelegt wurde. Darin werden meistens Studien mit deren Ergebnissen berichtet. Vor der Veröffentlichung werden die Artikel begutachtet, nicht von Mitarbeitenden der Zeitschrift sondern von Kolleg*innen. Mit diesem “peer-review” wird die Qualität von Forschung sichergestellt. Üblicherweise wird dabei darauf geachtet, dass die Schlussfolgerungen auf Basis der erhobenen Daten gerechtfertigt sind, die Fragestellung klar beantwortet wird, und die Befunde spannend oder überraschend sind. Zeitschriften unterscheiden sich darin, welche Themen sie abdecken (z.B. Sozialpsychologie, Konsumentenverhalten, Angewandte Sportwissenschaft, usw.) und von wie vielen Forschenden sie gelesen und zitiert werden. Wissenschaften sind also stark integriert in ein System, das Forschenden und Verlagen erlaubt, ein festes Gehalt zu verdienen.</p>
+</section>
+<section id="prekäre-arbeitsbedingungen" class="level3">
+<h3 class="anchored" data-anchor-id="prekäre-arbeitsbedingungen">Prekäre Arbeitsbedingungen</h3>
+<p>Soweit die Idealbedingungen – Wer in der Wissenschaft arbeitet, befindet sich jedoch in einem harten Konkurrenzkampf um eine der wenigen unbefristeten Stellen (Rahal et al., 2023). Vom Start der Promotion (Prozess der Erlangung eines Doktorgrades) bis zur Berufung auf eine Professur, also eine der raren unbefristeten Stellen, dauern Verträge meistens nur ein bis drei Jahre <a href="#_msocom_1">[LR1]</a>&nbsp;und haben oft einen Umfang von weniger als 100% <a href="#_msocom_2">[LR2]</a>&nbsp;- während es allerdings unüblich ist, mit weniger als 40 Stunden pro Woche (zumindest wurde das mir zu Beginn meiner Promotion erklärt). Während ein Großteil aller wissenschaftlichen Veröffentlichungen auf Studien beruht, die im Rahmen von Doktorarbeiten durchgeführt wurden, sind Doktorand*innen gleichzeitig diejenigen Personen im System, die den geringsten Wert haben bzw. deren Arbeitskraft am günstigsten ist. Mentale Probleme wie Burnout oder Depressionen sind unter Promovierenden weit verbreitet (Jaremka et al., 2020; Liu et al., 2019). Den Weg zur Professur schaffen vor allem die Personen erfolgreich, die viele Artikel in prestigeträchtigen Zeitschriften veröffentlichen. Durch die immense Arbeitsbelastung und große Zahl an Artikeln, die bei Fachzeitschriften eingereicht werden, ist keine Zeit mehr, Ergebnisse genau zu prüfen und nachzurechnen (Nuijten et al., 2017) sondern es wird vor allem darauf geachtet, wie eindeutig die Ergebnisse die Fragestellung beantworten - oder genauer gesagt: bestätigen (Mynatt et al., 1977). Mit anderen Worten: Es wird ausgerechnet der Teil der wissenschaftlichen Arbeit belohnt, der nicht in der Hand der Forschenden liegt, nämlich die Ergebnisse von Untersuchungen. Veröffentlichte Artikel und Prestige statt Qualität (Brembs, 2018) sind ab dort die Währung der Wissenschaft: Auf ihrer Basis wird entschieden, wer Forschungsgelder erhält und auf Basis von Forschungsgeldern und Publikationen werden Professuren vergeben. In den darüber entscheidenden Berufungskommissionen lesen die Beteiligten üblicherweise nicht die Artikel der Bewerbenden, sie zählen bloß, wie viele in welchen Zeitschriften aufgelistet werden. Im Folgenden gehe ich auf die einzelnen Probleme näher ein.</p>
+<p>Zu diesen verheerenden Problemen kommen außerdem systemische Probleme der sexuellen Belästigung (Hoebel et al., 2022) und des Machtmissbrauches, die in dem aktuell streng hierarchischen Aufbau des Systems nur schwierig zu lösen sind (REF<a href="#_msocom_3">[LR3]</a>&nbsp;, siehe auch <a href="https://www.netzwerk-mawi.de/" class="uri">https://www.netzwerk-mawi.de/</a> und <a href="https://www.jmwiarda.de/2023/11/20/das-stille-leiden-der-betroffenen/" class="uri">https://www.jmwiarda.de/2023/11/20/das-stille-leiden-der-betroffenen/</a>). Wer es in dabei besonders leicht hat, erklären Elsherif et al.&nbsp;(2022) anschaulich an dem „Academic Wheel of Privilege" (S. 85; siehe auch <a href="https://www.psychologicalscience.org/observer/gs-navigating-academia-as-neurodivergent-researchers" class="uri">https://www.psychologicalscience.org/observer/gs-navigating-academia-as-neurodivergent-researchers</a>). Beispielsweise haben Doktorandinnen <a href="#_msocom_4">[LR4]</a>&nbsp;in den Niederlanden vor allem dann schlechtere Noten als Doktoranden bekommen, wenn der Promotionsausschuss nur aus Männern bestand (REF<a href="#_msocom_5">[LR5]</a>&nbsp;).</p>
+</section>
+<section id="zu-viel-forschung" class="level3">
+<h3 class="anchored" data-anchor-id="zu-viel-forschung"><strong>Zu viel Forschung</strong></h3>
+<p>Im Rahmen von Promotionen müssen Forschende in insgesamt 3-6 Jahren üblicherweise drei wissenschaftliche Artikel veröffentlichen (bzw. in fairen Fällen drei veröffentlichungs-<em>würdige</em> Artikel vorweisen). Bei Post Docs, also Personen nach der Promotion und vor dem Wissenschaftsausschluss beziehungsweise in selteneren Fällen der Professur (siehe Kapitel XXX) müssen es noch mehr sein. Für eine Habilitation, für die eine ähnliche Zeit angesetzt ist, sind circa 6 Artikel die Daumenregel. Dabei spielt es eine nachrangige Rolle, wie umfangreich die Artikel sind. Beispielsweise dauert die Durchführung einer Meta-Analyse, in der bisherige Befunde zu einem bestimmten Thema systematisch gesammelt und statistisch zusammengefasst bzw. verglichen werden, oft mehrere Jahre. Eine Querschnittserhebung über einen Online-Fragebogen lässt sich in wenigen Wochen durchführen. Eine Doktorandin, die eine einzige Meta-Analyse durchführt, könnte damit nicht promovieren. Hätte sie stattdessen drei einfache Online-Studien durchgeführt und einzeln veröffentlicht, wäre es kein Problem.<a href="#_ftn1">[1]</a> Diese willkürlichen Vorgaben haben dazu geführt, dass sich Wissenschaftler*innen alleine durch die Begutachtung der Artikel ihrer Kolleg*innen einen enormen Arbeitsaufwand auferlegen, der den wissenscchaftlichen Fortschritt behindert (Hanson et al., 2023).</p>
+<p>Zur Veranschaulichung des Aufgabenpensums nun ein Gedankenspiel: Angenommen es gäbe 10 Wissenschaftler*innen, die gemeinsam 10 Artikel im Jahr veröffentlichen würden - manchmal alleine, manchmal in einer Gruppe - und jeder der Artikel würde von zwei Personen begutachtet, so müsste jede*r zwei Artikel begutachten. Damit das System funktioniert, müsste jede Person die Anzahl der im Schnitt veröffentlichten Artikel mal die Anzahl der benötigten Gutachtenden begutachten. Bei 10 Veröffentlichungen pro Person und drei Gutachtenden wären es 10x3=30 Gutachten. Nun werden aber nicht alle Artikel von der Zeitschrift, bei der sie eingereicht werden, veröffentlicht, noch werden sie sofort veröffentlicht. Wissenschaftler*innen reichen ihre Artikel oft bei den “hochrangigsten” Zeitschriften ein. Nachdem dort mehrere Gutachter*innen den Artikel geprüft haben, wird er abgelehnt (Jaremka et al., 2020). Mindestens werden Revisionen angefordert, welche oft eine weitere Runde peer-review auslösen und nicht immer werden Artikel danach veröffentlicht. Unsere Rechnung geht also nicht auf: Nehmen wir <em>vorsichtshalber</em> an, ein Artikel würde neun Mal begutachtet (z.B. einmal drei Gutachtende, dann Ablehnung, dann erneut drei Gutachtende, Revision, zweites Gutachten, Akzeptanz). Aus 10x3 wird 10x9, bei etwas Urlaubszeit also etwas mehr als zwei Gutachten pro Woche, idealerweise bis zu zwei Arbeitstage. Bei dieser Rechnung bleibt weniger Zeit für Lehre, Wissenstransfer, Betreuung von Studierenden oder Promovierenden, Einwerbung von Forschungsgeldern, universitäre Selbstverwaltung, usw. Durch die vielen zu publizierenden Artikel und das strenge Review-System bürgt sich die Wissenschaft einen großen Berg Arbeit auf - einen der realistisch nicht machbar ist und unter dem am Ende die Qualität der Forschung leidet. Beispielsweise fiel es weder den Gutachtenden, noch den Herausgebern von Zeitschriften auf, dass in über 30 Artikeln mitten im Text „Regenerate response" stand – ein Satz, der in OpenAIs ChatGTP Programm auf einem Knopf erlaubt, einen von einer künstlichen Intelligenz erstellten Text umzuformulieren (<a href="https://retractionwatch.com/2023/10/06/signs-of-undeclared-chatgpt-use-in-papers-mounting/" class="uri">https://retractionwatch.com/2023/10/06/signs-of-undeclared-chatgpt-use-in-papers-mounting/</a>). In manchen Artikeln hieß es sogar „As an AI language model, I …" (<a href="https://pubpeer.com/search?q=%22As+an+AI+language+model%2C+I">https://pubpeer.com/search?q=“As+an+AI+language+model%2C+I</a>“). In einem Fall wurde der Artikel von dem Verlag Elsevier geändert, und zwar nicht auf dem empfohlenen Weg<a href="#_ftn2">[2]</a> mittels eines transparenten Errandum oder Corrigendum, also einer öffentlichen Mitteilung über die Änderung und ihre Gründe, sondern ohne Erklärung oder Zustimmung der Autor*innen (<a href="https://predatory-publishing.com/elsevier-changed-a-published-paper-without-any-explanation/" class="uri">https://predatory-publishing.com/elsevier-changed-a-published-paper-without-any-explanation/</a>).</p>
+</section>
+<section id="publish-or-perishlr6" class="level3">
+<h3 class="anchored" data-anchor-id="publish-or-perishlr6">Publish or Perish<a href="#_msocom_6">[LR6]</a>&nbsp;</h3>
+<p>Wer in der Wissenschaft arbeitet sollte die wichtigste Spielregel kennen: Wer überleben will, muss Artikel veröffentlichen. Zur Promotion, Habilitation, Einwerbung von Forschungsgeldern, und zur Berufung auf eine Professur sind Veröffentlichungen das oberste Kriterium. Kennzeichen einer Währung ist, dass sich Dingen ein Wert zuweisen lässt. Wie sieht der Wert in der Forschung aus?</p>
+<p>Bibliometriker*innen entwarfen zur Beschreibung (also explizit nicht zur Bewertung) verschiedener Forschungsgebiete verschiedene Kennzahlen, wie den Impact Factor, oder Hirsch-Index. [ERKLÄRUNGEN] - impact factor - h index - ccc factor.</p>
+<p>IF wird geschönigt (REF<a href="#_msocom_7">[LR7]</a>&nbsp;), gehört Verlag, der damit Geld verdient, ist inflationiert, selbe Jahre erhalten unterschiedliche Werte: <a href="https://quantixed.org/2016/01/05/the-great-curve-ii-citation-distributions-and-reverse-engineering-the-jif/" class="uri">https://quantixed.org/2016/01/05/the-great-curve-ii-citation-distributions-and-reverse-engineering-the-jif/</a></p>
+<p>Evidenz, dass methodische Sauberkeit negativ bis gar nicht mit traditionellen Produktivitätsmetriken zusammenhängt (deutlich negativ mit Zitationszahlen und h-index). <a href="https://www.researchgate.net/publication/380433173_Inter-Rater_Reliability_in_Assessing_the_Methodological_Quality_of_Research_Papers_in_Psychology" class="uri">https://www.researchgate.net/publication/380433173_Inter-Rater_Reliability_in_Assessing_the_Methodological_Quality_of_Research_Papers_in_Psychology</a> Table 3</p>
+<p>Seit längerem wird für die verantwortungsvolle Verwendung dieser Metriken plädiert <a href="#_msocom_8">[LR8]</a>&nbsp;(Hicks et al., 2015). Wie sich Anreizstrukturen und Karrierestatus auf wissenschaftliches Fehlverhalten auswirken wird mit gemischten Ergebnissen untersucht (REF<a href="#_msocom_9">[LR9]</a>&nbsp;). Das Problem: Sobald es in einem System ein klares Bewertungskriterium gibt, wird alles darauf ausgerichtet.</p>
+<p>Das hat zum Beispiel dazu geführt, dass die meisten in der Psychologie entwickelten Instrumente zur Messung von Persönlichkeitseigenschaften nur wenige Male verwendet werden – und das auch hauptsächlich von ihren eigenen Entwickler*innen (Elson et al., 2023). Ein noch extremerer Ausmaß ist bei sogenannten „Paper Mills" zu sehen (van Noorden, 2023): Personen erstellen dabei automatisiert große Mengen von wissenschaftlichen Artikeln, nur ohne die darin beschriebenen Untersuchungen wirklich durchzuführen. Wissenschaftler*innen können dann Ko-Autor*innenschaften kaufen. Je nach Zeitschrift werden diese Artikel nicht im Peer-Review aufgedeckt. Es wird befürchtet, dass Käufer*innen solcher Artikel selbst sehr erfolgreich werden können, selbst Herausgeber von Zeitschriften werden, und sich dadurch vor Entlarvung beschützen. Der genaue Ausmaß des Paper-Mill-Problems ist unklar und weitgehend unerforscht (Byrne &amp; Christopher, 2020). Ein Indiz, mithilfe künstlicher Intelligenz erstellte Artikel zu erkennen sind sogenannte „tortured phrases" (Cabanac et al., 2021).</p>
+</section>
+<section id="flaschenhals-hypothese-und-innovationsdrang" class="level3">
+<h3 class="anchored" data-anchor-id="flaschenhals-hypothese-und-innovationsdrang">Flaschenhals-Hypothese und Innovationsdrang</h3>
+<p>Namhafte wissenschaftliche Zeitschriften erhalten täglich unzählige Einreichungen, veröffentlichen aber nur eine begrenzte Anzahl an Artikeln. Sie müssen also streng selektieren, was begutachtet und gegebenenfalls veröffentlicht wird. Weil das Ziel einer Zeitschrift ist, viel gelesen zu werden, wählen Herausgeber*innen von Zeitschriften diejenigen Artikel, welche möglichst großes Potenzial haben, bekannt und viel zitiert zu werden (Giner-Sorolla, 2012). Das betrifft zum Beispiel Beiträge mit besonderen praktischen Implikationen, überraschenden Befunden, oder besonders konsistenten Befunden. Studien, deren Ergebnisse keine eindeutigen Schlüsse zulassen – oder deren Autor*innen mit zu großer Vorsicht Schlüsse ziehen – kommen also nicht infrage. In den Neurowissenschaften kommunizieren manche Zeitschriften beispielsweise öffentlich, dass sie keine Replikationsstudien veröffentlichen und nach Neuheit selektieren, während die meisten keine Stellung dazu nehmen (Yeung, 2017). In der Psychologie nahmen 2017 nur 33 von 1151 Zeitschriften Stellung dazu, dass sie Replikationen akzeptieren (Martin &amp; Clarke, 2017). Zwar werden innovative Befunde dann häufiger zitiert, die Zeitschrift erhält also mehr Leser*innen, mehr Einreichungen, und damit mehr Geld über Abonnements und Veröffentlichungskosten, vielzitierte Artikel lassen sich jedoch schlechte replizieren als weniger zitiert (Serra-Garcia &amp; Gneezy, 2021) und prestigereiche Zeitschriften sing Magneten für fragwürdige Forschungspraktiken (Kepes et al., 2022) und nachweisbar gleichwertige oder sogar qualitativ schlechtere Forschung (Brembs, 2018).<a href="#_msocom_10">[LR10]</a>&nbsp;</p>
+<p>Wie kommt es dazu? Diese strenge Selektion, die einem Flaschenhals ähnelt (viele Einreichungen aber wenige Veröffentlichungen) führt gemeinsam mit dem Anreiz in eben solchen Zeitschriften zu publizieren dazu, dass Forschende alle möglichen Mittel nutzen, um eine Chance auf eine Publikation zu erhalten. Die Tatsache, dass prestigereiche Zeitschriften wie Nature Human Behavior vor allem Artikel mit klaren Botschaften veröffentlichen<a href="#_msocom_11">[LR11]</a>&nbsp;, spornt also Forschende an, klare Ergebnisse zu berichten. Passt mal ein Befund nicht zu der geprüften Hypothese, wird er nicht veröffentlicht und landet in der Schublade.</p>
+</section>
+<section id="schubladen-problemlr12" class="level3">
+<h3 class="anchored" data-anchor-id="schubladen-problemlr12">Schubladen-Problem<a href="#_msocom_12">[LR12]</a>&nbsp;</h3>
+<p>Seit mehreren Jahrzehnten ist bekannt, dass Wissenschaftler*innen vor allem diejenigen Studien veröffentlichen, die ihre Theorien stützen (REF; rosenthal; sterling). Im Extremfall hat jemand zum Prüfen einer Theorie fünf Studien durchgeführt, in nur einer davon die Theorie bestätigt, und nur diese veröffentlicht. Andere Forschende, die dann die (veröffentlichte) Literatur durchsuchen, sehen nur die “erfolgreiche” Studie. Es entsteht der Eindruck, dass die Theorie stimmt, während die Mehrheit der Studien diesen Schluss eigentlich nicht nahelegt. Durch dieses Problem konnten sich ganze Forschungsstränge entwickeln, die seit dem Bewusstsein für Replikationsstudien komplett ausgestorben sind (Brockman, 2022).</p>
+<p>Für Meta-Analysen, also Studien, die bisherige Befunde zusammenfassen, wurden bereits verschiedene Methoden entwickelt, die Stärke des Schubladen-Problems (engl. File-Drawer-Problem) zu prüfen. Auch Methoden, die dadurch entstandene Verzerrung zu korrigieren existieren bereits vielzählige (REF, PET-PEESE, p-uniform*, robust bayesian meta-analysis robumeta, hedges vevea selection models). Allerdings funktioniert keine der Methoden in allen möglichen Szenarien (Carter et al., 2019). Um eine Veröffentlichung der fehlgeschlagenen Studien werden wir möglicherweise nicht herumkommen.</p>
+<p>In der Medizin gibt es den besonderen Fall, dass alle dort durchgeführten Studien öffentlich registriert <a href="#_msocom_13">[LR13]</a>&nbsp;werden müssen. Bei einer Veröffentlichung muss dann eine Registrierungsnummer angegeben werden. Über öffentliche Angaben zu registrierten Studien lässt sich somit nachverfolgen, welche Personen, Institutionen, oder Länder wie viele ihrer tatsächlich durchgeführten Studien veröffentlichen. Forschende haben dazu ein sogenanntes Dashboard entwickelt <a href="https://www.jclinepi.com/article/S0895-4356(21)00414-5/fulltext">(Franzen et al., 2023; Riedel et al., 2022)</a> mittels dem nach aktuellem Stand (Herbst 2023, <a href="https://quest-cttd.bihealth.org/" class="uri">https://quest-cttd.bihealth.org/</a>) nachvollziehbar ist, dass unter den registrierten Studien, die auf die Registrierung verweisen, nur 46% innerhalb der folgenden zwei Jahre und 74% innerhalb der folgenden fünf Jahre veröffentlicht wurden. Personen, die sich für die Studien als Versuchspersonen melden oder Drittmittelgeber erhalten somit Aufschluss über die Größe der Schublade, „in der die nicht so spannenden Ergebnisse landen".</p>
+</section>
+<section id="konzerne" class="level3">
+<h3 class="anchored" data-anchor-id="konzerne">Konzerne</h3>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://stoptrackingscience.eu" class="uri">https://stoptrackingscience.eu</a></p>
+</section>
+<section id="zugängigkeit-von-wissen" class="level3">
+<h3 class="anchored" data-anchor-id="zugängigkeit-von-wissen">Zugängigkeit von Wissen</h3>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Global south</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Paywalls</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Soziales Dilemma</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; VG Wort<a href="#_msocom_14">[LR14]</a>&nbsp;?</p>
+</section>
+</section>
+<section id="karriere-in-der-wissenschaft" class="level2">
+<h2 class="anchored" data-anchor-id="karriere-in-der-wissenschaft">Karriere in der Wissenschaft</h2>
+<p>Ein Beruf in der Wissenschaft setzt üblicherweise einen einschlägigen Studienabschluss (Bachelor und Master) voraus und beginnt mit einer Promotion. Im Rahmen der Promotion wird das wissenschaftliche Handwerk erlernt und der Doktor*ingrad erlangt: Studien werden durchgeführt, Daten analysiert, und Forschungsartikel veröffentlicht. In den meisten Fällen arbeiten Promovierende mit einer 50 – 66% Stelle als wissenschaftliche Mitarbeiter<a href="#_msocom_15">[LR15]</a>&nbsp;*innen, begutachten für ihre Vorgesetzten Artikel und Forschungsgelder-Anträge, schreiben eigene Anträge, verbringen mehrere Monate im Ausland, erstellen, beaufsichtigen, und korrigieren Klausuren, betreuen Abschlussarbeiten, und beteiligen sich an der universitären Selbstverwaltung durch die Teilnahme an Sitzungen und Mitgliedschaften bei Kommissionen. Zeitlich sind dabei bei Stellen oder Stipendien üblicherweise drei Jahre angesetzt. Am Anfang meiner Promotion sagte man mir, mit einer 40-Stunden-Woche schafft man es nicht, in der vorgesehenen Zeit zu promovieren – 50% Gehalt für über 100% Arbeitszeit und einem befristeten Vertrag also. Verträge sind dabei jedoch nicht immer auf die Zeit der Promotion befristet. Viele wissen erst wenige Monate vor Vertragsende, wie viel Prozent Gehalt sie erhalten, wie umfangreich die Lehrverpflichtung ist, und wie lange der nächste Vertrag geht. Kurz: Die Arbeitsbedingungen sind nicht optimal und man muss ein hohes Maß an Flexibilität mitbringen, wenn man sich für den Weg in die Wissenschaft entscheidet.</p>
+<section id="doppelabhängigkeit" class="level3">
+<h3 class="anchored" data-anchor-id="doppelabhängigkeit">Doppelabhängigkeit</h3>
+<p>Für die Promotionsphase gibt es verschiedene Finanzierungsmöglichkeiten: Über Unternehmen lässt sich berufsbegleitend promovieren oder Stipendien zahlen über eine begrenzte Zeit Geld, das den Grunderhalt sichert (z.B. 1100€ über 36 Monate bei der Graduiertenförderung des Landes Sachsen-Anhalt, dazu kommen noch zusätzliche Kosten für die Sozialversicherung). Der häufigste Weg ist jedoch über eine Stelle als wissenschaftliche*r Mitarbeiter*in. Dabei ist die vorgesetzte Person diejenige Person, die auch die Promotionsarbeit bewertet. Die einem auferlegte Korrektur der 120 Erstsemester-Klausuren steht dann im Extremfall in Konflikt mit der Zeit, die für die Arbeit an der wissenschaftlichen Studie benötigt wird. Promovierende hängen also meistens von den betreuenden Professor*innen in Form der Beschäftigung <em>und</em> über die Bewertung ihrer Arbeit ab, was also als <em>Doppelabhängigkeit</em> bezeichnet wird.</p>
+</section>
+<section id="depressionen-burnout-und-ichbinhanna" class="level3">
+<h3 class="anchored" data-anchor-id="depressionen-burnout-und-ichbinhanna">Depressionen, Burnout, und #IchbinHanna</h3>
+<p>Fächerübergreifend hat sich als Antwort auf ein inzwischen gelöschtes Erklärvideo vom Bundesministerium für Bildung und Forschung zum Wissenschaftszeitvertragsgesetz (WissZeitVG) eine Bewegung unter dem Hashtag #IchbinHanna entwickelt, die die dortige sachliche Erklärung (<a href="https://www.youtube.com/watch?v=PIq5GlY4h4E" class="uri">https://www.youtube.com/watch?v=PIq5GlY4h4E</a>) und die Arbeitsbedingungen in der Wissenschaft stark kritisiert. Es heißt „damit auch nachrückende Wissenschaftlerinnen und Wissenschaftler die Chance auf den Erwerb dieser Qualifizierung haben und nicht eine Generation alle Stellen verstopft, dürfen Hochschulen und Forschungseinrichtungen befristete Verträge nach den besonderen Regeln des WissZeitVG abschließen. So kommt es zur Fluktuation und die fördert die Innovationskraft". 90% aller Wissenschaftler*innen sind unbefristet angestellt (<a href="https://www.youtube.com/watch?v=H1wJmqpGhJc" class="uri">https://www.youtube.com/watch?v=H1wJmqpGhJc</a>).</p>
+<p>Planungsunsicherheit und massiver Konkurrenzdruck fördern die Innovationskraft? Das scheint unwahrscheinlich: Unter Forschenden mentale Erkrankungen wie Burnout (REF common academic problems) und Anzeichen für Angststörungen und Depression (REF, anxiety depression) stark verbreitet.</p>
+</section>
+<section id="top-down-wandel" class="level3">
+<h3 class="anchored" data-anchor-id="top-down-wandel">Top-Down-Wandel</h3>
+<p>Diejenigen, die das System ändern können, also alle mit unbefristeten Verträgen, leiden nicht mehr unter ihm. Für diejenigen, die unter dem System leiden, ist es unklug, das System ändern zu wollen und sich an die Professor*innen zu wenden, denn das sind die Leute, die über ihren späteren Verbleib in der Wissenschaft im Rahmen von Berufungskommissionen bei der Entscheidung der Vergabe von Professuren entscheiden. Im Extremfall kann das dazu führen, dass jemand Kritik an Arbeiten von Wissenschaftler*innen in höheren Positionen aus Angst, die eigenen Chancen auf eine Professur zu schmälern, zurückfährt. Auf der anderen Seite haben Professor*innen bewiesen, dass sie sehr gut nach den Spielregeln spielen können. Zuzugeben, dass sie eine der seltenen und heiß begehrten Stellen nicht über Qualität sondern Quantität ihrer Forschung erhalten haben, hieße, sich selbst abzuwerten.</p>
+</section>
+</section>
+<section id="probleme-der-wissenschaftlichen-methoden" class="level2">
+<h2 class="anchored" data-anchor-id="probleme-der-wissenschaftlichen-methoden">Probleme der Wissenschaftlichen Methoden</h2>
+<p>Im Alltagsdenken herrscht noch oft der Mythos, dass Wissenschaft sich von Nicht-Wissenschaft durch <em>die wissenschaftliche Methode</em> unterscheide. Das ist falsch (e.g., Feyerabend, 1975/2002). Zwar unterscheidet sich wissenschaftliches Wissen von alltäglichem Wissen (und auch Religion) durch einen höheren Grad an Systematizität (REF Hoyningen-Huene, 2013), allerdings gibt es weder eine einzige noch eine persistente wissenschaftliche Methode. Methoden haben sich stattdessen über die Zeit gewandelt, und das ist auch gut so. Neue Technologien ermöglichen beispielsweise in der Physik hochpräzise Messungen mittels Elektronenlaser, in den Geschichtswissenschaften 3D-Scans von Artefakten, die sonst nur wenige sehen würden, oder in den Sozialwissenschaften Datenbanken mit freiwillig bereitgestellten und anonymisierten Chatverläufen (<a href="https://db.mocoda2.de/c/home" class="uri">https://db.mocoda2.de/c/home</a>).</p>
+<p>So wie ein Hammer und andere Werkzeuge nicht per se gut oder schlecht sind, so sind Methoden nicht gut oder schlecht, nicht richtig oder falsch, sondern sie werden angemessen und korrekt verwendet oder missbraucht. Statt Missbrauch ist in den Sozialwissenschaften von fragwürdigen Forschungspraktiken (<em>Questionable Research Practices</em>), kurz QRP, die Rede. Sie erlauben Wissenschaftler*innen Befunde zu generieren, die sie wollen, statt Befunden, die es tatsächlich gibt. Im Folgenden werden verbreitete und oft angewandte (John et al., 2012) Techniken vorgestellt (für einen Überblick über die Forschung dazu in den letzten 50 Jahren, siehe auch Neoh et al., 2023).</p>
+<section id="exploratorische-versus-konfirmatorische-forschung" class="level3">
+<h3 class="anchored" data-anchor-id="exploratorische-versus-konfirmatorische-forschung">Exploratorische versus konfirmatorische Forschung</h3>
+<p>Zum Verständnis der fragwürdigen Forschungspraktiken (QRP) ist eine wichtige forschungstechnische Unterscheidung unabdingbar: Wie bei einem Spaziergang kann eine wissenschaftliche Untersuchung erkundend oder zielgerichtet sein. Mal wird frei durch die Gegend spaziert und dabei neue Entdeckungen gemacht, mal ist das Ziel und die Route klar und im Vorhinein bestimmt. Im wissenschaftlichen Kontext ist die Rede von exploratorischer und konfirmatorischer Forschung. Bei der Exploration stehen höchstens die Forschungsfrage und grobe Züge der Methode fest, bei einem konfirmatorischen Test ist alles durchdacht: Vorgehen, mögliche Ergebnisse, sowie Erklärungsansätze für jedes mögliche Resultat. Es wird dann eine spezifizierte Hypothese mit der dazugehörigen Theorie bestätigt oder eben nicht. Kein Vorgehen ist dem anderen per se überlegen (siehe Abbildung Z). Üblicherweise beginnen Untersuchungen in einem bisher wenig erschlossenen Gebiet mit Exploration, während mehr vorhergehende Forschung mit klareren Erwartungen einhergeht. Es sei dazu gesagt, dass es sich hier um Extremtypen von Forschung handelt, die ein Spektrum bilden. Geisteswissenschaftlich erlauben außerdem erst beide Ansätze zusammen Erkenntnisgewinn. Im Rahmen des hermeneutischen Zirkel, (einfach gesagt "dem Kreis des Verstehens", Abbildung Y) wird aus einzelnen Beobachtungen eine allgemeine Gesetzmäßigkeit formuliert (<em>Induktion</em>) und diese Gesetzmäßigkeit wird im Anschluss bei weiteren Einzelbeobachtungen geprüft (<em>Deduktion</em>).</p>
+<p><strong>Abbildung Y</strong></p>
+<p><em>Hermeneutischer Zirkel</em></p>
+<p>Problematisch wird es, wenn exploratorische Forschung als konfirmatorische kommuniziert wird, also so getan wird, als hätte eine Einzelbeobachtung eine bereits formulierte Gesetzmäßigkeit bestätigt, statt sie bloß inspiriert. Diese Art Unlogik heißt Zirkelschluss: Die Gesetzmäßigkeit gilt wegen der Beobachtung. Und die Beobachtung entspricht der Gesetzmäßigkeit.</p>
+<p><strong>Abbildung Z</strong></p>
+<p><em>Skizziertes Vorgehen bei explorativer (a) versus konfirmatorischer (b) Forschung. Exploratives Vorgehen ist nicht zielgerichtet, die Richtung kann sich ändern, und ist manchmal mit unvorhergesehenen Ergebnissen verbunden. Konfirmatorisches Vorgehen bildet oft einen engen und kontrollierten Ausschnitt eines Sachverhaltes ab.</em></p>
+<section id="methoden-der-datengenerierung" class="level4">
+<h4 class="anchored" data-anchor-id="methoden-der-datengenerierung">Methoden der Datengenerierung</h4>
+<p>Wissenschaftliche Disziplinen bedienen sich für gewöhnlich vieler verschiedener Methoden. Idealerweise sind Erkenntnisse unabhängig von der Methode, die zu ihrer Entdeckung geführt hat und verschiedene Methoden führen zur selben Erkenntnis. Typische sozialwissenschaftliche Methoden sind die Befragung mittels standardisiertem Fragebogen, Verhaltensbeobachtung mittels Kameraaufzeichnungen und anschließender Kodierung von Verhaltensweisen durch mehrere Personen, die den Untersuchungszweck nicht kennen, indirekte Methoden (Schimmack, 2019), bei welchen etwas anderes gefragt wird, als was gemessen werden soll, Verhaltensmessungen wie Blickrichtungsmessung (<em>eye tracking</em>), oder Simulationsstudien, mittels derer zum Beispiel Verkehrsflüsse auf Basis vorher festgelegter Prinzipien per Computer berechnet werden oder Panikattacken vorhergesagt werden (Robinaugh et al., 2021). Diese Methoden generieren fast immer Daten, also beispielsweise eine Tabelle, in der je Beobachtungseinheit (z.B. je Versuchsperson) in mehreren Spalten Daten festgehalten werden und diese Daten werden fast immer statistisch ausgewertet. Die Notwendigkeit einer solchen Auswertung ergibt sich daraus, dass die Beobachteten Gesetzmäßigkeiten keine absoluten Gesetze im Sinne von „alle männlichen Babys wiegen mehr als alle weiblichen Babys" sind, sondern statistische Regelmäßigkeiten im Sinne von „im Mittel wiegen kurz nach der Geburt männliche Babys ein paar hundert Gramm mehr als weibliche Babys, aber nicht jedes männliche Baby wiegt mehr als jedes weibliche Baby" sind (siehe Abbildung X).</p>
+<p><strong>ABBILDUNG X</strong></p>
+<p><em>Statistische Phänomen; männliche babys vs.&nbsp;Weibliche babys mit 2 Normalverteilungen generieren<a href="#_msocom_16">[LR16]</a></em></p>
+</section>
+<section id="statistische-signifikanz-und-fehler-erster-art" class="level4">
+<h4 class="anchored" data-anchor-id="statistische-signifikanz-und-fehler-erster-art">Statistische Signifikanz und Fehler erster Art</h4>
+<p>Eine der am weitesten verbreiteten Methoden in den Sozialwissenschaften (und auch darüber hinaus) ist Statistik, genauer <em>Inferenzstatistik</em>. Dabei wird von einer begrenzten Menge von Beobachtungen (z.B. ausgefüllte Fragebogen von 100 Personen) auf alle möglichen Beobachtungen (z.B. alle Menschen) verallgemeinert. Untersuchte Zusammenhänge sind selten eindeutig, es gibt aber häufig statistische Regelmäßigkeiten. Charakteristisch ist dabei ein gewisses <em>Zufallselement</em>. Wiegt man ein kürzlich geborenes männliches und weibliches Baby, dann ist die Wahrscheinlichkeit sehr hoch, dass das männliche Baby mehr wiegt. Es kommt aber auch häufig vor, dass das nicht der Fall ist. Ähnlich verhält es sich bei einer fairen Münze, also einer die im Mittel gleich häufig auf Kopf und auf Zahl landet: Dass sie bei insgesamt vier Würfen immer auf Kopf landet ist unwahrscheinlich, dass sie 1 oder 2 Mal auf Kopf landet, es kommt aber durch aus vor (nämlich in 12,5% aller Fälle, in denen eine faire Münze vier Mal hintereinander geworfen wird).</p>
+<p>Inferenzstatistische Tests gehen nun davon aus, dass bei der Betrachtung eines statistischen Zusammenhanges (z.B. Geschlecht und Geburtsgewicht, Körpergewicht und Größe, Bildungsniveau der Eltern und Bildungsniveau der Kinder) „nur der Zufall am Werk ist" (e.g., Röseler &amp; Schütz, 2022b). Unter der Annahme wird berechnet, wie häufig ein beobachteter Zusammenhang mit der beobachteten Stärke vorkommen würde, wenn <em>eigentlich</em> kein Zusammenhang vorliegen würde. Also zum Beispiel „dass eine faire Münze vier Mal auf Kopf landet, passiert in 12,5% aller Fälle". Bei sechs Würfen wären es 1,5625%. Die Kunst des statistischen Schließens besteht nun darin, den Punkt zu finden, ab dem Forschende davon ausgehen, dass der Zufall nicht am Werk war, weil die berechnete Wahrscheinlichkeit so gering ist. Konventionell liegt dieser bei 5%, für neue Befunde manchmal bei 0,5% (Benjamin et al., 2018), und in besonders prekären Fällen noch niedriger. Fachtechnisch wird von einem <em>Alpha-Niveau</em> oder einem <em>Signifikanzniveau</em> gesprochen und die berechnete Wahrscheinlichkeit heißt <em>p</em>-Wert. P-Werte unter 5% werden <em>statistisch signifikant</em> oder <em>auf dem 5%-Niveau signifikant</em> bezeichnet. Forschende würden also sagen, dass eine Münze <em>nicht</em> fair ist, wenn sie sechs Mal hintereinander auf Kopf landet (sogar schon bei fünf Mal, was in 3,125% der Fälle vorkommt). Dabei nehmen sie in Kauf, dass sie, wenn die Münze eigentlich doch fair ist, in 5% aller Fälle falsche Schlüsse ziehen.</p>
+<p>Auf der anderen Seite ist es durchaus möglich, dass eine Münze nicht fair ist, zum Beispiel in 60% der Fälle auf Kopf landet und in 40% auf Zahl. <a href="#_msocom_17">[LR17]</a>&nbsp;</p>
+<p>Abbildung 3: Eine einzelne Studie führt noch nicht zu sicherer Erkenntnis. Auch, wenn ein untersuchter Zusammenhang nicht vorliegt, kann er in Daten zufällig aufscheinen. Und auch, wenn eigentlich ein Zusammenhang vorliegt, kann dieser in den Daten durch Zufallsschwankungen nicht zu erkennen sein. Mithilfe von Open Science Praktiken soll der Zustand in den linken Kästen wiederhergestellt werden. Aus Röseler,&nbsp;L. (2021). <em>Wissenschaftliches Fehlverhalten [Abbildung]</em>. https://osf.io/uf7gz/. Lizenziert unter CC BY-Attribution International 4.0.</p>
+</section>
+</section>
+<section id="freiheitsgradelr18-von-forschenden-researchers-degrees-of-freedom" class="level3">
+<h3 class="anchored" data-anchor-id="freiheitsgradelr18-von-forschenden-researchers-degrees-of-freedom">Freiheitsgrade<a href="#_msocom_18">[LR18]</a>&nbsp; von Forschenden (Researchers’ Degrees of Freedom)</h3>
+<p>Vollständige Studien mehrfach durchzuführen ist sehr aufwändig. Obwohl es ein relativ sicherer Weg zu signifikanten P-Werten ist, gibt es weitaus sparsamere Lösungen. Die meisten Analysen sind um ein vielfaches komplexer als die oben beschriebene Münzwurfstudie. Betrachten wir den immer noch sehr einfachen Signifikanztest für einen Korrelationskoeffizienten. Der Koeffizient ist eine Zahl zwischen -1 und 1 und beschreibt die Art des Zusammenhanges zwischen zwei Variablen (z.B. Einkommen und Lebenszufriedenheit). 0 bedeutet, dass kein Zusammenhang vorliegt, positive Werte bedeuten, dass wenn die eine Variable hohe Werte hat, dann hat auch die andere hohe Werte, und negative Korrelationen bedeuten, dass wenn eine Variable hohe Werte hat, dann hat die andere Variable eher niedrige Werte. In Abbildung X sind verschiedene Korrelationen dargestellt.</p>
+<p>Abbildung X: Verschiedene Zusammenhänge zwischen zwei Variablen und deren Korrelationskoeffizienten (simulierte Daten).</p>
+<p>Obwohl es sich hierbei um einen sehr einfachen Test handelt, bringt er viele Entscheidungen mit sich. Selbst nach der Datenerhebung muss entschieden werden: Welche der befragten Personen werden für den Test verwendet? Sollen Personen ausgeschlossen werden und falls ja, warum (z.B. extreme Werte oder unplausible Werte)? Wie werden die Werte der Variablen berechnet? Welche Art der Korrelation soll verwendet werden (z.B. Bravais-Pearson, Kendall, oder Spearman)? Gibt es eine Erwartung der Richtung der Korrelation (Gerichtetheit der Hypothese)?</p>
+<p>Diese Fragen entsprechen Freiheitsgraden – Forschende sind also dahingehend flexibel, welche Optionen sie wählen. Keine der Optionen ist per se allen anderen überlegen und jede Entscheidung lässt sich in einem gewissen Rahmen rechtfertigen. Das Problem dieser Flexibilität ist, dass die Ergebnisse von ihr abhängen und je nach den Entscheidungen kann das Ergebnis eine positive, negative, oder keine Korrelation bedeuten. Je komplexer die Untersuchung und das statistische Verfahren ist, desto größer ist auch die Flexibilität bei der Datenanalyse. An sich sind diese Freiheitsgrade nichts Schlechtes, problematisch wird es bloß dann, wenn nur diejenigen Ergebnisse dargestellt werden, die sich gut veröffentlichen lassen oder zu den Überzeugungen der Forschenden passen. Dieses Vorgehen heißt HARKing (hypothesizing after the results are known = Hypothesen aufstellen, nachdem die Ergebnisse bekannt sind) und stellt einen Zirkelschluss dar. Die Hypothese, die geprüft wurde, stammt aus den Daten, die sich natürlich bestätigen. Verschiedene Lösungswege erlauben auch die Reduktion oder komplette Auslöschung von Freiheitsgraden (z.B. Präregistrierung, siehe Kapitel XXX). Auch ist es möglich, das Vorgehen als explorativ, also nicht vorher durchdacht und vorbestimmt, zu kommunizieren.</p>
+<p>Im Datenanalyseprozess wird die Analogie des „garden of forking paths" verwendet. In einem vereinfachten (!) Beispiel in Abbildung 4 haben wir 3x4x4x4 = 192 verschiedene Ergebnisse, die das gesamte Spektrum der Schlussfolgerungen abdecken werden – egal, ob unsere Hypothese stimmt oder nicht.</p>
+<p><strong>Abbildung 4</strong></p>
+<p><em>192 verschiedene Wege von einem Rohdatensatz zum (gewünschten) Ergebnis</em></p>
+<p><a href="#_msocom_19">[LR19]</a>&nbsp;</p>
+<p>Demonstrationen des garden of forking paths existieren für verschiedenste Felder und wurden bereits für Evolutionsbiologie (Gould et al., 2023), Sozialpolitik (Breznau et al., 2022), Strukturgleichungsmodelle (REF<a href="#_msocom_20">[LR20]</a>&nbsp;), und Sprachanalysen (Coretta et al., 2023) überzeugend nachgewiesen.</p>
+</section>
+<section id="tippfehler" class="level3">
+<h3 class="anchored" data-anchor-id="tippfehler">Tippfehler</h3>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Statcheck und Paper dazu</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fehlerhafte Zitate: <a href="https://royalsocietypublishing.org/doi/10.1098/rspa.2020.0538" class="uri">https://royalsocietypublishing.org/doi/10.1098/rspa.2020.0538</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fehler beim notieren der Ergebnisse: Meta-Analysen bei Interventionen der klein. Psychologie: <a href="https://osf.io/preprints/psyarxiv/gvqrn/" class="uri">https://osf.io/preprints/psyarxiv/gvqrn/</a>&nbsp;&nbsp;</p>
+</section>
+<section id="p-hacking" class="level3">
+<h3 class="anchored" data-anchor-id="p-hacking">P-Hacking</h3>
+<p>Der P-Wert bei statistischen Tests gibt an, wie hoch die Wahrscheinlichkeit für das beobachtete Muster ist, gegeben eines vorausgesetzten Musters. Für eine Korrelation heißt das: Wie wahrscheinlich ist es, eine Korrelation der vorgefundenen Höhe zu beobachten, wenn eigentlich kein Zusammenhang (also <em>r</em> = 0) zwischen den untersuchten Variablen besteht. Konkret könnte das heißen: Wie wahrscheinlich ist es, dass in meinem Datensatz von 100 Personen die Korrelation zwischen Intelligenz und Alter genau <em>r</em>(98) = .420 ist, wenn ich eigentlich davon ausgehen, dass beide Variablen nicht zusammenhängen. Die zusätzliche Annahme des fehlenden Zusammenhanges heißt <em>Nullhypothese</em>. Wenn das beobachtete Muster gegeben der Nullhypothese extrem unwahrscheinlich ist (oft unter 5%) wird von einem statistisch signifikanten Zusammenhang gesprochen. Wichtig ist dabei, dass Signifikanz (also „Bedeutsamkeit") hier wirklich nur im statistischen Sinne zu verstehen ist. Die Frage, wie bedeutsam ein Befund für die Welt und das Leben ist, lässt sich mit Statistik in diesem Rahmen nicht beantworten. Weil P-Werte Wahrscheinlichkeiten sind, liegen sie zwischen 0 und 100%.</p>
+<p>Unter den QRPs (fragwürdigen Forschungspraktiken) ist p-hacking eine weitere Kategorie, die wiederum selbst verschiedene Techniken beinhaltet. Mit p-hacking ist gemeint, dass Forschende ihre Freiheitsgrade nutzen, um den P-Wert „signifikant zu machen", also unter 5% zu bringen. Eine oft fälschlicherweise gemachte Annahme zu P-Werten ist, dass hohe P-Werte für die Abwesenheit eines Zusammenhanges sprächen, oder dass P-Werte nur dann niedrig sind, wenn tatsächlich ein Zusammenhang vorliegt. Stattdessen sind P-Werte tendenziell klein, wenn ein Zusammenhang vorliegt, der auch mit der Menge der erhobenen Daten nachgewiesen werden kann. Wenn kein Zusammenhang vorliegt, sind P-Werte gleichverteilt, das heißt, alle P-Werte kommen gleich häufig vor. Im Sinne der oben genannten Definition ist a priori klar, dass bei 100 durchgeführten Studien tendenziell 5 einen signifikanten Zusammenhang aufweisen, <em>wenn eigentlich keiner vorliegt</em>. Diese Tatsache erlaubt diverse P-Hacking Methoden. Simonsohn et al.&nbsp;(2014) zeigten, die Wahrscheinlichkeit, ein signifikantes Ergebnis zu kriegen, wenn eigentlich kein Zusammenhang in den Daten herrscht, von 5% auf ca. 60% steigen kann. Abbildung X zeigt die Verteilung von P-Werten bei verschieden hoher Teststärke (bzw. Power: der Wahrscheinlichkeit, einen Zusammenhang einer bestimmten Größe zu finden, wenn es ihn tatsächlich gibt).</p>
+<p><strong>Abbildung X</strong></p>
+<p><em>P-Werte sind bei Abwesenheit von Unterschieden oder Zusammenhängen, also beim Gelten der Nullhypothese gleichverteilt. Je höher die statistische Teststärke (Power), desto weiter verschiebt sich die Verteilung in den Bereich statistischer Signifikanz.</em></p>
+<p>{r} # P-Value distribution ---------------------------------------------------- layout(matrix(c(1,2,3), nrow = 1)) effects &lt;- c(0, .1, .3) for (i in effects) { effect &lt;- i n &lt;- 100 pvalues &lt;- (replicate(1000, t.test(rnorm(100), rnorm(100, i))$p.value)) power &lt;- round(pwr::pwr.t.test(n = n, d = i, power = NULL, alternative = “two.sided”)$power, 3) hist(pvalues, xlab = “P-values”, main = paste(“Cohen’s d =”, i, “\nPower =”, power, sep = ““) , xlim = c(0, 1)) } layout(1)</p>
+<p>Die Chance, signifikante P-Werte zu kriegen, ohne, dass die getestete Hypothese überhaupt stimmt, lässt sich durch „zerschneiden" der Stichprobe machen (z.B. werden nur Frauen analysiert), durch das Erheben zusätzlicher Daten („optional stopping"), oder durch die Verwendung mehrerer zentraler Variablen (zum Beispiel wird Intelligenz mit 3 verschiedenen Tests erfasst und alle werden einzeln mit Alter korreliert). Selbst das verändern kleiner Parameter in den statistischen Tests (z.B. Verwendung einer nicht-parametrischen Spearman Korrelation statt der Bravais-Pearson Korrelation) erhöhen die Chancen auf ein signifikantes Ergebnis (siehe Tabelle Y). Einige Formen des <em>p-hacking</em> lassen sich zum Beispiel hier ausprobieren: <a href="https://shinyapps.org/apps/p-hacker/" class="uri">https://shinyapps.org/apps/p-hacker/</a> (Schönbrodt, 2016).</p>
+<p><strong>Tabelle Y</strong></p>
+<p><em>Wahrscheinlichkeit für ein signifikantes Ergebnis durch die Anwendung verschiedener P-Hacking Techniken</em></p>
+</section>
+<section id="selektives-berichten-selective-reporting" class="level3">
+<h3 class="anchored" data-anchor-id="selektives-berichten-selective-reporting">Selektives Berichten (Selective Reporting)</h3>
+<p>Im Rahmen der Planung einer sozialwissenschaftlichen Studie stellt sich oft die Frage, wie ein bestimmtes Konstrukt gemessen werden soll. Für Intelligenz, politischer Ansicht, Lebenszufriedenheit, und viele andere Variable gibt es nicht <em>den</em> Test sondern viele Maße, die teilweise gering miteinander zusammenhängen. Gleichzeitig sind die zu testenden Theorien meist vage und diktieren nicht, mit welchem Maß ein Konstrukt gemessen werden sollte. Theorien sind den Messmethoden gegenüber also oft agnostisch. Werden in einer Studie dann verschiedene Messmethoden für ein Konstrukt gewählt, müsste die Theorie über alle Tests gleichermaßen bestätigt werden. Falls das nicht der Fall ist, sollte die Theorie angepasst werden. Entgegen dieser Empfehlung und um die Chance der Publikation der Ergebnisse zu maximieren, berichten Forschende Ergebnisse oft <em>selektiv</em>. Statt aller Ergebnisse werden also nur die „passendsten" oder „spannendsten" berichtet. Wie oben im Thema P-Hacking und Freiheitsgrade von Forschenden klar geworden ist, führt das dazu, dass Zusammenhänge gefunden werden, die eigentlich nicht existieren.</p>
+<p>Werden zum Beispiel drei verschiedene und unabhängige Maße zum Testen einer Hypothese verwendet steigt Wahrscheinlichkeit für mindestens ein signifikantes Ergebnis von 5% <a href="#_msocom_21">[LR21]</a>&nbsp;auf 14%. Abbildung K zeigt,</p>
+<p><strong>Abbildung K</strong></p>
+<p>Selektives Berichten: Von den sechs geprüften Korrelationen ist nur eine signifikant. Alle gemeinsam sind nicht signifikant. Um die Ergebnisse zu veröffentlichen berichten Forschende nur den spannendsten Teil der Ergebnisse und verzerren damit das Bild.</p>
+<p>XXX</p>
+</section>
+<section id="optionales-stoppen-optional-stopping" class="level3">
+<h3 class="anchored" data-anchor-id="optionales-stoppen-optional-stopping">Optionales Stoppen (Optional Stopping)</h3>
+<p>Führt man bei der Durchführung einer Studie nach jeder Beobachtung den Test erneut aus und betrachtet den P-Wert, dann gibt es zwei Möglichkeiten zu dessen Verlauf: Falls ein Zusammenhang zwischen den erhobenen Variablen besteht, wird der P-Wert <em>konvergieren</em>, also sich einem bestimmten Wert annähern, nämlich 0. Die Wahrscheinlichkeit für das beobachtete Ergebnis wird mit größerer Stichprobe immer geringer. Dass eine Münze nur auf "Kopf" landet ist ungewöhnlicher, wenn sie das 100 Mal getan hat, als wenn sie das 3 Mal tat. Falls kein Zusammenhang vorliegt, wird der P-Wert nicht wie oft erwartet gegen 1 gehen, sondern <em>nicht konvergieren</em>. Er wird dann chaotisch mal hoch und mal niedrig sein – und auch öfter mal signifikant. Diese Tatsache machen sich Forschende beim optionalen Stoppen zu Nutzen: Sie erheben so lange Daten, bis ihre Hypothese bestätigt wird. Das Problem besteht übrigens nicht für Effektstärkemaße wie zum Beispiel Korrelationen. Diese konvergieren je nach Größe ab ungefähr 250 Beobachtungen (Schönbrodt &amp; Perugini, 2013).</p>
+<p><strong>Abbildung P</strong></p>
+<p><em>Konvergenz von P-Werten und Effektstärken je nach Effektgröße: Effektstärken (hier: Korrelationskoeffizienten) konvergieren bei großen Stichproben, P-Werte konvergieren nur, wenn die Korrelation nicht 0 ist.</em></p>
+<p>{r setup, echo = FALSE} # P-Value Convergence ----------------------------------------------------- imax &lt;- 5:5000 p0 &lt;- NULL p1 &lt;- NULL p2 &lt;- NULL for (i in imax) { set.seed(42) ds0 &lt;- MASS::mvrnorm(n = i, mu = c(0,0), Sigma = matrix(c(1, 0, 0, 1), nrow = 2)) ds1 &lt;- MASS::mvrnorm(n = i, mu = c(0,0), Sigma = matrix(c(1, .05, .05, 1), nrow = 2)) ds2 &lt;- MASS::mvrnorm(n = i, mu = c(0,0), Sigma = matrix(c(1, .1, .1, 1), nrow = 2)) p0 &lt;- c(p0, cor.test(ds0[, 1], ds0[, 2])$p.value) p1 &lt;- c(p1, cor.test(ds1[, 1], ds1[, 2])$p.value) p2 &lt;- c(p2, cor.test(ds2[, 1], ds2[, 2])$p.value) } plot( y = p0, x = imax, type = “l”, col = “grey”, xlab = “Sample size”, ylab = “P-value”) lines(y = p1, x = imax, col = “orange”) lines(y = p2, x = imax, col = “red”) abline(h = .05, lty = 2) legend(“topright”, c(“r = 0”, “r = .05”, “r = .1”), col = c(“grey”, “orange”, “red”), lty = 1)</p>
+</section>
+<section id="darstellung-kalibrierter-modelle-als-geplante-modelle-overfitting" class="level3">
+<h3 class="anchored" data-anchor-id="darstellung-kalibrierter-modelle-als-geplante-modelle-overfitting">Darstellung kalibrierter Modelle als geplante Modelle (Overfitting)</h3>
+<p>Komplexe statistische Modelle haben viele Stellschrauben. Es ist möglich, die unzähligen Entscheidungen vor Anwendung eines Modells auf Daten zu treffen, für gewöhnlich werden aber andere Kalibrationen ausprobiert und eine andere als die geplante hat eine bessere Passung. Damit ist gemeint, dass beispielsweise bestimmte Variablen mit in ein Modell aufgenommen werden, um die Vorhersagekraft zu maximieren. Zu vielen Modellen gehören sogar verschiedene Algorithmen, die auf Basis festgelegter Regeln entscheiden, wie das Modell aussehen soll. Ein Modell wird also an ein Datenmuster angepasst. Wird das Vorgehen transparent offengelegt, ist das absolut in Ordnung. Problematisch wird es, wenn das beste gefundene Modell als geplantes Modell dargestellt wird. Das in den Daten vorliegende Muster beinhaltet in sozialwissenschaftlichen Untersuchungen nämlich fast immer auch ein Rauschen, also Schwankungen, die auf Messungenauigkeiten oder andere unbekannte Einflüsse zurückzuführen sind. Diese Einflüsse schwanken definitionsgemäß (in der psychologischen Testtheorie ist z.B. die Rede vom <em>Error</em>, einer unsystematischen Schwankung, die sich bei häufiger Messung herausmittelt). Bei zukünftigen Untersuchen wird das an die vergangenen Daten und das darin enthaltene Rauschen angepasste Modell dann notwendigerweise schlechter abschneiden, weil das Rauschen in den neuen Daten ein anderes ist. Man spricht dann von einem „überangepassten" Modell oder Overfitting.</p>
+</section>
+<section id="tendenz-von-menschen-sich-selbst-zu-bestätigen-confirmation-bias" class="level3">
+<h3 class="anchored" data-anchor-id="tendenz-von-menschen-sich-selbst-zu-bestätigen-confirmation-bias">Tendenz von Menschen, sich selbst zu bestätigen (Confirmation Bias)</h3>
+<p>Ein besonderes Problem wissenschaftlicher Methoden ist der Confirmation Bias. Das Phänomen ist in der wissenschaftlichen Literatur nicht klar definiert (REF<a href="#_msocom_22">[LR22]</a>&nbsp;), hier meine ich damit die Tendenz von Menschen (oder in diesem Kontext: Forschenden), diejenigen Muster zu finden, die sie erwarten. Der Confirmation Bias basiert auf wissenschaftlichen Befunden (Nickerson, 1998; Oswald &amp; Grosjean, 2004), und wurde von den Wissenschaftler*innen auf sie selbst übertragen (Mynatt et al., 1977; Yu et al., 2014). Diese Gedanken führen nah an logischen Unsinnigkeiten und Paradoxa entlang, selbstironisch bemerkt zum Beispiel (Nickerson, 1998) die Möglichkeit, dass alle Befunde zu Confirmation Biases selbst nur Produkte desselben sein könnten, was die Existenz des Confirmation Biases dann wieder bestätigen würde (S. 211). Praktisch besteht die Gefahr, dass Wissenschaftler*innen nicht Wahrheiten herausfinden, sondern alles so drehen, dass ihre Vorahnungen bestätigt werden. Ludwik Fleck (1935/2015) geht in seiner Wissenschaftssoziologie, die die Grundlage für Thomas Kuhns Arbeit zu wissenschaftlichen Revolutionen (1970/1996) bildet, noch ein paar Schritte weiter: Er argumentiert für ein Modell des wissenschaftlichen Fortschritts, bei dem es nicht darum geht, der Wahrheit näher zu kommen, sondern nach bestem Wissen Probleme vor dem gesellschaftlichen Hintergrund zu verstehen. Das heißt nicht, dass es keine Wahrheit gibt, nur dass Wahrheit eben nicht bloß die Übereinstimmung von Aussagen mit Tatsachen ist. Statt dieser oft von Wissenschaftler*innen vertretenen <em>Korrespondenztheorie von Wahrheit</em>, findet sich bei Fleck eine <em>Konsenstheorie</em> von Wahrheit wieder: Die Übereinstimmung vieler Leute ist wichtig. Wissenschaftliche Tatsachen werden nicht von einzelnen Personen „entdeckt", sondern von einem Kollektiv erschaffen. Der Confirmation Bias findet sich dabei so wieder, dass dem Konsens widersprechende Befunde ausgeblendet werden und auf den aktuellen Auffassungen so lange wie möglich beharrt wird. Wenngleich philosophische Wahrheitstheorien den Rahmen dieses Buches sprengen, sei darauf hingewiesen, dass keine der drei Wahrheitstheorien (Korrespondenz, Konsens, und Kohärenz) haltbar ist (Albert, 2010; <em>Münchhausen Trilemma</em>).</p>
+</section>
+<section id="datenfälschung" class="level3">
+<h3 class="anchored" data-anchor-id="datenfälschung">Datenfälschung</h3>
+<p>Die bisher diskutierten Praktiken werden oft als fragwürdig (questionable) dargestellt. Manche Wissenschaftler*innen halten das für ein Euphemismus, denn in der Verantwortung als Forscher*in sollte genügend Wissen vorliegen, um zu erkennen, dass die oben beschriebenen Techniken <em>nicht</em> wissenschaftlich sind und eindeutig nicht der Generierung von Wissen dienen. Sie behindern deutlich den wissenschaftlichen Fortschritt, gefährden das Vertrauen in Wissenschaft, und führen zu enorm hohen Kosten. Unglücklicherweise sind diese Problematiken vielen Wissenschaftler*innen heute immer noch nicht bekannt. „Das haben wir halt so gelernt und schon immer so gemacht" heißt es zum Beispiel. Dass bestimmte Studien sich nicht replizieren ließen, war teilweise schon vielen Personen bewusst, sie hielten es nur nicht für möglich, das im Scientific Record festzuhalten (z.B. <a href="http://daniellakens.blogspot.com/2020/11/why-i-care-about-replication-studies.html" class="uri">http://daniellakens.blogspot.com/2020/11/why-i-care-about-replication-studies.html</a>). Jedenfalls legt der Begriff der fragwürdigen Forschungspraktiken nahe, dass sich Forschende damit in einer Grauzone bewegen würden. Meiner Ansicht nach, ist das nur der Fall, da, wenn Forschende ihren Job verlieren würden, weil sie P-Hacking betrieben haben, nicht mehr viele Forschende übrig wären.</p>
+<p>Anders ist es beim Fälschen und Manipulieren von Daten. Wie häufig Datenmanipulationen oder -fälschungen vorkommen ist ungewiss und Schätzungen sind schwierig. In einer Meta-Analyse von Umfragen zu dem Thema wurde geschätzt, dass zwischen 0,86 und 4,45% aller Wissenschaftler*innen zugaben, Daten manipuliert zu haben. 72% gaben an, fragwürdige Forschungspraktiken anzuwenden (Fanelli, 2009). Stroebe et al.&nbsp;(2012) stellten später Beispiele von Datenfälschung <a href="#_msocom_23">[LR23]</a>&nbsp;zusammen und empfahlen Peer Review und Replikationen als Betrugs-Detektoren. Eine neuere und extrem umfangreiche Studie von Gopalakrishna et al.&nbsp;(2021) berichtete, dass 8,3% aller Befragten Daten manipuliert oder gefälscht hätten und 51,3% fragwürdige Forschungspraktiken angewandt hätten (Tabelle 2) und bestätigte den Ausmaß der Probleme. Je nach Disziplinen kommen weitere Probleme hinzu, wie zum Beispiel die Verwendung bereits veröffentlichter biomedizinischer Bilder, die in ungefähr 3,8% aller veröffentlichten Artikel angewandt wurde (Bik et al., 2016). Es wird davon ausgegangen, dass Datenfälschung nur in sehr seltenen Fällen aufgedeckt wird. Diejenigen Fälle, die ans Licht kamen, hatten die Zurückziehung (<em>Retraction</em>) der jeweiligen wissenschaftlichen Artikel zur Folge und oft Konsequenzen für die wissenschaftliche Karriere der Verantwortlichen. Retractionwatch.org verwaltet die weltweit größte Datenbank zu zurückgezogenen Artikeln (Stand Dezember 2023: 49.628 Artikel): <a href="http://retractiondatabase.org/" class="uri">http://retractiondatabase.org/</a>.</p>
+<p>Sehr düster ist dabei die Tatsache, dass Methoden zur Datenfälschung einerseits immer einfacher werden (e.g., Naddaf, 2023)<a href="#_ftn3">[3]</a> und Wissenschaftler*innen, die Fehler aufdecken, häufig verklagt werden. Das betrifft beispielsweise wurden die Autoren von Datacolada.org, die bereits häufiger Probleme aufgezeigt haben, von Francesca Gino für die Veröffentlichung verklagt (<a href="https://datacolada.org/109" class="uri">https://datacolada.org/109</a>), woraufhin tausende Wissenschaftler*innen Gelder für die finanzielle Unterstützung des Gerichtsprozesses sammelten (<a href="https://www.gofundme.com/f/uhbka-support-data-coladas-legal-defense" class="uri">https://www.gofundme.com/f/uhbka-support-data-coladas-legal-defense</a>).</p>
+</section>
+</section>
+<section id="theorien" class="level2">
+<h2 class="anchored" data-anchor-id="theorien">Theorien</h2>
+<p>Wissenschaft <a href="#_msocom_24">[LR24]</a>&nbsp;arbeitet mit Theorien. Wie diese genau aussehen, unterscheidet sich zwischen Disziplinen massiv. Während naturwissenschaftliche Bereiche häufig mit mathematischen Modellen, also Formeln, arbeiten, die den Zusammenhang zwischen Variablen explizit und unmissverständlich beschreiben und Vorhersagen erlauben, arbeiten Sozialwissenschaften häufig mit verbalen Theorien im Stile von „X und Y hängen positiv miteinander zusammen" oder „je höher X, desto höher Y" und traditionelle Geisteswissenschaften arbeiten beispielsweise mit verbalen Erklärungen. Verbale Theorien haben den Vorteil, dass sie tendenziell leicht verständlich und allgemein anwendbar sind, allerdings unterliegen die verwendeten Begriffe häufig individuellen, kulturellen, oder zeitlichen Einflüssen und Diskutant*innen droht, im wissenschaftlichen Diskurs aneinander vorbei zu reden. Für formale Theorien werden alle beteiligten Variablen genau definiert und die Theorien haben häufig einen stark eingeschränkten Geltungsbereich (z.B. gelten viele physikalische Gesetze nur unter streng kontrollierten Bedingungen wie im Vakuum, bei einer bestimmten Temperatur, usw.). Die Sorge im Rahmen der Replikationskrise ist, dass Theorien nicht klar genug sind, um vorherzusagen, wann Replikationen erfolgreich sind und damit eine der Ursachen für geringe Replikationsraten sind (z.B. REF<a href="#_msocom_25">[LR25]</a>&nbsp;). Eine Theorie über die Konsequenzen von der Identifikation mit Geschlechterrollen muss beispielsweise die Veränderung von Geschlechterrollen und Besonderheiten von Geschlechterrollen in verschiedenen Ländern berücksichtigen. Dass ein und dasselbe Experiment zu diesem Thema in den USA im Jahre 1980 andere Ergebnisse hat als in Deutschland im Jahr 2020 ist wenig überraschend. Problematisch ist allerdings, dass – auch wenn solche Ergänzungen für viele sozialwissenschaftliche Theorien sinnvoll und nötig erscheinen – nur selten Aussagen darüber gemacht werden.</p>
+<p>Verbale Theorien sind per se nicht weniger wissenschaftlich. Im Kontext der jeweiligen Bereiche heben sich wissenschaftliche Theorien stets durch ihren besonders hohen Grad an Systematizität (Hoyningen-Huene, 2013) von alltagswissenschaftlichen Erklärungen ab. Bereiche, die Wert auf Vorhersage von Geschehnissen legen, kommen jedoch nicht ohne formale Theorien aus (Muthukrishna &amp; Henrich, 2019). Dabei sei hervorgehoben, dass bestimmte Wissenschaften eben <em>keinen Wert</em> auf Vorhersage legen (z.B. Geschichtswissenschaften oder Disziplinen, die vorwiegend hermeneutisch vorgehen). Sozialwissenschaften wie die Psychologie, quantitative Soziologie, oder Teile der Geisteswissenschaften („Digital Humanities") nähern sich aktuell formalen Modellen an – in der Sozialpsychologie gab es den Aufruf, Theorien zu formalisieren beispielsweise schon einmal bei einer Krise in den 1970er Jahren (Lakens, 2023). Dadurch, dass sich Theorien durch ihren Mangel an Objektivität selten von verschiedenen Forschenden verwendet werden und sich durch ihre flexible Auslegung nur schwer wiederlegen lassen ist dort eine enorm große Menge an nutzlosen Theorien entstanden (Ferguson &amp; Heene, 2012). Darunter sind auch einander widersprechende Theorien: Beispielsweise argumentieren Banker et al.&nbsp;(2017), dass „ego depletion", also die Erschöpfung von Selbstkontrollressourcen, dazu führt, dass Personen sich eher an Hinweise anderer Leute orientieren (S. 2) während Francis et al.&nbsp;(2018) gegenteilig vermuten, dass die Erschöpfung verhindert, dass Hinweise überhaupt verarbeitet werden können. Beide lieferten Daten, die die jeweiligen Theorien bestätigten, jedoch fand eine Folgeuntersuchung, dass vermutlich beide falsch lagen (Röseler et al., 2020).</p>
+<p>Robinaugh et al.&nbsp;(2021) diskutieren Beispiele der Umwandlung verbaler Theorien in formale. Dieser Prozess hat zur Folge, dass sich neue und spezifischere Vorhersagen ableiten lassen. Wenn eine Theorie genauere Vorhersagen macht und die Menge an möglichen Ereignissen, die der Theorie widersprechen, steigt, bedeutet das einen gestiegenen <em>empirischen Gehalt</em> (siehe Tabelle Z; Glöckner &amp; Betsch, 2011; Popper, 1959/2008).</p>
+<p><strong>TABELLE Z</strong></p>
+<p><em>Aussagen über den Zusammenhang von X und Y mit verschiedenen Graden an empirischem Gehalt</em><a href="#_msocom_26">[LR26]</a>&nbsp;</p>
+<p>XXX</p>
+<section id="deduktion-und-lr27-induktion" class="level3">
+<h3 class="anchored" data-anchor-id="deduktion-und-lr27-induktion">Deduktion und <a href="#_msocom_27">[LR27]</a>&nbsp;Induktion</h3>
+<p>Methoden werden reformiert und Wissenschaftler*innen diskutieren, wie Wissenschaft funktioniert, ablaufen sollte, und welche Methoden sinnvoll und unsinnig sind. Wie am hermeneutischen Zirkel klar wird, führt ein Erkenntnisweg darüber, eine Menge von Beobachtungen zu einer Regelmäßigkeit oder Gesetzmäßigkeit zusammenzufassen (<em>Induktion</em>) und ein weiterer besteht daraus, aus einer Gesetzmäßigkeit bzw. Theorie Vorhersagen über noch nicht angestellte Beobachtungen zu machen (<em>Deduktion</em>). Immer wieder wird diese Unterscheidung im wissenschaftlichen Diskurs vernachlässigt oder ausgeblendet. Beispielsweise drehte sich ein Dialog in der Konsumentenpsychologie jahrelang darum, welcher Weg besser sei, obwohl beide Wege gleichermaßen legitim sind und einander ergänzen (e.g., Calder et al., 1981). Ähnlich verhält es sich bei Konflikten zwischen qualitativer und quantitativer Vorgehensweise, die formal betrachtet jeweils eher induktiv oder deduktiv vorgehen (Borgstede &amp; Scholz, 2021). Bei Replikationsforschung hat traditionell die induktive Seite mehr Beachtung erfahren (Hüffmeier et al., 2016): Jeder Unterschied zwischen Replikation- und Originalstudie wird als mögliche Ursache für ein Scheitern des Replikationsversuches herangezogen um die Vertrauenswürdigkeit der Originalbefunde aufrechtzuerhalten (Baumeister &amp; Vohs, 2016). Dabei gerät außer Acht, dass kleinere Unterschiede zwischen Original- und Replikationsstudie (z.B. Verwendung der Maße, durchschnittliches Alter der Versuchspersonen, Sprache der Instruktion) von Theorien nicht erfasst werden – ihnen zufolge also unerheblich sein sollten – und eine fehlgeschlagene Replikation klar die Grenzen der Theorie aufzeigt und sich aus ihr Empfehlungen für die Modifikation von Theorien ableiten lassen (Cesario, 2014; Dijksterhuis, 2014). Ein Überblick über die Vorgehensweisen ist in Tabelle X.</p>
+<p><strong>Tabelle X</strong></p>
+<p><em>Merkmale induktiver u</em><a href="#_msocom_28">[LR28]</a>&nbsp;<em>nd deduktiver Vorgehensweise</em></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 12%">
+<col style="width: 1%">
+<col style="width: 35%">
+<col style="width: 1%">
+<col style="width: 43%">
+<col style="width: 1%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Facette</td>
+<td></td>
+<td>Deduktives Vorgehen (Theorie-geleitet)</td>
+<td></td>
+<td>Induktives Vorgehen (Phänomen-geleitet)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Verallgemeinerbarkeit steckt in…</td>
+<td></td>
+<td>der Theorie: Sie ist a priori maximal allgemein (z.B. gilt sie, bis anderweitig nachgewiesen, für alle Menschen).</td>
+<td></td>
+<td>den Daten: Erst vielfältige Beobachtungen in verschiedenen Kontexten erlauben die Annahme, dass das Phänomen allgemeingültig ist.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Veränderung von Verallgemeinerbarkeit</td>
+<td></td>
+<td>Mit mehr Beobachtungen sinkt die Allgemeingültigkeit.</td>
+<td></td>
+<td>Mit mehr Beobachtungen steigt die Allgemeingültigkeit (sofern sie bestätigender Natur sind).</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Art der Prüfung</td>
+<td></td>
+<td>Vorhersagen der Theorie werden vorwiegend Versuchen der <em>Widerlegung</em> unterzogen.</td>
+<td></td>
+<td>Wiederholte Beobachtungen <em>bestätigen</em> den ursprünglichen Einzelfall.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Wahl des Studiensettings</td>
+<td></td>
+<td>Studentische Stichproben aus nur einem Land oder Laboruntersuchungen sind unbedenklich.</td>
+<td></td>
+<td>Der Kontext der Untersuchung sollte die Zielbedingungen (z.B. bei der Anwendung der Erkenntnisse in der Praxis) möglichst gut widerspiegeln.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="hilfshypothesen" class="level3">
+<h3 class="anchored" data-anchor-id="hilfshypothesen">Hilfshypothesen</h3>
+<p>Über folgende Wege lassen sich Replikationsfehlschläge erklären:</p>
+<p>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fehler erster Art der Originalstudie: Der Originalbefund war nur ein Zufallsbefund oder kam durch wissenschaftliches Fehlverhalten zustande (siehe Kapitel „Freiheitsgrade von Forschenden (Researchers’ Degrees of Freedom)").</p>
+<p>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fehler erster Art der Replikationsstudie: Die Originalstudie lag richtig, die Replikationsstudie hat einen Fehler gemacht (z.B. zu kleine Stichprobe, schlechte Kalibrierung der Instrumente, oder wissenschaftliches Fehlverhalten).</p>
+<p>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Grenzbereich des Phänomens: Beide Studien sind vertrauenswürdig. Die Replikationsstudie <em>unterscheidet</em> sich auf eine für die Theorie wichtige Weise (z.B. wurde die Replikationsstudie mit Personen aus einem anderen Land durchgeführt und die Theorie gilt nur für Menschen aus dem „Original-Land"). Siehe hierzu auch Fanelli (REF<a href="#_msocom_29">[LR29]</a>&nbsp;).</p>
+<p>Variante 3 ist konstruktiv und nimmt beide Einzelbefunde für robust hin. Notwendig dafür ist ein theoretisch relevanter Unterschied zwischen der Original- und Replikationsstudie, der durch die unendliche Anzahl möglicher wichtiger Faktoren in den meisten Fällen zutrifft (Smedslund, 2015). Über diesen Weg lässt sich die Theorie dann modifizieren oder eine weitere Theorie aufstellen, die für den Kontext der Untersuchung ebenfalls berücksichtigt werden muss.</p>
+</section>
+</section>
+<section id="epistemische-probleme" class="level2">
+<h2 class="anchored" data-anchor-id="epistemische-probleme">Epistemische Probleme</h2>
+<p>Möglichkeiten der Epistemologie, also der Erkenntnislehre, Replikationsprobleme zu erklären, übersteigen systemische und methodische Faktoren, haben aber auch andere Prüfbarkeitsansprüche und sind für tätige Wissenschaftler*innen wahrscheinlich eher unplausibel.</p>
+<section id="komplexität-von-studien" class="level3">
+<h3 class="anchored" data-anchor-id="komplexität-von-studien">Komplexität von Studien</h3>
+<p><a href="https://osf.io/preprints/metaarxiv/5r36g" class="uri">https://osf.io/preprints/metaarxiv/5r36g</a> siehe auch Fanellie talk <a href="https://www.youtube.com/watch?v=CEAV7420jBk" class="uri">https://www.youtube.com/watch?v=CEAV7420jBk</a> und evtl. gibt es inzwischen prereg Test von ihm</p>
+</section>
+<section id="robustheit-und-historizität-von-lr30-phänomenenlr31" class="level3">
+<h3 class="anchored" data-anchor-id="robustheit-und-historizität-von-lr30-phänomenenlr31">Robustheit und Historizität von <a href="#_msocom_30">[LR30]</a>&nbsp;Phänomenen<a href="#_msocom_31">[LR31]</a>&nbsp;</h3>
+<p>Unter welchen Voraussetzungen ist es wenig überraschend, dass Replikationsversuche fehlschlagen? Ein Ausweg ist anzunehmen, dass die untersuchten Phänomene extrem empfindlich oder unstabil seien. Regelmäßigkeiten im menschlichen Verhalten analog zu den Planetenbewegungen zu entdecken könnte schlichtweg nicht möglich sein (Smedslund, 2015). Weniger extreme Annahmen über die Existenz von Regelmäßigkeiten, die möglicherweise nicht jede Person ausnahmslos betreffen aber „im Schnitt" gelten (also aristotelische statt galileische Gesetzmäßigkeiten; Lewin, 1930) sind allerdings unumstritten. Eine solche Regelmäßigkeit kann zum Beispiel sein, dass Männer größer als Frauen sind. Noch extremer ist die Theorie, dass Menschen sich des Wissens über sie bewusst sind und ihr Verhalten dynamisch anpassen und Verhaltenswissenschaften immer historisch bzw. zeitgebunden sind: Wird herausgefunden, dass Menschen in ihren Entscheidungen tendenziell dazu neigen nichts zu ändern, auch wenn sich dadurch ihre Situation verbessern würde, wird ihnen diese Tatsache über die Wissenschaft vor Augen geführt und sie können ihr Verhalten anpassen. Dabei handelt es sich übrigens um den Status Quo Bias, welcher im Rahmen von über 30 Jahren erfolgreich repliziert wurde (Samuelson &amp; Zeckhauser, 1988; Xiao et al., 2021).</p>
+<p>Wie stark sich Phänomene durch vermeintlich kleinere Unterschiede im Versuchsaufbau unterscheiden wurde bereits meta-wissenschaftlich untersucht. Landy et al.&nbsp;(2020) ließen mehrere Hypothesen von mehreren Forschenden prüfen und Faktoren, die laut den dahinterliegenden Theorien eigentlich keinen Unterschied machen sollten, führten dazu, dass Gegenteilige Ergebnisse entstanden. Auf Replikationsforschung übertragen ist es also möglich, dass in bestimmten Forschungsbereichen völlig unklar ist, unter welchen Bedingungen welche Zusammenhänge zu beobachten sind.</p>
+</section>
+<section id="paradox-des-fallibilität-und-des-fortschritts" class="level3">
+<h3 class="anchored" data-anchor-id="paradox-des-fallibilität-und-des-fortschritts">Paradox des Fallibilität und des Fortschritts</h3>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.pnas.org/doi/full/10.1073/pnas.1711786114" class="uri">https://www.pnas.org/doi/full/10.1073/pnas.1711786114</a> [einarbeiten]</p>
+<p><a href="#_ftnref1">[1]</a> Hier ließe sich einwenden, dass einige Zeitschriften nur Artikel veröffentlichen, in denen mehrere Studien durchgeführt wurden. Das Ziel, nämlich die Replikation der eigenen Befunde, verfehlen diese Zeitschriften damit deutlich. Stattdessen reizt es Forschende dazu an, mehrere Studien mit wenigen Versuchspersonen durchzuführen, statt eine Studie mit vielen Befragten.</p>
+<p><a href="#_ftnref2">[2]</a> Ethische Richtlinien im Publikationsprozess sind zum Beispiel verfügbar über das Committee on Publication Ethics (<a href="https://publicationethics.org/guidance/Guidelines" class="uri">https://publicationethics.org/guidance/Guidelines</a>).</p>
+<p><a href="#_ftnref3">[3]</a> Hussey (<a href="https://osf.io/preprints/psyarxiv/4kht8" class="uri">https://osf.io/preprints/psyarxiv/4kht8</a>) und Sarstedt &amp; Adler (<a href="https://www.sciencedirect.com/science/article/abs/pii/S0148296323003004" class="uri">https://www.sciencedirect.com/science/article/abs/pii/S0148296323003004</a>) haben sarkastisch Methoden vorgeschlagen, direkt die berichteten Werte automatisiert fälschen zu lassen.</p>
+<p>&nbsp;<a href="#_msoanchor_1">[LR1]</a>REF?</p>
+<p>&nbsp;<a href="#_msoanchor_2">[LR2]</a>REF?</p>
+<p>&nbsp;<a href="#_msoanchor_3">[LR3]</a><a href="https://onlinelibrary.wiley.com/doi/10.1002/joe.21897" class="uri">https://onlinelibrary.wiley.com/doi/10.1002/joe.21897</a></p>
+<p>&nbsp;<a href="#_msoanchor_4">[LR4]</a><a href="https://www.laborjournal.de/rubric/essays/essays2023/e23_09.php" class="uri">https://www.laborjournal.de/rubric/essays/essays2023/e23_09.php</a></p>
+<p>Quote schwerbehinderter extrem niedrig (1% unter wiss Mas) und Ignoranz von Quoten in der Wissenschaft</p>
+<p>&nbsp;<a href="#_msoanchor_5">[LR5]</a>https://www.nature.com/articles/s41598-023-46375-7</p>
+<p>&nbsp;<a href="#_msoanchor_6">[LR6]</a>Liste: World's Top 2% most influential scientists à fehlerhaft <a href="https://www.authorea.com/users/571220/articles/620441-a-critical-analysis-of-the-world-s-top-2-most-influential-scientists-examining-the-limitations-and-biases-of-highly-cited-researchers-lists" class="uri">https://www.authorea.com/users/571220/articles/620441-a-critical-analysis-of-the-world-s-top-2-most-influential-scientists-examining-the-limitations-and-biases-of-highly-cited-researchers-lists</a></p>
+<p>&nbsp;<a href="#_msoanchor_7">[LR7]</a><a href="https://osf.io/preprints/socarxiv/5t8v7?fbclid=IwZXh0bgNhZW0CMTAAAR0fPKhqCqVY5GIVdZp5TWvlOmBE_m-NdchII9TDpy3Nd5uarSltMcxuEnE_aem_AZ1HBApXlv6zfx2OE42kC-JUhL46lvBK94fnsx2udMBZ7L__WdOVM3iSlXFRgD7MscOgnIZe1y-6Vjlnz7uHAX9W" class="uri">https://osf.io/preprints/socarxiv/5t8v7?fbclid=IwZXh0bgNhZW0CMTAAAR0fPKhqCqVY5GIVdZp5TWvlOmBE_m-NdchII9TDpy3Nd5uarSltMcxuEnE_aem_AZ1HBApXlv6zfx2OE42kC-JUhL46lvBK94fnsx2udMBZ7L__WdOVM3iSlXFRgD7MscOgnIZe1y-6Vjlnz7uHAX9W</a></p>
+<p>&nbsp;<a href="#_msoanchor_8">[LR8]</a>COARA + SF DORA</p>
+<p>&nbsp;<a href="#_msoanchor_9">[LR9]</a><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0255334" class="uri">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0255334</a></p>
+<p>&nbsp;<a href="#_msoanchor_10">[LR10]</a>+ <a href="https://osf.io/preprints/psyarxiv/4w7rb" class="uri">https://osf.io/preprints/psyarxiv/4w7rb</a></p>
+<p>&nbsp;<a href="#_msoanchor_11">[LR11]</a><a href="https://www.frontiersin.org/articles/10.3389/fnhum.2018.00037/full" class="uri">https://www.frontiersin.org/articles/10.3389/fnhum.2018.00037/full</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gute Zeitschriften haben schlechtere Qualität<br>
+<a href="https://doi.org/10.1107/S0907444907033847" class="uri">https://doi.org/10.1107/S0907444907033847</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; impact factor ist verhandelbar und inflated:<br>
+<a href="https://quantixed.org/2016/01/05/the-great-curve-ii-citation-distributions-and-reverse-engineering-the-jif/" class="uri">https://quantixed.org/2016/01/05/the-great-curve-ii-citation-distributions-and-reverse-engineering-the-jif/</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>noch viele weitere Beispiele im Paper, felderübergreifend entweder kein Zusammenhang oder negativer Zusammenhang</strong></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; höherer Impact Factor geht mit von Excel zerstörten Gen-Namen einher (Excel denkt, es seien Datumsangaben, konvertiert sie, und man kriegt die eigentlichen Werte nicht wieder): <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7#:~:text=Indeed%2C%20the%20number%20of%20papers,(3.8%20%25%20per%20year)" class="uri">https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7#:~:text=Indeed%2C%20the%20number%20of%20papers,(3.8%20%25%20per%20year)</a>.</p>
+<p>Alternative Auswahlkriterien</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Schauen, mit wem man Kollege sein möchte</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; „Wie gut komplementiert das die Expertise" statt „macht die Person, was ich mache" (nötig für Forschungsgelder)</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jemanden, mit dem man eng zusammenarbeit, findet man auch online; interessant wird es, wenn jemand von wo ganz anders kommt; etwas, was man nicht online findet</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sehr vorsichtig sein mit quantitativen Maßen, bei vielen Bewerber*innen aber schwierig; wenn, dann bräuchte man viele, die genau auf den Bedarf zugeschnitten ist</p>
+<p>&nbsp;<a href="#_msoanchor_12">[LR12]</a>Problem von Nullbefunden erklären, 7 Alternativerklärungen</p>
+<p><a href="https://www.cambridge.org/core/journals/journal-of-experimental-political-science/article/more-than-meets-the-itt-a-guide-for-anticipating-and-investigating-nonsignificant-results-in-survey-experiments/C01250EB50598D6328B6065F1DF86BA7?utm_source=hootsuite&amp;utm_medium=twitter&amp;utm_campaign=MNE_campaign" class="uri">https://www.cambridge.org/core/journals/journal-of-experimental-political-science/article/more-than-meets-the-itt-a-guide-for-anticipating-and-investigating-nonsignificant-results-in-survey-experiments/C01250EB50598D6328B6065F1DF86BA7?utm_source=hootsuite&amp;utm_medium=twitter&amp;utm_campaign=MNE_campaign</a></p>
+<p>&nbsp;<a href="#_msoanchor_13">[LR13]</a>Warum? Ethic-gutachten?</p>
+<p>&nbsp;<a href="#_msoanchor_14">[LR14]</a>https://de.wikipedia.org/wiki/Verwertungsgesellschaft_Wort</p>
+<p>&nbsp;<a href="#_msoanchor_15">[LR15]</a>REF</p>
+<p>&nbsp;<a href="#_msoanchor_16">[LR16]</a><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(14)60932-6/fulltext?version%3DprinterFriendly=&amp;code=lancet-site" class="uri">https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(14)60932-6/fulltext?version%3DprinterFriendly=&amp;code=lancet-site</a></p>
+<p>hier müssten statistiken sein</p>
+<p>&nbsp;<a href="#_msoanchor_17">[LR17]</a>Hier beta-fehler erklären und power</p>
+<p>&nbsp;<a href="#_msoanchor_18">[LR18]</a>Wicherts liste: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5122713/</p>
+<p>&nbsp;<a href="#_msoanchor_19">[LR19]</a>Abbildung passt nicht ganz zum Beispiel</p>
+<p>&nbsp;<a href="#_msoanchor_20">[LR20]</a><a href="http://dx.doi.org/10.1111/jpim.12738" class="uri">http://dx.doi.org/10.1111/jpim.12738</a></p>
+<p>&nbsp;<a href="#_msoanchor_21">[LR21]</a>binom.test(1, 3, .05)</p>
+<p>&nbsp;<a href="#_msoanchor_22">[LR22]</a>abschlussarbeit confirmation bias samira nickel</p>
+<p>&nbsp;<a href="#_msoanchor_23">[LR23]</a>Podcast zu dem Thema:</p>
+<p><a href="https://freakonomics.com/podcast/can-academic-fraud-be-stopped/" class="uri">https://freakonomics.com/podcast/can-academic-fraud-be-stopped/</a></p>
+<p>&nbsp;<a href="#_msoanchor_24">[LR24]</a>einarbeiten: <a href="https://link.springer.com/article/10.1007/s43638-023-00081-3" class="uri">https://link.springer.com/article/10.1007/s43638-023-00081-3</a></p>
+<p>•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://doi.org/10.31234/osf.io/jqw35" class="uri">https://doi.org/10.31234/osf.io/jqw35</a></p>
+<p>•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Smaldino, P. (2019). Better methods can’t make up for mediocre theory. <em>Nature</em>, <em>575</em>(7781), 9. https://doi.org/10.1038/d41586-019-03350-5</p>
+<p>•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</p>
+<p>&nbsp;<a href="#_msoanchor_25">[LR25]</a><a href="https://journal.trialanderror.org/pub/tension-between-theory/release/1" class="uri">https://journal.trialanderror.org/pub/tension-between-theory/release/1</a></p>
+<p>&nbsp;<a href="#_msoanchor_26">[LR26]</a>Siehe ppt folien von meinem seminar</p>
+<p>&nbsp;<a href="#_msoanchor_27">[LR27]</a>Validitätsarten in Call for Replications in Language Teaching: <a href="https://www.sciencedirect.com/science/article/pii/S2772766123000514" class="uri">https://www.sciencedirect.com/science/article/pii/S2772766123000514</a></p>
+<p>Viel external und internal validity</p>
+<p>&nbsp;<a href="#_msoanchor_28">[LR28]</a>Aus preprint mit Johannes genommen, evtl anpassen oder zitieren</p>
+<p>&nbsp;<a href="#_msoanchor_29">[LR29]</a>12:15 <a href="https://www.youtube.com/watch?v=CEAV7420jBk" class="uri">https://www.youtube.com/watch?v=CEAV7420jBk</a></p>
+<p>&nbsp;<a href="#_msoanchor_30">[LR30]</a>Error is an integral part of the process of science</p>
+<p><a href="https://www.pnas.org/doi/full/10.1073/pnas.1711786114" class="uri">https://www.pnas.org/doi/full/10.1073/pnas.1711786114</a></p>
+<p>&nbsp;<a href="#_msoanchor_31">[LR31]</a>in BA Literaturverzeichnis schauen why psych cannot be a science</p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

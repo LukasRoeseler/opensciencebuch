@@ -1,0 +1,80 @@
+---
+title: "Einleitung"
+format: html
+---
+
+## Einleitung
+
+# Überschrift passend zum Beispiel
+
+-          Beispiel, bei dem Psychologische Wissenschaft wichtig ist
+
+-          Befunde aus der Wissenschaft zitieren
+
+-          Diese Befunde sind eventuell falsch
+
+-          Wie finden wir heraus, ob sie falsch sind?
+
+-          Wie stark können wir uns darauf verlassen?
+
+-          Wie stellen wir sicher, dass wir uns stärker auf Wissenschaft verlassen können?
+
+**Wovon handelt dieses Buch?**
+
+Die Sozialwissenschaften haben sich in den letzten Jahren stark verändert. Neue Zeitschriften, Methoden, Initiativen, Gesellschaften, Infrastrukturen, und vieles mehr sind entstanden. Es ist die Rede von einer Krise (Mede et al., 2020), einer Revolution (Nosek et al.) oder einer Renaissance (Nelson et al., 2018). All diese Veränderungen haben gemeinsam zu einem stärkeren Grad an Offenheit geführt und das Wissenschaftssystem maßgeblich verändert.
+
+In diesem Buch werden niedrigschwellig der Begriff der Offenheit, die Ursprünge des Wandels, und die Open Science Bewegung erklärt. Es werden Hintergründe des wissenschaftlichen Systems, neu entwickelte Methoden, und Probleme amtierender Methoden erläutert. Dabei sind Beispiele und Entwicklungen aus der Psychologie überrepräsentiert.
+
+**Was ist Open Science?**
+
+In der Wissenschaft dreht es sich oft um Details: Was genau passierte in der Studie? Welche Bilder sahen Versuchspersonen auf was für einem Bildschirm? Was war die Bildwiederholungsrate des Bildschirmes, und waren die Farben dabei mittels Spektralphotometer kalibriert? Wissenschaftliche Untersuchungen und ihre Befunde werden heutzutage in Zeitschriftenartikeln beschrieben. Es kommt nicht selten vor, dass darin eines der oben aufgeführten Details fehlt, in den Zusatzmaterialien nicht auffindbar ist, oder die Autor\*innen nicht gefragt werden können, weil ihre E-Mail-Adresse nicht mehr aktuell ist. Wenn nun aber der Befund von genauso einem Detail abhängt, werden zukünftige Forschende Probleme haben, ihn zum Vorschein zu bringen. Auf dieser konkreten Ebene bedeutet Open Science die Möglichkeit für jede Person, im Rahmen von ethischen und legalen Einschränkungen (z.B. Anonymität), detaillierte Einsicht in den gesamten wissenschaftlichen Prozess der Erkenntnisgewinnung zu erhalten. Es sollte also genau beschrieben werden, wie die Untersuchung ablief, welche Materialien dafür verwendet werden, welche Daten daraus resultierten, wie diese weiterverarbeitet und ausgewertet wurden, und schließlich, was daraus zu lernen ist.
+
+Auf einer abstrakten Ebene meint Open Science einen höheren Grad an Offenheit und Transparenz in allen Facetten der Wissenschaft. Dazu gehören wie beschrieben Studienmaterialien (z.B. Fragebögen, Bilder, oder Videos), der wissenschaftliche Bericht, oder der Diskurs im Rahmen der Begutachtung wissenschaftlicher Berichte durch ihre Kolleg\*innen (Peer-Review). Aber auch auf der systemischen Ebene kann der Grad an Transparenz steigen: Beispielsweise gibt es Listen mit Zeitschriften (<https://doaj.org>) oder Listen mit Professuren in einem bestimmten Wissenschaftsbereich (z.B. für die Persönlichkeitspsychologie in Deutschland: <https://docs.google.com/spreadsheets/d/1XwO4n88zkdH1bDGpW6Uz8f4sH24P5FG0ihUp7i0Y-gY/edit#gid=1684024252>). Schließlich kann mit Offenheit auch die Durchführung einer Konferenz im „hybriden Format", also an einem bestimmten Ort aber mit der Möglichkeit zur Online-Teilnahme angeboten werden, um Personen, die nicht Anreisen (können) nicht auszuschließen, ihnen gegenüber also *offen* zu sein.
+
+Insgesamt wird Open Science als Lösung [\[LR1\]](#_msocom_1) für zahlreiche[\[1\]](#_ftn1) aktuelle, meist verworrene Probleme verstanden, allen vorweg das Problem, dass sich ungefähr 50% aller wissenschaftlichen Studien in der Psychologie nicht replizieren lassen (Open Science Collaboration, 2015). Eine Übersicht über Facetten von Open Science ist in Abbildung X. Genaue Schätzungen sind schwierig, grob lässt sich dennoch sagen: Sucht man sich eine zufällige sozialwissenschaftliche Studie aus einer Fachzeitschrift aus, führt sie nach wissenschaftlichem Goldstandard erneut aus, und prüft die dort getestete Hypothese ein weiteres Mal, dann ist die Wahrscheinlichkeit, zum selben Ergebnis zu kommen, so hoch, wie bei einem Münzwurf "Zahl" (vs. Kopf) zu erhalten. Damit teilweise verbundene Probleme sind Betrug bei wissenschaftlichen Publikationen (Gopalakrishna et al., 2021), oder psychische Probleme bei Jungwissenschaftler\*innen (Satinsky et al., 2021).
+
+**Abbildung X**
+
+*Facetten von Open Science*
+
+*XXX*[\[LR2\]](#_msocom_2) 
+
+**Wie ist mit Open Science umzugehen?**
+
+Das Thema Open Science und Replikationskrise[\[2\]](#_ftn2) [\[LR3\]](#_msocom_3) ist aus mehreren Gründen schwer kommunizierbar: Zuerst einmal ist es harte Kritik an der Wissenschaft und dem Wissenschaftssystem, die dazu missbraucht werden kann, wissenschaftliche Befunde kleinzureden und das Vertrauen in Wissenschaft insgesamt gefährdet. Mithilfe der hier präsentierten Argumente und Befunde lassen sich zum Beispiel auf Wissenschaft beruhende politische oder individuelle Entscheidungen kritisieren. Dagegen sei gesagt: Weitaus nicht alle wissenschaftlichen Befunde sind "falsch" oder nicht replizierbar. Bei vielen Punkten herrscht immer noch ein großer Konsens.
+
+Auf der anderen Seite gehen die hier diskutierten Probleme über das hinaus, was ganz natürlich in fast jedem wissenschaftlichen Zweig wiederfindet. Denn je genauer man hinschaut, desto wahrscheinlicher ist es, dass ein wissenschaftlicher Befund relativierbar ist. Widersprüche oder Konflikte lassen sich überall finden, treten natürlicherweise auf, und werden von Wissenschaftler\*innen ins Visier genommen. Jede\*r Forschende kann berichten: Bei genauerem Hinschauen bleibt nichts schwarz oder weiß, sondern zerfließt in viele Grautöne. Bei den im Folgenden behandelten Replikationsfehlschlägen handelt es sich um mehr als die wissenschaftsinhärente Ungewissheit: Sie gefährden gesamte Wissenschaftsstränge.
+
+Bevor wir in die Details fortschreiben, ist es außerdem wichtig festzuhalten, dass aktuell (Herbst, 2023) die meisten der in diesem Buch besprochenen Probleme noch nicht oder erst teilweise gelöst wurden und auf wöchentlicher Basis heiß diskutiert werden. Nach einem Jahrzehnt der Open Science Bewegungen ist ein Punkt erreicht, an dem die meisten Wissenschaftler\*innen ein Bewusstsein über das Problem haben. Einige sind mit Lösungsansätzen vertraut, doch haben sich diese weder komplett durchgesetzt, noch ist klar, welche Probleme überhaupt bereits gelöst worden sind.
+
+Ich verstehe Open Science als eine große Trigger-Warnung, die vor die Sozialwissenschaften vorgeschaltet sein sollte und lautet: Achtung, wir haben hier gerade sehr große Probleme. Es ist gut möglich, dass die Hälfte von allem, was wir zu wissen glauben, schlichtweg falsch ist. Meinungen über die Open Science Bewegung sind aber keineswegs homogen: Es lässt sich hier ein Spektrum spannen zwischen "Sollen wir wirklich die nächsten 20 Jahre damit verbringen, herauszufinden, welche Erkenntnisse der letzten 100 Jahre korrekt sind? Fangen wir doch einfach nochmal bei Null an." und "Eigentlich ist das ganz normal, ich sehe keinen Grund, hier von einer 'Krise' zu sprechen".
+
+ABBILDUNG[\[LR4\]](#_msocom_4) 
+
+Besonders groß ist das Problem bei Lehrbüchern: Stellen Sie sich vor, sie haben ein Buch über einen Teil der Psychologie (Aushängeschild ist hier oft die Sozialpsychologie) verfasst, das auf Jahrzehnten an Forschung besteht, hunderten Veröffentlichungen, und tausenden Studien. Hier hilft es kaum, das Buch komplett zu ignorieren. Praktikabel, alle Studien selbst zu replizieren, ist es allerdings auch nicht. Klar ist den meisten Wissenschaftler\*innen hierbei: So wie es bisher gelaufen ist, kann es nicht weitergehen. Eine fünfzig prozentige Garantie für wissenschaftliche Erkenntnisse sollte nicht der Anspruch von etwas sein, das sich Wissenschaft nennt. Von vorne müssen wir aber auch nicht starten.
+
+**Über den Autoren**[\[LR5\]](#_msocom_5) 
+
+Lukas Röseler hat von 2012 - 2017 an der Hochschule Harz Wirtschaftspsychologie und Konsumentenpsychologie studiert, wurde 2017 - 2021 an der Otto-Friedrich-Universität Bamberg mit summa cum laude promoviert, war anschließend bis 2023 Open Science Beauftragter der Fakultät für Humanwissenschaften und ist seit Januar 2024 Geschäftsführer der Münster Center for Open Science. In seiner Forschung setzt er sich mit Replikationsraten auseinander und verwaltet offene Datenbanken. Thematisch drehen sich seine Studien um Entscheidungsverhalten. Dabei hat er dutzende Replikationsstudien geleitet (REFs: Filedrawerreport, Röseler et al., 2022; Röseler, Schütz, et al., 2021, totetime), und Meta-Analysen durchgeführt (Körner et al., 2022; Röseler & Schütz, 2022a). Im Rahmen von Lehre und Workshops (<https://osf.io/at29b/>) setzt er sich für offene Wissenschaft ein.
+
+Seit 2021 leitet er die Open Anchoring Quest (OpAQ; <https://metaanalyses.shinyapps.io/OpAQ/>; [Röseler, Weber, et al., 2021]{.underline}), bei welcher es sich um eine Gruppe aus über 100 Wissenschaftler\*innen handelt, die sich für die Veröffentlichung aller Forschungsdaten aus dem Feld der Ankereffekte-Forschung einsetzt.
+
+Seit 2022 arbeitet er an einer Felder-übergreifenden Replikationendatenbank (<https://metaanalyses.shinyapps.io/replicationdatabase/>; Röseler et al., 2023).
+
+[\[1\]](#_ftnref1) Fecher und Friesike (REF, S. 19) reden von fünf „schools of thought", also Denkkollektiven, die verschiedene Ziele verfolgen: Infrastruktur (z.B. Plattformen zum Speichern oder Veröffentlichen von Forschungsmaterialien), Öffentlichkeit und Involvierung der Gesellschaft in den wissenschaftlichen Prozess (z.B. Citizen Science), Messbarkeit wissenschaftlichen Erfolgs (z.B. Alternativen zum Impact Factor), Demokratie (z.B. Zugang zum Wissen), und Pragmatismus (z.B. höhere Effizienz von Wissenschaften durch öffentliche Forschungsdaten).
+
+[\[2\]](#_ftnref2) Durch die Ungewissheit über genaue Ursachen von geringen Replikationsraten wird teilweise auch eher zu dem Begriff „Vertrauenskrise" geraten (z.B. Feest, 2023).
+
+ [\[LR1\]](#_msoanchor_1)hier noch Wissenschaftsskepsis erwähnen: <https://osf.io/preprints/psyarxiv/7u4fg>  
+
+ [\[LR2\]](#_msoanchor_2)OS Taxonomie: <https://periodicos.ufsc.br/index.php/eb/article/view/91712>
+
+Bild
+
+<https://zenodo.org/records/7940641>
+
+ [\[LR3\]](#_msoanchor_3)<https://www.researchgate.net/publication/374381552_What_is_the_Replication_Crisis_a_Crisis_of>
+
+ [\[LR4\]](#_msoanchor_4)hier Bild vom Spektrum und der Verortung dieses Buches hintun; evtl. Umfrageergebnisse von Wissenschaftler\*innen dazutun und zitieren, da gibt es was
+
+ [\[LR5\]](#_msoanchor_5)Als Infobox

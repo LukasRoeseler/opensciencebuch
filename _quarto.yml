@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "Open Science für alle"
+  navbar:
+    left:
+    - landing.qmd
+    - einleitung.qmd
+    - geschichte.qmd
+    - probleme.qmd
+    - lösungen.qmd
+    - fazit.qmd
+    tools:
+    - icon: github
+      menu:
+        - text: Source Code
+          href: https://github.com/LukasRoeseler
+        - text: Report a Bug
+          href: https://github.com/LukasRoeseler
