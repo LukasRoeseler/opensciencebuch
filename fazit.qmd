@@ -3,7 +3,7 @@ title: "Fazit und Ausblick"
 editor: visual
 ---
 
--          AUFLISTEN / TABELLE: Gründe für „nicht repliziert\"
+-          AUFLISTEN / TABELLE: Gründe für „nicht repliziert"
 
 -          Neue Wissenschaft: Meta-Wissenschaft, die mit sozialwissenschaftlichen Methoden arbeitet
 
@@ -55,7 +55,7 @@ o   Selbst Artikel, die sich mit Open Science befassen, halten sich selbst man
 
 o   <https://twitter.com/giladfeldman/status/1735950123291779119>
 
-o   <https://osf.io/preprints/psyarxiv/sa6rc> in Psychologie „54 out of 88 journals did not publish any direct replication articles in the eleven years surveyed\" (Abstract)
+o   <https://osf.io/preprints/psyarxiv/sa6rc> in Psychologie „54 out of 88 journals did not publish any direct replication articles in the eleven years surveyed" (Abstract)
 
 -          Interdisziplinäres Problem erfordert Zusammenarbeit
 
