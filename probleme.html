@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Lukas Röseler">
 
 <title>Probleme – Open Science für alle</title>
 <style>
@@ -30,6 +31,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./lösungen.html" rel="next">
+<link href="./geschichte.html" rel="prev">
+<link href="./cover.jpg" rel="icon" type="image/jpeg">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -40,11 +44,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -70,74 +74,196 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Open Science für alle</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./landing.html"> 
-<span class="menu-text">landing</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./einleitung.html"> 
-<span class="menu-text">Einleitung</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./geschichte.html"> 
-<span class="menu-text">Die Geschichte der Open Science Bewegung</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./probleme.html" aria-current="page"> 
-<span class="menu-text">Probleme</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./lösungen.html"> 
-<span class="menu-text">Lösungen</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./fazit.html"> 
-<span class="menu-text">Fazit und Ausblick</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-    <div class="dropdown">
-      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-          <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/LukasRoeseler">
-            Source Code
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/LukasRoeseler">
-            Report a Bug
-            </a>
-          </li>
-      </ul>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./probleme.html">Probleme</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Open Science für alle</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/LukasRoeseler/opensciencebuch" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Willkommen</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Über das Buch</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./einleitung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Einleitung</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./geschichte.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Die Geschichte der Open Science Bewegung</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./geschichte.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Die Geschichte der Open Science Bewegung</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./geschichte.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Die Geschichte der Open Science Bewegung</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./probleme.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Probleme</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./geschichte.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Die Geschichte der Open Science Bewegung</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./lösungen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lösungen</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./geschichte.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Die Geschichte der Open Science Bewegung</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./fazit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fazit und Ausblick</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./geschichte.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Die Geschichte der Open Science Bewegung</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#probleme-die-im-rahmen-der-revolution-identifiziert-wurden" id="toc-probleme-die-im-rahmen-der-revolution-identifiziert-wurden" class="nav-link active" data-scroll-target="#probleme-die-im-rahmen-der-revolution-identifiziert-wurden">Probleme, die im Rahmen der Revolution identifiziert wurden</a>
+  <ul class="collapse">
+  <li><a href="#probleme-des-wissenschaftlichen-systems" id="toc-probleme-des-wissenschaftlichen-systems" class="nav-link" data-scroll-target="#probleme-des-wissenschaftlichen-systems">Probleme des Wissenschaftlichen Systems</a>
+  <ul class="collapse">
+  <li><a href="#wissenschaft-versus-academia" id="toc-wissenschaft-versus-academia" class="nav-link" data-scroll-target="#wissenschaft-versus-academia">Wissenschaft versus Academia</a></li>
+  <li><a href="#prekäre-arbeitsbedingungen" id="toc-prekäre-arbeitsbedingungen" class="nav-link" data-scroll-target="#prekäre-arbeitsbedingungen">Prekäre Arbeitsbedingungen</a></li>
+  <li><a href="#zu-viel-forschung" id="toc-zu-viel-forschung" class="nav-link" data-scroll-target="#zu-viel-forschung"><strong>Zu viel Forschung</strong></a></li>
+  <li><a href="#publish-or-perishlr6" id="toc-publish-or-perishlr6" class="nav-link" data-scroll-target="#publish-or-perishlr6">Publish or Perish[LR6]&nbsp;</a></li>
+  <li><a href="#flaschenhals-hypothese-und-innovationsdrang" id="toc-flaschenhals-hypothese-und-innovationsdrang" class="nav-link" data-scroll-target="#flaschenhals-hypothese-und-innovationsdrang">Flaschenhals-Hypothese und Innovationsdrang</a></li>
+  <li><a href="#schubladen-problemlr12" id="toc-schubladen-problemlr12" class="nav-link" data-scroll-target="#schubladen-problemlr12">Schubladen-Problem[LR12]&nbsp;</a></li>
+  <li><a href="#konzerne" id="toc-konzerne" class="nav-link" data-scroll-target="#konzerne">Konzerne</a></li>
+  <li><a href="#zugängigkeit-von-wissen" id="toc-zugängigkeit-von-wissen" class="nav-link" data-scroll-target="#zugängigkeit-von-wissen">Zugängigkeit von Wissen</a></li>
+  </ul></li>
+  <li><a href="#karriere-in-der-wissenschaft" id="toc-karriere-in-der-wissenschaft" class="nav-link" data-scroll-target="#karriere-in-der-wissenschaft">Karriere in der Wissenschaft</a>
+  <ul class="collapse">
+  <li><a href="#doppelabhängigkeit" id="toc-doppelabhängigkeit" class="nav-link" data-scroll-target="#doppelabhängigkeit">Doppelabhängigkeit</a></li>
+  <li><a href="#depressionen-burnout-und-ichbinhanna" id="toc-depressionen-burnout-und-ichbinhanna" class="nav-link" data-scroll-target="#depressionen-burnout-und-ichbinhanna">Depressionen, Burnout, und #IchbinHanna</a></li>
+  <li><a href="#top-down-wandel" id="toc-top-down-wandel" class="nav-link" data-scroll-target="#top-down-wandel">Top-Down-Wandel</a></li>
+  </ul></li>
+  <li><a href="#probleme-der-wissenschaftlichen-methoden" id="toc-probleme-der-wissenschaftlichen-methoden" class="nav-link" data-scroll-target="#probleme-der-wissenschaftlichen-methoden">Probleme der Wissenschaftlichen Methoden</a>
+  <ul class="collapse">
+  <li><a href="#exploratorische-versus-konfirmatorische-forschung" id="toc-exploratorische-versus-konfirmatorische-forschung" class="nav-link" data-scroll-target="#exploratorische-versus-konfirmatorische-forschung">Exploratorische versus konfirmatorische Forschung</a></li>
+  <li><a href="#freiheitsgradelr18-von-forschenden-researchers-degrees-of-freedom" id="toc-freiheitsgradelr18-von-forschenden-researchers-degrees-of-freedom" class="nav-link" data-scroll-target="#freiheitsgradelr18-von-forschenden-researchers-degrees-of-freedom">Freiheitsgrade[LR18]&nbsp; von Forschenden (Researchers’ Degrees of Freedom)</a></li>
+  <li><a href="#tippfehler" id="toc-tippfehler" class="nav-link" data-scroll-target="#tippfehler">Tippfehler</a></li>
+  <li><a href="#p-hacking" id="toc-p-hacking" class="nav-link" data-scroll-target="#p-hacking">P-Hacking</a></li>
+  <li><a href="#selektives-berichten-selective-reporting" id="toc-selektives-berichten-selective-reporting" class="nav-link" data-scroll-target="#selektives-berichten-selective-reporting">Selektives Berichten (Selective Reporting)</a></li>
+  <li><a href="#optionales-stoppen-optional-stopping" id="toc-optionales-stoppen-optional-stopping" class="nav-link" data-scroll-target="#optionales-stoppen-optional-stopping">Optionales Stoppen (Optional Stopping)</a></li>
+  <li><a href="#darstellung-kalibrierter-modelle-als-geplante-modelle-overfitting" id="toc-darstellung-kalibrierter-modelle-als-geplante-modelle-overfitting" class="nav-link" data-scroll-target="#darstellung-kalibrierter-modelle-als-geplante-modelle-overfitting">Darstellung kalibrierter Modelle als geplante Modelle (Overfitting)</a></li>
+  <li><a href="#tendenz-von-menschen-sich-selbst-zu-bestätigen-confirmation-bias" id="toc-tendenz-von-menschen-sich-selbst-zu-bestätigen-confirmation-bias" class="nav-link" data-scroll-target="#tendenz-von-menschen-sich-selbst-zu-bestätigen-confirmation-bias">Tendenz von Menschen, sich selbst zu bestätigen (Confirmation Bias)</a></li>
+  <li><a href="#datenfälschung" id="toc-datenfälschung" class="nav-link" data-scroll-target="#datenfälschung">Datenfälschung</a></li>
+  </ul></li>
+  <li><a href="#theorien" id="toc-theorien" class="nav-link" data-scroll-target="#theorien">Theorien</a>
+  <ul class="collapse">
+  <li><a href="#deduktion-und-lr27-induktion" id="toc-deduktion-und-lr27-induktion" class="nav-link" data-scroll-target="#deduktion-und-lr27-induktion">Deduktion und [LR27]&nbsp;Induktion</a></li>
+  <li><a href="#hilfshypothesen" id="toc-hilfshypothesen" class="nav-link" data-scroll-target="#hilfshypothesen">Hilfshypothesen</a></li>
+  </ul></li>
+  <li><a href="#epistemische-probleme" id="toc-epistemische-probleme" class="nav-link" data-scroll-target="#epistemische-probleme">Epistemische Probleme</a>
+  <ul class="collapse">
+  <li><a href="#komplexität-von-studien" id="toc-komplexität-von-studien" class="nav-link" data-scroll-target="#komplexität-von-studien">Komplexität von Studien</a></li>
+  <li><a href="#robustheit-und-historizität-von-lr30-phänomenenlr31" id="toc-robustheit-und-historizität-von-lr30-phänomenenlr31" class="nav-link" data-scroll-target="#robustheit-und-historizität-von-lr30-phänomenenlr31">Robustheit und Historizität von [LR30]&nbsp;Phänomenen[LR31]&nbsp;</a></li>
+  <li><a href="#paradox-des-fallibilität-und-des-fortschritts" id="toc-paradox-des-fallibilität-und-des-fortschritts" class="nav-link" data-scroll-target="#paradox-des-fallibilität-und-des-fortschritts">Paradox des Fallibilität und des Fortschritts</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/edit/main/probleme.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -328,13 +454,13 @@ ul.task-list li input[type="checkbox"] {
 <p><em>Merkmale induktiver u</em><a href="#_msocom_28">[LR28]</a>&nbsp;<em>nd deduktiver Vorgehensweise</em></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 1%">
-<col style="width: 12%">
-<col style="width: 1%">
-<col style="width: 36%">
-<col style="width: 1%">
-<col style="width: 44%">
-<col style="width: 1%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 20%">
+<col style="width: 10%">
+<col style="width: 26%">
+<col style="width: 10%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -616,7 +742,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("lukasroeseler\.github\.io\/opensciencebuch\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -944,7 +1070,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./geschichte.html" class="pagination-link" aria-label="Die Geschichte der Open Science Bewegung">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Die Geschichte der Open Science Bewegung</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./lösungen.html" class="pagination-link" aria-label="Lösungen">
+        <span class="nav-page-text">Lösungen</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Open Science für alle wurde von Lukas Röseler geschireben.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/edit/main/probleme.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Das Buch wurde mithilfe von <a href="https://quarto.org/">Quarto</a> erstellt.</p>
+</div>
+  </div>
+</footer>
 
 
 
