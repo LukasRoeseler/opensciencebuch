@@ -1,12 +1,12 @@
 ---
 title: "Willkommen"
 editor: visual
-format: html
+format:
+  html:
+    page-layout: full
 bibliography: references.bib
 bibliographystyle: apa
 ---
-
-Hallo
 
 Test Zitation [@Navarro.2015]
 

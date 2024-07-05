@@ -1,34 +1,54 @@
 project:
-  type: website
+  type: book
+  output-dir: _book
 
-website:
+book:
   title: "Open Science für alle"
-  navbar:
-    left:
-    - landing.qmd
+  reader-mode: true
+
+  page-footer:
+    left: |
+      Open Science für alle wurde von Lukas Röseler geschireben.
+    right: |
+      Das Buch wurde mithilfe von <a href="https://quarto.org/">Quarto</a> erstellt.
+  cover-image: cover.jpg
+  favicon: cover.jpg
+  site-url: lukasroeseler.github.io/opensciencebuch/
+  repo-url: https://github.com/LukasRoeseler/opensciencebuch
+  repo-branch: main
+  repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+
     - about.qmd
-    tools:
-    - icon: github
-      menu:
-        - text: Source Code
-          href: https://github.com/LukasRoeseler
-        - text: Einen Fehler melden
-          href: https://github.com/LukasRoeseler/opensciencebuch/issues/new/choose
-  sidebar:
-    style: "docked"
-    search: true
-    contents:
-      - text: "Einleitung"
-        href: einleitung.qmd
-      - text: "Geschichte"
-        href: geschichte.qmd
-      - text: "Probleme"
-        href: probleme.qmd
-      - text: "Lösungen"
-        href: lösungen.qmd
-      - text: "Fazit"
-        href: fazit.qmd
+    - einleitung.qmd
+
+    - part: geschichte.qmd
+      chapters:
+        - geschichte.qmd
+        - geschichte.qmd
+        
+    - part: probleme.qmd
+      chapters:
+        - geschichte.qmd
+        
+    - part: lösungen.qmd
+      chapters:
+        - geschichte.qmd
+        
+    - part: fazit.qmd
+      chapters:
+        - geschichte.qmd
+        
         
 
+format:
+  html:
+    theme:
+      - cosmo
+    code-link: true
 
-        
+    author-meta: "Lukas Röseler"
+    callout-appearance: simple
+
+editor: visual
