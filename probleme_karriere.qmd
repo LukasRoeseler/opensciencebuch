@@ -1,0 +1,25 @@
+---
+title: "Karriere in der Wissenschaft"
+editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+Ein Beruf in der Wissenschaft setzt üblicherweise einen einschlägigen Studienabschluss (Bachelor und Master) voraus und beginnt mit einer Promotion. Im Rahmen der Promotion wird das wissenschaftliche Handwerk erlernt und der Doktor\*ingrad erlangt: Studien werden durchgeführt, Daten analysiert, und Forschungsartikel veröffentlicht. In den meisten Fällen arbeiten Promovierende mit einer 50 -- 66% Stelle als wissenschaftliche Mitarbeiter[\[LR1\]](#_msocom_1) \*innen, begutachten für ihre Vorgesetzten Artikel und Forschungsgelder-Anträge, schreiben eigene Anträge, verbringen mehrere Monate im Ausland, erstellen, beaufsichtigen, und korrigieren Klausuren, betreuen Abschlussarbeiten, und beteiligen sich an der universitären Selbstverwaltung durch die Teilnahme an Sitzungen und Mitgliedschaften bei Kommissionen. Zeitlich sind dabei bei Stellen oder Stipendien üblicherweise drei Jahre angesetzt. Am Anfang meiner Promotion sagte man mir, mit einer 40-Stunden-Woche schafft man es nicht, in der vorgesehenen Zeit zu promovieren -- 50% Gehalt für über 100% Arbeitszeit und einem befristeten Vertrag also. Verträge sind dabei jedoch nicht immer auf die Zeit der Promotion befristet. Viele wissen erst wenige Monate vor Vertragsende, wie viel Prozent Gehalt sie erhalten, wie umfangreich die Lehrverpflichtung ist, und wie lange der nächste Vertrag geht. Kurz: Die Arbeitsbedingungen sind nicht optimal und man muss ein hohes Maß an Flexibilität mitbringen, wenn man sich für den Weg in die Wissenschaft entscheidet.
+
+### Doppelabhängigkeit
+
+Für die Promotionsphase gibt es verschiedene Finanzierungsmöglichkeiten: Über Unternehmen lässt sich berufsbegleitend promovieren oder Stipendien zahlen über eine begrenzte Zeit Geld, das den Grunderhalt sichert (z.B. 1100€ über 36 Monate bei der Graduiertenförderung des Landes Sachsen-Anhalt, dazu kommen noch zusätzliche Kosten für die Sozialversicherung). Der häufigste Weg ist jedoch über eine Stelle als wissenschaftliche\*r Mitarbeiter\*in. Dabei ist die vorgesetzte Person diejenige Person, die auch die Promotionsarbeit bewertet. Die einem auferlegte Korrektur der 120 Erstsemester-Klausuren steht dann im Extremfall in Konflikt mit der Zeit, die für die Arbeit an der wissenschaftlichen Studie benötigt wird. Promovierende hängen also meistens von den betreuenden Professor\*innen in Form der Beschäftigung *und* über die Bewertung ihrer Arbeit ab, was also als *Doppelabhängigkeit* bezeichnet wird.
+
+### Depressionen, Burnout, und #IchbinHanna
+
+Fächerübergreifend hat sich als Antwort auf ein inzwischen gelöschtes Erklärvideo vom Bundesministerium für Bildung und Forschung zum Wissenschaftszeitvertragsgesetz (WissZeitVG) eine Bewegung unter dem Hashtag #IchbinHanna entwickelt, die die dortige sachliche Erklärung (<https://www.youtube.com/watch?v=PIq5GlY4h4E>) und die Arbeitsbedingungen in der Wissenschaft stark kritisiert. Es heißt „damit auch nachrückende Wissenschaftlerinnen und Wissenschaftler die Chance auf den Erwerb dieser Qualifizierung haben und nicht eine Generation alle Stellen verstopft, dürfen Hochschulen und Forschungseinrichtungen befristete Verträge nach den besonderen Regeln des WissZeitVG abschließen. So kommt es zur Fluktuation und die fördert die Innovationskraft\". 90% aller Wissenschaftler\*innen sind unbefristet angestellt (<https://www.youtube.com/watch?v=H1wJmqpGhJc>).
+
+Planungsunsicherheit und massiver Konkurrenzdruck fördern die Innovationskraft? Das scheint unwahrscheinlich: Unter Forschenden mentale Erkrankungen wie Burnout (REF common academic problems) und Anzeichen für Angststörungen und Depression (REF, anxiety depression) stark verbreitet.
+
+### Top-Down-Wandel
+
+Diejenigen, die das System ändern können, also alle mit unbefristeten Verträgen, leiden nicht mehr unter ihm. Für diejenigen, die unter dem System leiden, ist es unklug, das System ändern zu wollen und sich an die Professor\*innen zu wenden, denn das sind die Leute, die über ihren späteren Verbleib in der Wissenschaft im Rahmen von Berufungskommissionen bei der Entscheidung der Vergabe von Professuren entscheiden. Im Extremfall kann das dazu führen, dass jemand Kritik an Arbeiten von Wissenschaftler\*innen in höheren Positionen aus Angst, die eigenen Chancen auf eine Professur zu schmälern, zurückfährt. Auf der anderen Seite haben Professor\*innen bewiesen, dass sie sehr gut nach den Spielregeln spielen können. Zuzugeben, dass sie eine der seltenen und heiß begehrten Stellen nicht über Qualität sondern Quantität ihrer Forschung erhalten haben, hieße, sich selbst abzuwerten.
+
+ [\[LR1\]](#_msoanchor_1)REF

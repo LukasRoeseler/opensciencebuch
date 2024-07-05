@@ -1,0 +1,57 @@
+---
+title: "Theorien"
+editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+Theorien übernehmen in der Wissenschaft oft die Funktion eines Wegweisers. Durch sie lässt sich einschätzen, wie die Ergebnisse einer Untersuchung aussehen, bevor sie durchgeführt werden. Falls die Ergebnisse also nicht wie erwartet sind, zum Beispiel wenn eine Replikation fehlschlägt, besteht der Verdacht, die Theorie könnte falsch oder unvollständig sein. In der Psychologie, in welcher Theorien häufig in Alltagssprache und nicht formalisiert (also als mathematische Formeln) notiert werden, ist der Sinn von formalen Varianten schon lange diskutiert (REF[\[LR1\]](#_msocom_1) , REF[\[LR2\]](#_msocom_2) , REF[\[LR3\]](#_msocom_3) ) und Replikationsfehlschläge werden darauf zurückgeführt, dass die Theorien zu unpräzise, missverständlich, und nicht gut ausgearbeitet sind. Es herrscht das Motto, Theorien seien wie Zahnbürsten und man solle niemals die von jemand anderem nehmen (REF[\[LR4\]](#_msocom_4) ). Daran, dass das Problem seit Jahrzehnten beschrieben wird, hat sich wenig geändert (REF[\[LR5\]](#_msocom_5) , REF[\[LR6\]](#_msocom_6) ). Inzwischen gibt es jedoch Bemühungen, das Problem auch zu lösen (REF[\[LR7\]](#_msocom_7) , REF[\[LR8\]](#_msocom_8) ), beispielsweise durch das herausstellen der Vorteile von bekannten formalen Theorien (REF[\[LR9\]](#_msocom_9) [\[LR10\]](#_msocom_10) ), Entwicklung von Werkzeugen zur Formalisierung von Theorien (<https://www.theorymaps.org>), oder durch einzelne Forschende. Der Wert von Replikationsstudien wird im Rahmen der „Theorie-Krise\" darin gesehen, dass nur durch wiederholte Untersuchung festgestellt werden kann, unter welchen Bedingungen ein bestimmtes Phänomen nachweisbar ist (z.B. REF[\[LR11\]](#_msocom_11) ).
+
+### Spezifizierung und Formalisierung
+
+Das Problem einer Theorie in Alltagssprache lässt sich wie folgt veranschaulichen: REF[\[LR12\]](#_msocom_12)  versuchten, eine Studie zur Facial Feedback Hypothese zu replizieren. Die Hypothese besagt, dass Personen, wenn sie einen Stift so im Mund halten, dass dabei diejenigen Muskeln beansprucht werden, die auch beim Grinsen genutzt werden, Dinge lustiger finden, als wenn sie den Stift anders im Mund halten. Damit geprüft werden konnte, ob Versuchspersonen ihre Stifte richtig in den Mund nahmen, wurden sie in der Replikationsstudie gefilmt. Das war in der Originalstudie nicht der Fall. Die Replikationsstudien schlugen fehl und der Unterschied der Kamera wurde von den Autoren der Originalstudie als Grund genannt, weshalb die Replikation fehlschlug (REF[\[LR13\]](#_msocom_13) ). Ob und wie die Präsenz einer Kamera in dem Versuchsaufbau relevant ist, war nicht Teil der Theorie beziehungsweise Hypothese. Durch die Formulierung der Theorie in gewöhnlicher Sprache können unendlich viele solcher „Post Hoc\" Erklärungen in die Diskussion eingebracht werden, die jegliche Replikationsfehlschläge relativieren. Bei einer formalen Theorie sind solche Missverständnisse seltener.
+
+Aus dem Problem, dass Theorien schwer verständlich und wenig informativ sind, folgt die Tatsache, dass die meisten Theorien nie falsifiziert werden, aber auch nicht weiter untersucht werden („Zombie-Theorien\", REF[\[LR14\]](#_msocom_14) ). Ähnlich verhält es sich mit psychologischen Skalen, bei denen die meisten nur einmal verwendet werden (REF[\[LR15\]](#_msocom_15) ). Flexible Theorien vereinfachen außerdem das p-Hacking: In der Theorie ist keine Vorgabe zum Aufbereiten der Daten, also kann diejenige Variante gewählt werden, die die Theorie bestätigt (REF[\[LR16\]](#_msocom_16) ).
+
+### Gegnerische Kollaborationen
+
+Ein Ansatz, bei dem verhindert werden soll, dass uninformative Studien durchgeführt werden und sich Diskussionen auf Verstehensweisen von Theorien fokussieren, sind gegnerische Kollaborationen (adversarial collaborations, REF[\[LR17\]](#_msocom_17) ). Dabei arbeiten Vertreter\*innen von zwei inkompatiblen Standpunkten miteinander und erstellen beispielsweise eine Studie, die den Konflikt beilegen soll (z.B. REF[\[LR18\]](#_msocom_18) , REF[\[LR19\]](#_msocom_19) ).
+
+ [\[LR1\]](#_msoanchor_1)meehl
+
+ [\[LR2\]](#_msoanchor_2)Severe testing(?) platt 1984
+
+ [\[LR3\]](#_msoanchor_3)<https://doi.org/10.31219/osf.io/9amhe>
+
+ [\[LR4\]](#_msoanchor_4)Herkunft des zitates rausfinden
+
+ [\[LR5\]](#_msoanchor_5)Two crises lakens
+
+ [\[LR6\]](#_msoanchor_6)muthukrishna
+
+ [\[LR7\]](#_msoanchor_7)https://www.researchgate.net/publication/378966795_Replication_and_Theory_Development_in_the_Social_and_Psychological_Sciences
+
+ [\[LR8\]](#_msoanchor_8)<https://www.researchgate.net/publication/375305901_Tension_Between_Theory_and_Practice_of_Replication>
+
+ [\[LR9\]](#_msoanchor_9)Formal theories paper mit angst, partnerschaft
+
+ [\[LR10\]](#_msoanchor_10)Robinaugh, D. J., Haslbeck, J. M., Ryan, O., Fried, E. I., & Waldorp, L. J. (2021). Invisible hands and fine calipers: A call to use formal theory as a toolkit for theory construction. *Perspectives on Psychological Science*, *16*(4), 725-743.
+
+ [\[LR11\]](#_msoanchor_11)<https://journal.trialanderror.org/pub/tension-between-theory/release/1>
+
+ [\[LR12\]](#_msoanchor_12)replication facial feedback
+
+ [\[LR13\]](#_msoanchor_13)antwort auf RRR facial feedback
+
+ [\[LR14\]](#_msoanchor_14)Ferguson, C. J., & Heene, M. (2012). A vast graveyard of undead theories: Publication bias and psychological science\'s aversion to the null. *Perspectives on Psychological Science*, *7*(6), 555-561.
+
+ [\[LR15\]](#_msoanchor_15)Elson, M., Hussey, I., Alsalti, T., & Arslan, R. C. (2023). Psychological measures aren\'t toothbrushes. *Communications Psychology*, *1*(1), 25.
+
+ [\[LR16\]](#_msoanchor_16)https://www.researchgate.net/publication/364419271_Selective_Hypothesis_Reporting_in_Psychology_Comparing_Preregistrations_and_Corresponding_Publications
+
+ [\[LR17\]](#_msoanchor_17)Cleeremans, A. (2022). Theory as adversarial collaboration. *Nature Human Behaviour*, *6*(4), 485-486.
+
+ [\[LR18\]](#_msoanchor_18)Mellers, B., Hertwig, R., & Kahneman, D. (2001). Do frequency representations eliminate conjunction effects? An exercise in adversarial collaboration. *Psychological Science*, *12*(4), 269-275.
+
+ [\[LR19\]](#_msoanchor_19)Cowan, N., Belletier, C., Doherty, J. M., Jaroslawska, A. J., Rhodes, S., Forsberg, A., \... & Logie, R. H. (2020). How do scientific views change? Notes from an extended adversarial collaboration. *Perspectives on Psychological Science*, *15*(4), 1011-1025.

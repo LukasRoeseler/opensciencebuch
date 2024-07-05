@@ -1,0 +1,27 @@
+---
+title: "Die Welt"
+editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+Nachdem nun systemische, methodische, und theoretische Gründe für die Replikationskrise diskutiert wurden, endet die Diskussion mit einem allgemeinen und ontologischen Punkt: Die Erwartung, dass sich Befunde wiederholt feststellen lassen müssen beruht auf der Annahme oder Theorie, dass die Welt -- oder zumindest die jeweils in der Wissenschaft untersuchte Gesetzmäßigkeit -- stabil ist. Bei fluktuierenden Mustern in der Welt oder im menschlichen Verhalten sind Replikationsfehlschläge wenig überraschend. Für die Psychologie haben REF [\[LR1\]](#_msocom_1) und Gergen [\[LR2\]](#_msocom_2) (REF, siehe auch REF[\[LR3\]](#_msocom_3) )
+
+-          Historizität (why psychology cannot be a science jan smedslund)
+
+-          Indeed, the argument put forward by Gergen (1973) that most (if not all) effects in psychology are not stable across time and context was one of the starting points for the first crisis in social psychology. Gergen writes: \"It is the purpose of this paper to argue that social psychology is primarily an historical inquiry. Unlike the natural sciences, it deals with facts that are largely nonrepeatable and which fluctuate markedly over time\" (1973, p. 310). Nach Lakens two crises <https://osf.io/preprints/psyarxiv/dtvs7/> p. 12
+
+o   Das ist aber unklar und auch nicht ausreichend erforscht
+
+-          more research
+
+-          evtl Ontologie[\[LR4\]](#_msocom_4) 
+
+ [\[LR1\]](#_msoanchor_1)Dänemark, why psychology cannot be a science
+
+ [\[LR2\]](#_msoanchor_2)REF siehe bei lakens
+
+ [\[LR3\]](#_msoanchor_3)Lakens two crises
+
+ [\[LR4\]](#_msoanchor_4)<https://psycnet.apa.org/record/2024-93999-001>

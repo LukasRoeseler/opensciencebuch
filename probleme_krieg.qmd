@@ -1,9 +1,7 @@
 ---
-title: "Willkommen"
+title: "Krieg und Open Science"
 editor: visual
-format:
-  html:
-    page-layout: full
+format: html
 bibliography: references.bib
 bibliographystyle: apa
 ---

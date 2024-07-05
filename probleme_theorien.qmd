@@ -1,0 +1,83 @@
+---
+title: "Theorien"
+editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+Wissenschaft [\[LR1\]](#_msocom_1) arbeitet mit Theorien. Wie diese genau aussehen, unterscheidet sich zwischen Disziplinen massiv. Während naturwissenschaftliche Bereiche häufig mit mathematischen Modellen, also Formeln, arbeiten, die den Zusammenhang zwischen Variablen explizit und unmissverständlich beschreiben und Vorhersagen erlauben, arbeiten Sozialwissenschaften häufig mit verbalen Theorien im Stile von „X und Y hängen positiv miteinander zusammen\" oder „je höher X, desto höher Y\" und traditionelle Geisteswissenschaften arbeiten beispielsweise mit verbalen Erklärungen. Verbale Theorien haben den Vorteil, dass sie tendenziell leicht verständlich und allgemein anwendbar sind, allerdings unterliegen die verwendeten Begriffe häufig individuellen, kulturellen, oder zeitlichen Einflüssen und Diskutant\*innen droht, im wissenschaftlichen Diskurs aneinander vorbei zu reden. Für formale Theorien werden alle beteiligten Variablen genau definiert und die Theorien haben häufig einen stark eingeschränkten Geltungsbereich (z.B. gelten viele physikalische Gesetze nur unter streng kontrollierten Bedingungen wie im Vakuum, bei einer bestimmten Temperatur, usw.). Die Sorge im Rahmen der Replikationskrise ist, dass Theorien nicht klar genug sind, um vorherzusagen, wann Replikationen erfolgreich sind und damit eine der Ursachen für geringe Replikationsraten sind (z.B. REF[\[LR2\]](#_msocom_2) ). Eine Theorie über die Konsequenzen von der Identifikation mit Geschlechterrollen muss beispielsweise die Veränderung von Geschlechterrollen und Besonderheiten von Geschlechterrollen in verschiedenen Ländern berücksichtigen. Dass ein und dasselbe Experiment zu diesem Thema in den USA im Jahre 1980 andere Ergebnisse hat als in Deutschland im Jahr 2020 ist wenig überraschend. Problematisch ist allerdings, dass -- auch wenn solche Ergänzungen für viele sozialwissenschaftliche Theorien sinnvoll und nötig erscheinen -- nur selten Aussagen darüber gemacht werden.
+
+Verbale Theorien sind per se nicht weniger wissenschaftlich. Im Kontext der jeweiligen Bereiche heben sich wissenschaftliche Theorien stets durch ihren besonders hohen Grad an Systematizität (Hoyningen-Huene, 2013) von alltagswissenschaftlichen Erklärungen ab. Bereiche, die Wert auf Vorhersage von Geschehnissen legen, kommen jedoch nicht ohne formale Theorien aus (Muthukrishna & Henrich, 2019). Dabei sei hervorgehoben, dass bestimmte Wissenschaften eben *keinen Wert* auf Vorhersage legen (z.B. Geschichtswissenschaften oder Disziplinen, die vorwiegend hermeneutisch vorgehen). Sozialwissenschaften wie die Psychologie, quantitative Soziologie, oder Teile der Geisteswissenschaften („Digital Humanities\") nähern sich aktuell formalen Modellen an -- in der Sozialpsychologie gab es den Aufruf, Theorien zu formalisieren beispielsweise schon einmal bei einer Krise in den 1970er Jahren (Lakens, 2023). Dadurch, dass sich Theorien durch ihren Mangel an Objektivität selten von verschiedenen Forschenden verwendet werden und sich durch ihre flexible Auslegung nur schwer wiederlegen lassen ist dort eine enorm große Menge an nutzlosen Theorien entstanden (Ferguson & Heene, 2012). Darunter sind auch einander widersprechende Theorien: Beispielsweise argumentieren Banker et al. (2017), dass „ego depletion\", also die Erschöpfung von Selbstkontrollressourcen, dazu führt, dass Personen sich eher an Hinweise anderer Leute orientieren (S. 2) während Francis et al. (2018) gegenteilig vermuten, dass die Erschöpfung verhindert, dass Hinweise überhaupt verarbeitet werden können. Beide lieferten Daten, die die jeweiligen Theorien bestätigten, jedoch fand eine Folgeuntersuchung, dass vermutlich beide falsch lagen (Röseler et al., 2020).
+
+Robinaugh et al. (2021) diskutieren Beispiele der Umwandlung verbaler Theorien in formale. Dieser Prozess hat zur Folge, dass sich neue und spezifischere Vorhersagen ableiten lassen. Wenn eine Theorie genauere Vorhersagen macht und die Menge an möglichen Ereignissen, die der Theorie widersprechen, steigt, bedeutet das einen gestiegenen *empirischen Gehalt* (siehe Tabelle Z; Glöckner & Betsch, 2011; Popper, 1959/2008).
+
+**TABELLE Z**
+
+*Aussagen über den Zusammenhang von X und Y mit verschiedenen Graden an empirischem Gehalt*[\[LR3\]](#_msocom_3) 
+
+XXX
+
+### Deduktion und [\[LR4\]](#_msocom_4) Induktion
+
+Methoden werden reformiert und Wissenschaftler\*innen diskutieren, wie Wissenschaft funktioniert, ablaufen sollte, und welche Methoden sinnvoll und unsinnig sind. Wie am hermeneutischen Zirkel klar wird, führt ein Erkenntnisweg darüber, eine Menge von Beobachtungen zu einer Regelmäßigkeit oder Gesetzmäßigkeit zusammenzufassen (*Induktion*) und ein weiterer besteht daraus, aus einer Gesetzmäßigkeit bzw. Theorie Vorhersagen über noch nicht angestellte Beobachtungen zu machen (*Deduktion*). Immer wieder wird diese Unterscheidung im wissenschaftlichen Diskurs vernachlässigt oder ausgeblendet. Beispielsweise drehte sich ein Dialog in der Konsumentenpsychologie jahrelang darum, welcher Weg besser sei, obwohl beide Wege gleichermaßen legitim sind und einander ergänzen (e.g., Calder et al., 1981). Ähnlich verhält es sich bei Konflikten zwischen qualitativer und quantitativer Vorgehensweise, die formal betrachtet jeweils eher induktiv oder deduktiv vorgehen (Borgstede & Scholz, 2021). Bei Replikationsforschung hat traditionell die induktive Seite mehr Beachtung erfahren (Hüffmeier et al., 2016): Jeder Unterschied zwischen Replikation- und Originalstudie wird als mögliche Ursache für ein Scheitern des Replikationsversuches herangezogen um die Vertrauenswürdigkeit der Originalbefunde aufrechtzuerhalten (Baumeister & Vohs, 2016). Dabei gerät außer Acht, dass kleinere Unterschiede zwischen Original- und Replikationsstudie (z.B. Verwendung der Maße, durchschnittliches Alter der Versuchspersonen, Sprache der Instruktion) von Theorien nicht erfasst werden -- ihnen zufolge also unerheblich sein sollten -- und eine fehlgeschlagene Replikation klar die Grenzen der Theorie aufzeigt und sich aus ihr Empfehlungen für die Modifikation von Theorien ableiten lassen (Cesario, 2014; Dijksterhuis, 2014). Ein Überblick über die Vorgehensweisen ist in Tabelle X.
+
+**Tabelle X**
+
+*Merkmale induktiver u*[\[LR5\]](#_msocom_5) *nd deduktiver Vorgehensweise*
+
++-----+-----------------------------------------+-----+------------------------------------------------------------------------------------------------------------------------+-----+--------------------------------------------------------------------------------------------------------------------------------------------------+----+
+|     |                                         |     |                                                                                                                        |     |                                                                                                                                                  |    |
++-----+-----------------------------------------+-----+------------------------------------------------------------------------------------------------------------------------+-----+--------------------------------------------------------------------------------------------------------------------------------------------------+----+
+|     | Facette                                 |     | Deduktives Vorgehen (Theorie-geleitet)                                                                                 |     | Induktives Vorgehen (Phänomen-geleitet)                                                                                                          |    |
++-----+-----------------------------------------+-----+------------------------------------------------------------------------------------------------------------------------+-----+--------------------------------------------------------------------------------------------------------------------------------------------------+----+
+|     |                                         |     |                                                                                                                        |     |                                                                                                                                                  |    |
++-----+-----------------------------------------+-----+------------------------------------------------------------------------------------------------------------------------+-----+--------------------------------------------------------------------------------------------------------------------------------------------------+----+
+|     | Verallgemeinerbarkeit steckt in...      |     | der Theorie: Sie ist a priori maximal allgemein (z.B. gilt sie, bis anderweitig nachgewiesen, für alle Menschen).      |     | den Daten: Erst vielfältige Beobachtungen in verschiedenen Kontexten erlauben die Annahme, dass das Phänomen allgemeingültig ist.                |    |
++-----+-----------------------------------------+-----+------------------------------------------------------------------------------------------------------------------------+-----+--------------------------------------------------------------------------------------------------------------------------------------------------+----+
+|     |                                         |     |                                                                                                                        |     |                                                                                                                                                  |    |
++-----+-----------------------------------------+-----+------------------------------------------------------------------------------------------------------------------------+-----+--------------------------------------------------------------------------------------------------------------------------------------------------+----+
+|     | Veränderung von Verallgemeinerbarkeit   |     | Mit mehr Beobachtungen sinkt die Allgemeingültigkeit.                                                                  |     | Mit mehr Beobachtungen steigt die Allgemeingültigkeit (sofern sie bestätigender Natur sind).                                                     |    |
++-----+-----------------------------------------+-----+------------------------------------------------------------------------------------------------------------------------+-----+--------------------------------------------------------------------------------------------------------------------------------------------------+----+
+|     |                                         |     |                                                                                                                        |     |                                                                                                                                                  |    |
++-----+-----------------------------------------+-----+------------------------------------------------------------------------------------------------------------------------+-----+--------------------------------------------------------------------------------------------------------------------------------------------------+----+
+|     | Art der Prüfung                         |     | Vorhersagen der Theorie werden vorwiegend Versuchen der *Widerlegung* unterzogen.                                      |     | Wiederholte Beobachtungen *bestätigen* den ursprünglichen Einzelfall.                                                                            |    |
++-----+-----------------------------------------+-----+------------------------------------------------------------------------------------------------------------------------+-----+--------------------------------------------------------------------------------------------------------------------------------------------------+----+
+|     |                                         |     |                                                                                                                        |     |                                                                                                                                                  |    |
++-----+-----------------------------------------+-----+------------------------------------------------------------------------------------------------------------------------+-----+--------------------------------------------------------------------------------------------------------------------------------------------------+----+
+|     | Wahl des Studiensettings                |     | Studentische Stichproben aus nur einem Land oder Laboruntersuchungen sind unbedenklich.                                |     | Der Kontext der Untersuchung sollte die Zielbedingungen (z.B. bei der Anwendung der Erkenntnisse in der Praxis) möglichst gut widerspiegeln.     |    |
++-----+-----------------------------------------+-----+------------------------------------------------------------------------------------------------------------------------+-----+--------------------------------------------------------------------------------------------------------------------------------------------------+----+
+|     |                                         |     |                                                                                                                        |     |                                                                                                                                                  |    |
++-----+-----------------------------------------+-----+------------------------------------------------------------------------------------------------------------------------+-----+--------------------------------------------------------------------------------------------------------------------------------------------------+----+
+
+### Hilfshypothesen
+
+Über folgende Wege lassen sich Replikationsfehlschläge erklären:
+
+1.      Fehler erster Art der Originalstudie: Der Originalbefund war nur ein Zufallsbefund oder kam durch wissenschaftliches Fehlverhalten zustande (siehe Kapitel „Freiheitsgrade von Forschenden (Researchers' Degrees of Freedom)\").
+
+2.      Fehler erster Art der Replikationsstudie: Die Originalstudie lag richtig, die Replikationsstudie hat einen Fehler gemacht (z.B. zu kleine Stichprobe, schlechte Kalibrierung der Instrumente, oder wissenschaftliches Fehlverhalten).
+
+3.      Grenzbereich des Phänomens: Beide Studien sind vertrauenswürdig. Die Replikationsstudie *unterscheidet* sich auf eine für die Theorie wichtige Weise (z.B. wurde die Replikationsstudie mit Personen aus einem anderen Land durchgeführt und die Theorie gilt nur für Menschen aus dem „Original-Land\"). Siehe hierzu auch Fanelli (REF[\[LR6\]](#_msocom_6) ).
+
+Variante 3 ist konstruktiv und nimmt beide Einzelbefunde für robust hin. Notwendig dafür ist ein theoretisch relevanter Unterschied zwischen der Original- und Replikationsstudie, der durch die unendliche Anzahl möglicher wichtiger Faktoren in den meisten Fällen zutrifft (Smedslund, 2015). Über diesen Weg lässt sich die Theorie dann modifizieren oder eine weitere Theorie aufstellen, die für den Kontext der Untersuchung ebenfalls berücksichtigt werden muss.
+
+ [\[LR1\]](#_msoanchor_1)einarbeiten: <https://link.springer.com/article/10.1007/s43638-023-00081-3>
+
+•       <https://doi.org/10.31234/osf.io/jqw35>
+
+•       Smaldino, P. (2019). Better methods can't make up for mediocre theory. *Nature*, *575*(7781), 9. https://doi.org/10.1038/d41586-019-03350-5
+
+•        
+
+ [\[LR2\]](#_msoanchor_2)<https://journal.trialanderror.org/pub/tension-between-theory/release/1>
+
+ [\[LR3\]](#_msoanchor_3)Siehe ppt folien von meinem seminar
+
+ [\[LR4\]](#_msoanchor_4)Validitätsarten in Call for Replications in Language Teaching: <https://www.sciencedirect.com/science/article/pii/S2772766123000514>
+
+Viel external und internal validity
+
+ [\[LR5\]](#_msoanchor_5)Aus preprint mit Johannes genommen, evtl anpassen oder zitieren
+
+ [\[LR6\]](#_msoanchor_6)12:15 <https://www.youtube.com/watch?v=CEAV7420jBk>

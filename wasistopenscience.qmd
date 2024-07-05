@@ -1,0 +1,19 @@
+---
+title: "Was ist Open Science?"
+editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+In der Wissenschaft dreht es sich oft um Details: Was genau passierte in der Studie? Welche Bilder sahen Versuchspersonen auf was für einem Bildschirm? Was war die Bildwiederholungsrate des Bildschirmes, und waren die Farben dabei mittels Spektralphotometer kalibriert? Wissenschaftliche Untersuchungen und ihre Befunde werden heutzutage in Zeitschriftenartikeln beschrieben. Es kommt nicht selten vor, dass darin eines der oben aufgeführten Details fehlt, in den Zusatzmaterialien nicht auffindbar ist, oder die Autor\*innen nicht gefragt werden können, weil ihre E-Mail-Adresse nicht mehr aktuell ist. Wenn nun aber der Befund von genauso einem Detail abhängt, werden zukünftige Forschende Probleme haben, ihn zum Vorschein zu bringen. Auf dieser konkreten Ebene bedeutet Open Science die Möglichkeit für jede Person, im Rahmen von ethischen und legalen Einschränkungen (z.B. Anonymität), detaillierte Einsicht in den gesamten wissenschaftlichen Prozess der Erkenntnisgewinnung zu erhalten. Es sollte also genau beschrieben werden, wie die Untersuchung ablief, welche Materialien dafür verwendet werden, welche Daten daraus resultierten, wie diese weiterverarbeitet und ausgewertet wurden, und schließlich, was daraus zu lernen ist.
+
+Auf einer abstrakten Ebene meint Open Science einen höheren Grad an Offenheit und Transparenz in allen Facetten der Wissenschaft. Dazu gehören wie beschrieben Studienmaterialien (z.B. Fragebögen, Bilder, oder Videos), der wissenschaftliche Bericht, oder der Diskurs im Rahmen der Begutachtung wissenschaftlicher Berichte durch ihre Kolleg\*innen (Peer-Review). Aber auch auf der systemischen Ebene kann der Grad an Transparenz steigen: Beispielsweise gibt es Listen mit Zeitschriften (<https://doaj.org>) oder Listen mit Professuren in einem bestimmten Wissenschaftsbereich (z.B. für die Persönlichkeitspsychologie in Deutschland: <https://docs.google.com/spreadsheets/d/1XwO4n88zkdH1bDGpW6Uz8f4sH24P5FG0ihUp7i0Y-gY/edit#gid=1684024252>). Schließlich kann mit Offenheit auch die Durchführung einer Konferenz im „hybriden Format", also an einem bestimmten Ort aber mit der Möglichkeit zur Online-Teilnahme angeboten werden, um Personen, die nicht Anreisen (können) nicht auszuschließen, ihnen gegenüber also *offen* zu sein.
+
+Insgesamt wird Open Science als Lösung [\[LR1\]](#_msocom_1) für zahlreiche[\[1\]](#_ftn1) aktuelle, meist verworrene Probleme verstanden, allen vorweg das Problem, dass sich ungefähr 50% aller wissenschaftlichen Studien in der Psychologie nicht replizieren lassen (Open Science Collaboration, 2015). Eine Übersicht über Facetten von Open Science ist in Abbildung X. Genaue Schätzungen sind schwierig, grob lässt sich dennoch sagen: Sucht man sich eine zufällige sozialwissenschaftliche Studie aus einer Fachzeitschrift aus, führt sie nach wissenschaftlichem Goldstandard erneut aus, und prüft die dort getestete Hypothese ein weiteres Mal, dann ist die Wahrscheinlichkeit, zum selben Ergebnis zu kommen, so hoch, wie bei einem Münzwurf "Zahl" (vs. Kopf) zu erhalten. Damit teilweise verbundene Probleme sind Betrug bei wissenschaftlichen Publikationen (Gopalakrishna et al., 2021), oder psychische Probleme bei Jungwissenschaftler\*innen (Satinsky et al., 2021).
+
+**Abbildung X**
+
+*Facetten von Open Science*
+
+*XXX*[\[LR2\]](#_msocom_2) 

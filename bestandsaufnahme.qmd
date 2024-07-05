@@ -1,0 +1,492 @@
+---
+title: "Bestandsaufnahme"
+editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+Eine ähnliche Vertrauenskrise gab es in der Sozialpsychologie in den 1960er Jahren (REF[\[LR1\]](#_msocom_1) ). Ein entscheidender Unterschied war diesmal die Bestandsaufnahme: Parallel zu diesen eigenartigen Befunden oder *Anomalien* vernetzten sich Psycholog\*innen um Brian Nosek international und untersuchten die Replizierbarkeit von 100 Studien aus namhaften psychologischen Fachzeitschriften (REF[\[LR2\]](#_msocom_2) )[\[1\]](#_ftn1). Sie fanden heraus, dass sich nur 39 der 100 Originalbefunde replizieren ließen. Bei allen anderen Studien, waren die Replikationsergebnisse anders als die ursprünglichen Ergebnisse. Viele weitere Großprojekte folgten, alle mit ähnlichen Ergebnissen: Die Replikationsraten lagen weit unter den Gewünschten.
+
+Zahlreiche Verbündnisse folgten. Einige Projekte konzentrierten sich auf einzelne Phänomene. Beispielsweise wurde \[RRR von XXX einfügen und beschreiben, wie viele Laboratorien und Forschende mit wie vielen Versuchspersonen nachgemacht haben\]. \[Ergebnisse\]. Andere konzentrierten sich auf Bereiche wie Forschung mit Babys (REF ManyBabies) oder Zeitschriften (REF Camerer).
+
+Liste von groß angelegten Replikationsprojekten
+
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      |                                         |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      | Projekt                                 |      | Internetadresse              |      | Zentrale Publikationen |      | Fokus |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      |                                         |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      | Many Labs                               |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      |                                         |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      | Many Primates                           |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      |                                         |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      | ManyBabies                              |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      |                                         |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      | I4R                                     |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      |                                         |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      | ManyLanguages                           |      | <https://many-languages.com> |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      |                                         |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      | Social Science Replication Project      |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      |                                         |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      | CORE                                    |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      |                                         |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      | SCORE                                   |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      |                                         |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      | \[siehe FReD Einträge und irise liste\] |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+|      |                                         |      |                              |      |                        |      |       |      |
++------+-----------------------------------------+------+------------------------------+------+------------------------+------+-------+------+
+
+### Definition von Replizierbarkeit
+
+Zu sagen, was repliziert werden konnte und was nicht[\[LR3\]](#_msocom_3) , ist erst nach einer Definition möglich. Im Sprachgebrauch von Forschenden wird mit „wurde repliziert" gemeint, dass ein Replikationsversuch zu gleichen Ergebnissen wie eine Originalstudie gekommen ist. Zu Replikationsfehlschläge wird „konnte nicht repliziert werden" gesagt, subtil davon abweichend kann „wurde nicht repliziert" meinen, dass keine Replikationsversuche existieren oder sie fehlschlugen. Für eine Wissenschaft, die über 100 Jahre alt ist, scheint es überraschend, dass noch immer keine klare Definition wichtiger Konzepte rund um das Thema Replikation vorliegt, geschweige denn es zur Routine gehört, Studien zu replizieren. Während sich in verschiedenen Feldern abweichende Taxonomien durchgesetzt haben, sieht die Verwendung in diesem Buch wie in **Tabelle 1** beschrieben aus.
+
+[\[LR4\]](#_msocom_4) 
+
+-          <https://dl.acm.org/doi/pdf/10.1145/3457143> (auch siehe Helga Wolf BA)
+
+-          Induktion und Deduktion <https://www.frontiersin.org/articles/10.3389/fpsyg.2021.605191/full>
+
+-          <https://www.acm.org/publications/policies/artifact-review-and-badging-current>
+
+-          Nicht in allen Disziplinen sinnvoll: Archäologie „zerstört" Daten bei der Erhebung indem sie sie aus ihrem Originalen Kontext herausreißt, etwas kann nicht 2x ausgegraben werden
+
+-          Diskussionen zum Verhältnis zwischen Entdecken, Replizieren, und Verallgemeinern <https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/science-with-or-without-statistics-discovergeneralizereplicate-discoverreplicategeneralize/FADF4916A14C3C9B1D1EF8949D8F893A#related-commentaries>
+
+### Weiterführende Literatur
+
+Für eine systematischere, in den Informationswissenschaften verankerte Taxonomie zur Art der Replikation siehe: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5778115/> REF). Eine an den statistischen Methoden angelehnte Taxonomie für die Ergebnisse von Replikationsstudien haben LeBel et al., (REF) vorgeschlagen. Philosophisch diskutiert wird Replikationsnähe zum Beispiel von REF (<https://psycnet.apa.org/record/2024-20853-001>).[\[LR5\]](#_msocom_5) 
+
+**Tabelle 1**
+
+*Replikationstaxonomie*
+
++-----------+------------------------------------------------------------------------------------------------------+-----------+-------------------------------------------------------------------------------------------------------------------------+-----------+
+|           |                                                                                                      |           |                                                                                                                         |           |
++-----------+------------------------------------------------------------------------------------------------------+-----------+-------------------------------------------------------------------------------------------------------------------------+-----------+
+|           | **Unterscheidungskriterium**                                                                         |           | **Ausprägungen**                                                                                                        |           |
++-----------+------------------------------------------------------------------------------------------------------+-----------+-------------------------------------------------------------------------------------------------------------------------+-----------+
+|           |                                                                                                      |           |                                                                                                                         |           |
++-----------+------------------------------------------------------------------------------------------------------+-----------+-------------------------------------------------------------------------------------------------------------------------+-----------+
+|           | Ergebnisse einer Replikationsstudie                                                                  |           | -          Erfolgreich                                                                                                  |           |
+|           |                                                                                                      |           |                                                                                                                         |           |
+|           |                                                                                                      |           | -          Fehlgeschlagen                                                                                               |           |
+|           |                                                                                                      |           |                                                                                                                         |           |
+|           |                                                                                                      |           | -          Unklar oder gemischt                                                                                         |           |
++-----------+------------------------------------------------------------------------------------------------------+-----------+-------------------------------------------------------------------------------------------------------------------------+-----------+
+|           |                                                                                                      |           |                                                                                                                         |           |
++-----------+------------------------------------------------------------------------------------------------------+-----------+-------------------------------------------------------------------------------------------------------------------------+-----------+
+|           | Nähe einer Replikationsstudie zur Originalstudie (in Anlehnung an Lebel REF und Hüffmeier et al REF) |           | -          Direkte Replikation\                                                                                         |           |
+|           |                                                                                                      |           | (selbe Versuchsleiter\*innen,\                                                                                          |           |
+|           |                                                                                                      |           | selbe Versuchsmaterialien,\                                                                                             |           |
+|           |                                                                                                      |           | neue Versuchspersonen)                                                                                                  |           |
+|           |                                                                                                      |           |                                                                                                                         |           |
+|           |                                                                                                      |           | -          Nahe Replikation\                                                                                            |           |
+|           |                                                                                                      |           | (andere Versuchsleiter\*innen,\                                                                                         |           |
+|           |                                                                                                      |           | möglichst ähnliche Versuchsmaterialien,\                                                                                |           |
+|           |                                                                                                      |           | neue Versuchspersonen)                                                                                                  |           |
+|           |                                                                                                      |           |                                                                                                                         |           |
+|           |                                                                                                      |           | -          Konzeptuelle oder konstruktive Replikation\                                                                  |           |
+|           |                                                                                                      |           | (andere Versuchsleiter\*innen,\                                                                                         |           |
+|           |                                                                                                      |           | andere Versuchsmaterialien,\                                                                                            |           |
+|           |                                                                                                      |           | neue Versuchspersonen)                                                                                                  |           |
++-----------+------------------------------------------------------------------------------------------------------+-----------+-------------------------------------------------------------------------------------------------------------------------+-----------+
+|           |                                                                                                      |           |                                                                                                                         |           |
++-----------+------------------------------------------------------------------------------------------------------+-----------+-------------------------------------------------------------------------------------------------------------------------+-----------+
+|           | Ziel der Replikation                                                                                 |           | -          Mit selben Daten und selbem Programmiercode zu denselben Ergebnissen gelangen: (komputationale) Reproduktion |           |
+|           |                                                                                                      |           |                                                                                                                         |           |
+|           |                                                                                                      |           | -          Mit anderen Daten zu denselben Ergebnissen gelangen: Replikation                                             |           |
++-----------+------------------------------------------------------------------------------------------------------+-----------+-------------------------------------------------------------------------------------------------------------------------+-----------+
+|           |                                                                                                      |           |                                                                                                                         |           |
++-----------+------------------------------------------------------------------------------------------------------+-----------+-------------------------------------------------------------------------------------------------------------------------+-----------+
+
+###  „Eine Schwalbe macht noch keinen Sommer"
+
+Ob an einem wissenschaftlichen Befund „etwas dran ist", er also einen Wahrheitsanspruch hat, hängt -- neben seiner eigentlichen Art der Etablierung -- bei der Replikationsforschung von vielen Faktoren ab. Was waren die Ergebnisse der Replikationsstudie? Wie viele und wie unterschiedliche Studien wurden durchgeführt? Wie sahen die genauen Methoden aus? Was waren die Unterschiede zwischen Replikationen und Originalstudie? Während Einzelstudien immer einen Erkenntnisgewinn liefern (mindestens, ob eine bestimmte Methode praktikabel ist, REF <https://www.researchgate.net/publication/368641396_Epistemic_Functions_of_Replicability_in_Experimental_Sciences_Defending_the_Orthodox_View>), können sie je nach Forschungsgebiet stark variieren (REF <https://www.researchgate.net/publication/359332892_Variation_and_Covariation_in_Large-scale_Replication_Projects_An_Evaluation_of_Replicability> , REF crowdsourcing hypothesis test). Für das Gesamtbild braucht es mehr, wie zum Beispiel eine statistische Aggregation aller Einzelbefunde im Rahmen einer Meta-Analyse. Ein Beispiel mit Fantasiedaten befindet sich dazu in Abbildung X.
+
+ABBILDUNG X: Forest plot mit simulierten Ergebnissen von Original + vielen Einzelstudien; in den Notes dann ausführliche Erklärung.
+
+### Disziplin-zentrierte Replikationsprojekte
+
+Ungefähr die Hälfte aller psychologischen Befunde ist also nicht replizierbar. Heißt das, alle Sozialwissenschaftlichen Lehrbücher aus allen Disziplinen sind zur Hälfte falsch? Die wohl wissenschaftlichste Antwort bei fast allen Fragen lautet "kommt darauf an".
+
+#### Psychologie
+
+Inwiefern es auf die Disziplin innerhalb der Sozialwissenschaften ankommt wurde bisher vor allem in der Psychologie untersucht. Aktuelle Tendenzen weisen darauf hin, dass Replikationsraten in der Persönlichkeitspsychologie und kognitiven Psychologie (REF, REF) höher liegen als die in der Sozialpsychologie (REF) oder im Marketing (REF charlton). Während schon hunderte Replikationsversuche für sozialpsychologische Studien veröffentlicht sind, sind es in anderen Bereichen wie dem Marketing aktuell weniger - Stand Oktober 2022 sogar nur 9. Bereiche außerhalb der Psychologie sind von Replikationsproblemen ebenfalls betroffen.
+
+-   
+
+-   Infant cognition <http://philsci-archive.pitt.edu/22679/1/PoS_final_Oct_2023-2.pdf>
+
+-   
+
+-   Animal Cognition <https://www.animalbehaviorandcognition.org/article.php?id=1197>
+
+-   
+
+-   System Justification Theory estimate: <https://onlinelibrary.wiley.com/doi/full/10.1002/ejsp.2858>
+
+-   
+
+-   Persönlichkeitspsychologie:
+
+    -   
+
+    -   <https://doi.org/10.1016/j.jrp.2023.104435>
+
+    -   
+
+    -   Soto
+
+    -   
+
+-   
+
+<!-- -->
+
+-   
+
+-   Sportpsychologie
+
+    -   
+
+    -   <https://econtent.hogrefe.com/doi/full/10.1026/1612-5010/a000406> \[special issue\]
+
+    -   
+
+    -   <https://econtent.hogrefe.com/doi/full/10.1026/1612-5010/a000404>
+
+    -   
+
+    -   <https://epub.ub.uni-muenchen.de/37148/1/Geukes_Schoenbrodt_F_Utesch_Geukes_Back_Wege_aus_der_Vertrauenskrise.pdf>
+
+    -   
+
+-   
+
+-   Spracherwerb <https://osf.io/zk5qg/>
+
+-   
+
+-   Entwicklungspsychologie: <https://onlinelibrary.wiley.com/doi/10.1002/icd.2495>
+
+-   
+
+-   Unterschiede zwischen Feldern
+
+    -   
+
+    -   Bei Psychological Science Artikeln Social -- Cognition -- Development (und andere) [https://onlinelibrary.wiley.com/doi/10.1002/icd.2361 Figure 1](https://onlinelibrary.wiley.com/doi/10.1002/icd.2361%20Figure%201)
+
+    -   
+
+-   
+
+-   Suizidforschung: <https://osf.io/preprints/osf/fwsr3>
+
+-   
+
+#### Medizin
+
+-   
+
+-   Krise in **Medizin**: Milliarden 28 USD \$ Kosten <https://journals.plos.org/plosbiology/article/info:doi/10.1371/journal.pbio.1002165> UND <https://www.nature.com/articles/483531a> UND <https://www.nature.com/articles/nrd3439-c1>
+
+-   
+
+-   Krise in Krebsforschung: <https://www.nature.com/articles/483531a?error=cookies_not_supported&code=1c1d343e-b688-4ecc-b62c-891bc2bd1017> <https://www.nature.com/articles/nrd3439-c1?error=cookies_not_supported&code=ed06429a-e279-4b03-9270-c9c8a33aecba> <https://jamanetwork.com/journals/jama/fullarticle/201218#note-joc50060-1>
+
+    -   
+
+    -   Die hälfte kann man nicht mal replizieren, weil im Originalartikel nicht genug beschrieben ist
+
+    -   
+
+    -   Von denen, die repliziert werden konnten, haben wenige geklappt
+
+    -   
+
+-   
+
+-   Krise in Medizin: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7817176/>
+
+-   
+
+-   Schätzung der Kosten: <https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002165>
+
+-   
+
+-   <https://link.springer.com/article/10.1007/s00103-023-03797-y>
+
+-   
+
+-   Präklinische Forschung: Effekte korrelieren nur schwach mit denen in klinischen Studien
+
+    -   
+
+    -   <https://link.springer.com/article/10.1007/s11060-022-04092-7>
+
+    -   
+
+    -   <https://www.science.org/doi/full/10.1126/scitranslmed.adg8656>
+
+    -   
+
+    -   overview: <https://www.jci.org/articles/view/177383>
+
+    -   
+
+-   
+
+-   Präregistrierungen in Toxikologie (<https://www.tandfonline.com/doi/full/10.1080/2833373X.2024.2314303>)
+
+-   
+
+#### Physik
+
+-          Reproduzierbarkeitsprobleme in Condensed Matter Physics <https://www.technologyreview.com/2024/05/15/1092535/a-wave-of-retractions-is-shaking-physics/>, dazu Konferenz: <https://www.pqi.org/international-conference-reproducibility-condensed-matter-physics>
+
+#### Sportwissenschaften
+
+-          Auswahl von Replikationsstudien: <https://link.springer.com/article/10.1007/s40279-022-01749-1> (z.B. Publikationsjahr, Zitationen, Disziplin, Studientyp, Frage, Variablen, Machbarkeit)
+
+-          <https://ssreplicationcentre.com/about/>
+
+-          <https://www.bmj.com/content/345/bmj.e4797> kaum Studien mit Poweranalysen zwischen 1971 und 2012
+
+-          <https://ssreplicationcentre.com/publication/publication_bias/>
+
+-          <https://ssreplicationcentre.com/publication/survey/>
+
+-          <https://storkinesiology.org>
+
+#### Wirtschaftswissenschaften
+
+-   
+
+-   Camerer replication studies
+
+-   
+
+-   Ökonomie Bestandsaufnahe (reproduce): <https://www.econstor.eu/handle/10419/250076>
+
+-   
+
+-   P-hacking in organizational research: <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0281938>
+
+-   
+
+§  Management Science (Reproducibility): <https://osf.io/mydzv/>
+
+-   
+
+-   Preisgekrönte Kollaboration zur Durchführung von Replikationsstudien: <https://wzb.eu/en/news/new-research-hub-lab2>\
+    <https://wzb.eu/en/jobs/post-doctoral-research-fellow-fmx-id-nr-243-282-243>
+
+-   
+
+-   Inventur, wie viel Replikationen es in Ökonomie gibt: <https://doi.org/10.1016/j.jebo.2023.05.009>
+
+-   
+
+-   Open Economics Guide vom ZBW <https://www.b-i-t-online.de/heft/2024-01-fachbeitrag-fingerle.pdf>
+
+-   
+
+-   Inventur, wie viele Replikationen in welchen Zeitschriften veröffentlicht werden: <https://ideas.repec.org/p/stg/wpaper/2020_01.html>
+
+-   
+
+#### Marketing und Konsumentenverhalten
+
+-          P-curve analyse zu menu design [10.1016/j.ijhm.2022.103378](http://dx.doi.org/10.1016/j.ijhm.2022.103378)
+
+-           Charlton <https://openmkt.org/research/replications-of-marketing-studies/>
+
+-          Adler, Röseler, & Schöniger, 2023
+
+-          Management Science: einige Replikationsversuche und grober Leitfaden <https://journals.sagepub.com/doi/full/10.1177/27550311241232661>
+
+-          Toward Open Science in Marketing Research: <https://osf.io/f7a8c/>
+
+-          Wird trotzdem als positiv ausgelegt, indem internal replications mitgezählt werden <https://academic.oup.com/jcr/article/51/1/157/7672979>
+
+#### Biologie
+
+-          Human Genome Project: große Gruppe an Wissenschaftler\*innen, Sequenzierung des menschlichen Gens, Konflikte wegen Bestrebungen, das Gen zu patentieren <https://www.science.org/doi/10.1126/science.287.5462.2396>
+
+o   <https://www.yourgenome.org/theme/how-did-patenting-cause-conflicts-within-the-human-genome-project/>
+
+#### Sportwissenschaften
+
+-   
+
+-   In Sportwissenschaft wird Krise vermutet: <https://royalsocietypublishing.org/doi/full/10.1098/rsos.220946>
+
+-   
+
+§  technology education research: <https://link.springer.com/article/10.1007/s10798-022-09787-6>
+
+#### Kriminologie
+
+-          Diskussion: <https://www.annualreviews.org/doi/abs/10.1146/annurev-criminol-032317-091849>
+
+#### Geowissenschaften
+
+-          Beispiele für Replikationen <https://www.sciencedirect.com/science/article/pii/S1674987124000458>
+
+-          Reproduzierbarkeit in GeoInformatik <https://o2r.info/publications/>
+
+#### Medienwissenschaften
+
+#### Kommunikationswissenschaften und Medienwissenschaften
+
+-          Need for Replication <https://www.cogitatiopress.com/mediaandcommunication/article/viewFile/7935/3695>
+
+-          Are we replicating yet? <https://doi.org/10.17645/mac.i429>
+
+-          Wie Replikationen aussehen müssten: <https://www.cogitatiopress.com/mediaandcommunication/article/viewFile/7971/3812> (Special Issue bei Media and Communication)
+
+-          Offenheit für Replikationen und Kommentare bei Zeitschrift „Sexuality & Culture" <https://link.springer.com/article/10.1007/s12119-023-10164-1>
+
+-          Liste mit Zeitschriften, die Open Science Fokus haben: <https://docs.google.com/spreadsheets/d/1WDTBIop2Eg9CKsvQ1BUgMXJdmrh1TAreyS02SiWEJDY/edit?gid=0#gid=0>
+
+-          Replikationsstudie (erfolgreich) <https://www.tandfonline.com/doi/abs/10.1080/00224499.2021.1999893>
+
+-          OS Primer für CommSci: <https://doi.org/10.1080/19312458.2019.1685660>
+
+-          Große Gruppe an Kommunikationswissenschaftler\*innen positioniert sich für OS: <https://academic.oup.com/joc/article/71/1/1/5803422>
+
+-          Konkrete Umsetzungsvorschläge: <https://academic.oup.com/joc/article/71/5/855/6339986>
+
+-          In Diskussion noch z.B.: unklare Definition von Open Science, Mangel an Aufmerksamkeit für Replikationsprobleme mit Social Media Daten <https://academic.oup.com/joc/article/71/5/686/6363639>
+
+-          OS Praktiken hängen nicht mit Impact zusammen: <https://doi.org/10.1080/23808985.2023.2201601>
+
+-          Replikationen in ComSci 2007-2016 gibt es, sind aber vor allem konzeptuell: <https://doi.org/10.1080/23808985.2019.1632218>
+
+-          Reproduzierbarkeit von Ergebnissen: <https://www.cogitatiopress.com/mediaandcommunication/article/viewFile/7789/3726>
+
+#### Soziologie
+
+In Anlehnung an Breznau, 2021
+
+-          Von großen Diskussionen weitgehend abwesend <https://www.annualreviews.org/doi/10.1146/annurev-soc-060116-053450>
+
+-          Bekannte Soziologen wie Robert Merton haben Probleme, die in Open Science Bewegung diskutiert werden, schon in der ersten Hälfte des 20. Jahrhundert angesprochen (z.B. Mertonsche Normen von Wissenschaft); umgekehrt wird Open Science als soziale Bewegung verstanden (REF[\[LR6\]](#_msocom_6) )
+
+-          Habermas hat vor Kontrolle der „public sphere" durch „private Interest" gewarnt, wie es aktuell durch wissenschaftliche Zeitschriften geschieht (<https://books.google.de/books?hl=de&lr=&id=e799caakIWoC&oi=fnd&pg=PR11&ots=5SCCe_SYy1&sig=hS4ZXlACeY-BH4eFJqjJCfCJSIo&redir_esc=y#v=onepage&q&f=false>, p. 94-101)
+
+-          Bekanntes Open Access Journal „Sociological Science" (<https://sociologicalscience.com/articles-v3-6-109/>) erlaubt direkte Reaktion und schnellen wissenschaftlichen Austausch
+
+-          Breznau, 2021 (<https://www.mdpi.com/2075-4698/11/1/9>): „If you are using quantitative methods, immediately stop hiding your work. If you ran 100 models and 99 did not support your hypothesis, then this is your finding. If a journal does not want to publish this, point the editors and reviewers to the importance of null results and the problems of publication bias. If they still refuse, consider boycotting this journal and sharing your negative experience in public."
+
+-          Probleme mit Publikationssystem auch schon seit 50 Jahren bekannt: <https://doi.org/10.2307/2064432>
+
+-          Diskussionen um Replikationsstandards seit 2007: <https://doi.org/10.1177/0049124107306659>
+
+-          Vereinzelte Replikationen, z.B. <https://sociologicalscience.com/articles-v2-20-420/?utm_content=buffer9ff03&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer>
+
+-          Retractions aufgrund von Fehlern nur sehr schwer und nur durch Druck des Originalautors möglich, dieselben Hinweise durch unabhängige Wissenschaftler\*innen wurden vorher ignoriert: <https://www.science.org/doi/10.1126/sciadv.aba5491>
+
+-          Transparenz auch verankert in großen nationalen soziologischen Vereinigungen: American Sociological Association, German Sociological Society, Japanese Sociological Society (Breznau, 2021, Table 1)
+
+-          Leipziger Replikationsstudien: <https://home.uni-leipzig.de/lerep/>
+
+-          Widerstände gegen Open Science groß, v.a. in qualitativer Soziologie\
+z.T. nur 15% bereit, Daten öffentlich zu teilen (<https://www.konsortswd.de/wp-content/uploads/forschungsinfrastrukturen_qualitative_sozialforschung.pdf#page=98>, <https://books.google.de/books?hl=de&lr=&id=KPWpCgAAQBAJ&oi=fnd&pg=PA75&ots=aAz18pO-A-&sig=MHbvPzJeYcnJt150NWEIPWTthXA&redir_esc=y#v=onepage&q&f=false>)
+
+#### Politikwissenschaften
+
+-          Probleme mit gefälschten Daten (<https://www.science.org/content/article/science-retracts-gay-marriage-paper-without-agreement-lead-author-lacour>)
+
+-          Replication Blog: <https://politicalsciencereplication.wordpress.com>
+
+-          Vorschlag für Replikationen-Policy für Journals und viele andere Arbeiten von Gary King (<https://gking.harvard.edu/pages/data-sharing-and-replication>)
+
+-          Qualitative Data Repository: <https://qdr.syr.edu> erlaubt abspeichern von Reden, Pressekonferenzen, Interview-Protokolle/-Aufnahmen, Offiziellen Dokumenten, Broschüren, Fernsehaufnahmen, Radiosendungen, Büchern, Fotos, usw.
+
+-          Diskussion zur Erweiterung von Reviewer Guidelines (Daten prüfen, Codesheet reviewen): <https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Alfd3g8AAAAJ&citation_for_view=Alfd3g8AAAAJ:d1gkVwhDpl0C>
+
+-          Auch bereits Special Issues, also Zeitschriftenausgaben, bei denen viele Artikel zu einem Thema sind, zu Open Science: <https://www.cambridge.org/core/journals/ps-political-science-and-politics/issue/FDA7996E28CFB6DD9A2052575DBABBB6>
+
+-          Reproduzierbarkeit: <https://doi.org/10.1017/S1049096520001717> fast 80% nicht erfolgreich
+
+-          Qualitative Forschung hier auch hoher Stellenwert: <https://doi.org/10.1017/S1049096520000955> Beispiel für Präregistrierung einer qualitativen Studie: <https://doi.org/10.1017/S1049096520000955>
+
+#### Erziehungswissenschaften / Bildungswissenschaften / Pädagogik
+
+-          Frage der Zeit, bis die Diskussion in das Fach übergeht, v.a. Präregistrierung, Open Materials, Open Data; Vorschläge: <https://link.springer.com/article/10.1007/s35834-020-00286-z>
+
+-          Call for Papers in Zeitschrift für Erziehungswissenschaften: <https://zfe-online.de/wp-content/uploads/2024/06/CfP_ZfE_Themenschwerpunkt_Open-Science-in-der-Bildungsforschung_final.pdf>
+
+#### Technology Education Research
+
+-          [10.1007/s10798-023-09827-9](http://dx.doi.org/10.1007/s10798-023-09827-9)
+
+-           
+
+#### Künstliche Intelligenz
+
+-          <https://www.technologyreview.com/2020/11/12/1011944/artificial-intelligence-replication-crisis-science-big-tech-google-deepmind-facebook-openai/>
+
+#### Accounting
+
+Viele Replikationen und hohe Erfolgsrate im Accounting <https://doi.org/10.2308/HORIZONS-2022-152>
+
+#### Homöopathie
+
+-          Datenbank für Replikationsbefunde wurde vorgeschalgen: <https://www.highdilution.org/index.php/ijhdr/article/view/1354>
+
+#### Chemie
+
+-          Orientiert an Vortrag von Egon Willighagen (Jülich Open Science Speaker Series, 30.01.2024
+
+-          Open standards (SMILES, chemical markup language "Jmol, JChemPaint")
+
+-          Chemistry Development Kit, Blue Obelisk Movement (2006, 2011 papers,O'Boyle Guha Willighagen et al, Journal of Cheminformatics)
+
+-         
+
+#### Epidemiologie
+
+-          <https://www.researchgate.net/publication/367025586_Toward_open_and_reproducible_epidemiology>
+
+#### Geisteswissenschaften
+
+-          V.a. digital Humanities, die quantitativ arbeiten
+
+-          Konzeptualisierung von „repetitiver Forschung" <https://link.springer.com/article/10.1007/s42803-023-00073-y#Sec5>
+
+-          Geschichte:
+
+o   <https://research.vu.nl/en/publications/brooke-on-the-merton-thesis-a-direct-replication-of-john-hedley-b>
+
+o   <https://research.vu.nl/en/publications/jewish-responses-to-copernican-thought-a-conceptual-replication-o>
+
+o   <https://research.vu.nl/en/publications/introduction-to-thematic-part-replicating-john-hedley-brookes-wor>
+
+### Phänomen-zentrierte Replikationsprojekte
+
+Im Gegensatz zu dem breit gefächerten RPP und anderen Versuchen, die Replikationsrate zu schätzen, haben sich andere Versuche auf grundlegende Phänomene fokussiert. Dutzende Gruppen auf der ganzen Welt haben sich in solchen Fällen zusammengeschlossen, auf ein Versuchsdesign geeinigt, und führen die Studien mit einer enormen Anzahl an Versuchspersonen durch. Während die dabei gefundenen Effektstärken, also sozusagen die Deutlichkeit eines Zusammenhanges oder Befundes, in fast allen Fällen weit unter denen bisheriger Studien lagen (REF compraing registered report meta-analysis; meta analysis inflation), waren sie zudem beim Großteil der Studien null, die Phänomene waren also „nicht da". So konnte beispielsweise mit einer enormen Präzision gezeigt werden, dass eine Geschichte über einen Professor Versuchspersonen in einem anschließenden Leistungstest \*nicht\* schlauer macht, oder XXX EGO DEPLETION BEIPSIEL EINFÜGEN XXX.
+
+XXX- Dissonanztheorie / force compliance paradigm

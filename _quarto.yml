@@ -3,12 +3,12 @@ project:
   output-dir: _site
 
 book:
-  title: "Open Science für alle"
+  title: "Open Science: Wie sich die Wissenschaft öffnet"
   reader-mode: true
 
   page-footer:
     left: |
-      Open Science für alle wurde von Lukas Röseler geschireben.
+      Autor: Lukas Röseler.
     right: |
       Das Buch wurde mithilfe von <a href="https://quarto.org/">Quarto</a> erstellt.
   cover-image: cover.jpg
@@ -16,29 +16,42 @@ book:
   site-url: lukasroeseler.github.io/opensciencebuch/
   repo-url: https://github.com/LukasRoeseler/opensciencebuch
   repo-branch: main
-  repo-actions: [edit, issue]
+  repo-actions: [issue]
   chapters:
     - index.qmd
 
     - about.qmd
-    - einleitung.qmd
+
+    - part: einleitung.qmd
+      chapters:
+        - wasistopenscience.qmd
+        - umgehenmitopenscience.qmd
 
     - part: geschichte.qmd
       chapters:
-        - geschichte.qmd
-        - geschichte.qmd
+        - anfänge.qmd
+        - bestandsaufnahme.qmd
+        - wandel.qmd
+        - beimerstenversuch.qmd
+        - struktur.qmd
         
     - part: probleme.qmd
       chapters:
-        - geschichte.qmd
+        - probleme_system.qmd
+        - probleme_karriere.qmd
+        - probleme_methoden.qmd
+        - probleme_theorien.qmd
+        - probleme_epistemische.qmd
+        - probleme_krieg.qmd
         
     - part: lösungen.qmd
       chapters:
-        - geschichte.qmd
+        - lösungen_system.qmd
+        - lösungen_methoden.qmd
+        - lösungen_theorien.qmd
+        - lösungen_welt.qmd
         
     - part: fazit.qmd
-      chapters:
-        - geschichte.qmd
         
   downloads: [pdf, epub]
         

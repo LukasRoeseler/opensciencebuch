@@ -1,0 +1,473 @@
+---
+title: "Methoden"
+editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+Große Menge an Lösungsvorschlägen, für einzelne Forschende oft überwältigend
+
+Wegweise:
+
+-          Ariadne
+
+-          Kumu Access2perspectives <https://kumu.io/access2perspectives/open-science#disciplines/>
+
+#### Meta-Analyses und Reviews
+
+-          use meta-analysis for replication studies <https://www.researchgate.net/publication/360848749_Replication_Is_for_Meta-Analysis>
+
+-          Ricthlinien im Hinblick auf neue Standards: <https://osf.io/preprints/psyarxiv/59vsw>
+
+##### Assessing publication bias
+
+-          [https://www.researchgate.net/publication/363583595_Assessing_Publication_Bias_a_7-Step_User's_Guide_with_Best-Practice_Recommendations](https://www.researchgate.net/publication/363583595_Assessing_Publication_Bias_a_7-Step_User's_Guide_with_Best-Practice_Recommendations)
+
+-          Toolbox: <https://www.sciencedirect.com/science/article/abs/pii/S0148296323005489>
+
+-          z-curve und z-curve validation preprint
+
+-          Test for excess significance (Ioannidis & Trikalinos, 2007)
+
+-          Incredibility Index (Schimmack, 2012)
+
+-          Funnel plot (Light & Pillemer, 1984)
+
+-          P-curve (Simonsohn, Nelson, & Simmons, 2014)
+
+-          Z-Curve (Bartos & Schimmack, 2020)
+
+-          Sensitivitätsbatterie (bushman kepes röseler körner)
+
+-          RoBMA bayesian <https://onlinelibrary.wiley.com/doi/full/10.1002/jrsm.1594>
+
+-          Cumulative science
+
+o   Machine readable manuscripts
+
+o   Reporting templates (e.g., Brandt et al., 2014, replication recipe post completion registration on OSF, REF successes and failures)
+
+o   Dynamic meta analyses
+
+§  Bodypositions,
+
+§  OpAQ Community Augmented:
+
+§  metalab.stanford,
+
+§  metabus,
+
+§  soles, ...
+
+§  Replication database
+
+§  ReproSci <https://reprosci.epfl.ch>
+
+§  <https://portlandpress.com/clinsci/article/137/10/773/233083/Systematic-online-living-evidence-summaries>
+
+§  metaUI r Paket
+
+o   Multiverse analyses
+
+o    
+
+### Reproducibility Checks / Reproduzierbarkeit
+
+-          Meta-Psychology
+
+o   Societies: Besteht auf Reproducibility: <https://doi.org/10.15626/MP.2023.4020>
+
+-          Statcheck
+
+o   <https://www.mdpi.com/2306-5729/1/3/14>
+
+o   M nuijten paper
+
+-          <https://osf.io/mydzv/>
+
+-          Guidelines: https://docs.google.com/document/d/1p7GeOpwzQyTuzAWsD1w3zql2dS6mFgEhdf38Lc3uXC4/edit#heading=h.gjdgxs
+
+-          Container / Capsules
+
+-          Journal für Computational Reproducibility: <http://rescience.github.io>
+
+-          Übergreifendes Gebiet: **Research Software Engineering** (RSE)
+
+o   <https://arxiv.org/pdf/1609.00037.pdf>
+
+-          Großangelegte Reproduktionsprojekte
+
+o   Vor allem zwei Projekte, beteiligte Personen überschneiden sich, sind aber unabhängig
+
+o   Verwenden ordinalen Reproducibility Score
+
+§  Erklärung <https://bitss.github.io/ACRE/assessment.html#levels-of-computational-reproducibility-for-a-specific-display-item>
+
+o   Social Science Reproduction Platform, <https://www.socialsciencereproduction.org/metrics>
+
+§  Leitfaden für Durchführung von Reproduktionen: <https://www.socialsciencereproduction.org/metrics>
+
+o   Institute for Replication (I4R)
+
+§  Eigene Datenbank
+
+§  Internationale Events „Replication Games\"
+
+§  Vor allem Ökonomie und Politikwissenschaften (REF[\[LR1\]](#_msocom_1) )
+
+§  Ergebnisse von 110 Reproduktionen „Mass reproducibility and replicability: a new hope\" <https://econpapers.repec.org/paper/zbwi4rdps/>
+
+o   Open Code wird seitens Zeitschriften und zukünftig eventuell auch für den Abschluss von Datennutzungsverträgen mit Panels nötig (SOEP hat zB nur 20% open code, <https://www.wifa.uni-leipzig.de/fileadmin/Fakultät_Wifa/Institut_für_Theoretische_Volkswirtschaftslehre/Professur_Makroökonomik/Economics_Research_Seminar/ERS-Paper_Marcus.pdf>)
+
+### Robustness checks
+
+-          Multiverse analysis <https://www.researchgate.net/publication/367204012_EEGManyPipelines_A_large-scale_grass-root_multi-analyst_study_of_EEG_analysis_practices_in_the_wild>
+
+#### Markdown Documents
+
+-   
+
+-   Computational Reproducibility Pilot Project: <https://psyarxiv.com/k8d4u/> \| HIER AUCH DISKUTIERT ALS SERVICE (könnte ULB machen)
+
+-   
+
+interactive multiverse / multiverse analysis
+
+Statistik
+
+-          Bayesianische Statistik
+
+-          Verbannung von NHST bei Basic and Applied Psychology, bisher mit negativen Auswirkungen, die die Probleme eventuell noch verschärfen (<https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1537892#:~:text=Part%20of%20the%20BASP%20editors,their%20expository%20text%20with%20a>)
+
+\#### Transparency Checklist
+
+### Open Data
+
+-          Abbruch einer Promotion, Wechsel der Institution, usw. können dazu führen, dass wertvolle Zeit & Arbeit verloren gehen; im Extremfall wurden Tiere aufgezogen, operiert, und Forschung kann nicht weitergeführt werden wegen schlechter Dokumentierung
+
+-          Vor Durchführung der Studie sollte klar sein, wie die Daten aussehen werden (Variablen, Bedeutung, Umfang, usw.)
+
+-          <https://www.datalad.org>  
+
+-          Myths: <https://www.sortee.org/blog/2024/04/12/2024_open_data_myths/>
+
+-          <https://leibniz-psychology.org/das-institut/drittmittelprojekte/datawiz-ii>
+
+-          originalstudie hierzu,
+
+-          Vanpaemel et al., 205,
+
+-          und das: <https://www.researchgate.net/publication/370001752_Data_sharing_upon_request_and_statistical_consistency_errors_in_psychology_A_replication_of_Wicherts_Bakker_and_Molenaar_2011>
+
+-          Repositorien für daten
+
+o   Osf.io
+
+o   Psych archives zpid
+
+o   Re3
+
+o   Universitätsspezifische (z.B. datastore der Uni Münster)
+
+o   Fachspezifische (info auch hier: <https://forschungsdaten.info/themen/veroeffentlichen-und-archivieren/repositorien/>)
+
+§  Economics & social sciences: data.gesis.org
+
+§  Earth science and life science: Pangaea.de
+
+§  Humanities, cultural studies: de.dariah.eu
+
+§  Linguistics: [www.clarin.eu](http://www.clarin.eu)
+
+§  Biology: gfbio.org
+
+§  Materialwissenschaften: nomad-lab-eu
+
+§  Psychologie: Researchbox.org
+
+o   Coscine <https://about.coscine.de>
+
+o   Zenodo (interdisziplinär)
+
+o   Git
+
+o   Open Source Lösungen statt proprietärer Software, <https://www.mkw.nrw/hochschule-und-forschung/digitalisierung-hochschule-und-wissenschaft/forschungsdatenmanagement-fdm> <https://www.nfdi.de>
+
+o   <https://www.researchobject.org/ro-crate/>
+
+o   <https://www.protocols.io>
+
+o   <https://www.icpsr.umich.edu/web/pages/ICPSR/index.html>
+
+o   Für Qualitative Daten: <https://qdr.syr.edu/deposit/data>
+
+-          Kriterien für Daten teilen: FAIR
+
+o   Pyramid of requirements <https://content.iospress.com/articles/information-services-and-use/isu805>
+
+o   Halbautomatische Extraktion von Meta-Daten <https://www.nfdi4chem.de/de/lister-halbautomatische-metadatenextraktion-aus-kommentierter-experimentdokumentation-in-elabftw/>
+
+o   Datenstruktur: <https://psych-ds.github.io>
+
+o   Fair Aware Tool zum Testen des Wissens zu FAIR <https://fairaware.dans.knaw.nl>
+
+o   Ohne Fair kostet es Europäische Wirtschaft jedes Jahr 10.2 Milliarden Euro <https://publications.europa.eu/resource/cellar/d375368c-1a0a-11e9-8d04-01aa75ed71a1.0001.01/DOC_1>
+
+o   Feld-spezifische Templates für FAIRe daten: <https://www.cos.io/blog/cedar-embeddable-editor?utm_source=linkedin&utm_medium=social>
+
+-          CARE
+
+o   Collective benefit: Ergebnisse sind auch von Gesellschaft verwendbar, Bürgerbeteiligung
+
+o   Authority to control:
+
+o   Responsibility: verschiedene Sprachenu und Weltanschauungen werden berücksichtigt
+
+o   Ethics: Wertschätzung
+
+-          Zeitschriften
+
+o   JOPD (psychologie)
+
+o   Ing.grid (ingenieurswissenschaften) <https://www.inggrid.org>
+
+o   Weitere wichtige?
+
+-          Beispiele für Datenbanken
+
+o   <https://db.mocoda2.de/c/home> Chatverläufe
+
+o   OpAQ Ankereffekte
+
+o   Cooperation database
+
+o   Stanford meta analysis aggregator
+
+o   [http://metabus.org#](http://metabus.org)
+
+o   Listen
+
+§  Aaron Charlton Mktgo.org
+
+§  <https://replications.clearerthinking.org/replications/>
+
+-          Teilen von qualitativen Daten, dort ist Anonymisierung relative schwierig: <https://doi.org/10.1177/25152459231205832>
+
+-          Data parasites / data police / data terrorists
+
+-          Nachfragen: <https://www.whatdotheyknow.com/request/trial_protocols_behavioural_insi_2>
+
+-          Mehr Zitate? <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230416>
+
+-          Workshop-Unterlagen: <https://j-5chneider.github.io/PTOS-open-data/>
+
+-          Infosammlung zu Forschungsdaten: <https://github.com/UB-Mannheim/awesome-RDM>
+
+-          Daten auch wertvoll als Gedächtnis der Gesellschaft, soetwas sollte archiviert werden, z.B. <https://liebesbriefarchiv.de>
+
+o   Daten von Personen aus allen Feldern der Gesellschaft (crowdsourced) und öffentlich verfügbar
+
+o   Andere Beispiele für Citizen Science: <https://www.buergerschaffenwissen.de> und <https://wissenschaft-im-dialog.de/mitmachen/>
+
+-          Langzeitarchivierung vs. Archivierung
+
+o   1000 Jahre <https://archiveprogram.github.com>
+
+### Replicability 
+
+\#### Assuring Replicability in Primary Research
+
+1.  
+
+2.  Andere Felder, Soziologie, Präregistrierung: <https://www.researchgate.net/publication/368454140_Preregistration_and_Registered_Reports_in_Sociology_Strengths_Weaknesses_and_Other_Considerations>
+
+3.  
+
+4.  Irise project (EU-gefördertes Projekt): <https://irise-project.eu/research-outputs>
+
+5.  
+
+6.  Messungenauigkeit: <https://osf.io/2me7t>
+
+7.  
+
+#### Preregistration / Präregistrierung
+
+-          Erklärung
+
+-          Gütekriterien: Struktur + Vollständigkeit (simmons nelson vs. Pham consumer psych)
+
+-          Analyseplan wichtig, um wirklich P-Hacking vorzubeugen: <https://www.journals.uchicago.edu/doi/abs/10.1086/730455>
+
+-          <https://www.researchgate.net/publication/375575020_Preregistration_in_practice_A_comparison_of_preregistered_and_non-preregistered_studies_in_psychology>
+
+-          High replicability neues project <https://www.nature.com/articles/s41562-023-01749-9>
+
+-          Prävalenz: <https://datacolada.org/115>
+
+-          Es sollte nicht nur über Bereitschaft von Forschenden gehen, sondern auch im Peer Review verankert werden, sauber zu präregistrieren: <https://journal.trialanderror.org/pub/reflections-on-preregistration/release/2>
+
+-          Deviations:
+
+o   Alle weichen ab: <https://osf.io/preprints/psyarxiv/nj4es> , <https://osf.io/f2z7y> slide 12/21
+
+o   niemand prüft auf Abweichungen: <https://osf.io/preprints/psyarxiv/nh7qw>
+
+o   Transparent changes: <https://osf.io/6fk87>
+
+o   How to deviate: <https://osf.io/preprints/psyarxiv/ha29k>
+
+-          Repositorien
+
+o   [https://meta-meta-resources.org/running-studies/preparation/pre-reg-repos/#](https://meta-meta-resources.org/running-studies/preparation/pre-reg-repos/)!
+
+o   <https://www.alltrials.net>
+
+o   <https://clinicaltrials.gov>
+
+o   <http://www.crd.york.ac.uk/PROSPERO/>
+
+-          Auswirkung auf Ergebnisse
+
+o   Wahrscheinlichkeit positiven Befunden statt \>90% dadurch nur 40-50%, Scheel, Schijen, & Lakens(2021) \[siehe auch <https://osf.io/f2z7y>, slide 17/21\]
+
+o   <https://drive.google.com/file/d/1gcyBE78tb9zerl4M35uS3npVGvMp-MPZ/view> The effectiveness of preregistration in psychology: Assessing preregistration strictness and preregistration-study consistency olmo van den akker[\[LR2\]](#_msocom_2) 
+
+\##### Pre-Registration templates what is a good prereg? (see Simmons et al) What to preregister? Analysis script
+
+OSF arbeitet neue ein <https://www.cos.io/blog/call-for-submission-for-preregistration-templates>
+
+-   
+
+-   Diskrepanz zwischen Präregistrierung/Prereg und Publikation: <https://bmjopen.bmj.com/content/13/10/e076264.long>
+
+-   
+
+-   Kritik: <https://journals.sagepub.com/doi/10.1037/gpr0000135>
+
+-   
+
+-   Prereg als Mittel zur Transparenz in der Forschungsplanung auch für Exploration sinnvoll, bei Hypothesentesten v.a. Eliminierung von Freiheitsgraden und Erhöhung von Vertrauen
+
+-   
+
+#### Internal Replications
+
+<https://perception.yale.edu/papers/17-Scholl-APSObserver.pdf>
+
+#### Power Analysis 
+
+-          Power
+
+-          Small-telescopes approach
+
+-          Bayesianischer Ansatz
+
+o   So lange erheben, bis Bayes-Faktor konvergiert; kann Stichprobeunumfang reduzieren, wurde so zB für Verhaltensforschung bei Tieren empfohlen (<https://www.nature.com/articles/s41684-023-01308-9>)
+
+#### New statistics
+
+-          Frequentistische Statistik wird benutzt, ist oft missverstanden und Inhalte sind mit anderen Perpsektiven vermischt (<https://journals.sagepub.com/doi/10.1177/0959354314546157?icid=int.sj-full-text.similar-articles.3>)
+
+o   Gigerenzer P-Value unwissen
+
+-          Bayesian, Kritik: <https://journals.sagepub.com/doi/10.1177/25152459231213371>
+
+-          Effektstärken statt p-Werte
+
+o   Equivalence testing
+
+o   Rölle von kleinen Effekten: <https://journals.sagepub.com/doi/full/10.1177/17456916221100420>
+
+o   practical relevance of small effect sizes <https://www.researchgate.net/publication/352412241_Evaluating_the_practical_relevance_of_observed_effect_sizes_in_psychological_research>
+
+o   effect sizes guide
+
+o    
+
+-          Alternative lakens paper \"alternative to p-value is correctly used p-value\"
+
+o   Philosophische Diskussion über Nutzen von P-Werten: <https://journals.sagepub.com/doi/full/10.1177/09593543231160112> und hier <https://journals.sagepub.com/doi/10.1177/0959354312465483?icid=int.sj-full-text.similar-articles.1>
+
+#### 21 Word Solution 
+
+#### Open Materials 
+
+#### Transparency
+
+-          Bewertungskriterien: <https://osf.io/preprints/psyarxiv/djmcq>
+
+-          Transparency Checklist
+
+### Qualitative Forschung und Open Science
+
+-          Pseudonymisierung von Daten ist hier sehr besonders, denn...: [https://doi.org/10.1177/160940692110346](https://doi.org/10.1177/16094069211034641)
+
+-          Präregistrierungs-Template: <https://docs.google.com/document/d/16vLoRAs6RmXKy0v1RCx6osSaYk4r64Hgl6S4_KtWbeM/edit#heading=h.fwbi14d4b65g>
+
+-          Sharing sensitive qualitative data: <https://www.youtube.com/watch?v=-Pha3EINF3s>
+
+o   Berichte von Opfern von Vergewaltigungen à müssen anonymisiert werden, extrem aufwändig, kann stellvertretene Traumata auslösen
+
+### Open Source Software
+
+-          Research Software Engineering (RSE) \[siehe auch oben bei reproducible code, aber hier sollte das meiste dazu stehen\]
+
+-          Non proprietär à Gefahr vor Lock-in
+
+-          GNU Lizenz
+
+-          Open Source Bedeutung
+
+-          Bibliotheken, die Wissen verwalten, positionieren sich neu, um nun Infrastruktur zu stellen (z.B. [https://www.cambridge.org/core/books/abs/data-science-in-the-library/toward-reproducibility-academic-libraries-and-open-science/6FB18D7BCD8B82E597ED0D4B390C72EE#](https://www.cambridge.org/core/books/abs/data-science-in-the-library/toward-reproducibility-academic-libraries-and-open-science/6FB18D7BCD8B82E597ED0D4B390C72EE))
+
+-          Von Chan-Zuckerberg-Initiative Unternehmen: <https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/>
+
+-          Alternative zu Clarivate Analytics Web of Science Literaturdatenbank: <https://openalex.org> REF[\[LR3\]](#_msocom_3) 
+
++-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
+|     |                                   |     |                               |     |                                 |    |
++-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
+|     | **Infrastruktur**                 |     | **Kommerzielle Software**     |     | **Open Source Software**        |    |
++-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
+|     |                                   |     |                               |     |                                 |    |
++-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
+|     | Literaturdatenbank                |     |                               |     | <https://openalex.org>          |    |
++-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
+|     |                                   |     |                               |     |                                 |    |
++-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
+|     | Literaturverwaltung               |     | Citavi, Mendeley              |     | Zotero                          |    |
++-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
+|     |                                   |     |                               |     |                                 |    |
++-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
+|     | Datenerhebung                     |     | Unipark, Millisecond Inquisit |     | PsychoPy                        |    |
++-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
+|     |                                   |     |                               |     |                                 |    |
++-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
+|     | Datenanalyse                      |     | IBM SPSS, Stata               |     | GNU R, Python, Jupyter Notebook |    |
++-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
+|     |                                   |     |                               |     |                                 |    |
++-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
+|     | Begutachtung und Veröffentlichung |     | Editorial Manager             |     | Open Journal System             |    |
++-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
+|     |                                   |     |                               |     |                                 |    |
++-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
+
+### Slow Science
+
+Viele der Entwicklungen lassen sich als „langsame Wissenschaft\" (oder engl. Slow Science) zusammenfassen. Der traditionellen Produktion von Forschungsartikeln steht die achtsame Auseinandersetzung entgegen. Dass viele der vorgeschlagenen Lösungen im Wettbewerb um veröffentlichte Forschungsartikel nachteilig sind, kritisiert beispielsweise Hyman (2024[\[LR4\]](#_msocom_4) ). Er schlägt stattdessen vor, die Probleme mittels künstlicher Intelligenz zu lösen. Verlage wie Elsevier benutzen diese beispielsweise bereits für Peer Review (<https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-the-review-process>), wenngleich Modelle wie ChatGPT 4.0 nicht dafür geeignet sind (REF[\[LR5\]](#_msocom_5) ).
+
+### Big Team Science
+
+-          CRediT und Übersetzungen <https://github.com/contributorshipcollaboration/credit-translation>
+
+ [\[LR1\]](#_msoanchor_1)<https://journals.sagepub.com/doi/10.1177/20531680241233439>
+
+ [\[LR2\]](#_msoanchor_2)viele paper von denen dazu
+
+ [\[LR3\]](#_msoanchor_3)https://arxiv.org/abs/2205.01833
+
+ [\[LR4\]](#_msoanchor_4)<https://www.researchgate.net/publication/377965519_Freeing_social_and_medical_scientists_from_the_replication_crisis>
+
+ [\[LR5\]](#_msoanchor_5)https://arxiv.org/abs/2402.05519#:\~:text=Practical%20implications%3A%20Overall%2C%20ChatGPT%20does,steps%20to%20control%20its%20use.
