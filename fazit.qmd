@@ -1,6 +1,9 @@
 ---
 title: "Fazit und Ausblick"
 editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
 ---
 
 -          AUFLISTEN / TABELLE: Gründe für „nicht repliziert"
