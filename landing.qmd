@@ -1,6 +1,15 @@
 ---
-title: "landing"
+title: "Willkommen"
 editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
 ---
 
 Hallo
+
+Test Zitation [@Navarro.2015]
+
+![Hase-Ente-Kippbild frei nach Wittgenstein: Die Quader auf der linken Seite können entweder als Schnabel einer nach links blickenden Ente oder Ohren eines nach rechts blickenden Hasen interpretiert werden.](images/entehase.jpg)
+
+OSF-Link: https://osf.io/2qxwv/

@@ -1,6 +1,9 @@
 ---
 title: "Einleitung"
+editor: visual
 format: html
+bibliography: references.bib
+bibliographystyle: apa
 ---
 
 ## Einleitung

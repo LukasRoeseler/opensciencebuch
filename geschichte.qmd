@@ -1,6 +1,9 @@
 ---
 title: "Die Geschichte der Open Science Bewegung"
+editor: visual
 format: html
+bibliography: references.bib
+bibliographystyle: apa
 ---
 
 ## Geschichte

@@ -6,15 +6,29 @@ website:
   navbar:
     left:
     - landing.qmd
-    - einleitung.qmd
-    - geschichte.qmd
-    - probleme.qmd
-    - lösungen.qmd
-    - fazit.qmd
+    - about.qmd
     tools:
     - icon: github
       menu:
         - text: Source Code
           href: https://github.com/LukasRoeseler
-        - text: Report a Bug
-          href: https://github.com/LukasRoeseler
+        - text: Einen Fehler melden
+          href: https://github.com/LukasRoeseler/opensciencebuch/issues/new/choose
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Einleitung"
+        href: einleitung.qmd
+      - text: "Geschichte"
+        href: geschichte.qmd
+      - text: "Probleme"
+        href: probleme.qmd
+      - text: "Lösungen"
+        href: lösungen.qmd
+      - text: "Fazit"
+        href: fazit.qmd
+        
+
+
+        

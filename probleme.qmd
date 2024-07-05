@@ -1,6 +1,9 @@
 ---
 title: "Probleme"
 editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
 ---
 
 # Probleme, die im Rahmen der Revolution identifiziert wurden
@@ -230,7 +233,7 @@ Methoden werden reformiert und Wissenschaftler\*innen diskutieren, wie Wissensch
 *Merkmale induktiver u*[\[LR28\]](#_msocom_28) *nd deduktiver Vorgehensweise*
 
 |     |                                       |     |                                                                                                                   |     |                                                                                                                                              |     |
-|-----|---------------------------------------|-----|-------------------------------------------------------------------------------------------------------------------|-----|----------------------------------------------------------------------------------------------------------------------------------------------|-----|
+|--------|--------|--------|---------------|--------|--------------------|--------|
 |     |                                       |     |                                                                                                                   |     |                                                                                                                                              |     |
 |     | Facette                               |     | Deduktives Vorgehen (Theorie-geleitet)                                                                            |     | Induktives Vorgehen (Phänomen-geleitet)                                                                                                      |     |
 |     |                                       |     |                                                                                                                   |     |                                                                                                                                              |     |
