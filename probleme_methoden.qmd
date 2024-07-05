@@ -14,9 +14,7 @@ So wie ein Hammer und andere Werkzeuge nicht per se gut oder schlecht sind, so s
 
 Zum Verständnis der fragwürdigen Forschungspraktiken (QRP) ist eine wichtige forschungstechnische Unterscheidung unabdingbar: Wie bei einem Spaziergang kann eine wissenschaftliche Untersuchung erkundend oder zielgerichtet sein. Mal wird frei durch die Gegend spaziert und dabei neue Entdeckungen gemacht, mal ist das Ziel und die Route klar und im Vorhinein bestimmt. Im wissenschaftlichen Kontext ist die Rede von exploratorischer und konfirmatorischer Forschung. Bei der Exploration stehen höchstens die Forschungsfrage und grobe Züge der Methode fest, bei einem konfirmatorischen Test ist alles durchdacht: Vorgehen, mögliche Ergebnisse, sowie Erklärungsansätze für jedes mögliche Resultat. Es wird dann eine spezifizierte Hypothese mit der dazugehörigen Theorie bestätigt oder eben nicht. Kein Vorgehen ist dem anderen per se überlegen (siehe Abbildung Z). Üblicherweise beginnen Untersuchungen in einem bisher wenig erschlossenen Gebiet mit Exploration, während mehr vorhergehende Forschung mit klareren Erwartungen einhergeht. Es sei dazu gesagt, dass es sich hier um Extremtypen von Forschung handelt, die ein Spektrum bilden. Geisteswissenschaftlich erlauben außerdem erst beide Ansätze zusammen Erkenntnisgewinn. Im Rahmen des hermeneutischen Zirkel, (einfach gesagt \"dem Kreis des Verstehens\", Abbildung Y) wird aus einzelnen Beobachtungen eine allgemeine Gesetzmäßigkeit formuliert (*Induktion*) und diese Gesetzmäßigkeit wird im Anschluss bei weiteren Einzelbeobachtungen geprüft (*Deduktion*).
 
-**Abbildung Y**
-
-*Hermeneutischer Zirkel*
+![Hermeneutischer Zirkel](images/hermeneutischerzirkel.jpg)
 
 Problematisch wird es, wenn exploratorische Forschung als konfirmatorische kommuniziert wird, also so getan wird, als hätte eine Einzelbeobachtung eine bereits formulierte Gesetzmäßigkeit bestätigt, statt sie bloß inspiriert. Diese Art Unlogik heißt Zirkelschluss: Die Gesetzmäßigkeit gilt wegen der Beobachtung. Und die Beobachtung entspricht der Gesetzmäßigkeit.
 
@@ -40,7 +38,7 @@ Inferenzstatistische Tests gehen nun davon aus, dass bei der Betrachtung eines s
 
 Auf der anderen Seite ist es durchaus möglich, dass eine Münze nicht fair ist, zum Beispiel in 60% der Fälle auf Kopf landet und in 40% auf Zahl. [\[LR2\]](#_msocom_2) 
 
-Abbildung 3: Eine einzelne Studie führt noch nicht zu sicherer Erkenntnis. Auch, wenn ein untersuchter Zusammenhang nicht vorliegt, kann er in Daten zufällig aufscheinen. Und auch, wenn eigentlich ein Zusammenhang vorliegt, kann dieser in den Daten durch Zufallsschwankungen nicht zu erkennen sein. Mithilfe von Open Science Praktiken soll der Zustand in den linken Kästen wiederhergestellt werden. Aus Röseler, L. (2021). *Wissenschaftliches Fehlverhalten \[Abbildung\]*. https://osf.io/uf7gz/. Lizenziert unter CC BY-Attribution International 4.0.
+![Eine einzelne Studie führt noch nicht zu sicherer Erkenntnis. Auch, wenn ein untersuchter Zusammenhang nicht vorliegt, kann er in Daten zufällig aufscheinen. Und auch, wenn eigentlich ein Zusammenhang vorliegt, kann dieser in den Daten durch Zufallsschwankungen nicht zu erkennen sein. Mithilfe von Open Science Praktiken soll der Zustand in den linken Kästen wiederhergestellt werden. Aus Röseler, L. (2021). Wissenschaftliches Fehlverhalten \[Abbildung\]. https://osf.io/uf7gz/. Lizenziert unter CC BY-Attribution International 4.0.](images/freiheitsgrade.jpg)
 
 ### Freiheitsgrade[\[LR3\]](#_msocom_3)  von Forschenden (Researchers' Degrees of Freedom)
 
@@ -54,9 +52,7 @@ Diese Fragen entsprechen Freiheitsgraden -- Forschende sind also dahingehend fle
 
 Im Datenanalyseprozess wird die Analogie des „garden of forking paths\" verwendet. In einem vereinfachten (!) Beispiel in Abbildung 4 haben wir 3x4x4x4 = 192 verschiedene Ergebnisse, die das gesamte Spektrum der Schlussfolgerungen abdecken werden -- egal, ob unsere Hypothese stimmt oder nicht.
 
-**Abbildung 4**
-
-*192 verschiedene Wege von einem Rohdatensatz zum (gewünschten) Ergebnis*
+![192 verschiedene Wege von einem Rohdatensatz zum (gewünschten) Ergebnis](images/gardenofforkingpaths.jpg)
 
 [\[LR4\]](#_msocom_4) 
 
