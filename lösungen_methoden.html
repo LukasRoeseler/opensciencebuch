@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.53">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Lukas Röseler">
+
+<title>16&nbsp; Methoden – Open Science: Wie sich die Wissenschaft öffnet</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./lösungen_theorien.html" rel="next">
+<link href="./lösungen_system.html" rel="prev">
+<link href="./cover.jpg" rel="icon" type="image/jpeg">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lösungen.html">Lösungen</a></li><li class="breadcrumb-item"><a href="./lösungen_methoden.html"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Methoden</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Open Science: Wie sich die Wissenschaft öffnet</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/LukasRoeseler/opensciencebuch" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Open-Science--Wie-sich-die-Wissenschaft-öffnet.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Open-Science--Wie-sich-die-Wissenschaft-öffnet.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Willkommen</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Über das Buch</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./einleitung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Einleitung</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./wasistopenscience.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Was ist Open Science?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./umgehenmitopenscience.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Wie ist mit Open Science umzugehen?</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./geschichte.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Die Geschichte der Open Science Bewegung</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./anfänge.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Anfänge einer Revolution</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bestandsaufnahme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Bestandsaufnahme</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./wandel.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Wandel im System</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./beimerstenversuch.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Beim ersten Versuch klappt es nie: Der Paradigmenwechsel in der Psychologie</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./struktur.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Struktur der Vertrauenskrise</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./probleme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Probleme</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./probleme_system.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Probleme des Wissenschaftlichen Systems</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./probleme_karriere.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Karriere in der Wissenschaft</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./probleme_methoden.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Probleme der wissenschaftlichen Methoden</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./probleme_theorien.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./probleme_epistemische.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Epistemische Probleme</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./probleme_krieg.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Krieg und Open Science</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./lösungen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lösungen</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lösungen_system.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Das System</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lösungen_methoden.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Methoden</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lösungen_theorien.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lösungen_welt.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Die Welt</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Fazit und Ausblick</span></span>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#reproducibility-checks-reproduzierbarkeit" id="toc-reproducibility-checks-reproduzierbarkeit" class="nav-link active" data-scroll-target="#reproducibility-checks-reproduzierbarkeit"><span class="header-section-number">16.0.1</span> Reproducibility Checks / Reproduzierbarkeit</a></li>
+  <li><a href="#robustness-checks" id="toc-robustness-checks" class="nav-link" data-scroll-target="#robustness-checks"><span class="header-section-number">16.0.2</span> Robustness checks</a></li>
+  <li><a href="#open-data" id="toc-open-data" class="nav-link" data-scroll-target="#open-data"><span class="header-section-number">16.0.3</span> Open Data</a></li>
+  <li><a href="#replicability" id="toc-replicability" class="nav-link" data-scroll-target="#replicability"><span class="header-section-number">16.0.4</span> Replicability</a></li>
+  <li><a href="#qualitative-forschung-und-open-science" id="toc-qualitative-forschung-und-open-science" class="nav-link" data-scroll-target="#qualitative-forschung-und-open-science"><span class="header-section-number">16.0.5</span> Qualitative Forschung und Open Science</a></li>
+  <li><a href="#open-source-software" id="toc-open-source-software" class="nav-link" data-scroll-target="#open-source-software"><span class="header-section-number">16.0.6</span> Open Source Software</a></li>
+  <li><a href="#slow-science" id="toc-slow-science" class="nav-link" data-scroll-target="#slow-science"><span class="header-section-number">16.0.7</span> Slow Science</a></li>
+  <li><a href="#big-team-science" id="toc-big-team-science" class="nav-link" data-scroll-target="#big-team-science"><span class="header-section-number">16.0.8</span> Big Team Science</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lösungen.html">Lösungen</a></li><li class="breadcrumb-item"><a href="./lösungen_methoden.html"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Methoden</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Methoden</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Große Menge an Lösungsvorschlägen, für einzelne Forschende oft überwältigend</p>
+<p>Wegweise:</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ariadne</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kumu Access2perspectives <a href="https://kumu.io/access2perspectives/open-science#disciplines/" class="uri">https://kumu.io/access2perspectives/open-science#disciplines/</a></p>
+<section id="meta-analyses-und-reviews" class="level4" data-number="16.0.0.1">
+<h4 data-number="16.0.0.1" class="anchored" data-anchor-id="meta-analyses-und-reviews"><span class="header-section-number">16.0.0.1</span> Meta-Analyses und Reviews</h4>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; use meta-analysis for replication studies <a href="https://www.researchgate.net/publication/360848749_Replication_Is_for_Meta-Analysis" class="uri">https://www.researchgate.net/publication/360848749_Replication_Is_for_Meta-Analysis</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ricthlinien im Hinblick auf neue Standards: <a href="https://osf.io/preprints/psyarxiv/59vsw" class="uri">https://osf.io/preprints/psyarxiv/59vsw</a></p>
+<section id="assessing-publication-bias" class="level5" data-number="16.0.0.1.1">
+<h5 data-number="16.0.0.1.1" class="anchored" data-anchor-id="assessing-publication-bias"><span class="header-section-number">16.0.0.1.1</span> Assessing publication bias</h5>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.researchgate.net/publication/363583595_Assessing_Publication_Bias_a_7-Step_User's_Guide_with_Best-Practice_Recommendations">https://www.researchgate.net/publication/363583595_Assessing_Publication_Bias_a_7-Step_User’s_Guide_with_Best-Practice_Recommendations</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toolbox: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0148296323005489" class="uri">https://www.sciencedirect.com/science/article/abs/pii/S0148296323005489</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; z-curve und z-curve validation preprint</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Test for excess significance (Ioannidis &amp; Trikalinos, 2007)</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Incredibility Index (Schimmack, 2012)</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Funnel plot (Light &amp; Pillemer, 1984)</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P-curve (Simonsohn, Nelson, &amp; Simmons, 2014)</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Z-Curve (Bartos &amp; Schimmack, 2020)</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sensitivitätsbatterie (bushman kepes röseler körner)</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RoBMA bayesian <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jrsm.1594" class="uri">https://onlinelibrary.wiley.com/doi/full/10.1002/jrsm.1594</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cumulative science</p>
+<p>o&nbsp;&nbsp; Machine readable manuscripts</p>
+<p>o&nbsp;&nbsp; Reporting templates (e.g., Brandt et al., 2014, replication recipe post completion registration on OSF, REF successes and failures)</p>
+<p>o&nbsp;&nbsp; Dynamic meta analyses</p>
+<p>§&nbsp; Bodypositions,</p>
+<p>§&nbsp; OpAQ Community Augmented:</p>
+<p>§&nbsp; metalab.stanford,</p>
+<p>§&nbsp; metabus,</p>
+<p>§&nbsp; soles, …</p>
+<p>§&nbsp; Replication database</p>
+<p>§&nbsp; ReproSci <a href="https://reprosci.epfl.ch" class="uri">https://reprosci.epfl.ch</a></p>
+<p>§&nbsp; <a href="https://portlandpress.com/clinsci/article/137/10/773/233083/Systematic-online-living-evidence-summaries" class="uri">https://portlandpress.com/clinsci/article/137/10/773/233083/Systematic-online-living-evidence-summaries</a></p>
+<p>§&nbsp; metaUI r Paket</p>
+<p>o&nbsp;&nbsp; Multiverse analyses</p>
+<p>o&nbsp;&nbsp; &nbsp;</p>
+</section>
+</section>
+<section id="reproducibility-checks-reproduzierbarkeit" class="level3" data-number="16.0.1">
+<h3 data-number="16.0.1" class="anchored" data-anchor-id="reproducibility-checks-reproduzierbarkeit"><span class="header-section-number">16.0.1</span> Reproducibility Checks / Reproduzierbarkeit</h3>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Meta-Psychology</p>
+<p>o&nbsp;&nbsp; Societies: Besteht auf Reproducibility: <a href="https://doi.org/10.15626/MP.2023.4020" class="uri">https://doi.org/10.15626/MP.2023.4020</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Statcheck</p>
+<p>o&nbsp;&nbsp; <a href="https://www.mdpi.com/2306-5729/1/3/14" class="uri">https://www.mdpi.com/2306-5729/1/3/14</a></p>
+<p>o&nbsp;&nbsp; M nuijten paper</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://osf.io/mydzv/" class="uri">https://osf.io/mydzv/</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Guidelines: https://docs.google.com/document/d/1p7GeOpwzQyTuzAWsD1w3zql2dS6mFgEhdf38Lc3uXC4/edit#heading=h.gjdgxs</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Container / Capsules</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Journal für Computational Reproducibility: <a href="http://rescience.github.io" class="uri">http://rescience.github.io</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Übergreifendes Gebiet: <strong>Research Software Engineering</strong> (RSE)</p>
+<p>o&nbsp;&nbsp; <a href="https://arxiv.org/pdf/1609.00037.pdf" class="uri">https://arxiv.org/pdf/1609.00037.pdf</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Großangelegte Reproduktionsprojekte</p>
+<p>o&nbsp;&nbsp; Vor allem zwei Projekte, beteiligte Personen überschneiden sich, sind aber unabhängig</p>
+<p>o&nbsp;&nbsp; Verwenden ordinalen Reproducibility Score</p>
+<p>§&nbsp; Erklärung <a href="https://bitss.github.io/ACRE/assessment.html#levels-of-computational-reproducibility-for-a-specific-display-item" class="uri">https://bitss.github.io/ACRE/assessment.html#levels-of-computational-reproducibility-for-a-specific-display-item</a></p>
+<p>o&nbsp;&nbsp; Social Science Reproduction Platform, <a href="https://www.socialsciencereproduction.org/metrics" class="uri">https://www.socialsciencereproduction.org/metrics</a></p>
+<p>§&nbsp; Leitfaden für Durchführung von Reproduktionen: <a href="https://www.socialsciencereproduction.org/metrics" class="uri">https://www.socialsciencereproduction.org/metrics</a></p>
+<p>o&nbsp;&nbsp; Institute for Replication (I4R)</p>
+<p>§&nbsp; Eigene Datenbank</p>
+<p>§&nbsp; Internationale Events „Replication Games"</p>
+<p>§&nbsp; Vor allem Ökonomie und Politikwissenschaften (REF<a href="#_msocom_1">[LR1]</a>&nbsp;)</p>
+<p>§&nbsp; Ergebnisse von 110 Reproduktionen „Mass reproducibility and replicability: a new hope" <a href="https://econpapers.repec.org/paper/zbwi4rdps/" class="uri">https://econpapers.repec.org/paper/zbwi4rdps/</a></p>
+<p>o&nbsp;&nbsp; Open Code wird seitens Zeitschriften und zukünftig eventuell auch für den Abschluss von Datennutzungsverträgen mit Panels nötig (SOEP hat zB nur 20% open code, <a href="https://www.wifa.uni-leipzig.de/fileadmin/Fakultät_Wifa/Institut_für_Theoretische_Volkswirtschaftslehre/Professur_Makroökonomik/Economics_Research_Seminar/ERS-Paper_Marcus.pdf" class="uri">https://www.wifa.uni-leipzig.de/fileadmin/Fakultät_Wifa/Institut_für_Theoretische_Volkswirtschaftslehre/Professur_Makroökonomik/Economics_Research_Seminar/ERS-Paper_Marcus.pdf</a>)</p>
+</section>
+<section id="robustness-checks" class="level3" data-number="16.0.2">
+<h3 data-number="16.0.2" class="anchored" data-anchor-id="robustness-checks"><span class="header-section-number">16.0.2</span> Robustness checks</h3>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Multiverse analysis <a href="https://www.researchgate.net/publication/367204012_EEGManyPipelines_A_large-scale_grass-root_multi-analyst_study_of_EEG_analysis_practices_in_the_wild" class="uri">https://www.researchgate.net/publication/367204012_EEGManyPipelines_A_large-scale_grass-root_multi-analyst_study_of_EEG_analysis_practices_in_the_wild</a></p>
+<section id="markdown-documents" class="level4" data-number="16.0.2.1">
+<h4 data-number="16.0.2.1" class="anchored" data-anchor-id="markdown-documents"><span class="header-section-number">16.0.2.1</span> Markdown Documents</h4>
+<ul>
+<li></li>
+<li><p>Computational Reproducibility Pilot Project: <a href="https://psyarxiv.com/k8d4u/" class="uri">https://psyarxiv.com/k8d4u/</a> | HIER AUCH DISKUTIERT ALS SERVICE (könnte ULB machen)</p></li>
+<li></li>
+</ul>
+<p>interactive multiverse / multiverse analysis</p>
+<p>Statistik</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bayesianische Statistik</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Verbannung von NHST bei Basic and Applied Psychology, bisher mit negativen Auswirkungen, die die Probleme eventuell noch verschärfen (<a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1537892#:~:text=Part%20of%20the%20BASP%20editors,their%20expository%20text%20with%20a" class="uri">https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1537892#:~:text=Part%20of%20the%20BASP%20editors,their%20expository%20text%20with%20a</a>)</p>
+<p>#### Transparency Checklist</p>
+</section>
+</section>
+<section id="open-data" class="level3" data-number="16.0.3">
+<h3 data-number="16.0.3" class="anchored" data-anchor-id="open-data"><span class="header-section-number">16.0.3</span> Open Data</h3>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Abbruch einer Promotion, Wechsel der Institution, usw. können dazu führen, dass wertvolle Zeit &amp; Arbeit verloren gehen; im Extremfall wurden Tiere aufgezogen, operiert, und Forschung kann nicht weitergeführt werden wegen schlechter Dokumentierung</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vor Durchführung der Studie sollte klar sein, wie die Daten aussehen werden (Variablen, Bedeutung, Umfang, usw.)</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.datalad.org" class="uri">https://www.datalad.org</a> &nbsp;</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Myths: <a href="https://www.sortee.org/blog/2024/04/12/2024_open_data_myths/" class="uri">https://www.sortee.org/blog/2024/04/12/2024_open_data_myths/</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://leibniz-psychology.org/das-institut/drittmittelprojekte/datawiz-ii" class="uri">https://leibniz-psychology.org/das-institut/drittmittelprojekte/datawiz-ii</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; originalstudie hierzu,</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vanpaemel et al., 205,</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; und das: <a href="https://www.researchgate.net/publication/370001752_Data_sharing_upon_request_and_statistical_consistency_errors_in_psychology_A_replication_of_Wicherts_Bakker_and_Molenaar_2011" class="uri">https://www.researchgate.net/publication/370001752_Data_sharing_upon_request_and_statistical_consistency_errors_in_psychology_A_replication_of_Wicherts_Bakker_and_Molenaar_2011</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Repositorien für daten</p>
+<p>o&nbsp;&nbsp; Osf.io</p>
+<p>o&nbsp;&nbsp; Psych archives zpid</p>
+<p>o&nbsp;&nbsp; Re3</p>
+<p>o&nbsp;&nbsp; Universitätsspezifische (z.B. datastore der Uni Münster)</p>
+<p>o&nbsp;&nbsp; Fachspezifische (info auch hier: <a href="https://forschungsdaten.info/themen/veroeffentlichen-und-archivieren/repositorien/" class="uri">https://forschungsdaten.info/themen/veroeffentlichen-und-archivieren/repositorien/</a>)</p>
+<p>§&nbsp; Economics &amp; social sciences: data.gesis.org</p>
+<p>§&nbsp; Earth science and life science: Pangaea.de</p>
+<p>§&nbsp; Humanities, cultural studies: de.dariah.eu</p>
+<p>§&nbsp; Linguistics: <a href="http://www.clarin.eu">www.clarin.eu</a></p>
+<p>§&nbsp; Biology: gfbio.org</p>
+<p>§&nbsp; Materialwissenschaften: nomad-lab-eu</p>
+<p>§&nbsp; Psychologie: Researchbox.org</p>
+<p>o&nbsp;&nbsp; Coscine <a href="https://about.coscine.de" class="uri">https://about.coscine.de</a></p>
+<p>o&nbsp;&nbsp; Zenodo (interdisziplinär)</p>
+<p>o&nbsp;&nbsp; Git</p>
+<p>o&nbsp;&nbsp; Open Source Lösungen statt proprietärer Software, <a href="https://www.mkw.nrw/hochschule-und-forschung/digitalisierung-hochschule-und-wissenschaft/forschungsdatenmanagement-fdm" class="uri">https://www.mkw.nrw/hochschule-und-forschung/digitalisierung-hochschule-und-wissenschaft/forschungsdatenmanagement-fdm</a> <a href="https://www.nfdi.de" class="uri">https://www.nfdi.de</a></p>
+<p>o&nbsp;&nbsp; <a href="https://www.researchobject.org/ro-crate/" class="uri">https://www.researchobject.org/ro-crate/</a></p>
+<p>o&nbsp;&nbsp; <a href="https://www.protocols.io" class="uri">https://www.protocols.io</a></p>
+<p>o&nbsp;&nbsp; <a href="https://www.icpsr.umich.edu/web/pages/ICPSR/index.html" class="uri">https://www.icpsr.umich.edu/web/pages/ICPSR/index.html</a></p>
+<p>o&nbsp;&nbsp; Für Qualitative Daten: <a href="https://qdr.syr.edu/deposit/data" class="uri">https://qdr.syr.edu/deposit/data</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kriterien für Daten teilen: FAIR</p>
+<p>o&nbsp;&nbsp; Pyramid of requirements <a href="https://content.iospress.com/articles/information-services-and-use/isu805" class="uri">https://content.iospress.com/articles/information-services-and-use/isu805</a></p>
+<p>o&nbsp;&nbsp; Halbautomatische Extraktion von Meta-Daten <a href="https://www.nfdi4chem.de/de/lister-halbautomatische-metadatenextraktion-aus-kommentierter-experimentdokumentation-in-elabftw/" class="uri">https://www.nfdi4chem.de/de/lister-halbautomatische-metadatenextraktion-aus-kommentierter-experimentdokumentation-in-elabftw/</a></p>
+<p>o&nbsp;&nbsp; Datenstruktur: <a href="https://psych-ds.github.io" class="uri">https://psych-ds.github.io</a></p>
+<p>o&nbsp;&nbsp; Fair Aware Tool zum Testen des Wissens zu FAIR <a href="https://fairaware.dans.knaw.nl" class="uri">https://fairaware.dans.knaw.nl</a></p>
+<p>o&nbsp;&nbsp; Ohne Fair kostet es Europäische Wirtschaft jedes Jahr 10.2 Milliarden Euro <a href="https://publications.europa.eu/resource/cellar/d375368c-1a0a-11e9-8d04-01aa75ed71a1.0001.01/DOC_1" class="uri">https://publications.europa.eu/resource/cellar/d375368c-1a0a-11e9-8d04-01aa75ed71a1.0001.01/DOC_1</a></p>
+<p>o&nbsp;&nbsp; Feld-spezifische Templates für FAIRe daten: <a href="https://www.cos.io/blog/cedar-embeddable-editor?utm_source=linkedin&amp;utm_medium=social" class="uri">https://www.cos.io/blog/cedar-embeddable-editor?utm_source=linkedin&amp;utm_medium=social</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CARE</p>
+<p>o&nbsp;&nbsp; Collective benefit: Ergebnisse sind auch von Gesellschaft verwendbar, Bürgerbeteiligung</p>
+<p>o&nbsp;&nbsp; Authority to control:</p>
+<p>o&nbsp;&nbsp; Responsibility: verschiedene Sprachenu und Weltanschauungen werden berücksichtigt</p>
+<p>o&nbsp;&nbsp; Ethics: Wertschätzung</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zeitschriften</p>
+<p>o&nbsp;&nbsp; JOPD (psychologie)</p>
+<p>o&nbsp;&nbsp; Ing.grid (ingenieurswissenschaften) <a href="https://www.inggrid.org" class="uri">https://www.inggrid.org</a></p>
+<p>o&nbsp;&nbsp; Weitere wichtige?</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Beispiele für Datenbanken</p>
+<p>o&nbsp;&nbsp; <a href="https://db.mocoda2.de/c/home" class="uri">https://db.mocoda2.de/c/home</a> Chatverläufe</p>
+<p>o&nbsp;&nbsp; OpAQ Ankereffekte</p>
+<p>o&nbsp;&nbsp; Cooperation database</p>
+<p>o&nbsp;&nbsp; Stanford meta analysis aggregator</p>
+<p>o&nbsp;&nbsp; <a href="http://metabus.org">http://metabus.org#</a></p>
+<p>o&nbsp;&nbsp; Listen</p>
+<p>§&nbsp; Aaron Charlton Mktgo.org</p>
+<p>§&nbsp; <a href="https://replications.clearerthinking.org/replications/" class="uri">https://replications.clearerthinking.org/replications/</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Teilen von qualitativen Daten, dort ist Anonymisierung relative schwierig: <a href="https://doi.org/10.1177/25152459231205832" class="uri">https://doi.org/10.1177/25152459231205832</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Data parasites / data police / data terrorists</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nachfragen: <a href="https://www.whatdotheyknow.com/request/trial_protocols_behavioural_insi_2" class="uri">https://www.whatdotheyknow.com/request/trial_protocols_behavioural_insi_2</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mehr Zitate? <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230416" class="uri">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230416</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Workshop-Unterlagen: <a href="https://j-5chneider.github.io/PTOS-open-data/" class="uri">https://j-5chneider.github.io/PTOS-open-data/</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Infosammlung zu Forschungsdaten: <a href="https://github.com/UB-Mannheim/awesome-RDM" class="uri">https://github.com/UB-Mannheim/awesome-RDM</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Daten auch wertvoll als Gedächtnis der Gesellschaft, soetwas sollte archiviert werden, z.B. <a href="https://liebesbriefarchiv.de" class="uri">https://liebesbriefarchiv.de</a></p>
+<p>o&nbsp;&nbsp; Daten von Personen aus allen Feldern der Gesellschaft (crowdsourced) und öffentlich verfügbar</p>
+<p>o&nbsp;&nbsp; Andere Beispiele für Citizen Science: <a href="https://www.buergerschaffenwissen.de" class="uri">https://www.buergerschaffenwissen.de</a> und <a href="https://wissenschaft-im-dialog.de/mitmachen/" class="uri">https://wissenschaft-im-dialog.de/mitmachen/</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Langzeitarchivierung vs.&nbsp;Archivierung</p>
+<p>o&nbsp;&nbsp; 1000 Jahre <a href="https://archiveprogram.github.com" class="uri">https://archiveprogram.github.com</a></p>
+</section>
+<section id="replicability" class="level3" data-number="16.0.4">
+<h3 data-number="16.0.4" class="anchored" data-anchor-id="replicability"><span class="header-section-number">16.0.4</span> Replicability</h3>
+<p>#### Assuring Replicability in Primary Research</p>
+<ol type="1">
+<li></li>
+<li><p>Andere Felder, Soziologie, Präregistrierung: <a href="https://www.researchgate.net/publication/368454140_Preregistration_and_Registered_Reports_in_Sociology_Strengths_Weaknesses_and_Other_Considerations" class="uri">https://www.researchgate.net/publication/368454140_Preregistration_and_Registered_Reports_in_Sociology_Strengths_Weaknesses_and_Other_Considerations</a></p></li>
+<li></li>
+<li><p>Irise project (EU-gefördertes Projekt): <a href="https://irise-project.eu/research-outputs" class="uri">https://irise-project.eu/research-outputs</a></p></li>
+<li></li>
+<li><p>Messungenauigkeit: <a href="https://osf.io/2me7t" class="uri">https://osf.io/2me7t</a></p></li>
+<li></li>
+</ol>
+<section id="preregistration-präregistrierung" class="level4" data-number="16.0.4.1">
+<h4 data-number="16.0.4.1" class="anchored" data-anchor-id="preregistration-präregistrierung"><span class="header-section-number">16.0.4.1</span> Preregistration / Präregistrierung</h4>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Erklärung</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gütekriterien: Struktur + Vollständigkeit (simmons nelson vs.&nbsp;Pham consumer psych)</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Analyseplan wichtig, um wirklich P-Hacking vorzubeugen: <a href="https://www.journals.uchicago.edu/doi/abs/10.1086/730455" class="uri">https://www.journals.uchicago.edu/doi/abs/10.1086/730455</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.researchgate.net/publication/375575020_Preregistration_in_practice_A_comparison_of_preregistered_and_non-preregistered_studies_in_psychology" class="uri">https://www.researchgate.net/publication/375575020_Preregistration_in_practice_A_comparison_of_preregistered_and_non-preregistered_studies_in_psychology</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; High replicability neues project <a href="https://www.nature.com/articles/s41562-023-01749-9" class="uri">https://www.nature.com/articles/s41562-023-01749-9</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prävalenz: <a href="https://datacolada.org/115" class="uri">https://datacolada.org/115</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Es sollte nicht nur über Bereitschaft von Forschenden gehen, sondern auch im Peer Review verankert werden, sauber zu präregistrieren: <a href="https://journal.trialanderror.org/pub/reflections-on-preregistration/release/2" class="uri">https://journal.trialanderror.org/pub/reflections-on-preregistration/release/2</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deviations:</p>
+<p>o&nbsp;&nbsp; Alle weichen ab: <a href="https://osf.io/preprints/psyarxiv/nj4es" class="uri">https://osf.io/preprints/psyarxiv/nj4es</a> , <a href="https://osf.io/f2z7y" class="uri">https://osf.io/f2z7y</a> slide 12/21</p>
+<p>o&nbsp;&nbsp; niemand prüft auf Abweichungen: <a href="https://osf.io/preprints/psyarxiv/nh7qw" class="uri">https://osf.io/preprints/psyarxiv/nh7qw</a></p>
+<p>o&nbsp;&nbsp; Transparent changes: <a href="https://osf.io/6fk87" class="uri">https://osf.io/6fk87</a></p>
+<p>o&nbsp;&nbsp; How to deviate: <a href="https://osf.io/preprints/psyarxiv/ha29k" class="uri">https://osf.io/preprints/psyarxiv/ha29k</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Repositorien</p>
+<p>o&nbsp;&nbsp; <a href="https://meta-meta-resources.org/running-studies/preparation/pre-reg-repos/">https://meta-meta-resources.org/running-studies/preparation/pre-reg-repos/#</a>!</p>
+<p>o&nbsp;&nbsp; <a href="https://www.alltrials.net" class="uri">https://www.alltrials.net</a></p>
+<p>o&nbsp;&nbsp; <a href="https://clinicaltrials.gov" class="uri">https://clinicaltrials.gov</a></p>
+<p>o&nbsp;&nbsp; <a href="http://www.crd.york.ac.uk/PROSPERO/" class="uri">http://www.crd.york.ac.uk/PROSPERO/</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Auswirkung auf Ergebnisse</p>
+<p>o&nbsp;&nbsp; Wahrscheinlichkeit positiven Befunden statt &gt;90% dadurch nur 40-50%, Scheel, Schijen, &amp; Lakens(2021) [siehe auch <a href="https://osf.io/f2z7y" class="uri">https://osf.io/f2z7y</a>, slide 17/21]</p>
+<p>o&nbsp;&nbsp; <a href="https://drive.google.com/file/d/1gcyBE78tb9zerl4M35uS3npVGvMp-MPZ/view" class="uri">https://drive.google.com/file/d/1gcyBE78tb9zerl4M35uS3npVGvMp-MPZ/view</a> The effectiveness of preregistration in psychology: Assessing preregistration strictness and preregistration-study consistency olmo van den akker<a href="#_msocom_2">[LR2]</a>&nbsp;</p>
+<p>##### Pre-Registration templates what is a good prereg? (see Simmons et al) What to preregister? Analysis script</p>
+<p>OSF arbeitet neue ein <a href="https://www.cos.io/blog/call-for-submission-for-preregistration-templates" class="uri">https://www.cos.io/blog/call-for-submission-for-preregistration-templates</a></p>
+<ul>
+<li></li>
+<li><p>Diskrepanz zwischen Präregistrierung/Prereg und Publikation: <a href="https://bmjopen.bmj.com/content/13/10/e076264.long" class="uri">https://bmjopen.bmj.com/content/13/10/e076264.long</a></p></li>
+<li></li>
+<li><p>Kritik: <a href="https://journals.sagepub.com/doi/10.1037/gpr0000135" class="uri">https://journals.sagepub.com/doi/10.1037/gpr0000135</a></p></li>
+<li></li>
+<li><p>Prereg als Mittel zur Transparenz in der Forschungsplanung auch für Exploration sinnvoll, bei Hypothesentesten v.a. Eliminierung von Freiheitsgraden und Erhöhung von Vertrauen</p></li>
+<li></li>
+</ul>
+</section>
+<section id="internal-replications" class="level4" data-number="16.0.4.2">
+<h4 data-number="16.0.4.2" class="anchored" data-anchor-id="internal-replications"><span class="header-section-number">16.0.4.2</span> Internal Replications</h4>
+<p><a href="https://perception.yale.edu/papers/17-Scholl-APSObserver.pdf" class="uri">https://perception.yale.edu/papers/17-Scholl-APSObserver.pdf</a></p>
+</section>
+<section id="power-analysis" class="level4" data-number="16.0.4.3">
+<h4 data-number="16.0.4.3" class="anchored" data-anchor-id="power-analysis"><span class="header-section-number">16.0.4.3</span> Power Analysis</h4>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Power</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Small-telescopes approach</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bayesianischer Ansatz</p>
+<p>o&nbsp;&nbsp; So lange erheben, bis Bayes-Faktor konvergiert; kann Stichprobeunumfang reduzieren, wurde so zB für Verhaltensforschung bei Tieren empfohlen (<a href="https://www.nature.com/articles/s41684-023-01308-9" class="uri">https://www.nature.com/articles/s41684-023-01308-9</a>)</p>
+</section>
+<section id="new-statistics" class="level4" data-number="16.0.4.4">
+<h4 data-number="16.0.4.4" class="anchored" data-anchor-id="new-statistics"><span class="header-section-number">16.0.4.4</span> New statistics</h4>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequentistische Statistik wird benutzt, ist oft missverstanden und Inhalte sind mit anderen Perpsektiven vermischt (<a href="https://journals.sagepub.com/doi/10.1177/0959354314546157?icid=int.sj-full-text.similar-articles.3" class="uri">https://journals.sagepub.com/doi/10.1177/0959354314546157?icid=int.sj-full-text.similar-articles.3</a>)</p>
+<p>o&nbsp;&nbsp; Gigerenzer P-Value unwissen</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bayesian, Kritik: <a href="https://journals.sagepub.com/doi/10.1177/25152459231213371" class="uri">https://journals.sagepub.com/doi/10.1177/25152459231213371</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Effektstärken statt p-Werte</p>
+<p>o&nbsp;&nbsp; Equivalence testing</p>
+<p>o&nbsp;&nbsp; Rölle von kleinen Effekten: <a href="https://journals.sagepub.com/doi/full/10.1177/17456916221100420" class="uri">https://journals.sagepub.com/doi/full/10.1177/17456916221100420</a></p>
+<p>o&nbsp;&nbsp; practical relevance of small effect sizes <a href="https://www.researchgate.net/publication/352412241_Evaluating_the_practical_relevance_of_observed_effect_sizes_in_psychological_research" class="uri">https://www.researchgate.net/publication/352412241_Evaluating_the_practical_relevance_of_observed_effect_sizes_in_psychological_research</a></p>
+<p>o&nbsp;&nbsp; effect sizes guide</p>
+<p>o&nbsp;&nbsp; &nbsp;</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alternative lakens paper "alternative to p-value is correctly used p-value"</p>
+<p>o&nbsp;&nbsp; Philosophische Diskussion über Nutzen von P-Werten: <a href="https://journals.sagepub.com/doi/full/10.1177/09593543231160112" class="uri">https://journals.sagepub.com/doi/full/10.1177/09593543231160112</a> und hier <a href="https://journals.sagepub.com/doi/10.1177/0959354312465483?icid=int.sj-full-text.similar-articles.1" class="uri">https://journals.sagepub.com/doi/10.1177/0959354312465483?icid=int.sj-full-text.similar-articles.1</a></p>
+</section>
+<section id="word-solution" class="level4" data-number="16.0.4.5">
+<h4 data-number="16.0.4.5" class="anchored" data-anchor-id="word-solution"><span class="header-section-number">16.0.4.5</span> 21 Word Solution</h4>
+</section>
+<section id="open-materials" class="level4" data-number="16.0.4.6">
+<h4 data-number="16.0.4.6" class="anchored" data-anchor-id="open-materials"><span class="header-section-number">16.0.4.6</span> Open Materials</h4>
+</section>
+<section id="transparency" class="level4" data-number="16.0.4.7">
+<h4 data-number="16.0.4.7" class="anchored" data-anchor-id="transparency"><span class="header-section-number">16.0.4.7</span> Transparency</h4>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bewertungskriterien: <a href="https://osf.io/preprints/psyarxiv/djmcq" class="uri">https://osf.io/preprints/psyarxiv/djmcq</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Transparency Checklist</p>
+</section>
+</section>
+<section id="qualitative-forschung-und-open-science" class="level3" data-number="16.0.5">
+<h3 data-number="16.0.5" class="anchored" data-anchor-id="qualitative-forschung-und-open-science"><span class="header-section-number">16.0.5</span> Qualitative Forschung und Open Science</h3>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pseudonymisierung von Daten ist hier sehr besonders, denn…: <a href="https://doi.org/10.1177/16094069211034641">https://doi.org/10.1177/160940692110346</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Präregistrierungs-Template: <a href="https://docs.google.com/document/d/16vLoRAs6RmXKy0v1RCx6osSaYk4r64Hgl6S4_KtWbeM/edit#heading=h.fwbi14d4b65g" class="uri">https://docs.google.com/document/d/16vLoRAs6RmXKy0v1RCx6osSaYk4r64Hgl6S4_KtWbeM/edit#heading=h.fwbi14d4b65g</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sharing sensitive qualitative data: <a href="https://www.youtube.com/watch?v=-Pha3EINF3s" class="uri">https://www.youtube.com/watch?v=-Pha3EINF3s</a></p>
+<p>o&nbsp;&nbsp; Berichte von Opfern von Vergewaltigungen à müssen anonymisiert werden, extrem aufwändig, kann stellvertretene Traumata auslösen</p>
+</section>
+<section id="open-source-software" class="level3" data-number="16.0.6">
+<h3 data-number="16.0.6" class="anchored" data-anchor-id="open-source-software"><span class="header-section-number">16.0.6</span> Open Source Software</h3>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Research Software Engineering (RSE) [siehe auch oben bei reproducible code, aber hier sollte das meiste dazu stehen]</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Non proprietär à Gefahr vor Lock-in</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GNU Lizenz</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Open Source Bedeutung</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bibliotheken, die Wissen verwalten, positionieren sich neu, um nun Infrastruktur zu stellen (z.B. <a href="https://www.cambridge.org/core/books/abs/data-science-in-the-library/toward-reproducibility-academic-libraries-and-open-science/6FB18D7BCD8B82E597ED0D4B390C72EE">https://www.cambridge.org/core/books/abs/data-science-in-the-library/toward-reproducibility-academic-libraries-and-open-science/6FB18D7BCD8B82E597ED0D4B390C72EE#</a>)</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Von Chan-Zuckerberg-Initiative Unternehmen: <a href="https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/" class="uri">https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/</a></p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alternative zu Clarivate Analytics Web of Science Literaturdatenbank: <a href="https://openalex.org" class="uri">https://openalex.org</a> REF<a href="#_msocom_3">[LR3]</a>&nbsp;</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><strong>Infrastruktur</strong></td>
+<td></td>
+<td><strong>Kommerzielle Software</strong></td>
+<td></td>
+<td><strong>Open Source Software</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Literaturdatenbank</td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="https://openalex.org" class="uri">https://openalex.org</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Literaturverwaltung</td>
+<td></td>
+<td>Citavi, Mendeley</td>
+<td></td>
+<td>Zotero</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Datenerhebung</td>
+<td></td>
+<td>Unipark, Millisecond Inquisit</td>
+<td></td>
+<td>PsychoPy</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Datenanalyse</td>
+<td></td>
+<td>IBM SPSS, Stata</td>
+<td></td>
+<td>GNU R, Python, Jupyter Notebook</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Begutachtung und Veröffentlichung</td>
+<td></td>
+<td>Editorial Manager</td>
+<td></td>
+<td>Open Journal System</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="slow-science" class="level3" data-number="16.0.7">
+<h3 data-number="16.0.7" class="anchored" data-anchor-id="slow-science"><span class="header-section-number">16.0.7</span> Slow Science</h3>
+<p>Viele der Entwicklungen lassen sich als „langsame Wissenschaft" (oder engl. Slow Science) zusammenfassen. Der traditionellen Produktion von Forschungsartikeln steht die achtsame Auseinandersetzung entgegen. Dass viele der vorgeschlagenen Lösungen im Wettbewerb um veröffentlichte Forschungsartikel nachteilig sind, kritisiert beispielsweise Hyman (2024<a href="#_msocom_4">[LR4]</a>&nbsp;). Er schlägt stattdessen vor, die Probleme mittels künstlicher Intelligenz zu lösen. Verlage wie Elsevier benutzen diese beispielsweise bereits für Peer Review (<a href="https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-the-review-process" class="uri">https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-the-review-process</a>), wenngleich Modelle wie ChatGPT 4.0 nicht dafür geeignet sind (REF<a href="#_msocom_5">[LR5]</a>&nbsp;).</p>
+</section>
+<section id="big-team-science" class="level3" data-number="16.0.8">
+<h3 data-number="16.0.8" class="anchored" data-anchor-id="big-team-science"><span class="header-section-number">16.0.8</span> Big Team Science</h3>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CRediT und Übersetzungen <a href="https://github.com/contributorshipcollaboration/credit-translation" class="uri">https://github.com/contributorshipcollaboration/credit-translation</a></p>
+<p>&nbsp;<a href="#_msoanchor_1">[LR1]</a><a href="https://journals.sagepub.com/doi/10.1177/20531680241233439" class="uri">https://journals.sagepub.com/doi/10.1177/20531680241233439</a></p>
+<p>&nbsp;<a href="#_msoanchor_2">[LR2]</a>viele paper von denen dazu</p>
+<p>&nbsp;<a href="#_msoanchor_3">[LR3]</a>https://arxiv.org/abs/2205.01833</p>
+<p>&nbsp;<a href="#_msoanchor_4">[LR4]</a><a href="https://www.researchgate.net/publication/377965519_Freeing_social_and_medical_scientists_from_the_replication_crisis" class="uri">https://www.researchgate.net/publication/377965519_Freeing_social_and_medical_scientists_from_the_replication_crisis</a></p>
+<p>&nbsp;<a href="#_msoanchor_5">[LR5]</a>https://arxiv.org/abs/2402.05519#:~:text=Practical%20implications%3A%20Overall%2C%20ChatGPT%20does,steps%20to%20control%20its%20use.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("lukasroeseler\.github\.io\/opensciencebuch\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./lösungen_system.html" class="pagination-link" aria-label="Das System">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Das System</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./lösungen_theorien.html" class="pagination-link" aria-label="Theorien">
+        <span class="nav-page-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Theorien</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Autor: Lukas Röseler.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Das Buch wurde mithilfe von <a href="https://quarto.org/">Quarto</a> erstellt.</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
