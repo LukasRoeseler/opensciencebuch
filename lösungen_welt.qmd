@@ -10,7 +10,7 @@ Nachdem nun systemische, methodische, und theoretische Gründe für die Replikat
 
 -          Historizität (why psychology cannot be a science jan smedslund)
 
--          Indeed, the argument put forward by Gergen (1973) that most (if not all) effects in psychology are not stable across time and context was one of the starting points for the first crisis in social psychology. Gergen writes: \"It is the purpose of this paper to argue that social psychology is primarily an historical inquiry. Unlike the natural sciences, it deals with facts that are largely nonrepeatable and which fluctuate markedly over time\" (1973, p. 310). Nach Lakens two crises <https://osf.io/preprints/psyarxiv/dtvs7/> p. 12
+-          Indeed, the argument put forward by Gergen (1973) that most (if not all) effects in psychology are not stable across time and context was one of the starting points for the first crisis in social psychology. Gergen writes: "It is the purpose of this paper to argue that social psychology is primarily an historical inquiry. Unlike the natural sciences, it deals with facts that are largely nonrepeatable and which fluctuate markedly over time" (1973, p. 310). Nach Lakens two crises <https://osf.io/preprints/psyarxiv/dtvs7/> p. 12
 
 o   Das ist aber unklar und auch nicht ausreichend erforscht
 

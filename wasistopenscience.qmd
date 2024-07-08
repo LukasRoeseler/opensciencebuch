@@ -12,8 +12,4 @@ Auf einer abstrakten Ebene meint Open Science einen höheren Grad an Offenheit u
 
 Insgesamt wird Open Science als Lösung [\[LR1\]](#_msocom_1) für zahlreiche[\[1\]](#_ftn1) aktuelle, meist verworrene Probleme verstanden, allen vorweg das Problem, dass sich ungefähr 50% aller wissenschaftlichen Studien in der Psychologie nicht replizieren lassen (Open Science Collaboration, 2015). Eine Übersicht über Facetten von Open Science ist in Abbildung X. Genaue Schätzungen sind schwierig, grob lässt sich dennoch sagen: Sucht man sich eine zufällige sozialwissenschaftliche Studie aus einer Fachzeitschrift aus, führt sie nach wissenschaftlichem Goldstandard erneut aus, und prüft die dort getestete Hypothese ein weiteres Mal, dann ist die Wahrscheinlichkeit, zum selben Ergebnis zu kommen, so hoch, wie bei einem Münzwurf "Zahl" (vs. Kopf) zu erhalten. Damit teilweise verbundene Probleme sind Betrug bei wissenschaftlichen Publikationen (Gopalakrishna et al., 2021), oder psychische Probleme bei Jungwissenschaftler\*innen (Satinsky et al., 2021).
 
-**Abbildung X**
-
-*Facetten von Open Science*
-
-*XXX*[\[LR2\]](#_msocom_2) 
+![Facetten von Open Science](images/facetten.jpg)

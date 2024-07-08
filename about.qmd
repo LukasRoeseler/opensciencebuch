@@ -6,14 +6,14 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
-# Über dieses Buch
-
 Wissenschaft wird zu einem Maßgeblichen Teil von Steuergeldern finanziert. Das bedeutet, eine Gesellschaft fördert einzelne Personen, um ein tieferes Verständnis von der Welt zu erlangen und im Gegenzug Unterstützung bei der Lösung verschiedener Probleme zu erhalten. Dadurch sind Wissenschaftler\*innen der Gesellschaft rechenschaft nötig. Inwiefern das in verschiedenen Disziplinen der Fall ist und wie Personen sich dafür einsetzen, diese Rechenschaft zu ermöglichen, möchte ich in diesem Buch darlegen.
 
-# Über mich
+::: callout-note
+## Über mich 
 
 Mein Name ist Lukas Röseler und ich bin Wissenschaftler. Ich habe in Wernigerode im Harz Psychologie und Wirtschaftswissenschaften studiert, mich darüber hinaus mit Philosophie und Wissenschaftstheorie beschäftigt, und habe 2021 in Bamberg meinen Doktortitel in Psychologie erhalten. Seit 2023 bin ich Geschäftsführer des Münster Center for Open Science, darf mich im Rahmen dessen mit transparenter und vertrauenswürdiger Wissenschaft in zahlreichen Disziplinen auseinandersetzen, und betreibe dabei Meta-Wissenschaft, also *Wissenschaft über Wissenschaft*.
 
 Ich habe dieses Buch geschrieben, um das Thema *Open Science* anderen Wissenschaftler\*innen, Studierenden, und allen anderen Personen auf einem einfachen aber ausführlichen Niveau zu erklären. Ein großer Aspekt von offener Wissenschaft ist nämlich, dass auch Personen von außerhalb verstehen können, was dort vor sich geht. Angesichts dieses Zieles ist das Buch kostenlos und online verfügbar.
 
-![Blick über Wernigerode](images/wernigerode.jpg){fig-alt="Bild vom Wernigeröder Schloss über Nöschenrode"}
+![Blick über Wernigerode](images/wernigerode.jpg){fig-alt="Bild vom Wernigeröder Schloss über Nöschenrode" width="600"}
+:::

@@ -8,9 +8,9 @@ book:
 
   page-footer:
     left: |
-      Autor: Lukas Röseler.
+       Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0th ed.). https://lukasroeseler.github.io/opensciencebuch
     right: |
-      Das Buch wurde mithilfe von <a href="https://quarto.org/">Quarto</a> erstellt.
+      Mithilfe von <a href="https://quarto.org/">Quarto</a> erstellt.
   cover-image: cover.jpg
   favicon: cover.jpg
   site-url: lukasroeseler.github.io/opensciencebuch/
@@ -64,5 +64,6 @@ format:
 
     author-meta: "Lukas Röseler"
     callout-appearance: simple
+    css: styles.css
 
 editor: visual

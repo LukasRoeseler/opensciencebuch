@@ -12,19 +12,19 @@ Allgemein ist eine positive Entwicklung sichtbar (REF <https://www.nature.com/ar
 
 Nosek (REF, 2019 make it possible, siehe Abbildung X) empfiehlt eine Maßnahmenstruktur, nach welcher die gewünschten Veränderung nacheinander ...
 
-1.      möglich \
+1.      möglich\
 (z.B. durch Infrastruktur wie online Repositorien, in denen Forschungsmaterialien öffentlich und gratis hochgeladen werden können),
 
-2.      einfach \
+2.      einfach\
 (z.B. durch barrierearme Angebote, mehrsprachige Anleitungen),
 
-3.      normativ \
+3.      normativ\
 (z.B. durch Wissenschaftliche Communities, die gemeinsam hinter Forderungen der Verbesserung stehen),
 
 4.      belohnend\
 (z.B. durch designierte Preise), und
 
-5.      notwendig \
+5.      notwendig\
 (z.B. durch Mindeststandards, die von Zeitschriften oder Drittmittelgebern gefordert werden)
 
 gemacht werden sollen. Wie die verschiedenen Ansätze bei den verschiedenen Akteuren, also Politik, Universitäten, oder Zeitschriften konkret aussehen, wird im Folgenden diskutiert.
@@ -67,13 +67,13 @@ o   Meta-Daten, um Verweise zu ermöglichen (ORCID-ID, ROR <https://ror.org>, 
 
 International stehen politische Parteien und Vereinigungen deutlich hinter Open Science und Open Access. Beispielsweise empfiehlt die UNESCO einen universellen Zugang zu wissenschaftlichen Wissen ungeachtet von Herkunftsland, Geschlechterrolle, politischen Grenzen, Ethnizität, oder ökonomischen oder technologischen Hürden (REF <https://unesdoc.unesco.org/ark:/48223/pf0000374837>, p. 3). Arbeitsgruppen für politische Instrumente, Förderung, und Infrastruktur wurden entsprechend gegründet (REF[\[LR2\]](#_msocom_2) ). Die G7 setzen sich für wissenschaftliche Integrität, akademische Freiheit, und Open Science ein (REF[\[LR3\]](#_msocom_3) ). Offener Zugang (REF[\[LR4\]](#_msocom_4) ) aber auch Transparenz des wissenschaftlichen Vorgehens (REF[\[LR5\]](#_msocom_5) ) wird auch seitens der Europäischen Union gefordert. Infrastruktur (z.B. European Open Science Cloud, https://eosc-portal.eu) und diverse Open Science Forschungsprojekte werden gefördert.
 
-In Deutschland hat sich die Regierung des Zyklus 2021-2025 im Rahmen des Koalitionsvertrages vorgenommen, „Open Access ... als gemeinsamen Standard \[zu\] etablieren.\" Einzelne Bundesländer wie Nordrhein-Westfalen haben in Zusammenschlüssen aus den jeweiligen Universitäten darüber hinaus Open Access Strategien entwickelt (REF[\[LR6\]](#_msocom_6) ) und arbeiten aktuell an Open Science Strategien. Andere Länder, wie zum Beispiel Schweden, haben bereits nationale Richtlinien zu Open Science entwickelt (<https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2024-01-15-national-guidelines-for-promoting-open-science-in-sweden.html>). Hinsichtlich der Problematik von Machtmissbrauch wird das Problem beispielsweise in einem Eckpunkte-Papier des Landes NRW anerkannt, doch als Einzelfall- statt System-Problem verstanden (REF[\[LR7\]](#_msocom_7) , für einen Kommentar siehe z.B. REF[\[LR8\]](#_msocom_8) ).
+In Deutschland hat sich die Regierung des Zyklus 2021-2025 im Rahmen des Koalitionsvertrages vorgenommen, „Open Access ... als gemeinsamen Standard \[zu\] etablieren." Einzelne Bundesländer wie Nordrhein-Westfalen haben in Zusammenschlüssen aus den jeweiligen Universitäten darüber hinaus Open Access Strategien entwickelt (REF[\[LR6\]](#_msocom_6) ) und arbeiten aktuell an Open Science Strategien. Andere Länder, wie zum Beispiel Schweden, haben bereits nationale Richtlinien zu Open Science entwickelt (<https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2024-01-15-national-guidelines-for-promoting-open-science-in-sweden.html>). Hinsichtlich der Problematik von Machtmissbrauch wird das Problem beispielsweise in einem Eckpunkte-Papier des Landes NRW anerkannt, doch als Einzelfall- statt System-Problem verstanden (REF[\[LR7\]](#_msocom_7) , für einen Kommentar siehe z.B. REF[\[LR8\]](#_msocom_8) ).
 
 ### Universitäten[\[LR9\]](#_msocom_9) 
 
-Das Thema Open Science hat bei vielen Universitäten bereits Anklang gefunden. Während die meisten deutschen Universitäten Mittel für Open Access Publikationen haben, existieren an einigen darüber hinaus Open Science Policys (z.B. FAU Erlangen, <https://oa-info.sh/2022/01/open-science-policy-der-uni-erlangen-nuernberg/>), Open Science Centers (z.B. [LMU Open Science Center](https://www.osc.uni-muenchen.de/index.html), <https://osf.io/smqpn>; Köln Open Science Center; Münster Center for Open Science; [Mannheim Open Science Office](https://www.uni-mannheim.de/open-science/open-science-office/)). Darüber hinaus unterstützen das Leibniz-Informationszentrum Wirtschaft in Kiel und das Leibniz-Institut für Psychologie Replikationsforschung beispielsweise mit einer Replikationszeitschrift (<https://www.jcr-econ.org>) oder im Rahmen einer Juniorprofessur für Psychologische Metawissenschaft. Eines der Metawissenschaftlichen Zentren innerhalb Europas hat sich in den Niederlanden in Tilburg gebildet. Die Berliner Universitäten haben eine gemeinsame Open Access Erklärung entwickelt (<https://openaccess.mpg.de/Berliner-Erklaerung>[\[LR10\]](#_msocom_10) ) und in Frankreich ist die Universität Sorbonne ein Pionier: Gemeinsam mit der Universität Amsterdam und dem Universitätscollege London wurde eine Erklärung über die die Veröffentlichung von Forschungsdaten unterzeichnet. XXX[\[LR11\]](#_msocom_11) . Seit 2024 hat die Universität Sorbonne darüber hinaus den Vertrag mit Clarivate für die Nutzung der Forschungsdatenbank „Web of Science\" gekündigt und arbeitet seitdem mit der Open Source Software „OpenAlex\" (REF[\[LR12\]](#_msocom_12) ).
+Das Thema Open Science hat bei vielen Universitäten bereits Anklang gefunden. Während die meisten deutschen Universitäten Mittel für Open Access Publikationen haben, existieren an einigen darüber hinaus Open Science Policys (z.B. FAU Erlangen, <https://oa-info.sh/2022/01/open-science-policy-der-uni-erlangen-nuernberg/>), Open Science Centers (z.B. [LMU Open Science Center](https://www.osc.uni-muenchen.de/index.html), <https://osf.io/smqpn>; Köln Open Science Center; Münster Center for Open Science; [Mannheim Open Science Office](https://www.uni-mannheim.de/open-science/open-science-office/)). Darüber hinaus unterstützen das Leibniz-Informationszentrum Wirtschaft in Kiel und das Leibniz-Institut für Psychologie Replikationsforschung beispielsweise mit einer Replikationszeitschrift (<https://www.jcr-econ.org>) oder im Rahmen einer Juniorprofessur für Psychologische Metawissenschaft. Eines der Metawissenschaftlichen Zentren innerhalb Europas hat sich in den Niederlanden in Tilburg gebildet. Die Berliner Universitäten haben eine gemeinsame Open Access Erklärung entwickelt (<https://openaccess.mpg.de/Berliner-Erklaerung>[\[LR10\]](#_msocom_10) ) und in Frankreich ist die Universität Sorbonne ein Pionier: Gemeinsam mit der Universität Amsterdam und dem Universitätscollege London wurde eine Erklärung über die die Veröffentlichung von Forschungsdaten unterzeichnet. XXX[\[LR11\]](#_msocom_11) . Seit 2024 hat die Universität Sorbonne darüber hinaus den Vertrag mit Clarivate für die Nutzung der Forschungsdatenbank „Web of Science" gekündigt und arbeitet seitdem mit der Open Source Software „OpenAlex" (REF[\[LR12\]](#_msocom_12) ).
 
-Für die langfristige Entwicklung der Wissenschaften haben Universitäten dadurch eine besondere Verantwortung, dass sie Wissenschaftler\*innen beschäftigen und an ihnen die Auswahl für die wenigen unbefristeten Arbeitsplätze in der Wissenschaft fallen. Wenn jahrzehntelang Professuren auf Basis subjektiver, nicht-reproduzierbarer, und für gute Wissenschaft nachrangigen Kriterien gewählt werden (z.B. Anzahl an Publikationen in Fachzeitschriften), kann sich das negativ auf die Entwicklung von Wissenschaften auswirken. Ein Forschungspreis des Berlin Institute of Health (BIH), der jährlich für Projekte zur Förderung von wissenschaftlicher Integrität verliehen wird, ging 2023 an ein Projekt, das objektive und sinnvolle Auswahlkriterien für Professor\*innen entwickelt (REF, REF[\[LR13\]](#_msocom_13) ). Innerhalb von Universitäten spielen außerdem die Bibliotheken eine aufklärerische Rolle hinsichtlich Forschungsdatenmanagement und Publikationskultur (REF, <https://liberquarterly.eu/article/view/14947>). Über sie kann der Forschungsprozess mit entsprechender Infrastruktur (z.B. zum Lagern und Veröffentlichen von Forschungsmaterialien und -ergebnissen) unterstützt werden (z.B. REF[\[LR14\]](#_msocom_14) ) und verhindert werden, dass sich eine „Abhängigkeit von wenigen kommerziellen Anbietern\" ergibt, die „begrenzen, was \[be\] der Forschung an Arbeitsmöglichkeiten und Fragestellungen erreichbar ist\" (REF[\[LR15\]](#_msocom_15) ). Eine Pflicht, Mitglieder eine Universität zur Einhaltung von Open Science Strategien zu bewegen, haben Universitäten jedoch nur eingeschränkt durch den hohen Stellenwert der „Freiheit der Forschung\" sowie der Gefahr, für Forschende weniger attraktiv zu werden, wenn beispielsweise auf namhafte Zeitschriften nicht mehr über die Universität zugegriffen werden kann, weil Verträge mit closed-access Zeitschriften gekündigt wurden. Beispielsweise klagte die juristische Fakultät der Universität Konstanz gegen eine Zweitveröffentlichungspflicht (REF[\[LR16\]](#_msocom_16) ), nach welcher Forschende von ihrem Zweitveröffentlichungsrecht Gebrauch machen müssen oder es werden Zeitschriften, deren wissenschaftliche Qualität angezweifelt wird, dennoch mit Mitteln zur Veröffentlichung bezuschusst (<https://www.suub.uni-bremen.de/ueber-uns/neues-aus-der-suub/unter-kritischer-beobachtung-open-access-publikationen-im-mdpi-verlag>).
+Für die langfristige Entwicklung der Wissenschaften haben Universitäten dadurch eine besondere Verantwortung, dass sie Wissenschaftler\*innen beschäftigen und an ihnen die Auswahl für die wenigen unbefristeten Arbeitsplätze in der Wissenschaft fallen. Wenn jahrzehntelang Professuren auf Basis subjektiver, nicht-reproduzierbarer, und für gute Wissenschaft nachrangigen Kriterien gewählt werden (z.B. Anzahl an Publikationen in Fachzeitschriften), kann sich das negativ auf die Entwicklung von Wissenschaften auswirken. Ein Forschungspreis des Berlin Institute of Health (BIH), der jährlich für Projekte zur Förderung von wissenschaftlicher Integrität verliehen wird, ging 2023 an ein Projekt, das objektive und sinnvolle Auswahlkriterien für Professor\*innen entwickelt (REF, REF[\[LR13\]](#_msocom_13) ). Innerhalb von Universitäten spielen außerdem die Bibliotheken eine aufklärerische Rolle hinsichtlich Forschungsdatenmanagement und Publikationskultur (REF, <https://liberquarterly.eu/article/view/14947>). Über sie kann der Forschungsprozess mit entsprechender Infrastruktur (z.B. zum Lagern und Veröffentlichen von Forschungsmaterialien und -ergebnissen) unterstützt werden (z.B. REF[\[LR14\]](#_msocom_14) ) und verhindert werden, dass sich eine „Abhängigkeit von wenigen kommerziellen Anbietern" ergibt, die „begrenzen, was \[be\] der Forschung an Arbeitsmöglichkeiten und Fragestellungen erreichbar ist" (REF[\[LR15\]](#_msocom_15) ). Eine Pflicht, Mitglieder eine Universität zur Einhaltung von Open Science Strategien zu bewegen, haben Universitäten jedoch nur eingeschränkt durch den hohen Stellenwert der „Freiheit der Forschung" sowie der Gefahr, für Forschende weniger attraktiv zu werden, wenn beispielsweise auf namhafte Zeitschriften nicht mehr über die Universität zugegriffen werden kann, weil Verträge mit closed-access Zeitschriften gekündigt wurden. Beispielsweise klagte die juristische Fakultät der Universität Konstanz gegen eine Zweitveröffentlichungspflicht (REF[\[LR16\]](#_msocom_16) ), nach welcher Forschende von ihrem Zweitveröffentlichungsrecht Gebrauch machen müssen oder es werden Zeitschriften, deren wissenschaftliche Qualität angezweifelt wird, dennoch mit Mitteln zur Veröffentlichung bezuschusst (<https://www.suub.uni-bremen.de/ueber-uns/neues-aus-der-suub/unter-kritischer-beobachtung-open-access-publikationen-im-mdpi-verlag>).
 
 Eine oft vernachlässigte Rolle kommt außerdem der universitären Lehre hinzu. Durch die Freiheit von Forschung und Lehre und bereits durchgeplanten Studiengängen gestaltet sich die Integration von Open Science in die Lehre schwierig. Forschende, in deren Lehre die Thematik eine Rolle spielt, teilen proaktiv ihre Materialien, erstellen gemeinsam Curricula, und sind beispielsweise in großen internationalen Initiativen wie dem Framework for Open and Reproducible Research Training (FORRT.org) vernetzt (konkrete Vorschläge zur Integration von Open Science in die Lehre siehe z.B. REF[\[LR17\]](#_msocom_17) ).
 
@@ -81,11 +81,11 @@ Eine oft vernachlässigte Rolle kommt außerdem der universitären Lehre hinzu. 
 
 Wissenschaftliche Gebiete leben vor allem durch Communities, also alle in dem Bereich forschenden Personen. Sie organisieren sich üblicherweise in Vereinen (z.B. Deutsche Gesellschaft für Psychologie), Interessensverbunden, oder ähnlichen Gemeinschaften. Eine besondere Stellung hat in Deutschland die Deutsche Forschungsgemeinschaft, welche staatlich und über die Bundesländer mit mehreren Milliarden Euro ausgestattet Forschungsgelder vergibt. Als eine der wichtigsten nationalen Institution hat ihre Open Science Positionierung einen hohen Stellenwert (REF[\[LR18\]](#_msocom_18) ), erfahrungsgemäß gehen Veränderungen jedoch nicht von der DFG aus, sondern die DFG wartet auf Anstöße aus den Fächern. DGPs[\[LR19\]](#_msocom_19) . In der Psychologie fördert darüber hinaus das ZPID die Infrastruktur durch Zeitschriften, Pre-Print Server, und weitere Methoden (REF[\[LR20\]](#_msocom_20) ). Auch interdisziplinäre Vereinigungen wie das CERN (REF[\[LR21\]](#_msocom_21) ) oder internationale Akteure wie die American Psychological Association (REF[\[LR22\]](#_msocom_22) ) verpflichten sich Offenheit und Transparenz. Für Bürger\*innen der Europäischen Union existieren die European Open Science Cloud und die Open Access Publishing Plattform *Open Research Europe*.
 
-Im Rahmen der Open Science Reform entstanden außerdem viele neue Vereinigungen. Das interdisziplinäre und besonders von Wissenschaftler\*innen in der frühen Karrierephase geleitete FORRT (REF[\[LR23\]](#_msocom_23) ) setzt sich für eine Verankerung von Open Science in der Lehre ein. Der Verbesserung psychologischer Forschung hat sich die Society for the Improvement of Psychological Science (SIPS) verschrieben. Sogenannte „grassroot\"-Initiativen (also von jungen Wissenschaftler\*innen ausgehende Bewegungen) haben sich an zahlreichen Universitäten herausgebildet und zu Netzwerken wie dem [Netzwerk der Open Science Initiativen (NOSI)](https://osf.io/tbkzh/) und „Reproducibility Networks\" wie dem GRN (<https://reproducibilitynetwork.de>), dem UKRN (<https://www.ukrn.org>) und weiteren zusammengeschlossen. Aber auch Zusammenschlüsse von Professor\*innen zur Änderung von Kurzzeitverträgen existieren (z.B. Netzwerk Nachhaltige Wissenschaft, <https://netzwerk-nachhaltige-wissenschaft.de>).
+Im Rahmen der Open Science Reform entstanden außerdem viele neue Vereinigungen. Das interdisziplinäre und besonders von Wissenschaftler\*innen in der frühen Karrierephase geleitete FORRT (REF[\[LR23\]](#_msocom_23) ) setzt sich für eine Verankerung von Open Science in der Lehre ein. Der Verbesserung psychologischer Forschung hat sich die Society for the Improvement of Psychological Science (SIPS) verschrieben. Sogenannte „grassroot"-Initiativen (also von jungen Wissenschaftler\*innen ausgehende Bewegungen) haben sich an zahlreichen Universitäten herausgebildet und zu Netzwerken wie dem [Netzwerk der Open Science Initiativen (NOSI)](https://osf.io/tbkzh/) und „Reproducibility Networks" wie dem GRN (<https://reproducibilitynetwork.de>), dem UKRN (<https://www.ukrn.org>) und weiteren zusammengeschlossen. Aber auch Zusammenschlüsse von Professor\*innen zur Änderung von Kurzzeitverträgen existieren (z.B. Netzwerk Nachhaltige Wissenschaft, <https://netzwerk-nachhaltige-wissenschaft.de>).
 
-### Zeitschriften 
+### Zeitschriften
 
-Wissenschaftliche Zeitschriften gelten als Bühne des wissenschaftlichen Diskurses und bestimmen maßgeblich, welche Elemente des Forschungsprozesses zum „scientific record\" gehören und damit relevant sind. Sie sind darüber hinaus als Organisator des Begutachtungsprozesses für die Qualitätssicherung in der Wissenschaft verantwortlich. Dem Mangel an Qualität entgegnend entstehen im Rahmen von Open Science Empfehlungen zur Gestaltung von Zeitschriften, es bilden sich neue Zeitschriften, und vollständige neue Begutachtungs- und Publikationsmodelle werden vorgeschlagen und vielseitig implementiert. Das Journal of Open Source Software (REF[\[LR24\]](#_msocom_24) ) basiert beispielsweise auf Github (XXX[\[LR25\]](#_msocom_25) ) und seine Infrastruktur lässt sich für weitere Zeitschriften kopieren und anpassen.
+Wissenschaftliche Zeitschriften gelten als Bühne des wissenschaftlichen Diskurses und bestimmen maßgeblich, welche Elemente des Forschungsprozesses zum „scientific record" gehören und damit relevant sind. Sie sind darüber hinaus als Organisator des Begutachtungsprozesses für die Qualitätssicherung in der Wissenschaft verantwortlich. Dem Mangel an Qualität entgegnend entstehen im Rahmen von Open Science Empfehlungen zur Gestaltung von Zeitschriften, es bilden sich neue Zeitschriften, und vollständige neue Begutachtungs- und Publikationsmodelle werden vorgeschlagen und vielseitig implementiert. Das Journal of Open Source Software (REF[\[LR24\]](#_msocom_24) ) basiert beispielsweise auf Github (XXX[\[LR25\]](#_msocom_25) ) und seine Infrastruktur lässt sich für weitere Zeitschriften kopieren und anpassen.
 
 #### Empfehlungen
 
@@ -97,11 +97,11 @@ Herausgeber\*innen, die sich in Bezug auf die von ihnen verwaltete Zeitschrift m
 
 -          TOPfactor.org
 
--          Badges können ge-\"game\"t werden: <https://journals.sagepub.com/doi/10.1177/10731911241253430>
+-          Badges können ge-"game"t werden: <https://journals.sagepub.com/doi/10.1177/10731911241253430>
 
 #### Review Systeme
 
--          „criteria related to consensus-building do not yet espouse sufficient reliability\" <https://www.researchgate.net/publication/380433173_Inter-Rater_Reliability_in_Assessing_the_Methodological_Quality_of_Research_Papers_in_Psychology> aber es gibt Kriterienkataloge, die gut funktionieren
+-          „criteria related to consensus-building do not yet espouse sufficient reliability" <https://www.researchgate.net/publication/380433173_Inter-Rater_Reliability_in_Assessing_the_Methodological_Quality_of_Research_Papers_in_Psychology> aber es gibt Kriterienkataloge, die gut funktionieren
 
 -          PCI
 
@@ -117,7 +117,7 @@ o   Wenig Beteiligung an offenem Review, Zeitschrift Synlett und ASAPbio: Koor
 
 -          Review von negativen Zeitschriften: Infos via SIPS 2024 (Zoltan Kekecs SIPS Unconference, sehr spannende Ideen auch von Madhwa Galgali, Ekaterina Pronizius, Willemijn Plomp, Belay Weldemicheal)
 
-o   Aktuell „Open peer review\" betrifft nur akzeptierte Papers; Meta-Wissenschaft über Peer Review wäre spannend
+o   Aktuell „Open peer review" betrifft nur akzeptierte Papers; Meta-Wissenschaft über Peer Review wäre spannend
 
 o   Doppelarbeit und enorme Kosten <https://link.springer.com/article/10.1186/s41073-021-00118-2>
 
@@ -125,15 +125,15 @@ o   Daten im Review mit anschauen und Zombie Papers: <https://associationofana
 
 §  Falsifizierte Daten wurden in Artikeln identifiziert, abgelehnt, aber dann woanders veröffentlict [\[LR27\]](#_msocom_27) hat;
 
-§  *„losing epistemic arms race\", „we are arming the opposite site\" à* feedback für abgelehnte Paper hilft Datenfälscher\*innen
+§  *„losing epistemic arms race", „we are arming the opposite site" à* feedback für abgelehnte Paper hilft Datenfälscher\*innen
 
-§  institutionelles Gedächtnis nötig; editorial notes / decisions sollten „für immer\" an dem Artikel dranheften; dafür Versionierungssystem nötig, Namen von Beteiligten, Zeitschriften, usw.; Antwort auf Rejection sollte möglich sein
+§  institutionelles Gedächtnis nötig; editorial notes / decisions sollten „für immer" an dem Artikel dranheften; dafür Versionierungssystem nötig, Namen von Beteiligten, Zeitschriften, usw.; Antwort auf Rejection sollte möglich sein
 
 o   Implementierung: automatisiertes System über editorial management Systeme; Möglichkeit für Embargo
 
 o   Mögliche Nachteile
 
-§  Paper mit 5 Rejections sieht nicht so hübsch aus; evtl. akzeptieren manche Journals nichts, was bei „schlechten\" Journals rejected wurde „death spiral\", Ankereffekte zwischen Reviews; evtl. nur Editors erlauben, alte Reviews zu sehen?
+§  Paper mit 5 Rejections sieht nicht so hübsch aus; evtl. akzeptieren manche Journals nichts, was bei „schlechten" Journals rejected wurde „death spiral", Ankereffekte zwischen Reviews; evtl. nur Editors erlauben, alte Reviews zu sehen?
 
 §  Reviewers orientieren sich evtl. aneinander
 
@@ -163,11 +163,11 @@ o   https://scirev.org
 
 #### Aufmerksamkeit zum Thema in bestehenden Zeitschriften
 
-Anforderungen an wissenschaftliche Artikel seitens der Zeitschriften sind 2010 maßgeblichen Änderungen untergangen. In den Sozialwissenschaften orientieren sich zahlreiche Zeitschriften an den Richtlinien zur „Transparency and Openness Promotion\" (TOP) und erhalten entsprechende TOP-Faktoren (<https://topfactor.org/summary>). Dabei wird festgehalten, welcher Grad an Offenheit und Transparenz von Forschungsdaten und -materialien gefordert wird und ob Replikationen bei der jeweiligen Zeitschrift veröffentlicht werden. Neue Herausgeber\*innen bei existierenden Zeitschriften haben große Änderungen vorgenommen (z.B. Editorial psych bulletin, REF[\[LR28\]](#_msocom_28) ). Beispielsweise haben Hardwicke und Vazire (REF[\[LR29\]](#_msocom_29) ) für die Zeitschrift *Psychological Science* ein standardmäßiges Nachrechnen aller berichteten Ergebnisse ab 2024 angekündigt (REF), indem sie mit dem Institute for Replication zusammenarbeiten (<https://i4replication.org>). Vereinzelt haben Zeitschriften Spezialausgaben herausgegeben, bei denen der Fokus auf Replikationsstudien oder der Reproduzierbarkeit von Ergebnissen lag (<https://imstat.org/publications/sts/sts_38_4/sts_38_4.pdf>).
+Anforderungen an wissenschaftliche Artikel seitens der Zeitschriften sind 2010 maßgeblichen Änderungen untergangen. In den Sozialwissenschaften orientieren sich zahlreiche Zeitschriften an den Richtlinien zur „Transparency and Openness Promotion" (TOP) und erhalten entsprechende TOP-Faktoren (<https://topfactor.org/summary>). Dabei wird festgehalten, welcher Grad an Offenheit und Transparenz von Forschungsdaten und -materialien gefordert wird und ob Replikationen bei der jeweiligen Zeitschrift veröffentlicht werden. Neue Herausgeber\*innen bei existierenden Zeitschriften haben große Änderungen vorgenommen (z.B. Editorial psych bulletin, REF[\[LR28\]](#_msocom_28) ). Beispielsweise haben Hardwicke und Vazire (REF[\[LR29\]](#_msocom_29) ) für die Zeitschrift *Psychological Science* ein standardmäßiges Nachrechnen aller berichteten Ergebnisse ab 2024 angekündigt (REF), indem sie mit dem Institute for Replication zusammenarbeiten (<https://i4replication.org>). Vereinzelt haben Zeitschriften Spezialausgaben herausgegeben, bei denen der Fokus auf Replikationsstudien oder der Reproduzierbarkeit von Ergebnissen lag (<https://imstat.org/publications/sts/sts_38_4/sts_38_4.pdf>).
 
-#### Zeitschriften für \"nicht Innovatives\"
+#### Zeitschriften für "nicht Innovatives"
 
-Durch die Selektion spannender Ergebnisse gibt es für Forschung, die nicht bahnbrechend und dennoch höchst relevant ist, keine Plattform. Schätzungen zufolge werden bis zu 40% aller durchgeführten Studien innerhalb von 4 Jahren nach Durchführung nicht veröffentlicht (REF[\[LR30\]](#_msocom_30) ). Andere Forschende können nicht davon lernen und Ressourcen, die in die Sammlung und Auswertung der Daten geflossen sind, Zeit von Versuchspersonen, und lange Vorbereitungen der Forschung werden schließlich verschwendet. Zur Lösung dieses Problems haben sich neue Zeitschriften und Formate gebildet. In der Ökonomie hat sich auf Forderungen (REF[\[LR31\]](#_msocom_31) ) hin beispielsweise eine Zeitschrift für Replikationen und Kommentare gebildet (JCRE[\[LR32\]](#_msocom_32) ), die Zeitschrift Meta-Psychology bietet das Format des „Schubladenbericht\" an. Dieses Format ist für Studien vorgesehen, die wegen wenig überraschenden Ergebnissen oder Fehlern in der Durchführung anderweitig in der Schublade landen würden. Ebenfalls zur Abbildung des für den Forschungsprozess typischen Fehlschlagens wurde das Journal of Trial and Error (LINK) gegründet, und bei ReScience C werden Berichte über Reproduzierbarkeit veröffentlicht (LINK).
+Durch die Selektion spannender Ergebnisse gibt es für Forschung, die nicht bahnbrechend und dennoch höchst relevant ist, keine Plattform. Schätzungen zufolge werden bis zu 40% aller durchgeführten Studien innerhalb von 4 Jahren nach Durchführung nicht veröffentlicht (REF[\[LR30\]](#_msocom_30) ). Andere Forschende können nicht davon lernen und Ressourcen, die in die Sammlung und Auswertung der Daten geflossen sind, Zeit von Versuchspersonen, und lange Vorbereitungen der Forschung werden schließlich verschwendet. Zur Lösung dieses Problems haben sich neue Zeitschriften und Formate gebildet. In der Ökonomie hat sich auf Forderungen (REF[\[LR31\]](#_msocom_31) ) hin beispielsweise eine Zeitschrift für Replikationen und Kommentare gebildet (JCRE[\[LR32\]](#_msocom_32) ), die Zeitschrift Meta-Psychology bietet das Format des „Schubladenbericht" an. Dieses Format ist für Studien vorgesehen, die wegen wenig überraschenden Ergebnissen oder Fehlern in der Durchführung anderweitig in der Schublade landen würden. Ebenfalls zur Abbildung des für den Forschungsprozess typischen Fehlschlagens wurde das Journal of Trial and Error (LINK) gegründet, und bei ReScience C werden Berichte über Reproduzierbarkeit veröffentlicht (LINK).
 
 #### Publikationsmodelle
 
@@ -189,7 +189,7 @@ o   <https://osf.io/preprints/psyarxiv/5yexm>
 
 -          Peer review guidelines <https://www.researchgate.net/publication/375607348_Quantitative_manuscript_peer_review_template>
 
-<https://psyarxiv.com/rgh5b/> \
+<https://psyarxiv.com/rgh5b/>\
 <https://psyarxiv.com/5yexm/>
 
 -   
@@ -294,7 +294,7 @@ o   Gold
 
 o   diamond), siehe NRW OS Strategie  <https://zenodo.org/record/8322048>  s. 11-12
 
-o   \"guerilla open access\" (sci-hub)
+o   "guerilla open access" (sci-hub)
 
 o  
 
@@ -336,7 +336,7 @@ o   Sprachwissenschaften: Linguista à Glossa (Johan Rooryck; Vortrag am 10.01
 
 ·         Alle Herausgeber\*innen müssen zustimmen
 
-·         Montgomery & Neylon 2019: „The value of a journal is the community it cfreates, not the papers it publishes\" REF[\[LR40\]](#_msocom_40) 
+·         Montgomery & Neylon 2019: „The value of a journal is the community it cfreates, not the papers it publishes" REF[\[LR40\]](#_msocom_40) 
 
 ·         Was eine Zeitschrift nicht sein sollte X[\[LR41\]](#_msocom_41) 
 
@@ -354,13 +354,13 @@ o   Neuroimage (Chris Chambers)
 
 §  Community hat viele Jahre hart gearbeitet und wird dann mit höheren Kosten bestraft, hat aber nichts von den Kosten
 
-§  Chief Editor (Steve Smith) wollten Reduktion auf 2000\$ verhandeln, Elsevier wollte das nicht: „Market Forces support the current APC\" und fand die Kosten absolut berechtigt. Solche Kosten sind eine große Hürde für globalen Süden.
+§  Chief Editor (Steve Smith) wollten Reduktion auf 2000\$ verhandeln, Elsevier wollte das nicht: „Market Forces support the current APC" und fand die Kosten absolut berechtigt. Solche Kosten sind eine große Hürde für globalen Süden.
 
 §  Editorial Board hatte genug und alle haben resigniert. 3 Journals: Neuroimage, Neuroimage reports, Neuroimage clinical à \~40 Leute, haben das koordiniert, um öffentliche Wirkung zu maximieren (mit Medien, sozialen Medien, haben mit non-profit Publisher gesprochen)
 
 §  Kommerzielle Verlage sind Parasiten, fügen der Wissenschaft keinen Wert hinzu, existieren nur, um Profit aus Wissenschaft zu ziehen und geben den Wissenschaftler\*innen fast nichts zurück (höchstens Typesetting)
 
-§  Wichtige Message an alle: „from this point onwards, it is socially inacceptable to support these journals\" \"it\'s important that we do this all together\"
+§  Wichtige Message an alle: „from this point onwards, it is socially inacceptable to support these journals" "it's important that we do this all together"
 
 §  Die Zeitschriften nun so gut wie Tod à nicht einfach ein anderes Journal erstellen, sondern klar machen, dass der Name nichts bedeutet, sondern die Community
 
@@ -372,7 +372,7 @@ o   Critical Public Health (Judith XXX)
 
 §  Editorin hatte Moratorium für 1 Jahr, laut Vertrag durfte sie also 1 Jahr nach Ende des Vertrages Verbot, für eine Zeitschrift zu arbeiten
 
-§  Verlag wollte Verträge ändern: statt „page budget\" (5 issues pro Jahr mit vorgegebener Seitenzahl) „minimum number of papers\" Modell; Editorial Board hatte dabei kein Mitspracherecht
+§  Verlag wollte Verträge ändern: statt „page budget" (5 issues pro Jahr mit vorgegebener Seitenzahl) „minimum number of papers" Modell; Editorial Board hatte dabei kein Mitspracherecht
 
 §  Graduelle Erosion von akademischer Kontrolle
 
@@ -444,7 +444,7 @@ o   Kein Gatekeeping <https://journals.plos.org/plosone/article?id=10.1371/jou
 
 o   mit dem Modell wird experimentiert und geschaut, wie es funktioniert (Service zum Reviewen von Preprints: <https://www.reviewcommons.org>)
 
-o   Zitat J. Coates: „I don\'t think that we need peer review\" (REF, später nochmal prüfen oder ihn anschreiben, er müsste bald dazu was veröffentlichen)\"
+o   Zitat J. Coates: „I don't think that we need peer review" (REF, später nochmal prüfen oder ihn anschreiben, er müsste bald dazu was veröffentlichen)"
 
 -          Tracker: <https://europepmc.org/preprints>
 
@@ -462,7 +462,7 @@ o   Bei Pre-Print gibt es eine DOI + Zeitstempel und alle können sehen, wer z
 
 o   Einige Zeitschriften prüfen auch schon, ob in einem Pre-Print was schon war
 
--          \"Put scientists back in charge\"
+-          "Put scientists back in charge"
 
 -          Institutionen, Funders, Reviewers: manche verpflichten schon, Preprints zu posten
 
@@ -482,7 +482,7 @@ Der einfachste Weg ist dabei, den Ergebnisteil einfach zu schwärzen oder wegzul
 
 #### Registered Report
 
-Ein radikalerer Ansatz als die Begutachtung ohne Ergebnisteil ist die Begutachtung des Artikels, ohne dass Ergebnisse überhaupt existieren. Dieses Format heißt *Registered Report*. Dabei wird das Manuskript mit der zu prüfenden Theorie, Methodik, und dem Analyseplan bei der Zeitschrift eingereicht, ohne dass überhaupt Daten erhoben wurden. Kommt es zur Akzeptanz dieses „halbfertigen\" Artikels (*in principle acceptance*), werden die Daten gesammelt, wie geplant ausgewertet, und es folgt eine weitere Begutachtungsrunde. Hierbei ist vorgeschrieben, dass die Autor\*innen nichts an den bereits verfassten Teilen verändern dürfen und die Gutachter\*innen im Nachhinein keine Kritik am bereits geprüften Vorgehen üben dürfen. Es geht nur noch darum, ob der Plan eingehalten wurde und ob die Schlussfolgerungen auf den geplanten Analysen fußen. Damit soll verhindert werden, dass Artikel abgelehnt werden, weil die Ergebnisse nicht spannend genug, innovativ genug, oder den Erwartungen entsprechend sind. Erste Untersuchungen können bereits nachweisen, dass sich damit die Qualität der Forschung gegenüber dem traditionellen Vorgehen verbessert (REF[\[LR44\]](#_msocom_44) ). Eine Übersicht über Zeitschriften, die dieses Format anbieten ist online verfügbar (<https://www.cos.io/initiatives/registered-reports> à Participating Journals).[\[LR45\]](#_msocom_45)  Ebenfalls wird dadurch deutlich, dass psychologische Forschung einem massiven Publikationsbias unterliegt (d.h. es werden vor allem Studien veröffentlicht, die ihre Vermutungen bestätigen konnten und kaum Studien, in denen das nicht geschah): REF [\[LR46\]](#_msocom_46) zeigten, dass der Anteil erwartungskonformer Ergebnisse bei Registered Reports mit 44% deutlich unter den in der Psychologie üblichen 96% liegt.
+Ein radikalerer Ansatz als die Begutachtung ohne Ergebnisteil ist die Begutachtung des Artikels, ohne dass Ergebnisse überhaupt existieren. Dieses Format heißt *Registered Report*. Dabei wird das Manuskript mit der zu prüfenden Theorie, Methodik, und dem Analyseplan bei der Zeitschrift eingereicht, ohne dass überhaupt Daten erhoben wurden. Kommt es zur Akzeptanz dieses „halbfertigen" Artikels (*in principle acceptance*), werden die Daten gesammelt, wie geplant ausgewertet, und es folgt eine weitere Begutachtungsrunde. Hierbei ist vorgeschrieben, dass die Autor\*innen nichts an den bereits verfassten Teilen verändern dürfen und die Gutachter\*innen im Nachhinein keine Kritik am bereits geprüften Vorgehen üben dürfen. Es geht nur noch darum, ob der Plan eingehalten wurde und ob die Schlussfolgerungen auf den geplanten Analysen fußen. Damit soll verhindert werden, dass Artikel abgelehnt werden, weil die Ergebnisse nicht spannend genug, innovativ genug, oder den Erwartungen entsprechend sind. Erste Untersuchungen können bereits nachweisen, dass sich damit die Qualität der Forschung gegenüber dem traditionellen Vorgehen verbessert (REF[\[LR44\]](#_msocom_44) ). Eine Übersicht über Zeitschriften, die dieses Format anbieten ist online verfügbar (<https://www.cos.io/initiatives/registered-reports> à Participating Journals).[\[LR45\]](#_msocom_45)  Ebenfalls wird dadurch deutlich, dass psychologische Forschung einem massiven Publikationsbias unterliegt (d.h. es werden vor allem Studien veröffentlicht, die ihre Vermutungen bestätigen konnten und kaum Studien, in denen das nicht geschah): REF [\[LR46\]](#_msocom_46) zeigten, dass der Anteil erwartungskonformer Ergebnisse bei Registered Reports mit 44% deutlich unter den in der Psychologie üblichen 96% liegt.
 
 **Abbildung 6**
 
@@ -502,40 +502,40 @@ Ein radikalerer Ansatz als die Begutachtung ohne Ergebnisteil ist die Begutachtu
 
 Durch die immer häufigere Veröffentlichung von Pre-Prints, also noch nicht begutachteten Manuskripten, eröffnen sich für die Begutachtung neue Wege. Sogenannte Overlay Journals (elife) wählen unter Pre-Prints solche aus, die sie an Gutachtende schicken um deren Meinungen einzuholen. Sofern die Autor\*innen des Preprints einverstanden sind, erhalten sie dann Gutachten und ihr Artikel wird schließlich in der Zeitschrift veröffentlicht.
 
-Ein Modell, das unabhängig von Zeitschriften arbeitet wird von Peer Community In (PCI) verwendet: Dabei werden Pre-Prints nicht zu Zeitschriften, sondern ohne Kosten zu einer PCI Initiative geschickt. Diese existieren für zahlreiche Fächer (z.B. XXX, XXX, XXX). Dort wird das Begutachtungsverfahren ähnlich wie bei klassischen Zeitschriften organisiert, nur statt am Ende im Idealfall eine *Akzeptanz* und eine Veröffentlichung gibt es von der PCI Initiative eine Empfehlung (*Recommendation*) und eine Veröffentlichung der Gutachten[\[LR47\]](#_msocom_47) . Gutachtende können selbst entscheiden, ob sie dabei anonym bleiben möchten. PCIs arbeiten mit fachspezifischen Zeitschriften zusammen. Sogenannte „PCI-friendly Journals\" veröffentlichen dann die empfohlenen Pre-Prints ohne weitere Gutachten einzuholen. Dadurch sind sowohl der Mechanismus zur wissenschaftlichen Qualitätssicherung als auch der Selektionsmechanismus (*was* wird veröffentlicht) in den Händen der Forschenden. Dadurch, dass die Veröffentlichung in klassischen Zeitschriften als letzter Schritt optional ist, können sich wissenschaftliche Communities langfristig von Zeitschriften unabhängig machen. Ein Erklärvideo zu PCIs ist online verfügbar (<https://www.youtube.com/watch?v=4PZhpnc8wwo>). Die übergreifende Organisation ist nicht-kommerziell und wird seit ihrer Gründung 2017 von Forschenden geleitet (<https://peercommunityin.org/pci-structure-history/>). Eine spezifische PCI Initiative bezieht sich ausschließlich auf Registered Reports (PCI-RR).
+Ein Modell, das unabhängig von Zeitschriften arbeitet wird von Peer Community In (PCI) verwendet: Dabei werden Pre-Prints nicht zu Zeitschriften, sondern ohne Kosten zu einer PCI Initiative geschickt. Diese existieren für zahlreiche Fächer (z.B. XXX, XXX, XXX). Dort wird das Begutachtungsverfahren ähnlich wie bei klassischen Zeitschriften organisiert, nur statt am Ende im Idealfall eine *Akzeptanz* und eine Veröffentlichung gibt es von der PCI Initiative eine Empfehlung (*Recommendation*) und eine Veröffentlichung der Gutachten[\[LR47\]](#_msocom_47) . Gutachtende können selbst entscheiden, ob sie dabei anonym bleiben möchten. PCIs arbeiten mit fachspezifischen Zeitschriften zusammen. Sogenannte „PCI-friendly Journals" veröffentlichen dann die empfohlenen Pre-Prints ohne weitere Gutachten einzuholen. Dadurch sind sowohl der Mechanismus zur wissenschaftlichen Qualitätssicherung als auch der Selektionsmechanismus (*was* wird veröffentlicht) in den Händen der Forschenden. Dadurch, dass die Veröffentlichung in klassischen Zeitschriften als letzter Schritt optional ist, können sich wissenschaftliche Communities langfristig von Zeitschriften unabhängig machen. Ein Erklärvideo zu PCIs ist online verfügbar (<https://www.youtube.com/watch?v=4PZhpnc8wwo>). Die übergreifende Organisation ist nicht-kommerziell und wird seit ihrer Gründung 2017 von Forschenden geleitet (<https://peercommunityin.org/pci-structure-history/>). Eine spezifische PCI Initiative bezieht sich ausschließlich auf Registered Reports (PCI-RR).
 
 Abbildung erstellen, die den Ablauf grob erklärt
 
-Je nach Fach haben unterschiedlich viele Zeitschriften mit PCI Initiativen Vereinbarungen, dass sie die akzeptierten Artikel ohne eigenes Peer Review veröffentlichen. Mehr und vor allem bekannte teilnehmende Zeitschriften machen PCIs für Forschende attraktiver. Zeitschriften, die Interesse an einem PCI haben, aber die Begutachtung nicht aus der Hand geben möchten, können sich als „PCI interested Journals\" listen lassen (vs. „PCI friendly journals\"). Teilnehmende Zeitschriften sparen dadurch Arbeit und bleiben relevant, indem sich Ihre Funktion dahin verschiebt, dass sie thematisch relevante Forschung sammeln und disseminieren. In einem Fall hat bereits eine Zeitschrift, die als „PCI friendly\" eine Vereinbarung mit PCI-RR hatte, ein Manuskript mit einer *Recommendation* zum erneuten Peer Review versendet und wurde sofort von den PCI Partnern entfernt. Forschende, die Gutachtenprozesse für PCIs organisieren möchten -- analog zu Herausgeber\*innen von klassischen Zeitschriften -- können *Recommender* werden und müssen dazu ein Mindestmaß an Wissen haben sowie eine Schulung absolvieren (<https://rr.peercommunityin.org/about/recommenders>).
+Je nach Fach haben unterschiedlich viele Zeitschriften mit PCI Initiativen Vereinbarungen, dass sie die akzeptierten Artikel ohne eigenes Peer Review veröffentlichen. Mehr und vor allem bekannte teilnehmende Zeitschriften machen PCIs für Forschende attraktiver. Zeitschriften, die Interesse an einem PCI haben, aber die Begutachtung nicht aus der Hand geben möchten, können sich als „PCI interested Journals" listen lassen (vs. „PCI friendly journals"). Teilnehmende Zeitschriften sparen dadurch Arbeit und bleiben relevant, indem sich Ihre Funktion dahin verschiebt, dass sie thematisch relevante Forschung sammeln und disseminieren. In einem Fall hat bereits eine Zeitschrift, die als „PCI friendly" eine Vereinbarung mit PCI-RR hatte, ein Manuskript mit einer *Recommendation* zum erneuten Peer Review versendet und wurde sofort von den PCI Partnern entfernt. Forschende, die Gutachtenprozesse für PCIs organisieren möchten -- analog zu Herausgeber\*innen von klassischen Zeitschriften -- können *Recommender* werden und müssen dazu ein Mindestmaß an Wissen haben sowie eine Schulung absolvieren (<https://rr.peercommunityin.org/about/recommenders>).
 
 **Tabelle 2**
 
 *Zusammenfassung der verschiedenen Begutachtungsmodelle und der jeweiligen Art des Umgangs mit den Forschungsergebnissen*
 
-+-----+--------------------------------------+-----+------------------------------------------------------------------------+----+
-|     |                                      |     |                                                                        |    |
-+-----+--------------------------------------+-----+------------------------------------------------------------------------+----+
-|     | **Begutachtungsprozedur**            |     | **Ausblendung der Ergebnisse**                                         |    |
-+-----+--------------------------------------+-----+------------------------------------------------------------------------+----+
-|     |                                      |     |                                                                        |    |
-+-----+--------------------------------------+-----+------------------------------------------------------------------------+----+
-|     | Traditionell                         |     | Ergebnisse sind sichtbar und fließen in die Beurteilung ein            |    |
-+-----+--------------------------------------+-----+------------------------------------------------------------------------+----+
-|     |                                      |     |                                                                        |    |
-+-----+--------------------------------------+-----+------------------------------------------------------------------------+----+
-|     | Results-Blind Peer Review            |     | Ergebnisse liegen vor, werden den Begutachtenden jedoch vorenthalten   |    |
-+-----+--------------------------------------+-----+------------------------------------------------------------------------+----+
-|     |                                      |     |                                                                        |    |
-+-----+--------------------------------------+-----+------------------------------------------------------------------------+----+
-|     | Registered Report                    |     | Ergebnisse liegen noch nicht vor                                       |    |
-+-----+--------------------------------------+-----+------------------------------------------------------------------------+----+
-|     |                                      |     |                                                                        |    |
-+-----+--------------------------------------+-----+------------------------------------------------------------------------+----+
-|     | Peer-Community-In Registered Report\ |     | Ergebnisse liegen noch nicht vor                                       |    |
-|     | (PCI-RR)                             |     |                                                                        |    |
-+-----+--------------------------------------+-----+------------------------------------------------------------------------+----+
-|     |                                      |     |                                                                        |    |
-+-----+--------------------------------------+-----+------------------------------------------------------------------------+----+
++---+--------------------------------------+---+----------------------------------------------------------------------+---+
+|   |                                      |   |                                                                      |   |
++---+--------------------------------------+---+----------------------------------------------------------------------+---+
+|   | **Begutachtungsprozedur**            |   | **Ausblendung der Ergebnisse**                                       |   |
++---+--------------------------------------+---+----------------------------------------------------------------------+---+
+|   |                                      |   |                                                                      |   |
++---+--------------------------------------+---+----------------------------------------------------------------------+---+
+|   | Traditionell                         |   | Ergebnisse sind sichtbar und fließen in die Beurteilung ein          |   |
++---+--------------------------------------+---+----------------------------------------------------------------------+---+
+|   |                                      |   |                                                                      |   |
++---+--------------------------------------+---+----------------------------------------------------------------------+---+
+|   | Results-Blind Peer Review            |   | Ergebnisse liegen vor, werden den Begutachtenden jedoch vorenthalten |   |
++---+--------------------------------------+---+----------------------------------------------------------------------+---+
+|   |                                      |   |                                                                      |   |
++---+--------------------------------------+---+----------------------------------------------------------------------+---+
+|   | Registered Report                    |   | Ergebnisse liegen noch nicht vor                                     |   |
++---+--------------------------------------+---+----------------------------------------------------------------------+---+
+|   |                                      |   |                                                                      |   |
++---+--------------------------------------+---+----------------------------------------------------------------------+---+
+|   | Peer-Community-In Registered Report\ |   | Ergebnisse liegen noch nicht vor                                     |   |
+|   | (PCI-RR)                             |   |                                                                      |   |
++---+--------------------------------------+---+----------------------------------------------------------------------+---+
+|   |                                      |   |                                                                      |   |
++---+--------------------------------------+---+----------------------------------------------------------------------+---+
 
 #### Open peer-review
 
@@ -573,10 +573,10 @@ Das sind nur kurze Auszüge aus dutzenden Einreichungen und Ablehnungen. Darübe
 
 -          N-best evaluation (REF[\[LR48\]](#_msocom_48) ): nur die z.B. N = 5 für die ausgeschriebene Stelle wichtigsten Publikationen werden berücksichtigt, statt auszuzählen werden diese dann ganz genau angeschaut
 
--          StudySwap \"However, a potential barrier to independent, prepublication replication attempts is that many researchers have a difficult time finding other labs to conduct such attempts. StudySwap can be used to find an independent research team to conduct a replication attempt of a not-yet-published study\" (Chartier et al., 2018, p. 575). Zitat von: <https://osf.io/preprints/psyarxiv/dtvs7/> p. 11
+-          StudySwap "However, a potential barrier to independent, prepublication replication attempts is that many researchers have a difficult time finding other labs to conduct such attempts. StudySwap can be used to find an independent research team to conduct a replication attempt of a not-yet-published study" (Chartier et al., 2018, p. 575). Zitat von: <https://osf.io/preprints/psyarxiv/dtvs7/> p. 11
 
 -          Reviewer Initiativen und Boycotts\
-[Richard D. Morey et al. (2016) The Peer Reviewers\' Openness Initiative: incentivizing open research practices through peer review, Royal Society Open Science; DOI: 10.1098/rsos.150547. Published 13 January 2016](http://rsos.royalsocietypublishing.org/content/3/1/150547#sec-6)
+[Richard D. Morey et al. (2016) The Peer Reviewers' Openness Initiative: incentivizing open research practices through peer review, Royal Society Open Science; DOI: 10.1098/rsos.150547. Published 13 January 2016](http://rsos.royalsocietypublishing.org/content/3/1/150547#sec-6)
 
 ### Replikationsforschung[\[LR49\]](#_msocom_49) : Ansehen und Kompetenz (Normalität) im Umgang mit Replikationsstudien steigern
 
@@ -600,7 +600,7 @@ Das sind nur kurze Auszüge aus dutzenden Einreichungen und Ablehnungen. Darübe
 
 -   
 
--   Es wird klar, was replizierbar sein sollte und was nicht. REF[\[LR50\]](#_msocom_50)  listen notwendige [\[LR51\]](#_msocom_51) Bedingungen dafür auf, dass „wahre\" Befunde replizierbar sein können
+-   Es wird klar, was replizierbar sein sollte und was nicht. REF[\[LR50\]](#_msocom_50)  listen notwendige [\[LR51\]](#_msocom_51) Bedingungen dafür auf, dass „wahre" Befunde replizierbar sein können
 
     -   
 
@@ -608,7 +608,7 @@ Das sind nur kurze Auszüge aus dutzenden Einreichungen und Ablehnungen. Darübe
 
         -   
 
-        -   Methode könnte sehr ungenau sein und trotz „wahrem\" Befund nur eine sehr geringe Replikationsrate haben (mathematischer Beweis dafür bei <https://royalsocietypublishing.org/doi/10.1098/rsos.200805#d1e454>)
+        -   Methode könnte sehr ungenau sein und trotz „wahrem" Befund nur eine sehr geringe Replikationsrate haben (mathematischer Beweis dafür bei <https://royalsocietypublishing.org/doi/10.1098/rsos.200805#d1e454>)
 
         -   
 
@@ -616,7 +616,7 @@ Das sind nur kurze Auszüge aus dutzenden Einreichungen und Ablehnungen. Darübe
 
         -   
 
-        -   Ethnografie, qualitative Methoden, Archäologie („Befund wird bei Ausgrabung aus Kontext gerissen und dadurch zerstört\")
+        -   Ethnografie, qualitative Methoden, Archäologie („Befund wird bei Ausgrabung aus Kontext gerissen und dadurch zerstört")
 
         -   
 
@@ -726,7 +726,7 @@ Das sind nur kurze Auszüge aus dutzenden Einreichungen und Ablehnungen. Darübe
 
     -   
 
-    -   Vor 10 Jahren: <https://osf.io/preprints/psyarxiv/dtvs7/>  p. 9 replications of Bem\'s pre-cognition study were desk-rejected by the editor of JPSP, Eliot Smith, who stated \"This journal does not publish replication studies, whether successful or unsuccessful\" and \"We don\'t want to be the Journal of Bem Replication\" (Aldhous, 2011).
+    -   Vor 10 Jahren: <https://osf.io/preprints/psyarxiv/dtvs7/> p. 9 replications of Bem's pre-cognition study were desk-rejected by the editor of JPSP, Eliot Smith, who stated "This journal does not publish replication studies, whether successful or unsuccessful" and "We don't want to be the Journal of Bem Replication" (Aldhous, 2011).
 
     -   
 
@@ -893,7 +893,7 @@ Das sind nur kurze Auszüge aus dutzenden Einreichungen und Ablehnungen. Darübe
 
     -   
 
-    -   Bayesian sample size planning <https://www.researchgate.net/publication/373047996_Bayesian_approaches_to_designing_replication_studies> \
+    -   Bayesian sample size planning <https://www.researchgate.net/publication/373047996_Bayesian_approaches_to_designing_replication_studies>\
         <https://link.springer.com/article/10.1007/s11749-023-00916-4>
 
     -   
@@ -984,7 +984,7 @@ KASTEN / Leitfaden: Eine Replikationsstudie durchführen
 
 ·   Qualitätssicherung: Welche Veränderungen sind nötig oder sinnvoll? Was wissen wir neues, was wir berücksichtigen sollten?
 
-·   Extensions: Lassen sich zusätzliche Items o.ä. „hinten\" an die Studie anhängen, womit sich die externe Validität erhöhen könnte? Gibt es zusätzliche einfache Ergänzungen, bei denen eine Replikation nicht zu erwarten ist?
+·   Extensions: Lassen sich zusätzliche Items o.ä. „hinten" an die Studie anhängen, womit sich die externe Validität erhöhen könnte? Gibt es zusätzliche einfache Ergänzungen, bei denen eine Replikation nicht zu erwarten ist?
 
 ·         Präregistrierung mittels Template (Empfehlung: Replication Recipe, Brandt et al., 2014 <http://dx.doi.org/10.1016/j.jesp.2013.10.005>
 
@@ -996,7 +996,7 @@ KASTEN / Leitfaden: Eine Replikationsstudie durchführen
 
 ·         Vergleich Original vs. Replikation
 
-·         Vergleich naher vs. „ferner\" Ergebnisse (z.B. bei denselben Items vs. Bei Extension \[falls vorhanden\]
+·         Vergleich naher vs. „ferner" Ergebnisse (z.B. bei denselben Items vs. Bei Extension \[falls vorhanden\]
 
 4.      Diskussion
 
@@ -1018,7 +1018,7 @@ KASTEN / Leitfaden: Eine Replikationsstudie durchführen
 
 ·         Eintragung in Replication Database (via Fragebogen oder StaRT)
 
-·         Registrierung der Ergebnisse über Replication Recipe („post completion\")
+·         Registrierung der Ergebnisse über Replication Recipe („post completion")
 
 ·         Ggf. Verweis auf Replikationsstudie unter der Originalstudie bei pubpeer.com
 
@@ -1030,7 +1030,7 @@ KASTEN / Leitfaden: Eine Replikationsstudie durchführen
 
 Alle Studien in einem Wissenschaftsbereich zu replizieren ist aktuell unrealistisch und würde enorme Ressourcen benötigen. Daher befinden sich verschiedene Methoden in Entwicklung, um auf Basis von Eigenschaften einer Studie vorherzusagen, welche Replikationsergebnis zu erwarten ist. Im repliCATS Projekt (REF[\[LR53\]](#_msocom_53) ), das Teil des SCORE Projektes zur Messung wissenschaftlicher Qualität ist, werden Einschätzungen von Forschenden, Reproduktionsversuche, und Replikationsversuche kombiniert. Ähnliche Projekte verwenden komplexe statistische Modelle (z.B. Large-Language-Models) oder meta-analytische Methoden wie p-curve oder Z-curve zur Vorhersage von Replikationsraten. Solche Modelle benötigen üblicherweise sehr viele Beobachtungen und Vorhersagen sind nur auf der Ebene von hunderten Studien sinnvoll. Beispielsweise rechneten Boyce et al. 2023 und Hagen Cumulative Science project Moderationsanalysen, prüften also welche Eigenschaften von Studien sich auf das Replikationsergebnis auswirken (z.B. Wechsel von Studie im Labor zu Online-Studie). Mittels umfassender Datenbanken wie der FORRT Replication Database können in Zukunft präzisere Modelle erstellt werden. Aktuelle Ergebnisse sind als vorläufig und mit Vorsicht zu interpretieren, da sie auf nicht-zufälligen Stichproben basieren, die Studieneigenschaften nicht systematisch und zufällig variiert wurden, und Replikationen solcher meta-analytischen Befunde schwierig sind.
 
-### Veröffentlichung aller Ergebnisse 
+### Veröffentlichung aller Ergebnisse
 
 -          <https://opentrials.net/about/>
 
@@ -1052,45 +1052,27 @@ o   Metapsy <https://www.metapsy.org>
 
 o   Metalab stanford <https://langcog.github.io/metalab/>
 
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     |                                  |     |                                                                                              |     |                                       |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     | **Name**[\[LR54\]](#_msocom_54)  |     | **Link**                                                                                     |     | **Topics**                            |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     |                                  |     |                                                                                              |     |                                       |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     | MetaLab                          |     | [langcog.github.io/metalab](https://langcog.github.io/metalab)                               |     | Early Language, Cognitive Development |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     |                                  |     |                                                                                              |     |                                       |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     | metaBUS                          |     | [metabus.org](http://metabus.org/)                                                           |     | All of social sciences                |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     |                                  |     |                                                                                              |     |                                       |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     | SOLES                            |     | [camarades.shinyapps.io/AD-SOLES/](https://camarades.shinyapps.io/AD-SOLES/)                 |     | Animal models of Alzheimer\'s disease |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     |                                  |     |                                                                                              |     |                                       |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     | OpAQ                             |     | [t1p.de/openanchoring](https://t1p.de/openanchoring)                                         |     | Anchoring Effects                     |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     |                                  |     |                                                                                              |     |                                       |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     | FReD                             |     | [t1p.de/ReD](https://t1p.de/ReD)                                                             |     | Replications (all fields)             |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     |                                  |     |                                                                                              |     |                                       |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     | Power Posing                     |     | [metaanalyses.shinyapps.io/bodypositions](https://metaanalyses.shinyapps.io/bodypositions/)  |     | Body Position Effects                 |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     |                                  |     |                                                                                              |     |                                       |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     | Metadataset                      |     | [metadataset.com](https://www.metadataset.com/)                                              |     | Agriculture                           |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     |                                  |     |                                                                                              |     |                                       |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     | METAPSY                          |     | <https://www.metapsy.org>                                                                    |     | Psychotherapy                         |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
-|     |                                  |     |                                                                                              |     |                                       |    |
-+-----+----------------------------------+-----+----------------------------------------------------------------------------------------------+-----+---------------------------------------+----+
+|     |                                 |     |                                                                                             |     |                                       |     |
+|-----|---------------------------------|-----|---------------------------------------------------------------------------------------------|-----|---------------------------------------|-----|
+|     |                                 |     |                                                                                             |     |                                       |     |
+|     | **Name**[\[LR54\]](#_msocom_54) |     | **Link**                                                                                    |     | **Topics**                            |     |
+|     |                                 |     |                                                                                             |     |                                       |     |
+|     | MetaLab                         |     | [langcog.github.io/metalab](https://langcog.github.io/metalab)                              |     | Early Language, Cognitive Development |     |
+|     |                                 |     |                                                                                             |     |                                       |     |
+|     | metaBUS                         |     | [metabus.org](http://metabus.org/)                                                          |     | All of social sciences                |     |
+|     |                                 |     |                                                                                             |     |                                       |     |
+|     | SOLES                           |     | [camarades.shinyapps.io/AD-SOLES/](https://camarades.shinyapps.io/AD-SOLES/)                |     | Animal models of Alzheimer's disease  |     |
+|     |                                 |     |                                                                                             |     |                                       |     |
+|     | OpAQ                            |     | [t1p.de/openanchoring](https://t1p.de/openanchoring)                                        |     | Anchoring Effects                     |     |
+|     |                                 |     |                                                                                             |     |                                       |     |
+|     | FReD                            |     | [t1p.de/ReD](https://t1p.de/ReD)                                                            |     | Replications (all fields)             |     |
+|     |                                 |     |                                                                                             |     |                                       |     |
+|     | Power Posing                    |     | [metaanalyses.shinyapps.io/bodypositions](https://metaanalyses.shinyapps.io/bodypositions/) |     | Body Position Effects                 |     |
+|     |                                 |     |                                                                                             |     |                                       |     |
+|     | Metadataset                     |     | [metadataset.com](https://www.metadataset.com/)                                             |     | Agriculture                           |     |
+|     |                                 |     |                                                                                             |     |                                       |     |
+|     | METAPSY                         |     | <https://www.metapsy.org>                                                                   |     | Psychotherapy                         |     |
+|     |                                 |     |                                                                                             |     |                                       |     |
 
 Anleitungen:
 
@@ -1128,7 +1110,7 @@ o   Hohe Aufmerksamkeit führt zu Korrektur vieler Fehler, zum Beispiel von 12
 
 ### Offene Lehre / Open Teaching / Open Educational Resources
 
--          [https://zpid.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?utm_campaign=ptos_videos#folderID="2936633e-384a-4cf1-a8ea-aee500adc653"&notificationBannerShown=true](https://zpid.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?utm_campaign=ptos_videos#folderID="2936633e-384a-4cf1-a8ea-aee500adc653"&notificationBannerShown=true)
+-          [https://zpid.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?utm_campaign=ptos_videos#folderID="2936633e-384a-4cf1-a8ea-aee500adc653"&notificationBannerShown=true](https://zpid.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?utm_campaign=ptos_videos#folderID=%222936633e-384a-4cf1-a8ea-aee500adc653%22&notificationBannerShown=true)
 
 -          Repositorien für Bildungs- und Lehrmaterialien (Beispiele u.a. von <https://leibniz-psychology.org/practices-and-tools-of-open-science/open-science-in-der-lehre>)
 

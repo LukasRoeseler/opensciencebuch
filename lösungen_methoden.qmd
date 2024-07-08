@@ -112,11 +112,11 @@ o   Institute for Replication (I4R)
 
 §  Eigene Datenbank
 
-§  Internationale Events „Replication Games\"
+§  Internationale Events „Replication Games"
 
 §  Vor allem Ökonomie und Politikwissenschaften (REF[\[LR1\]](#_msocom_1) )
 
-§  Ergebnisse von 110 Reproduktionen „Mass reproducibility and replicability: a new hope\" <https://econpapers.repec.org/paper/zbwi4rdps/>
+§  Ergebnisse von 110 Reproduktionen „Mass reproducibility and replicability: a new hope" <https://econpapers.repec.org/paper/zbwi4rdps/>
 
 o   Open Code wird seitens Zeitschriften und zukünftig eventuell auch für den Abschluss von Datennutzungsverträgen mit Panels nötig (SOEP hat zB nur 20% open code, <https://www.wifa.uni-leipzig.de/fileadmin/Fakultät_Wifa/Institut_für_Theoretische_Volkswirtschaftslehre/Professur_Makroökonomik/Economics_Research_Seminar/ERS-Paper_Marcus.pdf>)
 
@@ -274,7 +274,7 @@ o   Andere Beispiele für Citizen Science: <https://www.buergerschaffenwissen.
 
 o   1000 Jahre <https://archiveprogram.github.com>
 
-### Replicability 
+### Replicability
 
 \#### Assuring Replicability in Primary Research
 
@@ -356,7 +356,7 @@ OSF arbeitet neue ein <https://www.cos.io/blog/call-for-submission-for-preregist
 
 <https://perception.yale.edu/papers/17-Scholl-APSObserver.pdf>
 
-#### Power Analysis 
+#### Power Analysis
 
 -          Power
 
@@ -386,13 +386,13 @@ o   effect sizes guide
 
 o    
 
--          Alternative lakens paper \"alternative to p-value is correctly used p-value\"
+-          Alternative lakens paper "alternative to p-value is correctly used p-value"
 
 o   Philosophische Diskussion über Nutzen von P-Werten: <https://journals.sagepub.com/doi/full/10.1177/09593543231160112> und hier <https://journals.sagepub.com/doi/10.1177/0959354312465483?icid=int.sj-full-text.similar-articles.1>
 
-#### 21 Word Solution 
+#### 21 Word Solution
 
-#### Open Materials 
+#### Open Materials
 
 #### Transparency
 
@@ -426,37 +426,25 @@ o   Berichte von Opfern von Vergewaltigungen à müssen anonymisiert werden, e
 
 -          Alternative zu Clarivate Analytics Web of Science Literaturdatenbank: <https://openalex.org> REF[\[LR3\]](#_msocom_3) 
 
-+-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
-|     |                                   |     |                               |     |                                 |    |
-+-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
-|     | **Infrastruktur**                 |     | **Kommerzielle Software**     |     | **Open Source Software**        |    |
-+-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
-|     |                                   |     |                               |     |                                 |    |
-+-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
-|     | Literaturdatenbank                |     |                               |     | <https://openalex.org>          |    |
-+-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
-|     |                                   |     |                               |     |                                 |    |
-+-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
-|     | Literaturverwaltung               |     | Citavi, Mendeley              |     | Zotero                          |    |
-+-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
-|     |                                   |     |                               |     |                                 |    |
-+-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
-|     | Datenerhebung                     |     | Unipark, Millisecond Inquisit |     | PsychoPy                        |    |
-+-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
-|     |                                   |     |                               |     |                                 |    |
-+-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
-|     | Datenanalyse                      |     | IBM SPSS, Stata               |     | GNU R, Python, Jupyter Notebook |    |
-+-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
-|     |                                   |     |                               |     |                                 |    |
-+-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
-|     | Begutachtung und Veröffentlichung |     | Editorial Manager             |     | Open Journal System             |    |
-+-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
-|     |                                   |     |                               |     |                                 |    |
-+-----+-----------------------------------+-----+-------------------------------+-----+---------------------------------+----+
+|     |                                   |     |                               |     |                                 |     |
+|-----|-----------------------------------|-----|-------------------------------|-----|---------------------------------|-----|
+|     |                                   |     |                               |     |                                 |     |
+|     | **Infrastruktur**                 |     | **Kommerzielle Software**     |     | **Open Source Software**        |     |
+|     |                                   |     |                               |     |                                 |     |
+|     | Literaturdatenbank                |     |                               |     | <https://openalex.org>          |     |
+|     |                                   |     |                               |     |                                 |     |
+|     | Literaturverwaltung               |     | Citavi, Mendeley              |     | Zotero                          |     |
+|     |                                   |     |                               |     |                                 |     |
+|     | Datenerhebung                     |     | Unipark, Millisecond Inquisit |     | PsychoPy                        |     |
+|     |                                   |     |                               |     |                                 |     |
+|     | Datenanalyse                      |     | IBM SPSS, Stata               |     | GNU R, Python, Jupyter Notebook |     |
+|     |                                   |     |                               |     |                                 |     |
+|     | Begutachtung und Veröffentlichung |     | Editorial Manager             |     | Open Journal System             |     |
+|     |                                   |     |                               |     |                                 |     |
 
 ### Slow Science
 
-Viele der Entwicklungen lassen sich als „langsame Wissenschaft\" (oder engl. Slow Science) zusammenfassen. Der traditionellen Produktion von Forschungsartikeln steht die achtsame Auseinandersetzung entgegen. Dass viele der vorgeschlagenen Lösungen im Wettbewerb um veröffentlichte Forschungsartikel nachteilig sind, kritisiert beispielsweise Hyman (2024[\[LR4\]](#_msocom_4) ). Er schlägt stattdessen vor, die Probleme mittels künstlicher Intelligenz zu lösen. Verlage wie Elsevier benutzen diese beispielsweise bereits für Peer Review (<https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-the-review-process>), wenngleich Modelle wie ChatGPT 4.0 nicht dafür geeignet sind (REF[\[LR5\]](#_msocom_5) ).
+Viele der Entwicklungen lassen sich als „langsame Wissenschaft" (oder engl. Slow Science) zusammenfassen. Der traditionellen Produktion von Forschungsartikeln steht die achtsame Auseinandersetzung entgegen. Dass viele der vorgeschlagenen Lösungen im Wettbewerb um veröffentlichte Forschungsartikel nachteilig sind, kritisiert beispielsweise Hyman (2024[\[LR4\]](#_msocom_4) ). Er schlägt stattdessen vor, die Probleme mittels künstlicher Intelligenz zu lösen. Verlage wie Elsevier benutzen diese beispielsweise bereits für Peer Review (<https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-the-review-process>), wenngleich Modelle wie ChatGPT 4.0 nicht dafür geeignet sind (REF[\[LR5\]](#_msocom_5) ).
 
 ### Big Team Science
 
