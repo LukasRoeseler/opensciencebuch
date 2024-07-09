@@ -21,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -33,7 +53,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <link href="./wandel.html" rel="next">
 <link href="./anfänge.html" rel="prev">
-<link href="./cover.jpg" rel="icon" type="image/jpeg">
+<link href="./images/favicon_os.jpg" rel="icon" type="image/jpeg">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -309,8 +329,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#definition-von-replizierbarkeit" id="toc-definition-von-replizierbarkeit" class="nav-link active" data-scroll-target="#definition-von-replizierbarkeit"><span class="header-section-number">5.0.1</span> Definition von Replizierbarkeit</a></li>
   <li><a href="#weiterführende-literatur" id="toc-weiterführende-literatur" class="nav-link" data-scroll-target="#weiterführende-literatur"><span class="header-section-number">5.0.2</span> Weiterführende Literatur</a></li>
   <li><a href="#eine-schwalbe-macht-noch-keinen-sommer" id="toc-eine-schwalbe-macht-noch-keinen-sommer" class="nav-link" data-scroll-target="#eine-schwalbe-macht-noch-keinen-sommer"><span class="header-section-number">5.0.3</span> &nbsp;„Eine Schwalbe macht noch keinen Sommer”</a></li>
-  <li><a href="#disziplin-zentrierte-replikationsprojekte" id="toc-disziplin-zentrierte-replikationsprojekte" class="nav-link" data-scroll-target="#disziplin-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.4</span> Disziplin-zentrierte Replikationsprojekte</a></li>
-  <li><a href="#phänomen-zentrierte-replikationsprojekte" id="toc-phänomen-zentrierte-replikationsprojekte" class="nav-link" data-scroll-target="#phänomen-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.5</span> Phänomen-zentrierte Replikationsprojekte</a></li>
+  <li><a href="#phänomen-zentrierte-replikationsprojekte" id="toc-phänomen-zentrierte-replikationsprojekte" class="nav-link" data-scroll-target="#phänomen-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.4</span> Phänomen-zentrierte Replikationsprojekte</a></li>
+  <li><a href="#disziplin-zentrierte-replikationsprojekte" id="toc-disziplin-zentrierte-replikationsprojekte" class="nav-link" data-scroll-target="#disziplin-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.5</span> Disziplin-zentrierte Replikationsprojekte</a></li>
+  <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur"><span class="header-section-number">5.0.6</span> Literatur</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -336,139 +357,138 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Eine ähnliche Vertrauenskrise gab es in der Sozialpsychologie in den 1960er Jahren (REF<a href="#_msocom_1">[LR1]</a>&nbsp;). Ein entscheidender Unterschied war diesmal die Bestandsaufnahme: Parallel zu diesen eigenartigen Befunden oder <em>Anomalien</em> vernetzten sich Psycholog*innen um Brian Nosek international und untersuchten die Replizierbarkeit von 100 Studien aus namhaften psychologischen Fachzeitschriften (REF<a href="#_msocom_2">[LR2]</a>&nbsp;)<a href="#_ftn1">[1]</a>. Sie fanden heraus, dass sich nur 39 der 100 Originalbefunde replizieren ließen. Bei allen anderen Studien, waren die Replikationsergebnisse anders als die ursprünglichen Ergebnisse. Viele weitere Großprojekte folgten, alle mit ähnlichen Ergebnissen: Die Replikationsraten lagen weit unter den Gewünschten.</p>
-<p>Zahlreiche Verbündnisse folgten. Einige Projekte konzentrierten sich auf einzelne Phänomene. Beispielsweise wurde [RRR von XXX einfügen und beschreiben, wie viele Laboratorien und Forschende mit wie vielen Versuchspersonen nachgemacht haben]. [Ergebnisse]. Andere konzentrierten sich auf Bereiche wie Forschung mit Babys (REF ManyBabies) oder Zeitschriften (REF Camerer).</p>
-<p>Liste großer Replikationsprojekte</p>
+<p>Eine ähnliche Vertrauenskrise gab es in der Sozialpsychologie in den 1960er Jahren <span class="citation" data-cites="Lakens.2023">(<a href="#ref-Lakens.2023" role="doc-biblioref">Lakens 2023</a>)</span>. Ein entscheidender Unterschied war diesmal die Bestandsaufnahme: Parallel zu diesen eigenartigen Befunden oder <em>Anomalien</em> vernetzten sich Psycholog*innen um Brian Nosek international und untersuchten die Replizierbarkeit von 100 Studien aus namhaften psychologischen Fachzeitschriften <span class="citation" data-cites="OpenScienceCollaboration.2015">(<a href="#ref-OpenScienceCollaboration.2015" role="doc-biblioref">Open Science Collaboration 2015</a>)</span>. Sie fanden heraus, dass sich nur 39 der 100 Originalbefunde replizieren ließen. Bei allen anderen Studien, waren die Replikationsergebnisse anders als die ursprünglichen Ergebnisse. Viele weitere Großprojekte folgten, alle mit ähnlichen Ergebnissen: Die Replikationsraten lagen weit unter den Gewünschten.</p>
+<p>Zahlreiche Verbünde folgten. Einige Projekte konzentrierten sich auf einzelne Phänomene. Beispielsweise haben sich 17 Forschungsgruppen zusammengetan, um den Befund des <em>Facial Feedback</em> <span class="citation" data-cites="Strack.1988">(<a href="#ref-Strack.1988" role="doc-biblioref">Strack, Martin, and Stepper 1988</a>)</span> zu replizieren <span class="citation" data-cites="Wagenmakers.2016">(<a href="#ref-Wagenmakers.2016" role="doc-biblioref">Wagenmakers et al. 2016</a>)</span>. Dabei geht darum, dass Personen einen Stift mit den Zähnen festhalten und dabei je nach Ausrichtung des Stiftes entweder diejenigen Muskeln anspannen, die sie auch zum Lachen benötigen oder eben nicht. In der “Lachen”-Bedingung fanden die Versuchspersonen im Anschluss Comics witziger. Die Replikation schlug fehl. 2022 wurde eine weitere Studie mit über 3000 Versuchspersonen aus 19 Ländern veröffentlicht - diesmal auch mit direkter Beteiligung von Fritz Strack, der die Originalstudie durchgeführt hatte <span class="citation" data-cites="Coles.2022">(<a href="#ref-Coles.2022" role="doc-biblioref">Coles et al. 2022</a>)</span>. Wieder zeigte sich, dass die Position eines Stiftes im Mund sich nicht auf die Bewertung von Stimuli auswirkt. Jenseits von sozialpsychologischen Befunden konzentrierten sich Forschende auch auf Bereiche wie Forschung mit Babys <span class="citation" data-cites="byers2020building">(<a href="#ref-byers2020building" role="doc-biblioref">Byers-Heinlein et al. 2020</a>)</span> oder auf ganze Zeitschriften <span class="citation" data-cites="Camerer.2018">(<a href="#ref-Camerer.2018" role="doc-biblioref">Camerer et al. 2018</a>)</span>.</p>
+<p><strong>Liste großer Replikationsprojekte (siehe auch https://forrt.org/replication-hub/)</strong></p>
 <table class="caption-top table">
 <tbody>
 <tr class="odd">
-<td></td>
 <td><strong>Projekt</strong></td>
-<td></td>
-<td><strong>Internetadresse</strong></td>
-<td></td>
-<td><strong>ZentralePublikationen</strong></td>
-<td></td>
-<td><strong>Fokus</strong></td>
-<td></td>
+<td><strong>Thema</strong></td>
+<td><strong>Link</strong></td>
 </tr>
 <tr class="even">
-<td></td>
-<td>Many Labs</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Reproducibility Project: Psychology</td>
+<td>Psychologie</td>
+<td><a href="https://osf.io/ezcuj/" class="uri">https://osf.io/ezcuj/</a></td>
 </tr>
 <tr class="odd">
-<td></td>
-<td>Many Primates</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td>ManyBabies</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>I4R</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td>ManyLanguages</td>
-<td></td>
-<td><a href="https://many-languages.com" class="uri">https://many-languages.com</a></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>Social Science Replication Project</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
 <td>CORE</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>SCORE</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Entscheidungsforschung</td>
+<td><a href="https://osf.io/5z4a8/" class="uri">https://osf.io/5z4a8/</a></td>
 </tr>
 <tr class="even">
-<td></td>
-<td>[siehe FReD Einträge und irise liste]</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Data Replicada</td>
+<td>Konsumentenverhalten und Entscheidungsforschung</td>
+<td><a href="https://datacolada.org/archives/category/replication" class="uri">https://datacolada.org/archives/category/replication</a></td>
 </tr>
 <tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Many Labs 1</td>
+<td>Psychologie</td>
+<td><a href="https://osf.io/wx7ck/" class="uri">https://osf.io/wx7ck/</a></td>
+</tr>
+<tr class="even">
+<td>Many Labs 2</td>
+<td>Psychologie</td>
+<td><a href="https://osf.io/8cd4r/" class="uri">https://osf.io/8cd4r/</a></td>
+</tr>
+<tr class="odd">
+<td>Many Labs 3</td>
+<td>Psychologie</td>
+<td><a href="https://osf.io/ct89g/" class="uri">https://osf.io/ct89g/</a></td>
+</tr>
+<tr class="even">
+<td>Many Labs 4</td>
+<td>Psychologie</td>
+<td><a href="https://osf.io/8ccnw/" class="uri">https://osf.io/8ccnw/</a></td>
+</tr>
+<tr class="odd">
+<td>Many Labs 5</td>
+<td>Psychologie</td>
+<td><a href="https://osf.io/7a6rd/" class="uri">https://osf.io/7a6rd/</a></td>
+</tr>
+<tr class="even">
+<td>Soto</td>
+<td>Persönlichkeitspsychologie</td>
+<td><a href="https://doi.org/10.1177/0956797619831612" class="uri">https://doi.org/10.1177/0956797619831612</a></td>
+</tr>
+<tr class="odd">
+<td>Social Sciences Replication Project</td>
+<td>Verhaltensforschung</td>
+<td><a href="http://www.socialsciencesreplicationproject.com/">http://www.socialsciencesreplicationproject.com</a></td>
+</tr>
+<tr class="even">
+<td>Registered Replication Reports</td>
+<td>Verschiedene</td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td>Many Babies 1</td>
+<td>Entwicklungspsychologie</td>
+<td><a href="https://manybabies.org/">https://manybabies.org</a></td>
+</tr>
+<tr class="even">
+<td>Sports Sciences Replications</td>
+<td>Sportwissenschaften</td>
+<td><a href="https://ssreplicationcentre.com/">https://ssreplicationcentre.com</a></td>
+</tr>
+<tr class="odd">
+<td>Hagen Cumulative Science Project</td>
+<td>Psychologie</td>
+<td><a href="https://osf.io/d7za8/" class="uri">https://osf.io/d7za8/</a></td>
+</tr>
+<tr class="even">
+<td>I4R Replications</td>
+<td>Politikwissenschaften</td>
+<td><a href="https://i4replication.org/reports.html" class="uri">https://i4replication.org/reports.html</a></td>
+</tr>
+<tr class="odd">
+<td>Experimental Philosophy</td>
+<td>Experimentelle Philosophie</td>
+<td>h<a href="https://doi.org/10.1007/s13164-018-0400-9">ttps://doi.org/10.1007/s13164-018-0400-9</a></td>
+</tr>
+<tr class="even">
+<td>Reproducibility Project: Cancer</td>
+<td>Krebsforschung (Medizin)</td>
+<td><a href="https://www.cos.io/rpcb" class="uri">https://www.cos.io/rpcb</a></td>
+</tr>
+<tr class="odd">
+<td>SCORE</td>
+<td>Sozialwissenschaften</td>
+<td><a href="https://www.cos.io/score" class="uri">https://www.cos.io/score</a></td>
+</tr>
+<tr class="even">
+<td>REPEAT</td>
+<td>Gesundheitssystem</td>
+<td><a href="https://www.repeatinitiative.org/">https://www.repeatinitiative.org</a></td>
+</tr>
+<tr class="odd">
+<td>CREP</td>
+<td>Psychologie</td>
+<td><a href="https://www.crep-psych.org/">https://www.crep-psych.org</a></td>
+</tr>
+<tr class="even">
+<td>Boyce et al., 2023</td>
+<td>Psychologie</td>
+<td><a href="https://doi.org/10.1098/rsos.231240" class="uri">https://doi.org/10.1098/rsos.231240</a></td>
+</tr>
+<tr class="odd">
+<td>ReproSci</td>
+<td>Biologie</td>
+<td><a href="https://reprosci.epfl.ch/">https://reprosci.epfl.ch</a></td>
+</tr>
+<tr class="even">
+<td>Boyce et al.&nbsp;2024</td>
+<td>Psychologie</td>
+<td><a href="https://doi.org/10.31234/osf.io/an3yb" class="uri">https://doi.org/10.31234/osf.io/an3yb</a></td>
 </tr>
 </tbody>
 </table>
 <section id="definition-von-replizierbarkeit" class="level3" data-number="5.0.1">
 <h3 data-number="5.0.1" class="anchored" data-anchor-id="definition-von-replizierbarkeit"><span class="header-section-number">5.0.1</span> Definition von Replizierbarkeit</h3>
-<p>Zu sagen, was repliziert werden konnte und was nicht<a href="#_msocom_3">[LR3]</a>&nbsp;, ist erst nach einer Definition möglich. Im Sprachgebrauch von Forschenden wird mit „wurde repliziert” gemeint, dass ein Replikationsversuch zu gleichen Ergebnissen wie eine Originalstudie gekommen ist. Zu Replikationsfehlschläge wird „konnte nicht repliziert werden” gesagt, subtil davon abweichend kann „wurde nicht repliziert” meinen, dass keine Replikationsversuche existieren oder sie fehlschlugen. Für eine Wissenschaft, die über 100 Jahre alt ist, scheint es überraschend, dass noch immer keine klare Definition wichtiger Konzepte rund um das Thema Replikation vorliegt, geschweige denn es zur Routine gehört, Studien zu replizieren. Während sich in verschiedenen Feldern abweichende Taxonomien durchgesetzt haben, sieht die Verwendung in diesem Buch wie in <strong>Tabelle 1</strong> beschrieben aus.</p>
+<p>Zu sagen, was repliziert werden konnte und was nicht, ist erst nach einer Definition möglich. Im Sprachgebrauch von Forschenden wird mit „wurde repliziert” gemeint, dass ein Replikationsversuch zu gleichen Ergebnissen wie eine Originalstudie gekommen ist. Zu Replikationsfehlschläge wird „konnte nicht repliziert werden” gesagt, subtil davon abweichend kann „wurde nicht repliziert” meinen, dass keine Replikationsversuche existieren oder sie fehlschlugen. Für eine Wissenschaft, die über 100 Jahre alt ist, scheint es überraschend, dass noch immer keine klare Definition wichtiger Konzepte rund um das Thema Replikation vorliegt, geschweige denn es zur Routine gehört, Studien zu replizieren. Während sich in verschiedenen Feldern abweichende Taxonomien durchgesetzt haben, sieht die Verwendung in diesem Buch wie in der Tabelle beschrieben aus.</p>
 <table class="caption-top table">
-<caption>Replikations-Taxonomie nach Turing Way Project REF</caption>
+<caption>Replikations-Taxonomie nach Turing Way <span class="citation" data-cites="turingwaycommunity2024illustrations">(<a href="#ref-turingwaycommunity2024illustrations" role="doc-biblioref">The Turing Way Community and Scriberia 2024</a>)</span></caption>
 <thead>
 <tr class="header">
 <th></th>
@@ -496,375 +516,182 @@ ul.task-list li input[type="checkbox"] {
 <td>robust</td>
 <td>verallgemeinerbar</td>
 </tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
 </tbody>
 </table>
-<p><a href="#_msocom_4">[LR4]</a>&nbsp;</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://dl.acm.org/doi/pdf/10.1145/3457143" class="uri">https://dl.acm.org/doi/pdf/10.1145/3457143</a> (auch siehe Helga Wolf BA)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Induktion und Deduktion <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2021.605191/full" class="uri">https://www.frontiersin.org/articles/10.3389/fpsyg.2021.605191/full</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.acm.org/publications/policies/artifact-review-and-badging-current" class="uri">https://www.acm.org/publications/policies/artifact-review-and-badging-current</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nicht in allen Disziplinen sinnvoll: Archäologie „zerstört” Daten bei der Erhebung indem sie sie aus ihrem Originalen Kontext herausreißt, etwas kann nicht 2x ausgegraben werden</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Diskussionen zum Verhältnis zwischen Entdecken, Replizieren, und Verallgemeinern <a href="https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/science-with-or-without-statistics-discovergeneralizereplicate-discoverreplicategeneralize/FADF4916A14C3C9B1D1EF8949D8F893A#related-commentaries" class="uri">https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/science-with-or-without-statistics-discovergeneralizereplicate-discoverreplicategeneralize/FADF4916A14C3C9B1D1EF8949D8F893A#related-commentaries</a></p>
 </section>
 <section id="weiterführende-literatur" class="level3" data-number="5.0.2">
 <h3 data-number="5.0.2" class="anchored" data-anchor-id="weiterführende-literatur"><span class="header-section-number">5.0.2</span> Weiterführende Literatur</h3>
-<p>Für eine systematischere, in den Informationswissenschaften verankerte Taxonomie zur Art der Replikation siehe: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5778115/" class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5778115/</a>&nbsp;REF). Eine an den statistischen Methoden angelehnte Taxonomie für die Ergebnisse von Replikationsstudien haben LeBel et al., (REF) vorgeschlagen. Philosophisch diskutiert wird Replikationsnähe zum Beispiel von REF (<a href="https://psycnet.apa.org/record/2024-20853-001" class="uri">https://psycnet.apa.org/record/2024-20853-001</a>).<a href="#_msocom_5">[LR5]</a>&nbsp;</p>
-<p><strong>Tabelle 1</strong></p>
-<p><em>Replikationstaxonomie</em></p>
+<p>Für eine systematischere, in den Informationswissenschaften verankerte Taxonomie zur Art der Replikation siehe <span class="citation" data-cites="Plesser2018">(<a href="#ref-Plesser2018" role="doc-biblioref">Plesser 2018</a>)</span>. Eine an den statistischen Methoden angelehnte Taxonomie für die Ergebnisse von Replikationsstudien haben LeBel et al. <span class="citation" data-cites="LeBel.2019">(<a href="#ref-LeBel.2019" role="doc-biblioref">LeBel et al. 2019</a>)</span> vorgeschlagen. Philosophisch diskutiert wird Replikationsnähe zum Beispiel von <span class="citation" data-cites="Choi2023">(<a href="#ref-Choi2023" role="doc-biblioref">Choi 2023</a>)</span> und <span class="citation" data-cites="Leonelli2023">(<a href="#ref-Leonelli2023" role="doc-biblioref">Leonelli 2023</a>)</span>.&nbsp;</p>
 <table class="caption-top table">
+<caption>Replikationstaxonomie</caption>
 <colgroup>
-<col style="width: 1%">
-<col style="width: 42%">
-<col style="width: 1%">
-<col style="width: 50%">
-<col style="width: 1%">
+<col style="width: 56%">
+<col style="width: 43%">
 </colgroup>
+<thead>
+<tr class="header">
+<th><strong>Unterscheidungskriterium</strong></th>
+<th><strong>Ausprägungen</strong></th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><strong>Unterscheidungskriterium</strong></td>
-<td></td>
-<td><strong>Ausprägungen</strong></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
 <td>Ergebnisse einer Replikationsstudie</td>
-<td></td>
-<td><p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Erfolgreich</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fehlgeschlagen</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unklar oder gemischt</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><p>-Erfolgreich</p>
+<p>-Fehlgeschlagen</p>
+<p>-Unklar oder gemischt</p></td>
 </tr>
 <tr class="even">
-<td></td>
 <td>Nähe einer Replikationsstudie zur Originalstudie (in Anlehnung an Lebel REF und Hüffmeier et al REF)</td>
-<td></td>
-<td><p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Direkte Replikation<br>
+<td><p><strong>Direkte Replikation</strong><br>
 (selbe Versuchsleiter*innen,<br>
 selbe Versuchsmaterialien,<br>
 neue Versuchspersonen)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nahe Replikation<br>
+<p><strong>Nahe Replikation</strong><br>
 (andere Versuchsleiter*innen,<br>
 möglichst ähnliche Versuchsmaterialien,<br>
 neue Versuchspersonen)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Konzeptuelle oder konstruktive Replikation<br>
+<p><strong>Konzeptuelle oder konstruktive Replikation</strong><br>
 (andere Versuchsleiter*innen,<br>
 andere Versuchsmaterialien,<br>
 neue Versuchspersonen)</p></td>
-<td></td>
 </tr>
 <tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
 <td>Ziel der Replikation</td>
-<td></td>
-<td><p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mit selben Daten und selbem Programmiercode zu denselben Ergebnissen gelangen: (komputationale) Reproduktion</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mit anderen Daten zu denselben Ergebnissen gelangen: Replikation</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><p><strong>Reproduktion</strong><br>
+Mit selben Daten und selbem Programmiercode zu denselben Ergebnissen gelangen</p>
+<p><strong>Replikation</strong><br>
+Mit anderen Daten zu denselben Ergebnissen gelangen</p></td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="eine-schwalbe-macht-noch-keinen-sommer" class="level3" data-number="5.0.3">
 <h3 data-number="5.0.3" class="anchored" data-anchor-id="eine-schwalbe-macht-noch-keinen-sommer"><span class="header-section-number">5.0.3</span> &nbsp;„Eine Schwalbe macht noch keinen Sommer”</h3>
-<p>Ob an einem wissenschaftlichen Befund „etwas dran ist”, er also einen Wahrheitsanspruch hat, hängt – neben seiner eigentlichen Art der Etablierung – bei der Replikationsforschung von vielen Faktoren ab. Was waren die Ergebnisse der Replikationsstudie? Wie viele und wie unterschiedliche Studien wurden durchgeführt? Wie sahen die genauen Methoden aus? Was waren die Unterschiede zwischen Replikationen und Originalstudie? Während Einzelstudien immer einen Erkenntnisgewinn liefern (mindestens, ob eine bestimmte Methode praktikabel ist, REF <a href="https://www.researchgate.net/publication/368641396_Epistemic_Functions_of_Replicability_in_Experimental_Sciences_Defending_the_Orthodox_View" class="uri">https://www.researchgate.net/publication/368641396_Epistemic_Functions_of_Replicability_in_Experimental_Sciences_Defending_the_Orthodox_View</a>), können sie je nach Forschungsgebiet stark variieren (REF <a href="https://www.researchgate.net/publication/359332892_Variation_and_Covariation_in_Large-scale_Replication_Projects_An_Evaluation_of_Replicability" class="uri">https://www.researchgate.net/publication/359332892_Variation_and_Covariation_in_Large-scale_Replication_Projects_An_Evaluation_of_Replicability</a> , REF crowdsourcing hypothesis test). Für das Gesamtbild braucht es mehr, wie zum Beispiel eine statistische Aggregation aller Einzelbefunde im Rahmen einer Meta-Analyse. Ein Beispiel mit Fantasiedaten befindet sich dazu in Abbildung X.</p>
+<p>Ob an einem wissenschaftlichen Befund „etwas dran ist”, er also einen Wahrheitsanspruch hat, hängt – neben seiner eigentlichen Art der Etablierung – bei der Replikationsforschung von vielen Faktoren ab. Was waren die Ergebnisse der Replikationsstudie? Wie viele und wie unterschiedliche Studien wurden durchgeführt? Wie sahen die genauen Methoden aus? Was waren die Unterschiede zwischen Replikationen und Originalstudie? Während Einzelstudien immer einen Erkenntnisgewinn liefern (mindestens, ob eine bestimmte Methode praktikabel ist, <span class="citation" data-cites="Sikorski2023-qp">(<a href="#ref-Sikorski2023-qp" role="doc-biblioref">Sikorski and Andreoletti 2023</a>)</span>, können sie je nach Forschungsgebiet stark variieren <span class="citation" data-cites="McShane2022-yd">Landy et al. (<a href="#ref-Landy.2020" role="doc-biblioref">2020</a>)</span>. Für das Gesamtbild braucht es mehr, wie zum Beispiel eine statistische Aggregation aller Einzelbefunde im Rahmen einer Meta-Analyse. Ein Beispiel mit Fantasiedaten befindet sich dazu in Abbildung X.</p>
 <p>ABBILDUNG X: Forest plot mit simulierten Ergebnissen von Original + vielen Einzelstudien; in den Notes dann ausführliche Erklärung.</p>
+<pre class="{---}"><code>title: "Wald Diagramm (Forest Plot)"
+format:
+  html:
+    code-fold: true
+---
+  
+{r}
+library(ggplot2)
+library(openxlsx)
+library(metafor)
+
+set.seed(10)
+k &lt;- 15
+cors &lt;- data.frame("Stichprobenumfang" = round(rchisq(n = k, df = 2, ncp = 0)*5+10, digits = 0)
+                   , "Korrelation" = rnorm(n = k, mean = .05, sd = .3)
+                   , "Studie" = paste("Studie", toupper(letters[1:k]), sep = " ")
+                   , "yi" = NA
+                   , "vi" = NA
+                   )
+
+cors[, 4:5] &lt;- metafor::escalc(ni = cors$Stichprobenumfang, ri = cors$Korrelation, measure = "COR")
+cors$ucb &lt;- cors$yi + qnorm(.975)*cors$vi
+cors$lcb &lt;- cors$yi - qnorm(.975)*cors$vi
+
+cors
+
+ggplot(cors, aes(x = Korrelation, y = reorder(Studie, Korrelation))) + geom_point() + geom_errorbar(xmin = cors$lcb, xmax = cors$ucb) + 
+  geom_vline(xintercept = 0, lty = 2) + theme_classic() + ylab("") + xlim(c(-.4, .6))</code></pre>
 </section>
-<section id="disziplin-zentrierte-replikationsprojekte" class="level3" data-number="5.0.4">
-<h3 data-number="5.0.4" class="anchored" data-anchor-id="disziplin-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.4</span> Disziplin-zentrierte Replikationsprojekte</h3>
-<p>Ungefähr die Hälfte aller psychologischen Befunde ist also nicht replizierbar. Heißt das, alle Sozialwissenschaftlichen Lehrbücher aus allen Disziplinen sind zur Hälfte falsch? Die wohl wissenschaftlichste Antwort bei fast allen Fragen lautet “kommt darauf an”.</p>
-<section id="psychologie" class="level4" data-number="5.0.4.1">
-<h4 data-number="5.0.4.1" class="anchored" data-anchor-id="psychologie"><span class="header-section-number">5.0.4.1</span> Psychologie</h4>
-<p>Inwiefern es auf die Disziplin innerhalb der Sozialwissenschaften ankommt wurde bisher vor allem in der Psychologie untersucht. Aktuelle Tendenzen weisen darauf hin, dass Replikationsraten in der Persönlichkeitspsychologie und kognitiven Psychologie (REF, REF) höher liegen als die in der Sozialpsychologie (REF) oder im Marketing (REF charlton). Während schon hunderte Replikationsversuche für sozialpsychologische Studien veröffentlicht sind, sind es in anderen Bereichen wie dem Marketing aktuell weniger - Stand Oktober 2022 sogar nur 9. Bereiche außerhalb der Psychologie sind von Replikationsproblemen ebenfalls betroffen.</p>
-<ul>
-<li></li>
-<li><p>Infant cognition <a href="http://philsci-archive.pitt.edu/22679/1/PoS_final_Oct_2023-2.pdf" class="uri">http://philsci-archive.pitt.edu/22679/1/PoS_final_Oct_2023-2.pdf</a></p></li>
-<li></li>
-<li><p>Animal Cognition <a href="https://www.animalbehaviorandcognition.org/article.php?id=1197" class="uri">https://www.animalbehaviorandcognition.org/article.php?id=1197</a></p></li>
-<li></li>
-<li><p>System Justification Theory estimate: <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ejsp.2858" class="uri">https://onlinelibrary.wiley.com/doi/full/10.1002/ejsp.2858</a></p></li>
-<li></li>
-<li><p>Persönlichkeitspsychologie:</p>
-<ul>
-<li></li>
-<li><p><a href="https://doi.org/10.1016/j.jrp.2023.104435" class="uri">https://doi.org/10.1016/j.jrp.2023.104435</a></p></li>
-<li></li>
-<li><p>Soto</p></li>
-<li></li>
-</ul></li>
-<li></li>
-</ul>
-<!-- -->
-<ul>
-<li></li>
-<li><p>Sportpsychologie</p>
-<ul>
-<li></li>
-<li><p><a href="https://econtent.hogrefe.com/doi/full/10.1026/1612-5010/a000406" class="uri">https://econtent.hogrefe.com/doi/full/10.1026/1612-5010/a000406</a> [special issue]</p></li>
-<li></li>
-<li><p><a href="https://econtent.hogrefe.com/doi/full/10.1026/1612-5010/a000404" class="uri">https://econtent.hogrefe.com/doi/full/10.1026/1612-5010/a000404</a></p></li>
-<li></li>
-<li><p><a href="https://epub.ub.uni-muenchen.de/37148/1/Geukes_Schoenbrodt_F_Utesch_Geukes_Back_Wege_aus_der_Vertrauenskrise.pdf" class="uri">https://epub.ub.uni-muenchen.de/37148/1/Geukes_Schoenbrodt_F_Utesch_Geukes_Back_Wege_aus_der_Vertrauenskrise.pdf</a></p></li>
-<li></li>
-</ul></li>
-<li></li>
-<li><p>Spracherwerb <a href="https://osf.io/zk5qg/" class="uri">https://osf.io/zk5qg/</a></p></li>
-<li></li>
-<li><p>Entwicklungspsychologie: <a href="https://onlinelibrary.wiley.com/doi/10.1002/icd.2495" class="uri">https://onlinelibrary.wiley.com/doi/10.1002/icd.2495</a></p></li>
-<li></li>
-<li><p>Unterschiede zwischen Feldern</p>
-<ul>
-<li></li>
-<li><p>Bei Psychological Science Artikeln Social – Cognition – Development (und andere) <a href="https://onlinelibrary.wiley.com/doi/10.1002/icd.2361%20Figure%201">https://onlinelibrary.wiley.com/doi/10.1002/icd.2361 Figure 1</a></p></li>
-<li></li>
-</ul></li>
-<li></li>
-<li><p>Suizidforschung: <a href="https://osf.io/preprints/osf/fwsr3" class="uri">https://osf.io/preprints/osf/fwsr3</a></p></li>
-<li></li>
-</ul>
+<section id="phänomen-zentrierte-replikationsprojekte" class="level3" data-number="5.0.4">
+<h3 data-number="5.0.4" class="anchored" data-anchor-id="phänomen-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.4</span> Phänomen-zentrierte Replikationsprojekte</h3>
+<p>Im Gegensatz zu dem breit gefächerten RPP und anderen Versuchen, die Replikationsrate zu schätzen, haben sich andere Versuche auf grundlegende Phänomene fokussiert. Dutzende Gruppen auf der ganzen Welt haben sich in solchen Fällen zusammengeschlossen, auf einen Versuchsaufbau geeinigt, und führen die Studien mit einer enormen Anzahl an Versuchspersonen durch. Die meisten dieser Vorhaben stammen aus der Psychologie. Während die dabei gefundenen Effektstärken, also sozusagen die Deutlichkeit eines Zusammenhanges oder Befundes, in fast allen Fällen weit unter denen bisheriger Studien lagen <span class="citation" data-cites="Kvarven.2020">(<a href="#ref-Kvarven.2020" role="doc-biblioref">Kvarven, Strømland, and Johannesson 2020</a>)</span>, waren sie zudem beim Großteil der Studien null, die Phänomene waren also „nicht sichtbar” <span class="citation" data-cites="Alogna.2014">Rife et al. (<a href="#ref-rife2024registered" role="doc-biblioref">2024</a>)</span>. So konnte beispielsweise mit einer enormen Präzision gezeigt werden, dass eine Geschichte über einen Professor Versuchspersonen in einem anschließenden Leistungstest *nicht* schlauer macht <span class="citation" data-cites="ODonnell.2018">(<a href="#ref-ODonnell.2018" role="doc-biblioref">O’Donnell et al. 2018</a>)</span>.</p>
 </section>
-<section id="medizin" class="level4" data-number="5.0.4.2">
-<h4 data-number="5.0.4.2" class="anchored" data-anchor-id="medizin"><span class="header-section-number">5.0.4.2</span> Medizin</h4>
-<ul>
-<li></li>
-<li><p>Krise in <strong>Medizin</strong>: Milliarden 28 USD $ Kosten <a href="https://journals.plos.org/plosbiology/article/info:doi/10.1371/journal.pbio.1002165" class="uri">https://journals.plos.org/plosbiology/article/info:doi/10.1371/journal.pbio.1002165</a> UND <a href="https://www.nature.com/articles/483531a" class="uri">https://www.nature.com/articles/483531a</a> UND <a href="https://www.nature.com/articles/nrd3439-c1" class="uri">https://www.nature.com/articles/nrd3439-c1</a></p></li>
-<li></li>
-<li><p>Krise in Krebsforschung: <a href="https://www.nature.com/articles/483531a?error=cookies_not_supported&amp;code=1c1d343e-b688-4ecc-b62c-891bc2bd1017" class="uri">https://www.nature.com/articles/483531a?error=cookies_not_supported&amp;code=1c1d343e-b688-4ecc-b62c-891bc2bd1017</a> <a href="https://www.nature.com/articles/nrd3439-c1?error=cookies_not_supported&amp;code=ed06429a-e279-4b03-9270-c9c8a33aecba" class="uri">https://www.nature.com/articles/nrd3439-c1?error=cookies_not_supported&amp;code=ed06429a-e279-4b03-9270-c9c8a33aecba</a> <a href="https://jamanetwork.com/journals/jama/fullarticle/201218#note-joc50060-1" class="uri">https://jamanetwork.com/journals/jama/fullarticle/201218#note-joc50060-1</a></p>
-<ul>
-<li></li>
-<li><p>Die hälfte kann man nicht mal replizieren, weil im Originalartikel nicht genug beschrieben ist</p></li>
-<li></li>
-<li><p>Von denen, die repliziert werden konnten, haben wenige geklappt</p></li>
-<li></li>
-</ul></li>
-<li></li>
-<li><p>Krise in Medizin: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7817176/" class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7817176/</a></p></li>
-<li></li>
-<li><p>Schätzung der Kosten: <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002165" class="uri">https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002165</a></p></li>
-<li></li>
-<li><p><a href="https://link.springer.com/article/10.1007/s00103-023-03797-y" class="uri">https://link.springer.com/article/10.1007/s00103-023-03797-y</a></p></li>
-<li></li>
-<li><p>Präklinische Forschung: Effekte korrelieren nur schwach mit denen in klinischen Studien</p>
-<ul>
-<li></li>
-<li><p><a href="https://link.springer.com/article/10.1007/s11060-022-04092-7" class="uri">https://link.springer.com/article/10.1007/s11060-022-04092-7</a></p></li>
-<li></li>
-<li><p><a href="https://www.science.org/doi/full/10.1126/scitranslmed.adg8656" class="uri">https://www.science.org/doi/full/10.1126/scitranslmed.adg8656</a></p></li>
-<li></li>
-<li><p>overview: <a href="https://www.jci.org/articles/view/177383" class="uri">https://www.jci.org/articles/view/177383</a></p></li>
-<li></li>
-</ul></li>
-<li></li>
-<li><p>Präregistrierungen in Toxikologie (<a href="https://www.tandfonline.com/doi/full/10.1080/2833373X.2024.2314303" class="uri">https://www.tandfonline.com/doi/full/10.1080/2833373X.2024.2314303</a>)</p></li>
-<li></li>
-</ul>
-</section>
-<section id="physik" class="level4" data-number="5.0.4.3">
-<h4 data-number="5.0.4.3" class="anchored" data-anchor-id="physik"><span class="header-section-number">5.0.4.3</span> Physik</h4>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Reproduzierbarkeitsprobleme in Condensed Matter Physics <a href="https://www.technologyreview.com/2024/05/15/1092535/a-wave-of-retractions-is-shaking-physics/" class="uri">https://www.technologyreview.com/2024/05/15/1092535/a-wave-of-retractions-is-shaking-physics/</a>, dazu Konferenz: <a href="https://www.pqi.org/international-conference-reproducibility-condensed-matter-physics" class="uri">https://www.pqi.org/international-conference-reproducibility-condensed-matter-physics</a></p>
-</section>
-<section id="sportwissenschaften" class="level4" data-number="5.0.4.4">
-<h4 data-number="5.0.4.4" class="anchored" data-anchor-id="sportwissenschaften"><span class="header-section-number">5.0.4.4</span> Sportwissenschaften</h4>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Auswahl von Replikationsstudien: <a href="https://link.springer.com/article/10.1007/s40279-022-01749-1" class="uri">https://link.springer.com/article/10.1007/s40279-022-01749-1</a> (z.B. Publikationsjahr, Zitationen, Disziplin, Studientyp, Frage, Variablen, Machbarkeit)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://ssreplicationcentre.com/about/" class="uri">https://ssreplicationcentre.com/about/</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.bmj.com/content/345/bmj.e4797" class="uri">https://www.bmj.com/content/345/bmj.e4797</a> kaum Studien mit Poweranalysen zwischen 1971 und 2012</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://ssreplicationcentre.com/publication/publication_bias/" class="uri">https://ssreplicationcentre.com/publication/publication_bias/</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://ssreplicationcentre.com/publication/survey/" class="uri">https://ssreplicationcentre.com/publication/survey/</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://storkinesiology.org" class="uri">https://storkinesiology.org</a></p>
-</section>
-<section id="wirtschaftswissenschaften" class="level4" data-number="5.0.4.5">
-<h4 data-number="5.0.4.5" class="anchored" data-anchor-id="wirtschaftswissenschaften"><span class="header-section-number">5.0.4.5</span> Wirtschaftswissenschaften</h4>
-<ul>
-<li></li>
-<li><p>Camerer replication studies</p></li>
-<li></li>
-<li><p>Ökonomie Bestandsaufnahe (reproduce): <a href="https://www.econstor.eu/handle/10419/250076" class="uri">https://www.econstor.eu/handle/10419/250076</a></p></li>
-<li></li>
-<li><p>P-hacking in organizational research: <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0281938" class="uri">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0281938</a></p></li>
-<li></li>
-</ul>
-<p>§&nbsp; Management Science (Reproducibility): <a href="https://osf.io/mydzv/" class="uri">https://osf.io/mydzv/</a></p>
-<ul>
-<li></li>
-<li><p>Preisgekrönte Kollaboration zur Durchführung von Replikationsstudien: <a href="https://wzb.eu/en/news/new-research-hub-lab2" class="uri">https://wzb.eu/en/news/new-research-hub-lab2</a><br>
-<a href="https://wzb.eu/en/jobs/post-doctoral-research-fellow-fmx-id-nr-243-282-243" class="uri">https://wzb.eu/en/jobs/post-doctoral-research-fellow-fmx-id-nr-243-282-243</a></p></li>
-<li></li>
-<li><p>Inventur, wie viel Replikationen es in Ökonomie gibt: <a href="https://doi.org/10.1016/j.jebo.2023.05.009" class="uri">https://doi.org/10.1016/j.jebo.2023.05.009</a></p></li>
-<li></li>
-<li><p>Open Economics Guide vom ZBW <a href="https://www.b-i-t-online.de/heft/2024-01-fachbeitrag-fingerle.pdf" class="uri">https://www.b-i-t-online.de/heft/2024-01-fachbeitrag-fingerle.pdf</a></p></li>
-<li></li>
-<li><p>Inventur, wie viele Replikationen in welchen Zeitschriften veröffentlicht werden: <a href="https://ideas.repec.org/p/stg/wpaper/2020_01.html" class="uri">https://ideas.repec.org/p/stg/wpaper/2020_01.html</a></p></li>
-<li></li>
-</ul>
-</section>
-<section id="marketing-und-konsumentenverhalten" class="level4" data-number="5.0.4.6">
-<h4 data-number="5.0.4.6" class="anchored" data-anchor-id="marketing-und-konsumentenverhalten"><span class="header-section-number">5.0.4.6</span> Marketing und Konsumentenverhalten</h4>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P-curve analyse zu menu design <a href="http://dx.doi.org/10.1016/j.ijhm.2022.103378">10.1016/j.ijhm.2022.103378</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Charlton <a href="https://openmkt.org/research/replications-of-marketing-studies/" class="uri">https://openmkt.org/research/replications-of-marketing-studies/</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Adler, Röseler, &amp; Schöniger, 2023</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Management Science: einige Replikationsversuche und grober Leitfaden <a href="https://journals.sagepub.com/doi/full/10.1177/27550311241232661" class="uri">https://journals.sagepub.com/doi/full/10.1177/27550311241232661</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toward Open Science in Marketing Research: <a href="https://osf.io/f7a8c/" class="uri">https://osf.io/f7a8c/</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wird trotzdem als positiv ausgelegt, indem internal replications mitgezählt werden <a href="https://academic.oup.com/jcr/article/51/1/157/7672979" class="uri">https://academic.oup.com/jcr/article/51/1/157/7672979</a></p>
-</section>
-<section id="biologie" class="level4" data-number="5.0.4.7">
-<h4 data-number="5.0.4.7" class="anchored" data-anchor-id="biologie"><span class="header-section-number">5.0.4.7</span> Biologie</h4>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Human Genome Project: große Gruppe an Wissenschaftler*innen, Sequenzierung des menschlichen Gens, Konflikte wegen Bestrebungen, das Gen zu patentieren <a href="https://www.science.org/doi/10.1126/science.287.5462.2396" class="uri">https://www.science.org/doi/10.1126/science.287.5462.2396</a></p>
-<p>o&nbsp;&nbsp; <a href="https://www.yourgenome.org/theme/how-did-patenting-cause-conflicts-within-the-human-genome-project/" class="uri">https://www.yourgenome.org/theme/how-did-patenting-cause-conflicts-within-the-human-genome-project/</a></p>
-</section>
-<section id="sportwissenschaften-1" class="level4" data-number="5.0.4.8">
-<h4 data-number="5.0.4.8" class="anchored" data-anchor-id="sportwissenschaften-1"><span class="header-section-number">5.0.4.8</span> Sportwissenschaften</h4>
-<ul>
-<li></li>
-<li><p>In Sportwissenschaft wird Krise vermutet: <a href="https://royalsocietypublishing.org/doi/full/10.1098/rsos.220946" class="uri">https://royalsocietypublishing.org/doi/full/10.1098/rsos.220946</a></p></li>
-<li></li>
-</ul>
-<p>§&nbsp; technology education research: <a href="https://link.springer.com/article/10.1007/s10798-022-09787-6" class="uri">https://link.springer.com/article/10.1007/s10798-022-09787-6</a></p>
-</section>
-<section id="kriminologie" class="level4" data-number="5.0.4.9">
-<h4 data-number="5.0.4.9" class="anchored" data-anchor-id="kriminologie"><span class="header-section-number">5.0.4.9</span> Kriminologie</h4>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Diskussion: <a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-criminol-032317-091849" class="uri">https://www.annualreviews.org/doi/abs/10.1146/annurev-criminol-032317-091849</a></p>
-</section>
-<section id="geowissenschaften" class="level4" data-number="5.0.4.10">
-<h4 data-number="5.0.4.10" class="anchored" data-anchor-id="geowissenschaften"><span class="header-section-number">5.0.4.10</span> Geowissenschaften</h4>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Beispiele für Replikationen <a href="https://www.sciencedirect.com/science/article/pii/S1674987124000458" class="uri">https://www.sciencedirect.com/science/article/pii/S1674987124000458</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Reproduzierbarkeit in GeoInformatik <a href="https://o2r.info/publications/" class="uri">https://o2r.info/publications/</a></p>
-</section>
-<section id="medienwissenschaften" class="level4" data-number="5.0.4.11">
-<h4 data-number="5.0.4.11" class="anchored" data-anchor-id="medienwissenschaften"><span class="header-section-number">5.0.4.11</span> Medienwissenschaften</h4>
-</section>
-<section id="kommunikationswissenschaften-und-medienwissenschaften" class="level4" data-number="5.0.4.12">
-<h4 data-number="5.0.4.12" class="anchored" data-anchor-id="kommunikationswissenschaften-und-medienwissenschaften"><span class="header-section-number">5.0.4.12</span> Kommunikationswissenschaften und Medienwissenschaften</h4>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Need for Replication <a href="https://www.cogitatiopress.com/mediaandcommunication/article/viewFile/7935/3695" class="uri">https://www.cogitatiopress.com/mediaandcommunication/article/viewFile/7935/3695</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Are we replicating yet? <a href="https://doi.org/10.17645/mac.i429" class="uri">https://doi.org/10.17645/mac.i429</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wie Replikationen aussehen müssten: <a href="https://www.cogitatiopress.com/mediaandcommunication/article/viewFile/7971/3812" class="uri">https://www.cogitatiopress.com/mediaandcommunication/article/viewFile/7971/3812</a> (Special Issue bei Media and Communication)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Offenheit für Replikationen und Kommentare bei Zeitschrift „Sexuality &amp; Culture” <a href="https://link.springer.com/article/10.1007/s12119-023-10164-1" class="uri">https://link.springer.com/article/10.1007/s12119-023-10164-1</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Liste mit Zeitschriften, die Open Science Fokus haben: <a href="https://docs.google.com/spreadsheets/d/1WDTBIop2Eg9CKsvQ1BUgMXJdmrh1TAreyS02SiWEJDY/edit?gid=0#gid=0" class="uri">https://docs.google.com/spreadsheets/d/1WDTBIop2Eg9CKsvQ1BUgMXJdmrh1TAreyS02SiWEJDY/edit?gid=0#gid=0</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Replikationsstudie (erfolgreich) <a href="https://www.tandfonline.com/doi/abs/10.1080/00224499.2021.1999893" class="uri">https://www.tandfonline.com/doi/abs/10.1080/00224499.2021.1999893</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OS Primer für CommSci: <a href="https://doi.org/10.1080/19312458.2019.1685660" class="uri">https://doi.org/10.1080/19312458.2019.1685660</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Große Gruppe an Kommunikationswissenschaftler*innen positioniert sich für OS: <a href="https://academic.oup.com/joc/article/71/1/1/5803422" class="uri">https://academic.oup.com/joc/article/71/1/1/5803422</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Konkrete Umsetzungsvorschläge: <a href="https://academic.oup.com/joc/article/71/5/855/6339986" class="uri">https://academic.oup.com/joc/article/71/5/855/6339986</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In Diskussion noch z.B.: unklare Definition von Open Science, Mangel an Aufmerksamkeit für Replikationsprobleme mit Social Media Daten <a href="https://academic.oup.com/joc/article/71/5/686/6363639" class="uri">https://academic.oup.com/joc/article/71/5/686/6363639</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OS Praktiken hängen nicht mit Impact zusammen: <a href="https://doi.org/10.1080/23808985.2023.2201601" class="uri">https://doi.org/10.1080/23808985.2023.2201601</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Replikationen in ComSci 2007-2016 gibt es, sind aber vor allem konzeptuell: <a href="https://doi.org/10.1080/23808985.2019.1632218" class="uri">https://doi.org/10.1080/23808985.2019.1632218</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Reproduzierbarkeit von Ergebnissen: <a href="https://www.cogitatiopress.com/mediaandcommunication/article/viewFile/7789/3726" class="uri">https://www.cogitatiopress.com/mediaandcommunication/article/viewFile/7789/3726</a></p>
-</section>
-<section id="soziologie" class="level4" data-number="5.0.4.13">
-<h4 data-number="5.0.4.13" class="anchored" data-anchor-id="soziologie"><span class="header-section-number">5.0.4.13</span> Soziologie</h4>
-<p>In Anlehnung an Breznau, 2021</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Von großen Diskussionen weitgehend abwesend <a href="https://www.annualreviews.org/doi/10.1146/annurev-soc-060116-053450" class="uri">https://www.annualreviews.org/doi/10.1146/annurev-soc-060116-053450</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bekannte Soziologen wie Robert Merton haben Probleme, die in Open Science Bewegung diskutiert werden, schon in der ersten Hälfte des 20. Jahrhundert angesprochen (z.B. Mertonsche Normen von Wissenschaft); umgekehrt wird Open Science als soziale Bewegung verstanden (REF<a href="#_msocom_6">[LR6]</a>&nbsp;)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Habermas hat vor Kontrolle der „public sphere” durch „private Interest” gewarnt, wie es aktuell durch wissenschaftliche Zeitschriften geschieht (<a href="https://books.google.de/books?hl=de&amp;lr=&amp;id=e799caakIWoC&amp;oi=fnd&amp;pg=PR11&amp;ots=5SCCe_SYy1&amp;sig=hS4ZXlACeY-BH4eFJqjJCfCJSIo&amp;redir_esc=y#v=onepage&amp;q&amp;f=false" class="uri">https://books.google.de/books?hl=de&amp;lr=&amp;id=e799caakIWoC&amp;oi=fnd&amp;pg=PR11&amp;ots=5SCCe_SYy1&amp;sig=hS4ZXlACeY-BH4eFJqjJCfCJSIo&amp;redir_esc=y#v=onepage&amp;q&amp;f=false</a>, p.&nbsp;94-101)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bekanntes Open Access Journal „Sociological Science” (<a href="https://sociologicalscience.com/articles-v3-6-109/" class="uri">https://sociologicalscience.com/articles-v3-6-109/</a>) erlaubt direkte Reaktion und schnellen wissenschaftlichen Austausch</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Breznau, 2021 (<a href="https://www.mdpi.com/2075-4698/11/1/9" class="uri">https://www.mdpi.com/2075-4698/11/1/9</a>): „If you are using quantitative methods, immediately stop hiding your work. If you ran 100 models and 99 did not support your hypothesis, then this is your finding. If a journal does not want to publish this, point the editors and reviewers to the importance of null results and the problems of publication bias. If they still refuse, consider boycotting this journal and sharing your negative experience in public.”</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Probleme mit Publikationssystem auch schon seit 50 Jahren bekannt: <a href="https://doi.org/10.2307/2064432" class="uri">https://doi.org/10.2307/2064432</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Diskussionen um Replikationsstandards seit 2007: <a href="https://doi.org/10.1177/0049124107306659" class="uri">https://doi.org/10.1177/0049124107306659</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vereinzelte Replikationen, z.B. <a href="https://sociologicalscience.com/articles-v2-20-420/?utm_content=buffer9ff03&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer" class="uri">https://sociologicalscience.com/articles-v2-20-420/?utm_content=buffer9ff03&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Retractions aufgrund von Fehlern nur sehr schwer und nur durch Druck des Originalautors möglich, dieselben Hinweise durch unabhängige Wissenschaftler*innen wurden vorher ignoriert: <a href="https://www.science.org/doi/10.1126/sciadv.aba5491" class="uri">https://www.science.org/doi/10.1126/sciadv.aba5491</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Transparenz auch verankert in großen nationalen soziologischen Vereinigungen: American Sociological Association, German Sociological Society, Japanese Sociological Society (Breznau, 2021, Table 1)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Leipziger Replikationsstudien: <a href="https://home.uni-leipzig.de/lerep/" class="uri">https://home.uni-leipzig.de/lerep/</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Widerstände gegen Open Science groß, v.a. in qualitativer Soziologie<br>
-z.T. nur 15% bereit, Daten öffentlich zu teilen (<a href="https://www.konsortswd.de/wp-content/uploads/forschungsinfrastrukturen_qualitative_sozialforschung.pdf#page=98" class="uri">https://www.konsortswd.de/wp-content/uploads/forschungsinfrastrukturen_qualitative_sozialforschung.pdf#page=98</a>, <a href="https://books.google.de/books?hl=de&amp;lr=&amp;id=KPWpCgAAQBAJ&amp;oi=fnd&amp;pg=PA75&amp;ots=aAz18pO-A-&amp;sig=MHbvPzJeYcnJt150NWEIPWTthXA&amp;redir_esc=y#v=onepage&amp;q&amp;f=false" class="uri">https://books.google.de/books?hl=de&amp;lr=&amp;id=KPWpCgAAQBAJ&amp;oi=fnd&amp;pg=PA75&amp;ots=aAz18pO-A-&amp;sig=MHbvPzJeYcnJt150NWEIPWTthXA&amp;redir_esc=y#v=onepage&amp;q&amp;f=false</a>)</p>
-</section>
-<section id="politikwissenschaften" class="level4" data-number="5.0.4.14">
-<h4 data-number="5.0.4.14" class="anchored" data-anchor-id="politikwissenschaften"><span class="header-section-number">5.0.4.14</span> Politikwissenschaften</h4>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Probleme mit gefälschten Daten (<a href="https://www.science.org/content/article/science-retracts-gay-marriage-paper-without-agreement-lead-author-lacour" class="uri">https://www.science.org/content/article/science-retracts-gay-marriage-paper-without-agreement-lead-author-lacour</a>)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Replication Blog: <a href="https://politicalsciencereplication.wordpress.com" class="uri">https://politicalsciencereplication.wordpress.com</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vorschlag für Replikationen-Policy für Journals und viele andere Arbeiten von Gary King (<a href="https://gking.harvard.edu/pages/data-sharing-and-replication" class="uri">https://gking.harvard.edu/pages/data-sharing-and-replication</a>)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qualitative Data Repository: <a href="https://qdr.syr.edu" class="uri">https://qdr.syr.edu</a> erlaubt abspeichern von Reden, Pressekonferenzen, Interview-Protokolle/-Aufnahmen, Offiziellen Dokumenten, Broschüren, Fernsehaufnahmen, Radiosendungen, Büchern, Fotos, usw.</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Diskussion zur Erweiterung von Reviewer Guidelines (Daten prüfen, Codesheet reviewen): <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Alfd3g8AAAAJ&amp;citation_for_view=Alfd3g8AAAAJ:d1gkVwhDpl0C" class="uri">https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=Alfd3g8AAAAJ&amp;citation_for_view=Alfd3g8AAAAJ:d1gkVwhDpl0C</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Auch bereits Special Issues, also Zeitschriftenausgaben, bei denen viele Artikel zu einem Thema sind, zu Open Science: <a href="https://www.cambridge.org/core/journals/ps-political-science-and-politics/issue/FDA7996E28CFB6DD9A2052575DBABBB6" class="uri">https://www.cambridge.org/core/journals/ps-political-science-and-politics/issue/FDA7996E28CFB6DD9A2052575DBABBB6</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Reproduzierbarkeit: <a href="https://doi.org/10.1017/S1049096520001717" class="uri">https://doi.org/10.1017/S1049096520001717</a> fast 80% nicht erfolgreich</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qualitative Forschung hier auch hoher Stellenwert: <a href="https://doi.org/10.1017/S1049096520000955" class="uri">https://doi.org/10.1017/S1049096520000955</a> Beispiel für Präregistrierung einer qualitativen Studie: <a href="https://doi.org/10.1017/S1049096520000955" class="uri">https://doi.org/10.1017/S1049096520000955</a></p>
-</section>
-<section id="erziehungswissenschaften-bildungswissenschaften-pädagogik" class="level4" data-number="5.0.4.15">
-<h4 data-number="5.0.4.15" class="anchored" data-anchor-id="erziehungswissenschaften-bildungswissenschaften-pädagogik"><span class="header-section-number">5.0.4.15</span> Erziehungswissenschaften / Bildungswissenschaften / Pädagogik</h4>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frage der Zeit, bis die Diskussion in das Fach übergeht, v.a. Präregistrierung, Open Materials, Open Data; Vorschläge: <a href="https://link.springer.com/article/10.1007/s35834-020-00286-z" class="uri">https://link.springer.com/article/10.1007/s35834-020-00286-z</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Call for Papers in Zeitschrift für Erziehungswissenschaften: <a href="https://zfe-online.de/wp-content/uploads/2024/06/CfP_ZfE_Themenschwerpunkt_Open-Science-in-der-Bildungsforschung_final.pdf" class="uri">https://zfe-online.de/wp-content/uploads/2024/06/CfP_ZfE_Themenschwerpunkt_Open-Science-in-der-Bildungsforschung_final.pdf</a></p>
-</section>
-<section id="technology-education-research" class="level4" data-number="5.0.4.16">
-<h4 data-number="5.0.4.16" class="anchored" data-anchor-id="technology-education-research"><span class="header-section-number">5.0.4.16</span> Technology Education Research</h4>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://dx.doi.org/10.1007/s10798-023-09827-9">10.1007/s10798-023-09827-9</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</p>
-</section>
-<section id="künstliche-intelligenz" class="level4" data-number="5.0.4.17">
-<h4 data-number="5.0.4.17" class="anchored" data-anchor-id="künstliche-intelligenz"><span class="header-section-number">5.0.4.17</span> Künstliche Intelligenz</h4>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.technologyreview.com/2020/11/12/1011944/artificial-intelligence-replication-crisis-science-big-tech-google-deepmind-facebook-openai/" class="uri">https://www.technologyreview.com/2020/11/12/1011944/artificial-intelligence-replication-crisis-science-big-tech-google-deepmind-facebook-openai/</a></p>
-</section>
-<section id="accounting" class="level4" data-number="5.0.4.18">
-<h4 data-number="5.0.4.18" class="anchored" data-anchor-id="accounting"><span class="header-section-number">5.0.4.18</span> Accounting</h4>
-<p>Viele Replikationen und hohe Erfolgsrate im Accounting <a href="https://doi.org/10.2308/HORIZONS-2022-152" class="uri">https://doi.org/10.2308/HORIZONS-2022-152</a></p>
-</section>
-<section id="homöopathie" class="level4" data-number="5.0.4.19">
-<h4 data-number="5.0.4.19" class="anchored" data-anchor-id="homöopathie"><span class="header-section-number">5.0.4.19</span> Homöopathie</h4>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Datenbank für Replikationsbefunde wurde vorgeschalgen: <a href="https://www.highdilution.org/index.php/ijhdr/article/view/1354" class="uri">https://www.highdilution.org/index.php/ijhdr/article/view/1354</a></p>
-</section>
-<section id="chemie" class="level4" data-number="5.0.4.20">
-<h4 data-number="5.0.4.20" class="anchored" data-anchor-id="chemie"><span class="header-section-number">5.0.4.20</span> Chemie</h4>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Orientiert an Vortrag von Egon Willighagen (Jülich Open Science Speaker Series, 30.01.2024</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Open standards (SMILES, chemical markup language “Jmol, JChemPaint”)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chemistry Development Kit, Blue Obelisk Movement (2006, 2011 papers,O’Boyle Guha Willighagen et al, Journal of Cheminformatics)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-</section>
-<section id="epidemiologie" class="level4" data-number="5.0.4.21">
-<h4 data-number="5.0.4.21" class="anchored" data-anchor-id="epidemiologie"><span class="header-section-number">5.0.4.21</span> Epidemiologie</h4>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.researchgate.net/publication/367025586_Toward_open_and_reproducible_epidemiology" class="uri">https://www.researchgate.net/publication/367025586_Toward_open_and_reproducible_epidemiology</a></p>
-</section>
-<section id="geisteswissenschaften" class="level4" data-number="5.0.4.22">
-<h4 data-number="5.0.4.22" class="anchored" data-anchor-id="geisteswissenschaften"><span class="header-section-number">5.0.4.22</span> Geisteswissenschaften</h4>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V.a. digital Humanities, die quantitativ arbeiten</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Konzeptualisierung von „repetitiver Forschung” <a href="https://link.springer.com/article/10.1007/s42803-023-00073-y#Sec5" class="uri">https://link.springer.com/article/10.1007/s42803-023-00073-y#Sec5</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Geschichte:</p>
-<p>o&nbsp;&nbsp; <a href="https://research.vu.nl/en/publications/brooke-on-the-merton-thesis-a-direct-replication-of-john-hedley-b" class="uri">https://research.vu.nl/en/publications/brooke-on-the-merton-thesis-a-direct-replication-of-john-hedley-b</a></p>
-<p>o&nbsp;&nbsp; <a href="https://research.vu.nl/en/publications/jewish-responses-to-copernican-thought-a-conceptual-replication-o" class="uri">https://research.vu.nl/en/publications/jewish-responses-to-copernican-thought-a-conceptual-replication-o</a></p>
-<p>o&nbsp;&nbsp; <a href="https://research.vu.nl/en/publications/introduction-to-thematic-part-replicating-john-hedley-brookes-wor" class="uri">https://research.vu.nl/en/publications/introduction-to-thematic-part-replicating-john-hedley-brookes-wor</a></p>
+<section id="disziplin-zentrierte-replikationsprojekte" class="level3" data-number="5.0.5">
+<h3 data-number="5.0.5" class="anchored" data-anchor-id="disziplin-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.5</span> Disziplin-zentrierte Replikationsprojekte</h3>
+<p>Ungefähr die Hälfte aller psychologischen Befunde ist also nicht replizierbar. Heißt das, alle Sozialwissenschaftlichen Lehrbücher aus allen Disziplinen sind zur Hälfte falsch? Die klare Antwort heißt <em>nein</em>. Die akkurate Antwort lautet <em>kommt darauf an</em>.</p>
+<section id="jenseits-der-psychologie" class="level4" data-number="5.0.5.1">
+<h4 data-number="5.0.5.1" class="anchored" data-anchor-id="jenseits-der-psychologie"><span class="header-section-number">5.0.5.1</span> Jenseits der Psychologie</h4>
+<p>Inwiefern es auf die Disziplin innerhalb der Sozialwissenschaften ankommt wurde bisher vor allem in der Psychologie untersucht. Aktuelle Tendenzen weisen darauf hin, dass Replikationsraten in der Persönlichkeitspsychologie und kognitiven Psychologie <span class="citation" data-cites="Soto.2019">(<a href="#ref-Soto.2019" role="doc-biblioref">Soto 2019</a>)</span> höher liegen als die in der Sozialpsychologie <span class="citation" data-cites="OpenScienceCollaboration.2015">(<a href="#ref-OpenScienceCollaboration.2015" role="doc-biblioref">Open Science Collaboration 2015</a>)</span> oder im Marketing <span class="citation" data-cites="Charlton.2022">(<a href="#ref-Charlton.2022" role="doc-biblioref">Charlton 2022</a>)</span>. Während schon hunderte Replikationsversuche für sozialpsychologische Studien veröffentlicht sind, sind es in anderen Bereichen wie dem Marketing aktuell weniger - Stand Oktober 2022 sogar nur 9. Bereiche außerhalb der Psychologie sind von Replikationsproblemen ebenfalls betroffen. Von Problemen der Replizierbarkeit, Reproduzierbarkeit, und Nachvollziehbarkeit sind fast alle Disziplinen betroffen. Neue Lösungsansätze werden in Medizin, Biologie, Chemie, Physik, Geschichtswissenschaften, Politikwissenschaften, Erziehungswissenschaften, Informatik, und vielen weiteren Bereichen diskutiert.</p>
 </section>
 </section>
-<section id="phänomen-zentrierte-replikationsprojekte" class="level3" data-number="5.0.5">
-<h3 data-number="5.0.5" class="anchored" data-anchor-id="phänomen-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.5</span> Phänomen-zentrierte Replikationsprojekte</h3>
-<p>Im Gegensatz zu dem breit gefächerten RPP und anderen Versuchen, die Replikationsrate zu schätzen, haben sich andere Versuche auf grundlegende Phänomene fokussiert. Dutzende Gruppen auf der ganzen Welt haben sich in solchen Fällen zusammengeschlossen, auf ein Versuchsdesign geeinigt, und führen die Studien mit einer enormen Anzahl an Versuchspersonen durch. Während die dabei gefundenen Effektstärken, also sozusagen die Deutlichkeit eines Zusammenhanges oder Befundes, in fast allen Fällen weit unter denen bisheriger Studien lagen (REF compraing registered report meta-analysis; meta analysis inflation), waren sie zudem beim Großteil der Studien null, die Phänomene waren also „nicht da”. So konnte beispielsweise mit einer enormen Präzision gezeigt werden, dass eine Geschichte über einen Professor Versuchspersonen in einem anschließenden Leistungstest *nicht* schlauer macht, oder XXX EGO DEPLETION BEIPSIEL EINFÜGEN XXX.</p>
-<p>XXX- Dissonanztheorie / force compliance paradigm</p>
+<section id="literatur" class="level3" data-number="5.0.6">
+<h3 data-number="5.0.6" class="anchored" data-anchor-id="literatur"><span class="header-section-number">5.0.6</span> Literatur</h3>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Alogna.2014" class="csl-entry" role="listitem">
+Alogna, V. K., M. K. Attaya, P. Aucoin, Štěpán Bahník, S. Birch, A. R. Birt, B. H. Bornstein, et al. 2014. <span>“Registered Replication Report: Schooler and Engstler-Schooler (1990).”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 9 (5): 556–78. <a href="https://doi.org/10.1177/1745691614545653">https://doi.org/10.1177/1745691614545653</a>.
+</div>
+<div id="ref-Bouwmeester.2017" class="csl-entry" role="listitem">
+Bouwmeester, S., P. P. J. L. Verkoeijen, B. Aczel, F. Barbosa, L. Bègue, P. Brañas-Garza, T. G. H. Chmura, et al. 2017. <span>“Registered Replication Report: Rand, Greene, and Nowak (2012).”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 12 (3): 527–42. <a href="https://doi.org/10.1177/1745691617693624">https://doi.org/10.1177/1745691617693624</a>.
+</div>
+<div id="ref-byers2020building" class="csl-entry" role="listitem">
+Byers-Heinlein, Krista, Christina Bergmann, Catherine Davies, Michael C Frank, J Kiley Hamlin, Melissa Kline, Jonathan F Kominsky, et al. 2020. <span>“Building a Collaborative Psychological Science: Lessons Learned from ManyBabies 1.”</span> <em>Canadian Psychology/Psychologie Canadienne</em> 61 (4): 349.
+</div>
+<div id="ref-Camerer.2018" class="csl-entry" role="listitem">
+Camerer, Colin F., Anna Dreber, Felix Holzmeister, Teck-Hua Ho, Jürgen Huber, Magnus Johannesson, Michael Kirchler, et al. 2018. <span>“Evaluating the Replicability of Social Science Experiments in Nature and Science Between 2010 and 2015.”</span> <em>Nature Human Behaviour</em> 2 (9): 637–44. <a href="https://doi.org/10.1038/s41562-018-0399-z">https://doi.org/10.1038/s41562-018-0399-z</a>.
+</div>
+<div id="ref-Charlton.2022" class="csl-entry" role="listitem">
+Charlton, Aaron. 2022. <span>“Replications of Marketing Studies.”</span> OpenMKT.org. <a href="https://openmkt.org/research/replications-of-marketing-studies/">https://openmkt.org/research/replications-of-marketing-studies/</a>.
+</div>
+<div id="ref-Cheung.2016" class="csl-entry" role="listitem">
+Cheung, Irene, Lorne Campbell, Etienne P. LeBel, Robert A. Ackerman, Bülent Aykutog˘lu, Štěpán Bahník, Jeffrey D. Bowen, et al. 2016. <span>“Registered Replication Report: Study 1 from Finkel, Rusbult, Kumashiro, <span>&amp;</span> Hannon (2002).”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 11 (5): 750–64. <a href="https://doi.org/10.1177/1745691616664694">https://doi.org/10.1177/1745691616664694</a>.
+</div>
+<div id="ref-Choi2023" class="csl-entry" role="listitem">
+Choi, Hong Hui. 2023. <span>“In Defense of the Resampling Account of Replication.”</span> <em>Journal of Theoretical and Philosophical Psychology</em> 43 (4): 249–51. <a href="https://doi.org/10.1037/teo0000224">https://doi.org/10.1037/teo0000224</a>.
+</div>
+<div id="ref-Coles.2022" class="csl-entry" role="listitem">
+Coles, Nicholas A., David S. March, Fernando Marmolejo-Ramos, Jeff T. Larsen, Nwadiogo C. Arinze, Izuchukwu L. G. Ndukaihe, Megan L. Willis, et al. 2022. <span>“A Multi-Lab Test of the Facial Feedback Hypothesis by the Many Smiles Collaboration.”</span> <em>Nature Human Behaviour</em>. <a href="https://doi.org/10.1038/s41562-022-01458-9">https://doi.org/10.1038/s41562-022-01458-9</a>.
+</div>
+<div id="ref-Eerland.2016" class="csl-entry" role="listitem">
+Eerland, Anita, Andrew M. Sherrill, Joseph P. Magliano, Rolf A. Zwaan, Jack D. Arnal, Philip Aucoin, Stephanie A. Berger, et al. 2016. <span>“Registered Replication Report: Hart <span>&amp;</span> Albarrac<span>í</span>n (2011).”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 11 (1): 158–71. <a href="https://doi.org/10.1177/1745691615605826">https://doi.org/10.1177/1745691615605826</a>.
+</div>
+<div id="ref-Kvarven.2020" class="csl-entry" role="listitem">
+Kvarven, Amanda, Eirik Strømland, and Magnus Johannesson. 2020. <span>“Comparing Meta-Analyses and Preregistered Multiple-Laboratory Replication Projects.”</span> <em>Nature Human Behaviour</em> 4 (4): 423–34. <a href="https://doi.org/10.1038/s41562-019-0787-z">https://doi.org/10.1038/s41562-019-0787-z</a>.
+</div>
+<div id="ref-Lakens.2023" class="csl-entry" role="listitem">
+Lakens, Daniel. 2023. <span>“Concerns about Replicability, Theorizing, Applicability, Generalizability, and Methodology Across Two Crises in Social Psychology.”</span> <a href="https://doi.org/10.31234/osf.io/dtvs7">https://doi.org/10.31234/osf.io/dtvs7</a>.
+</div>
+<div id="ref-Landy.2020" class="csl-entry" role="listitem">
+Landy, Justin F., Miaolei Liam Jia, Isabel L. Ding, Domenico Viganola, Warren Tierney, Anna Dreber, Magnus Johannesson, et al. 2020. <span>“Crowdsourcing Hypothesis Tests: Making Transparent How Design Choices Shape Research Results.”</span> <em>Psychological Bulletin</em> 146 (5): 451–79. <a href="https://doi.org/10.1037/bul0000220">https://doi.org/10.1037/bul0000220</a>.
+</div>
+<div id="ref-LeBel.2019" class="csl-entry" role="listitem">
+LeBel, Etienne P., Wolf Vanpaemel, Irene Cheung, and Lorne Campbell. 2019. <span>“A Brief Guide to Evaluate Replications.”</span> <em>Meta-Psychology</em> 3. <a href="https://doi.org/10.15626/MP.2018.843">https://doi.org/10.15626/MP.2018.843</a>.
+</div>
+<div id="ref-Leonelli2023" class="csl-entry" role="listitem">
+Leonelli, Sabina. 2023. <em>Philosophy of Open Science</em>. Cambridge University Press. <a href="https://doi.org/10.1017/9781009416368">https://doi.org/10.1017/9781009416368</a>.
+</div>
+<div id="ref-McShane2022-yd" class="csl-entry" role="listitem">
+McShane, Blakeley B, Ulf Böckenholt, and Karsten T Hansen. 2022. <span>“Variation and Covariation in Large-Scale Replication Projects: An Evaluation of Replicability.”</span> <em>J. Am. Stat. Assoc.</em> 117 (540): 1605–21.
+</div>
+<div id="ref-ODonnell.2018" class="csl-entry" role="listitem">
+O’Donnell, Michael, Leif D. Nelson, Evi Ackermann, Balazs Aczel, Athfah Akhtar, Silvio Aldrovandi, Nasseem Alshaif, et al. 2018. <span>“Registered Replication Report: Dijksterhuis and van Knippenberg (1998).”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 13 (2): 268–94. <a href="https://doi.org/10.1177/1745691618755704">https://doi.org/10.1177/1745691618755704</a>.
+</div>
+<div id="ref-OpenScienceCollaboration.2015" class="csl-entry" role="listitem">
+Open Science Collaboration. 2015. <span>“Psychology: Estimating the Reproducibility of Psychological Science.”</span> <em>Science (New York, N.Y.)</em> 349 (6251): aac4716. <a href="https://doi.org/10.1126/science.aac4716">https://doi.org/10.1126/science.aac4716</a>.
+</div>
+<div id="ref-Plesser2018" class="csl-entry" role="listitem">
+Plesser, Hans E. 2018. <span>“Reproducibility Vs. Replicability: A Brief History of a Confused Terminology.”</span> <em>Frontiers in Neuroinformatics</em> 11 (January). <a href="https://doi.org/10.3389/fninf.2017.00076">https://doi.org/10.3389/fninf.2017.00076</a>.
+</div>
+<div id="ref-rife2024registered" class="csl-entry" role="listitem">
+Rife, Sean, Quinn Lambert, Robert Calin-Jageman, Adamkovic Matus, Gabriel Banik, Itxaso Barberia, Jennifer Beaudry, et al. 2024. <span>“Registered Replication Report: Study 3 from Trafimow and Hughes (2012).”</span> <em>Advances in Methods and Practices in Psychological Science</em>.
+</div>
+<div id="ref-Sikorski2023-qp" class="csl-entry" role="listitem">
+Sikorski, Michał, and Mattia Andreoletti. 2023. <span>“Epistemic Functions of Replicability in Experimental Sciences: Defending the Orthodox View.”</span> <em>Found. Sci.</em>, February.
+</div>
+<div id="ref-Soto.2019" class="csl-entry" role="listitem">
+Soto, Christopher J. 2019. <span>“How Replicable Are Links Between Personality Traits and Consequential Life Outcomes? The Life Outcomes of Personality Replication Project.”</span> <em>Psychological Science</em> 30 (5): 711–27. <a href="https://doi.org/10.1177/0956797619831612">https://doi.org/10.1177/0956797619831612</a>.
+</div>
+<div id="ref-Strack.1988" class="csl-entry" role="listitem">
+Strack, Fritz, Leonard L. Martin, and Sabine Stepper. 1988. <span>“Inhibiting and Facilitating Conditions of the Human Smile: A Nonobtrusive Test of the Facial Feedback Hypothesis.”</span> <em>Journal of Personality and Social Psychology</em> 54 (5): 768–77. <a href="https://doi.org/10.1037/0022-3514.54.5.768">https://doi.org/10.1037/0022-3514.54.5.768</a>.
+</div>
+<div id="ref-turingwaycommunity2024illustrations" class="csl-entry" role="listitem">
+The Turing Way Community, and Scriberia. 2024. <span>“Illustrations from the Turing Way: Shared Under CC-BY 4.0 for Reuse.”</span> Zenodo. <a href="https://doi.org/10.5281/ZENODO.3332807">https://doi.org/10.5281/ZENODO.3332807</a>.
+</div>
+<div id="ref-vaidis2024multilab" class="csl-entry" role="listitem">
+Vaidis, David C, Willem WA Sleegers, Florian Van Leeuwen, Kenneth G DeMarree, Bjørn Sætrevik, Robert M Ross, Kathleen Schmidt, et al. 2024. <span>“A Multilab Replication of the Induced-Compliance Paradigm of Cognitive Dissonance.”</span> <em>Advances in Methods and Practices in Psychological Science</em> 7 (1): 25152459231213375.
+</div>
+<div id="ref-Wagenmakers.2016" class="csl-entry" role="listitem">
+Wagenmakers, Eric-Jan, Titia Beek, Laura Dijkhoff, Quentin F. Gronau, Alberto Acosta, Reginald B. Adams, Daniel N. Albohn, et al. 2016. <span>“Registered Replication Report: Strack, Martin, <span>&amp;</span> Stepper (1988).”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 11 (6): 917–28. <a href="https://doi.org/10.1177/1745691616674458">https://doi.org/10.1177/1745691616674458</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

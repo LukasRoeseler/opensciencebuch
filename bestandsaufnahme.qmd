@@ -126,7 +126,6 @@ format:
   
 {r}
 library(ggplot2)
-library(openxlsx)
 library(metafor)
 
 set.seed(10)
@@ -142,10 +141,12 @@ cors[, 4:5] <- metafor::escalc(ni = cors$Stichprobenumfang, ri = cors$Korrelatio
 cors$ucb <- cors$yi + qnorm(.975)*cors$vi
 cors$lcb <- cors$yi - qnorm(.975)*cors$vi
 
-cors
 
-ggplot(cors, aes(x = Korrelation, y = reorder(Studie, Korrelation))) + geom_point() + geom_errorbar(xmin = cors$lcb, xmax = cors$ucb) + 
-  geom_vline(xintercept = 0, lty = 2) + theme_classic() + ylab("") + xlim(c(-.4, .6))
+
+ggplot(cors, aes(x = Korrelation, y = reorder(Studie, Korrelation))) + 
+  geom_point() + geom_errorbar(xmin = cors$lcb, xmax = cors$ucb) + 
+  geom_vline(xintercept = 0, lty = 2) + theme_classic() + ylab("") + 
+  xlim(c(-.4, .6))
 ```
 
 ### Phänomen-zentrierte Replikationsprojekte
@@ -159,3 +160,5 @@ Ungefähr die Hälfte aller psychologischen Befunde ist also nicht replizierbar.
 #### Jenseits der Psychologie
 
 Inwiefern es auf die Disziplin innerhalb der Sozialwissenschaften ankommt wurde bisher vor allem in der Psychologie untersucht. Aktuelle Tendenzen weisen darauf hin, dass Replikationsraten in der Persönlichkeitspsychologie und kognitiven Psychologie [@Soto.2019] höher liegen als die in der Sozialpsychologie [@OpenScienceCollaboration.2015] oder im Marketing [@Charlton.2022]. Während schon hunderte Replikationsversuche für sozialpsychologische Studien veröffentlicht sind, sind es in anderen Bereichen wie dem Marketing aktuell weniger - Stand Oktober 2022 sogar nur 9. Bereiche außerhalb der Psychologie sind von Replikationsproblemen ebenfalls betroffen. Von Problemen der Replizierbarkeit, Reproduzierbarkeit, und Nachvollziehbarkeit sind fast alle Disziplinen betroffen. Neue Lösungsansätze werden in Medizin, Biologie, Chemie, Physik, Geschichtswissenschaften, Politikwissenschaften, Erziehungswissenschaften, Informatik, und vielen weiteren Bereichen diskutiert.
+
+### Literatur  {.unnumbered}
