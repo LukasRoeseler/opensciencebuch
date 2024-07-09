@@ -10,10 +10,6 @@ bibliographystyle: apa
 
 Werfen wir ein Blick darauf, was sich seit 2012 in der Psychologie verändert hat. Eingeteilt sind die Veränderungen dahingehend, welchen Teil des Problems sie vor allem betreffen: Ist der Zweck einer neuen Vorgabe, das System, die Methodik, oder die Theorien der Forschung zu verbessern? Einige Lösungen sind mit vielen Problemen gleichzeitig verknüpft und manche sind auf bestimmte Angelegenheiten maßgeschneidert. Abbildung 3 enthält eine grobe Unterteilung.
 
-**Abbildung 5**
-
-Lösungsansätze und welches Problem in der Wissenschaft sie aufgreifen
-
-[\[LR1\]](#_msocom_1) [\[LR2\]](#_msocom_2) 
+![Lösungsansätze und welches Problem in der Wissenschaft sie aufgreifen](images/lösungsansätze.png)
 
 ## 

@@ -9,39 +9,3 @@ bibliographystyle: apa
 ## Geschichte
 
 Im Rahmen dieses Buches wird die Open Science Bewegung also als eine Reaktion auf identifizierte Probleme und damit als Selbstkorrektur-Prozess der Wissenschaft verstanden. In im Zentrum steht ein mangelndes Vertrauen in Befunde, die in wissenschaftlichen Fachzeitschriften veröffentlicht wurden. Einige Probleme sind schon seit Jahrzehnten in ähnlicher Form bekannt. Bis sie allerdings öffentlich diskutiert wurden und Lösungsvorschläge erarbeiteten, benötigte es einschneidende Ereignisse.
-
-[\[2\]](#_ftnref2) Analog dazu gibt es für Universitätsrankings das transparente Leiden Ranking (<https://open.leidenranking.com>).
-
-[\[3\]](#_ftnref3) Für eine ausführliche Diskussion über die Replikationskrise als Paradigmenwechsel siehe REF <https://www.degruyter.com/document/doi/10.1515/ling-2019-0045/html>
-
- [\[LR1\]](#_msoanchor_1)https://osf.io/preprints/psyarxiv/dtvs7/
-
- [\[LR2\]](#_msoanchor_2)Open science collab 2015
-
- [\[LR3\]](#_msoanchor_3)Einarbeiten: <https://www.dfg.de/resource/blob/172844/d25fe7c0dea8a229c682d64b1efe4f1a/170425-stellungnahme-replizierbarkeit-forschungsergebnisse-de-data.pdf>
-
- [\[LR4\]](#_msoanchor_4)Aus <https://publiscologne.th-koeln.de/frontdoor/deliver/index/docId/2302/file/BA_Wolf_Helga.pdf> p. 21/239
-
- [\[LR5\]](#_msoanchor_5)Hinzufügen
-
-<https://link.springer.com/article/10.1007/s42803-023-00073-y>
-
-allgemeine auslegung und auf andere Felder anwendbar (ingenieurswissenschaften):
-
-<https://www.tandfonline.com/doi/abs/10.1080/0020174X.2023.2278032>
-
-<https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions.html>
-
-<https://languagelog.ldc.upenn.edu/nll/?p=21956>
-
- [\[LR6\]](#_msoanchor_6)<https://osf.io/preprints/socarxiv/4dsqa>
-
- [\[LR7\]](#_msoanchor_7)Hier auch n-pact factor
-
-<https://www.researchgate.net/publication/364520526_Journal_N-Pact_Factors_From_2011_to_2019_Evaluating_the_Quality_of_SocialPersonality_Journals_With_Respect_to_Sample_Size_and_Statistical_Power>
-
- [\[LR8\]](#_msoanchor_8)einarbeiten: [https://www.researchgate.net/profile/Mark-Rubin-9/publication/373353747_The_Replication_Crisis_is_Less_of_a_Crisis_in_Lakatos'\_Philosophy_of_Science/links/658575ef0bb2c7472b014f7a/The-Replication-Crisis-is-Less-of-a-Crisis-in-Lakatos-Philosophy-of-Science.pdf](https://www.researchgate.net/profile/Mark-Rubin-9/publication/373353747_The_Replication_Crisis_is_Less_of_a_Crisis_in_Lakatos'_Philosophy_of_Science/links/658575ef0bb2c7472b014f7a/The-Replication-Crisis-is-Less-of-a-Crisis-in-Lakatos-Philosophy-of-Science.pdf)
-
- [\[LR9\]](#_msoanchor_9)mehrere parallele paradigmen: <https://www.tandfonline.com/doi/10.1080/1350178X.2023.2192231>
-
- [\[LR10\]](#_msoanchor_10)Terminologie vereinfachen oder Erklärungen ergänzen
