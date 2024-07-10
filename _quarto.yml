@@ -5,11 +5,13 @@ project:
 book:
   title: "Open Science: Wie sich die Wissenschaft öffnet"
   language: de
+  author: "Lukas Röseler"
+  description: "Dieses frei zugängliche Buch soll eine niedrigschwellige Auseinandersetzung mit der aus der Wissenschaft hervorgehende Open Science Bewegung ermöglichen."
   reader-mode: true
 
   page-footer:
     left: |
-       Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0th ed.). https://lukasroeseler.github.io/opensciencebuch
+       Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0th ed.). https://doi.org/10.17605/OSF.IO/2QXWV
     right: |
       Mithilfe von <a href="https://quarto.org/">Quarto</a> erstellt.
   cover-image: images/cover.jpg
