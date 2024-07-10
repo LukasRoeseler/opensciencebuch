@@ -18,6 +18,8 @@ o   Das ist aber unklar und auch nicht ausreichend erforscht
 
 -          evtl Ontologie[\[LR4\]](#_msocom_4) 
 
+Aleatorische Unsicherheit [@der2009aleatory], siehe auch Eintrag im [FORRT Glossar](https://forrt.org/glossary/german/aleatoric_uncertainty/)
+
  [\[LR1\]](#_msoanchor_1)Dänemark, why psychology cannot be a science
 
  [\[LR2\]](#_msoanchor_2)REF siehe bei lakens

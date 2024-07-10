@@ -274,6 +274,8 @@ o   Andere Beispiele für Citizen Science: <https://www.buergerschaffenwissen.
 
 o   1000 Jahre <https://archiveprogram.github.com>
 
+Daten automatisch anonymisieren lassen mit [AMNESIA](https://amnesia.openaire.eu/)
+
 ### Replicability
 
 \#### Assuring Replicability in Primary Research
