@@ -36,7 +36,6 @@ book:
         - anfänge.qmd
         - bestandsaufnahme.qmd
         - wandel.qmd
-        - beimerstenversuch.qmd
         - struktur.qmd
         
     - part: probleme.qmd
