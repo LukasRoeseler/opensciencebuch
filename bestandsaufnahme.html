@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Lukas Röseler">
+<meta name="description" content="Dieses frei zugängliche Buch soll eine niedrigschwellige Auseinandersetzung mit der aus der Wissenschaft hervorgehende Open Science Bewegung ermöglichen.">
 
 <title>5&nbsp; Bestandsaufnahme – Open Science: Wie sich die Wissenschaft öffnet</title>
 <style>
@@ -269,12 +270,6 @@ div.csl-indent {
  <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Epistemische Probleme</span></span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./probleme_krieg.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Krieg und Open Science</span></span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -289,25 +284,25 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lösungen_system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Das System</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Das System</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lösungen_methoden.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Methoden</span></span></a>
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Methoden</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lösungen_theorien.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lösungen_welt.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Die Welt</span></span></a>
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Die Welt</span></span></a>
   </div>
 </li>
       </ul>
@@ -331,6 +326,7 @@ div.csl-indent {
   <li><a href="#eine-schwalbe-macht-noch-keinen-sommer" id="toc-eine-schwalbe-macht-noch-keinen-sommer" class="nav-link" data-scroll-target="#eine-schwalbe-macht-noch-keinen-sommer"><span class="header-section-number">5.0.3</span> &nbsp;„Eine Schwalbe macht noch keinen Sommer”</a></li>
   <li><a href="#phänomen-zentrierte-replikationsprojekte" id="toc-phänomen-zentrierte-replikationsprojekte" class="nav-link" data-scroll-target="#phänomen-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.4</span> Phänomen-zentrierte Replikationsprojekte</a></li>
   <li><a href="#disziplin-zentrierte-replikationsprojekte" id="toc-disziplin-zentrierte-replikationsprojekte" class="nav-link" data-scroll-target="#disziplin-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.5</span> Disziplin-zentrierte Replikationsprojekte</a></li>
+  <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur">Literatur</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -577,7 +573,6 @@ format:
   
 {r}
 library(ggplot2)
-library(openxlsx)
 library(metafor)
 
 set.seed(10)
@@ -593,14 +588,29 @@ cors[, 4:5] &lt;- metafor::escalc(ni = cors$Stichprobenumfang, ri = cors$Korrela
 cors$ucb &lt;- cors$yi + qnorm(.975)*cors$vi
 cors$lcb &lt;- cors$yi - qnorm(.975)*cors$vi
 
-cors
 
-ggplot(cors, aes(x = Korrelation, y = reorder(Studie, Korrelation))) + geom_point() + geom_errorbar(xmin = cors$lcb, xmax = cors$ucb) + 
-  geom_vline(xintercept = 0, lty = 2) + theme_classic() + ylab("") + xlim(c(-.4, .6))</code></pre>
+
+ggplot(cors, aes(x = Korrelation, y = reorder(Studie, Korrelation))) + 
+  geom_point() + geom_errorbar(xmin = cors$lcb, xmax = cors$ucb) + 
+  geom_vline(xintercept = 0, lty = 2) + theme_classic() + ylab("") + 
+  xlim(c(-.4, .6))</code></pre>
 </section>
 <section id="phänomen-zentrierte-replikationsprojekte" class="level3" data-number="5.0.4">
 <h3 data-number="5.0.4" class="anchored" data-anchor-id="phänomen-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.4</span> Phänomen-zentrierte Replikationsprojekte</h3>
-<p>Im Gegensatz zu dem breit gefächerten RPP und anderen Versuchen, die Replikationsrate zu schätzen, haben sich andere Versuche auf grundlegende Phänomene fokussiert. Dutzende Gruppen auf der ganzen Welt haben sich in solchen Fällen zusammengeschlossen, auf einen Versuchsaufbau geeinigt, und führen die Studien mit einer enormen Anzahl an Versuchspersonen durch. Die meisten dieser Vorhaben stammen aus der Psychologie. Während die dabei gefundenen Effektstärken, also sozusagen die Deutlichkeit eines Zusammenhanges oder Befundes, in fast allen Fällen weit unter denen bisheriger Studien lagen <span class="citation" data-cites="Kvarven.2020">(<a href="#ref-Kvarven.2020" role="doc-biblioref">Kvarven, Strømland, and Johannesson 2020</a>)</span>, waren sie zudem beim Großteil der Studien null, die Phänomene waren also „nicht sichtbar” <span class="citation" data-cites="Alogna.2014">(<a href="#ref-rife2024registered" role="doc-biblioref"><strong>rife2024registered?</strong></a>)</span>. So konnte beispielsweise mit einer enormen Präzision gezeigt werden, dass eine Geschichte über einen Professor Versuchspersonen in einem anschließenden Leistungstest *nicht* schlauer macht <span class="citation" data-cites="ODonnell.2018">(<a href="#ref-ODonnell.2018" role="doc-biblioref">O’Donnell et al. 2018</a>)</span>.</p>
+<p>Im Gegensatz zu dem breit gefächerten RPP und anderen Versuchen, die Replikationsrate zu schätzen, haben sich andere Versuche auf grundlegende Phänomene fokussiert. Dutzende Gruppen auf der ganzen Welt haben sich in solchen Fällen zusammengeschlossen, auf einen Versuchsaufbau geeinigt, und führen die Studien mit einer enormen Anzahl an Versuchspersonen durch. Die meisten dieser Vorhaben stammen aus der Psychologie. Während die dabei gefundenen Effektstärken, also sozusagen die Deutlichkeit eines Zusammenhanges oder Befundes, in fast allen Fällen weit unter denen bisheriger Studien lagen <span class="citation" data-cites="Kvarven.2020">(<a href="#ref-Kvarven.2020" role="doc-biblioref">Kvarven, Strømland, and Johannesson 2020</a>)</span>, waren sie zudem beim Großteil der Studien null, die Phänomene waren also „nicht sichtbar” <span class="citation" data-cites="Alogna.2014">Rife et al. (<a href="#ref-rife2024registered" role="doc-biblioref">2024</a>)</span>. So konnte beispielsweise mit einer enormen Präzision gezeigt werden, dass eine Geschichte über einen Professor Versuchspersonen in einem anschließenden Leistungstest *nicht* schlauer macht <span class="citation" data-cites="ODonnell.2018">(<a href="#ref-ODonnell.2018" role="doc-biblioref">O’Donnell et al. 2018</a>)</span>.</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Effiziente Nutzung von Ressourcen?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Wie geht man mit Ressourcen bei Replikationen um? Bei Zusammenschlüssen vieler Forschender stellt sich diese Frage unweigerlich. Erstellen alle Gruppen unabhängig voneinander die Studie? Halten sich alle an ein zuvor abgestimmtes Protokoll? Führen sie die Studie nacheinander durch um voneinander zu lernen? Bei <em>Registered Replication Reports</em> wird für gewöhnlich von einem zuvor mit anderen Forschenden (z.B. den Autor*innen der Originalstudie) ein Versuchsaufbau abgestimmt. Teams in verschiedenen Ländern übersetzen das Protokoll dann und halten sich bei der Durchführung eng daran. Diese Protokolle sind manchmal nicht im Vorhinein getestet <span class="citation" data-cites="https://doi.org/10.31234/osf.io/c6r8x">(<a href="#ref-https://doi.org/10.31234/osf.io/c6r8x" role="doc-biblioref"><strong>https://doi.org/10.31234/osf.io/c6r8x?</strong></a>)</span>, basieren oft aber auf erfolgreichen, namhaften Studien. Das hat den Vorteil, dass Unterschiede zwischen den Gruppen nicht auf Unterschiede in der Durchführung zurückzuführen sind und sich Kulturen vergleichen lassen <span class="citation" data-cites="Kakinohana.2022">(<a href="#ref-Kakinohana.2022" role="doc-biblioref">Kakinohana, Pilati, and Klein 2022</a>)</span>. Ein Nachteil dabei ist jedoch, dass, wenn an einem, zwei, oder fünf Standorten das Experiment schon nicht funktioniert, es fraglich ist, ob die übrigen 30 Gruppen es auch probieren sollten. In den Worten von Buttliere <span class="citation" data-cites="https://doi.org/10.31234/osf.io/c6r8x">(<a href="#ref-https://doi.org/10.31234/osf.io/c6r8x" role="doc-biblioref"><strong>https://doi.org/10.31234/osf.io/c6r8x?</strong></a>)</span>: “Wer bekommt bessere Ergebnisse? 39 Personen, die etwas zum ersten Mal tun, oder eine Person, die etwas 39 Mal tut?”</p>
+</div>
+</div>
 </section>
 <section id="disziplin-zentrierte-replikationsprojekte" class="level3" data-number="5.0.5">
 <h3 data-number="5.0.5" class="anchored" data-anchor-id="disziplin-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.5</span> Disziplin-zentrierte Replikationsprojekte</h3>
@@ -608,6 +618,10 @@ ggplot(cors, aes(x = Korrelation, y = reorder(Studie, Korrelation))) + geom_poin
 <section id="jenseits-der-psychologie" class="level4" data-number="5.0.5.1">
 <h4 data-number="5.0.5.1" class="anchored" data-anchor-id="jenseits-der-psychologie"><span class="header-section-number">5.0.5.1</span> Jenseits der Psychologie</h4>
 <p>Inwiefern es auf die Disziplin innerhalb der Sozialwissenschaften ankommt wurde bisher vor allem in der Psychologie untersucht. Aktuelle Tendenzen weisen darauf hin, dass Replikationsraten in der Persönlichkeitspsychologie und kognitiven Psychologie <span class="citation" data-cites="Soto.2019">(<a href="#ref-Soto.2019" role="doc-biblioref">Soto 2019</a>)</span> höher liegen als die in der Sozialpsychologie <span class="citation" data-cites="OpenScienceCollaboration.2015">(<a href="#ref-OpenScienceCollaboration.2015" role="doc-biblioref">Open Science Collaboration 2015</a>)</span> oder im Marketing <span class="citation" data-cites="Charlton.2022">(<a href="#ref-Charlton.2022" role="doc-biblioref">Charlton 2022</a>)</span>. Während schon hunderte Replikationsversuche für sozialpsychologische Studien veröffentlicht sind, sind es in anderen Bereichen wie dem Marketing aktuell weniger - Stand Oktober 2022 sogar nur 9. Bereiche außerhalb der Psychologie sind von Replikationsproblemen ebenfalls betroffen. Von Problemen der Replizierbarkeit, Reproduzierbarkeit, und Nachvollziehbarkeit sind fast alle Disziplinen betroffen. Neue Lösungsansätze werden in Medizin, Biologie, Chemie, Physik, Geschichtswissenschaften, Politikwissenschaften, Erziehungswissenschaften, Informatik, und vielen weiteren Bereichen diskutiert.</p>
+</section>
+</section>
+<section id="literatur" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="literatur">Literatur</h3>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
@@ -638,6 +652,9 @@ Coles, Nicholas A., David S. March, Fernando Marmolejo-Ramos, Jeff T. Larsen, Nw
 <div id="ref-Eerland.2016" class="csl-entry" role="listitem">
 Eerland, Anita, Andrew M. Sherrill, Joseph P. Magliano, Rolf A. Zwaan, Jack D. Arnal, Philip Aucoin, Stephanie A. Berger, et al. 2016. <span>“Registered Replication Report: Hart <span>&amp;</span> Albarrac<span>í</span>n (2011).”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 11 (1): 158–71. <a href="https://doi.org/10.1177/1745691615605826">https://doi.org/10.1177/1745691615605826</a>.
 </div>
+<div id="ref-Kakinohana.2022" class="csl-entry" role="listitem">
+Kakinohana, Regis K., Ronaldo Pilati, and Richard A. Klein. 2022. <span>“Does Anchoring Vary Across Cultures? Expanding the Many Labs Analysis.”</span> <em>European Journal of Social Psychology</em>. <a href="https://doi.org/10.1002/ejsp.2924">https://doi.org/10.1002/ejsp.2924</a>.
+</div>
 <div id="ref-Kvarven.2020" class="csl-entry" role="listitem">
 Kvarven, Amanda, Eirik Strømland, and Magnus Johannesson. 2020. <span>“Comparing Meta-Analyses and Preregistered Multiple-Laboratory Replication Projects.”</span> <em>Nature Human Behaviour</em> 4 (4): 423–34. <a href="https://doi.org/10.1038/s41562-019-0787-z">https://doi.org/10.1038/s41562-019-0787-z</a>.
 </div>
@@ -665,6 +682,9 @@ Open Science Collaboration. 2015. <span>“Psychology: Estimating the Reproducib
 <div id="ref-Plesser2018" class="csl-entry" role="listitem">
 Plesser, Hans E. 2018. <span>“Reproducibility Vs. Replicability: A Brief History of a Confused Terminology.”</span> <em>Frontiers in Neuroinformatics</em> 11 (January). <a href="https://doi.org/10.3389/fninf.2017.00076">https://doi.org/10.3389/fninf.2017.00076</a>.
 </div>
+<div id="ref-rife2024registered" class="csl-entry" role="listitem">
+Rife, Sean, Quinn Lambert, Robert Calin-Jageman, Adamkovic Matus, Gabriel Banik, Itxaso Barberia, Jennifer Beaudry, et al. 2024. <span>“Registered Replication Report: Study 3 from Trafimow and Hughes (2012).”</span> <em>Advances in Methods and Practices in Psychological Science</em>.
+</div>
 <div id="ref-Sikorski2023-qp" class="csl-entry" role="listitem">
 Sikorski, Michał, and Mattia Andreoletti. 2023. <span>“Epistemic Functions of Replicability in Experimental Sciences: Defending the Orthodox View.”</span> <em>Found. Sci.</em>, February.
 </div>
@@ -684,7 +704,6 @@ Vaidis, David C, Willem WA Sleegers, Florian Van Leeuwen, Kenneth G DeMarree, Bj
 Wagenmakers, Eric-Jan, Titia Beek, Laura Dijkhoff, Quentin F. Gronau, Alberto Acosta, Reginald B. Adams, Daniel N. Albohn, et al. 2016. <span>“Registered Replication Report: Strack, Martin, <span>&amp;</span> Stepper (1988).”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 11 (6): 917–28. <a href="https://doi.org/10.1177/1745691616674458">https://doi.org/10.1177/1745691616674458</a>.
 </div>
 </div>
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -1124,7 +1143,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0th ed.). https://lukasroeseler.github.io/opensciencebuch</p>
+<p>Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0th ed.). https://doi.org/10.17605/OSF.IO/2QXWV</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

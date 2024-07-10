@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Lukas Röseler">
+<meta name="description" content="Dieses frei zugängliche Buch soll eine niedrigschwellige Auseinandersetzung mit der aus der Wissenschaft hervorgehende Open Science Bewegung ermöglichen.">
 
 <title>6&nbsp; Wandel im System – Open Science: Wie sich die Wissenschaft öffnet</title>
 <style>
@@ -21,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -249,12 +270,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Epistemische Probleme</span></span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./probleme_krieg.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Krieg und Open Science</span></span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -269,25 +284,25 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lösungen_system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Das System</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Das System</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lösungen_methoden.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Methoden</span></span></a>
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Methoden</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lösungen_theorien.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lösungen_welt.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Die Welt</span></span></a>
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Die Welt</span></span></a>
   </div>
 </li>
       </ul>
@@ -307,7 +322,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#hat-sich-die-replizierbarkeitsrate-erhöht" id="toc-hat-sich-die-replizierbarkeitsrate-erhöht" class="nav-link active" data-scroll-target="#hat-sich-die-replizierbarkeitsrate-erhöht"><span class="header-section-number">6.0.1</span> Hat sich die Replizierbarkeitsrate erhöht?</a></li>
-  <li><a href="#die-open-science-revolution-als-paradigmenwechsellr8" id="toc-die-open-science-revolution-als-paradigmenwechsellr8" class="nav-link" data-scroll-target="#die-open-science-revolution-als-paradigmenwechsellr8"><span class="header-section-number">6.0.2</span> Die Open Science Revolution als Paradigmenwechsel[LR8]&nbsp;</a></li>
+  <li><a href="#die-open-science-revolution-als-paradigmenwechsel" id="toc-die-open-science-revolution-als-paradigmenwechsel" class="nav-link" data-scroll-target="#die-open-science-revolution-als-paradigmenwechsel"><span class="header-section-number">6.0.2</span> Die Open Science Revolution als Paradigmenwechsel</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -333,18 +348,94 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Seit dem Bekanntwerden der geringen Replizierbarkeit psychologischer Studien wurde das wissenschaftliche System in vielen Aspekten hinsichtlich seiner Offenheit und Transparenz verändert. Einige Zeitschriften setzen für die Veröffentlichung wissenschaftlicher Artikel voraus, dass die Daten öffentlich zugängig sind beziehungsweise erklärt ist, weshalb das nicht der Fall ist (z.B. bei Daten, die sich schwierig anonymisieren lassen). In seltenen Fällen wie bei der Zeitschrift Meta-Psychology rechnen Wissenschaftler*innen alle Ergebnisse nach. Als Antithese zum “Impact Factor”, einer Kennzahl, die angibt wie oft eine Zeitschrift zitiert wird und nachweislich nichts mit der Qualität der darin enthaltenen Forschung zu tun hat (REF), wurde der TOP-Factor eingeführt (TOP: Transparency and Openness Promotion). Dieser gibt für eine Liste von <a href="#_msocom_7">[LR7]</a>&nbsp;Kriterien an, in welchem Maße sie von verschiedenen Zeitschriften erfüllt werden. In anderen Feldern wie Betriebswirtschaftslehre oder Marketing werden Zeitschriften sogar von wenigen ausgewählten Forschenden über Ratingskalen bewertet, die jährlich als Rankings veröffentlicht werden. TOP-Factors hingegen sind objektiv, werden stetig aktualisiert, und sind öffentlich einsehbar und nachvollziehbar.<a href="#_ftn2">[2]</a></p>
-<p>Am Wandel beteiligt sind vor allem Jungwissenschaftler*innen oder Forschende im frühen Karrierestadium (<em>Early Career Researchers</em>). An vielen Universitäten haben sich in den letzten Jahren Open Science Initiativen oder regelmäßige Treffen („Reproducibili-Tea”) herausgebildet, die fast ausschließlich aus “Post Docs” (Personen nach der Promotion ohne Professur), Promovierenden (Doktoranden), und Studierenden bestehen. In Deutschland haben sie sich zum NOSI (Netzwerk der Open Science Initiativen Deutschland) vernetzt (REF OSF Link). <del>Besonders hervorzuheben ist das Journal of European Psychology Students (REF LINK), das vollständig von Studierenden geführt wird, ausschließlich Artikel mit studentischen Erstautor*innen veröffentlicht, und dessen TOP-Factor den zahlreicher prestigereicher Zeitschriften übersteigt (XXX Beispiel, Stand: 24.10.22).</del></p>
+<p>Seit dem Bekanntwerden der geringen Replizierbarkeit psychologischer Studien wurde das wissenschaftliche System in vielen Aspekten hinsichtlich seiner Offenheit und Transparenz verändert. Einige Zeitschriften setzen für die Veröffentlichung wissenschaftlicher Artikel voraus, dass die Daten öffentlich zugänglich sind beziehungsweise erklärt ist, weshalb das nicht der Fall ist (z.B. bei Daten, die sich schwierig anonymisieren lassen). In seltenen Fällen wie bei der Zeitschrift Meta-Psychology rechnen Wissenschaftler*innen alle Ergebnisse nach. Als Antithese zum “Impact Factor”, einer Kennzahl, die angibt wie oft eine Zeitschrift zitiert wird und nachweislich nichts mit der Qualität der darin enthaltenen Forschung zu tun hat <span class="citation" data-cites="Brembs.2018">(<a href="#ref-Brembs.2018" role="doc-biblioref">Brembs 2018</a>)</span>, wurde der TOP-Factor eingeführt (TOP: Transparency and Openness Promotion). Dieser gibt für eine Liste von Kriterien an, in welchem Maße sie von verschiedenen Zeitschriften erfüllt werden. In anderen Feldern wie Betriebswirtschaftslehre oder Marketing werden Zeitschriften sogar von wenigen ausgewählten Forschenden über Ratingskalen bewertet, die jährlich als Rankings veröffentlicht werden. TOP-Factors hingegen sind objektiv, werden stetig aktualisiert, und sind unter topfactor.org öffentlich einsehbar und nachvollziehbar. Für jeden Faktor gibt es vier Stufen: Keine erwähnung, Level 1, Level 2, und Level 3. Level 3 ist dabei das Ideal, zum Beispiel hieße das im Hinblick auf Transparenz von Daten, dass ein Artikel erst dann veröffentlicht wird, wenn die Daten öffentlich verfügbar sind und die Analysen von einer unabhängigen Person erfolgreich nachgerechnet (<em>reproduziert</em>) wurden. Zum Scoring einer Zeitschrift werden für die Levels 1-3 entsprechende Punkte vergeben und aufsummiert.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<table class="caption-top table">
+<caption>Übersicht über TOP Richtlinien</caption>
+<colgroup>
+<col style="width: 13%">
+<col style="width: 86%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Faktor</th>
+<th>Erklärung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Zitation von Daten</td>
+<td>Den meisten Forschungsartikeln liegen Daten zugrunde. Spezifisch geht es hier um die Möglichkeit, Daten unabhängig von den Artikeln zitieren zu können (z.B. über eine eigene Kennung, wie ein <em>Digital Object Identifier</em> [DOI]).</td>
+</tr>
+<tr class="even">
+<td>Transparenz von Daten</td>
+<td>Wenn möglich sollten Daten veröffentlicht werden. Das ist direkt über Fachzeitschriften oder über sogenannte <em>Forschungsdaten-Repositorien</em> möglich.</td>
+</tr>
+<tr class="odd">
+<td>Transparenz vom Analyse-Code</td>
+<td>Mit dem Analyse-Code werden die Forschungsdaten ausgewertet. Andere Forschende sollten die Möglichkeit haben, den Code auszuführen und die Ergebnisse zu <em>reproduzieren</em> bzw. zu prüfen.</td>
+</tr>
+<tr class="even">
+<td>Transparenz der Forschungsmaterialien</td>
+<td>Bei Forschungsmaterialien kann es sich um Fragebögen, gezeigte Bilder oder Filme, aber auch präsentierte Gerüche, verkostete Früchte, oder Programme handeln. Wenn möglich, sollten auch sie (in digitaler Form) in einem Repositorium abgelegt werden. Das ist bei Gegenständen selbstverständlich nicht möglich. Bei Genen gibt es beispielsweise <em>alphanumerische Codes</em>, mittels welchen sich Forschende verständigen.</td>
+</tr>
+<tr class="odd">
+<td>Richtlinien zum Beschreiben des Versuchsaufbaus und der Analysen</td>
+<td>Zum Verständnis aber auch zur Nachbildung einer Studie ist es wichtig, den Versuchsaufbau genau zu beschreiben. Einige Zeitschriften haben in den letzten Jahren beispielsweise die Wortbegrenzung für die entsprechende Abschnitte in Forschungsartikeln aufgehoben.</td>
+</tr>
+<tr class="even">
+<td>Präregistrierung von Studien</td>
+<td>Siehe auch Abschnitt zu Präregistrierungen in diesem Buch: Sofern eine Studie Hypothesen testet (also z.B. Erwartungen oder Vorhersagen für das Ergebnis), sollten diese im Vorhinein festgelegt sein und nach dem Sehen der Ergebnisse nicht an diese angepasst werden. Idealerweise fordern Fachzeitschriften für solche Studien Präregistrierungen und verpflichten Forschende den Link zu ihnen anzugeben.</td>
+</tr>
+<tr class="odd">
+<td>Präregistrierung des Analyseplans</td>
+<td>Der Weg von den Daten zu den Ergebnissen ist ein langer. Die Ergebnisse hängen von vielen Entscheidungen ab. Um sich dieser Flexibilität zu berauben, sollten Forschende den Analyseplan in der Präregistrierung beschreiben.</td>
+</tr>
+<tr class="even">
+<td>Replikation</td>
+<td>Trotz ihres Wertes gibt es noch immer viele Zeitschriften, die keine Replikationsstudien veröffentlichen. Im Mindestfall ermutigen Zeitschriften Forschende dazu, Replikationsstudien bei ihnen einzureichen.</td>
+</tr>
+</tbody>
+</table>
+<p>Am Wandel beteiligt sind vor allem Jungwissenschaftler*innen oder Forschende im frühen Karrierestadium (<em>Early Career Researchers</em>, ECR). An vielen Universitäten haben sich in den letzten Jahren Open Science Initiativen oder regelmäßige Treffen („Reproducibili-Tea”) herausgebildet, die fast ausschließlich aus “Post Docs” (Personen nach der Promotion ohne Professur), Promovierenden (Doktoranden), und Studierenden bestehen. In Deutschland haben sie sich zum NOSI (Netzwerk der Open Science Initiativen Deutschland) vernetzt <span class="citation" data-cites="Schonbrodt2022-zn">(<a href="#ref-Schonbrodt2022-zn" role="doc-biblioref">Schönbrodt et al. 2022</a>)</span>.</p>
 <section id="hat-sich-die-replizierbarkeitsrate-erhöht" class="level3" data-number="6.0.1">
 <h3 data-number="6.0.1" class="anchored" data-anchor-id="hat-sich-die-replizierbarkeitsrate-erhöht"><span class="header-section-number">6.0.1</span> Hat sich die Replizierbarkeitsrate erhöht?</h3>
-<p>Die Replikationskrise dauert nun schon ungefähr ein Jahrzehnt an und einiges hat sich geändert. Ist dadurch auch das Problem der Replizierbarkeit gelöst? Zum einen ist für viele Bereiche noch gar nicht klar, was sich replizieren lässt. Im Marketing führte eine Zeitschrift kurzzeitig eine Replikationsecke ein (JOURNAL NAME XXX siehe Susi paper p-values p-bullshit). Diese wurde dann in eine andere, weniger bekannte Zeitschrift verlagert. Die andere Zeitschrift wurde dann XXX. Aktuell sind Projekte in Arbeit, die die Replizierbarkeit schätzen, die Ergebnisse sind größtenteils noch vorläufig und unklar. In einem eigenen Projekt, sammeln wir Replikationsergebnisse, um langfristig je Disziplin und über die Zeit zu schauen, wie sich Replikationsraten verändert haben. Tagesaktuelle Werte sind online verfügbar (<a href="https://metaanalyses.shinyapps.io/replicationdatabase/" class="uri">https://metaanalyses.shinyapps.io/replicationdatabase/</a>). Eine Evaluation über mehrere Disziplinen und Jahre erfordert noch hunderte weitere Replikationsstudien.</p>
+<p>Die Replikationskrise dauert nun schon über ein Jahrzehnt an und einiges hat sich geändert. Ist dadurch auch das Problem der Replizierbarkeit gelöst? Zum einen ist für viele Bereiche noch gar nicht klar, was sich replizieren lässt. Im Marketing führte die Zeitschrift <em>Journal of Business Research</em> kurzzeitig eine Replikationsecke ein [@<a href="https://doi.org/10.1016/j.jbusres.2012.05.001" class="uri">https://doi.org/10.1016/j.jbusres.2012.05.001</a>], welche dann jedoch in eine andere Zeitschrift verlagert wurde. Aktuell sind Projekte in Arbeit, die die Replizierbarkeit für verschiedene Disziplinen schätzen. Deren Ergebnisse sind größtenteils noch vorläufig und unklar. In einem eigenen Projekt, sammeln wir Replikationsergebnisse, um langfristig je Disziplin und über die Zeit zu schauen, wie sich Replikationsraten verändert haben. Tagesaktuelle Werte sind online verfügbar (https://forrt-replications.shinyapps.io/fred_explorer/). Eine Evaluation über mehrere Disziplinen und Jahre erfordert noch hunderte weitere Replikationsstudien.</p>
 </section>
-<section id="die-open-science-revolution-als-paradigmenwechsellr8" class="level3" data-number="6.0.2">
-<h3 data-number="6.0.2" class="anchored" data-anchor-id="die-open-science-revolution-als-paradigmenwechsellr8"><span class="header-section-number">6.0.2</span> Die Open Science Revolution als Paradigmenwechsel<a href="#_msocom_8">[LR8]</a>&nbsp;</h3>
-<p>Wissenschaftshistoriker oder -theoretiker beschreiben die Entwicklung der Wissenschaft als nicht-stetig. Lehrbücher werden nicht immer dicker, stattdessen werden manche Kapitel kürzer, weil das darin beschriebene Wissen verworfen wird, andere werden dicker, weil neue Erkenntnisse hinzukommen. Zeitweise verschwinden Kapitel sogar vollständig. Eines der bekanntesten Wissenschaftsmodelle stammt von Thomas Kuhn (REF), der selbst Psychologe war und große Teile vom Mediziner und Soziologen Ludwik Fleck (REF) übernommen hat (siehe Abbildung X). Darin wird angenommen, dass zeitweise das Wissen wächst, sich jedoch dabei Befunde anhäufen, die mit allem anderen Wissen nicht vereinbar sind. Diese sogenannten Anomalien lassen sich ab einem bestimmten Punkt nicht mehr ignorieren. Ab dort kippt das wissenschaftliche Weltbild: Neue Theorien werden entworfen, die die Anomalien erklären können und altes Wissen wird verworfen oder in die neuen Theorien integriert. Dieses Kippen wird als Paradigmenwechsel oder wissenschaftliche Revolution bezeichnet<a href="#_ftn3">[3]</a>. Paradebeispiel für so einen Paradigmenwechsel ist der Übergang vom geozentrischen zum heliozentrischen Weltbild in der Astronomie, die Prospect Theory in den Wirtschaftswissenschaften, oder, so die Behauptung hier im Buch: Die Replikationskrise in der Psychologie. Anomalien sind in diesem Fall die Befunde von Bem oder Bargh oder vereinzelte Replikationsfehlschläge. Sie waren mit bisherigem Wissen nicht vereinbar und nachdem sich viele solcher Befunde häuften, ließen sie sich nicht mehr ignorieren oder abtun. Dass die Replikationsforscher*innen etwas falsch gemacht hatten, nicht qualifiziert waren, oder Pech hatten, war keine gute Erklärung mehr. Im Gegensatz zu klassischen Revolution steht bei der Open Science Revolution keine bestimmte Theorie oder Forschungsdisziplin die verworfen wird im Fokus, sondern die wissenschaftliche Methode und das Wissenschaftssystem der Sozialwissenschaften. In Anlehnung an die wissenschaftstheoretische Terminologie von Kuhn wird neben Replikationskrise auch Glaubwürdigkeits-Revolution (Credibility Revolution; REF <a href="https://www.nature.com/articles/s44271-023-00003-2" class="uri">https://www.nature.com/articles/s44271-023-00003-2</a>) verwendet. Für <a href="#_msocom_9">[LR9]</a>&nbsp;philosophische Betrachtungen siehe auch REF <a href="https://osf.io/preprints/metaarxiv/2dz9s/" class="uri">https://osf.io/preprints/metaarxiv/2dz9s/</a> .</p>
+<section id="die-open-science-revolution-als-paradigmenwechsel" class="level3" data-number="6.0.2">
+<h3 data-number="6.0.2" class="anchored" data-anchor-id="die-open-science-revolution-als-paradigmenwechsel"><span class="header-section-number">6.0.2</span> Die Open Science Revolution als Paradigmenwechsel</h3>
+<p>Wissenschaftshistoriker oder -theoretiker beschreiben die Entwicklung der Wissenschaft als nicht-stetig. Lehrbücher werden nicht immer dicker, stattdessen werden manche Kapitel kürzer, weil das darin beschriebene Wissen verworfen wird, andere werden dicker, weil neue Erkenntnisse hinzukommen. Zeitweise verschwinden Kapitel sogar vollständig. Eines der bekanntesten Wissenschaftsmodelle stammt von Thomas Kuhn <span class="citation" data-cites="Kuhn.19701996">(<a href="#ref-Kuhn.19701996" role="doc-biblioref">Kuhn 1970/1996</a>)</span>, der selbst Psychologe war und große Teile vom Mediziner und Soziologen Ludwik Fleck <span class="citation" data-cites="Fleck.19352015">(<a href="#ref-Fleck.19352015" role="doc-biblioref">Fleck 1935/2015</a>)</span> übernommen hat. Darin wird angenommen, dass zeitweise das Wissen wächst, sich jedoch dabei Befunde anhäufen, die mit allem anderen Wissen nicht vereinbar sind. Diese sogenannten Anomalien lassen sich ab einem bestimmten Punkt nicht mehr ignorieren. Ab dort kippt das wissenschaftliche Weltbild: Neue Theorien werden entworfen, die die Anomalien erklären können und altes Wissen wird verworfen oder in die neuen Theorien integriert. Dieses Kippen wird als Paradigmenwechsel oder wissenschaftliche Revolution bezeichnet. Paradebeispiel für so einen Paradigmenwechsel ist der Übergang vom geozentrischen zum heliozentrischen Weltbild in der Astronomie, die Prospect Theory <span class="citation" data-cites="Kahneman.1979">(<a href="#ref-Kahneman.1979" role="doc-biblioref">Kahneman and Tversky 1979</a>)</span> in den Wirtschaftswissenschaften, oder, so die Behauptung hier im Buch und auch anderorts <span class="citation" data-cites="Sonning.2021">(<a href="#ref-Sonning.2021" role="doc-biblioref">Sönning and Werner 2021</a>)</span>: Die Replikationskrise in der Psychologie. Anomalien sind in diesem Fall die Befunde von Bem oder Bargh oder vereinzelte Replikationsfehlschläge. Sie waren mit bisherigem Wissen nicht vereinbar und nachdem sich viele solcher Befunde häuften, ließen sie sich nicht mehr ignorieren oder abtun. Dass die Replikationsforscher*innen etwas falsch gemacht hatten, nicht qualifiziert waren, oder Pech hatten, war keine gute Erklärung mehr. Im Gegensatz zu klassischen Revolution steht bei der Open Science Revolution keine bestimmte Theorie oder Forschungsdisziplin die verworfen wird im Fokus, sondern die wissenschaftliche Methode und das Wissenschaftssystem der Sozialwissenschaften. In Anlehnung an die wissenschaftstheoretische Terminologie von Kuhn wird neben Replikationskrise auch Glaubwürdigkeits-Revolution <span class="citation" data-cites="Korbmacher.2023">(<a href="#ref-Korbmacher.2023" role="doc-biblioref">Korbmacher et al. 2023</a>)</span> verwendet. Für philosophische Betrachtungen siehe auch Rubins Betrachtung [@<a href="https://doi.org/10.31222/osf.io/2dz9s" class="uri">https://doi.org/10.31222/osf.io/2dz9s</a>].</p>
 <p>ABBILDUNG X: PARADIGMENWECHSEL</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Brembs.2018" class="csl-entry" role="listitem">
+Brembs, Björn. 2018. <span>“Prestigious Science Journals Struggle to Reach Even Average Reliability.”</span> <em>Frontiers in Human Neuroscience</em> 12: 37. <a href="https://doi.org/10.3389/fnhum.2018.00037">https://doi.org/10.3389/fnhum.2018.00037</a>.
+</div>
+<div id="ref-Fleck.19352015" class="csl-entry" role="listitem">
+Fleck, Ludwik. 1935/2015. <em>Entstehung Und Entwicklung Einer Wissenschaftlichen Tatsache [Formation and Development of a Scientific Fact]: Einf<span>ü</span>hrung in Die Lehre Vom Denkstil Und Denkkollektiv [Introduction to Thinking Style and Thinking Collective]</em>. 10. Auflage. Vol. 312. Suhrkamp-Taschenbuch Wissenschaft. Frankfurt am Main: Suhrkamp.
+</div>
+<div id="ref-Kahneman.1979" class="csl-entry" role="listitem">
+Kahneman, Daniel, and Amos Tversky. 1979. <span>“Prospect Theory: An Analysis of Decision Under Risk.”</span> <em>Econometrica</em> 47 (2): 263. <a href="https://doi.org/10.2307/1914185">https://doi.org/10.2307/1914185</a>.
+</div>
+<div id="ref-Korbmacher.2023" class="csl-entry" role="listitem">
+Korbmacher, Max, Flavio Azevedo, Charlotte R. Pennington, Helena Hartmann, Madeleine Pownall, Kathleen Schmidt, Mahmoud Elsherif, et al. 2023. <span>“The Replication Crisis Has Led to Positive Structural, Procedural, and Community Changes.”</span> <em>Communications Psychology</em> 1 (1). <a href="https://doi.org/10.1038/s44271-023-00003-2">https://doi.org/10.1038/s44271-023-00003-2</a>.
+</div>
+<div id="ref-Kuhn.19701996" class="csl-entry" role="listitem">
+Kuhn, Thomas S. 1970/1996. <em>The Structure of Scientific Revolutions</em>. 3rd ed. Chicago: <span>Univ. of Chicago Press</span>.
+</div>
+<div id="ref-Schonbrodt2022-zn" class="csl-entry" role="listitem">
+Schönbrodt, Felix, Anna Baumert, Andreas Glöckner, Mitja Back, Ruben C Arslan, Martin Voracek, Kai T Horstmann, et al. 2022. <span>“Netzwerk Der <span>Open-Science-Initiativen</span> (<span>NOSI</span>).”</span> Open Science Framework.
+</div>
+<div id="ref-Sonning.2021" class="csl-entry" role="listitem">
+Sönning, Lukas, and Valentin Werner. 2021. <span>“The Replication Crisis, Scientific Revolutions, and Linguistics.”</span> <em>Linguistics</em> 59 (5): 1179–1206. <a href="https://doi.org/10.1515/ling-2019-0045">https://doi.org/10.1515/ling-2019-0045</a>.
+</div>
+</div>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Sozialwissenschaftler*innen wissen, dass das Aufsummieren der Werte unsinnig ist, da Level 2 nicht “doppelt so gut” wie Level 1 ist, und die verschiedenen Faktoren nicht immer gleich gewichtet werden sollten - rechnerisch wird aber genau das angenommen. Als heuristische Schätzung der Offenheit von Zeitschriften ist dieses Vorgehen jedenfalls sinnvoller als bibliometrische Maße.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
 </section>
 
 </main> <!-- /main -->
@@ -784,7 +875,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0th ed.). https://lukasroeseler.github.io/opensciencebuch</p>
+<p>Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0th ed.). https://doi.org/10.17605/OSF.IO/2QXWV</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
