@@ -22,8 +22,6 @@ bibliographystyle: apa
 
 -          Wie stellen wir sicher, dass wir uns stärker auf Wissenschaft verlassen können?
 
-[\[1\]](#_ftnref1) Fecher und Friesike (REF, S. 19) reden von fünf „schools of thought", also Denkkollektiven, die verschiedene Ziele verfolgen: Infrastruktur (z.B. Plattformen zum Speichern oder Veröffentlichen von Forschungsmaterialien), Öffentlichkeit und Involvierung der Gesellschaft in den wissenschaftlichen Prozess (z.B. Citizen Science), Messbarkeit wissenschaftlichen Erfolgs (z.B. Alternativen zum Impact Factor), Demokratie (z.B. Zugang zum Wissen), und Pragmatismus (z.B. höhere Effizienz von Wissenschaften durch öffentliche Forschungsdaten).
-
 [\[2\]](#_ftnref2) Durch die Ungewissheit über genaue Ursachen von geringen Replikationsraten wird teilweise auch eher zu dem Begriff „Vertrauenskrise" geraten (z.B. Feest, 2023).
 
  [\[LR1\]](#_msoanchor_1)hier noch Wissenschaftsskepsis erwähnen: <https://osf.io/preprints/psyarxiv/7u4fg>  

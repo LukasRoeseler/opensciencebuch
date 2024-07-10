@@ -55,3 +55,5 @@ Ein Ansatz, bei dem verhindert werden soll, dass uninformative Studien durchgef�
  [\[LR18\]](#_msoanchor_18)Mellers, B., Hertwig, R., & Kahneman, D. (2001). Do frequency representations eliminate conjunction effects? An exercise in adversarial collaboration. *Psychological Science*, *12*(4), 269-275.
 
  [\[LR19\]](#_msoanchor_19)Cowan, N., Belletier, C., Doherty, J. M., Jaroslawska, A. J., Rhodes, S., Forsberg, A., \... & Logie, R. H. (2020). How do scientific views change? Notes from an extended adversarial collaboration. *Perspectives on Psychological Science*, *15*(4), 1011-1025.
+
+### Literatur

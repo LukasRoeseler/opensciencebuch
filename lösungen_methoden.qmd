@@ -427,7 +427,7 @@ o   Berichte von Opfern von Vergewaltigungen à müssen anonymisiert werden, e
 -          Alternative zu Clarivate Analytics Web of Science Literaturdatenbank: <https://openalex.org> REF[\[LR3\]](#_msocom_3) 
 
 |     |                                   |     |                               |     |                                 |     |
-|-----|-----------------------------------|-----|-------------------------------|-----|---------------------------------|-----|
+|----------|-------------|----------|-----------|----------|------------|----------|
 |     |                                   |     |                               |     |                                 |     |
 |     | **Infrastruktur**                 |     | **Kommerzielle Software**     |     | **Open Source Software**        |     |
 |     |                                   |     |                               |     |                                 |     |
@@ -459,3 +459,5 @@ Viele der Entwicklungen lassen sich als „langsame Wissenschaft" (oder engl. Sl
  [\[LR4\]](#_msoanchor_4)<https://www.researchgate.net/publication/377965519_Freeing_social_and_medical_scientists_from_the_replication_crisis>
 
  [\[LR5\]](#_msoanchor_5)https://arxiv.org/abs/2402.05519#:\~:text=Practical%20implications%3A%20Overall%2C%20ChatGPT%20does,steps%20to%20control%20its%20use.
+
+### Literatur

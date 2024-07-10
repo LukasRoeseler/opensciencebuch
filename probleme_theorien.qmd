@@ -27,7 +27,7 @@ Methoden werden reformiert und Wissenschaftler\*innen diskutieren, wie Wissensch
 *Merkmale induktiver u*[\[LR5\]](#_msocom_5) *nd deduktiver Vorgehensweise*
 
 |     |                                       |     |                                                                                                                   |     |                                                                                                                                              |     |
-|-----|---------------------------------------|-----|-------------------------------------------------------------------------------------------------------------------|-----|----------------------------------------------------------------------------------------------------------------------------------------------|-----|
+|--------|--------|--------|---------------|--------|--------------------|--------|
 |     |                                       |     |                                                                                                                   |     |                                                                                                                                              |     |
 |     | **Facette**                           |     | **Deduktives Vorgehen (Theorie-geleitet)**                                                                        |     | **Induktives Vorgehen (Phänomen-geleitet)**                                                                                                  |     |
 |     |                                       |     |                                                                                                                   |     |                                                                                                                                              |     |
@@ -71,3 +71,5 @@ Viel external und internal validity
  [\[LR5\]](#_msoanchor_5)Aus preprint mit Johannes genommen, evtl anpassen oder zitieren
 
  [\[LR6\]](#_msoanchor_6)12:15 <https://www.youtube.com/watch?v=CEAV7420jBk>
+
+### Literatur
