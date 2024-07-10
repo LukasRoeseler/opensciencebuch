@@ -1,9 +1,10 @@
 project:
   type: book
-  output-dir: _site
+
 
 book:
   title: "Open Science: Wie sich die Wissenschaft öffnet"
+  language: de
   reader-mode: true
 
   page-footer:
@@ -43,7 +44,6 @@ book:
         - probleme_methoden.qmd
         - probleme_theorien.qmd
         - probleme_epistemische.qmd
-        - probleme_krieg.qmd
         
     - part: lösungen.qmd
       chapters:
@@ -66,5 +66,10 @@ format:
     author-meta: "Lukas Röseler"
     callout-appearance: simple
     css: styles.css
+    
+  pdf:
+    documentclass: scrreprt
+  epub:
+    cover-image: images/cover.jpg
 
 editor: visual

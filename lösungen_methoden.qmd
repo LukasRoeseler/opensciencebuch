@@ -278,7 +278,7 @@ o   1000 Jahre <https://archiveprogram.github.com>
 
 \#### Assuring Replicability in Primary Research
 
-1.  
+1.  Replikationsstudien in Sozialpsychologie schwierig wegen Anreizstruktur und Ressourcen https://doi.org/10.1027/1864-9335/a000548
 
 2.  Andere Felder, Soziologie, Präregistrierung: <https://www.researchgate.net/publication/368454140_Preregistration_and_Registered_Reports_in_Sociology_Strengths_Weaknesses_and_Other_Considerations>
 
