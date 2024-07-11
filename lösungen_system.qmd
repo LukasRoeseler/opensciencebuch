@@ -244,7 +244,9 @@ o   <https://psycharchives.org/en/item/4d0f12d8-a542-4cfd-b718-9ee7c9d11f5b>
 
 -          Paywall umgehen
 
-o   Sci-hub
+o   Sci-hub: Schattenbibliothek, in der wissenschaftliche Zeitschriftenartikel gratis herunterladbar sind (https://de.wikipedia.org/wiki/Sci-Hub).
+
+Daten über Sci-Hub: 2018 beinhaltete Sci-Hub fast 70% aller 81.6 Millionen wissenschaftlichen Artikel [@https://doi.org/10.7554/eLife.32822]. Nutzungsstatistiken aus Deutschland von @strecker2019nutzung aufbereitet.
 
 o   12ft.io
 
