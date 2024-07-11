@@ -9,7 +9,7 @@
 <meta name="author" content="Lukas Röseler">
 <meta name="description" content="Vertrauenskrise, Replikationsrevolution, und Open Science einfach und umfangreich erklärt">
 
-<title>11&nbsp; Probleme der wissenschaftlichen Methoden – Open Science: Wie sich die Wissenschaft öffnet</title>
+<title>10&nbsp; Probleme der wissenschaftlichen Methoden – Open Science: Wie sich die Wissenschaft öffnet</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +22,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -85,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./probleme.html">Probleme</a></li><li class="breadcrumb-item"><a href="./probleme_methoden.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Probleme der wissenschaftlichen Methoden</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./probleme.html">Probleme</a></li><li class="breadcrumb-item"><a href="./probleme_methoden.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Probleme der wissenschaftlichen Methoden</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -199,14 +253,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./beimerstenversuch.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Beim ersten Versuch klappt es nie: Der Paradigmenwechsel in der Psychologie</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./struktur.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Struktur der Vertrauenskrise</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Struktur der Vertrauenskrise</span></span></a>
   </div>
 </li>
       </ul>
@@ -223,31 +271,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./probleme_system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Probleme des Wissenschaftlichen Systems</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Probleme des Wissenschaftlichen Systems</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./probleme_karriere.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Karriere in der Wissenschaft</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Karriere in der Wissenschaft</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./probleme_methoden.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Probleme der wissenschaftlichen Methoden</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Probleme der wissenschaftlichen Methoden</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./probleme_theorien.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./probleme_epistemische.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Epistemische Probleme</span></span></a>
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Epistemische Probleme</span></span></a>
   </div>
 </li>
       </ul>
@@ -264,25 +312,25 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lösungen_system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Das System</span></span></a>
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Das System</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lösungen_methoden.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Methoden</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Methoden</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lösungen_theorien.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lösungen_welt.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Die Welt</span></span></a>
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Die Welt</span></span></a>
   </div>
 </li>
       </ul>
@@ -301,24 +349,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#exploratorische-versus-konfirmatorische-forschung" id="toc-exploratorische-versus-konfirmatorische-forschung" class="nav-link active" data-scroll-target="#exploratorische-versus-konfirmatorische-forschung"><span class="header-section-number">11.0.1</span> Exploratorische versus konfirmatorische Forschung</a></li>
-  <li><a href="#freiheitsgradelr3-von-forschenden-researchers-degrees-of-freedom" id="toc-freiheitsgradelr3-von-forschenden-researchers-degrees-of-freedom" class="nav-link" data-scroll-target="#freiheitsgradelr3-von-forschenden-researchers-degrees-of-freedom"><span class="header-section-number">11.0.2</span> Freiheitsgrade[LR3]&nbsp; von Forschenden (Researchers’ Degrees of Freedom)</a></li>
-  <li><a href="#tippfehler" id="toc-tippfehler" class="nav-link" data-scroll-target="#tippfehler"><span class="header-section-number">11.0.3</span> Tippfehler</a></li>
-  <li><a href="#p-hacking" id="toc-p-hacking" class="nav-link" data-scroll-target="#p-hacking"><span class="header-section-number">11.0.4</span> P-Hacking</a></li>
-  <li><a href="#selektives-berichten-selective-reporting" id="toc-selektives-berichten-selective-reporting" class="nav-link" data-scroll-target="#selektives-berichten-selective-reporting"><span class="header-section-number">11.0.5</span> Selektives Berichten (Selective Reporting)</a></li>
-  <li><a href="#optionales-stoppen-optional-stopping" id="toc-optionales-stoppen-optional-stopping" class="nav-link" data-scroll-target="#optionales-stoppen-optional-stopping"><span class="header-section-number">11.0.6</span> Optionales Stoppen (Optional Stopping)</a></li>
-  <li><a href="#darstellung-kalibrierter-modelle-als-geplante-modelle-overfitting" id="toc-darstellung-kalibrierter-modelle-als-geplante-modelle-overfitting" class="nav-link" data-scroll-target="#darstellung-kalibrierter-modelle-als-geplante-modelle-overfitting"><span class="header-section-number">11.0.7</span> Darstellung kalibrierter Modelle als geplante Modelle (Overfitting)</a></li>
-  <li><a href="#tendenz-von-menschen-sich-selbst-zu-bestätigen-confirmation-bias" id="toc-tendenz-von-menschen-sich-selbst-zu-bestätigen-confirmation-bias" class="nav-link" data-scroll-target="#tendenz-von-menschen-sich-selbst-zu-bestätigen-confirmation-bias"><span class="header-section-number">11.0.8</span> Tendenz von Menschen, sich selbst zu bestätigen (Confirmation Bias)</a></li>
-  <li><a href="#datenfälschung" id="toc-datenfälschung" class="nav-link" data-scroll-target="#datenfälschung"><span class="header-section-number">11.0.9</span> Datenfälschung</a></li>
+  <li><a href="#exploratorische-versus-konfirmatorische-forschung" id="toc-exploratorische-versus-konfirmatorische-forschung" class="nav-link active" data-scroll-target="#exploratorische-versus-konfirmatorische-forschung"><span class="header-section-number">10.0.1</span> Exploratorische versus konfirmatorische Forschung</a></li>
+  <li><a href="#freiheitsgrade-von-forschenden-researchers-degrees-of-freedom" id="toc-freiheitsgrade-von-forschenden-researchers-degrees-of-freedom" class="nav-link" data-scroll-target="#freiheitsgrade-von-forschenden-researchers-degrees-of-freedom"><span class="header-section-number">10.0.2</span> Freiheitsgrade von Forschenden (<em>Researchers’ Degrees of Freedom</em>)</a></li>
+  <li><a href="#tippfehler" id="toc-tippfehler" class="nav-link" data-scroll-target="#tippfehler"><span class="header-section-number">10.0.3</span> Tippfehler</a></li>
+  <li><a href="#p-hacking" id="toc-p-hacking" class="nav-link" data-scroll-target="#p-hacking"><span class="header-section-number">10.0.4</span> P-Hacking</a></li>
+  <li><a href="#selektives-berichten-selective-reporting" id="toc-selektives-berichten-selective-reporting" class="nav-link" data-scroll-target="#selektives-berichten-selective-reporting"><span class="header-section-number">10.0.5</span> Selektives Berichten (<em>Selective Reporting</em>)</a></li>
+  <li><a href="#optionales-stoppen-optional-stopping" id="toc-optionales-stoppen-optional-stopping" class="nav-link" data-scroll-target="#optionales-stoppen-optional-stopping"><span class="header-section-number">10.0.6</span> Optionales Stoppen (Optional Stopping)</a></li>
+  <li><a href="#darstellung-kalibrierter-modelle-als-geplante-modelle-overfitting" id="toc-darstellung-kalibrierter-modelle-als-geplante-modelle-overfitting" class="nav-link" data-scroll-target="#darstellung-kalibrierter-modelle-als-geplante-modelle-overfitting"><span class="header-section-number">10.0.7</span> Darstellung kalibrierter Modelle als geplante Modelle (<em>Overfitting</em>)</a></li>
+  <li><a href="#tendenz-von-menschen-sich-selbst-zu-bestätigen-confirmation-bias" id="toc-tendenz-von-menschen-sich-selbst-zu-bestätigen-confirmation-bias" class="nav-link" data-scroll-target="#tendenz-von-menschen-sich-selbst-zu-bestätigen-confirmation-bias"><span class="header-section-number">10.0.8</span> Tendenz von Menschen, sich selbst zu bestätigen (<em>Confirmation Bias</em>)</a></li>
+  <li><a href="#datenfälschung" id="toc-datenfälschung" class="nav-link" data-scroll-target="#datenfälschung"><span class="header-section-number">10.0.9</span> Datenfälschung</a></li>
+  <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur"><span class="header-section-number">10.0.10</span> Literatur</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./probleme.html">Probleme</a></li><li class="breadcrumb-item"><a href="./probleme_methoden.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Probleme der wissenschaftlichen Methoden</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./probleme.html">Probleme</a></li><li class="breadcrumb-item"><a href="./probleme_methoden.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Probleme der wissenschaftlichen Methoden</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Probleme der wissenschaftlichen Methoden</span></h1>
+<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Probleme der wissenschaftlichen Methoden</span></h1>
 </div>
 
 
@@ -335,11 +384,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Im Alltagsdenken herrscht noch oft der Mythos, dass Wissenschaft sich von Nicht-Wissenschaft durch <em>die wissenschaftliche Methode</em> unterscheide. Das ist falsch (e.g., Feyerabend, 1975/2002). Zwar unterscheidet sich wissenschaftliches Wissen von alltäglichem Wissen (und auch Religion) durch einen höheren Grad an Systematizität (REF Hoyningen-Huene, 2013), allerdings gibt es weder eine einzige noch eine persistente wissenschaftliche Methode. Methoden haben sich stattdessen über die Zeit gewandelt, und das ist auch gut so. Neue Technologien ermöglichen beispielsweise in der Physik hochpräzise Messungen mittels Elektronenlaser, in den Geschichtswissenschaften 3D-Scans von Artefakten, die sonst nur wenige sehen würden, oder in den Sozialwissenschaften Datenbanken mit freiwillig bereitgestellten und anonymisierten Chatverläufen (<a href="https://db.mocoda2.de/c/home" class="uri">https://db.mocoda2.de/c/home</a>).</p>
-<p>So wie ein Hammer und andere Werkzeuge nicht per se gut oder schlecht sind, so sind Methoden nicht gut oder schlecht, nicht richtig oder falsch, sondern sie werden angemessen und korrekt verwendet oder missbraucht. Statt Missbrauch ist in den Sozialwissenschaften von fragwürdigen Forschungspraktiken (<em>Questionable Research Practices</em>), kurz QRP, die Rede. Sie erlauben Wissenschaftler*innen Befunde zu generieren, die sie wollen, statt Befunden, die es tatsächlich gibt. Im Folgenden werden verbreitete und oft angewandte (John et al., 2012) Techniken vorgestellt (für einen Überblick über die Forschung dazu in den letzten 50 Jahren, siehe auch Neoh et al., 2023).</p>
-<section id="exploratorische-versus-konfirmatorische-forschung" class="level3" data-number="11.0.1">
-<h3 data-number="11.0.1" class="anchored" data-anchor-id="exploratorische-versus-konfirmatorische-forschung"><span class="header-section-number">11.0.1</span> Exploratorische versus konfirmatorische Forschung</h3>
-<p>Zum Verständnis der fragwürdigen Forschungspraktiken (QRP) ist eine wichtige forschungstechnische Unterscheidung unabdingbar: Wie bei einem Spaziergang kann eine wissenschaftliche Untersuchung erkundend oder zielgerichtet sein. Mal wird frei durch die Gegend spaziert und dabei neue Entdeckungen gemacht, mal ist das Ziel und die Route klar und im Vorhinein bestimmt. Im wissenschaftlichen Kontext ist die Rede von exploratorischer und konfirmatorischer Forschung. Bei der Exploration stehen höchstens die Forschungsfrage und grobe Züge der Methode fest, bei einem konfirmatorischen Test ist alles durchdacht: Vorgehen, mögliche Ergebnisse, sowie Erklärungsansätze für jedes mögliche Resultat. Es wird dann eine spezifizierte Hypothese mit der dazugehörigen Theorie bestätigt oder eben nicht. Kein Vorgehen ist dem anderen per se überlegen (siehe Abbildung Z). Üblicherweise beginnen Untersuchungen in einem bisher wenig erschlossenen Gebiet mit Exploration, während mehr vorhergehende Forschung mit klareren Erwartungen einhergeht. Es sei dazu gesagt, dass es sich hier um Extremtypen von Forschung handelt, die ein Spektrum bilden. Geisteswissenschaftlich erlauben außerdem erst beide Ansätze zusammen Erkenntnisgewinn. Im Rahmen des hermeneutischen Zirkel, (einfach gesagt “dem Kreis des Verstehens”, Abbildung Y) wird aus einzelnen Beobachtungen eine allgemeine Gesetzmäßigkeit formuliert (<em>Induktion</em>) und diese Gesetzmäßigkeit wird im Anschluss bei weiteren Einzelbeobachtungen geprüft (<em>Deduktion</em>).</p>
+<p>Im Alltagsdenken herrscht noch oft der Mythos, dass Wissenschaft sich von Nicht-Wissenschaft durch <em>die wissenschaftliche Methode</em> unterscheide. Das ist falsch <span class="citation" data-cites="Feyerabend.19752002">(<a href="#ref-Feyerabend.19752002" role="doc-biblioref">Feyerabend 1975/2002</a>)</span>. Zwar unterscheidet sich wissenschaftliches Wissen von alltäglichem Wissen (und auch Religion) durch einen höheren Grad an Systematizität <span class="citation" data-cites="HoyningenHuene.2013">(<a href="#ref-HoyningenHuene.2013" role="doc-biblioref">Hoyningen-Huene 2013</a>)</span>, allerdings gibt es weder eine einzige noch eine konstante wissenschaftliche Methode. Methoden haben sich stattdessen über die Zeit gewandelt, und das ist auch gut so. Neue Technologien ermöglichen beispielsweise in der Physik hochpräzise Messungen mittels Elektronenlaser, in den Geschichtswissenschaften 3D-Scans von Artefakten, die sonst nur wenige sehen würden, oder in den Sozialwissenschaften Datenbanken mit freiwillig bereitgestellten und anonymisierten Chatverläufen (<a href="https://db.mocoda2.de/c/home" class="uri">https://db.mocoda2.de/c/home</a>).</p>
+<p>So wie ein Hammer und andere Werkzeuge nicht gut oder schlecht sind, so sind auch Methoden nicht gut oder schlecht, nicht richtig oder falsch, sondern sie werden <em>angemessen und korrekt</em> verwendet oder missbraucht. Statt Missbrauch ist in den Sozialwissenschaften von fragwürdigen Forschungspraktiken (<em>Questionable Research Practices</em>), kurz QRP, die Rede. Sie erlauben Wissenschaftler*innen Befunde zu generieren, die sie wollen. Im Folgenden werden verbreitete und oft angewandte <span class="citation" data-cites="John.2012">(<a href="#ref-John.2012" role="doc-biblioref">John, Loewenstein, and Prelec 2012</a>)</span> Techniken vorgestellt (für einen Überblick über die Forschung dazu in den letzten 50 Jahren, siehe auch <span class="citation" data-cites="Neoh.2023">Neoh et al. (<a href="#ref-Neoh.2023" role="doc-biblioref">2023</a>)</span>).</p>
+<section id="exploratorische-versus-konfirmatorische-forschung" class="level3" data-number="10.0.1">
+<h3 data-number="10.0.1" class="anchored" data-anchor-id="exploratorische-versus-konfirmatorische-forschung"><span class="header-section-number">10.0.1</span> Exploratorische versus konfirmatorische Forschung</h3>
+<p>Zum Verständnis der fragwürdigen Forschungspraktiken (QRP) ist eine wichtige forschungstechnische Unterscheidung unabdingbar: Wie bei einem Spaziergang kann eine wissenschaftliche Untersuchung erkundend oder zielgerichtet sein. Mal wird frei durch die Gegend spaziert und dabei neue Entdeckungen gemacht, mal ist das Ziel und die Route klar und im Vorhinein bestimmt. Im wissenschaftlichen Kontext ist die Rede von exploratorischer und konfirmatorischer Forschung. Bei der Exploration stehen höchstens die Forschungsfrage und grobe Züge der Methode fest, bei einem konfirmatorischen Test ist alles durchdacht: Vorgehen, mögliche Ergebnisse, sowie Erklärungsansätze für jedes mögliche Resultat. Es wird dann eine spezifizierte Hypothese mit der dazugehörigen Theorie bestätigt oder eben nicht. Kein Vorgehen ist dem anderen überlegen. Üblicherweise beginnen Untersuchungen in einem bisher wenig erschlossenen Gebiet mit Exploration, während mehr vorhergehende Forschung mit klareren Erwartungen einhergeht. Es sei dazu gesagt, dass es sich hier um Extremtypen von Forschung handelt, die ein Spektrum bilden. Es erlauben außerdem erst beide Ansätze zusammen Erkenntnisgewinn. Im Rahmen des hermeneutischen Zirkel, (einfach gesagt “dem Kreis des Verstehens”) wird aus einzelnen Beobachtungen eine allgemeine Gesetzmäßigkeit formuliert (<em>Induktion</em>) und diese Gesetzmäßigkeit wird im Anschluss bei weiteren Einzelbeobachtungen geprüft (<em>Deduktion</em>). Die Deduktion kann je nach Gesetzmäßigkeit logisch notwendig sein, denn es wird von Prämissen auf eine Konklusion geschlossen. Wenn beide Prämissen korrekt sind, muss also auch die Schlussfolgerung korrekt sein. Die Induktion ist keine Notwendigkeit (siehe <em>Induktionsproblem</em>, <span class="citation" data-cites="Hume.17482011">Hume (<a href="#ref-Hume.17482011" role="doc-biblioref">1748/2011</a>)</span>).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/hermeneutischerzirkel.jpg" class="img-fluid figure-img"></p>
@@ -349,83 +398,136 @@ ul.task-list li input[type="checkbox"] {
 <p>Problematisch wird es, wenn exploratorische Forschung als konfirmatorische kommuniziert wird, also so getan wird, als hätte eine Einzelbeobachtung eine bereits formulierte Gesetzmäßigkeit bestätigt, statt sie bloß inspiriert. Diese Art Unlogik heißt Zirkelschluss: Die Gesetzmäßigkeit gilt wegen der Beobachtung. Und die Beobachtung entspricht der Gesetzmäßigkeit.</p>
 <p><strong>Abbildung Z</strong></p>
 <p><em>Skizziertes Vorgehen bei explorativer (a) versus konfirmatorischer (b) Forschung. Exploratives Vorgehen ist nicht zielgerichtet, die Richtung kann sich ändern, und ist manchmal mit unvorhergesehenen Ergebnissen verbunden. Konfirmatorisches Vorgehen bildet oft einen engen und kontrollierten Ausschnitt eines Sachverhaltes ab.</em></p>
-<section id="methoden-der-datengenerierung" class="level4" data-number="11.0.1.1">
-<h4 data-number="11.0.1.1" class="anchored" data-anchor-id="methoden-der-datengenerierung"><span class="header-section-number">11.0.1.1</span> Methoden der Datengenerierung</h4>
-<p>Wissenschaftliche Disziplinen bedienen sich für gewöhnlich vieler verschiedener Methoden. Idealerweise sind Erkenntnisse unabhängig von der Methode, die zu ihrer Entdeckung geführt hat und verschiedene Methoden führen zur selben Erkenntnis. Typische sozialwissenschaftliche Methoden sind die Befragung mittels standardisiertem Fragebogen, Verhaltensbeobachtung mittels Kameraaufzeichnungen und anschließender Kodierung von Verhaltensweisen durch mehrere Personen, die den Untersuchungszweck nicht kennen, indirekte Methoden (Schimmack, 2019), bei welchen etwas anderes gefragt wird, als was gemessen werden soll, Verhaltensmessungen wie Blickrichtungsmessung (<em>eye tracking</em>), oder Simulationsstudien, mittels derer zum Beispiel Verkehrsflüsse auf Basis vorher festgelegter Prinzipien per Computer berechnet werden oder Panikattacken vorhergesagt werden (Robinaugh et al., 2021). Diese Methoden generieren fast immer Daten, also beispielsweise eine Tabelle, in der je Beobachtungseinheit (z.B. je Versuchsperson) in mehreren Spalten Daten festgehalten werden und diese Daten werden fast immer statistisch ausgewertet. Die Notwendigkeit einer solchen Auswertung ergibt sich daraus, dass die Beobachteten Gesetzmäßigkeiten keine absoluten Gesetze im Sinne von „alle männlichen Babys wiegen mehr als alle weiblichen Babys” sind, sondern statistische Regelmäßigkeiten im Sinne von „im Mittel wiegen kurz nach der Geburt männliche Babys ein paar hundert Gramm mehr als weibliche Babys, aber nicht jedes männliche Baby wiegt mehr als jedes weibliche Baby” sind (siehe Abbildung X).</p>
+<section id="methoden-der-datengenerierung" class="level4" data-number="10.0.1.1">
+<h4 data-number="10.0.1.1" class="anchored" data-anchor-id="methoden-der-datengenerierung"><span class="header-section-number">10.0.1.1</span> Methoden der Datengenerierung</h4>
+<p>Wissenschaftliche Disziplinen bedienen sich für gewöhnlich vieler verschiedener Methoden. Idealerweise sind Erkenntnisse unabhängig von der Methode, die zu ihrer Entdeckung geführt hat und verschiedene Methoden führen zur selben Erkenntnis. Typische sozialwissenschaftliche Methoden sind die Befragung mittels standardisiertem Fragebogen, Verhaltensbeobachtung mittels Kameraaufzeichnungen und anschließender Kodierung von Verhaltensweisen durch mehrere Personen, die den Untersuchungszweck nicht kennen, indirekte Methoden <span class="citation" data-cites="Schimmack.2019">(<a href="#ref-Schimmack.2019" role="doc-biblioref">Schimmack 2019</a>)</span>, bei welchen etwas anderes gefragt wird, als was gemessen werden soll, Verhaltensmessungen wie Blickrichtungsmessung (<em>eye tracking</em>), oder Simulationsstudien, mittels derer zum Beispiel Verkehrsflüsse auf Basis vorher festgelegter Prinzipien per Computer berechnet werden oder Panikattacken vorhergesagt werden <span class="citation" data-cites="Robinaugh.2021">(<a href="#ref-Robinaugh.2021" role="doc-biblioref">Robinaugh et al. 2021</a>)</span>. Diese Methoden generieren fast immer Daten, also beispielsweise eine Tabelle, in der je Beobachtungseinheit (z.B. je Versuchsperson) in mehreren Spalten Daten festgehalten werden und diese Daten werden fast immer statistisch ausgewertet. Die Notwendigkeit einer solchen Auswertung ergibt sich daraus, dass die Beobachteten Gesetzmäßigkeiten keine absoluten Gesetze im Sinne von „alle männlichen Babys wiegen mehr als alle weiblichen Babys” sind, sondern statistische Regelmäßigkeiten im Sinne von „im Mittel wiegen kurz nach der Geburt männliche Babys ein paar hundert Gramm mehr als weibliche Babys, aber nicht jedes männliche Baby wiegt mehr als jedes weibliche Baby” sind (siehe Abbildung X). Ein Vergleich von Körpergrößen nach Geschlecht ist über <a href="https://de.statista.com/statistik/daten/studie/1825/umfrage/koerpergroesse-nach-geschlecht/">Statista</a> zu sehen.</p>
 <p><strong>ABBILDUNG X</strong></p>
-<p><em>Statistische Phänomen; männliche babys vs.&nbsp;Weibliche babys mit 2 Normalverteilungen generieren<a href="#_msocom_1">[LR1]</a></em></p>
-</section>
-<section id="statistische-signifikanz-und-fehler-erster-art" class="level4" data-number="11.0.1.2">
-<h4 data-number="11.0.1.2" class="anchored" data-anchor-id="statistische-signifikanz-und-fehler-erster-art"><span class="header-section-number">11.0.1.2</span> Statistische Signifikanz und Fehler erster Art</h4>
+<p><em>Statistische Phänomen; männliche babys vs.&nbsp;Weibliche babys</em></p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Statistische Signifikanz
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Eine der am weitesten verbreiteten Methoden in den Sozialwissenschaften (und auch darüber hinaus) ist Statistik, genauer <em>Inferenzstatistik</em>. Dabei wird von einer begrenzten Menge von Beobachtungen (z.B. ausgefüllte Fragebogen von 100 Personen) auf alle möglichen Beobachtungen (z.B. alle Menschen) verallgemeinert. Untersuchte Zusammenhänge sind selten eindeutig, es gibt aber häufig statistische Regelmäßigkeiten. Charakteristisch ist dabei ein gewisses <em>Zufallselement</em>. Wiegt man ein kürzlich geborenes männliches und weibliches Baby, dann ist die Wahrscheinlichkeit sehr hoch, dass das männliche Baby mehr wiegt. Es kommt aber auch häufig vor, dass das nicht der Fall ist. Ähnlich verhält es sich bei einer fairen Münze, also einer die im Mittel gleich häufig auf Kopf und auf Zahl landet: Dass sie bei insgesamt vier Würfen immer auf Kopf landet ist unwahrscheinlich, dass sie 1 oder 2 Mal auf Kopf landet, es kommt aber durch aus vor (nämlich in 12,5% aller Fälle, in denen eine faire Münze vier Mal hintereinander geworfen wird).</p>
-<p>Inferenzstatistische Tests gehen nun davon aus, dass bei der Betrachtung eines statistischen Zusammenhanges (z.B. Geschlecht und Geburtsgewicht, Körpergewicht und Größe, Bildungsniveau der Eltern und Bildungsniveau der Kinder) „nur der Zufall am Werk ist” (e.g., Röseler &amp; Schütz, 2022b). Unter der Annahme wird berechnet, wie häufig ein beobachteter Zusammenhang mit der beobachteten Stärke vorkommen würde, wenn <em>eigentlich</em> kein Zusammenhang vorliegen würde. Also zum Beispiel „dass eine faire Münze vier Mal auf Kopf landet, passiert in 12,5% aller Fälle”. Bei sechs Würfen wären es 1,5625%. Die Kunst des statistischen Schließens besteht nun darin, den Punkt zu finden, ab dem Forschende davon ausgehen, dass der Zufall nicht am Werk war, weil die berechnete Wahrscheinlichkeit so gering ist. Konventionell liegt dieser bei 5%, für neue Befunde manchmal bei 0,5% (Benjamin et al., 2018), und in besonders prekären Fällen noch niedriger. Fachtechnisch wird von einem <em>Alpha-Niveau</em> oder einem <em>Signifikanzniveau</em> gesprochen und die berechnete Wahrscheinlichkeit heißt <em>p</em>-Wert. P-Werte unter 5% werden <em>statistisch signifikant</em> oder <em>auf dem 5%-Niveau signifikant</em> bezeichnet. Forschende würden also sagen, dass eine Münze <em>nicht</em> fair ist, wenn sie sechs Mal hintereinander auf Kopf landet (sogar schon bei fünf Mal, was in 3,125% der Fälle vorkommt). Dabei nehmen sie in Kauf, dass sie, wenn die Münze eigentlich doch fair ist, in 5% aller Fälle falsche Schlüsse ziehen.</p>
-<p>Auf der anderen Seite ist es durchaus möglich, dass eine Münze nicht fair ist, zum Beispiel in 60% der Fälle auf Kopf landet und in 40% auf Zahl. <a href="#_msocom_2">[LR2]</a>&nbsp;</p>
+<p>Inferenzstatistische Tests gehen nun davon aus, dass bei der Betrachtung eines statistischen Zusammenhanges (z.B. Geschlecht und Geburtsgewicht, Körpergewicht und Größe, Bildungsniveau der Eltern und Bildungsniveau der Kinder) „nur der Zufall am Werk ist” <span class="citation" data-cites="Roseler.2022f">(<a href="#ref-Roseler.2022f" role="doc-biblioref">Röseler and Schütz 2022</a>)</span>. Unter der Annahme wird berechnet, wie häufig ein beobachteter Zusammenhang mit der beobachteten Stärke vorkommen würde, wenn <em>eigentlich</em> kein Zusammenhang vorliegen würde. Also zum Beispiel „dass eine faire Münze vier Mal auf Kopf landet, passiert in 12,5% aller Fälle”. Bei sechs Würfen wären es 1,5625%. Die Kunst des statistischen Schließens besteht nun darin, den Punkt zu finden, ab dem Forschende davon ausgehen, dass der Zufall nicht am Werk war, weil die berechnete Wahrscheinlichkeit so gering ist. Konventionell liegt dieser bei 5%, für neue Befunde manchmal bei 0,5% (Benjamin et al., 2018), und in besonders prekären Fällen noch niedriger. Fachtechnisch wird von einem <em>Alpha-Niveau</em> oder einem <em>Signifikanzniveau</em> gesprochen und die berechnete Wahrscheinlichkeit heißt <em>p</em>-Wert. P-Werte unter 5% werden <em>statistisch signifikant</em> oder <em>auf dem 5%-Niveau signifikant</em> bezeichnet. Forschende würden also sagen, dass eine Münze <em>nicht</em> fair ist, wenn sie sechs Mal hintereinander auf Kopf landet (sogar schon bei fünf Mal, was in 3,125% der Fälle vorkommt). Dabei nehmen sie in Kauf, dass sie, wenn die Münze eigentlich doch fair ist, in 5% aller Fälle falsche Schlüsse ziehen.</p>
+<p>Auf der anderen Seite ist es durchaus möglich, dass eine Münze nicht fair ist, zum Beispiel in 60% der Fälle auf Kopf landet und in 40% auf Zahl.&nbsp;</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/freiheitsgrade.jpg" class="img-fluid figure-img"></p>
 <figcaption>Eine einzelne Studie führt noch nicht zu sicherer Erkenntnis. Auch, wenn ein untersuchter Zusammenhang nicht vorliegt, kann er in Daten zufällig aufscheinen. Und auch, wenn eigentlich ein Zusammenhang vorliegt, kann dieser in den Daten durch Zufallsschwankungen nicht zu erkennen sein. Mithilfe von Open Science Praktiken soll der Zustand in den linken Kästen wiederhergestellt werden. Aus Röseler,&nbsp;L. (2021). Wissenschaftliches Fehlverhalten [Abbildung]. https://osf.io/uf7gz/. Lizenziert unter CC BY-Attribution International 4.0.</figcaption>
 </figure>
 </div>
+</div>
+</div>
 </section>
 </section>
-<section id="freiheitsgradelr3-von-forschenden-researchers-degrees-of-freedom" class="level3" data-number="11.0.2">
-<h3 data-number="11.0.2" class="anchored" data-anchor-id="freiheitsgradelr3-von-forschenden-researchers-degrees-of-freedom"><span class="header-section-number">11.0.2</span> Freiheitsgrade<a href="#_msocom_3">[LR3]</a>&nbsp; von Forschenden (Researchers’ Degrees of Freedom)</h3>
+<section id="freiheitsgrade-von-forschenden-researchers-degrees-of-freedom" class="level3" data-number="10.0.2">
+<h3 data-number="10.0.2" class="anchored" data-anchor-id="freiheitsgrade-von-forschenden-researchers-degrees-of-freedom"><span class="header-section-number">10.0.2</span> Freiheitsgrade von Forschenden (<em>Researchers’ Degrees of Freedom</em>)</h3>
 <p>Vollständige Studien mehrfach durchzuführen ist sehr aufwändig. Obwohl es ein relativ sicherer Weg zu signifikanten P-Werten ist, gibt es weitaus sparsamere Lösungen. Die meisten Analysen sind um ein vielfaches komplexer als die oben beschriebene Münzwurfstudie. Betrachten wir den immer noch sehr einfachen Signifikanztest für einen Korrelationskoeffizienten. Der Koeffizient ist eine Zahl zwischen -1 und 1 und beschreibt die Art des Zusammenhanges zwischen zwei Variablen (z.B. Einkommen und Lebenszufriedenheit). 0 bedeutet, dass kein Zusammenhang vorliegt, positive Werte bedeuten, dass wenn die eine Variable hohe Werte hat, dann hat auch die andere hohe Werte, und negative Korrelationen bedeuten, dass wenn eine Variable hohe Werte hat, dann hat die andere Variable eher niedrige Werte. In Abbildung X sind verschiedene Korrelationen dargestellt.</p>
-<p>Abbildung X: Verschiedene Zusammenhänge zwischen zwei Variablen und deren Korrelationskoeffizienten (simulierte Daten).</p>
+<p><strong>Abbildung X: Verschiedene Zusammenhänge zwischen zwei Variablen und deren Korrelationskoeffizienten (simulierte Daten).</strong></p>
 <p>Obwohl es sich hierbei um einen sehr einfachen Test handelt, bringt er viele Entscheidungen mit sich. Selbst nach der Datenerhebung muss entschieden werden: Welche der befragten Personen werden für den Test verwendet? Sollen Personen ausgeschlossen werden und falls ja, warum (z.B. extreme Werte oder unplausible Werte)? Wie werden die Werte der Variablen berechnet? Welche Art der Korrelation soll verwendet werden (z.B. Bravais-Pearson, Kendall, oder Spearman)? Gibt es eine Erwartung der Richtung der Korrelation (Gerichtetheit der Hypothese)?</p>
 <p>Diese Fragen entsprechen Freiheitsgraden – Forschende sind also dahingehend flexibel, welche Optionen sie wählen. Keine der Optionen ist per se allen anderen überlegen und jede Entscheidung lässt sich in einem gewissen Rahmen rechtfertigen. Das Problem dieser Flexibilität ist, dass die Ergebnisse von ihr abhängen und je nach den Entscheidungen kann das Ergebnis eine positive, negative, oder keine Korrelation bedeuten. Je komplexer die Untersuchung und das statistische Verfahren ist, desto größer ist auch die Flexibilität bei der Datenanalyse. An sich sind diese Freiheitsgrade nichts Schlechtes, problematisch wird es bloß dann, wenn nur diejenigen Ergebnisse dargestellt werden, die sich gut veröffentlichen lassen oder zu den Überzeugungen der Forschenden passen. Dieses Vorgehen heißt HARKing (hypothesizing after the results are known = Hypothesen aufstellen, nachdem die Ergebnisse bekannt sind) und stellt einen Zirkelschluss dar. Die Hypothese, die geprüft wurde, stammt aus den Daten, die sich natürlich bestätigen. Verschiedene Lösungswege erlauben auch die Reduktion oder komplette Auslöschung von Freiheitsgraden (z.B. Präregistrierung, siehe Kapitel XXX). Auch ist es möglich, das Vorgehen als explorativ, also nicht vorher durchdacht und vorbestimmt, zu kommunizieren.</p>
 <p>Im Datenanalyseprozess wird die Analogie des „garden of forking paths” verwendet. In einem vereinfachten (!) Beispiel in Abbildung 4 haben wir 3x4x4x4 = 192 verschiedene Ergebnisse, die das gesamte Spektrum der Schlussfolgerungen abdecken werden – egal, ob unsere Hypothese stimmt oder nicht.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/gardenofforkingpaths.jpg" class="img-fluid figure-img"></p>
-<figcaption>192 verschiedene Wege von einem Rohdatensatz zum (gewünschten) Ergebnis</figcaption>
+<figcaption>192 verschiedene Wege von einem Datensatz zum (gewünschten) Ergebnis</figcaption>
 </figure>
 </div>
 <p><a href="#_msocom_4">[LR4]</a>&nbsp;</p>
-<p>Demonstrationen des garden of forking paths existieren für verschiedenste Felder und wurden bereits für Evolutionsbiologie (Gould et al., 2023), Sozialpolitik (Breznau et al., 2022), Strukturgleichungsmodelle (REF<a href="#_msocom_5">[LR5]</a>&nbsp;), und Sprachanalysen (Coretta et al., 2023) überzeugend nachgewiesen.</p>
+<p>Demonstrationen des garden of forking paths existieren für verschiedenste Felder und wurden bereits für Evolutionsbiologie <span class="citation" data-cites="Gould.2023">(<a href="#ref-Gould.2023" role="doc-biblioref">Gould et al. 2023</a>)</span>, Sozialpolitik <span class="citation" data-cites="Breznau.2022">(<a href="#ref-Breznau.2022" role="doc-biblioref">Breznau et al. 2022</a>)</span>, Strukturgleichungsmodelle (REF<a href="#_msocom_5">[LR5]</a>&nbsp;), und Sprachanalysen <span class="citation" data-cites="Coretta.2023">(<a href="#ref-Coretta.2023" role="doc-biblioref">Coretta et al. 2023</a>)</span> nachgewiesen.</p>
 </section>
-<section id="tippfehler" class="level3" data-number="11.0.3">
-<h3 data-number="11.0.3" class="anchored" data-anchor-id="tippfehler"><span class="header-section-number">11.0.3</span> Tippfehler</h3>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Statcheck und Paper dazu</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fehlerhafte Zitate: <a href="https://royalsocietypublishing.org/doi/10.1098/rspa.2020.0538" class="uri">https://royalsocietypublishing.org/doi/10.1098/rspa.2020.0538</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fehler beim notieren der Ergebnisse: Meta-Analysen bei Interventionen der klein. Psychologie: <a href="https://osf.io/preprints/psyarxiv/gvqrn/" class="uri">https://osf.io/preprints/psyarxiv/gvqrn/</a>&nbsp;&nbsp;</p>
+<section id="tippfehler" class="level3" data-number="10.0.3">
+<h3 data-number="10.0.3" class="anchored" data-anchor-id="tippfehler"><span class="header-section-number">10.0.3</span> Tippfehler</h3>
+<p>Häufig werden Daten mittels fortgeschrittener Programme ausgewertet und die Ergebnisse werden dann mühselig in den Bericht übertragen. Hierbei entstehen schnell Tippfehler. <span class="citation" data-cites="nuijten2016prevalence">Nuijten et al. (<a href="#ref-nuijten2016prevalence" role="doc-biblioref">2016</a>)</span> erstellten einen Algorithmus, der automatisch berichtete Signifikanztests erkennt, nachrechnet, und Inkonsistenzen zurückmeldet. Dabei fanden sie heraus, dass in großen Psychologiezeitschriften zwischen 1985 und 2013 in ungefähr der Hälfte aller Artikel mindestens ein Fehler war. Diese “Tippfehler” waren dabei nicht völlig zufällig, sondern fehlerhafte Werte waren meistens zugunsten positiver Befunde. Solche Übertragungsfehler passieren auch bei Meta-Analysen <span class="citation" data-cites="Lopez-Nicolas2022-gv">(<a href="#ref-Lopez-Nicolas2022-gv" role="doc-biblioref"><strong>Lopez-Nicolas2022-gv?</strong></a>)</span>. Und selbst bei Zitationen sind Fehler nicht selten: Über verschiedene wissenschaftliche Disziplinen fanden <span class="citation" data-cites="Smith2020-nm">(<a href="#ref-Smith2020-nm" role="doc-biblioref">Smith and Cumberledge 2020</a>)</span>, dass in 25% aller untersuchten Zitationen, die zitierten Behauptungen in den Originalartikeln nicht vertreten wurden.</p>
 </section>
-<section id="p-hacking" class="level3" data-number="11.0.4">
-<h3 data-number="11.0.4" class="anchored" data-anchor-id="p-hacking"><span class="header-section-number">11.0.4</span> P-Hacking</h3>
-<p>Der P-Wert bei statistischen Tests gibt an, wie hoch die Wahrscheinlichkeit für das beobachtete Muster ist, gegeben eines vorausgesetzten Musters. Für eine Korrelation heißt das: Wie wahrscheinlich ist es, eine Korrelation der vorgefundenen Höhe zu beobachten, wenn eigentlich kein Zusammenhang (also <em>r</em> = 0) zwischen den untersuchten Variablen besteht. Konkret könnte das heißen: Wie wahrscheinlich ist es, dass in meinem Datensatz von 100 Personen die Korrelation zwischen Intelligenz und Alter genau <em>r</em>(98) = .420 ist, wenn ich eigentlich davon ausgehen, dass beide Variablen nicht zusammenhängen. Die zusätzliche Annahme des fehlenden Zusammenhanges heißt <em>Nullhypothese</em>. Wenn das beobachtete Muster gegeben der Nullhypothese extrem unwahrscheinlich ist (oft unter 5%) wird von einem statistisch signifikanten Zusammenhang gesprochen. Wichtig ist dabei, dass Signifikanz (also „Bedeutsamkeit”) hier wirklich nur im statistischen Sinne zu verstehen ist. Die Frage, wie bedeutsam ein Befund für die Welt und das Leben ist, lässt sich mit Statistik in diesem Rahmen nicht beantworten. Weil P-Werte Wahrscheinlichkeiten sind, liegen sie zwischen 0 und 100%.</p>
-<p>Unter den QRPs (fragwürdigen Forschungspraktiken) ist p-hacking eine weitere Kategorie, die wiederum selbst verschiedene Techniken beinhaltet. Mit p-hacking ist gemeint, dass Forschende ihre Freiheitsgrade nutzen, um den P-Wert „signifikant zu machen”, also unter 5% zu bringen. Eine oft fälschlicherweise gemachte Annahme zu P-Werten ist, dass hohe P-Werte für die Abwesenheit eines Zusammenhanges sprächen, oder dass P-Werte nur dann niedrig sind, wenn tatsächlich ein Zusammenhang vorliegt. Stattdessen sind P-Werte tendenziell klein, wenn ein Zusammenhang vorliegt, der auch mit der Menge der erhobenen Daten nachgewiesen werden kann. Wenn kein Zusammenhang vorliegt, sind P-Werte gleichverteilt, das heißt, alle P-Werte kommen gleich häufig vor. Im Sinne der oben genannten Definition ist a priori klar, dass bei 100 durchgeführten Studien tendenziell 5 einen signifikanten Zusammenhang aufweisen, <em>wenn eigentlich keiner vorliegt</em>. Diese Tatsache erlaubt diverse P-Hacking Methoden. Simonsohn et al.&nbsp;(2014) zeigten, die Wahrscheinlichkeit, ein signifikantes Ergebnis zu kriegen, wenn eigentlich kein Zusammenhang in den Daten herrscht, von 5% auf ca. 60% steigen kann. Abbildung X zeigt die Verteilung von P-Werten bei verschieden hoher Teststärke (bzw. Power: der Wahrscheinlichkeit, einen Zusammenhang einer bestimmten Größe zu finden, wenn es ihn tatsächlich gibt).</p>
+<section id="p-hacking" class="level3" data-number="10.0.4">
+<h3 data-number="10.0.4" class="anchored" data-anchor-id="p-hacking"><span class="header-section-number">10.0.4</span> P-Hacking</h3>
+<p>Der P-Wert bei statistischen Tests gibt an, wie hoch die Wahrscheinlichkeit für das beobachtete Muster ist, gegeben eines vorausgesetzten Musters. Für eine Korrelation heißt das: Wie wahrscheinlich ist es, eine Korrelation der vorgefundenen Höhe zu beobachten, wenn eigentlich kein Zusammenhang (also <em>r</em> = 0) zwischen den untersuchten Variablen besteht. Konkret könnte das heißen: Wie wahrscheinlich ist es, dass in meinem Datensatz von 100 Personen die Korrelation zwischen Intelligenz und Alter genau <em>r</em>(98) = .420 ist, wenn ich eigentlich davon ausgehen, dass beide Variablen nicht zusammenhängen.</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Korrelation
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>“r” bedeutet in diesem Fall, dass es sich um einen Korrelationskoeffizienten handelt, hier nämlich die Produkt-Moment-Korrelation (oder auch Bravais-Pearson Korrelation). Diese sind standardisierte und Werte für jeweils zwei Variablen. Das heißt, dass sich für eine möglichst große Anzahl an paarweisen Beobachtungen die Korrelation aller möglichen Dinge miteinander berechnen lässt. Korrelationskoeffizienten liegen zwischen -1 und 1. Werte unter 0 bedeuten, je höher das eine, desto niedriger das andere (negativer Zusammenhang). Werte über 0 bedeuten, je höher das eine, desto höher das andere (positiver Zusammenhang). 0 bedeutet, dass beide beteiligten Variablen unabhängig voneinander sind. Die 98 in der Klammer ist die Anzahl der Beobachtungen minus 2 (Freiheitsgrade). Der Korrelationswert von .420 (bzw 0,42) bedeutet, dass ein positiver Zusammenhang beobachtet wurde.</p>
+</div>
+</div>
+<p>Die im Signifikanztest mitformulierte Annahme des fehlenden Zusammenhanges heißt <em>Nullhypothese</em>. Wenn das beobachtete Muster gegeben der Nullhypothese extrem unwahrscheinlich ist (oft unter 5%) wird von einem statistisch signifikanten Zusammenhang gesprochen. Wichtig ist dabei, dass Signifikanz (also „Bedeutsamkeit”) hier wirklich nur im statistischen Sinne zu verstehen ist. Die Frage, wie bedeutsam ein Befund für die Welt und das Leben ist, lässt sich mit Statistik in diesem Rahmen nicht beantworten. Weil P-Werte Wahrscheinlichkeiten sind, liegen sie zwischen 0 und 100%.</p>
+<p>Unter den QRPs (fragwürdigen Forschungspraktiken) ist p-hacking eine weitere Kategorie, die wiederum selbst verschiedene Techniken beinhaltet. Mit p-hacking ist gemeint, dass Forschende ihre Freiheitsgrade nutzen, um den P-Wert „signifikant zu machen”, also unter 5% zu bringen. Eine oft fälschlicherweise gemachte Annahme zu P-Werten ist, dass hohe P-Werte für die <em>Abwesenheit</em> eines Zusammenhanges sprächen, oder dass P-Werte nur dann niedrig sind, wenn tatsächlich ein Zusammenhang vorliegt. Stattdessen sind P-Werte tendenziell klein, wenn ein Zusammenhang vorliegt, der auch mit der Menge der erhobenen Daten nachgewiesen werden kann. Wenn kein Zusammenhang vorliegt, sind P-Werte gleichverteilt, das heißt, alle P-Werte kommen gleich häufig vor. Im Sinne der oben genannten Definition ist a priori klar, dass bei 100 durchgeführten Studien tendenziell 5 einen signifikanten Zusammenhang aufweisen, <em>wenn eigentlich keiner vorliegt</em>. Diese Tatsache erlaubt diverse P-Hacking Methoden. Simonsohn et al.&nbsp;(2014) zeigten, die Wahrscheinlichkeit, ein signifikantes Ergebnis zu kriegen, wenn eigentlich kein Zusammenhang in den Daten herrscht, von 5% auf ca. 60% steigen kann. Abbildung X zeigt die Verteilung von P-Werten bei verschieden hoher Teststärke (bzw. Power: der Wahrscheinlichkeit, einen Zusammenhang einer bestimmten Größe zu finden, wenn es ihn tatsächlich gibt).</p>
 <p><strong>Abbildung X</strong></p>
 <p><em>P-Werte sind bei Abwesenheit von Unterschieden oder Zusammenhängen, also beim Gelten der Nullhypothese gleichverteilt. Je höher die statistische Teststärke (Power), desto weiter verschiebt sich die Verteilung in den Bereich statistischer Signifikanz.</em></p>
 <p>{r} # P-Value distribution ---------------------------------------------------- layout(matrix(c(1,2,3), nrow = 1)) effects &lt;- c(0, .1, .3) for (i in effects) { effect &lt;- i n &lt;- 100 pvalues &lt;- (replicate(1000, t.test(rnorm(100), rnorm(100, i))$p.value)) power &lt;- round(pwr::pwr.t.test(n = n, d = i, power = NULL, alternative = “two.sided”)$power, 3) hist(pvalues, xlab = “P-values”, main = paste(“Cohen’s d =”, i, “\nPower =”, power, sep = ““) , xlim = c(0, 1)) } layout(1)</p>
-<p>Die Chance, signifikante P-Werte zu kriegen, ohne, dass die getestete Hypothese überhaupt stimmt, lässt sich durch „zerschneiden” der Stichprobe machen (z.B. werden nur Frauen analysiert), durch das Erheben zusätzlicher Daten („optional stopping”), oder durch die Verwendung mehrerer zentraler Variablen (zum Beispiel wird Intelligenz mit 3 verschiedenen Tests erfasst und alle werden einzeln mit Alter korreliert). Selbst das verändern kleiner Parameter in den statistischen Tests (z.B. Verwendung einer nicht-parametrischen Spearman Korrelation statt der Bravais-Pearson Korrelation) erhöhen die Chancen auf ein signifikantes Ergebnis (siehe Tabelle Y). Einige Formen des <em>p-hacking</em> lassen sich zum Beispiel hier ausprobieren: <a href="https://shinyapps.org/apps/p-hacker/" class="uri">https://shinyapps.org/apps/p-hacker/</a> (Schönbrodt, 2016).</p>
+<p>Die Chance, signifikante P-Werte zu kriegen, ohne, dass die getestete Hypothese überhaupt stimmt, lässt sich durch „zerschneiden” der Stichprobe machen (z.B. werden nur Frauen analysiert), durch das Erheben zusätzlicher Daten („optional stopping”), oder durch die Verwendung mehrerer zentraler Variablen (zum Beispiel wird Intelligenz mit 3 verschiedenen Tests erfasst und alle werden einzeln mit Alter korreliert). Selbst das verändern kleiner Parameter in den statistischen Tests (z.B. Verwendung einer nicht-parametrischen Spearman Korrelation statt der Bravais-Pearson Korrelation) erhöhen die Chancen auf ein signifikantes Ergebnis (siehe Tabelle Y). Einige Formen des <em>p-hacking</em> lassen sich zum Beispiel hier ausprobieren: <a href="https://shinyapps.org/apps/p-hacker/" class="uri">https://shinyapps.org/apps/p-hacker/</a> <span class="citation" data-cites="Schonbrodt.2016">(<a href="#ref-Schonbrodt.2016" role="doc-biblioref">Schönbrodt 2016</a>)</span>.</p>
 <p><strong>Tabelle Y</strong></p>
 <p><em>Wahrscheinlichkeit für ein signifikantes Ergebnis durch die Anwendung verschiedener P-Hacking Techniken</em></p>
 </section>
-<section id="selektives-berichten-selective-reporting" class="level3" data-number="11.0.5">
-<h3 data-number="11.0.5" class="anchored" data-anchor-id="selektives-berichten-selective-reporting"><span class="header-section-number">11.0.5</span> Selektives Berichten (Selective Reporting)</h3>
-<p>Im Rahmen der Planung einer sozialwissenschaftlichen Studie stellt sich oft die Frage, wie ein bestimmtes Konstrukt gemessen werden soll. Für Intelligenz, politischer Ansicht, Lebenszufriedenheit, und viele andere Variable gibt es nicht <em>den</em> Test sondern viele Maße, die teilweise gering miteinander zusammenhängen. Gleichzeitig sind die zu testenden Theorien meist vage und diktieren nicht, mit welchem Maß ein Konstrukt gemessen werden sollte. Theorien sind den Messmethoden gegenüber also oft agnostisch. Werden in einer Studie dann verschiedene Messmethoden für ein Konstrukt gewählt, müsste die Theorie über alle Tests gleichermaßen bestätigt werden. Falls das nicht der Fall ist, sollte die Theorie angepasst werden. Entgegen dieser Empfehlung und um die Chance der Publikation der Ergebnisse zu maximieren, berichten Forschende Ergebnisse oft <em>selektiv</em>. Statt aller Ergebnisse werden also nur die „passendsten” oder „spannendsten” berichtet. Wie oben im Thema P-Hacking und Freiheitsgrade von Forschenden klar geworden ist, führt das dazu, dass Zusammenhänge gefunden werden, die eigentlich nicht existieren.</p>
-<p>Werden zum Beispiel drei verschiedene und unabhängige Maße zum Testen einer Hypothese verwendet steigt Wahrscheinlichkeit für mindestens ein signifikantes Ergebnis von 5% <a href="#_msocom_6">[LR6]</a>&nbsp;auf 14%. Abbildung K zeigt,</p>
+<section id="selektives-berichten-selective-reporting" class="level3" data-number="10.0.5">
+<h3 data-number="10.0.5" class="anchored" data-anchor-id="selektives-berichten-selective-reporting"><span class="header-section-number">10.0.5</span> Selektives Berichten (<em>Selective Reporting</em>)</h3>
+<p>Im Rahmen der Planung einer sozialwissenschaftlichen Studie stellt sich oft die Frage, wie ein bestimmtes Konstrukt gemessen werden soll. Für Intelligenz, politischer Ansicht, Lebenszufriedenheit, und viele andere Variable gibt es nicht <em>den</em> Test sondern viele Maße, die teilweise gering miteinander zusammenhängen. Gleichzeitig sind die zu testenden Theorien meist vage und diktieren nicht, mit welchem Maß ein Konstrukt gemessen werden sollte. Theorien sind den Messmethoden gegenüber also oft agnostisch. Werden in einer Studie dann verschiedene Messmethoden für ein Konstrukt gewählt, müsste die Theorie über alle Tests gleichermaßen bestätigt werden. Falls das nicht der Fall ist, sollte die Theorie angepasst werden. Entgegen dieser Empfehlung und um die Chance der Publikation der Ergebnisse zu maximieren, berichten Forschende Ergebnisse oft <em>selektiv</em>. Statt aller Ergebnisse werden also nur die „passendsten” oder „spannendsten” berichtet. Wie oben im Thema P-Hacking und Freiheitsgrade von Forschenden klar geworden ist, führt das dazu, dass Zusammenhänge gefunden werden, die eigentlich nicht existieren. Werden zum Beispiel drei verschiedene und unabhängige Maße zum Testen einer Hypothese verwendet steigt Wahrscheinlichkeit für mindestens ein signifikantes Ergebnis von 5% <a href="#_msocom_6">[LR6]</a>&nbsp;auf 14%. Abbildung K zeigt,</p>
 <p><strong>Abbildung K</strong></p>
 <p>Selektives Berichten: Von den sechs geprüften Korrelationen ist nur eine signifikant. Alle gemeinsam sind nicht signifikant. Um die Ergebnisse zu veröffentlichen berichten Forschende nur den spannendsten Teil der Ergebnisse und verzerren damit das Bild.</p>
 <p>XXX</p>
 </section>
-<section id="optionales-stoppen-optional-stopping" class="level3" data-number="11.0.6">
-<h3 data-number="11.0.6" class="anchored" data-anchor-id="optionales-stoppen-optional-stopping"><span class="header-section-number">11.0.6</span> Optionales Stoppen (Optional Stopping)</h3>
-<p>Führt man bei der Durchführung einer Studie nach jeder Beobachtung den Test erneut aus und betrachtet den P-Wert, dann gibt es zwei Möglichkeiten zu dessen Verlauf: Falls ein Zusammenhang zwischen den erhobenen Variablen besteht, wird der P-Wert <em>konvergieren</em>, also sich einem bestimmten Wert annähern, nämlich 0. Die Wahrscheinlichkeit für das beobachtete Ergebnis wird mit größerer Stichprobe immer geringer. Dass eine Münze nur auf “Kopf” landet ist ungewöhnlicher, wenn sie das 100 Mal getan hat, als wenn sie das 3 Mal tat. Falls kein Zusammenhang vorliegt, wird der P-Wert nicht wie oft erwartet gegen 1 gehen, sondern <em>nicht konvergieren</em>. Er wird dann chaotisch mal hoch und mal niedrig sein – und auch öfter mal signifikant. Diese Tatsache machen sich Forschende beim optionalen Stoppen zu Nutzen: Sie erheben so lange Daten, bis ihre Hypothese bestätigt wird. Das Problem besteht übrigens nicht für Effektstärkemaße wie zum Beispiel Korrelationen. Diese konvergieren je nach Größe ab ungefähr 250 Beobachtungen (Schönbrodt &amp; Perugini, 2013).</p>
+<section id="optionales-stoppen-optional-stopping" class="level3" data-number="10.0.6">
+<h3 data-number="10.0.6" class="anchored" data-anchor-id="optionales-stoppen-optional-stopping"><span class="header-section-number">10.0.6</span> Optionales Stoppen (Optional Stopping)</h3>
+<p>Führt man bei der Durchführung einer Studie nach jeder Beobachtung den Test erneut aus und betrachtet den P-Wert, dann gibt es zwei Möglichkeiten zum Verlauf der P-Werte: Falls ein Zusammenhang zwischen den erhobenen Variablen besteht, wird der P-Wert <em>konvergieren</em>, also sich einem bestimmten Wert annähern, nämlich 0. Die Wahrscheinlichkeit für das beobachtete Ergebnis wird mit größerer Stichprobe immer geringer. Dass eine Münze nur auf “Kopf” landet ist ungewöhnlicher, wenn sie das 100 Mal getan hat, als wenn sie das 3 Mal tat. Falls kein Zusammenhang vorliegt, wird der P-Wert nicht wie oft erwartet gegen 1 gehen, sondern <em>nicht konvergieren</em>. Er wird dann chaotisch mal hoch und mal niedrig sein – und auch öfter mal signifikant. Diese Tatsache machen sich Forschende beim optionalen Stoppen zu Nutzen: Sie erheben so lange Daten, bis ihre Hypothese bestätigt wird. Das Problem besteht übrigens nicht für Effektstärkemaße wie zum Beispiel Korrelationen. Diese konvergieren je nach Größe ab ungefähr 250 Beobachtungen (Schönbrodt &amp; Perugini, 2013).</p>
 <p><strong>Abbildung P</strong></p>
 <p><em>Konvergenz von P-Werten und Effektstärken je nach Effektgröße: Effektstärken (hier: Korrelationskoeffizienten) konvergieren bei großen Stichproben, P-Werte konvergieren nur, wenn die Korrelation nicht 0 ist.</em></p>
-<p>{r setup, echo = FALSE} # P-Value Convergence ----------------------------------------------------- imax &lt;- 5:5000 p0 &lt;- NULL p1 &lt;- NULL p2 &lt;- NULL for (i in imax) { set.seed(42) ds0 &lt;- MASS::mvrnorm(n = i, mu = c(0,0), Sigma = matrix(c(1, 0, 0, 1), nrow = 2)) ds1 &lt;- MASS::mvrnorm(n = i, mu = c(0,0), Sigma = matrix(c(1, .05, .05, 1), nrow = 2)) ds2 &lt;- MASS::mvrnorm(n = i, mu = c(0,0), Sigma = matrix(c(1, .1, .1, 1), nrow = 2)) p0 &lt;- c(p0, cor.test(ds0[, 1], ds0[, 2])$p.value) p1 &lt;- c(p1, cor.test(ds1[, 1], ds1[, 2])$p.value) p2 &lt;- c(p2, cor.test(ds2[, 1], ds2[, 2])$p.value) } plot( y = p0, x = imax, type = “l”, col = “grey”, xlab = “Sample size”, ylab = “P-value”) lines(y = p1, x = imax, col = “orange”) lines(y = p2, x = imax, col = “red”) abline(h = .05, lty = 2) legend(“topright”, c(“r = 0”, “r = .05”, “r = .1”), col = c(“grey”, “orange”, “red”), lty = 1)</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># P-Value Convergence ----------------------------------------------------- </span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>imax <span class="ot">&lt;-</span> <span class="dv">5</span><span class="sc">:</span><span class="dv">1000</span> </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>p0 <span class="ot">&lt;-</span> <span class="cn">NULL</span> </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>p1 <span class="ot">&lt;-</span> <span class="cn">NULL</span> </span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>p2 <span class="ot">&lt;-</span> <span class="cn">NULL</span> </span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> imax) { </span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">set.seed</span>(<span class="dv">42</span>) </span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  ds0 <span class="ot">&lt;-</span> MASS<span class="sc">::</span><span class="fu">mvrnorm</span>(<span class="at">n =</span> i, <span class="at">mu =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">0</span>), <span class="at">Sigma =</span> <span class="fu">matrix</span>(<span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>), <span class="at">nrow =</span> <span class="dv">2</span>)) </span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  ds1 <span class="ot">&lt;-</span> MASS<span class="sc">::</span><span class="fu">mvrnorm</span>(<span class="at">n =</span> i, <span class="at">mu =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">0</span>), <span class="at">Sigma =</span> <span class="fu">matrix</span>(<span class="fu">c</span>(<span class="dv">1</span>, .<span class="dv">05</span>, .<span class="dv">05</span>, <span class="dv">1</span>), <span class="at">nrow =</span> <span class="dv">2</span>)) </span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  ds2 <span class="ot">&lt;-</span> MASS<span class="sc">::</span><span class="fu">mvrnorm</span>(<span class="at">n =</span> i, <span class="at">mu =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">0</span>), <span class="at">Sigma =</span> <span class="fu">matrix</span>(<span class="fu">c</span>(<span class="dv">1</span>, .<span class="dv">1</span>, .<span class="dv">1</span>, <span class="dv">1</span>), <span class="at">nrow =</span> <span class="dv">2</span>)) </span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  p0 <span class="ot">&lt;-</span> <span class="fu">c</span>(p0, <span class="fu">cor.test</span>(ds0[, <span class="dv">1</span>], ds0[, <span class="dv">2</span>])<span class="sc">$</span>p.value) </span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  p1 <span class="ot">&lt;-</span> <span class="fu">c</span>(p1, <span class="fu">cor.test</span>(ds1[, <span class="dv">1</span>], ds1[, <span class="dv">2</span>])<span class="sc">$</span>p.value) </span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  p2 <span class="ot">&lt;-</span> <span class="fu">c</span>(p2, <span class="fu">cor.test</span>(ds2[, <span class="dv">1</span>], ds2[, <span class="dv">2</span>])<span class="sc">$</span>p.value) </span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>} </span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>( <span class="at">y =</span> p0, <span class="at">x =</span> imax, <span class="at">type =</span> <span class="st">"l"</span>, <span class="at">col =</span> <span class="st">"grey"</span>, <span class="at">xlab =</span> <span class="st">"Stichprobengröße (Anzahl der Beobachtungen)"</span>, <span class="at">ylab =</span> <span class="st">"P-Wert"</span>) </span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="fu">lines</span>(<span class="at">y =</span> p1, <span class="at">x =</span> imax, <span class="at">col =</span> <span class="st">"orange"</span>) </span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu">lines</span>(<span class="at">y =</span> p2, <span class="at">x =</span> imax, <span class="at">col =</span> <span class="st">"red"</span>) </span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">h =</span> .<span class="dv">05</span>, <span class="at">lty =</span> <span class="dv">2</span>)</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="fu">legend</span>(<span class="st">"topright"</span>, <span class="fu">c</span>(<span class="st">"r = 0"</span>, <span class="st">"r = .05"</span>, <span class="st">"r = .1"</span>), <span class="at">col =</span> <span class="fu">c</span>(<span class="st">"grey"</span>, <span class="st">"orange"</span>, <span class="st">"red"</span>), <span class="at">lty =</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="probleme_methoden_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
-<section id="darstellung-kalibrierter-modelle-als-geplante-modelle-overfitting" class="level3" data-number="11.0.7">
-<h3 data-number="11.0.7" class="anchored" data-anchor-id="darstellung-kalibrierter-modelle-als-geplante-modelle-overfitting"><span class="header-section-number">11.0.7</span> Darstellung kalibrierter Modelle als geplante Modelle (Overfitting)</h3>
-<p>Komplexe statistische Modelle haben viele Stellschrauben. Es ist möglich, die unzähligen Entscheidungen vor Anwendung eines Modells auf Daten zu treffen, für gewöhnlich werden aber andere Kalibrationen ausprobiert und eine andere als die geplante hat eine bessere Passung. Damit ist gemeint, dass beispielsweise bestimmte Variablen mit in ein Modell aufgenommen werden, um die Vorhersagekraft zu maximieren. Zu vielen Modellen gehören sogar verschiedene Algorithmen, die auf Basis festgelegter Regeln entscheiden, wie das Modell aussehen soll. Ein Modell wird also an ein Datenmuster angepasst. Wird das Vorgehen transparent offengelegt, ist das absolut in Ordnung. Problematisch wird es, wenn das beste gefundene Modell als geplantes Modell dargestellt wird. Das in den Daten vorliegende Muster beinhaltet in sozialwissenschaftlichen Untersuchungen nämlich fast immer auch ein Rauschen, also Schwankungen, die auf Messungenauigkeiten oder andere unbekannte Einflüsse zurückzuführen sind. Diese Einflüsse schwanken definitionsgemäß (in der psychologischen Testtheorie ist z.B. die Rede vom <em>Error</em>, einer unsystematischen Schwankung, die sich bei häufiger Messung herausmittelt). Bei zukünftigen Untersuchen wird das an die vergangenen Daten und das darin enthaltene Rauschen angepasste Modell dann notwendigerweise schlechter abschneiden, weil das Rauschen in den neuen Daten ein anderes ist. Man spricht dann von einem „überangepassten” Modell oder Overfitting.</p>
+<section id="darstellung-kalibrierter-modelle-als-geplante-modelle-overfitting" class="level3" data-number="10.0.7">
+<h3 data-number="10.0.7" class="anchored" data-anchor-id="darstellung-kalibrierter-modelle-als-geplante-modelle-overfitting"><span class="header-section-number">10.0.7</span> Darstellung kalibrierter Modelle als geplante Modelle (<em>Overfitting</em>)</h3>
+<p>Komplexe statistische Modelle haben viele Stellschrauben. Es ist möglich, die unzähligen Entscheidungen vor Anwendung eines Modells auf Daten zu treffen, für gewöhnlich werden aber andere Kalibrationen ausprobiert und eine andere als die geplante hat eine bessere Passung. Damit ist gemeint, dass beispielsweise bestimmte Variablen mit in ein Modell aufgenommen werden, um die Vorhersagekraft zu maximieren. Zu vielen Modellen gehören sogar verschiedene Algorithmen, die auf Basis festgelegter Regeln entscheiden, wie das Modell aussehen soll. Ein Modell wird also an ein Datenmuster angepasst. Wird das Vorgehen transparent offengelegt, ist das absolut in Ordnung. Problematisch wird es, wenn das beste gefundene Modell als geplantes Modell dargestellt wird. Das in den Daten vorliegende Muster beinhaltet in sozialwissenschaftlichen Untersuchungen nämlich fast immer auch ein Rauschen, also Schwankungen, die auf Messungenauigkeiten oder andere unbekannte Einflüsse zurückzuführen sind. Diese Einflüsse schwanken definitionsgemäß (in der psychologischen Testtheorie ist zum Beispiel die Rede vom <em>Error</em>, einer unsystematischen Schwankung, die sich bei häufiger Messung herausmittelt). Bei zukünftigen Untersuchen wird das an die vergangenen Daten und das darin enthaltene Rauschen angepasste Modell dann notwendigerweise schlechter abschneiden, weil das Rauschen in den neuen Daten ein anderes ist. Man spricht dann von einem „überangepassten” Modell oder Overfitting.</p>
 </section>
-<section id="tendenz-von-menschen-sich-selbst-zu-bestätigen-confirmation-bias" class="level3" data-number="11.0.8">
-<h3 data-number="11.0.8" class="anchored" data-anchor-id="tendenz-von-menschen-sich-selbst-zu-bestätigen-confirmation-bias"><span class="header-section-number">11.0.8</span> Tendenz von Menschen, sich selbst zu bestätigen (Confirmation Bias)</h3>
+<section id="tendenz-von-menschen-sich-selbst-zu-bestätigen-confirmation-bias" class="level3" data-number="10.0.8">
+<h3 data-number="10.0.8" class="anchored" data-anchor-id="tendenz-von-menschen-sich-selbst-zu-bestätigen-confirmation-bias"><span class="header-section-number">10.0.8</span> Tendenz von Menschen, sich selbst zu bestätigen (<em>Confirmation Bias</em>)</h3>
 <p>Ein besonderes Problem wissenschaftlicher Methoden ist der Confirmation Bias. Das Phänomen ist in der wissenschaftlichen Literatur nicht klar definiert (REF<a href="#_msocom_7">[LR7]</a>&nbsp;), hier meine ich damit die Tendenz von Menschen (oder in diesem Kontext: Forschenden), diejenigen Muster zu finden, die sie erwarten. Der Confirmation Bias basiert auf wissenschaftlichen Befunden (Nickerson, 1998; Oswald &amp; Grosjean, 2004), und wurde von den Wissenschaftler*innen auf sie selbst übertragen (Mynatt et al., 1977; Yu et al., 2014). Diese Gedanken führen nah an logischen Unsinnigkeiten und Paradoxa entlang, selbstironisch bemerkt zum Beispiel (Nickerson, 1998) die Möglichkeit, dass alle Befunde zu Confirmation Biases selbst nur Produkte desselben sein könnten, was die Existenz des Confirmation Biases dann wieder bestätigen würde (S. 211). Praktisch besteht die Gefahr, dass Wissenschaftler*innen nicht Wahrheiten herausfinden, sondern alles so drehen, dass ihre Vorahnungen bestätigt werden. Ludwik Fleck (1935/2015) geht in seiner Wissenschaftssoziologie, die die Grundlage für Thomas Kuhns Arbeit zu wissenschaftlichen Revolutionen (1970/1996) bildet, noch ein paar Schritte weiter: Er argumentiert für ein Modell des wissenschaftlichen Fortschritts, bei dem es nicht darum geht, der Wahrheit näher zu kommen, sondern nach bestem Wissen Probleme vor dem gesellschaftlichen Hintergrund zu verstehen. Das heißt nicht, dass es keine Wahrheit gibt, nur dass Wahrheit eben nicht bloß die Übereinstimmung von Aussagen mit Tatsachen ist. Statt dieser oft von Wissenschaftler*innen vertretenen <em>Korrespondenztheorie von Wahrheit</em>, findet sich bei Fleck eine <em>Konsenstheorie</em> von Wahrheit wieder: Die Übereinstimmung vieler Leute ist wichtig. Wissenschaftliche Tatsachen werden nicht von einzelnen Personen „entdeckt”, sondern von einem Kollektiv erschaffen. Der Confirmation Bias findet sich dabei so wieder, dass dem Konsens widersprechende Befunde ausgeblendet werden und auf den aktuellen Auffassungen so lange wie möglich beharrt wird. Wenngleich philosophische Wahrheitstheorien den Rahmen dieses Buches sprengen, sei darauf hingewiesen, dass keine der drei Wahrheitstheorien (Korrespondenz, Konsens, und Kohärenz) haltbar ist (Albert, 2010; <em>Münchhausen Trilemma</em>).</p>
 </section>
-<section id="datenfälschung" class="level3" data-number="11.0.9">
-<h3 data-number="11.0.9" class="anchored" data-anchor-id="datenfälschung"><span class="header-section-number">11.0.9</span> Datenfälschung</h3>
+<section id="datenfälschung" class="level3" data-number="10.0.9">
+<h3 data-number="10.0.9" class="anchored" data-anchor-id="datenfälschung"><span class="header-section-number">10.0.9</span> Datenfälschung</h3>
 <p>Die bisher diskutierten Praktiken werden oft als fragwürdig (questionable) dargestellt. Manche Wissenschaftler*innen halten das für ein Euphemismus, denn in der Verantwortung als Forscher*in sollte genügend Wissen vorliegen, um zu erkennen, dass die oben beschriebenen Techniken <em>nicht</em> wissenschaftlich sind und eindeutig nicht der Generierung von Wissen dienen. Sie behindern deutlich den wissenschaftlichen Fortschritt, gefährden das Vertrauen in Wissenschaft, und führen zu enorm hohen Kosten. Unglücklicherweise sind diese Problematiken vielen Wissenschaftler*innen heute immer noch nicht bekannt. „Das haben wir halt so gelernt und schon immer so gemacht” heißt es zum Beispiel. Dass bestimmte Studien sich nicht replizieren ließen, war teilweise schon vielen Personen bewusst, sie hielten es nur nicht für möglich, das im Scientific Record festzuhalten (z.B. <a href="http://daniellakens.blogspot.com/2020/11/why-i-care-about-replication-studies.html" class="uri">http://daniellakens.blogspot.com/2020/11/why-i-care-about-replication-studies.html</a>). Jedenfalls legt der Begriff der fragwürdigen Forschungspraktiken nahe, dass sich Forschende damit in einer Grauzone bewegen würden. Meiner Ansicht nach, ist das nur der Fall, da, wenn Forschende ihren Job verlieren würden, weil sie P-Hacking betrieben haben, nicht mehr viele Forschende übrig wären.</p>
 <p>Anders ist es beim Fälschen und Manipulieren von Daten. Wie häufig Datenmanipulationen oder -fälschungen vorkommen ist ungewiss und Schätzungen sind schwierig. In einer Meta-Analyse von Umfragen zu dem Thema wurde geschätzt, dass zwischen 0,86 und 4,45% aller Wissenschaftler*innen zugaben, Daten manipuliert zu haben. 72% gaben an, fragwürdige Forschungspraktiken anzuwenden (Fanelli, 2009). Stroebe et al.&nbsp;(2012) stellten später Beispiele von Datenfälschung <a href="#_msocom_8">[LR8]</a>&nbsp;zusammen und empfahlen Peer Review und Replikationen als Betrugs-Detektoren. Eine neuere und extrem umfangreiche Studie von Gopalakrishna et al.&nbsp;(2021) berichtete, dass 8,3% aller Befragten Daten manipuliert oder gefälscht hätten und 51,3% fragwürdige Forschungspraktiken angewandt hätten (Tabelle 2) und bestätigte den Ausmaß der Probleme. Je nach Disziplinen kommen weitere Probleme hinzu, wie zum Beispiel die Verwendung bereits veröffentlichter biomedizinischer Bilder, die in ungefähr 3,8% aller veröffentlichten Artikel angewandt wurde (Bik et al., 2016). Es wird davon ausgegangen, dass Datenfälschung nur in sehr seltenen Fällen aufgedeckt wird. Diejenigen Fälle, die ans Licht kamen, hatten die Zurückziehung (<em>Retraction</em>) der jeweiligen wissenschaftlichen Artikel zur Folge und oft Konsequenzen für die wissenschaftliche Karriere der Verantwortlichen. Retractionwatch.org verwaltet die weltweit größte Datenbank zu zurückgezogenen Artikeln (Stand Dezember 2023: 49.628 Artikel): <a href="http://retractiondatabase.org/" class="uri">http://retractiondatabase.org/</a>.</p>
 <p>Sehr düster ist dabei die Tatsache, dass Methoden zur Datenfälschung einerseits immer einfacher werden (e.g., Naddaf, 2023)<a href="#_ftn1">[1]</a> und Wissenschaftler*innen, die Fehler aufdecken, häufig verklagt werden. Das betrifft beispielsweise wurden die Autoren von Datacolada.org, die bereits häufiger Probleme aufgezeigt haben, von Francesca Gino für die Veröffentlichung verklagt (<a href="https://datacolada.org/109" class="uri">https://datacolada.org/109</a>), woraufhin tausende Wissenschaftler*innen Gelder für die finanzielle Unterstützung des Gerichtsprozesses sammelten (<a href="https://www.gofundme.com/f/uhbka-support-data-coladas-legal-defense" class="uri">https://www.gofundme.com/f/uhbka-support-data-coladas-legal-defense</a>).</p>
@@ -440,8 +542,55 @@ ul.task-list li input[type="checkbox"] {
 <p>&nbsp;<a href="#_msoanchor_7">[LR7]</a>abschlussarbeit confirmation bias samira nickel</p>
 <p>&nbsp;<a href="#_msoanchor_8">[LR8]</a>Podcast zu dem Thema:</p>
 <p><a href="https://freakonomics.com/podcast/can-academic-fraud-be-stopped/" class="uri">https://freakonomics.com/podcast/can-academic-fraud-be-stopped/</a></p>
+</section>
+<section id="literatur" class="level3" data-number="10.0.10">
+<h3 data-number="10.0.10" class="anchored" data-anchor-id="literatur"><span class="header-section-number">10.0.10</span> Literatur</h3>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Breznau.2022" class="csl-entry" role="listitem">
+Breznau, Nate, Eike Mark Rinke, Alexander Wuttke, Hung H. V. Nguyen, Muna Adem, Jule Adriaans, Amalia Alvarez-Benjumea, et al. 2022. <span>“Observing Many Researchers Using the Same Data and Hypothesis Reveals a Hidden Universe of Uncertainty.”</span> <em>Proceedings of the National Academy of Sciences of the United States of America</em> 119 (44): e2203150119. <a href="https://doi.org/10.1073/pnas.2203150119">https://doi.org/10.1073/pnas.2203150119</a>.
+</div>
+<div id="ref-Coretta.2023" class="csl-entry" role="listitem">
+Coretta, Stefano, Joseph V. Casillas, Simon Roessig, Michael Franke, Byron Ahn, Ali H. Al-Hoorie, Jalal Al-Tamimi, et al. 2023. <span>“Multidimensional Signals and Analytic Flexibility: Estimating Degrees of Freedom in Human-Speech Analyses.”</span> <em>Advances in Methods and Practices in Psychological Science</em> 6 (3). <a href="https://doi.org/10.1177/25152459231162567">https://doi.org/10.1177/25152459231162567</a>.
+</div>
+<div id="ref-Feyerabend.19752002" class="csl-entry" role="listitem">
+Feyerabend, Paul K. 1975/2002. <em>Against Method</em>. Reprinted der 3. ed. 1993. London: Verso.
+</div>
+<div id="ref-Gould.2023" class="csl-entry" role="listitem">
+Gould, Elliot, Hannah Fraser, Timothy Parker, Shinichi Nakagawa, Simon Griffith, Peter Vesk, Fiona Fidler, et al. 2023. <span>“Same Data, Different Analysts: Variation in Effect Sizes Due to Analytical Decisions in Ecology and Evolutionary Biology.”</span> <a href="https://doi.org/10.32942/X2GG62">https://doi.org/10.32942/X2GG62</a>.
+</div>
+<div id="ref-HoyningenHuene.2013" class="csl-entry" role="listitem">
+Hoyningen-Huene, Paul. 2013. <em>Systematicity: The Nature of Science</em>. Oxford Studies in Philosophy of Science. Oxford: <span>Oxford Univ. Press</span>.
+</div>
+<div id="ref-Hume.17482011" class="csl-entry" role="listitem">
+Hume, David. 1748/2011. <em>Eine Untersuchung <span class="nocase">ü</span>ber Den Menschlichen Verstand [an&nbsp;Enquiry Concerning Human Understanding]</em>. Vol. 5489. Reclams Universal-Bibliothek. Stuttgart: Reclam.
+</div>
+<div id="ref-John.2012" class="csl-entry" role="listitem">
+John, Leslie K., George Loewenstein, and Drazen Prelec. 2012. <span>“Measuring the Prevalence of Questionable Research Practices with Incentives for Truth Telling.”</span> <em>Psychological Science</em> 23 (5): 524–32. <a href="https://doi.org/10.1177/0956797611430953">https://doi.org/10.1177/0956797611430953</a>.
+</div>
+<div id="ref-Neoh.2023" class="csl-entry" role="listitem">
+Neoh, Michelle Jin Yee, Alessandro Carollo, Albert Lee, and Gianluca Esposito. 2023. <span>“Fifty Years of Research on Questionable Research Practises in Science: Quantitative Analysis of Co-Citation Patterns.”</span> <em>Royal Society Open Science</em> 10 (10): 230677. <a href="https://doi.org/10.1098/rsos.230677">https://doi.org/10.1098/rsos.230677</a>.
+</div>
+<div id="ref-nuijten2016prevalence" class="csl-entry" role="listitem">
+Nuijten, Michèle B, Chris HJ Hartgerink, Marcel ALM Van Assen, Sacha Epskamp, and Jelte M Wicherts. 2016. <span>“The Prevalence of Statistical Reporting Errors in Psychology (1985–2013).”</span> <em>Behavior Research Methods</em> 48: 1205–26.
+</div>
+<div id="ref-Robinaugh.2021" class="csl-entry" role="listitem">
+Robinaugh, Donald J., Jonas M. B. Haslbeck, Oisín Ryan, Eiko I. Fried, and Lourens J. Waldorp. 2021. <span>“Invisible Hands and Fine Calipers: A Call to Use Formal Theory as a Toolkit for Theory Construction.”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 16 (4): 725–43. <a href="https://doi.org/10.1177/1745691620974697">https://doi.org/10.1177/1745691620974697</a>.
+</div>
+<div id="ref-Roseler.2022f" class="csl-entry" role="listitem">
+Röseler, Lukas, and Astrid Schütz. 2022. <span>“Open Science.”</span> In <em>Psychologie</em>, edited by Astrid Schütz, Matthias Brand, Sabine Steins-Loeber, Martin Baumann, Jan Born, Veronika Brandstätter, Claus-Christian Carbon, et al., 187–98. Stuttgart: Kohlhammer.
+</div>
+<div id="ref-Schimmack.2019" class="csl-entry" role="listitem">
+Schimmack, Ulrich. 2019. <span>“The Implicit Association Test: A Method in Search of a Construct.”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em>, 1745691619863798. <a href="https://doi.org/10.1177/1745691619863798">https://doi.org/10.1177/1745691619863798</a>.
+</div>
+<div id="ref-Schonbrodt.2016" class="csl-entry" role="listitem">
+Schönbrodt, Felix. 2016. <span>“P-Hacker: Train Your p-Hacking Skills!”</span> <a href="http://shinyapps.org/apps/p-hacker/.">http://shinyapps.org/apps/p-hacker/.</a>
+</div>
+<div id="ref-Smith2020-nm" class="csl-entry" role="listitem">
+Smith, Neal, Jr, and Aaron Cumberledge. 2020. <span>“Quotation Errors in General Science Journals.”</span> <em>Proc. Math. Phys. Eng. Sci.</em> 476 (2242): 20200538.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -868,12 +1017,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./probleme_karriere.html" class="pagination-link" aria-label="Karriere in der Wissenschaft">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Karriere in der Wissenschaft</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Karriere in der Wissenschaft</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./probleme_theorien.html" class="pagination-link" aria-label="Theorien">
-        <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Theorien</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Theorien</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
