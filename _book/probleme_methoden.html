@@ -444,7 +444,7 @@ Statistische Signifikanz
 </section>
 <section id="tippfehler" class="level3" data-number="10.0.3">
 <h3 data-number="10.0.3" class="anchored" data-anchor-id="tippfehler"><span class="header-section-number">10.0.3</span> Tippfehler</h3>
-<p>Häufig werden Daten mittels fortgeschrittener Programme ausgewertet und die Ergebnisse werden dann mühselig in den Bericht übertragen. Hierbei entstehen schnell Tippfehler. <span class="citation" data-cites="nuijten2016prevalence">Nuijten et al. (<a href="#ref-nuijten2016prevalence" role="doc-biblioref">2016</a>)</span> erstellten einen Algorithmus, der automatisch berichtete Signifikanztests erkennt, nachrechnet, und Inkonsistenzen zurückmeldet. Dabei fanden sie heraus, dass in großen Psychologiezeitschriften zwischen 1985 und 2013 in ungefähr der Hälfte aller Artikel mindestens ein Fehler war. Diese “Tippfehler” waren dabei nicht völlig zufällig, sondern fehlerhafte Werte waren meistens zugunsten positiver Befunde. Solche Übertragungsfehler passieren auch bei Meta-Analysen <span class="citation" data-cites="Lopez-Nicolas2022-gv">(<a href="#ref-Lopez-Nicolas2022-gv" role="doc-biblioref"><strong>Lopez-Nicolas2022-gv?</strong></a>)</span>. Und selbst bei Zitationen sind Fehler nicht selten: Über verschiedene wissenschaftliche Disziplinen fanden <span class="citation" data-cites="Smith2020-nm">(<a href="#ref-Smith2020-nm" role="doc-biblioref">Smith and Cumberledge 2020</a>)</span>, dass in 25% aller untersuchten Zitationen, die zitierten Behauptungen in den Originalartikeln nicht vertreten wurden.</p>
+<p>Häufig werden Daten mittels fortgeschrittener Programme ausgewertet und die Ergebnisse werden dann mühselig in den Bericht übertragen. Hierbei entstehen schnell Tippfehler. <span class="citation" data-cites="nuijten2016prevalence">Nuijten et al. (<a href="#ref-nuijten2016prevalence" role="doc-biblioref">2016</a>)</span> erstellten einen Algorithmus, der automatisch berichtete Signifikanztests erkennt, nachrechnet, und Inkonsistenzen zurückmeldet. Dabei fanden sie heraus, dass in großen Psychologiezeitschriften zwischen 1985 und 2013 in ungefähr der Hälfte aller Artikel mindestens ein Fehler war. Diese “Tippfehler” waren dabei nicht völlig zufällig, sondern fehlerhafte Werte waren meistens zugunsten positiver Befunde. Solche Übertragungsfehler passieren auch bei Meta-Analysen <span class="citation" data-cites="Lopez-Nicolas2022-gv">(<a href="#ref-Lopez-Nicolas2022-gv" role="doc-biblioref">Lopez-Nicolas et al. 2022</a>)</span>. Und selbst bei Zitationen sind Fehler nicht selten: Über verschiedene wissenschaftliche Disziplinen fanden <span class="citation" data-cites="Smith2020-nm">(<a href="#ref-Smith2020-nm" role="doc-biblioref">Smith and Cumberledge 2020</a>)</span>, dass in 25% aller untersuchten Zitationen, die zitierten Behauptungen in den Originalartikeln nicht vertreten wurden.</p>
 </section>
 <section id="p-hacking" class="level3" data-number="10.0.4">
 <h3 data-number="10.0.4" class="anchored" data-anchor-id="p-hacking"><span class="header-section-number">10.0.4</span> P-Hacking</h3>
@@ -466,7 +466,15 @@ Korrelation
 <p>Unter den QRPs (fragwürdigen Forschungspraktiken) ist p-hacking eine weitere Kategorie, die wiederum selbst verschiedene Techniken beinhaltet. Mit p-hacking ist gemeint, dass Forschende ihre Freiheitsgrade nutzen, um den P-Wert „signifikant zu machen”, also unter 5% zu bringen. Eine oft fälschlicherweise gemachte Annahme zu P-Werten ist, dass hohe P-Werte für die <em>Abwesenheit</em> eines Zusammenhanges sprächen, oder dass P-Werte nur dann niedrig sind, wenn tatsächlich ein Zusammenhang vorliegt. Stattdessen sind P-Werte tendenziell klein, wenn ein Zusammenhang vorliegt, der auch mit der Menge der erhobenen Daten nachgewiesen werden kann. Wenn kein Zusammenhang vorliegt, sind P-Werte gleichverteilt, das heißt, alle P-Werte kommen gleich häufig vor. Im Sinne der oben genannten Definition ist a priori klar, dass bei 100 durchgeführten Studien tendenziell 5 einen signifikanten Zusammenhang aufweisen, <em>wenn eigentlich keiner vorliegt</em>. Diese Tatsache erlaubt diverse P-Hacking Methoden. Simonsohn et al.&nbsp;(2014) zeigten, die Wahrscheinlichkeit, ein signifikantes Ergebnis zu kriegen, wenn eigentlich kein Zusammenhang in den Daten herrscht, von 5% auf ca. 60% steigen kann. Abbildung X zeigt die Verteilung von P-Werten bei verschieden hoher Teststärke (bzw. Power: der Wahrscheinlichkeit, einen Zusammenhang einer bestimmten Größe zu finden, wenn es ihn tatsächlich gibt).</p>
 <p><strong>Abbildung X</strong></p>
 <p><em>P-Werte sind bei Abwesenheit von Unterschieden oder Zusammenhängen, also beim Gelten der Nullhypothese gleichverteilt. Je höher die statistische Teststärke (Power), desto weiter verschiebt sich die Verteilung in den Bereich statistischer Signifikanz.</em></p>
-<p>{r} # P-Value distribution ---------------------------------------------------- layout(matrix(c(1,2,3), nrow = 1)) effects &lt;- c(0, .1, .3) for (i in effects) { effect &lt;- i n &lt;- 100 pvalues &lt;- (replicate(1000, t.test(rnorm(100), rnorm(100, i))$p.value)) power &lt;- round(pwr::pwr.t.test(n = n, d = i, power = NULL, alternative = “two.sided”)$power, 3) hist(pvalues, xlab = “P-values”, main = paste(“Cohen’s d =”, i, “\nPower =”, power, sep = ““) , xlim = c(0, 1)) } layout(1)</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="probleme_methoden_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 <p>Die Chance, signifikante P-Werte zu kriegen, ohne, dass die getestete Hypothese überhaupt stimmt, lässt sich durch „zerschneiden” der Stichprobe machen (z.B. werden nur Frauen analysiert), durch das Erheben zusätzlicher Daten („optional stopping”), oder durch die Verwendung mehrerer zentraler Variablen (zum Beispiel wird Intelligenz mit 3 verschiedenen Tests erfasst und alle werden einzeln mit Alter korreliert). Selbst das verändern kleiner Parameter in den statistischen Tests (z.B. Verwendung einer nicht-parametrischen Spearman Korrelation statt der Bravais-Pearson Korrelation) erhöhen die Chancen auf ein signifikantes Ergebnis (siehe Tabelle Y). Einige Formen des <em>p-hacking</em> lassen sich zum Beispiel hier ausprobieren: <a href="https://shinyapps.org/apps/p-hacker/" class="uri">https://shinyapps.org/apps/p-hacker/</a> <span class="citation" data-cites="Schonbrodt.2016">(<a href="#ref-Schonbrodt.2016" role="doc-biblioref">Schönbrodt 2016</a>)</span>.</p>
 <p><strong>Tabelle Y</strong></p>
 <p><em>Wahrscheinlichkeit für ein signifikantes Ergebnis durch die Anwendung verschiedener P-Hacking Techniken</em></p>
@@ -512,7 +520,7 @@ Korrelation
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="probleme_methoden_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="probleme_methoden_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -568,6 +576,9 @@ Hume, David. 1748/2011. <em>Eine Untersuchung <span class="nocase">ü</span>ber 
 </div>
 <div id="ref-John.2012" class="csl-entry" role="listitem">
 John, Leslie K., George Loewenstein, and Drazen Prelec. 2012. <span>“Measuring the Prevalence of Questionable Research Practices with Incentives for Truth Telling.”</span> <em>Psychological Science</em> 23 (5): 524–32. <a href="https://doi.org/10.1177/0956797611430953">https://doi.org/10.1177/0956797611430953</a>.
+</div>
+<div id="ref-Lopez-Nicolas2022-gv" class="csl-entry" role="listitem">
+Lopez-Nicolas, Ruben, Daniel Lakens, José A López-López, Marı́a Rubio Aparicio, Alejandro Sandoval-Lentisco, Carmen López-Ibáñez, Desirée Blázquez-Rincón, and Julio Sánchez-Meca. 2022. <span>“Analytical Reproducibility and Data Reusability of Published Meta-Analyses on Clinical Psychological Interventions.”</span> <em>PsyArXiv</em>.
 </div>
 <div id="ref-Neoh.2023" class="csl-entry" role="listitem">
 Neoh, Michelle Jin Yee, Alessandro Carollo, Albert Lee, and Gianluca Esposito. 2023. <span>“Fifty Years of Research on Questionable Research Practises in Science: Quantitative Analysis of Co-Citation Patterns.”</span> <em>Royal Society Open Science</em> 10 (10): 230677. <a href="https://doi.org/10.1098/rsos.230677">https://doi.org/10.1098/rsos.230677</a>.
