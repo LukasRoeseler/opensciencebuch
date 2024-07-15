@@ -6,26 +6,18 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
-Möglichkeiten der Epistemologie, also der Erkenntnislehre, Replikationsprobleme zu erklären, übersteigen systemische und methodische Faktoren, haben aber auch andere Prüfbarkeitsansprüche und sind für tätige Wissenschaftler\*innen wahrscheinlich eher unplausibel.
+Epistemologie heißt Erkenntnislehre und ist ein Teilgebiet der Philosophie. Darin wird diskutiert, wie Wissenschaft funktioniert, wie Wissen produziert werden kann, oder worin der Unterschied zwischen wissen und glauben liegt. Epistemologische Erklärungsansätze für Replikationsfehlschläge übersteigen systemische und methodische Faktoren, haben aber auch andere Prüfbarkeitsansprüche. Während wissenschaftstheoretische Ansätze teilweise empirisch (also durch Beobachtungen) prüfbare Vorhersagen erlauben, lässt sich über die philosophischen Probleme nur nachdenken und diskutieren.
 
-### Komplexität von Studien
+### Robustheit und Historizität von Phänomenen
 
-<https://osf.io/preprints/metaarxiv/5r36g> siehe auch Fanellie talk <https://www.youtube.com/watch?v=CEAV7420jBk> und evtl. gibt es inzwischen prereg Test von ihm
+Unter welchen Voraussetzungen ist es wenig überraschend, dass Replikationsversuche fehlschlagen? Ein Ausweg ist anzunehmen, dass die untersuchten Phänomene extrem empfindlich oder unstabil seien. Regelmäßigkeiten im menschlichen Verhalten analog zu den Planetenbewegungen zu entdecken könnte schlichtweg nicht möglich sein [@Smedslund.2015]. Weniger extreme Annahmen über die Existenz von Regelmäßigkeiten, die möglicherweise nicht jede Person ausnahmslos betreffen aber „im Schnitt" gelten (also aristotelische statt galileische Gesetzmäßigkeiten; @Lewin.1930) sind allerdings unumstritten. Eine solche Regelmäßigkeit kann zum Beispiel sein, dass Männer größer als Frauen sind. Noch extremer ist die Theorie, dass Menschen sich des Wissens über sie bewusst sind und ihr Verhalten dynamisch anpassen und Verhaltenswissenschaften immer historisch bzw. zeitgebunden sind: Wird herausgefunden, dass Menschen in ihren Entscheidungen tendenziell dazu neigen nichts zu ändern, auch wenn sich dadurch ihre Situation verbessern würde, wird ihnen diese Tatsache über die Wissenschaft vor Augen geführt und sie können ihr Verhalten anpassen. Dabei handelt es sich übrigens um den Status Quo Bias, bei dem Menschen die jetzige Situation einer anderen vorziehen [@Samuelson.1988; @Xiao.2021].
 
-### Robustheit und Historizität von [\[LR1\]](#_msocom_1) Phänomenen[\[LR2\]](#_msocom_2) 
+Wie stark sich Phänomene durch vermeintlich kleinere Unterschiede im Versuchsaufbau unterscheiden wurde bereits meta-wissenschaftlich untersucht. @Landy.2020 ließen mehrere Hypothesen von mehreren Forschenden prüfen und Faktoren, die laut den dahinterliegenden Theorien eigentlich keinen Unterschied machen sollten, führten dazu, dass Gegenteilige Ergebnisse entstanden. Auf Replikationsforschung übertragen ist es also möglich, dass in bestimmten Forschungsbereichen völlig unklar ist, unter welchen Bedingungen welche Zusammenhänge zu beobachten sind.
 
-Unter welchen Voraussetzungen ist es wenig überraschend, dass Replikationsversuche fehlschlagen? Ein Ausweg ist anzunehmen, dass die untersuchten Phänomene extrem empfindlich oder unstabil seien. Regelmäßigkeiten im menschlichen Verhalten analog zu den Planetenbewegungen zu entdecken könnte schlichtweg nicht möglich sein (Smedslund, 2015). Weniger extreme Annahmen über die Existenz von Regelmäßigkeiten, die möglicherweise nicht jede Person ausnahmslos betreffen aber „im Schnitt" gelten (also aristotelische statt galileische Gesetzmäßigkeiten; Lewin, 1930) sind allerdings unumstritten. Eine solche Regelmäßigkeit kann zum Beispiel sein, dass Männer größer als Frauen sind. Noch extremer ist die Theorie, dass Menschen sich des Wissens über sie bewusst sind und ihr Verhalten dynamisch anpassen und Verhaltenswissenschaften immer historisch bzw. zeitgebunden sind: Wird herausgefunden, dass Menschen in ihren Entscheidungen tendenziell dazu neigen nichts zu ändern, auch wenn sich dadurch ihre Situation verbessern würde, wird ihnen diese Tatsache über die Wissenschaft vor Augen geführt und sie können ihr Verhalten anpassen. Dabei handelt es sich übrigens um den Status Quo Bias, welcher im Rahmen von über 30 Jahren erfolgreich repliziert wurde (Samuelson & Zeckhauser, 1988; Xiao et al., 2021).
+## Weiterführende Informationen
 
-Wie stark sich Phänomene durch vermeintlich kleinere Unterschiede im Versuchsaufbau unterscheiden wurde bereits meta-wissenschaftlich untersucht. Landy et al. (2020) ließen mehrere Hypothesen von mehreren Forschenden prüfen und Faktoren, die laut den dahinterliegenden Theorien eigentlich keinen Unterschied machen sollten, führten dazu, dass Gegenteilige Ergebnisse entstanden. Auf Replikationsforschung übertragen ist es also möglich, dass in bestimmten Forschungsbereichen völlig unklar ist, unter welchen Bedingungen welche Zusammenhänge zu beobachten sind.
+-   @Fleck.19352015 schlägt eine Theorie des wissenschaftlichen Fortschritts vor, bei der Wissen immer einem sogenannten Denkstil unterliegt, der für die jeweilige gesellschaftliche Situation optimal ist. Dabei bedient er sich Elementen der Evolutionstheorie, Soziologie, und Psychologie.
 
-### Paradox des Fallibilität und des Fortschritts
-
--          <https://www.pnas.org/doi/full/10.1073/pnas.1711786114> \[einarbeiten\]
-
- [\[LR1\]](#_msoanchor_1)Error is an integral part of the process of science
-
-<https://www.pnas.org/doi/full/10.1073/pnas.1711786114>
-
- [\[LR2\]](#_msoanchor_2)in BA Literaturverzeichnis schauen why psych cannot be a science
+-   @shiffrin2018scientific diskutiert das scheinbare Paradox zwischen Fallibilität und Fortschritt in der Wissenschaft.
 
 ### Literatur
