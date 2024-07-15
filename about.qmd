@@ -9,7 +9,7 @@ bibliographystyle: apa
 Wissenschaft wird zu einem Maßgeblichen Teil von Steuergeldern finanziert. Das bedeutet, eine Gesellschaft fördert einzelne Personen, um ein tieferes Verständnis von der Welt zu erlangen und im Gegenzug Unterstützung bei der Lösung verschiedener Probleme zu erhalten. Dadurch sind Wissenschaftler\*innen der Gesellschaft in einem gewissen Maße Rechenschaft schuldig. Dabei geht es nicht darum, dass jede wissenschaftliche Erkenntnis notwendigerweise Früchte tragen muss, aber, dass sie wissenschaftlichen Gütekriterien entspricht und zumindest für andere Forschende nachvollziehbar und nachprüfbar ist. Inwiefern das in verschiedenen Disziplinen der Fall ist und wie Personen sich dafür einsetzen, diese Rechenschaft zu ermöglichen, möchte ich in diesem Buch darlegen.
 
 ::: callout-note
-## Über mich 
+## Über mich
 
 Mein Name ist Lukas Röseler und ich bin Wissenschaftler. Ich habe in Wernigerode Psychologie und Wirtschaftswissenschaften studiert, mich darüber hinaus mit Philosophie und Wissenschaftstheorie beschäftigt, und habe 2021 in Bamberg meinen Doktortitel in Psychologie erhalten. Seit 2023 bin ich Geschäftsführer des Münster Center for Open Science, darf mich im Rahmen dessen mit transparenter und vertrauenswürdiger Wissenschaft in zahlreichen Disziplinen auseinandersetzen. Dabei betreibe ich Meta-Wissenschaft, also *Wissenschaft über Wissenschaft*.
 

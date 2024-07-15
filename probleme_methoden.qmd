@@ -24,11 +24,20 @@ Problematisch wird es, wenn exploratorische Forschung als konfirmatorische kommu
 
 #### Methoden der Datengenerierung
 
-Wissenschaftliche Disziplinen bedienen sich für gewöhnlich vieler verschiedener Methoden. Idealerweise sind Erkenntnisse unabhängig von der Methode, die zu ihrer Entdeckung geführt hat und verschiedene Methoden führen zur selben Erkenntnis. Typische sozialwissenschaftliche Methoden sind die Befragung mittels standardisiertem Fragebogen, Verhaltensbeobachtung mittels Kameraaufzeichnungen und anschließender Kodierung von Verhaltensweisen durch mehrere Personen, die den Untersuchungszweck nicht kennen, indirekte Methoden [@Schimmack.2019], bei welchen etwas anderes gefragt wird, als was gemessen werden soll, Verhaltensmessungen wie Blickrichtungsmessung (*eye tracking*), oder Simulationsstudien, mittels derer zum Beispiel Verkehrsflüsse auf Basis vorher festgelegter Prinzipien per Computer berechnet werden oder Panikattacken vorhergesagt werden [@Robinaugh.2021]. Diese Methoden generieren fast immer Daten, also beispielsweise eine Tabelle, in der je Beobachtungseinheit (z.B. je Versuchsperson) in mehreren Spalten Daten festgehalten werden und diese Daten werden fast immer statistisch ausgewertet. Die Notwendigkeit einer solchen Auswertung ergibt sich daraus, dass die Beobachteten Gesetzmäßigkeiten keine absoluten Gesetze im Sinne von „alle männlichen Babys wiegen mehr als alle weiblichen Babys" sind, sondern statistische Regelmäßigkeiten im Sinne von „im Mittel wiegen kurz nach der Geburt männliche Babys ein paar hundert Gramm mehr als weibliche Babys, aber nicht jedes männliche Baby wiegt mehr als jedes weibliche Baby" sind (siehe Abbildung X). Ein Vergleich von Körpergrößen nach Geschlecht ist über [Statista](https://de.statista.com/statistik/daten/studie/1825/umfrage/koerpergroesse-nach-geschlecht/) zu sehen.
+Wissenschaftliche Disziplinen bedienen sich für gewöhnlich vieler verschiedener Methoden. Idealerweise sind Erkenntnisse unabhängig von der Methode, die zu ihrer Entdeckung geführt hat und verschiedene Methoden führen zur selben Erkenntnis. Typische sozialwissenschaftliche Methoden sind die Befragung mittels standardisiertem Fragebogen, Verhaltensbeobachtung mittels Kameraaufzeichnungen und anschließender Kodierung von Verhaltensweisen durch mehrere Personen, die den Untersuchungszweck nicht kennen, indirekte Methoden [@Schimmack.2019], bei welchen etwas anderes gefragt wird, als was gemessen werden soll, Verhaltensmessungen wie Blickrichtungsmessung (*eye tracking*), oder Simulationsstudien, mittels derer zum Beispiel Verkehrsflüsse auf Basis vorher festgelegter Prinzipien per Computer berechnet werden oder Panikattacken vorhergesagt werden [@Robinaugh.2021]. Diese Methoden generieren fast immer Daten, also beispielsweise eine Tabelle, in der je Beobachtungseinheit (z.B. je Versuchsperson) in mehreren Spalten Daten festgehalten werden und diese Daten werden fast immer statistisch ausgewertet. Die Notwendigkeit einer solchen Auswertung ergibt sich daraus, dass die Beobachteten Gesetzmäßigkeiten keine absoluten Gesetze im Sinne von „alle männlichen Babys wiegen mehr als alle weiblichen Babys" sind, sondern statistische Regelmäßigkeiten im Sinne von „im Mittel wiegen kurz nach der Geburt männliche Babys ein paar hundert Gramm mehr als weibliche Babys, aber nicht jedes männliche Baby wiegt mehr als jedes weibliche Baby" sind. Ein Vergleich von Körpergrößen nach Geschlecht ist über [Statista](https://de.statista.com/statistik/daten/studie/1825/umfrage/koerpergroesse-nach-geschlecht/) zu sehen.
 
-**ABBILDUNG X**
+In der folgenden Abbildung sind die Häufigkeiten verschiedener Werte zu sehen (*Histogramm*). Je weiter rechts ein Wert ist, desto höher ist der Wert (z.B. Geburtsgewicht) und je höher der Balken ist, desto häufiger kommt der Wert vor. Die gelbe und die lilane Verteilung überlappen einander, das heißt, dass nicht alle gelben Werte niedriger als alle lilanen sind. Im Mittel, sind die gelben Werte jedoch geringer.
 
-*Statistische Phänomen; männliche babys vs. Weibliche babys*
+```{r}
+#| code-fold: true
+set.seed(1)
+x <- rnorm(1000, mean = 0)
+y <- rnorm(1000, mean = 1)
+hist(x, xlim = c(-3, 5), col = rgb(1,1,0,.2), ylim = c(0, 40), breaks = 100, xaxt = "n", yaxt = "n"
+     , xlab = "Wert", ylab = "Häufigkeit", main = "")
+hist(y, add = T, col = rgb(1,0,1,.2), breaks = 100)
+
+```
 
 ::: callout-note
 ## Statistische Signifikanz
@@ -46,18 +55,19 @@ Auf der anderen Seite ist es durchaus möglich, dass eine Münze nicht fair ist,
 
 Vollständige Studien mehrfach durchzuführen ist sehr aufwändig. Obwohl es ein relativ sicherer Weg zu signifikanten P-Werten ist, gibt es weitaus sparsamere Lösungen. Die meisten Analysen sind um ein vielfaches komplexer als die oben beschriebene Münzwurfstudie. Betrachten wir den immer noch sehr einfachen Signifikanztest für einen Korrelationskoeffizienten. Der Koeffizient ist eine Zahl zwischen -1 und 1 und beschreibt die Art des Zusammenhanges zwischen zwei Variablen (z.B. Einkommen und Lebenszufriedenheit). 0 bedeutet, dass kein Zusammenhang vorliegt, positive Werte bedeuten, dass wenn die eine Variable hohe Werte hat, dann hat auch die andere hohe Werte, und negative Korrelationen bedeuten, dass wenn eine Variable hohe Werte hat, dann hat die andere Variable eher niedrige Werte. In Abbildung X sind verschiedene Korrelationen dargestellt.
 
-**Abbildung X: Verschiedene Zusammenhänge zwischen zwei Variablen und deren Korrelationskoeffizienten (simulierte Daten).**
+**Verschiedene Zusammenhänge zwischen zwei Variablen und deren Korrelationskoeffizienten (simulierte Daten).**
 
 ```{r}
 #| code-fold: true
 
-layout(matrix(c(1, 1,2, 2,3, 3, 4, 4), nrow = 2, byrow = TRUE)) 
+layout(matrix(c(1, 1, 2, 2, 3, 3, 4, 4), nrow = 2, byrow = TRUE)) 
 set.seed(42)
 n <- 100
 
 x1 <- rnorm(n)
-y1 <- x1+rnorm(n)
-y2 <- rnorm(n)
+y1 <- rnorm(n)
+y2 <- x1+rnorm(n)
+y3 <- -x1+rnorm(n)
 y4 <- abs(x1+rnorm(n))^2
 
 plot(x1, y1, main = paste("r = ", round(cor(x1, y1), 2), sep = "")
@@ -87,9 +97,7 @@ Im Datenanalyseprozess wird die Analogie des „garden of forking paths" verwend
 
 ![192 verschiedene Wege von einem Datensatz zum (gewünschten) Ergebnis](images/gardenofforkingpaths.jpg)
 
-[\[LR4\]](#_msocom_4) 
-
-Demonstrationen des garden of forking paths existieren für verschiedenste Felder und wurden bereits für Evolutionsbiologie [@Gould.2023], Sozialpolitik [@Breznau.2022], Strukturgleichungsmodelle [@Sarstedt2024-ov], und Sprachanalysen [@Coretta.2023] nachgewiesen.
+Demonstrationen des *garden of forking paths* existieren für verschiedenste Felder und wurden bereits für Evolutionsbiologie [@Gould.2023], Sozialpolitik [@Breznau.2022], Strukturgleichungsmodelle [@Sarstedt2024-ov], und Sprachanalysen [@Coretta.2023] nachgewiesen.
 
 ### Tippfehler
 
@@ -102,8 +110,6 @@ Der P-Wert bei statistischen Tests gibt an, wie hoch die Wahrscheinlichkeit für
 Die im Signifikanztest mitformulierte Annahme des fehlenden Zusammenhanges heißt *Nullhypothese*. Wenn das beobachtete Muster gegeben der Nullhypothese extrem unwahrscheinlich ist (oft unter 5%) wird von einem statistisch signifikanten Zusammenhang gesprochen. Wichtig ist dabei, dass Signifikanz (also „Bedeutsamkeit") hier wirklich nur im statistischen Sinne zu verstehen ist. Die Frage, wie bedeutsam ein Befund für die Welt und das Leben ist, lässt sich mit Statistik in diesem Rahmen nicht beantworten. Weil P-Werte Wahrscheinlichkeiten sind, liegen sie zwischen 0 und 100%.
 
 Unter den QRPs (fragwürdigen Forschungspraktiken) ist p-hacking eine weitere Kategorie, die wiederum selbst verschiedene Techniken beinhaltet. Mit p-hacking ist gemeint, dass Forschende ihre Freiheitsgrade nutzen, um den P-Wert „signifikant zu machen", also unter 5% zu bringen. Eine oft fälschlicherweise gemachte Annahme zu P-Werten ist, dass hohe P-Werte für die *Abwesenheit* eines Zusammenhanges sprächen, oder dass P-Werte nur dann niedrig sind, wenn tatsächlich ein Zusammenhang vorliegt. Stattdessen sind P-Werte tendenziell klein, wenn ein Zusammenhang vorliegt, der auch mit der Menge der erhobenen Daten nachgewiesen werden kann. Wenn kein Zusammenhang vorliegt, sind P-Werte gleichverteilt, das heißt, alle P-Werte kommen gleich häufig vor. Im Sinne der oben genannten Definition ist a priori klar, dass bei 100 durchgeführten Studien tendenziell 5 einen signifikanten Zusammenhang aufweisen, *wenn eigentlich keiner vorliegt*. Diese Tatsache erlaubt diverse P-Hacking Methoden. Simonsohn et al. (2014) zeigten, die Wahrscheinlichkeit, ein signifikantes Ergebnis zu kriegen, wenn eigentlich kein Zusammenhang in den Daten herrscht, von 5% auf ca. 60% steigen kann. Abbildung X zeigt die Verteilung von P-Werten bei verschieden hoher Teststärke (bzw. Power: der Wahrscheinlichkeit, einen Zusammenhang einer bestimmten Größe zu finden, wenn es ihn tatsächlich gibt).
-
-**Abbildung X**
 
 *P-Werte sind bei Abwesenheit von Unterschieden oder Zusammenhängen, also beim Gelten der Nullhypothese gleichverteilt. Je höher die statistische Teststärke (Power), desto weiter verschiebt sich die Verteilung in den Bereich statistischer Signifikanz.*
 
@@ -133,12 +139,10 @@ layout(1)
 
 Die Chance, signifikante P-Werte zu kriegen, ohne, dass die getestete Hypothese überhaupt stimmt, lässt sich durch „zerschneiden" der Stichprobe machen (z.B. werden nur Frauen analysiert), durch das Erheben zusätzlicher Daten („optional stopping"), oder durch die Verwendung mehrerer zentraler Variablen (zum Beispiel wird Intelligenz mit 3 verschiedenen Tests erfasst und alle werden einzeln mit Alter korreliert). Selbst das verändern kleiner Parameter in den statistischen Tests (z.B. Verwendung einer nicht-parametrischen Spearman Korrelation statt der Bravais-Pearson Korrelation) erhöhen die Chancen auf ein signifikantes Ergebnis (siehe Tabelle Y). Einige Formen des *p-hacking* lassen sich zum Beispiel hier ausprobieren: <https://shinyapps.org/apps/p-hacker/> [@Schonbrodt.2016]. Eine Checkliste, um P-Hacking zu vermeiden, schlägt @Wicherts2016-br vor.
 
-**Tabelle Y**
-
 *Wahrscheinlichkeit für ein signifikantes Ergebnis durch die Anwendung verschiedener P-Hacking Techniken nach @Simmons.2011, Tabelle 1. Der Anteil signifikanter Ergebnisse sollte hier den festgelegten 5% des Alpha-Fehlers entsprechen.*
 
 | Technik                                                             | Anteil signifikanter Ergebnisse |
-|---------------------------------------------------------------------|---------------------------------|
+|------------------------------------------------|------------------------|
 | Mehrere abhängige Variablen, deren Korrelation r = .5 ist           | 9,5%                            |
 | 10 weitere Beobachtungen je Gruppe erheben                          | 7,7%                            |
 | Eine weitere Variable (z.B. Geschlecht) mit in das Modell aufnehmen | 11,7%                           |
@@ -172,7 +176,7 @@ for (i in 1:6) {
   y <- rnorm(n)
   
   plot(x, y
-       , main = paste("r(", n-2, ") = ", round(cor(x,y), 3), ", p = ", round(print(cor.test(x,y)$p.value), 3), sep = "")
+       , main = paste("r(", n-2, ") = ", round(cor(x,y), 3), ", p = ", round((cor.test(x,y)$p.value), 3), sep = "")
        , pch = 20, yaxt = 'n', xaxt = 'n', xlab = "", ylab = "")
 }
 layout(1)
@@ -226,7 +230,7 @@ Ein besonderes Problem wissenschaftlicher Methoden ist der Confirmation Bias. Da
 
 ### Datenfälschung
 
-Die bisher diskutierten Praktiken werden oft als fragwürdig (questionable) dargestellt. Manche Wissenschaftler\*innen halten das für ein Euphemismus, denn in der Verantwortung als Forscher\*in sollte genügend Wissen vorliegen, um zu erkennen, dass die oben beschriebenen Techniken *nicht* wissenschaftlich sind und eindeutig nicht der Generierung von Wissen dienen. Sie behindern deutlich den wissenschaftlichen Fortschritt, gefährden das Vertrauen in Wissenschaft, und führen zu enorm hohen Kosten. Unglücklicherweise sind diese Problematiken vielen Wissenschaftler\*innen heute immer noch nicht bekannt. „Das haben wir halt so gelernt und schon immer so gemacht" heißt es zum Beispiel. Dass bestimmte Studien sich nicht replizieren ließen, war teilweise schon vielen Personen bewusst, sie hielten es nur nicht für möglich, das im Scientific Record festzuhalten (z.B. <http://daniellakens.blogspot.com/2020/11/why-i-care-about-replication-studies.html>). Jedenfalls legt der Begriff der fragwürdigen Forschungspraktiken nahe, dass sich Forschende damit in einer Grauzone bewegen würden. Meiner Ansicht nach, ist das nur der Fall, da, wenn Forschende ihren Job verlieren würden, weil sie P-Hacking betrieben haben, nicht mehr viele Forschende übrig wären.
+Die bisher diskutierten Praktiken werden oft als fragwürdig (questionable) dargestellt. Manche Wissenschaftler\*innen halten das für ein Euphemismus, denn in der Verantwortung als Forscher\*in sollte genügend Wissen vorliegen, um zu erkennen, dass die oben beschriebenen Techniken *nicht* wissenschaftlich sind und eindeutig nicht der Generierung von Wissen dienen. Sie behindern deutlich den wissenschaftlichen Fortschritt, gefährden das Vertrauen in Wissenschaft, und führen zu enorm hohen Kosten. Unglücklicherweise sind diese Problematiken vielen Wissenschaftler\*innen heute immer noch nicht bekannt. „Das haben wir halt so gelernt und schon immer so gemacht" heißt es zum Beispiel. Dass bestimmte Studien sich nicht replizieren ließen, war teilweise schon vielen Personen bewusst, sie hielten es nur nicht für möglich, das im Scientific Record festzuhalten. Jedenfalls legt der Begriff der fragwürdigen Forschungspraktiken nahe, dass sich Forschende damit in einer Grauzone bewegen würden. Meiner Ansicht nach, ist das nur der Fall, da, wenn Forschende ihren Job verlieren würden, weil sie P-Hacking betrieben haben, nicht mehr viele Forschende übrig wären.
 
 Anders ist es beim Fälschen und Manipulieren von Daten. Wie häufig Datenmanipulationen oder -fälschungen vorkommen ist ungewiss und Schätzungen sind schwierig. In einer Meta-Analyse von Umfragen zu dem Thema wurde geschätzt, dass zwischen 0,86 und 4,45% aller Wissenschaftler\*innen zugaben, Daten manipuliert zu haben. 72% gaben an, fragwürdige Forschungspraktiken anzuwenden [@Fanelli.2009]. @Stroebe.2012 stellten später Beispiele von Datenfälschung zusammen und empfahlen Peer Review und Replikationen als Betrugs-Detektoren. Eine neuere und extrem umfangreiche Studie von @Gopalakrishna.2021 berichtete, dass 8,3% aller Befragten Daten manipuliert oder gefälscht hätten und 51,3% fragwürdige Forschungspraktiken angewandt hätten (Tabelle 2) und bestätigte den Ausmaß der Probleme. Je nach Disziplinen kommen weitere Probleme hinzu, wie zum Beispiel die Verwendung bereits veröffentlichter biomedizinischer Bilder, die in ungefähr 3,8% aller veröffentlichten Artikel angewandt wurde [@Bik.2016]. Es wird davon ausgegangen, dass Datenfälschung nur in sehr seltenen Fällen aufgedeckt wird. Diejenigen Fälle, die ans Licht kamen, hatten die Zurückziehung (*Retraction*) der jeweiligen wissenschaftlichen Artikel zur Folge und oft Konsequenzen für die wissenschaftliche Karriere der Verantwortlichen. Retractionwatch.org verwaltet die weltweit größte Datenbank zu zurückgezogenen Artikeln (Stand Dezember 2023: 49.628 Artikel): <http://retractiondatabase.org/>.
 
@@ -235,5 +239,6 @@ Sehr düster ist dabei die Tatsache, dass Methoden zur Datenfälschung einerseit
 ## Weiterführende Informationen
 
 -   Bei diesem englischsprachigen Podcast wird diskutiert, wie und ob sich Betrug in der Wissenschaft stoppen lässt: <https://freakonomics.com/podcast/can-academic-fraud-be-stopped/>
+-   Wie sich die Replikationskrise aus Perspektive eines jungen Forschers angefühlt hat beschreibt Daniel Lakens: <http://daniellakens.blogspot.com/2020/11/why-i-care-about-replication-studies.html>
 
 ### Literatur

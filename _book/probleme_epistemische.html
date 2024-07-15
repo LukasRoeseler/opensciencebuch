@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -295,10 +315,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#komplexität-von-studien" id="toc-komplexität-von-studien" class="nav-link active" data-scroll-target="#komplexität-von-studien"><span class="header-section-number">12.0.1</span> Komplexität von Studien</a></li>
-  <li><a href="#robustheit-und-historizität-von-lr1-phänomenenlr2" id="toc-robustheit-und-historizität-von-lr1-phänomenenlr2" class="nav-link" data-scroll-target="#robustheit-und-historizität-von-lr1-phänomenenlr2"><span class="header-section-number">12.0.2</span> Robustheit und Historizität von [LR1]&nbsp;Phänomenen[LR2]&nbsp;</a></li>
-  <li><a href="#paradox-des-fallibilität-und-des-fortschritts" id="toc-paradox-des-fallibilität-und-des-fortschritts" class="nav-link" data-scroll-target="#paradox-des-fallibilität-und-des-fortschritts"><span class="header-section-number">12.0.3</span> Paradox des Fallibilität und des Fortschritts</a></li>
-  <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur"><span class="header-section-number">12.0.4</span> Literatur</a></li>
+  <li><a href="#robustheit-und-historizität-von-phänomenen" id="toc-robustheit-und-historizität-von-phänomenen" class="nav-link active" data-scroll-target="#robustheit-und-historizität-von-phänomenen"><span class="header-section-number">12.0.1</span> Robustheit und Historizität von Phänomenen</a></li>
+  <li><a href="#weiterführende-informationen" id="toc-weiterführende-informationen" class="nav-link" data-scroll-target="#weiterführende-informationen"><span class="header-section-number">12.1</span> Weiterführende Informationen</a>
+  <ul class="collapse">
+  <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur"><span class="header-section-number">12.1.1</span> Literatur</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -324,27 +345,46 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Möglichkeiten der Epistemologie, also der Erkenntnislehre, Replikationsprobleme zu erklären, übersteigen systemische und methodische Faktoren, haben aber auch andere Prüfbarkeitsansprüche und sind für tätige Wissenschaftler*innen wahrscheinlich eher unplausibel.</p>
-<section id="komplexität-von-studien" class="level3" data-number="12.0.1">
-<h3 data-number="12.0.1" class="anchored" data-anchor-id="komplexität-von-studien"><span class="header-section-number">12.0.1</span> Komplexität von Studien</h3>
-<p><a href="https://osf.io/preprints/metaarxiv/5r36g" class="uri">https://osf.io/preprints/metaarxiv/5r36g</a> siehe auch Fanellie talk <a href="https://www.youtube.com/watch?v=CEAV7420jBk" class="uri">https://www.youtube.com/watch?v=CEAV7420jBk</a> und evtl. gibt es inzwischen prereg Test von ihm</p>
+<p>Epistemologie heißt Erkenntnislehre und ist ein Teilgebiet der Philosophie. Darin wird diskutiert, wie Wissenschaft funktioniert, wie Wissen produziert werden kann, oder worin der Unterschied zwischen wissen und glauben liegt. Epistemologische Erklärungsansätze für Replikationsfehlschläge übersteigen systemische und methodische Faktoren, haben aber auch andere Prüfbarkeitsansprüche. Während wissenschaftstheoretische Ansätze teilweise empirisch (also durch Beobachtungen) prüfbare Vorhersagen erlauben, lässt sich über die philosophischen Probleme nur nachdenken und diskutieren.</p>
+<section id="robustheit-und-historizität-von-phänomenen" class="level3" data-number="12.0.1">
+<h3 data-number="12.0.1" class="anchored" data-anchor-id="robustheit-und-historizität-von-phänomenen"><span class="header-section-number">12.0.1</span> Robustheit und Historizität von Phänomenen</h3>
+<p>Unter welchen Voraussetzungen ist es wenig überraschend, dass Replikationsversuche fehlschlagen? Ein Ausweg ist anzunehmen, dass die untersuchten Phänomene extrem empfindlich oder unstabil seien. Regelmäßigkeiten im menschlichen Verhalten analog zu den Planetenbewegungen zu entdecken könnte schlichtweg nicht möglich sein <span class="citation" data-cites="Smedslund.2015">(<a href="#ref-Smedslund.2015" role="doc-biblioref">Smedslund 2015</a>)</span>. Weniger extreme Annahmen über die Existenz von Regelmäßigkeiten, die möglicherweise nicht jede Person ausnahmslos betreffen aber „im Schnitt” gelten (also aristotelische statt galileische Gesetzmäßigkeiten; <span class="citation" data-cites="Lewin.1930">Lewin (<a href="#ref-Lewin.1930" role="doc-biblioref">1930</a>)</span>) sind allerdings unumstritten. Eine solche Regelmäßigkeit kann zum Beispiel sein, dass Männer größer als Frauen sind. Noch extremer ist die Theorie, dass Menschen sich des Wissens über sie bewusst sind und ihr Verhalten dynamisch anpassen und Verhaltenswissenschaften immer historisch bzw. zeitgebunden sind: Wird herausgefunden, dass Menschen in ihren Entscheidungen tendenziell dazu neigen nichts zu ändern, auch wenn sich dadurch ihre Situation verbessern würde, wird ihnen diese Tatsache über die Wissenschaft vor Augen geführt und sie können ihr Verhalten anpassen. Dabei handelt es sich übrigens um den Status Quo Bias, bei dem Menschen die jetzige Situation einer anderen vorziehen <span class="citation" data-cites="Samuelson.1988 Xiao.2021">(<a href="#ref-Samuelson.1988" role="doc-biblioref">Samuelson and Zeckhauser 1988</a>; <a href="#ref-Xiao.2021" role="doc-biblioref">Xiao et al. 2021</a>)</span>.</p>
+<p>Wie stark sich Phänomene durch vermeintlich kleinere Unterschiede im Versuchsaufbau unterscheiden wurde bereits meta-wissenschaftlich untersucht. <span class="citation" data-cites="Landy.2020">Landy et al. (<a href="#ref-Landy.2020" role="doc-biblioref">2020</a>)</span> ließen mehrere Hypothesen von mehreren Forschenden prüfen und Faktoren, die laut den dahinterliegenden Theorien eigentlich keinen Unterschied machen sollten, führten dazu, dass Gegenteilige Ergebnisse entstanden. Auf Replikationsforschung übertragen ist es also möglich, dass in bestimmten Forschungsbereichen völlig unklar ist, unter welchen Bedingungen welche Zusammenhänge zu beobachten sind.</p>
 </section>
-<section id="robustheit-und-historizität-von-lr1-phänomenenlr2" class="level3" data-number="12.0.2">
-<h3 data-number="12.0.2" class="anchored" data-anchor-id="robustheit-und-historizität-von-lr1-phänomenenlr2"><span class="header-section-number">12.0.2</span> Robustheit und Historizität von <a href="#_msocom_1">[LR1]</a>&nbsp;Phänomenen<a href="#_msocom_2">[LR2]</a>&nbsp;</h3>
-<p>Unter welchen Voraussetzungen ist es wenig überraschend, dass Replikationsversuche fehlschlagen? Ein Ausweg ist anzunehmen, dass die untersuchten Phänomene extrem empfindlich oder unstabil seien. Regelmäßigkeiten im menschlichen Verhalten analog zu den Planetenbewegungen zu entdecken könnte schlichtweg nicht möglich sein (Smedslund, 2015). Weniger extreme Annahmen über die Existenz von Regelmäßigkeiten, die möglicherweise nicht jede Person ausnahmslos betreffen aber „im Schnitt” gelten (also aristotelische statt galileische Gesetzmäßigkeiten; Lewin, 1930) sind allerdings unumstritten. Eine solche Regelmäßigkeit kann zum Beispiel sein, dass Männer größer als Frauen sind. Noch extremer ist die Theorie, dass Menschen sich des Wissens über sie bewusst sind und ihr Verhalten dynamisch anpassen und Verhaltenswissenschaften immer historisch bzw. zeitgebunden sind: Wird herausgefunden, dass Menschen in ihren Entscheidungen tendenziell dazu neigen nichts zu ändern, auch wenn sich dadurch ihre Situation verbessern würde, wird ihnen diese Tatsache über die Wissenschaft vor Augen geführt und sie können ihr Verhalten anpassen. Dabei handelt es sich übrigens um den Status Quo Bias, welcher im Rahmen von über 30 Jahren erfolgreich repliziert wurde (Samuelson &amp; Zeckhauser, 1988; Xiao et al., 2021).</p>
-<p>Wie stark sich Phänomene durch vermeintlich kleinere Unterschiede im Versuchsaufbau unterscheiden wurde bereits meta-wissenschaftlich untersucht. Landy et al.&nbsp;(2020) ließen mehrere Hypothesen von mehreren Forschenden prüfen und Faktoren, die laut den dahinterliegenden Theorien eigentlich keinen Unterschied machen sollten, führten dazu, dass Gegenteilige Ergebnisse entstanden. Auf Replikationsforschung übertragen ist es also möglich, dass in bestimmten Forschungsbereichen völlig unklar ist, unter welchen Bedingungen welche Zusammenhänge zu beobachten sind.</p>
-</section>
-<section id="paradox-des-fallibilität-und-des-fortschritts" class="level3" data-number="12.0.3">
-<h3 data-number="12.0.3" class="anchored" data-anchor-id="paradox-des-fallibilität-und-des-fortschritts"><span class="header-section-number">12.0.3</span> Paradox des Fallibilität und des Fortschritts</h3>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.pnas.org/doi/full/10.1073/pnas.1711786114" class="uri">https://www.pnas.org/doi/full/10.1073/pnas.1711786114</a> [einarbeiten]</p>
-<p>&nbsp;<a href="#_msoanchor_1">[LR1]</a>Error is an integral part of the process of science</p>
-<p><a href="https://www.pnas.org/doi/full/10.1073/pnas.1711786114" class="uri">https://www.pnas.org/doi/full/10.1073/pnas.1711786114</a></p>
-<p>&nbsp;<a href="#_msoanchor_2">[LR2]</a>in BA Literaturverzeichnis schauen why psych cannot be a science</p>
-</section>
-<section id="literatur" class="level3" data-number="12.0.4">
-<h3 data-number="12.0.4" class="anchored" data-anchor-id="literatur"><span class="header-section-number">12.0.4</span> Literatur</h3>
+<section id="weiterführende-informationen" class="level2" data-number="12.1">
+<h2 data-number="12.1" class="anchored" data-anchor-id="weiterführende-informationen"><span class="header-section-number">12.1</span> Weiterführende Informationen</h2>
+<ul>
+<li><p><span class="citation" data-cites="Fleck.19352015">Fleck (<a href="#ref-Fleck.19352015" role="doc-biblioref">1935/2015</a>)</span> schlägt eine Theorie des wissenschaftlichen Fortschritts vor, bei der Wissen immer einem sogenannten Denkstil unterliegt, der für die jeweilige gesellschaftliche Situation optimal ist. Dabei bedient er sich Elementen der Evolutionstheorie, Soziologie, und Psychologie.</p></li>
+<li><p><span class="citation" data-cites="shiffrin2018scientific">Shiffrin, Börner, and Stigler (<a href="#ref-shiffrin2018scientific" role="doc-biblioref">2018</a>)</span> diskutiert das scheinbare Paradox zwischen Fallibilität und Fortschritt in der Wissenschaft.</p></li>
+</ul>
+<section id="literatur" class="level3" data-number="12.1.1">
+<h3 data-number="12.1.1" class="anchored" data-anchor-id="literatur"><span class="header-section-number">12.1.1</span> Literatur</h3>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Fleck.19352015" class="csl-entry" role="listitem">
+Fleck, Ludwik. 1935/2015. <em>Entstehung Und Entwicklung Einer Wissenschaftlichen Tatsache [Formation and Development of a Scientific Fact]: Einf<span>ü</span>hrung in Die Lehre Vom Denkstil Und Denkkollektiv [Introduction to Thinking Style and Thinking Collective]</em>. 10. Auflage. Vol. 312. Suhrkamp-Taschenbuch Wissenschaft. Frankfurt am Main: Suhrkamp.
+</div>
+<div id="ref-Landy.2020" class="csl-entry" role="listitem">
+Landy, Justin F., Miaolei Liam Jia, Isabel L. Ding, Domenico Viganola, Warren Tierney, Anna Dreber, Magnus Johannesson, et al. 2020. <span>“Crowdsourcing Hypothesis Tests: Making Transparent How Design Choices Shape Research Results.”</span> <em>Psychological Bulletin</em> 146 (5): 451–79. <a href="https://doi.org/10.1037/bul0000220">https://doi.org/10.1037/bul0000220</a>.
+</div>
+<div id="ref-Lewin.1930" class="csl-entry" role="listitem">
+Lewin, Kurt. 1930. <span>“Der <span class="nocase">ü</span>bergang von Der Aristotelischen Zur Galileischen Denkweise in Biologie Und Psychologie.”</span> <em>Erkenntnis</em> 1 (1): 421–66. <a href="https://doi.org/10.1007/BF00208633">https://doi.org/10.1007/BF00208633</a>.
+</div>
+<div id="ref-Samuelson.1988" class="csl-entry" role="listitem">
+Samuelson, William, and Richard Zeckhauser. 1988. <span>“Status Quo Bias in Decision Making.”</span> <em>Journal of Risk and Uncertainty</em> 1 (1): 7–59. <a href="https://doi.org/10.1007/BF00055564">https://doi.org/10.1007/BF00055564</a>.
+</div>
+<div id="ref-shiffrin2018scientific" class="csl-entry" role="listitem">
+Shiffrin, Richard M, Katy Börner, and Stephen M Stigler. 2018. <span>“Scientific Progress Despite Irreproducibility: A Seeming Paradox.”</span> <em>Proceedings of the National Academy of Sciences</em> 115 (11): 2632–39.
+</div>
+<div id="ref-Smedslund.2015" class="csl-entry" role="listitem">
+Smedslund, Jan. 2015. <span>“Why Psychology Cannot Be an Empirical Science.”</span> <em>Integrative Psychological <span>&amp;</span> Behavioral Science</em>. <a href="https://doi.org/10.1007/s12124-015-9339-x">https://doi.org/10.1007/s12124-015-9339-x</a>.
+</div>
+<div id="ref-Xiao.2021" class="csl-entry" role="listitem">
+Xiao, Qinyu, Choi Shan Lam, Muhrajan Piara, and Gilad Feldman. 2021. <span>“Revisiting Status Quo Bias.”</span> <em>Meta-Psychology</em> 5. <a href="https://doi.org/10.15626/MP.2020.2470">https://doi.org/10.15626/MP.2020.2470</a>.
+</div>
+</div>
+</section>
 </section>
 
 </main> <!-- /main -->

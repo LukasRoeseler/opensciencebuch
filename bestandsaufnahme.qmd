@@ -123,14 +123,9 @@ Ob an einem wissenschaftlichen Befund „etwas dran ist", er also einen Wahrheit
 
 ABBILDUNG X: Forest plot mit simulierten Ergebnissen von Original + vielen Einzelstudien; in den Notes dann ausführliche Erklärung.
 
-```{---}
-title: "Wald Diagramm (Forest Plot)"
-format:
-  html:
-    code-fold: true
----
-  
-{r}
+```{r}
+#| code-fold: true
+
 library(ggplot2)
 library(metafor)
 
@@ -153,6 +148,7 @@ ggplot(cors, aes(x = Korrelation, y = reorder(Studie, Korrelation))) +
   geom_point() + geom_errorbar(xmin = cors$lcb, xmax = cors$ucb) + 
   geom_vline(xintercept = 0, lty = 2) + theme_classic() + ylab("") + 
   xlim(c(-.4, .6))
+
 ```
 
 ### Phänomen-zentrierte Replikationsprojekte

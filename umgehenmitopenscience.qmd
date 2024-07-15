@@ -2,6 +2,8 @@
 title: "Wie ist mit Open Science umzugehen?"
 format: html
 editor: visual
+bibliography: references.bib
+bibliographystyle: apa
 ---
 
 **Wie ist mit Open Science umzugehen?**
