@@ -8,7 +8,7 @@ bibliographystyle: apa
 
 # Lösungen und Ansätze zur Verbesserung der Lage der Psychologie {#sec-losungen}
 
-Werfen wir ein Blick darauf, was sich seit 2012 in der Psychologie verändert hat. Eingeteilt sind die Veränderungen dahingehend, welchen Teil des Problems sie vor allem betreffen: Ist der Zweck einer neuen Vorgabe, das System, die Methodik, oder die Theorien der Forschung zu verbessern? Einige Lösungen sind mit vielen Problemen gleichzeitig verknüpft und manche sind auf bestimmte Angelegenheiten maßgeschneidert. Abbildung 3 enthält eine grobe Unterteilung.
+Werfen wir ein Blick darauf, was sich seit 2012 in der Psychologie verändert hat. Eingeteilt sind die Veränderungen dahingehend, welchen Teil des Problems sie vor allem betreffen: Ist der Zweck einer neuen Vorgabe, das System, die Methodik, oder die Theorien der Forschung zu verbessern? Einige Lösungen sind mit vielen Problemen gleichzeitig verknüpft und manche sind auf bestimmte Angelegenheiten maßgeschneidert. Die Abbildung enthält eine grobe Unterteilung.
 
 ![Lösungsansätze und welches Problem in der Wissenschaft sie aufgreifen](images/lösungsansätze.png)
 

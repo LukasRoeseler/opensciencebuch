@@ -9,7 +9,7 @@
 <meta name="author" content="Lukas Röseler">
 <meta name="description" content="Vertrauenskrise, Replikationsrevolution, und Open Science einfach und umfangreich erklärt">
 
-<title>5&nbsp; Bestandsaufnahme – Open Science: Wie sich die Wissenschaft öffnet</title>
+<title>6&nbsp; Bestandsaufnahme – Open Science: Wie sich die Wissenschaft öffnet</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 /* CSS for citations */
 div.csl-bib-body { }
@@ -105,7 +139,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./geschichte.html">Die Geschichte der Open Science Bewegung</a></li><li class="breadcrumb-item"><a href="./bestandsaufnahme.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Bestandsaufnahme</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./geschichte.html">Die Geschichte der Open Science Bewegung</a></li><li class="breadcrumb-item"><a href="./bestandsaufnahme.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Bestandsaufnahme</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -158,13 +192,13 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Willkommen</span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Willkommen</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Über das Buch</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Über das Buch</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -179,13 +213,13 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./wasistopenscience.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Was ist Open Science?</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Was ist Open Science?</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./umgehenmitopenscience.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Wie ist mit Open Science umzugehen?</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Wie ist mit Open Science umzugehen?</span></span></a>
   </div>
 </li>
       </ul>
@@ -202,25 +236,25 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./anfänge.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Anfänge einer Revolution</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Anfänge einer Revolution</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./bestandsaufnahme.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Bestandsaufnahme</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Bestandsaufnahme</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./wandel.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Wandel im System</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Wandel im System</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./struktur.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Struktur der Vertrauenskrise</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Struktur der Vertrauenskrise</span></span></a>
   </div>
 </li>
       </ul>
@@ -237,31 +271,31 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./probleme_system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Probleme des Wissenschaftlichen Systems</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Probleme des Wissenschaftlichen Systems</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./probleme_karriere.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Karriere in der Wissenschaft</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Karriere in der Wissenschaft</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./probleme_methoden.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Probleme der wissenschaftlichen Methoden</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Probleme der wissenschaftlichen Methoden</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./probleme_theorien.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./probleme_epistemische.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Epistemische Probleme</span></span></a>
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Epistemische Probleme</span></span></a>
   </div>
 </li>
       </ul>
@@ -278,25 +312,25 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lösungen_system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Das System</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Das System</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lösungen_methoden.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Methoden</span></span></a>
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Methoden</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lösungen_theorien.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lösungen_welt.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Die Welt</span></span></a>
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Die Welt</span></span></a>
   </div>
 </li>
       </ul>
@@ -315,11 +349,11 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#definition-von-replizierbarkeit" id="toc-definition-von-replizierbarkeit" class="nav-link active" data-scroll-target="#definition-von-replizierbarkeit"><span class="header-section-number">5.0.1</span> Definition von Replizierbarkeit</a></li>
-  <li><a href="#weiterführende-literatur" id="toc-weiterführende-literatur" class="nav-link" data-scroll-target="#weiterführende-literatur"><span class="header-section-number">5.0.2</span> Weiterführende Literatur</a></li>
-  <li><a href="#eine-schwalbe-macht-noch-keinen-sommer" id="toc-eine-schwalbe-macht-noch-keinen-sommer" class="nav-link" data-scroll-target="#eine-schwalbe-macht-noch-keinen-sommer"><span class="header-section-number">5.0.3</span> „Eine Schwalbe macht noch keinen Sommer”</a></li>
-  <li><a href="#phänomen-zentrierte-replikationsprojekte" id="toc-phänomen-zentrierte-replikationsprojekte" class="nav-link" data-scroll-target="#phänomen-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.4</span> Phänomen-zentrierte Replikationsprojekte</a></li>
-  <li><a href="#disziplin-zentrierte-replikationsprojekte" id="toc-disziplin-zentrierte-replikationsprojekte" class="nav-link" data-scroll-target="#disziplin-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.5</span> Disziplin-zentrierte Replikationsprojekte</a></li>
+  <li><a href="#definition-von-replizierbarkeit" id="toc-definition-von-replizierbarkeit" class="nav-link active" data-scroll-target="#definition-von-replizierbarkeit"><span class="header-section-number">6.0.1</span> Definition von Replizierbarkeit</a></li>
+  <li><a href="#weiterführende-literatur" id="toc-weiterführende-literatur" class="nav-link" data-scroll-target="#weiterführende-literatur"><span class="header-section-number">6.0.2</span> Weiterführende Literatur</a></li>
+  <li><a href="#eine-schwalbe-macht-noch-keinen-sommer" id="toc-eine-schwalbe-macht-noch-keinen-sommer" class="nav-link" data-scroll-target="#eine-schwalbe-macht-noch-keinen-sommer"><span class="header-section-number">6.0.3</span> „Eine Schwalbe macht noch keinen Sommer”</a></li>
+  <li><a href="#phänomen-zentrierte-replikationsprojekte" id="toc-phänomen-zentrierte-replikationsprojekte" class="nav-link" data-scroll-target="#phänomen-zentrierte-replikationsprojekte"><span class="header-section-number">6.0.4</span> Phänomen-zentrierte Replikationsprojekte</a></li>
+  <li><a href="#disziplin-zentrierte-replikationsprojekte" id="toc-disziplin-zentrierte-replikationsprojekte" class="nav-link" data-scroll-target="#disziplin-zentrierte-replikationsprojekte"><span class="header-section-number">6.0.5</span> Disziplin-zentrierte Replikationsprojekte</a></li>
   <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur">Literatur</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
@@ -327,9 +361,9 @@ div.csl-indent {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./geschichte.html">Die Geschichte der Open Science Bewegung</a></li><li class="breadcrumb-item"><a href="./bestandsaufnahme.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Bestandsaufnahme</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./geschichte.html">Die Geschichte der Open Science Bewegung</a></li><li class="breadcrumb-item"><a href="./bestandsaufnahme.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Bestandsaufnahme</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Bestandsaufnahme</span></h1>
+<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Bestandsaufnahme</span></h1>
 </div>
 
 
@@ -486,8 +520,8 @@ Kritische Betrachtung der Open Science Collaboration, 2015
 </tr>
 </tbody>
 </table>
-<section id="definition-von-replizierbarkeit" class="level3" data-number="5.0.1">
-<h3 data-number="5.0.1" class="anchored" data-anchor-id="definition-von-replizierbarkeit"><span class="header-section-number">5.0.1</span> Definition von Replizierbarkeit</h3>
+<section id="definition-von-replizierbarkeit" class="level3" data-number="6.0.1">
+<h3 data-number="6.0.1" class="anchored" data-anchor-id="definition-von-replizierbarkeit"><span class="header-section-number">6.0.1</span> Definition von Replizierbarkeit</h3>
 <p>Zu sagen, was repliziert werden konnte und was nicht, ist erst nach einer Definition möglich. Im Sprachgebrauch von Forschenden wird mit „wurde repliziert” gemeint, dass ein Replikationsversuch zu gleichen Ergebnissen wie eine Originalstudie gekommen ist. Zu Replikationsfehlschläge wird „konnte nicht repliziert werden” gesagt, subtil davon abweichend kann „wurde nicht repliziert” meinen, dass keine Replikationsversuche existieren oder sie fehlschlugen. Für eine Wissenschaft, die über 100 Jahre alt ist, scheint es überraschend, dass noch immer keine klare Definition wichtiger Konzepte rund um das Thema Replikation vorliegt, geschweige denn es zur Routine gehört, Studien zu replizieren. Während sich in verschiedenen Feldern abweichende Taxonomien durchgesetzt haben, sieht die Verwendung in diesem Buch wie in der Tabelle beschrieben aus.</p>
 <table class="caption-top table">
 <caption>Replikations-Taxonomie nach Turing Way <span class="citation" data-cites="turingwaycommunity2024illustrations">(<a href="#ref-turingwaycommunity2024illustrations" role="doc-biblioref">The Turing Way Community and Scriberia 2024</a>)</span></caption>
@@ -521,8 +555,8 @@ Kritische Betrachtung der Open Science Collaboration, 2015
 </tbody>
 </table>
 </section>
-<section id="weiterführende-literatur" class="level3" data-number="5.0.2">
-<h3 data-number="5.0.2" class="anchored" data-anchor-id="weiterführende-literatur"><span class="header-section-number">5.0.2</span> Weiterführende Literatur</h3>
+<section id="weiterführende-literatur" class="level3" data-number="6.0.2">
+<h3 data-number="6.0.2" class="anchored" data-anchor-id="weiterführende-literatur"><span class="header-section-number">6.0.2</span> Weiterführende Literatur</h3>
 <p>Für eine systematischere, in den Informationswissenschaften verankerte Taxonomie zur Art der Replikation siehe <span class="citation" data-cites="Plesser2018">(<a href="#ref-Plesser2018" role="doc-biblioref">Plesser 2018</a>)</span>. Eine an den statistischen Methoden angelehnte Taxonomie für die Ergebnisse von Replikationsstudien haben LeBel et al. <span class="citation" data-cites="LeBel.2019">(<a href="#ref-LeBel.2019" role="doc-biblioref">LeBel et al. 2019</a>)</span> vorgeschlagen. Philosophisch diskutiert wird Replikationsnähe zum Beispiel von <span class="citation" data-cites="Choi2023">(<a href="#ref-Choi2023" role="doc-biblioref">Choi 2023</a>)</span> und <span class="citation" data-cites="Leonelli2023">(<a href="#ref-Leonelli2023" role="doc-biblioref">Leonelli 2023</a>)</span>.</p>
 <table class="caption-top table">
 <caption>Replikationstaxonomie</caption>
@@ -568,42 +602,63 @@ Mit anderen Daten zu denselben Ergebnissen gelangen</p></td>
 </tbody>
 </table>
 </section>
-<section id="eine-schwalbe-macht-noch-keinen-sommer" class="level3" data-number="5.0.3">
-<h3 data-number="5.0.3" class="anchored" data-anchor-id="eine-schwalbe-macht-noch-keinen-sommer"><span class="header-section-number">5.0.3</span> „Eine Schwalbe macht noch keinen Sommer”</h3>
+<section id="eine-schwalbe-macht-noch-keinen-sommer" class="level3" data-number="6.0.3">
+<h3 data-number="6.0.3" class="anchored" data-anchor-id="eine-schwalbe-macht-noch-keinen-sommer"><span class="header-section-number">6.0.3</span> „Eine Schwalbe macht noch keinen Sommer”</h3>
 <p>Ob an einem wissenschaftlichen Befund „etwas dran ist”, er also einen Wahrheitsanspruch hat, hängt – neben seiner eigentlichen Art der Etablierung – bei der Replikationsforschung von vielen Faktoren ab. Was waren die Ergebnisse der Replikationsstudie? Wie viele und wie unterschiedliche Studien wurden durchgeführt? Wie sahen die genauen Methoden aus? Was waren die Unterschiede zwischen Replikationen und Originalstudie? Während Einzelstudien immer einen Erkenntnisgewinn liefern (mindestens, ob eine bestimmte Methode praktikabel ist, <span class="citation" data-cites="Sikorski2023-qp">(<a href="#ref-Sikorski2023-qp" role="doc-biblioref">Sikorski and Andreoletti 2023</a>)</span>, können sie je nach Forschungsgebiet stark variieren <span class="citation" data-cites="McShane2022-yd">Landy et al. (<a href="#ref-Landy.2020" role="doc-biblioref">2020</a>)</span>. Für das Gesamtbild braucht es mehr, wie zum Beispiel eine statistische Aggregation aller Einzelbefunde im Rahmen einer Meta-Analyse. Ein Beispiel mit Fantasiedaten befindet sich dazu in Abbildung X.</p>
 <p>ABBILDUNG X: Forest plot mit simulierten Ergebnissen von Original + vielen Einzelstudien; in den Notes dann ausführliche Erklärung.</p>
-<pre class="{---}"><code>title: "Wald Diagramm (Forest Plot)"
-format:
-  html:
-    code-fold: true
----
-  
-{r}
-library(ggplot2)
-library(metafor)
-
-set.seed(10)
-k &lt;- 15
-cors &lt;- data.frame("Stichprobenumfang" = round(rchisq(n = k, df = 2, ncp = 0)*5+10, digits = 0)
-                   , "Korrelation" = rnorm(n = k, mean = .05, sd = .3)
-                   , "Studie" = paste("Studie", toupper(letters[1:k]), sep = " ")
-                   , "yi" = NA
-                   , "vi" = NA
-                   )
-
-cors[, 4:5] &lt;- metafor::escalc(ni = cors$Stichprobenumfang, ri = cors$Korrelation, measure = "COR")
-cors$ucb &lt;- cors$yi + qnorm(.975)*cors$vi
-cors$lcb &lt;- cors$yi - qnorm(.975)*cors$vi
-
-
-
-ggplot(cors, aes(x = Korrelation, y = reorder(Studie, Korrelation))) + 
-  geom_point() + geom_errorbar(xmin = cors$lcb, xmax = cors$ucb) + 
-  geom_vline(xintercept = 0, lty = 2) + theme_classic() + ylab("") + 
-  xlim(c(-.4, .6))</code></pre>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(metafor)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stderr">
+<pre><code>Lade nötiges Paket: Matrix</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Lade nötiges Paket: metadat</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Lade nötiges Paket: numDeriv</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Loading the 'metafor' package (version 4.6-0). For an
+introduction to the package please type: help(metafor)</code></pre>
+</div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">10</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>k <span class="ot">&lt;-</span> <span class="dv">15</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>cors <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="st">"Stichprobenumfang"</span> <span class="ot">=</span> <span class="fu">round</span>(<span class="fu">rchisq</span>(<span class="at">n =</span> k, <span class="at">df =</span> <span class="dv">2</span>, <span class="at">ncp =</span> <span class="dv">0</span>)<span class="sc">*</span><span class="dv">5</span><span class="sc">+</span><span class="dv">10</span>, <span class="at">digits =</span> <span class="dv">0</span>)</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>                   , <span class="st">"Korrelation"</span> <span class="ot">=</span> <span class="fu">rnorm</span>(<span class="at">n =</span> k, <span class="at">mean =</span> .<span class="dv">05</span>, <span class="at">sd =</span> .<span class="dv">3</span>)</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>                   , <span class="st">"Studie"</span> <span class="ot">=</span> <span class="fu">paste</span>(<span class="st">"Studie"</span>, <span class="fu">toupper</span>(letters[<span class="dv">1</span><span class="sc">:</span>k]), <span class="at">sep =</span> <span class="st">" "</span>)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>                   , <span class="st">"yi"</span> <span class="ot">=</span> <span class="cn">NA</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>                   , <span class="st">"vi"</span> <span class="ot">=</span> <span class="cn">NA</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>                   )</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>cors[, <span class="dv">4</span><span class="sc">:</span><span class="dv">5</span>] <span class="ot">&lt;-</span> metafor<span class="sc">::</span><span class="fu">escalc</span>(<span class="at">ni =</span> cors<span class="sc">$</span>Stichprobenumfang, <span class="at">ri =</span> cors<span class="sc">$</span>Korrelation, <span class="at">measure =</span> <span class="st">"COR"</span>)</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>cors<span class="sc">$</span>ucb <span class="ot">&lt;-</span> cors<span class="sc">$</span>yi <span class="sc">+</span> <span class="fu">qnorm</span>(.<span class="dv">975</span>)<span class="sc">*</span>cors<span class="sc">$</span>vi</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>cors<span class="sc">$</span>lcb <span class="ot">&lt;-</span> cors<span class="sc">$</span>yi <span class="sc">-</span> <span class="fu">qnorm</span>(.<span class="dv">975</span>)<span class="sc">*</span>cors<span class="sc">$</span>vi</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(cors, <span class="fu">aes</span>(<span class="at">x =</span> Korrelation, <span class="at">y =</span> <span class="fu">reorder</span>(Studie, Korrelation))) <span class="sc">+</span> </span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span> <span class="fu">geom_errorbar</span>(<span class="at">xmin =</span> cors<span class="sc">$</span>lcb, <span class="at">xmax =</span> cors<span class="sc">$</span>ucb) <span class="sc">+</span> </span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> <span class="dv">0</span>, <span class="at">lty =</span> <span class="dv">2</span>) <span class="sc">+</span> <span class="fu">theme_classic</span>() <span class="sc">+</span> <span class="fu">ylab</span>(<span class="st">""</span>) <span class="sc">+</span> </span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">xlim</span>(<span class="fu">c</span>(<span class="sc">-</span>.<span class="dv">4</span>, .<span class="dv">6</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="bestandsaufnahme_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
-<section id="phänomen-zentrierte-replikationsprojekte" class="level3" data-number="5.0.4">
-<h3 data-number="5.0.4" class="anchored" data-anchor-id="phänomen-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.4</span> Phänomen-zentrierte Replikationsprojekte</h3>
+<section id="phänomen-zentrierte-replikationsprojekte" class="level3" data-number="6.0.4">
+<h3 data-number="6.0.4" class="anchored" data-anchor-id="phänomen-zentrierte-replikationsprojekte"><span class="header-section-number">6.0.4</span> Phänomen-zentrierte Replikationsprojekte</h3>
 <p>Im Gegensatz zu dem breit gefächerten RPP und anderen Versuchen, die Replikationsrate zu schätzen, haben sich andere Versuche auf grundlegende Phänomene fokussiert. Dutzende Gruppen auf der ganzen Welt haben sich in solchen Fällen zusammengeschlossen, auf einen Versuchsaufbau geeinigt, und führen die Studien mit einer enormen Anzahl an Versuchspersonen durch. Die meisten dieser Vorhaben stammen aus der Psychologie. Während die dabei gefundenen Effektstärken, also sozusagen die Deutlichkeit eines Zusammenhanges oder Befundes, in fast allen Fällen weit unter denen bisheriger Studien lagen <span class="citation" data-cites="Kvarven.2020">(<a href="#ref-Kvarven.2020" role="doc-biblioref">Kvarven, Strømland, and Johannesson 2020</a>)</span>, waren sie zudem beim Großteil der Studien null, die Phänomene waren also „nicht sichtbar” <span class="citation" data-cites="Alogna.2014 Eerland.2016 Bouwmeester.2017 ODonnell.2018 Wagenmakers.2016 Cheung.2016 vaidis2024multilab rife2024registered">(<a href="#ref-Alogna.2014" role="doc-biblioref">Alogna et al. 2014</a>; <a href="#ref-Eerland.2016" role="doc-biblioref">Eerland et al. 2016</a>; <a href="#ref-Bouwmeester.2017" role="doc-biblioref">Bouwmeester et al. 2017</a>; <a href="#ref-ODonnell.2018" role="doc-biblioref">O’Donnell et al. 2018</a>; <a href="#ref-Wagenmakers.2016" role="doc-biblioref">Wagenmakers et al. 2016</a>.; <a href="#ref-Cheung.2016" role="doc-biblioref">Cheung et al. 2016</a>; <a href="#ref-vaidis2024multilab" role="doc-biblioref">Vaidis et al. 2024</a>; <a href="#ref-rife2024registered" role="doc-biblioref">Rife et al. 2024</a>)</span>. So konnte beispielsweise mit einer enormen Präzision gezeigt werden, dass eine Geschichte über einen Professor Versuchspersonen in einem anschließenden Leistungstest *nicht* schlauer macht <span class="citation" data-cites="ODonnell.2018">(<a href="#ref-ODonnell.2018" role="doc-biblioref">O’Donnell et al. 2018</a>)</span>.</p>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -619,11 +674,11 @@ Effiziente Nutzung von Ressourcen?
 </div>
 </div>
 </section>
-<section id="disziplin-zentrierte-replikationsprojekte" class="level3" data-number="5.0.5">
-<h3 data-number="5.0.5" class="anchored" data-anchor-id="disziplin-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.5</span> Disziplin-zentrierte Replikationsprojekte</h3>
+<section id="disziplin-zentrierte-replikationsprojekte" class="level3" data-number="6.0.5">
+<h3 data-number="6.0.5" class="anchored" data-anchor-id="disziplin-zentrierte-replikationsprojekte"><span class="header-section-number">6.0.5</span> Disziplin-zentrierte Replikationsprojekte</h3>
 <p>Ungefähr die Hälfte aller psychologischen Befunde ist also nicht replizierbar. Heißt das, alle Sozialwissenschaftlichen Lehrbücher aus allen Disziplinen sind zur Hälfte falsch? Die klare Antwort heißt <em>nein</em>. Die akkurate Antwort lautet <em>kommt darauf an</em>.</p>
-<section id="jenseits-der-psychologie" class="level4" data-number="5.0.5.1">
-<h4 data-number="5.0.5.1" class="anchored" data-anchor-id="jenseits-der-psychologie"><span class="header-section-number">5.0.5.1</span> Jenseits der Psychologie</h4>
+<section id="jenseits-der-psychologie" class="level4" data-number="6.0.5.1">
+<h4 data-number="6.0.5.1" class="anchored" data-anchor-id="jenseits-der-psychologie"><span class="header-section-number">6.0.5.1</span> Jenseits der Psychologie</h4>
 <p>Inwiefern es auf die Disziplin innerhalb der Sozialwissenschaften ankommt wurde bisher vor allem in der Psychologie untersucht. Aktuelle Tendenzen weisen darauf hin, dass Replikationsraten in der Persönlichkeitspsychologie und kognitiven Psychologie <span class="citation" data-cites="Soto.2019">(<a href="#ref-Soto.2019" role="doc-biblioref">Soto 2019</a>)</span> höher liegen als die in der Sozialpsychologie <span class="citation" data-cites="OpenScienceCollaboration.2015">(<a href="#ref-OpenScienceCollaboration.2015" role="doc-biblioref">Open Science Collaboration 2015</a>)</span> oder im Marketing <span class="citation" data-cites="Charlton.2022">(<a href="#ref-Charlton.2022" role="doc-biblioref">Charlton 2022</a>)</span>. Während schon hunderte Replikationsversuche für sozialpsychologische Studien veröffentlicht sind, sind es in anderen Bereichen wie dem Marketing aktuell weniger - Stand Oktober 2022 sogar nur 9. Bereiche außerhalb der Psychologie sind von Replikationsproblemen ebenfalls betroffen. Von Problemen der Replizierbarkeit, Reproduzierbarkeit, und Nachvollziehbarkeit sind fast alle Disziplinen betroffen. Neue Lösungsansätze werden in Medizin, Biologie, Chemie, Physik, Geschichtswissenschaften, Politikwissenschaften, Erziehungswissenschaften, Informatik, und vielen weiteren Bereichen diskutiert.</p>
 </section>
 </section>
@@ -1152,12 +1207,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./anfänge.html" class="pagination-link" aria-label="Anfänge einer Revolution">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Anfänge einer Revolution</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Anfänge einer Revolution</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./wandel.html" class="pagination-link" aria-label="Wandel im System">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Wandel im System</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Wandel im System</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

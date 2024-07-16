@@ -6,66 +6,25 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
-Fangen wir mit dem System an. Ich selbst verspreche mir von diesen Ansätzen am meisten, denn solange Publikationen die Währung sind und Paper mit knackigen Titeln und eindeutigen Ergebnissen als qualitativ hochwertiger befunden werden, sind Forschende darin motiviert, statt der Wahrheit eben nach knackigen Titeln und eindeutigen Ergebnissen zu suchen.
+Fangen wir mit dem System an. Ansätze, die dort greifen bergen am meisten Potenzial, denn um im System Geld verdienen zu können, müssen Forschende sich an die Regeln halten. Und solange Publikationen die Währung sind und Paper mit knackigen Titeln und eindeutigen Ergebnissen als qualitativ hochwertiger befunden werden, sind Forschende darin motiviert, statt der Wahrheit eben nach knackigen Titeln und eindeutigen Ergebnissen zu suchen.
 
-Allgemein ist eine positive Entwicklung sichtbar (REF <https://www.nature.com/articles/s44271-023-00003-2> ) und eine Veränderung der Anreizstruktur wird anvisiert. Sie lässt sich als Angleichung des wissenschaftlichen Systems an die *Mertonschen Normen* (nach Robert Merton) auffassen[\[LR1\]](#_msocom_1) : (1) Kommunismus: Das wissenschaftliche Wissen sollte allen Wissenschaftler\*innen gleichermaßen gehören, um die Zusammenarbeit zu fördern. (2) Universalismus: Wissenschaftliche Güte ist unabhängig vom soziopolitischen Status und persönlichen Attributen der Teilhabenden. (3) Desinteresse: Wissenschaftliche Institutionen handeln im Interesse der Wissenschaft und nicht für persönlichen Gewinn. (4) Organisierter Skeptizismus: Wissenschaftliche Behauptungen sollten einer kritischen Prüfung unterzogen werden bevor sie akzeptiert werden.
+Allgemein ist eine positive Entwicklung sichtbar [@Korbmacher.2023] und eine Veränderung der Anreizstruktur wird anvisiert. Sie lässt sich als Angleichung des wissenschaftlichen Systems an die *Mertonschen Normen* (nach Robert Merton) auffassen [@merton1973sociology]: (1) Kommunismus: Das wissenschaftliche Wissen sollte allen Wissenschaftler\*innen gleichermaßen gehören, um die Zusammenarbeit zu fördern. (2) Universalismus: Wissenschaftliche Güte ist unabhängig vom soziopolitischen Status und persönlichen Attributen der Teilhabenden. (3) Desinteresse: Wissenschaftliche Institutionen handeln im Interesse der Wissenschaft und nicht für persönlichen Gewinn. (4) Organisierter Skeptizismus: Wissenschaftliche Behauptungen sollten einer kritischen Prüfung unterzogen werden bevor sie akzeptiert werden.
 
-Nosek (REF, 2019 make it possible, siehe Abbildung X) empfiehlt eine Maßnahmenstruktur, nach welcher die gewünschten Veränderung nacheinander ...
+Nosek empfiehlt in einem [Blogpost](https://www.cos.io/blog/strategy-for-culture-change) eine Maßnahmenstruktur, nach welcher die gewünschten Veränderung nacheinander ...
 
-1.      möglich\
-(z.B. durch Infrastruktur wie online Repositorien, in denen Forschungsmaterialien öffentlich und gratis hochgeladen werden können),
-
-2.      einfach\
-(z.B. durch barrierearme Angebote, mehrsprachige Anleitungen),
-
-3.      normativ\
-(z.B. durch Wissenschaftliche Communities, die gemeinsam hinter Forderungen der Verbesserung stehen),
-
-4.      belohnend\
-(z.B. durch designierte Preise), und
-
-5.      notwendig\
-(z.B. durch Mindeststandards, die von Zeitschriften oder Drittmittelgebern gefordert werden)
+1.  möglich (z.B. durch Infrastruktur wie online Repositorien, in denen Forschungsmaterialien öffentlich und gratis hochgeladen werden können),
+2.  einfach (z.B. durch barrierearme Angebote, mehrsprachige Anleitungen),
+3.  normativ (z.B. durch Wissenschaftliche Communities, die gemeinsam hinter Forderungen der Verbesserung stehen),
+4.  belohnend (z.B. durch designierte Preise), und
+5.  notwendig (z.B. durch Mindeststandards, die von Zeitschriften oder Drittmittelgebern gefordert werden)
 
 gemacht werden sollen. Wie die verschiedenen Ansätze bei den verschiedenen Akteuren, also Politik, Universitäten, oder Zeitschriften konkret aussehen, wird im Folgenden diskutiert.
 
-Abbildung X
-
-*Kulturwandel in der Wissenschaft nach Nosek (2019, Abbildung N, REF)*
-
-*PYRAMIDE HIER EINFÜGEN AUF DEUTSCH XXX*
-
-### Infrastruktur (Open Infrastructure)
-
--          ermöglichend
-
--          NFDI
-
--          Prinzipien: <https://openscholarlyinfrastructure.org> (übersetzen, einfügen, zitieren)
-
--          Beispiele
-
-o   Wege, um Materialien, Daten, oder Ergebnisse
-
-§  Literaturdatenbanken (OpenAlex)
-
-§  (Data) Repositories, re3data.org; OSF.io
-
-§  Pre-Print Server (arXiv), Zeitschriften, Zeitschriftensysteme (OJS)
-
-§  Begutachtungssysteme (PCI)
-
-§  Post-Publication Review
-
-o   Meta-Daten, um Verweise zu ermöglichen (ORCID-ID, ROR <https://ror.org>, DOI)
-
-§  ORCID-ID Kritik: <https://www.sciencedirect.com/science/article/pii/S0099133324000144?dgcid=rss_sd_all>
-
--          Übersicht: <https://kumu.io/access2perspectives/open-science#disciplines/by-os-principle/open-infrastructure?focus=1> von <https://access2perspectives.org/mapping-open-science-resources/>
+![Kulturwandel in der Wissenschaft nach Nosek (https://www.cos.io/blog/strategy-for-culture-change)](images/pyramide.jpg)
 
 ### Politik
 
-International stehen politische Parteien und Vereinigungen deutlich hinter Open Science und Open Access. Beispielsweise empfiehlt die UNESCO einen universellen Zugang zu wissenschaftlichen Wissen ungeachtet von Herkunftsland, Geschlechterrolle, politischen Grenzen, Ethnizität, oder ökonomischen oder technologischen Hürden (REF <https://unesdoc.unesco.org/ark:/48223/pf0000374837>, p. 3). Arbeitsgruppen für politische Instrumente, Förderung, und Infrastruktur wurden entsprechend gegründet (REF[\[LR2\]](#_msocom_2) ). Die G7 setzen sich für wissenschaftliche Integrität, akademische Freiheit, und Open Science ein (REF[\[LR3\]](#_msocom_3) ). Offener Zugang (REF[\[LR4\]](#_msocom_4) ) aber auch Transparenz des wissenschaftlichen Vorgehens (REF[\[LR5\]](#_msocom_5) ) wird auch seitens der Europäischen Union gefordert. Infrastruktur (z.B. European Open Science Cloud, https://eosc-portal.eu) und diverse Open Science Forschungsprojekte werden gefördert.
+International stehen politische Parteien und Vereinigungen deutlich hinter Open Science und Open Access. Beispielsweise empfiehlt die UNESCO einen universellen Zugang zu wissenschaftlichen Wissen ungeachtet von Herkunftsland, Geschlechterrolle, politischen Grenzen, Ethnizität, oder ökonomischen oder technologischen Hürden (REF <https://unesdoc.unesco.org/ark:/48223/pf0000374837>, p. 3). Arbeitsgruppen für politische Instrumente, Förderung, und Infrastruktur wurden entsprechend gegründet (REF[\[LR2\]](#_msocom_2) ). Die G7 setzen sich für wissenschaftliche Integrität, akademische Freiheit, und Open Science ein (REF[\[LR3\]](#_msocom_3) ). Offener Zugang (REF[\[LR4\]](#_msocom_4) ) aber auch Transparenz des wissenschaftlichen Vorgehens (REF[\[LR5\]](#_msocom_5) ) wird auch seitens der Europäischen Union gefordert. Infrastruktur (z.B. European Open Science Cloud, https://eosc-portal.eu) und diverse Open Science Forschungsprojekte werden gefördert. Für alle durch die EU geförderten Forschungsprojekte existiert zudem die kostenlose Publikations- und Begutachtungs-Plattform [Open Research Europe](https://open-research-europe.ec.europa.eu) zur Verfügung.
 
 In Deutschland hat sich die Regierung des Zyklus 2021-2025 im Rahmen des Koalitionsvertrages vorgenommen, „Open Access ... als gemeinsamen Standard \[zu\] etablieren." Einzelne Bundesländer wie Nordrhein-Westfalen haben in Zusammenschlüssen aus den jeweiligen Universitäten darüber hinaus Open Access Strategien entwickelt (REF[\[LR6\]](#_msocom_6) ) und arbeiten aktuell an Open Science Strategien. Andere Länder, wie zum Beispiel Schweden, haben bereits nationale Richtlinien zu Open Science entwickelt (<https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2024-01-15-national-guidelines-for-promoting-open-science-in-sweden.html>). Hinsichtlich der Problematik von Machtmissbrauch wird das Problem beispielsweise in einem Eckpunkte-Papier des Landes NRW anerkannt, doch als Einzelfall- statt System-Problem verstanden (REF[\[LR7\]](#_msocom_7) , für einen Kommentar siehe z.B. REF[\[LR8\]](#_msocom_8) ).
 
@@ -229,6 +188,34 @@ Free Lunch Index <https://link.springer.com/article/10.1007/s11192-023-04862-8>
 Im Rahmen von XXX wurden Richtlinien zur Förderung von Transparenz und Offenheit in der Wissenschaft erstellt (Transparency and Opennness Promotion guidelines; kurz: TOP guidelines). Eine Zeit lang gaben manche Zeitschriften freiwillig an, welche Richtlinien wie eingehalten werden. Darin befindet sich zum Beispiel die Frage, ob mindestens eine Studie eines publizierten Artikels präregistriert sein muss, oder ob Datensätze veröffentlicht werden müssen. Je Aspekt (z.B. Öffentlichkeit der Daten) gibt es dann XX Levels: Das niedrigste Level 0 gibt an, dass es zu dem jeweiligen Aspekt keine Empfehlungen oder Vorschriften gibt. Das höchste Level 3 hingegen fordert, dass alle verwendeten Datensätze online verfügbar sind. \[XXX genau anpassen an Vorgaben\].
 
 Seit 2022 lassen sich Zeitschriften, die TOP guidelines auf verschiedenen Levels umsetzen, in der topfactor.org Datenbank durchsuchen. Somit haben Forschende eine Alternative zum Impact Factor, die tatsächlich mit der Qualität der Zeitschrift zusammenhängt.
+
+### Infrastruktur (Open Infrastructure)
+
+-          ermöglichend
+
+-          NFDI
+
+-          Prinzipien: <https://openscholarlyinfrastructure.org> (übersetzen, einfügen, zitieren)
+
+-          Beispiele
+
+o   Wege, um Materialien, Daten, oder Ergebnisse
+
+§  Literaturdatenbanken (OpenAlex)
+
+§  (Data) Repositories, re3data.org; OSF.io
+
+§  Pre-Print Server (arXiv), Zeitschriften, Zeitschriftensysteme (OJS)
+
+§  Begutachtungssysteme (PCI)
+
+§  Post-Publication Review
+
+o   Meta-Daten, um Verweise zu ermöglichen (ORCID-ID, ROR <https://ror.org>, DOI)
+
+§  ORCID-ID Kritik: <https://www.sciencedirect.com/science/article/pii/S0099133324000144?dgcid=rss_sd_all>
+
+-          Übersicht: <https://kumu.io/access2perspectives/open-science#disciplines/by-os-principle/open-infrastructure?focus=1> von <https://access2perspectives.org/mapping-open-science-resources/>
 
 ### Open Access Publikationen {#sec-openaccess}
 
@@ -514,30 +501,13 @@ Je nach Fach haben unterschiedlich viele Zeitschriften mit PCI Initiativen Verei
 
 *Zusammenfassung der verschiedenen Begutachtungsmodelle und der jeweiligen Art des Umgangs mit den Forschungsergebnissen*
 
-+---+--------------------------------------+---+----------------------------------------------------------------------+---+
-|   |                                      |   |                                                                      |   |
-+---+--------------------------------------+---+----------------------------------------------------------------------+---+
-|   | **Begutachtungsprozedur**            |   | **Ausblendung der Ergebnisse**                                       |   |
-+---+--------------------------------------+---+----------------------------------------------------------------------+---+
-|   |                                      |   |                                                                      |   |
-+---+--------------------------------------+---+----------------------------------------------------------------------+---+
-|   | Traditionell                         |   | Ergebnisse sind sichtbar und fließen in die Beurteilung ein          |   |
-+---+--------------------------------------+---+----------------------------------------------------------------------+---+
-|   |                                      |   |                                                                      |   |
-+---+--------------------------------------+---+----------------------------------------------------------------------+---+
-|   | Results-Blind Peer Review            |   | Ergebnisse liegen vor, werden den Begutachtenden jedoch vorenthalten |   |
-+---+--------------------------------------+---+----------------------------------------------------------------------+---+
-|   |                                      |   |                                                                      |   |
-+---+--------------------------------------+---+----------------------------------------------------------------------+---+
-|   | Registered Report                    |   | Ergebnisse liegen noch nicht vor                                     |   |
-+---+--------------------------------------+---+----------------------------------------------------------------------+---+
-|   |                                      |   |                                                                      |   |
-+---+--------------------------------------+---+----------------------------------------------------------------------+---+
-|   | Peer-Community-In Registered Report\ |   | Ergebnisse liegen noch nicht vor                                     |   |
-|   | (PCI-RR)                             |   |                                                                      |   |
-+---+--------------------------------------+---+----------------------------------------------------------------------+---+
-|   |                                      |   |                                                                      |   |
-+---+--------------------------------------+---+----------------------------------------------------------------------+---+
+|                                              |                                                                      |
+|-----------------------------------|------------------------------------------------------|
+| **Begutachtungsprozedur**                    | **Ausblendung der Ergebnisse**                                       |
+| Traditionell                                 | Ergebnisse sind sichtbar und fließen in die Beurteilung ein          |
+| Results-Blind Peer Review                    | Ergebnisse liegen vor, werden den Begutachtenden jedoch vorenthalten |
+| Registered Report                            | Ergebnisse liegen noch nicht vor                                     |
+| Peer-Community-In Registered Report (PCI-RR) | Ergebnisse liegen noch nicht vor                                     |
 
 #### Open peer-review
 
@@ -551,25 +521,19 @@ Weitere Peer-Review Modelle
 
 Review Ampel
 
-#### Meine Erfahrungen mit Peer Review
+::: callout-note
+## Meine Erfahrungen mit Peer Review
 
-Peer Review ist brutal. Das ist meine persönliche Erfahrung mit dem Prozess. Schnell habe ich in meiner wissenschaftlichen Arbeit gelernt, dass es in vielen Fällen ein Glücksspiel ist: Dabei geht es in erster Linie nicht einmal darum, ob der Artikel akzeptiert wird oder nicht, sondern ob die Gründe für die Ablehnung konstruktiv sind oder nicht. Hierzu ein paar Beispiele:
+Peer Review ist brutal. Das ist meine persönliche Erfahrung mit dem Prozess. Schnell habe ich in meiner wissenschaftlichen Arbeit gelernt, dass es in vielen Fällen ein Glücksspiel ist. Renommierte Wissenschaftler\*innen erklärten mir, dass sie Artikel hätten, die sie über Jahre immer wieder bei Zeitschriften immer wieder eingereicht hätten, und die schließlich positiv aufgenommen worden wären, ohne, dass sie sie stark verändert hätten. Jenseits von der Akzeptanz eines Artikels zur Publikation geht es auch um die Gründe für die Ablehnung: Häufig lesen Gutachtende Artikel nicht aufmerksam und Kritiken sind nicht konstruktiv. Hierzu ein paar Beispiele:
 
-Einreichung bei Collabra: Es handelte sich um einen Artikel, der zwischen den Disziplinen steht. Es geht nicht nur um Erwartungen, nicht nur um Produktbewertungen, nicht nur um die Methode, Daten direkt aus dem Internet herunterzuladen. Der "bunte-Vogel-Artikel" war bereits bei drei Zeitschriften abgelehnt worden. Bei keiner wurde er an die Reviewer weitergegeben, weil er nie zur Zeitschrift passte. Die zeischrift Collabra, bei der wir ihn schließlich einreichten, war zu dem Zeitpunkt noch wenige Jahre alt und war breit aufgestellt. Über ein halbes Jahr haben wir auf das Gutachten gewartet. Länger zu warten ist erstmal ein gutes Zeichen: Der Artikel wurde wohl an Reviewer rausgeschickt. In dem Fall wurden wir jedoch bitter enttäuscht: Es wurde nur XX Gutachter gefunden und die Kommentare waren nicht hilfreich. XXX NOCH GENAUER AUSFÜHREN
+**Einreichung bei Collabra**: Es handelte sich um einen Artikel, der zwischen den Disziplinen steht. Es geht nicht nur um Erwartungen, nicht nur um Produktbewertungen, nicht nur um die Methode, Daten direkt aus dem Internet herunterzuladen. Der "bunte-Vogel-Artikel" war bereits bei drei Zeitschriften abgelehnt worden. Bei keiner wurde er an die Reviewer weitergegeben, weil er nie zur Zeitschrift passte. Die Zeitschrift *Collabra*, bei der wir ihn schließlich einreichten, war zu dem Zeitpunkt noch wenige Jahre alt und war breit aufgestellt. Nach der Einreichung im Mai 2020 haben wir über ein halbes Jahr lang auf das Gutachten gewartet. Länger zu warten ist erstmal ein gutes Zeichen: Der Artikel wurde wohl an Reviewer rausgeschickt. In dem Fall wurden wir jedoch bitter enttäuscht: Im November 2020 erfuhren wir auf Nachfrage hin, dass 14 Gutachter\*innen angefragt wurden, sodass die Herausgeberin auf Basis eines Gutachtens entschied, das Manuskript abzulehnen. Grund dafür war, dass die Methode aufgrund der inzidentellen Daten nicht geeignet für die Fragestellung war. In der Psychologie sowie den Wirtschaftswissenschaften ist das Problem mit "echten Daten" seit mehreren Jahrzehnten bekannt und wir hatten es bereits ausgiebig im Artikel diskutiert.
 
-Einreichung bei Journal of Experimental Social Psychology: Wir hatten eine Replikation einer dort erschienen Studie durchgeführt - der Befund ließ sich nicht replizieren. Meine Überlegung war, der Zeitschrift, die den nicht robusten Befund ursprünglich publizierte, selbst die Chance zur Selbstkorrektur zu geben. Die Reviews waren fair und positiv, es gab ein paar Punkte zu diskutieren, aber uns war klar, dass es sich hier um Verständnisprobleme und keine inhaltlichen Aspekte handelte. Nicht so der Editor: Er erklärte, dass der Befund nicht neu genug wäre und klar wäre, dass es nicht replizierbar ist. Ich erklärte ihm, dass noch niemand den Befund zu replizieren versucht hatte und wir selbst sogar vor der Analyse der Ergebnisse eine Abstimmung darüber gemacht hatten, welches Ergebnis wir erwarteten: Es war sehr ausgewogen 50-50. Wir stellten klar, dass wir alle aufgezeigten Probleme einfach lösen können und gerne die Chance zur Revidierung hätten. Der Editor hätte dabei kaum Arbeit außer den Artikel anschließend nochmal an Gutachtende zu schicken. Auf unsere Mail erhielten wir nur eine kurze Antwort: XXX (nachschauen und einfügen). Hier befand ich mich an einem Scheideweg: Warum reagiert jemand patzig auf eine ehrliche Nachfrage zu seinen Gründen? Wir entschieden uns, einen anderen Editor direkt zu kontaktieren. Nach kurzer Zeit erhielten wir die Einladung zu einer Revision. Der Artikel wurde in der revidierten Fassung veröffentlicht.
+**Einreichung bei Journal of Experimental Social Psychology**: Wir hatten eine Replikation einer dort erschienen Studie durchgeführt - der Befund ließ sich nicht replizieren. Meine Überlegung war, der Zeitschrift, die den nicht robusten Befund ursprünglich publizierte, selbst die Chance zur Selbstkorrektur zu geben. Die Reviews waren fair und positiv, es gab ein paar Punkte zu diskutieren, aber uns war klar, dass es sich hier um Verständnisprobleme und keine inhaltlichen Aspekte handelte. Nicht so der Editor: Er erklärte, dass der Befund nicht neu genug wäre und klar wäre, dass es nicht replizierbar ist. Ich erklärte ihm, dass noch niemand den Befund zu replizieren versucht hatte und wir selbst sogar vor der Analyse der Ergebnisse eine Abstimmung darüber gemacht hatten, welches Ergebnis wir erwarteten: Es war sehr ausgewogen 50-50. Darüber hinaus, wurde ein weiterer Artikel publiziert, der entgegengesetzt Ergebnisse hatte. Wir stellten klar, dass wir alle aufgezeigten Probleme einfach lösen können und gerne die Chance zur Revidierung hätten. Der Editor hätte dabei kaum Arbeit außer den Artikel anschließend nochmal an Gutachtende zu schicken. Auf unsere Mail erhielten wir nur eine kurze Antwort: *Hi. I know my decision is disappointing, but I'm going to stick with my decision on this one.* Hier befand ich mich an einem Scheideweg: Warum ist ein Forscher nicht bereit, Gründe für eine wissenschaftliche Entscheidung zu erörtern? Wir entschieden uns, einen anderen Editor direkt zu kontaktieren. Nach kurzer Zeit erhielten wir die Einladung zu einer Revision. Der Artikel wurde schließlich in der revidierten Fassung veröffentlicht.
 
-Einreichung bei XXX: Die zentrale Aussage dieses Artikel war, dass verschiedene Messwerte einer angeblichen Eigenschaft nicht miteinander zusammenhängen. Der Befund stellte die Annahme infrage, dass es sich dabei überhaupt um eine Eigenschaft handelte. Die Ablehnungsgründe zweier Gutachtenden und der Herausgeberin machten deutlich: Niemand hatte den Artikel überhaupt gelesen. Ein Gutachter merkte an, dass etwas mit den Werten nicht stimme, weil sie laut einer der Tabellen nicht miteinander zusammenhängen. Genau das war ja unsere Aussage. Wir zeigten, dass es nich an unseren Daten lag, sondern sich in anderen Datensätzen so verhielt. Hätte er die Überschrift der Tabelle gelesen, den Absatz davor, oder den danach, wäre das klar geworden. Hat er aber nicht...
-
-XXX noch Einreichung bei Meta-Psych als Kontrast?
+**Einreichung bei European Journal of Personality**: Die zentrale Aussage dieses Artikel war, dass verschiedene Messwerte einer angeblichen Eigenschaft nicht miteinander zusammenhängen. Der Befund stellte die Annahme infrage, dass es sich dabei überhaupt um eine Eigenschaft handelte. Die Ablehnungsgründe zweier Gutachtenden und der Herausgeberin machten deutlich: Niemand hatte den Artikel überhaupt gelesen. Ein Gutachter merkte an, dass etwas mit den Werten nicht stimme, weil sie laut einer der Tabellen nicht miteinander zusammenhängen. Genau das war ja unsere Aussage. Wir zeigten, dass es nich an unseren Daten lag, sondern sich in anderen Datensätzen so verhielt. Hätte er die Überschrift der Tabelle gelesen, den Absatz davor, oder den danach, wäre das klar geworden. Hat er aber nicht...
 
 Das sind nur kurze Auszüge aus dutzenden Einreichungen und Ablehnungen. Darüber hinaus kann fast jede\*r Forschende\*r von substanzlosen persönliche Beleidigungen berichten. Meiner Erfahrung nach ist anonymes versus öffentliches Peer Review wie ein Vergleich von anonymen Kommentarspalten mit nicht anonymen: Bei Anonymität beherrschen persönliche Beleidigungen und Unwahrheiten den Dialog.
-
-#### Die Abgründe des anonymen peer-reviews: Eine Sammlung von Zitaten
-
-·         "I tried to like it but I couldn't"
-
-·         XXX hier auf Twitter nachfragen
+:::
 
 ### Open Science Incentives FORRT NOSI Badges Open Science in Berufungskommission
 
@@ -1055,7 +1019,7 @@ o   Metapsy <https://www.metapsy.org>
 o   Metalab stanford <https://langcog.github.io/metalab/>
 
 |     |                                 |     |                                                                                             |     |                                       |     |
-|-----|---------------------------------|-----|---------------------------------------------------------------------------------------------|-----|---------------------------------------|-----|
+|--------|--------|--------|------------------------|--------|--------|--------|
 |     |                                 |     |                                                                                             |     |                                       |     |
 |     | **Name**[\[LR54\]](#_msocom_54) |     | **Link**                                                                                    |     | **Topics**                            |     |
 |     |                                 |     |                                                                                             |     |                                       |     |
