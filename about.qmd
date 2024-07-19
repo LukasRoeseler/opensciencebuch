@@ -6,14 +6,20 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
-Wissenschaft wird zu einem Maßgeblichen Teil von Steuergeldern finanziert. Das bedeutet, eine Gesellschaft fördert einzelne Personen, um ein tieferes Verständnis von der Welt zu erlangen und im Gegenzug Unterstützung bei der Lösung verschiedener Probleme zu erhalten. Dadurch sind Wissenschaftler\*innen der Gesellschaft in einem gewissen Maße Rechenschaft schuldig. Dabei geht es nicht darum, dass jede wissenschaftliche Erkenntnis notwendigerweise Früchte tragen muss, aber, dass sie wissenschaftlichen Gütekriterien entspricht und zumindest für andere Forschende nachvollziehbar und nachprüfbar ist. Inwiefern das in verschiedenen Disziplinen der Fall ist und wie Personen sich dafür einsetzen, diese Rechenschaft zu ermöglichen, möchte ich in diesem Buch darlegen.
+Wissenschaft wird zu einem Maßgeblichen Teil von den Mitgliedern einer Gesellschaft finanziert, beispielsweise über Steuergelder. Das bedeutet, eine Gemeinschaft fördert einzelne Personen, um ein tieferes Verständnis von sich und der Welt zu erlangen und im Gegenzug Unterstützung bei der Lösung verschiedener Probleme zu erhalten. Dadurch sind Wissenschaftler\*innen der Gesellschaft in einem gewissen Maße Rechenschaft schuldig. Dabei geht es nicht darum, dass jede wissenschaftliche Erkenntnis notwendigerweise Früchte tragen muss, aber, dass sie wissenschaftlichen Qualitätskriterien entspricht und zumindest für andere Forschende nachvollziehbar und nachprüfbar ist. Inwiefern das in verschiedenen Disziplinen der Fall ist und wie Personen sich dafür einsetzen, diese Rechenschaft zu ermöglichen, möchte ich in diesem Buch darlegen.
+
+Dieses Buch soll selbst ein Teil der offenen Wissenschaft sein. Im Kontext der Probleme und Lösungen erkläre ich, wie der Beruf *Wissenschaftler\*in* aussieht, wie das Wissenschaftssystem funktioniert, und erörtere an Beispielen auszugsweise wissenschaftliche Debatten. Zur Offenheit gehört auch, dass das Buch frei zugänglich ist.
 
 ::: callout-note
 ## Über mich
 
-Mein Name ist Lukas Röseler und ich bin Wissenschaftler. Ich habe in Wernigerode Psychologie und Wirtschaftswissenschaften studiert, mich darüber hinaus mit Philosophie und Wissenschaftstheorie beschäftigt, und habe 2021 in Bamberg meinen Doktortitel in Psychologie erhalten. Seit 2023 bin ich Geschäftsführer des Münster Center for Open Science, darf mich im Rahmen dessen mit transparenter und vertrauenswürdiger Wissenschaft in zahlreichen Disziplinen auseinandersetzen. Dabei betreibe ich Meta-Wissenschaft, also *Wissenschaft über Wissenschaft*.
+Mein Name ist Lukas Röseler und ich bin Wissenschaftler. Ich habe in Wernigerode Psychologie und Wirtschaftswissenschaften studiert, mich darüber hinaus mit Philosophie und Wissenschaftstheorie beschäftigt, und habe 2021 als Doktorand der ersten Generation[^about-1] in Bamberg meinen Doktortitel in Psychologie erhalten. Seit 2023 bin ich Geschäftsführer des Münster Center for Open Science und darf mich im Rahmen dessen mit transparenter und vertrauenswürdiger Wissenschaft in zahlreichen Disziplinen auseinandersetzen. Dabei betreibe ich Meta-Wissenschaft, also *Wissenschaft über Wissenschaft*.
 
-Ich habe dieses Buch geschrieben, um das Thema *Open Science* anderen Wissenschaftler\*innen, Studierenden, und allen anderen Personen auf einem einfachen aber ausführlichen Niveau zu erklären. Ein großer Aspekt von offener Wissenschaft ist nämlich, dass auch Personen von außerhalb zumindest teilweise verstehen können, was dort vor sich geht. Angesichts dieses Zieles ist das Buch kostenlos und online verfügbar.
+Ich habe dieses Buch geschrieben, um das Thema *Open Science* anderen Wissenschaftler\*innen, Studierenden, und allen anderen Personen auf einem einfachen aber ausführlichen Niveau zu erklären. Ein großer Aspekt von offener Wissenschaft ist nämlich, dass auch Personen, die primär nichts mit Wissenschaft zu tun haben, zumindest teilweise verstehen können, was dort vor sich geht. Das gleicht einem Schloss, das einst nur den reichen Herrschenden zugänglich war, im Zuge eines Gesellschaftlichen Wandels nun offene Tore und Türen hat und für alle frei zur Besichtigung steht.
+
+Angesichts dieses Zieles veröffentliche ich das Buch kostenlos und stelle es online zur Verfügung. Sie können mir [hier](https://docs.google.com/forms/d/1Ce4uyr8bRSHZ5yywP3TPdIg8XMLxZqE-mYVL82K6QHI) anonym Rückmeldung geben (Betreff: "Open Science Buch").
 
 ![Blick über Wernigerode](images/wernigerode.jpg){fig-alt="Bild vom Wernigeröder Schloss über Nöschenrode" width="600"}
 :::
+
+[^about-1]: Das bedeutet, dass meine (Groß-)eltern keine Doktortitel haben.

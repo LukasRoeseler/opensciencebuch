@@ -18,32 +18,55 @@ Zahlreiche Verbünde folgten. Einige Projekte konzentrierten sich auf einzelne P
 
 **Liste großer Replikationsprojekte (siehe auch [FORRT Replication Hub](https://forrt.org/replication-hub/))**
 
-|                                     |                                                 |                                                                                                     |
-|-------------------------------------|-------------------------------------------------|-----------------------------------------------------------------------------------------------------|
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | **Projekt**                         | **Thema**                                       | **Link**                                                                                            |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Reproducibility Project: Psychology | Psychologie                                     | <https://osf.io/ezcuj/>                                                                             |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | CORE                                | Entscheidungsforschung                          | <https://osf.io/5z4a8/>                                                                             |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Data Replicada                      | Konsumentenverhalten und Entscheidungsforschung | <https://datacolada.org/archives/category/replication>                                              |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Many Labs 1                         | Psychologie                                     | <https://osf.io/wx7ck/>                                                                             |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Many Labs 2                         | Psychologie                                     | <https://osf.io/8cd4r/>                                                                             |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Many Labs 3                         | Psychologie                                     | <https://osf.io/ct89g/>                                                                             |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Many Labs 4                         | Psychologie                                     | <https://osf.io/8ccnw/>                                                                             |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Many Labs 5                         | Psychologie                                     | <https://osf.io/7a6rd/>                                                                             |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Soto                                | Persönlichkeitspsychologie                      | <https://doi.org/10.1177/0956797619831612>                                                          |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Social Sciences Replication Project | Verhaltensforschung                             | [http://www.socialsciencesreplicationproject.com](http://www.socialsciencesreplicationproject.com/) |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Registered Replication Reports      | Verschiedene                                    | --                                                                                                  |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Many Babies 1                       | Entwicklungspsychologie                         | [https://manybabies.org](https://manybabies.org/)                                                   |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Sports Sciences Replications        | Sportwissenschaften                             | [https://ssreplicationcentre.com](https://ssreplicationcentre.com/)                                 |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Hagen Cumulative Science Project    | Psychologie                                     | <https://osf.io/d7za8/>                                                                             |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | I4R Replications                    | Politikwissenschaften                           | <https://i4replication.org/reports.html>                                                            |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Experimental Philosophy             | Experimentelle Philosophie                      | h[ttps://doi.org/10.1007/s13164-018-0400-9](https://doi.org/10.1007/s13164-018-0400-9)              |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Reproducibility Project: Cancer     | Krebsforschung (Medizin)                        | <https://www.cos.io/rpcb>                                                                           |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | SCORE                               | Sozialwissenschaften                            | <https://www.cos.io/score>                                                                          |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | REPEAT                              | Gesundheitssystem                               | [https://www.repeatinitiative.org](https://www.repeatinitiative.org/)                               |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | CREP                                | Psychologie                                     | [https://www.crep-psych.org](https://www.crep-psych.org/)                                           |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Boyce et al., 2023                  | Psychologie                                     | <https://doi.org/10.1098/rsos.231240>                                                               |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | ReproSci                            | Biologie                                        | [https://reprosci.epfl.ch](https://reprosci.epfl.ch/)                                               |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 | Boyce et al. 2024                   | Psychologie                                     | <https://doi.org/10.31234/osf.io/an3yb>                                                             |
++-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 
 ### Definition von Replizierbarkeit
 
@@ -96,9 +119,9 @@ Für eine systematischere, in den Informationswissenschaften verankerte Taxonomi
 
 ### „Eine Schwalbe macht noch keinen Sommer"
 
-Ob an einem wissenschaftlichen Befund „etwas dran ist", er also einen Wahrheitsanspruch hat, hängt -- neben seiner eigentlichen Art der Etablierung -- bei der Replikationsforschung von vielen Faktoren ab. Was waren die Ergebnisse der Replikationsstudie? Wie viele und wie unterschiedliche Studien wurden durchgeführt? Wie sahen die genauen Methoden aus? Was waren die Unterschiede zwischen Replikationen und Originalstudie? Während Einzelstudien immer einen Erkenntnisgewinn liefern (mindestens, ob eine bestimmte Methode praktikabel ist, [@Sikorski2023-qp], können sie je nach Forschungsgebiet stark variieren [@McShane2022-yd, @Landy.2020]. Für das Gesamtbild braucht es mehr, wie zum Beispiel eine statistische Aggregation aller Einzelbefunde im Rahmen einer Meta-Analyse. Ein Beispiel mit Fantasiedaten befindet sich dazu in Abbildung X.
+Ob an einem wissenschaftlichen Befund „etwas dran ist", er also einen Wahrheitsanspruch hat, hängt -- neben seiner eigentlichen Art der Etablierung -- bei der Replikationsforschung von vielen Faktoren ab. Was waren die Ergebnisse der Replikationsstudie? Wie viele und wie unterschiedliche Studien wurden durchgeführt? Wie sahen die genauen Methoden aus? Was waren die Unterschiede zwischen Replikationen und Originalstudie? Während Einzelstudien immer einen Erkenntnisgewinn liefern (mindestens, ob eine bestimmte Methode praktikabel ist, [@Sikorski2023-qp], können sie je nach Forschungsgebiet stark variieren [@McShane2022-yd, @Landy.2020]. Für das Gesamtbild braucht es mehr, wie zum Beispiel eine statistische Aggregation aller Einzelbefunde im Rahmen einer Meta-Analyse. Ein Beispiel mit Fantasiedaten befindet sich dazu in der folgenden Abbildung.
 
-ABBILDUNG X: Forest plot mit simulierten Ergebnissen von Original + vielen Einzelstudien; in den Notes dann ausführliche Erklärung.
+Betrachtet man viele Studien, die den Zusammenhang zweier Dinge, wie zum Beispiel Einkommen und Bildungsabschluss, untersucht haben, so werden sich die Studien hinsichtlich der Details unterscheiden: Was wurde alles zum Einkommen gezählt (Netto, Brutto, Sozialleistungen, Einkommen von Familienangehörigen, Werte über einen Zeitraum oder von einem bestimmten Zeitpunkt aus der Vergangenheit, usw.) oder auch welche Personen befragt wurden (Studierende, Berufstätige, wurden Befragte bezahlt, usw.). Alle diese Unterschiede wirken sich möglicherweise auf den Zusammenhang aus, und selbst wenn sie es nicht tun, unterliegen Zusammenhänge oft Schwankungen, die sich durch die Messmethoden ergeben. In dem Beispiel lässt sich die Stärke des Zusammenhangs auf eine Zahl und eine dazugehörige Präzision herunterbrechen. Die Zahl heißt hier "Korrelation" und die Schärfe "Fehlerbalken". In dem Wald-Diagramm (*Forest Plot / Blobbogram*) sind mögliche Korrelationen aus verschiedenen Studien abgebildet. Im Rahmen einer Meta-Analyse können Studienergebnisse anschließend kombiniert und Unterschiede untersucht werden.
 
 ```{r}
 #| code-fold: true

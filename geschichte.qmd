@@ -6,8 +6,6 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
-## Geschichte
-
 Im Rahmen dieses Buches wird die Open Science Bewegung also als eine Reaktion auf identifizierte Probleme und damit als Selbstkorrektur-Prozess der Wissenschaft verstanden. In im Zentrum steht ein mangelndes Vertrauen in Befunde, die in wissenschaftlichen Fachzeitschriften veröffentlicht wurden. Einige Probleme sind schon seit Jahrzehnten in ähnlicher Form bekannt. Bis sie allerdings öffentlich diskutiert wurden und Lösungsvorschläge erarbeiteten, benötigte es einschneidende Ereignisse. Aufgrund von Problemen, vergangene und für sicher geglaubte Ergebnisse nicht *replizieren* zu können (also bei wiederholten Untersuchungen zum selben Ergebnis zu kommen) ist häufig die Sprache von einer *Replikationskrise*. Durch die Ungewissheit über genaue Ursachen von geringen Replikationsraten wird teilweise auch eher zu dem Begriff „Vertrauenskrise" geraten [@feest2019replication].
 
 ## Vertiefende Informationen
