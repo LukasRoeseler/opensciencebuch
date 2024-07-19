@@ -150,6 +150,8 @@ Statistik
 
 -          <https://www.datalad.org>  
 
+falsifizierte Daten können nur durch Sichtung identifiziert werden https://associationofanaesthetists-publications.onlinelibrary.wiley.com/doi/full/10.1111/anae.15263
+
 -          Myths: <https://www.sortee.org/blog/2024/04/12/2024_open_data_myths/>
 
 -          <https://leibniz-psychology.org/das-institut/drittmittelprojekte/datawiz-ii>
@@ -429,7 +431,7 @@ o   Berichte von Opfern von Vergewaltigungen à müssen anonymisiert werden, e
 -          Alternative zu Clarivate Analytics Web of Science Literaturdatenbank: <https://openalex.org> REF[\[LR3\]](#_msocom_3) 
 
 |     |                                   |     |                               |     |                                 |     |
-|-----|-----------------------------------|-----|-------------------------------|-----|---------------------------------|-----|
+|----------|-------------|----------|-----------|----------|------------|----------|
 |     |                                   |     |                               |     |                                 |     |
 |     | **Infrastruktur**                 |     | **Kommerzielle Software**     |     | **Open Source Software**        |     |
 |     |                                   |     |                               |     |                                 |     |
