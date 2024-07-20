@@ -114,7 +114,7 @@ o   Institute for Replication (I4R)
 
 §  Internationale Events „Replication Games"
 
-§  Vor allem Ökonomie und Politikwissenschaften (REF[\[LR1\]](#_msocom_1) )
+§  Vor allem Ökonomie und Politikwissenschaften <https://journals.sagepub.com/doi/10.1177/20531680241233439>
 
 §  Ergebnisse von 110 Reproduktionen „Mass reproducibility and replicability: a new hope" <https://econpapers.repec.org/paper/zbwi4rdps/>
 
@@ -428,10 +428,10 @@ o   Berichte von Opfern von Vergewaltigungen à müssen anonymisiert werden, e
 
 -          Von Chan-Zuckerberg-Initiative Unternehmen: <https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/>
 
--          Alternative zu Clarivate Analytics Web of Science Literaturdatenbank: <https://openalex.org> REF[\[LR3\]](#_msocom_3) 
+-          Alternative zu Clarivate Analytics Web of Science Literaturdatenbank: <https://openalex.org> https://arxiv.org/abs/2205.01833
 
 |     |                                   |     |                               |     |                                 |     |
-|-----|-----------------------------------|-----|-------------------------------|-----|---------------------------------|-----|
+|----------|-------------|----------|-----------|----------|------------|----------|
 |     |                                   |     |                               |     |                                 |     |
 |     | **Infrastruktur**                 |     | **Kommerzielle Software**     |     | **Open Source Software**        |     |
 |     |                                   |     |                               |     |                                 |     |
@@ -448,7 +448,7 @@ o   Berichte von Opfern von Vergewaltigungen à müssen anonymisiert werden, e
 
 ### Slow Science
 
-Viele der Entwicklungen lassen sich als „langsame Wissenschaft" (oder engl. Slow Science) zusammenfassen. Der traditionellen Produktion von Forschungsartikeln steht die achtsame Auseinandersetzung entgegen. Dass viele der vorgeschlagenen Lösungen im Wettbewerb um veröffentlichte Forschungsartikel nachteilig sind, kritisiert beispielsweise Hyman (2024[\[LR4\]](#_msocom_4) ). Er schlägt stattdessen vor, die Probleme mittels künstlicher Intelligenz zu lösen. Verlage wie Elsevier benutzen diese beispielsweise bereits für Peer Review (<https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-the-review-process>), wenngleich Modelle wie ChatGPT 4.0 nicht dafür geeignet sind (REF[\[LR5\]](#_msocom_5) ).
+Viele der Entwicklungen lassen sich als „langsame Wissenschaft" (oder engl. Slow Science) zusammenfassen. Der traditionellen Produktion von Forschungsartikeln steht die achtsame Auseinandersetzung entgegen. Dass viele der vorgeschlagenen Lösungen im Wettbewerb um veröffentlichte Forschungsartikel nachteilig sind, kritisiert beispielsweise Hyman (2024 <https://www.researchgate.net/publication/377965519_Freeing_social_and_medical_scientists_from_the_replication_crisis> ). Er schlägt stattdessen vor, die Probleme mittels künstlicher Intelligenz zu lösen. Verlage wie Elsevier benutzen diese beispielsweise bereits für Peer Review ([https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-the-review-process](#0){.uri}), wenngleich Modelle wie ChatGPT 4.0 nicht dafür geeignet sind https://arxiv.org/abs/2402.05519#:\~:text=Practical%20implications%3A%20Overall%2C%20ChatGPT%20does,steps%20to%20control%20its%20use. ).
 
 ### Big Team Science
 

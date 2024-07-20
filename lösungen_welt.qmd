@@ -6,26 +6,8 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
-Nachdem nun systemische, methodische, und theoretische Gründe für die Replikationskrise diskutiert wurden, endet die Diskussion mit einem allgemeinen und ontologischen Punkt: Die Erwartung, dass sich Befunde wiederholt feststellen lassen müssen beruht auf der Annahme oder Theorie, dass die Welt -- oder zumindest die jeweils in der Wissenschaft untersuchte Gesetzmäßigkeit -- stabil ist. Bei fluktuierenden Mustern in der Welt oder im menschlichen Verhalten sind Replikationsfehlschläge wenig überraschend. Für die Psychologie haben REF [\[LR1\]](#_msocom_1) und Gergen [\[LR2\]](#_msocom_2) (REF, siehe auch REF[\[LR3\]](#_msocom_3) )
+Nachdem nun systemische, methodische, und theoretische Gründe für die Replikationskrise diskutiert wurden, endet die Diskussion mit einem allgemeinen und ontologischen Punkt: Die Erwartung, dass sich Befunde wiederholt feststellen lassen müssen beruht auf der Annahme oder Theorie, dass die Welt -- oder zumindest die jeweils in der Wissenschaft untersuchte Gesetzmäßigkeit -- stabil ist. Bei fluktuierenden Mustern in der Welt oder im menschlichen Verhalten sind Replikationsfehlschläge wenig überraschend. Für die Psychologie hat beispielsweise @Smedslund.2015 kritisiert, dass diese Annahme falsch ist und hat diese *Historizität* als einen der Gründe angeführt, weshalb Psychologie keine Naturwissenschaft sein kann. Ähnlich argumentierte ebenfalls @gergen1973social. Beide Sichtweisen haben ihren Ursprung möglicherweise in der Grundlagendiskussion der Psychologie: Anfang des 20. Jahrhunderts, als die Psychologie sich langsam von der Philosophie distanzierte und vermehrt empirisch (also durch Beobachtungen statt nur Überlegungen) arbeitete, unterteilte @dilthey1970aufbau Naturwissenschaften und Geisteswissenschaften dahingehend, dass in es in den Naturwissenschaften nicht um das Nacherleben und Begreifen nachrangig sind und es um abstrakte und allgemeine (*nomothetische*) Gesetzmäßigkeiten geht. Geisteswissenschaften hingegen betrachten Vorgeänge in einem konkreten und einzigartigen (*idiographischen*) Zusammenhang mit allen dazugehörigen Besonderheiten. Es etablierte sich langfristig der naturwissenschaftliche Ansatz, der bereits 50 Jahre zuvor fruchtbare Erkenntnisse lieferte [@Fechner.1860].
 
--          Historizität (why psychology cannot be a science jan smedslund)
-
--          Indeed, the argument put forward by Gergen (1973) that most (if not all) effects in psychology are not stable across time and context was one of the starting points for the first crisis in social psychology. Gergen writes: "It is the purpose of this paper to argue that social psychology is primarily an historical inquiry. Unlike the natural sciences, it deals with facts that are largely nonrepeatable and which fluctuate markedly over time" (1973, p. 310). Nach Lakens two crises <https://osf.io/preprints/psyarxiv/dtvs7/> p. 12
-
-o   Das ist aber unklar und auch nicht ausreichend erforscht
-
--          more research
-
--          evtl Ontologie[\[LR4\]](#_msocom_4) 
-
-Aleatorische Unsicherheit [@der2009aleatory], siehe auch Eintrag im [FORRT Glossar](https://forrt.org/glossary/german/aleatoric_uncertainty/)
-
- [\[LR1\]](#_msoanchor_1)Dänemark, why psychology cannot be a science
-
- [\[LR2\]](#_msoanchor_2)REF siehe bei lakens
-
- [\[LR3\]](#_msoanchor_3)Lakens two crises
-
- [\[LR4\]](#_msoanchor_4)<https://psycnet.apa.org/record/2024-93999-001>
+Eine besondere Rolle beim Verallgemeinern von einzelnen Beobachtungen auf allgemeingültige Gesetzmäßigkeiten spielt auch der Zufall. Das Besondere bei statistischen Methoden ist beispielsweise, dass die Unsicherheit als Zahl ausgedrückt wird und damit *quantifiziert* wird. Die wichtige Frage im Rahmen von Replikationsproblemen ist, ob die Unterschiede zwischen Befunden zufällig oder aufgrund irgendwelche Unterschiede entstanden sind. Diese zwei Arten des Zufalls werden als ontologischer und epistemischer Zufall bezeichnet. Ontologischer Zufall bedeutet, dass ein einfach keinen Grund gibt, während wir ihn beim epistemologischen Zufall bloß nicht kennen. Der Ausgang bei einem Münzwurf, also ob die Münze auf Kopf oder Zahl landet, ist beispielsweise ein Fall epistemischen Zufalls: Würden wir alle wichtigen Parameter kennen (Höhe der Hand, Stärke des Wurfes, welche Seite beim Werfen oben liegt, usw.), könnten wir eindeutig vorhersagen, wie die Münze landet. Übrigens landen faire Münzen meistens auf der Seite, mit der sie gestartet sind [@Bartos2023-jt].
 
 ### Literatur
