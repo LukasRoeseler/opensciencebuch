@@ -66,12 +66,6 @@ Wissenschaft zeichnet sich durch Systematik aus [@HoyningenHuene.2013]. Der wohl
 
 Um zu prüfen, ob die Urteile im Begutachtungsprozess zwischen den Urteilenden übereinstimmen, haben @etzel2024inter verschiedene Gutachtende hinsichtlich klassischer Kriterien befragt. Sie fanden heraus, dass das nicht der Fall ist und schlagen Kriterien vor, die einen klaren Wert haben, und sich gut erfassen lassen (z.B. ob Daten öffentlich verfügbar sind).
 
-##### Registered Reports
-
-Eine erfolgversprechende Lösung setzt an dem Problem an, dass Artikel aufgrund ihrer Ergebnisse und nicht aufgrund der methodischen Sauberkeit beurteilt werden: Bei sogenannten Registered Reports wird der Begutachtungsprozess nicht erst nach Erhebung der Daten, sondern zusätzlich auch vor der Studiendurchführung vorgenommen. Forschende reichen dann sozusagen das halbe Manuskript ein - Ergebnisse, Diskussionen, und Schlussfolgerungen der Ergebnisse fehlen noch. Große methodische Probleme können so frühzeitig identifiziert werden und das Risiko wird verringert, dass die Studie einen Fehler beinhaltet. Derselbe Prozess ist bereits lange für Ethik-Gutachten von Forschung etabliert. Eine weitere Besonderheit bei Registered Reports ist, dass Forschende bei einem positiven Gutachten in der ersten Phase bereits eine vorläufige Publikationszusage erhalten. Diese beinhaltet, dass der Artikel veröffentlicht wird, egal wie die Ergebnisse ausfallen und unter der Bedingung, dass die Studie wie geplant durchgeführt wird, sich die Forschenden bei ihren Schlussfolgerungen auf die geplanten Analysen berufen, und dass sie den bereits begutachteten Teil des Artikels nicht verändern. @Soderberg.2021 konnten in einer vorläufigen Untersuchung bereits nachweisen, dass sich das positiv auf die Qualität der Artikel auswirkte. Die folgende Abbildung stellt die beiden Typen gegenüber.
-
-![Klassischer Forschungsprozess im Vergleich zu Registered Reports mit zusätzlicher Begutachtung vor der Studiendurchführung](images/peerreview.jpg)
-
 ##### Open Peer Review
 
 Seit der Auseinandersetzung Forschender mit dem Begutachtungssystem wird darüber hinaus diskutiert, was mit Gutachten passiert: Traditionell bleiben sie unter Verschluss. In der Fachzeitschrift erscheint der finale Artikel und alle vorherigen Versionen sind nur Autor*innen,* Herausgeber*in,* und Gutachter\*innen bekannt. Diese bleiben zudem meistens anonym, das heißt, wenn sie sich keine Mühe gegeben haben, wird es wahrscheinlich nie auffallen. Außerdem haben Forschende keinen Anreiz, Gutachten zu verfassen - höchstens erhalten sie einen Nachweis, dass sie ein Manuskript bei einer Zeitschrift begutachtet haben. Einige Zeitschriften haben inzwischen das *Open Peer Review* eingeführt. Der Name passt nur halb, denn veröffentlicht werden Gutachten nur dann, wenn der Artikel bei der Zeitschrift akzeptiert wird. Das birgt die Gefahr, dass schwerwiegende Probleme, welche für eine Ablehnung üblicherweise nötig sind, nicht ans Licht kommen. Forschende können den Artikel dann ohne Überarbeitung bei einer anderen Zeitschrift einreichen, wo die Probleme vielleicht nicht entdeckt werden. Dieses Vorgehen führt zu Doppelarbeit und enormen Kosten [@aczel2021billion]. Zoltan Kekecs merkte dazu bei einer Diskussion im Rahmen einer Konferenz an, dass selbst Kasinos, die in Konkurrenz zueinander stehen, Listen von Betrüger*innen miteinander austauschen. Herausgeber*innen von Zeitschriften tun das noch nicht.
@@ -377,67 +371,15 @@ Eine besondere Form des öffentlichen Zugangs verbreitet sich aktuell in der bio
 
 ### Pre-Prints
 
--          Stark angelehnt an Jonny Coates Vortrag (REF); recording sollte bald verfügbar sein über FZJülich
+Wie bereits im Kapitel zur Begutachtung von Pre-Prints erläutert, sind Pre-Prints immer öffentlich und kostenlos verfügbar. Forschende können verschiedene Lizenzen vergeben, die beispielsweise eine kommerzielle Verwendung verbietet, sind dabei jedoch fast immer sehr liberal. Neben den bereits diskutierten Vorteilen von Pre-Prints, sind Änderungen bei ihnen um ein vielfaches schneller: Forschende können jederzeit auf Kritik reagieren und Fehler korrigieren. In einem [Artikel zum Coronavirus](https://www.statnews.com/2020/02/03/retraction-faulty-coronavirus-paper-good-moment-for-science/) fiel ein Fehler kurz nach der Veröffentlichung auf und wurde innerhalb von zwei Tagen korrigiert. Bei einem Zeitschriftenartikel kann sich dieser Prozess über viele Jahre ziehen. Gerade bei ernsthaften Problemen, die eine Retraction zur Folge haben, sind Verlage vergleichsweise langsam. Einen Pre-Print können Autor\*innen jederzeit vom Netz nehmen - wobei er über Suchmaschinen dabei sicherlich noch auffindbar bleibt.
 
--          Definition: noch nicht von einem journal ge peer reviewet
+Pre-Prints können außerdem dazu beitragen, dass Ressourcen effizienter benutzt werden: Durch die beschleunigte Kommunikation zwischen Forschenden fällt schneller auf, wenn verschiedene Gruppen an derselben Fragestellung arbeiten. So können sich Kooperationen bilden oder Gruppen verlagern ihre Schwerpunkte.
 
--          In Corona-Pandemie viel Aufmerksamkeit erfahren von Forschenden, Politik, und Medien, weil Journals zu langsam sind (Veröffentlichungsprozess kann bis zu 10 Jahre dauern) <https://www.biorxiv.org/content/10.1101/2020.05.22.111294v3>
+::: callout-note
+## Unberechtigte Sorge vor Ideenklau
 
--          Qualität genau so gut: <https://pubmed.ncbi.nlm.nih.gov/36240832/>
-
-o   Journals machen
-
--          Pre-Prints von fast allen Journals gedulded (sherpa romeo v2)
-
--          Können kommentiert werden, Probleme werden manchmal innerhalb von 2 Tagen aufgedeckt werden, statt mehreren Jahren <https://www.statnews.com/2020/02/03/retraction-faulty-coronavirus-paper-good-moment-for-science/>
-
-o   Retractions in Journals sehr sehr schwierig, bei Preprints einfach
-
-o   Retraction guidelines vom Committee on Publication Ethics (Barbour et al., 2019)
-
--          Schneller: <https://www.pnas.org/doi/10.1073/pnas.1511912112>
-
--          Alternatives Publishing Modell <https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000116>
-
-o   Unabhängig von Publishern
-
-o   Open Access
-
-o   Schneller (<https://europepmc.org/preprints>)
-
-o   Open Peer Review, funktioniert gut <https://asapbio.org/review-commons-9-months>
-
-o   Kein Gatekeeping <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0281659>
-
-o   mit dem Modell wird experimentiert und geschaut, wie es funktioniert (Service zum Reviewen von Preprints: <https://www.reviewcommons.org>)
-
-o   Zitat J. Coates: „I don't think that we need peer review" (REF, später nochmal prüfen oder ihn anschreiben, er müsste bald dazu was veröffentlichen)"
-
--          Tracker: <https://europepmc.org/preprints>
-
--          Preprints als Promotionsleistung statt veröffentlichte Paper
-
--          Günstiger: APCs revenue bei Springer Nature fast 600 Gazillionen!!! APCs werden immer teurer <https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00272/118070/The-Oligopoly-s-Shift-to-Open-Access-How-the-Big>
-
--          in line mit EU Council calls und US government
-
--          Sorge: dass jemand vor einem kommt und etwas irgendwo veröffentlicht
-
-o   Das geht auch bei Konferenzen schon immer, sogar bei veröffentlichten Papers
-
-o   Bei Pre-Print gibt es eine DOI + Zeitstempel und alle können sehen, wer zuerst da war
-
-o   Einige Zeitschriften prüfen auch schon, ob in einem Pre-Print was schon war
-
--          "Put scientists back in charge"
-
--          Institutionen, Funders, Reviewers: manche verpflichten schon, Preprints zu posten
-
--          Je nach Feld sind Pre-Prints unterschiedlich beliebt
-
-o   Felder mit großer Sorge von Wissensdiebstahl möchten Forschung evtl. möglichst lange zurückhalten -- nicht ganz sinnvoll, weil Reviewer auch Ideen klauen können und dann sogar schwieriger zu fassen sind; mit Pre-Print ist öffentlich klar, wer zuerst wozu geforscht hat
-
-o   In manchen Bereichen ist es nicht sinnvoll, wenn mehrere Forschende an derselben Sache arbeiten (z.B. zwei Forschungsgruppen können nicht gleichzeitig und unabhängig voneinander an einem bestimmten Ort archäologische Ausgrabungen machen)
+In manchen wissenschaftlichen Disziplinen sind Forschende Pre-Prints gegenüber zögerlich. Sie haben Angst, dass jemand ihre Idee klaut und schneller als sie einen Artikel bei einer Fachzeitschrift dazu veröffentlicht. Während diese Angst beim klassischen System z.B. durch böswillige Gutachtende oder Zuhörer\*innen bei einer Konferenz ebenfalls besteht und selbst bei veröffentlichten Fachzeitschriftenartikeln passiert, ist der Vorteil von Pre-Prints, dass sie mit einem Datum versehen sind und für alle klar nachvollziehbar ist, wann was veröffentlicht wurde.
+:::
 
 ### Ansätze gegen die Selektion spannender Ergebnisse
 
@@ -449,29 +391,13 @@ Der einfachste Weg ist dabei, den Ergebnisteil einfach zu schwärzen oder wegzul
 
 #### Registered Report
 
-Ein radikalerer Ansatz als die Begutachtung ohne Ergebnisteil ist die Begutachtung des Artikels, ohne dass Ergebnisse überhaupt existieren. Dieses Format heißt *Registered Report*. Dabei wird das Manuskript mit der zu prüfenden Theorie, Methodik, und dem Analyseplan bei der Zeitschrift eingereicht, ohne dass überhaupt Daten erhoben wurden. Kommt es zur Akzeptanz dieses „halbfertigen" Artikels (*in principle acceptance*), werden die Daten gesammelt, wie geplant ausgewertet, und es folgt eine weitere Begutachtungsrunde. Hierbei ist vorgeschrieben, dass die Autor\*innen nichts an den bereits verfassten Teilen verändern dürfen und die Gutachter\*innen im Nachhinein keine Kritik am bereits geprüften Vorgehen üben dürfen. Es geht nur noch darum, ob der Plan eingehalten wurde und ob die Schlussfolgerungen auf den geplanten Analysen fußen. Damit soll verhindert werden, dass Artikel abgelehnt werden, weil die Ergebnisse nicht spannend genug, innovativ genug, oder den Erwartungen entsprechend sind. Erste Untersuchungen können bereits nachweisen, dass sich damit die Qualität der Forschung gegenüber dem traditionellen Vorgehen verbessert (<https://osf.io/preprints/metaarxiv/7x9vy> ). Eine Übersicht über Zeitschriften, die dieses Format anbieten ist online verfügbar (<https://www.cos.io/initiatives/registered-reports> à Participating Journals; [10.1038/s41562-021-01193-7](https://doi.org/10.1038/s41562-021-01193-7)).  Ebenfalls wird dadurch deutlich, dass psychologische Forschung einem massiven Publikationsbias unterliegt (d.h. es werden vor allem Studien veröffentlicht, die ihre Vermutungen bestätigen konnten und kaum Studien, in denen das nicht geschah): REF <https://journals.sagepub.com/doi/10.1177/25152459211007467> zeigten, dass der Anteil erwartungskonformer Ergebnisse bei Registered Reports mit 44% deutlich unter den in der Psychologie üblichen 96% liegt.
+![*Klassisches Vorgehen beim Forschen und Veröffentlichen im Vergleich mit Registered Reports: Bei letzterem wird bereits der Studienplan (für gewöhnlich in Form eines unvollständigen Berichtes) begutachtet und revidiert. Eine Ablehnung im zweiten Peer Review aufgrund der Ergebnisse ist nicht möglich.*](images/peerreview.jpg){alt="Klassischer Forschungsprozess im Vergleich zu Registered Reports mit zusätzlicher Begutachtung vor der Studiendurchführung"}
 
-**Abbildung 6**
-
-*Klassisches Vorgehen beim Forschen und Veröffentlichen im Vergleich mit Registered Reports: Bei letzterem wird bereits der Studienplan (für gewöhnlich in Form eines unvollständigen Berichtes) begutachtet und revidiert. Eine Ablehnung im zweiten Peer Review aufgrund der Ergebnisse ist nicht möglich.*
-
-1.  
-
-2.  Anleitung (ten rules paper): <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010571>
-
-3.  
-
-4.  metaROR so wie PCI RR: <https://easst.net/easst-review/easst-review-volume-421-july-2023/metaror-a-new-form-of-scholarly-publishing-and-peer-review-for-sts/>
-
-5.  
+Ein radikalerer Ansatz als die Begutachtung ohne Ergebnisteil ist die Begutachtung des Artikels, ohne dass Ergebnisse überhaupt existieren. Dieses Format heißt *Registered Report*. Dabei wird das Manuskript mit der zu prüfenden Theorie, Methodik, und dem Analyseplan bei der Zeitschrift eingereicht, ohne dass überhaupt Daten erhoben wurden. Kommt es zur Akzeptanz dieses „halbfertigen" Artikels (*in principle acceptance*), werden die Daten gesammelt, wie geplant ausgewertet, und es folgt eine weitere Begutachtungsrunde. Hierbei ist vorgeschrieben, dass die Autor\*innen nichts an den bereits verfassten Teilen verändern dürfen und die Gutachter\*innen im Nachhinein keine Kritik am bereits geprüften Vorgehen üben dürfen. Es geht nur noch darum, ob der Plan eingehalten wurde und ob die Schlussfolgerungen auf den geplanten Analysen fußen. Damit soll verhindert werden, dass Artikel abgelehnt werden, weil die Ergebnisse nicht spannend genug, innovativ genug, oder den Erwartungen entsprechend sind. Erste Untersuchungen können bereits nachweisen, dass sich damit die Qualität der Forschung gegenüber dem traditionellen Vorgehen verbessert [@Soderberg.2021]. Eine Übersicht über Zeitschriften, die dieses Format anbieten ist online verfügbar (<https://www.cos.io/initiatives/registered-reports> à Participating Journals; @Chambers.; @chambers2022past).  Ebenfalls wird dadurch deutlich, dass Forschung einem massiven Publikationsbias unterliegt (d.h. es werden vor allem Studien veröffentlicht, die ihre Vermutungen bestätigen konnten und kaum Studien, in denen das nicht geschah): @Scheel2021 zeigten, dass der Anteil erwartungskonformer Ergebnisse bei Registered Reports mit 44% deutlich unter den in der Psychologie üblichen 96% liegt.
 
 #### Pre-Print basierte Modelle
 
 Durch die immer häufigere Veröffentlichung von Pre-Prints, also noch nicht begutachteten Manuskripten, eröffnen sich für die Begutachtung neue Wege. Sogenannte Overlay Journals (elife) wählen unter Pre-Prints solche aus, die sie an Gutachtende schicken um deren Meinungen einzuholen. Sofern die Autor\*innen des Preprints einverstanden sind, erhalten sie dann Gutachten und ihr Artikel wird schließlich in der Zeitschrift veröffentlicht.
-
-Ein Modell, das unabhängig von Zeitschriften arbeitet wird von Peer Community In (PCI) verwendet: Dabei werden Pre-Prints nicht zu Zeitschriften, sondern ohne Kosten zu einer PCI Initiative geschickt. Diese existieren für zahlreiche Fächer (z.B. XXX, XXX, XXX). Dort wird das Begutachtungsverfahren ähnlich wie bei klassischen Zeitschriften organisiert, nur statt am Ende im Idealfall eine *Akzeptanz* und eine Veröffentlichung gibt es von der PCI Initiative eine Empfehlung (*Recommendation*) und eine Veröffentlichung der Gutachten[\[LR47\]](#_msocom_47) . Gutachtende können selbst entscheiden, ob sie dabei anonym bleiben möchten. PCIs arbeiten mit fachspezifischen Zeitschriften zusammen. Sogenannte „PCI-friendly Journals" veröffentlichen dann die empfohlenen Pre-Prints ohne weitere Gutachten einzuholen. Dadurch sind sowohl der Mechanismus zur wissenschaftlichen Qualitätssicherung als auch der Selektionsmechanismus (*was* wird veröffentlicht) in den Händen der Forschenden. Dadurch, dass die Veröffentlichung in klassischen Zeitschriften als letzter Schritt optional ist, können sich wissenschaftliche Communities langfristig von Zeitschriften unabhängig machen. Ein Erklärvideo zu PCIs ist online verfügbar (<https://www.youtube.com/watch?v=4PZhpnc8wwo>). Die übergreifende Organisation ist nicht-kommerziell und wird seit ihrer Gründung 2017 von Forschenden geleitet (<https://peercommunityin.org/pci-structure-history/>). Eine spezifische PCI Initiative bezieht sich ausschließlich auf Registered Reports (PCI-RR).
-
-Abbildung erstellen, die den Ablauf grob erklärt
 
 Je nach Fach haben unterschiedlich viele Zeitschriften mit PCI Initiativen Vereinbarungen, dass sie die akzeptierten Artikel ohne eigenes Peer Review veröffentlichen. Mehr und vor allem bekannte teilnehmende Zeitschriften machen PCIs für Forschende attraktiver. Zeitschriften, die Interesse an einem PCI haben, aber die Begutachtung nicht aus der Hand geben möchten, können sich als „PCI interested Journals" listen lassen (vs. „PCI friendly journals"). Teilnehmende Zeitschriften sparen dadurch Arbeit und bleiben relevant, indem sich Ihre Funktion dahin verschiebt, dass sie thematisch relevante Forschung sammeln und disseminieren. In einem Fall hat bereits eine Zeitschrift, die als „PCI friendly" eine Vereinbarung mit PCI-RR hatte, ein Manuskript mit einer *Recommendation* zum erneuten Peer Review versendet und wurde sofort von den PCI Partnern entfernt. Forschende, die Gutachtenprozesse für PCIs organisieren möchten -- analog zu Herausgeber\*innen von klassischen Zeitschriften -- können *Recommender* werden und müssen dazu ein Mindestmaß an Wissen haben sowie eine Schulung absolvieren (<https://rr.peercommunityin.org/about/recommenders>).
 
@@ -1207,5 +1133,11 @@ und
  [\[LR54\]](#_msoanchor_54)aktualisieren (siehe ppt)
 
  [\[LR55\]](#_msoanchor_55)<https://rosie-project.eu/knowledge-hub/#!training/health-and-life-sciences>
+
+#### Weiterführende Informationen
+
+-   @Henderson2022-ci beschreibt zehn einfache Regeln zum Schreiben eines Registered Reports
+
+-   Ein Erklärvideo zu PCIs ist online verfügbar (<https://www.youtube.com/watch?v=4PZhpnc8wwo>).
 
 ### Literatur
