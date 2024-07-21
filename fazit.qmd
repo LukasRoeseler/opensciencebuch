@@ -6,41 +6,17 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
--          AUFLISTEN / TABELLE: Gründe für „nicht repliziert"
-
--          Neue Wissenschaft: Meta-Wissenschaft, die mit sozialwissenschaftlichen Methoden arbeitet
-
--          Höherer Grad an Systematizität (Hoyningen-Huene)
-
--          Selbstkorrektur von Wissenschaft als aktive Arbeit statt Invisible Hand
+Wissenschaftler\*innen arbeiten unter starkem Druck und das wissenschaftliche System belohnt Sorgfalt und Offenheit kaum. In den Sozialwissenschaften tun sich immer mehr Forschende zusammen, diese Probleme zu lösen. Aus der Vertrauenskrise hervorgehend befindet sich die Psychologie bereits in einer Renaissance. Täglich werden Diskussionen auf persönlicher, institutioneller, und politischer Ebene darüber geführt, wie Wissenschaft betrieben werden sollte. Es ist dabei klar geworden, dass es in der Wissenschaft nicht wie in manch einem ökonomischen Markt eine "unsichtbare Hand" gibt, die dafür sorgt, dass alles ins Gleichgewicht findet - stattdessen sind es die Forschenden, die sich aktiv um die Selbstkorrektur von Wissenschaft bemühen. Bevor jedoch eine Intervention zur Verbesserung von Forschung stattfinden kann, wird zuerst eine Inventur (Wo sind Verbesserungen nötig?) und anschließend eine Beobachtung benötigt. Eine Inventur über Probleme und Lösungsvorschläge biete ich mit diesem Buch an. Es ist nun die Rolle der *Meta-Wissenschaft*, also Wissenschaft über Wissenschaft, zu prüfen, welche Lösungsansätze wie gut funktionieren.
 
 ### Was hat sich verbessert?
 
--          Review der Veränderungen <https://www.researchgate.net/publication/355421853_Replicability_Robustness_and_Reproducibility_in_Psychological_Science>
-
--          journal guidelines und reporting: [https://www.researchgate.net/publication/364374923_The_influence_of_journal_submission_guidelines_on_authors'\_reporting_of_statistics_and_use_of_open_research_practices_Five_years_later](https://www.researchgate.net/publication/364374923_The_influence_of_journal_submission_guidelines_on_authors'_reporting_of_statistics_and_use_of_open_research_practices_Five_years_later)
-
--          <https://www.nature.com/articles/s41562-023-01749-9> extreme Erhöhung von Replikationsrate durch neue Methoden in kleienr Stichprobe von Phänomenen
-
--          <https://www.nature.com/articles/s44271-023-00003-2> positive structural, procedural, and community changes
-
--          Neue Meinung zu OS Praktiken: <https://www.researchgate.net/publication/373685253_Survey_of_open_science_practices_and_attitudes_in_the_social_sciences>
-
--          Meta-Wissenschaftliche Evaluation von neuen Methoden
-
-o   Bisherige Vorschläge sind zum Teil intuitiv und nicht ausführlich geprüft <https://journals.sagepub.com/doi/10.1177/10892680241235120>; manche der Intuitionen sind auch falsch (z.B. wichtig ist nur, was replizierbar ist)
-
-o   Initial evidence registerd reports
-
-o   Nosek 2023 paper (protzko?)
-
-o   Hilft Preregistration gegen p-hacking? <https://ideas.repec.org/p/zbw/i4rdps/101.html>
-
--          Strikte Normen könnten Flexibilität verringern und Offenheit und Innovationspotenziale einschränken
-
-o   Anfänglich unplausible Hypothesen sollten nicht direkt verworfen werden, manchmal führt auch eine Beharrungstendenz von Wissenschaftler\*innen dazu, dass sich neue, anfänglich unplausible Theorien, durchsetzen (<https://journals.sagepub.com/doi/10.1177/10892680241235120>)
+Ich hoffe, dass die Kapitel zu den Lösungen klar gemacht haben, dass es kein Problem gibt, für dass es nicht mindestens einen Lösungsvorschlag gibt und dass diese bereits vielfältig umgesetzt werden [@Korbmacher.2023]. Beispielsweise wurden für Replikationsforschung Leitfäden erarbeitet und Replikationen werden seltener als persönliche Attacken und mehr als sinnvolles Werkzeug angesehen [@Nosek2022-zg]. Strengere Vorgaben bei Berichten statistischer Tests haben sich deutlich auf deren Nachvollziehbarkeit ausgewirkt [@Giofre2023-jt], Präregistrierungen haben P-Hacking reduziert [@brodeur2024preregistration], und vereinzelt konnten mit modernen Methoden extrem hohe Replikationsraten erreicht werden [@Protzko.2023]. Wie Forschende diese Ansätze nutzen, ist zwischen 2010 und 2020 von 49% auf 87% stark angestiegen [@Ferguson2023-qh].
 
 ### Was ist noch zu tun?
+
+Bei vielen Disziplinen ist die aktive Auseinandersetzung mit Open Science noch ausstehend. Während Sozial- und Persönlichkeitspsychologie unter den Sozialwissenschaftlern eine Vorreiterrolle spielen, hat die Auseinandersetzung in der Konsumentenpsychologie gerade erst begonnen. Um Argumente mehr als nur intuitiv sinnvoll zu führen, ist eine meta-wissenschaftliche Evaluation der neuen Methoden unabdingbar [@Phaf2024-dl; @Soderberg.2021]
+
+o   Anfänglich unplausible Hypothesen sollten nicht direkt verworfen werden, manchmal führt auch eine Beharrungstendenz von Wissenschaftler\*innen dazu, dass sich neue, anfänglich unplausible Theorien, durchsetzen (<https://journals.sagepub.com/doi/10.1177/10892680241235120>)
 
 Wissenschaft zeigt, dass Selbstkorrekturprozesse existieren, Replikationskrise ist allerdings noch nicht annähernd überwunden
 
@@ -127,23 +103,21 @@ o    
 
 ### Was geschieht jetzt gerade?
 
-This is not final. Netherlands reports of scientific misconduct Stay up to date
+Die hier diskutierten Ideen und Befunde sind ein aktueller Schnappschuss eines dynamischen Diskurses. Mehr und mehr Universitäten gründen Zentren für Open Science und setzen sich mit den dazugehörigen Themen auseiannder. Im Rahmen eines Schwerpunktprogramms zu Meta-Wissenschaft und Replizierbarkeit werden von der LMU München aus Forschungsprojekte gefördert. Das amerikanische Center for Open Science arbeitet an zahlreichen Projekten, und im Rahmen der europäischen FORRT-Initiative werden Projekte und Teams organisiert. Es ist nun nur noch eine Frage der Zeit, bis sich alle Forschenden der Probleme und Lösungsansätze bewusst sind und sich an der Verbesserung von Wissenschaft beteiligen.
 
-\- pscyh methods discussion group
+#### Weiterführende Informationen
 
-\- open science initiatives (Germany: NOSI)
+-   Über aktuelle Neuigkeiten zu Fehler in der Forschung berichtet Retractionwatch: https://retractionwatch.com
 
-\- Retrationwatch blog
+-   Forschende für Vorträge und Workshops zum Thema Open Science vermittelt das deutsche Netzwerk der Open-Science Initiativen: https://osf.io/tbkzh/wiki/home/
 
-\- FORRT
+-   Eine Einführung in das Thema Open Sciencef ür Studierende (englisch) bieten @pennington2023student und @chambers2017seven.
 
-\- Institutionalisierung von Open Science im Rahmen von dafür zuständigen Personen in Universitäten (MüCOS!)
+-   Ein deutsches Glossar mit Open Science Begriffen ist online via FORRT verfügbar: https://forrt.org/glossary/german/
 
 ## Literaturempfehlungen
 
 ·         Chris Chambers Buch <https://doi.org/10.2307/j.ctvc779w5>
-
-·         Charlotte Pennington Buch, hier ein Kapitel: <https://osf.io/preprints/psyarxiv/2tqep>
 
 ·         Matters of Significance <https://discovery.ucl.ac.uk/id/eprint/10186829/1/Matters-of-Significance.pdf>
 

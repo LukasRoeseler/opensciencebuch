@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -323,39 +343,79 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Theorien übernehmen in der Wissenschaft oft die Funktion eines Wegweisers. Durch sie lässt sich einschätzen, wie die Ergebnisse einer Untersuchung aussehen, bevor sie durchgeführt werden. Falls die Ergebnisse also nicht wie erwartet sind, zum Beispiel wenn eine Replikation fehlschlägt, besteht der Verdacht, die Theorie könnte falsch oder unvollständig sein. In der Psychologie, in welcher Theorien häufig in Alltagssprache und nicht formalisiert (also als mathematische Formeln) notiert werden, ist der Sinn von formalen Varianten schon lange diskutiert (REF<a href="#_msocom_1">[LR1]</a>&nbsp;, REF<a href="#_msocom_2">[LR2]</a>&nbsp;, REF<a href="#_msocom_3">[LR3]</a>&nbsp;) und Replikationsfehlschläge werden darauf zurückgeführt, dass die Theorien zu unpräzise, missverständlich, und nicht gut ausgearbeitet sind. Es herrscht das Motto, Theorien seien wie Zahnbürsten und man solle niemals die von jemand anderem nehmen (REF<a href="#_msocom_4">[LR4]</a>&nbsp;). Daran, dass das Problem seit Jahrzehnten beschrieben wird, hat sich wenig geändert (REF<a href="#_msocom_5">[LR5]</a>&nbsp;, REF<a href="#_msocom_6">[LR6]</a>&nbsp;). Inzwischen gibt es jedoch Bemühungen, das Problem auch zu lösen (REF<a href="#_msocom_7">[LR7]</a>&nbsp;, REF<a href="#_msocom_8">[LR8]</a>&nbsp;), beispielsweise durch das herausstellen der Vorteile von bekannten formalen Theorien (REF<a href="#_msocom_9">[LR9]</a>&nbsp;<a href="#_msocom_10">[LR10]</a>&nbsp;), Entwicklung von Werkzeugen zur Formalisierung von Theorien (<a href="https://www.theorymaps.org" class="uri">https://www.theorymaps.org</a>), oder durch einzelne Forschende. Der Wert von Replikationsstudien wird im Rahmen der „Theorie-Krise” darin gesehen, dass nur durch wiederholte Untersuchung festgestellt werden kann, unter welchen Bedingungen ein bestimmtes Phänomen nachweisbar ist (z.B. REF<a href="#_msocom_11">[LR11]</a>&nbsp;).</p>
+<p>Theorien übernehmen in der Wissenschaft oft die Funktion eines Wegweisers. Durch sie lässt sich einschätzen, wie die Ergebnisse einer Untersuchung aussehen, bevor sie durchgeführt werden. Falls die Ergebnisse also nicht wie erwartet sind, zum Beispiel wenn eine Replikation fehlschlägt, besteht der Verdacht, die Theorie könnte falsch oder unvollständig sein. In der Psychologie, in welcher Theorien häufig in Alltagssprache und nicht formalisiert (also als mathematische Formeln) notiert werden, ist der Sinn von formalen Varianten schon lange diskutiert <span class="citation" data-cites="Meehl.2004 platt1964strong Wilcox2024-kx">(<a href="#ref-Meehl.2004" role="doc-biblioref">Meehl 2004</a>; <a href="#ref-platt1964strong" role="doc-biblioref">Platt 1964</a>; <a href="#ref-Wilcox2024-kx" role="doc-biblioref">Wilcox and Rousselet 2024</a>)</span> und Replikationsfehlschläge werden darauf zurückgeführt, dass die Theorien zu unpräzise, missverständlich, und nicht gut ausgearbeitet sind. Es herrscht das Motto, Theorien seien wie Zahnbürsten und man solle niemals die von jemand anderem nehmen. Daran, dass das Problem seit Jahrzehnten beschrieben wird, hat sich wenig geändert <span class="citation" data-cites="Lakens.2023 Muthukrishna.2019">(<a href="#ref-Lakens.2023" role="doc-biblioref">Lakens 2023</a>; <a href="#ref-Muthukrishna.2019" role="doc-biblioref">Muthukrishna and Henrich 2019</a>)</span>. Inzwischen gibt es jedoch Bemühungen, das Problem auch zu lösen <span class="citation" data-cites="ap2024replication Erkan2023-bf">(<a href="#ref-ap2024replication" role="doc-biblioref">Sion and Earp 2024</a>; <a href="#ref-Erkan2023-bf" role="doc-biblioref">Erkan and Devezer 2023</a>)</span>, beispielsweise durch das herausstellen der Vorteile von bekannten formalen Theorien <span class="citation" data-cites="Robinaugh.2021">(<a href="#ref-Robinaugh.2021" role="doc-biblioref">Robinaugh et al. 2021</a>)</span>, Entwicklung von Werkzeugen zur Formalisierung von Theorien (<a href="https://www.theorymaps.org" class="uri">https://www.theorymaps.org</a>), oder durch einzelne Forschende. Der Wert von Replikationsstudien wird im Rahmen der „Theorie-Krise” darin gesehen, dass nur durch wiederholte Untersuchung festgestellt werden kann, unter welchen Bedingungen ein bestimmtes Phänomen nachweisbar ist <span class="citation" data-cites="Erkan2023-bf">(<a href="#ref-Erkan2023-bf" role="doc-biblioref">Erkan and Devezer 2023</a>)</span>.</p>
 <section id="spezifizierung-und-formalisierung" class="level3" data-number="16.0.1">
 <h3 data-number="16.0.1" class="anchored" data-anchor-id="spezifizierung-und-formalisierung"><span class="header-section-number">16.0.1</span> Spezifizierung und Formalisierung</h3>
-<p>Das Problem einer Theorie in Alltagssprache lässt sich wie folgt veranschaulichen: REF<a href="#_msocom_12">[LR12]</a>&nbsp; versuchten, eine Studie zur Facial Feedback Hypothese zu replizieren. Die Hypothese besagt, dass Personen, wenn sie einen Stift so im Mund halten, dass dabei diejenigen Muskeln beansprucht werden, die auch beim Grinsen genutzt werden, Dinge lustiger finden, als wenn sie den Stift anders im Mund halten. Damit geprüft werden konnte, ob Versuchspersonen ihre Stifte richtig in den Mund nahmen, wurden sie in der Replikationsstudie gefilmt. Das war in der Originalstudie nicht der Fall. Die Replikationsstudien schlugen fehl und der Unterschied der Kamera wurde von den Autoren der Originalstudie als Grund genannt, weshalb die Replikation fehlschlug (REF<a href="#_msocom_13">[LR13]</a>&nbsp;). Ob und wie die Präsenz einer Kamera in dem Versuchsaufbau relevant ist, war nicht Teil der Theorie beziehungsweise Hypothese. Durch die Formulierung der Theorie in gewöhnlicher Sprache können unendlich viele solcher „Post Hoc” Erklärungen in die Diskussion eingebracht werden, die jegliche Replikationsfehlschläge relativieren. Bei einer formalen Theorie sind solche Missverständnisse seltener.</p>
-<p>Aus dem Problem, dass Theorien schwer verständlich und wenig informativ sind, folgt die Tatsache, dass die meisten Theorien nie falsifiziert werden, aber auch nicht weiter untersucht werden („Zombie-Theorien”, REF<a href="#_msocom_14">[LR14]</a>&nbsp;). Ähnlich verhält es sich mit psychologischen Skalen, bei denen die meisten nur einmal verwendet werden (REF<a href="#_msocom_15">[LR15]</a>&nbsp;). Flexible Theorien vereinfachen außerdem das p-Hacking: In der Theorie ist keine Vorgabe zum Aufbereiten der Daten, also kann diejenige Variante gewählt werden, die die Theorie bestätigt (REF<a href="#_msocom_16">[LR16]</a>&nbsp;).</p>
+<p>Das Problem einer Theorie in Alltagssprache lässt sich wie folgt veranschaulichen: <span class="citation" data-cites="Wagenmakers.2016">Wagenmakers et al. (<a href="#ref-Wagenmakers.2016" role="doc-biblioref">2016</a>)</span> versuchten, eine Studie zur Facial Feedback Hypothese zu replizieren. Die Hypothese besagt, dass Personen, wenn sie einen Stift so im Mund halten, dass dabei diejenigen Muskeln beansprucht werden, die auch beim Grinsen genutzt werden, Dinge lustiger finden, als wenn sie den Stift anders im Mund halten. Damit geprüft werden konnte, ob Versuchspersonen ihre Stifte richtig in den Mund nahmen, wurden sie in der Replikationsstudie gefilmt. Das war in der Originalstudie nicht der Fall. Die Replikationsstudien schlugen fehl und der Unterschied der Kamera wurde von den Autoren der Originalstudie als Grund genannt, weshalb die Replikation fehlschlug <span class="citation" data-cites="Strack.2016">(<a href="#ref-Strack.2016" role="doc-biblioref">Strack 2016</a>)</span>. Ob und wie die Präsenz einer Kamera in dem Versuchsaufbau relevant ist, war nicht Teil der Theorie beziehungsweise Hypothese. Durch die Formulierung der Theorie in gewöhnlicher Sprache können unendlich viele solcher „Post Hoc” Erklärungen in die Diskussion eingebracht werden, die jegliche Replikationsfehlschläge relativieren. Bei einer formalen Theorie sind solche Missverständnisse seltener.</p>
+<p>Aus dem Problem, dass Theorien schwer verständlich und wenig informativ sind, folgt die Tatsache, dass die meisten Theorien nie falsifiziert werden, aber auch nicht weiter untersucht werden („Zombie-Theorien”, <span class="citation" data-cites="Ferguson.2012">Ferguson and Heene (<a href="#ref-Ferguson.2012" role="doc-biblioref">2012</a>)</span>). Ähnlich verhält es sich mit psychologischen Skalen, bei denen die meisten nur einmal verwendet werden <span class="citation" data-cites="Elson.2023">(<a href="#ref-Elson.2023" role="doc-biblioref">Elson et al. 2023</a>)</span>. Flexible Theorien vereinfachen außerdem das p-Hacking: In der Theorie ist keine Vorgabe zum Aufbereiten der Daten, also kann diejenige Variante gewählt werden, die die Theorie bestätigt <span class="citation" data-cites="Van_den_Akker2022-gz">(<a href="#ref-Van_den_Akker2022-gz" role="doc-biblioref">Van den Akker et al. 2022</a>)</span>.</p>
 </section>
 <section id="gegnerische-kollaborationen" class="level3" data-number="16.0.2">
 <h3 data-number="16.0.2" class="anchored" data-anchor-id="gegnerische-kollaborationen"><span class="header-section-number">16.0.2</span> Gegnerische Kollaborationen</h3>
-<p>Ein Ansatz, bei dem verhindert werden soll, dass uninformative Studien durchgeführt werden und sich Diskussionen auf Verstehensweisen von Theorien fokussieren, sind gegnerische Kollaborationen (adversarial collaborations, REF<a href="#_msocom_17">[LR17]</a>&nbsp;). Dabei arbeiten Vertreter*innen von zwei inkompatiblen Standpunkten miteinander und erstellen beispielsweise eine Studie, die den Konflikt beilegen soll (z.B. REF<a href="#_msocom_18">[LR18]</a>&nbsp;, REF<a href="#_msocom_19">[LR19]</a>&nbsp;).</p>
-<p>&nbsp;<a href="#_msoanchor_1">[LR1]</a>meehl</p>
-<p>&nbsp;<a href="#_msoanchor_2">[LR2]</a>Severe testing(?) platt 1984</p>
-<p>&nbsp;<a href="#_msoanchor_3">[LR3]</a><a href="https://doi.org/10.31219/osf.io/9amhe" class="uri">https://doi.org/10.31219/osf.io/9amhe</a></p>
-<p>&nbsp;<a href="#_msoanchor_4">[LR4]</a>Herkunft des zitates rausfinden</p>
-<p>&nbsp;<a href="#_msoanchor_5">[LR5]</a>Two crises lakens</p>
-<p>&nbsp;<a href="#_msoanchor_6">[LR6]</a>muthukrishna</p>
-<p>&nbsp;<a href="#_msoanchor_7">[LR7]</a>https://www.researchgate.net/publication/378966795_Replication_and_Theory_Development_in_the_Social_and_Psychological_Sciences</p>
-<p>&nbsp;<a href="#_msoanchor_8">[LR8]</a><a href="https://www.researchgate.net/publication/375305901_Tension_Between_Theory_and_Practice_of_Replication" class="uri">https://www.researchgate.net/publication/375305901_Tension_Between_Theory_and_Practice_of_Replication</a></p>
-<p>&nbsp;<a href="#_msoanchor_9">[LR9]</a>Formal theories paper mit angst, partnerschaft</p>
-<p>&nbsp;<a href="#_msoanchor_10">[LR10]</a>Robinaugh, D. J., Haslbeck, J. M., Ryan, O., Fried, E. I., &amp; Waldorp, L. J. (2021). Invisible hands and fine calipers: A call to use formal theory as a toolkit for theory construction.&nbsp;<em>Perspectives on Psychological Science</em>,&nbsp;<em>16</em>(4), 725-743.</p>
-<p>&nbsp;<a href="#_msoanchor_11">[LR11]</a><a href="https://journal.trialanderror.org/pub/tension-between-theory/release/1" class="uri">https://journal.trialanderror.org/pub/tension-between-theory/release/1</a></p>
-<p>&nbsp;<a href="#_msoanchor_12">[LR12]</a>replication facial feedback</p>
-<p>&nbsp;<a href="#_msoanchor_13">[LR13]</a>antwort auf RRR facial feedback</p>
-<p>&nbsp;<a href="#_msoanchor_14">[LR14]</a>Ferguson, C. J., &amp; Heene, M. (2012). A vast graveyard of undead theories: Publication bias and psychological science’s aversion to the null.&nbsp;<em>Perspectives on Psychological Science</em>,&nbsp;<em>7</em>(6), 555-561.</p>
-<p>&nbsp;<a href="#_msoanchor_15">[LR15]</a>Elson, M., Hussey, I., Alsalti, T., &amp; Arslan, R. C. (2023). Psychological measures aren’t toothbrushes.&nbsp;<em>Communications Psychology</em>,&nbsp;<em>1</em>(1), 25.</p>
-<p>&nbsp;<a href="#_msoanchor_16">[LR16]</a>https://www.researchgate.net/publication/364419271_Selective_Hypothesis_Reporting_in_Psychology_Comparing_Preregistrations_and_Corresponding_Publications</p>
-<p>&nbsp;<a href="#_msoanchor_17">[LR17]</a>Cleeremans, A. (2022). Theory as adversarial collaboration.&nbsp;<em>Nature Human Behaviour</em>,&nbsp;<em>6</em>(4), 485-486.</p>
-<p>&nbsp;<a href="#_msoanchor_18">[LR18]</a>Mellers, B., Hertwig, R., &amp; Kahneman, D. (2001). Do frequency representations eliminate conjunction effects? An exercise in adversarial collaboration.&nbsp;<em>Psychological Science</em>,&nbsp;<em>12</em>(4), 269-275.</p>
-<p>&nbsp;<a href="#_msoanchor_19">[LR19]</a>Cowan, N., Belletier, C., Doherty, J. M., Jaroslawska, A. J., Rhodes, S., Forsberg, A., ... &amp; Logie, R. H. (2020). How do scientific views change? Notes from an extended adversarial collaboration.&nbsp;<em>Perspectives on Psychological Science</em>,&nbsp;<em>15</em>(4), 1011-1025.</p>
+<p>Ein Ansatz, bei dem verhindert werden soll, dass uninformative Studien durchgeführt werden und sich Diskussionen auf Verstehensweisen von Theorien fokussieren, sind gegnerische Kollaborationen (adversarial collaborations, <span class="citation" data-cites="cleeremans2022theory">Cleeremans (<a href="#ref-cleeremans2022theory" role="doc-biblioref">2022</a>)</span>). Dabei arbeiten Vertreter*innen von zwei inkompatiblen Standpunkten miteinander und erstellen beispielsweise eine Studie, die den Konflikt beilegen soll <span class="citation" data-cites="Cowan.2020 mellers2001frequency">(<a href="#ref-Cowan.2020" role="doc-biblioref">Cowan et al. 2020</a>; <a href="#ref-mellers2001frequency" role="doc-biblioref">Mellers, Hertwig, and Kahneman 2001</a>)</span>.</p>
+<section id="weiterführende-informationen" class="level4" data-number="16.0.2.1">
+<h4 data-number="16.0.2.1" class="anchored" data-anchor-id="weiterführende-informationen"><span class="header-section-number">16.0.2.1</span> Weiterführende Informationen</h4>
+<ul>
+<li><span class="citation" data-cites="Trafimow2016-ol">Trafimow and Earp (<a href="#ref-Trafimow2016-ol" role="doc-biblioref">2016</a>)</span> beschreiben, wie Replikationen auch ohne Theorie möglich sind.</li>
+</ul>
+</section>
 </section>
 <section id="literatur" class="level3" data-number="16.0.3">
 <h3 data-number="16.0.3" class="anchored" data-anchor-id="literatur"><span class="header-section-number">16.0.3</span> Literatur</h3>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-cleeremans2022theory" class="csl-entry" role="listitem">
+Cleeremans, Axel. 2022. <span>“Theory as Adversarial Collaboration.”</span> <em>Nature Human Behaviour</em> 6 (4): 485–86.
+</div>
+<div id="ref-Cowan.2020" class="csl-entry" role="listitem">
+Cowan, Nelson, Clément Belletier, Jason M. Doherty, Agnieszka J. Jaroslawska, Stephen Rhodes, Alicia Forsberg, Moshe Naveh-Benjamin, Pierre Barrouillet, Valérie Camos, and Robert H. Logie. 2020. <span>“How Do Scientific Views Change? Notes from an Extended Adversarial Collaboration.”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 15 (4): 1011–25. <a href="https://doi.org/10.1177/1745691620906415">https://doi.org/10.1177/1745691620906415</a>.
+</div>
+<div id="ref-Elson.2023" class="csl-entry" role="listitem">
+Elson, Malte, Ian Hussey, Taym Alsalti, and Ruben C. Arslan. 2023. <span>“Psychological Measures Aren’t Toothbrushes.”</span> <em>Communications Psychology</em> 1 (1). <a href="https://doi.org/10.1038/s44271-023-00026-9">https://doi.org/10.1038/s44271-023-00026-9</a>.
+</div>
+<div id="ref-Erkan2023-bf" class="csl-entry" role="listitem">
+Erkan, Buzbas, and Berna Devezer. 2023. <span>“Tension Between Theory and Practice of Replication.”</span> <em>J. Trial Error</em> 4 (1): 73–81.
+</div>
+<div id="ref-Ferguson.2012" class="csl-entry" role="listitem">
+Ferguson, Christopher J., and Moritz Heene. 2012. <span>“A Vast Graveyard of Undead Theories: Publication Bias and Psychological Science’s Aversion to the Null.”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 7 (6): 555–61. <a href="https://doi.org/10.1177/1745691612459059">https://doi.org/10.1177/1745691612459059</a>.
+</div>
+<div id="ref-Lakens.2023" class="csl-entry" role="listitem">
+Lakens, Daniel. 2023. <span>“Concerns about Replicability, Theorizing, Applicability, Generalizability, and Methodology Across Two Crises in Social Psychology.”</span> <a href="https://doi.org/10.31234/osf.io/dtvs7">https://doi.org/10.31234/osf.io/dtvs7</a>.
+</div>
+<div id="ref-Meehl.2004" class="csl-entry" role="listitem">
+Meehl, Paul E. 2004. <span>“Theoretical Risks and Tabular Asterisks: Sir Karl, Sir Ronald, and the Slow Progress of Soft Psychology.”</span> <em>Applied and Preventive Psychology</em> 11 (1): 1. <a href="https://doi.org/10.1016/j.appsy.2004.02.001">https://doi.org/10.1016/j.appsy.2004.02.001</a>.
+</div>
+<div id="ref-mellers2001frequency" class="csl-entry" role="listitem">
+Mellers, Barbara, Ralph Hertwig, and Daniel Kahneman. 2001. <span>“Do Frequency Representations Eliminate Conjunction Effects? An Exercise in Adversarial Collaboration.”</span> <em>Psychological Science</em> 12 (4): 269–75.
+</div>
+<div id="ref-Muthukrishna.2019" class="csl-entry" role="listitem">
+Muthukrishna, Michael, and Joseph Henrich. 2019. <span>“A Problem in Theory.”</span> <em>Nature Human Behaviour</em> 349 (Suppl 1): aac4716. <a href="https://doi.org/10.1038/s41562-018-0522-1">https://doi.org/10.1038/s41562-018-0522-1</a>.
+</div>
+<div id="ref-platt1964strong" class="csl-entry" role="listitem">
+Platt, John R. 1964. <span>“Strong Inference: Certain Systematic Methods of Scientific Thinking May Produce Much More Rapid Progress Than Others.”</span> <em>Science</em> 146 (3642): 347–53.
+</div>
+<div id="ref-Robinaugh.2021" class="csl-entry" role="listitem">
+Robinaugh, Donald J., Jonas M. B. Haslbeck, Oisín Ryan, Eiko I. Fried, and Lourens J. Waldorp. 2021. <span>“Invisible Hands and Fine Calipers: A Call to Use Formal Theory as a Toolkit for Theory Construction.”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 16 (4): 725–43. <a href="https://doi.org/10.1177/1745691620974697">https://doi.org/10.1177/1745691620974697</a>.
+</div>
+<div id="ref-ap2024replication" class="csl-entry" role="listitem">
+Sion, Tomos G ap, and Brian D Earp. 2024. <span>“Replication and Theory Development in the Social and Psychological Sciences.”</span>
+</div>
+<div id="ref-Strack.2016" class="csl-entry" role="listitem">
+Strack, Fritz. 2016. <span>“Reflection on the Smiling Registered Replication Report.”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 11 (6): 929–30. <a href="https://doi.org/10.1177/1745691616674460">https://doi.org/10.1177/1745691616674460</a>.
+</div>
+<div id="ref-Trafimow2016-ol" class="csl-entry" role="listitem">
+Trafimow, David, and Brian D Earp. 2016. <span>“Badly Specified Theories Are Not Responsible for the Replication Crisis in Social Psychology: Comment on Klein.”</span> <em>Theory Psychol.</em> 26 (4): 540–48.
+</div>
+<div id="ref-Van_den_Akker2022-gz" class="csl-entry" role="listitem">
+Van den Akker, Olmo, Marcel A L M van Assen, Manon Enting, M de Jonge, How Hwee Ong, Franziska Frauke Rüffer, Martijn Schoenmakers, Andrea Helena Stoevenbelt, Jelte M Wicherts, and Marjan Bakker. 2022. <span>“Selective Hypothesis Reporting in Psychology: Comparing Preregistrations and Corresponding Publications.”</span> <em>BITSS</em>.
+</div>
+<div id="ref-Wagenmakers.2016" class="csl-entry" role="listitem">
+Wagenmakers, Eric-Jan, Titia Beek, Laura Dijkhoff, Quentin F. Gronau, Alberto Acosta, Reginald B. Adams, Daniel N. Albohn, et al. 2016. <span>“Registered Replication Report: Strack, Martin, <span>&amp;</span> Stepper (1988).”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 11 (6): 917–28. <a href="https://doi.org/10.1177/1745691616674458">https://doi.org/10.1177/1745691616674458</a>.
+</div>
+<div id="ref-Wilcox2024-kx" class="csl-entry" role="listitem">
+Wilcox, Rand R, and Guillaume A Rousselet. 2024. <span>“More Reasons Why Replication Is a Difficult Issue.”</span>
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
