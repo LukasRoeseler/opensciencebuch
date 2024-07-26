@@ -120,6 +120,8 @@ o   Institute for Replication (I4R)
 
 o   Open Code wird seitens Zeitschriften und zukünftig eventuell auch für den Abschluss von Datennutzungsverträgen mit Panels nötig (SOEP hat zB nur 20% open code, <https://www.wifa.uni-leipzig.de/fileadmin/Fakultät_Wifa/Institut_für_Theoretische_Volkswirtschaftslehre/Professur_Makroökonomik/Economics_Research_Seminar/ERS-Paper_Marcus.pdf>)
 
+Empfehlungen einer Zeitschrift für "push-button-replications" (reproduzierbarkeit): https://www.3ieimpact.org/blogs/whats-deal-push-button-replications
+
 ### Robustness checks
 
 -          Multiverse analysis <https://www.researchgate.net/publication/367204012_EEGManyPipelines_A_large-scale_grass-root_multi-analyst_study_of_EEG_analysis_practices_in_the_wild>
@@ -306,7 +308,7 @@ Daten automatisch anonymisieren lassen mit [AMNESIA](https://amnesia.openaire.eu
 
 -          <https://www.researchgate.net/publication/375575020_Preregistration_in_practice_A_comparison_of_preregistered_and_non-preregistered_studies_in_psychology>
 
--          High replicability neues project <https://www.nature.com/articles/s41562-023-01749-9>
+-          High replicability neues project <https://www.nature.com/articles/s41562-023-01749-9> \[hierzu Infobox, dass es umstritten ist, weil sie intransparent von der Präregistrierung abgewichen sind\]
 
 -          Prävalenz: <https://datacolada.org/115>
 

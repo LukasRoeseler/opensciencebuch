@@ -71,7 +71,7 @@ Um zu prüfen, ob die Urteile im Begutachtungsprozess zwischen den Urteilenden �
 Seit der Auseinandersetzung Forschender mit dem Begutachtungssystem wird darüber hinaus diskutiert, was mit Gutachten passiert: Traditionell bleiben sie unter Verschluss. In der Fachzeitschrift erscheint der finale Artikel und alle vorherigen Versionen sind nur Autor*innen,* Herausgeber*in,* und Gutachter\*innen bekannt. Diese bleiben zudem meistens anonym, das heißt, wenn sie sich keine Mühe gegeben haben, wird es wahrscheinlich nie auffallen. Außerdem haben Forschende keinen Anreiz, Gutachten zu verfassen - höchstens erhalten sie einen Nachweis, dass sie ein Manuskript bei einer Zeitschrift begutachtet haben. Einige Zeitschriften haben inzwischen das *Open Peer Review* eingeführt. Der Name passt nur halb, denn veröffentlicht werden Gutachten nur dann, wenn der Artikel bei der Zeitschrift akzeptiert wird. Das birgt die Gefahr, dass schwerwiegende Probleme, welche für eine Ablehnung üblicherweise nötig sind, nicht ans Licht kommen. Forschende können den Artikel dann ohne Überarbeitung bei einer anderen Zeitschrift einreichen, wo die Probleme vielleicht nicht entdeckt werden. Dieses Vorgehen führt zu Doppelarbeit und enormen Kosten [@aczel2021billion]. Zoltan Kekecs merkte dazu bei einer Diskussion im Rahmen einer Konferenz an, dass selbst Kasinos, die in Konkurrenz zueinander stehen, Listen von Betrüger*innen miteinander austauschen. Herausgeber*innen von Zeitschriften tun das noch nicht.
 
 | Gutachten bleiben unter Verschluss                   | Gutachten werden bei Publikation veröffentlicht                                                                      | Gutachten werden bei Publikation und Ablehnung veröffentlicht |
-|------------------|----------------------------------|-------------------|
+|------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | Es ist kein Nachweis der Qualitätskontrolle möglich. | Abgelehnte Artikel können bei anderen Zeitschriften ohne Überarbeitung eingereicht werden und führen zu Mehraufwand. | Qualitätskontrolle ist nachvollziehbar und transparent.       |
 
 Umstrittener als die Veröffentlichung von Gutachten ist die Anonymität der Gutachter*innen: Der Standard ist, dass Gutachten anonym sind, aber bei Wunsch unterzeichnet werden können. Promovierende, die einen Artikel eines potenziellen zukünftigen Chefs oder einer zukünftigen Chefin schlecht beurteilen, werden dadurch geschützt. Selbst Professor*innen können bei negativen Beurteilungen riskieren, dass der oder die Kollegin später einen Forschungsgelderantrag von ihnen begutachtet und sich für die Kritik rächt. Auf der anderen Seite kann Anonymität zur Folge haben, dass Kritik gegen die Person gerichtet ist und nicht konstruktiv ist.
@@ -391,7 +391,7 @@ Der einfachste Weg ist dabei, den Ergebnisteil einfach zu schwärzen oder wegzul
 
 #### Registered Report
 
-![*Klassisches Vorgehen beim Forschen und Veröffentlichen im Vergleich mit Registered Reports: Bei letzterem wird bereits der Studienplan (für gewöhnlich in Form eines unvollständigen Berichtes) begutachtet und revidiert. Eine Ablehnung im zweiten Peer Review aufgrund der Ergebnisse ist nicht möglich.*](images/peerreview.jpg){alt="Klassischer Forschungsprozess im Vergleich zu Registered Reports mit zusätzlicher Begutachtung vor der Studiendurchführung"}
+![Klassischer Forschungsprozess im Vergleich zu Registered Reports mit zusätzlicher Begutachtung vor der Studiendurchführung](images/peerreview.jpg)
 
 Ein radikalerer Ansatz als die Begutachtung ohne Ergebnisteil ist die Begutachtung des Artikels, ohne dass Ergebnisse überhaupt existieren. Dieses Format heißt *Registered Report*. Dabei wird das Manuskript mit der zu prüfenden Theorie, Methodik, und dem Analyseplan bei der Zeitschrift eingereicht, ohne dass überhaupt Daten erhoben wurden. Kommt es zur Akzeptanz dieses „halbfertigen" Artikels (*in principle acceptance*), werden die Daten gesammelt, wie geplant ausgewertet, und es folgt eine weitere Begutachtungsrunde. Hierbei ist vorgeschrieben, dass die Autor\*innen nichts an den bereits verfassten Teilen verändern dürfen und die Gutachter\*innen im Nachhinein keine Kritik am bereits geprüften Vorgehen üben dürfen. Es geht nur noch darum, ob der Plan eingehalten wurde und ob die Schlussfolgerungen auf den geplanten Analysen fußen. Damit soll verhindert werden, dass Artikel abgelehnt werden, weil die Ergebnisse nicht spannend genug, innovativ genug, oder den Erwartungen entsprechend sind. Erste Untersuchungen können bereits nachweisen, dass sich damit die Qualität der Forschung gegenüber dem traditionellen Vorgehen verbessert [@Soderberg.2021]. Eine Übersicht über Zeitschriften, die dieses Format anbieten ist online verfügbar (<https://www.cos.io/initiatives/registered-reports> à Participating Journals; @Chambers.; @chambers2022past).  Ebenfalls wird dadurch deutlich, dass Forschung einem massiven Publikationsbias unterliegt (d.h. es werden vor allem Studien veröffentlicht, die ihre Vermutungen bestätigen konnten und kaum Studien, in denen das nicht geschah): @Scheel2021 zeigten, dass der Anteil erwartungskonformer Ergebnisse bei Registered Reports mit 44% deutlich unter den in der Psychologie üblichen 96% liegt.
 
@@ -406,7 +406,7 @@ Je nach Fach haben unterschiedlich viele Zeitschriften mit PCI Initiativen Verei
 *Zusammenfassung der verschiedenen Begutachtungsmodelle und der jeweiligen Art des Umgangs mit den Forschungsergebnissen*
 
 |                                              |                                                                      |
-|-----------------------------|-------------------------------------------|
+|----------------------------------------------|----------------------------------------------------------------------|
 | **Begutachtungsprozedur**                    | **Ausblendung der Ergebnisse**                                       |
 | Traditionell                                 | Ergebnisse sind sichtbar und fließen in die Beurteilung ein          |
 | Results-Blind Peer Review                    | Ergebnisse liegen vor, werden den Begutachtenden jedoch vorenthalten |
@@ -518,7 +518,7 @@ Das sind nur kurze Auszüge aus dutzenden Einreichungen und Ablehnungen. Darübe
 
     -   <https://royalsocietypublishing.org/doi/10.1098/rsos.200805#d1e454>
 
--    listen notwendige [\[LR51\]](#_msocom_51) Bedingungen dafür auf, dass „wahre" Befunde replizierbar sein können
+-   listen notwendige [\[LR51\]](#_msocom_51) Bedingungen dafür auf, dass „wahre" Befunde replizierbar sein können
 
 -   
 
@@ -931,7 +931,7 @@ o   Metalab stanford <https://langcog.github.io/metalab/>
 Tabelle aktualisieren (siehe PPT + Metspy.org)
 
 |     |                                 |     |                                                                                             |     |                                       |     |
-|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|-----|---------------------------------|-----|---------------------------------------------------------------------------------------------|-----|---------------------------------------|-----|
 |     |                                 |     |                                                                                             |     |                                       |     |
 |     | **Name**[\[LR54\]](#_msocom_54) |     | **Link**                                                                                    |     | **Topics**                            |     |
 |     |                                 |     |                                                                                             |     |                                       |     |
