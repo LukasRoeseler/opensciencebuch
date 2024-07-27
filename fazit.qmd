@@ -6,49 +6,27 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
-Wissenschaftler\*innen arbeiten unter starkem Druck und das wissenschaftliche System belohnt Sorgfalt und Offenheit kaum. In den Sozialwissenschaften tun sich immer mehr Forschende zusammen, diese Probleme zu lösen. Aus der Vertrauenskrise hervorgehend befindet sich die Psychologie bereits in einer Renaissance. Täglich werden Diskussionen auf persönlicher, institutioneller, und politischer Ebene darüber geführt, wie Wissenschaft betrieben werden sollte. Es ist dabei klar geworden, dass es in der Wissenschaft nicht wie in manch einem ökonomischen Markt eine "unsichtbare Hand" gibt, die dafür sorgt, dass alles ins Gleichgewicht findet - stattdessen sind es die Forschenden, die sich aktiv um die Selbstkorrektur von Wissenschaft bemühen. Bevor jedoch eine Intervention zur Verbesserung von Forschung stattfinden kann, wird zuerst eine Inventur (Wo sind Verbesserungen nötig?) und anschließend eine Beobachtung benötigt. Eine Inventur über Probleme und Lösungsvorschläge biete ich mit diesem Buch an. Es ist nun die Rolle der *Meta-Wissenschaft*, also Wissenschaft über Wissenschaft, zu prüfen, welche Lösungsansätze wie gut funktionieren.
+Wissenschaftler\*innen arbeiten unter starkem Druck und das wissenschaftliche System belohnt Sorgfalt und Offenheit weniger als Innovation und klare Ergebnisse. In den Sozialwissenschaften tun sich immer mehr Forschende zusammen, diese Probleme zu lösen. Aus der Vertrauenskrise hervorgehend befindet sich große Teile der Psychologie bereits in einer Renaissance. Täglich werden Diskussionen auf persönlicher, institutioneller, und politischer Ebene darüber geführt, wie Wissenschaft betrieben werden sollte. Es ist dabei klar geworden, dass es in der Wissenschaft nicht wie in manch einem ökonomischen Markt eine "unsichtbare Hand" gibt, die dafür sorgt, dass alles ins Gleichgewicht findet - stattdessen sind es die Forschenden, die sich aktiv um die Selbstkorrektur von Wissenschaft bemühen. Bevor jedoch eine Intervention zur Verbesserung von Forschung stattfinden kann, wird zuerst eine Inventur (Wo sind Verbesserungen nötig?) und anschließend eine Beobachtung benötigt. Eine Inventur über Probleme und Lösungsvorschläge biete ich mit diesem Buch an. Es ist nun die Rolle der *Meta-Wissenschaft*, also Wissenschaft über Wissenschaft, zu prüfen, welche Lösungsansätze wie gut funktionieren.
 
 ### Was hat sich verbessert?
 
-Ich hoffe, dass die Kapitel zu den Lösungen klar gemacht haben, dass es kein Problem gibt, für dass es nicht mindestens einen Lösungsvorschlag gibt und dass diese bereits vielfältig umgesetzt werden [@Korbmacher.2023]. Beispielsweise wurden für Replikationsforschung Leitfäden erarbeitet und Replikationen werden seltener als persönliche Attacken und mehr als sinnvolles Werkzeug angesehen [@Nosek2022-zg]. Strengere Vorgaben bei Berichten statistischer Tests haben sich deutlich auf deren Nachvollziehbarkeit ausgewirkt [@Giofre2023-jt], Präregistrierungen haben P-Hacking reduziert [@brodeur2024preregistration], und vereinzelt konnten mit modernen Methoden extrem hohe Replikationsraten erreicht werden [@Protzko.2023]. Wie Forschende diese Ansätze nutzen, ist zwischen 2010 und 2020 von 49% auf 87% stark angestiegen [@Ferguson2023-qh].
+Ich hoffe, dass die Kapitel zu den Lösungen klar gemacht haben, dass es kein Problem gibt, für dass es nicht mindestens einen Lösungsvorschlag gibt und dass diese bereits vielfältig umgesetzt werden [@Korbmacher.2023]. Beispielsweise wurden für Replikationsforschung Leitfäden erarbeitet und Replikationen werden seltener als persönliche Attacken und mehr als sinnvolles Werkzeug angesehen [@Nosek2022-zg]. Strengere Vorgaben bei Berichten statistischer Tests haben sich deutlich auf deren Nachvollziehbarkeit ausgewirkt [@Giofre2023-jt], Präregistrierungen haben P-Hacking reduziert [@brodeur2024preregistration], und vereinzelt konnten mit modernen Methoden extrem hohe Replikationsraten erreicht werden [@Protzko.2023]. Wie Forschende in der Psychologie diese Ansätze nutzen, ist zwischen 2010 und 2020 von 49% auf 87% stark angestiegen [@Ferguson2023-qh].
 
 ### Was ist noch zu tun?
 
-Bei vielen Disziplinen ist die aktive Auseinandersetzung mit Open Science noch ausstehend. Während Sozial- und Persönlichkeitspsychologie unter den Sozialwissenschaftlern eine Vorreiterrolle spielen, hat die Auseinandersetzung in der Konsumentenpsychologie gerade erst begonnen. Um Argumente mehr als nur intuitiv sinnvoll zu führen, ist eine meta-wissenschaftliche Evaluation der neuen Methoden unabdingbar [@Phaf2024-dl; @Soderberg.2021]
+Bei vielen Disziplinen ist die aktive Auseinandersetzung mit Open Science noch ausstehend. Während Sozial- und Persönlichkeitspsychologie unter den Sozialwissenschaftlern eine Vorreiterrolle spielen, hat die Auseinandersetzung in der Konsumentenpsychologie oder jenseits der Psychologie in Medizin, Erziehungswissenschaften, oder Soziologie erst vor wenigen Jahren begonnen. Und selbst in der Psychologie gibt es noch große Defizite. Zum Beispiel veröffentlichten nur 34 von 88 Zeitschriften Replikationsstudien mit einem Gesamtanteil von 0.2% an allen veröffentlichten Studien [@clarke2023prevalence].
 
-o   Anfänglich unplausible Hypothesen sollten nicht direkt verworfen werden, manchmal führt auch eine Beharrungstendenz von Wissenschaftler\*innen dazu, dass sich neue, anfänglich unplausible Theorien, durchsetzen (<https://journals.sagepub.com/doi/10.1177/10892680241235120>)
+Allgemein gilt: Um Diskussionen dabei mehr als nur intuitiv sinnvoll zu führen, ist eine meta-wissenschaftliche Evaluation der neuen Methoden unabdingbar [@Phaf2024-dl; @Soderberg.2021]. Es kehrt das Spektrum der möglichen Reaktionen auf Replikationsfehlschläge zurück: Sollte eine Theorie nach einem Replikationsfehlschlag sofort verworfen werden, oder ist das zu radikal und eine Beharrungstendenz von Forschenden könnte helfen, starke Theorien zu etablieren [@phaf2024positive]? Ebenfalls ist eine interdisziplinäre Zusammenarbeit sinnvoll: Beispielsweise würde es viel Arbeit ersparen, wenn Terminologien fächerübergreifend entwickelt werden, statt wie aktuell einzeln (und stark redundant) für Psychologie [@Huffmeier.2016], Geisteswissenschaften [@Schoch.2023], und Marketing [@urminsky2024taking]. In manchen Bereichen ist sogar gänzlich unklar, wie Replikationserfolg aussieht, es lässt sich also kaum beurteilen, ob zwei Studien, die dasselbe untersuchen, zum selben Ergebnis kommen.
 
-Wissenschaft zeigt, dass Selbstkorrekturprozesse existieren, Replikationskrise ist allerdings noch nicht annähernd überwunden
+Open Science wird gelegentlich mit *Open Access* gleichgestellt. Zwar ist Open Science viel mehr als das, allerdings ist die Diskussion um Open Access eine der ältesten und stückweit unabhängig von Problemen wissenschaftlicher Integrität. Das soziale Dilemma, also wie sich Forschende von kommerziellen Verlagen unabhängig machen können, ist weit davon gelöst zu werden. Ob Abkommen zwischen Universitäten und Verlagen (z.B. DEAL Verträge) erfolgreich werden, ist noch ungewiss.
 
--          Lösungen für Strukturelle Probleme erst am Anfang der Umsetzung
+::: callout-warning
+## Open Washing
 
--          Open Access Problematik aktuell mit Momentum, allerdings unklar, ob weitere Jahrzehnte zur Lösung benötigt werden
+Selbst Forschung, die sich mit dem Thema Open Science befasst, hält sich manchmal nicht an die Kriterien, die sie fordert. Beispielsweise steht ein Artikel von Open Science Verfechtern [@Protzko.2023] in der [Kritik](https://statmodeling.stat.columbia.edu/2023/11/21/of-course-its-preregistered-just-give-me-a-sec/), weil sie - ohne transparent darüber zu berichten - von der Präregistrierung abgewichen sind.
+:::
 
--          Änderungsvorschläge müssen wissenschaftlich geprüft werden
-
-o   Interventionen oft sinnvoll, manchmal aufwändig, aber oft ist unklar, wie viel sie bringen (z.B. Präregistrierungen)
-
-o   Selbst Artikel, die sich mit Open Science befassen, halten sich selbst manchmal nicht an die Standards (z.B. REF[\[LR1\]](#_msocom_1) )
-
--          Replikationsraten (Replikationen pro Publikationen) maximal 5%, eher \<1%
-
-o   <https://twitter.com/giladfeldman/status/1735950123291779119>
-
-o   <https://osf.io/preprints/psyarxiv/sa6rc> in Psychologie „54 out of 88 journals did not publish any direct replication articles in the eleven years surveyed" (Abstract)
-
--          Interdisziplinäres Problem erfordert Zusammenarbeit
-
-o   Replikationsdefinitionen wurden zB in Psychologie (Hüffmeier et al.), Digital Humanities (Repetitive Research) und Marketing (<https://doi.org/10.1093/jcr/ucae007>, Table 1) erstellt, sind aber völlig redundant
-
-Policy pyramide[\[LR2\]](#_msocom_2) ?
-
--          Offene thematische Punkte
-
-o   Wie sieht Replizierbarkeit jenseits von Sozialwissenschaften aus? (cognitive, behavioral, social)
-
-o   Welche alternativen Anforderungen bestehen in logisch-formalen und qualitativ/hermeneutischen Disziplinen?
-
-o   Credibility beyond replicability <https://www.researchgate.net/publication/359766772_Credibility_Beyond_Replicability_Improving_the_Four_Validities_in_Psychological_Science>
+### Krieg und Open Science
 
 o   Welche Rolle spielt Open Science bei sich verschließenden Nationen und im Krieg
 
