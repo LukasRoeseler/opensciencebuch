@@ -23,65 +23,28 @@ Open Science wird gelegentlich mit *Open Access* gleichgestellt. Zwar ist Open S
 ::: callout-warning
 ## Open Washing
 
-Selbst Forschung, die sich mit dem Thema Open Science befasst, hält sich manchmal nicht an die Kriterien, die sie fordert. Beispielsweise steht ein Artikel von Open Science Verfechtern [@Protzko.2023] in der [Kritik](https://statmodeling.stat.columbia.edu/2023/11/21/of-course-its-preregistered-just-give-me-a-sec/), weil sie - ohne transparent darüber zu berichten - von der Präregistrierung abgewichen sind.
+Selbst Forschung, die sich mit dem Thema Open Science befasst, hält sich manchmal nicht an die Kriterien, die sie fordert. Beispielsweise steht ein Artikel von Open Science Verfechtern [@Protzko.2023] in der [Kritik](https://statmodeling.stat.columbia.edu/2023/11/21/of-course-its-preregistered-just-give-me-a-sec/), weil dort - ohne transparent darüber zu berichten - von der Präregistrierung abgewichen wurde.
 :::
-
-### Krieg und Open Science
-
-o   Welche Rolle spielt Open Science bei sich verschließenden Nationen und im Krieg
-
-§  Positivistisch: Abtrennung
-
-§  Relationistisch: Die anderen haben eh ein anderes Bild, ihnen hilft das nicht
-
-§  Altruistisch/Idealistisch: Wissenschaft soll der Menschheit helfen und nicht diskriminieren
-
-§  Nationalistisch: Gesellschaft bezahlt Wissenschaft, sie muss auch primär davon profitieren
-
--          Infrastructure (make it possible)
-
-o   Offenheit des gesamten Wissenschaftsprozesses fördern\
-<https://doi.org/10.1371/journal.pbio.3002362>
-
-o   Deal-Gruppe ist damit, Ausbeutung von Wissenschaft durch Großverlage zu stoppen, gescheitert (<https://www.faz.net/aktuell/wissen/forschung-politik/wissenschaftliche-grossverlage-wissenschaftliche-grossverlage-19344181.html>)
-
-o    
-
--          User interface / experience (make it easy)
-
-o   Viele OS Lösungen sehr einfach
-
-o   Open Source Software z.T. sehr schwierig (Literaturverwaltung, Statistik, Publikationssysteme erfordern Eingabe via klobigem Interface)
-
--          Communities (make it normative)
-
-o   Wissenschaftler\*innen, die angesehene Kolleg\*innen kritisieren werden oft verklagt (z.B. Datacolada oder Elisabeth Bik, <https://www.buzzfeednews.com/article/stephaniemlee/elisabeth-bik-didier-raoult-hydroxychloroquine-study>)
-
-o    
-
--          Incentives (make it rewarding)
-
-o   Forschende und Bibliotheken stehen immernoch in einer Art Gefangenendilemma und wer sich zuerst bewegt, hat einen Nachteil
-
-o   Impact Factors und Berufungskommissionen immernoch verrückt nach Zitationen: <https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6>
-
-o   Index jacking (<https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/asi.24855>)
-
-o  
-
--          Policy (make it required)
-
-o   TOP guidelines als Norm vielerorts noch nicht durchgesetzt
-
-o   Open Science ist noch nicht die Norm, wie jeder dazu beitragen kann, wird hier zusammengefasst <https://doi.org/10.7554/eLife.89736>
-
-o   Neue Probleme wie Open Washing (<https://epdos.nl>) oder vermeintliche Transformationsverträge von Verlagen mit Universitätsbibliotheken, bei denen das Ziel ist, sich langfristig von Verlagen unabhängig zu machen, gleichzeitig aber keine Transformation stattfindet sondern Folgeverträge vereinbart werden
-
-o    
 
 ### Was geschieht jetzt gerade?
 
-Die hier diskutierten Ideen und Befunde sind ein aktueller Schnappschuss eines dynamischen Diskurses. Mehr und mehr Universitäten gründen Zentren für Open Science und setzen sich mit den dazugehörigen Themen auseiannder. Im Rahmen eines Schwerpunktprogramms zu Meta-Wissenschaft und Replizierbarkeit werden von der LMU München aus Forschungsprojekte gefördert. Das amerikanische Center for Open Science arbeitet an zahlreichen Projekten, und im Rahmen der europäischen FORRT-Initiative werden Projekte und Teams organisiert. Es ist nun nur noch eine Frage der Zeit, bis sich alle Forschenden der Probleme und Lösungsansätze bewusst sind und sich an der Verbesserung von Wissenschaft beteiligen.
+Die hier diskutierten Ideen und Befunde sind ein aktueller Schnappschuss eines dynamischen Diskurses. Mehr und mehr Universitäten gründen Zentren für Open Science und setzen sich mit den dazugehörigen Themen auseinander. Im Rahmen eines Schwerpunktprogramms zu Meta-Wissenschaft und Replizierbarkeit werden von der LMU München aus Forschungsprojekte gefördert. Das amerikanische Center for Open Science arbeitet an zahlreichen Projekten, und im Rahmen der europäischen FORRT-Initiative werden Projekte und Teams organisiert. Es ist nun nur noch eine Frage der Zeit, bis sich alle Forschenden der Probleme und Lösungsansätze bewusst sind und sich an der Verbesserung von Wissenschaft beteiligen.
+
+::: callout-tip
+## Krieg und Open Science
+
+Ein aktuell noch relativ wenig behandeltes Thema ist das des Krieges. Viele Forschungsinstitutionen unterliegen einem Embargo, durch welches Kollaborationen mit Forschenden aus bestimmten Ländern wie China oder Russland gemeldet oder sogar unterlassen werden müssen. Je nach epistemologischem Standpunkt sind verschiedene Entwicklungen möglich:
+
+-   Positivismus: Davon ausgehend, dass es *die eine Wahrheit* gäbe [@Wittgenstein.19222004], der nur alle auf die Schliche kommen müssen, sind gegnerische Nationen als Konkurrenten zu sehen, mit denen Wissen nicht geteilt werden sollte. Ihnen gegenüber müsste sich Wissenschaft also verschließen. Wie das mit Datenbanken im Internet zu bewerkstelligen ist, ist vorwiegend eine technische Frage.
+
+-   Relationistisch: Im Sinne von @Fleck.19352015, ist Wahrheit gesellschaftlich verankert und verschiedene Gesellschaften können theoretisch mit verschiedenen Wahrheiten arbeiten. Die Forschenden von gegnerischen Nationen könnten sich dadurch möglicherweise gar nicht für die Sichtweisen der anderen interessieren oder diese als politisch durchtränkt abtun.
+
+-   Nationalistisch: Aus dieser Perspektive ließe sich anbringen, dass eine Gesellschaft, die die Wissenschaft finanziert, primär davon profitieren sollte.
+
+-   Altruistisch/Idealistisch: In Anlehnung an die Mertonschen Normen [@Merton.1968] lässt sich Wissenschaft als ein Gemeingut von allen Menschen verstehen, auf das niemand privilegierten Zugriff hat (Kommunismus des wissenschaftlichen Wissens) und wovon alle Menschen profitieren können. Bei dieser Haltung macht Wissenschaft an politischen Grenzen keinen Halt. Aus dieser Perspektive ließe sich Open Science als diplomatische Strategie zum wissenschaftlichen Austausch trotz politischer Differenzen verstehen.
+
+Welche Perspektive sich langfristig herauskristallisiert ist noch ungewiss. Im Zuge des Krieges in Israel und Gaza und einem offenen Brief von Wissenschaftler\*innen dazu, erstellte das Bildungsministerium im Juni 2024 Listen von Hochschullehrenden, mit bestimmter politischer Einstellung sind und [prüfte die Möglichkeit der Kürzung von Forschungsgeldern](https://www.tagesschau.de/investigativ/panorama/bmbf-stark-watzinger-foerdergelder-100.html). Diese Fördergeld-Affäre wird aus der Wissenschaft heraus - ungeachtet der politischen Hintergründe - als eine Bedrohung der Freiheit der Wissenschaft wahrgenommen und ist eher mit nationalistischen und positivistischen Perspektiven vereinbar.
+:::
 
 #### Weiterführende Informationen
 
@@ -93,12 +56,6 @@ Die hier diskutierten Ideen und Befunde sind ein aktueller Schnappschuss eines d
 
 -   Ein deutsches Glossar mit Open Science Begriffen ist online via FORRT verfügbar: https://forrt.org/glossary/german/
 
-## Literaturempfehlungen
-
-·         Chris Chambers Buch <https://doi.org/10.2307/j.ctvc779w5>
+-   Open Science ist noch nicht die Norm, wie jeder dazu beitragen kann, fassen @Kohrs2023-mf zusammen.
 
 ·         Matters of Significance <https://discovery.ucl.ac.uk/id/eprint/10186829/1/Matters-of-Significance.pdf>
-
- [\[LR1\]](#_msoanchor_1)<https://ideas.repec.org/p/stg/wpaper/2020_01.html>
-
- [\[LR2\]](#_msoanchor_2)
