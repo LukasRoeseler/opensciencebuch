@@ -36,7 +36,9 @@ In Deutschland hat sich die Regierung der Periode 2021-2025 im Rahmen des Koalit
 Das Thema Open Science hat bei vielen Universitäten bereits Anklang gefunden. Während die meisten deutschen Universitäten (zeitlich begrenzte) Mittel für Open Access Publikationen haben, existieren an einigen darüber hinaus Open Science Policys (z.B. [FAU Erlangen](https://oa-info.sh/2022/01/open-science-policy-der-uni-erlangen-nuernberg/)), Open Science Centers (z.B. [LMU Open Science Center](https://www.osc.uni-muenchen.de/index.html); [Köln Open Science Center](https://oscc.uni-koeln.de/home); [Münster Center for Open Science](https://www.uni-muenster.de/MueCOS/); [Mannheim Open Science Office](https://www.uni-mannheim.de/open-science/open-science-office/)). Darüber hinaus unterstützen das Leibniz-Informationszentrum Wirtschaft in Kiel und das Leibniz-Institut für Psychologie Replikationsforschung beispielsweise mit einer Replikationszeitschrift (<https://www.jcr-econ.org>) oder im Rahmen einer Juniorprofessur für Psychologische Metawissenschaft. Eines der größten Zentren für Metawissenschaft n Europas hat sich in den Niederlanden in Tilburg gebildet. Die Berliner Universitäten haben eine gemeinsame Open Access Erklärung entwickelt (<https://openaccess.mpg.de/Berliner-Erklaerung>) und in Frankreich ist die Universität Sorbonne ein Pionier: Gemeinsam mit der Universität Amsterdam und dem Universitätscollege London wurde eine Erklärung über die die Veröffentlichung von Forschungsdaten unterzeichnet. Seit 2024 hat die Universität Sorbonne darüber hinaus den Vertrag mit Clarivate für die Nutzung der Forschungsdatenbank „Web of Science" gekündigt und arbeitet seitdem mit der Open Source Software „OpenAlex" [@Priem2022-mb].
 :::
 
-Für die langfristige Entwicklung der Wissenschaften haben Universitäten dadurch eine besondere Verantwortung, dass sie Wissenschaftler\*innen beschäftigen und an ihnen die Auswahl für die wenigen unbefristeten Arbeitsplätze in der Wissenschaft fallen. Wenn jahrzehntelang Professuren auf Basis subjektiver, nicht-reproduzierbarer, und für gute Wissenschaft nachrangigen Kriterien gewählt werden (z.B. Anzahl an Publikationen in Fachzeitschriften), kann sich das negativ auf die Entwicklung von Wissenschaften auswirken. Diesem Problem entgegenwirkend wurde ein Forschungspreis des Berlin Institute of Health (BIH), der jährlich für Projekte zur Förderung von wissenschaftlicher Integrität verliehen wird, an ein Projekt, das objektive und sinnvolle Auswahlkriterien für Professor\*innen entwickelt vergeben [@schonbrodt2022responsible; @gartner2022responsible]. Innerhalb von Universitäten spielen außerdem die Bibliotheken eine aufklärerische Rolle hinsichtlich Forschungsdatenmanagement und Publikationskultur [@Schmidt2024-uv]. Über sie kann der Forschungsprozess mit entsprechender Infrastruktur (z.B. zum Lagern und Veröffentlichen von Forschungsmaterialien und -ergebnissen) unterstützt werden [@Quan2021-hw] und verhindert werden, dass sich eine „Abhängigkeit von wenigen kommerziellen Anbietern" ergibt, die „begrenzen, was \[bei\] der Forschung an Arbeitsmöglichkeiten und Fragestellungen erreichbar ist" [@Siems2024-vv]. Eine Pflicht, Mitglieder eine Universität zur Einhaltung von Open Science Strategien zu bewegen, gibt es an Universitäten durch den hohen Stellenwert der „Freiheit der Forschung" kaum. Damit könnten sie Gefahr laufen, für Forschende weniger attraktiv zu werden: Wenn beispielsweise auf namhafte Zeitschriften nicht mehr über die Universität zugegriffen werden kann, weil Verträge mit closed-access Zeitschriften gekündigt wurden, erschwert das den Forschenden die Arbeit. Beispielsweise klagte die juristische Fakultät der Universität Konstanz gegen eine Zweitveröffentlichungs*pflicht*: Forschende in Deutschland haben das [Recht zur Zweitveröffentlichung](https://de.wikipedia.org/wiki/Zweitveröffentlichung), das heißt, dass sie ihre Forschung, wenn sie in einer Fachzeitschrift veröffentlicht wurde, auch selbst (z.B. über eigene Websites) veröffentlichen dürfen. In Konstanz konnten die Forschenden nicht dazu verpflichtet werden, davon Gebrauch zu machen.
+Für die langfristige Entwicklung der Wissenschaften haben Universitäten dadurch eine besondere Verantwortung, dass sie Wissenschaftler\*innen beschäftigen und an ihnen die Auswahl für die wenigen unbefristeten Arbeitsplätze in der Wissenschaft fallen. Wenn jahrzehntelang Professuren auf Basis subjektiver, nicht-reproduzierbarer, und für gute Wissenschaft nachrangigen Kriterien gewählt werden (z.B. Anzahl an Publikationen in Fachzeitschriften), kann sich das negativ auf die Entwicklung von Wissenschaften auswirken. Diesem Problem entgegenwirkend wurde ein Forschungspreis des Berlin Institute of Health (BIH), der jährlich für Projekte zur Förderung von wissenschaftlicher Integrität verliehen wird, an ein Projekt, das objektive und sinnvolle Auswahlkriterien für Professor\*innen entwickelt vergeben [@schonbrodt2022responsible; @gartner2022responsible]. Um die Rolle quantiativer Indikatoren zu schwächen wird bereits an einigen Universitäten und bei DFG-Anträgen die "N-best" bzw. häufig "5-best" Regel angewandt [@Frank2019-ro]: Dabei dürfen nur die 5 besten Forschungsartikel in der Bewerbung genannt werden und die Evaluation darf nur auf Basis von ihnen geschehen.
+
+Innerhalb von Universitäten spielen außerdem die Bibliotheken eine aufklärerische Rolle hinsichtlich Forschungsdatenmanagement und Publikationskultur [@Schmidt2024-uv]. Über sie kann der Forschungsprozess mit entsprechender Infrastruktur (z.B. zum Lagern und Veröffentlichen von Forschungsmaterialien und -ergebnissen) unterstützt werden [@Quan2021-hw] und verhindert werden, dass sich eine „Abhängigkeit von wenigen kommerziellen Anbietern" ergibt, die „begrenzen, was \[bei\] der Forschung an Arbeitsmöglichkeiten und Fragestellungen erreichbar ist" [@Siems2024-vv]. Eine Pflicht, Mitglieder eine Universität zur Einhaltung von Open Science Strategien zu bewegen, gibt es an Universitäten durch den hohen Stellenwert der „Freiheit der Forschung" kaum. Damit könnten sie Gefahr laufen, für Forschende weniger attraktiv zu werden: Wenn beispielsweise auf namhafte Zeitschriften nicht mehr über die Universität zugegriffen werden kann, weil Verträge mit closed-access Zeitschriften gekündigt wurden, erschwert das den Forschenden die Arbeit. Beispielsweise klagte die juristische Fakultät der Universität Konstanz gegen eine Zweitveröffentlichungs*pflicht*: Forschende in Deutschland haben das [Recht zur Zweitveröffentlichung](https://de.wikipedia.org/wiki/Zweitveröffentlichung), das heißt, dass sie ihre Forschung, wenn sie in einer Fachzeitschrift veröffentlicht wurde, auch selbst (z.B. über eigene Websites) veröffentlichen dürfen. In Konstanz konnten die Forschenden nicht dazu verpflichtet werden, davon Gebrauch zu machen.
 
 Ein weiteres Stellrad von Universitäten ist die Bezuschussung von Publikationskosten bei Zeitschriften. Wird beispielsweise die wissenschaftliche Qualität einer Zeitschrift angezweifelt, kann eine Universität diese [Bezuschussung stoppen](https://www.suub.uni-bremen.de/ueber-uns/neues-aus-der-suub/unter-kritischer-beobachtung-open-access-publikationen-im-mdpi-verlag).
 
@@ -71,7 +73,7 @@ Um zu prüfen, ob die Urteile im Begutachtungsprozess zwischen den Urteilenden �
 Seit der Auseinandersetzung Forschender mit dem Begutachtungssystem wird darüber hinaus diskutiert, was mit Gutachten passiert: Traditionell bleiben sie unter Verschluss. In der Fachzeitschrift erscheint der finale Artikel und alle vorherigen Versionen sind nur Autor*innen,* Herausgeber*in,* und Gutachter\*innen bekannt. Diese bleiben zudem meistens anonym, das heißt, wenn sie sich keine Mühe gegeben haben, wird es wahrscheinlich nie auffallen. Außerdem haben Forschende keinen Anreiz, Gutachten zu verfassen - höchstens erhalten sie einen Nachweis, dass sie ein Manuskript bei einer Zeitschrift begutachtet haben. Einige Zeitschriften haben inzwischen das *Open Peer Review* eingeführt. Der Name passt nur halb, denn veröffentlicht werden Gutachten nur dann, wenn der Artikel bei der Zeitschrift akzeptiert wird. Das birgt die Gefahr, dass schwerwiegende Probleme, welche für eine Ablehnung üblicherweise nötig sind, nicht ans Licht kommen. Forschende können den Artikel dann ohne Überarbeitung bei einer anderen Zeitschrift einreichen, wo die Probleme vielleicht nicht entdeckt werden. Dieses Vorgehen führt zu Doppelarbeit und enormen Kosten [@aczel2021billion]. Zoltan Kekecs merkte dazu bei einer Diskussion im Rahmen einer Konferenz an, dass selbst Kasinos, die in Konkurrenz zueinander stehen, Listen von Betrüger*innen miteinander austauschen. Herausgeber*innen von Zeitschriften tun das noch nicht.
 
 | Gutachten bleiben unter Verschluss                   | Gutachten werden bei Publikation veröffentlicht                                                                      | Gutachten werden bei Publikation und Ablehnung veröffentlicht |
-|------------------|----------------------------------|-------------------|
+|-------------------|----------------------------------|--------------------|
 | Es ist kein Nachweis der Qualitätskontrolle möglich. | Abgelehnte Artikel können bei anderen Zeitschriften ohne Überarbeitung eingereicht werden und führen zu Mehraufwand. | Qualitätskontrolle ist nachvollziehbar und transparent.       |
 
 Umstrittener als die Veröffentlichung von Gutachten ist die Anonymität der Gutachter*innen: Der Standard ist, dass Gutachten anonym sind, aber bei Wunsch unterzeichnet werden können. Promovierende, die einen Artikel eines potenziellen zukünftigen Chefs oder einer zukünftigen Chefin schlecht beurteilen, werden dadurch geschützt. Selbst Professor*innen können bei negativen Beurteilungen riskieren, dass der oder die Kollegin später einen Forschungsgelderantrag von ihnen begutachtet und sich für die Kritik rächt. Auf der anderen Seite kann Anonymität zur Folge haben, dass Kritik gegen die Person gerichtet ist und nicht konstruktiv ist.
@@ -138,7 +140,7 @@ Um aus Zitationszahlen Qualität schließen zu können, wurde von @Peroni2012-ko
 
 ### Infrastruktur (Open Infrastructure)
 
-In der Pyramide zum Kulturwandel bildet Infrastruktur das Fundament. Sie ermöglicht, dass verschiedene Open Science Praktiken umgesetzt werden können. Beispielsweise lassen sich Forschungsdaten nicht einfach veröffentlichen, wenn es dafür keinen Ort oder keine Internetseite gibt. Diesbezüglich gab es massive Fortschritte und Forschungsmaterialien, Daten, oder Publikationen zu teilen war nie einfacher. Mittels der Richtlinien für Infrastruktur in der Forschung [@Bilder2020-pm] ist festgelegt, wie Infrastruktur im Idealfall aufgebaut sein sollte: Beispielsweise sollte sie nachhaltig gestaltet und langfristig finanziert sein und über Disziplinen, Institutionen, und Orte hinaus verwendet werden. In Deutschland setzt sich zudem der Verein "Nationale Forschingsdaten Infrastruktur (NFDI) dafür ein, dass Daten als gemeinsames Gut organisiert werden. In fachspezifischen Konsortien werden Strukturen geschaffen, mittels derer sich Forschungsdaten teilen lassen. Eine [interaktive Karte offener Infrastruktur](https://access2perspectives.org/mapping-open-science-resources/) ist online verfügbar (https://kumu.io/access2perspectives/open-science#disciplines/by-os-principle/open-infrastructure?focus=1).
+In der Pyramide zum Kulturwandel bildet Infrastruktur das Fundament. Sie ermöglicht, dass verschiedene Open Science Praktiken umgesetzt werden können. Beispielsweise lassen sich Forschungsdaten nicht einfach veröffentlichen, wenn es dafür keinen Ort oder keine Internetseite gibt. Diesbezüglich gab es massive Fortschritte und Forschungsmaterialien, Daten, oder Publikationen zu teilen war nie einfacher. Mittels der Richtlinien für Infrastruktur in der Forschung [@Bilder2020-pm] ist festgelegt, wie Infrastruktur im Idealfall aufgebaut sein sollte: Beispielsweise sollte sie nachhaltig gestaltet und langfristig finanziert sein und über Disziplinen, Institutionen, und Orte hinaus verwendet werden. In Deutschland setzt sich zudem der Verein "Nationale Forschingsdaten Infrastruktur (NFDI) dafür ein, dass Daten als gemeinsames Gut organisiert werden. In fachspezifischen Konsortien werden Strukturen geschaffen, mittels derer sich Forschungsdaten teilen lassen. Eine [interaktive Karte offener Infrastruktur](https://access2perspectives.org/mapping-open-science-resources/) ist online verfügbar (https://kumu.io/access2perspectives/open-science#disciplines/by-os-principle/open-infrastructure).
 
 ::: callout-note
 ## Die Kosten eines "Offenen Buches"
@@ -162,7 +164,7 @@ Dieses Buch wurde vollständig mittels kostenloser Software verfasst (GNU R, RSt
 Um den Zugang zu wissenschaftlichem Wissen zu erhöhen, wird mehr und mehr Forschung als "Open Access" (offener Zugang) veröffentlicht. Spezifisch kann das auf vielen verschiedenen Wegen geschehen: Personen können Artikel in nicht-kommerziellen Zeitschriften veröffentlichen (für eine Sammlung an über 20.000 Zeitschriften siehe z.B. https://doaj.org), manche kommerzielle Zeitschriften machen Artikel nach Ablauf einer bestimmten Zeit frei verfügbar, oder sie können Geld bezahlen, damit der Artikel öffentlich zugänglich in einer traditionellen Fachzeitschrift erscheint. Dabei können sich die Kosten auf Werte zwischen ein paar hunderten Euro bis zu 9.000€ bei "angesehenen Zeitschriften" belaufen. Die Gelder dafür stammen meistens aus den Mitteln von Universitäten (z.B. Open Access Funds) oder aus Projektmitteln, das heißt, dass bei der Beantragung von Geldern für das Projekt auch Gelder mit beantragt wurden, um die Kosten für Open Access Publikationen zu bezahlen. Während Open Access ursprünglich explizit nicht dieses Bezahlmodell meint, haben es Zeitschriften inzwischen "rekommerzialisiert", sich also zu Nutzen gemacht. In der Open-Access-Strategie der Hochschulen des Landes Nordrhein-Westfalen [@Openness2023-yk] werden die Typen übersichtlich aufgelistet. Neben Open Access bei der Erstveröffentlichung haben Forschende im Sinne von "Green Open Access" üblicherweise das Recht, die von ihnen verfassten Artikeln auf ihrer eigenen Website, denen ihrer Institution, oder auf fachlichen Repositorien hochzuladen. @Zumstein2023-kn empfiehlt beispielsweise, bei Zeitschriften mit Abo-Modell ("Subskriptionsmodell") nicht die Open Access Option dazuzukaufen, da es nicht nachhaltig ist und stattdessen die Zweitveröffentlichung offen zu machen.
 
 | Typ            | Regelung                                                                                                |
-|----------------|---------------------------------------------------------------------------------------------------------|
+|---------------|---------------------------------------------------------|
 | Gold / Diamond | Alle Publikationen sind sofort und kostenlos verfügbar                                                  |
 | Hybrid         | Die Zeitschrift hat ein Abo-Modell. Einzelne Artikel werden gegen eine Gebühr öffentlich gemacht.       |
 | Moving Wall    | Die Zeitschrift hat ein Abo-Modell. Nach Ablauf einer Frist (6-48 Monate) sind Artikel frei zugänglich. |
@@ -178,145 +180,35 @@ Typen von Open Access (siehe zenodo NRW AG Open Science Auflistung)
 An manchen Orten gibt es ungeschriebene Gesetze wie "wenn du während deiner Promotion in einer hochrangigen Zeitschrift publizierst, wirst du die Bestnote kriegen". Damit wird den prestigereichen Zeitschriften immer mehr Macht zugeschoben. Leuten wird außerordentlich dafür gratuliert, dass sie etwas in Psychological Bulletin oder sogar Nature Human Behavior veröffentlicht haben. Dass niemand, der nicht mit einer Universität affiliiert ist (also an einer arbeitet oder studiert), den Artikel im Psychological Bulletin lesen kann, oder dass für die Veröffentlichung in Nature bis zu 9.000 Euro (meistens aus Steuergeldern) bezahlt wurden, spielt dabei keine Rolle.
 :::
 
-Neben kommerziellen und Open Access Zeitschriften existiert noch ein weiterer Akteur bei der Zugänglichkeit von wissenschaftlichem Wissen: Mittels *Schattenbibliotheken* wie Sci-Hub können Personen auf Artikel, die sonst hinter einer Bezahlschranke liegen, zugreifen. Sci-Hub (<https://de.wikipedia.org/wiki/Sci-Hub>) als bekannteste Schattenbibliothek beinhaltet fast 70% aller 81.6 Millionen wissenschaftlichen Artikeln bis zum Jahr 2018 [@Himmelstein2018-ys]. Nutzungsstatistiken aus Deutschland hat @strecker2019nutzung analysiert. Die Verbreitung und das Herunterladen sind rechtlich umstritten. Andere Möglichkeiten, kostenlos an Forschungsartikel zu kommen sind 12ft.io, der Hashtag #canihazpaper in sozialen Netzwerken, oder das persönliche Anschreiben von Autor\*innen per Mail oder über soziale Netzwerke für Forschende (Researchgate.net, Academia.edu).
+Neben kommerziellen und Open Access Zeitschriften existiert noch ein weiterer Akteur bei der Zugänglichkeit von wissenschaftlichem Wissen: Mittels *Schattenbibliotheken* wie Sci-Hub können Personen auf Artikel, die sonst hinter einer Bezahlschranke liegen, zugreifen ("Guerilla Open Access"). Sci-Hub (<https://de.wikipedia.org/wiki/Sci-Hub>) als bekannteste Schattenbibliothek beinhaltet fast 70% aller 81.6 Millionen wissenschaftlichen Artikeln bis zum Jahr 2018 [@Himmelstein2018-ys]. Nutzungsstatistiken aus Deutschland hat @strecker2019nutzung analysiert. Die Verbreitung und das Herunterladen sind rechtlich umstritten. Andere Möglichkeiten, kostenlos an Forschungsartikel zu kommen sind 12ft.io, der Hashtag #canihazpaper in sozialen Netzwerken, oder das persönliche Anschreiben von Autor\*innen per Mail oder über soziale Netzwerke für Forschende (Researchgate.net, Academia.edu).
 
 #### Wahl der Fachzeitschrift
 
 Abgesehen von Prestige oder Journal Impact Factors können Forschende bei der Wahl der Zeitschrift, in der sie ihre Forschung veröffentlichen möchten, auf Gold Open Access achten (z.B. via <https://doaj.org> oder <https://freejournals.org/current-member-journals/>) und den TOP Faktor berücksichtigen (topfactor.org). Zudem sollten sie bei ihren Bibliotheken nachhaken: Bei Zeitschriften mit Abo-Modell (hybrid Open Access) hat sich nämlich ein Markt für bezahlte Open Access Publikationen entwickelt. Zeitschriften und Verlage veröffentlichen dabei extrem viele Artikel ohne strenge Begutachtung und verdienen Geld durch die Open Access Gebühren. In dem Fall sind die Zeitschriften als "Open Access Zeitschriften" vermarktet und die Kosten heißen "Author Processing Charges (APCs)". Mittels des von der Universität Bielefeld betriebenen Dashboards wird aufgeschlüsselt, welche Zeitschriften und welche Verlage wie viel Geld von deutschen Universitäten bekommen haben (https://treemaps.openapc.net/apcdata/openapc/#publisher/). Der Verlag MDPI, mit über 2000 Artikeln auf Platz 1 bei der Artikelanzahl und mit Einnahmen von über 4 Millionen Euro auf Platz 2 hinsichtlich Profit, ist dabei besonders umstritten: Forschende (https://predatoryjournals.org/news/f/is-mdpi-a-predatory-publisher) konnten Nachweisen, dass die Bearbeitungszeiten (Dauer der Begutachtung, Revision, Veröffentlichung) unrealistisch gleichförmig sind und es pro Tag mehrere Spezialausgaben gibt (für gewöhnlich hat eine Zeitschrift 1-2 Spezialausgaben pro Jahr). Beall hat auf seiner Website (https://beallslist.net) eine umstrittene Liste veröffentlicht, die Zeitschriften als unwissenschaftlich kennzeichnet und beschreibt seine Erfahrungen in einem Artikel [@Beall2017-hw]. Ebenfalls helfen Tools zur Identifikation unseriöser Zeitschriften und Konferenzen ([https://thinkchecksubmit.org](#0){.uri}, [https://thinkcheckattend.org](#0){.uri}).
 
--          Monitoring
+#### Monitoring
 
-o   OpenAPC
+Wie viel Forschung als Open Access veröffentlicht wird oder wie viel das Kostet, lässt sich mithilfe verschiedener Werkzeuge beobachten. *OpenAPCs* listet Open Access Kosten je nach Verlag, Zeitschrift, und Universität auf (https://treemaps.openapc.net/apcdata/openapc/) und der Open Access Monitor schlüsselt auf, wie viele Publikationen in Deutschland unter welchen Open Access Modellen veröffentlicht werden (<https://open-access-monitor.de>).
 
-o   <https://open-access-monitor.de>
+Aktuell (Stand Sommer 2024) haben 54,4% aller indizierten Fachzeitschriften kein offenes Modell und der Großteil aller Forschung wird darüber veröffentlicht. 19,2% der Fachzeitschriften laufen außerdem unter einem Transformationsvertrag. Dabei soll ein Übergang vom Abo-Modell zu einem Open Access Modell geschafft werden und alle bisher veröffentlichten Artikel sollen ebenfalls öffentlich zugänglich gemacht werden. Die wohl größte Rolle spielt dabei das DEAL Konsortium (<https://deal-konsortium.de/publizierende>): Dabei haben sich deutsche Wissenschaftsorganisationen zusammengeschlossen, um mit Verlagen einen bundesweiten Vertrag auszuhandeln, das allen deutschen Forschenden ermöglicht, Open Access ohne zusätzliche Kosten zu publizieren.
 
-o   <https://hal.science/hal-04121339v2>
+::: callout-note
+## Offene Lehrbücher
 
-o   Offener Datensatz mit von AI kodierten Indikatoren von Open Science des Verlages PLOS: <https://theplosblog.plos.org/2023/10/open-science-indicators-q2-2023/?utm_id=354&utm_source=internal&utm_medium=email&utm_campaign=354lib1023&utm_content=link>
+Während Artikel in Fachzeitschriften primär für den Austausch unter Forschenden genutzt werden, spielen Lehrbücher die besondere Rolle, dass sie die Kommunikation zwischen Expert\*innen und Interessierten (z.B. Studierenden) bilden. Das Verhältnis zwischen Lehrbuch-Autor\*innen und Verlagen ist weniger angespannt als das zwischen Forschenden und Zeitschriften - auch, wenn es größtenteils dieselben Verlage sind. Zwei besondere Unterschiede könnten die Ursache dafür sein: 1. Verfasser\*innen von Lehrbüchern verdienen von Verkäufen und 2. können sie ihre eigenen Werke für Prüfungen relevant erklären. In der Folge müssen Studierende die Kosten tragen und nicht sie selbst. Im Vereinigten Königreich existieren bereits Pilotprojekte, die das Ziel haben, die Lehre möglichst vollständig auf offene Lehrbücher umzustellen [@Farrow2020-jc].
+:::
 
--          Open Acces Typen
+#### Massenrücktritte von Herausgeber\*innen
 
-o   (moving wall
+Immer häufiger kommt es vor, dass die Herausgeberschaft einer Zeitschrift zurücktritt. Grund dafür, dass Verlage die Publikationskosten oder die Anzahl veröffentlichter Artikel erhöhen möchte. Eine Liste solcher Rücktritte verwaltet Retractionwatch.org ("Editorial Mass Resignations", https://retractionwatch.com/the-retraction-watch-mass-resignations-list/). Dabei hat eine Community aus Forschenden jahrelang hart gearbeitet, um die Zeitschrift zu verwalten und bekannt zu machen und wird dann damit bestraft, dass sie noch mehr Geld dafür zahlen muss, ihre Forschung miteinander auszutauschen.
 
-o   Green
+In vielen solcher Fälle gründen die Forschenden im Anschluss an ihren Rücktritt eine neue, üblicherweise Open Access Zeitschrift. Während Universitätsbibliotheken Gründungen neuer Zeitschriften unterstützen und der Prozess technisch unproblematisch ist, gibt es legale und soziale Hürden: Verlage wie Taylor & Francis vereinbaren mit den Forschenden häufig "Non-comepete Klauseln", verbieten ihnen also, im Anschluss an ihre Herausgebertätigkeit innerhalb eines oder mehrerer Jahre bei einer anderen Zeitschrift zu arbeiten. Eine wissenschaftliche Community, die der [Kern](https://blogs.lse.ac.uk/impactofsocialsciences/2019/03/29/the-value-of-a-journal-is-the-community-it-creates-not-the-papers-it-publishes/) einer Zeitschrift ist, muss außerdem einstimmig hinter der Veränderung stehen. In einem Fall hat die Herausgeberschaft klar kommuniziert, dass es sozial völlig inakzeptabel ist, die alte Zeitschrift zu unterstützen. Neu gegründete Zeitschriften haben außerdem noch keinen Impact Factor, weil noch keine zitierfähigen Artikel erschienen sind und Artikel noch nicht zitiert werden konnten. Verlage arbeiten gegen Massenrücktritte, indem sie die Zugehörigen der Herausgeberschaft häufig rotieren, sodass sie sich schlechter absprechen können. Treffen in Person sind durch die Internationalität der Forschung ebenfalls erschwert.
 
-o   Gold
+::: callout-note
+## Offenheit durch Klemmbausteine
 
-o   diamond), siehe NRW OS Strategie  <https://zenodo.org/record/8322048>  s. 11-12
-
-o   "guerilla open access" (sci-hub)
-
-o  
-
--          Open Journals:
-
-o   <http://www.theoj.org>
-
-o   OJS
-
-o   Directory of open access journals
-
--          Offene Bücherei Badge: <https://badge.openbiblio.eu>
-
--          DEAL Verträge mit Publishern: <https://deal-konsortium.de/publizierende>
-
--          Bücher (Open Textbooks): <https://content.iospress.com/articles/education-for-information/efi190260>
-
--          Editorial Mass Resignations
-
-o   Sprachwissenschaften: Linguista à Glossa (Johan Rooryck; Vortrag am 10.01.2024)
-
-§  Herausgeber (Wissenschaftler) hat sich um Zeitschrift gekümmert, Elsevier Vertrag um Typesetting
-
-§  Wissenschaftler\*innen wollten Open Access Zeitschrift mit APCs, die transparent gemacht werden
-
-§  2015: 4 weitere Zeitschriften, die durch Community geleitet wurden, haben ebenfalls Diamond OA durchgesetzt
-
-§  Unterstützung durch Bücherei und Open Library of Humanities
-
-§  Eine vollständige Community wurde erfolgreich zu Diamond OA verschoben
-
-§  Zeitschrift als Vehikel für eine wissenschaftliche Community -- wie ein Auto, das von einer Familie gekauft wird: man lässt das alte zurück und nimmt das neue, Editors, Reviewers, Readers, sind alle dieselben Personen
-
-§  Übergang zu OA ist schwierig
-
-·         Finanzielle Ungewissheit
-
-·         Impact Factors benachteiligen neue Journals, sind unabhängig von Content, Community, Mission Statement
-
-·         Alle Herausgeber\*innen müssen zustimmen
-
-·         Montgomery & Neylon 2019: „The value of a journal is the community it cfreates, not the papers it publishes" https://blogs.lse.ac.uk/impactofsocialsciences/2019/03/29/the-value-of-a-journal-is-the-community-it-creates-not-the-papers-it-publishes/
-
-·         Was eine Zeitschrift nicht sein sollte: ein Vehikel ur Kommunikation Forschender, ein juristisches Objekt, dass einem Verlag gehört, ein Ort, an dem Prestige gesammelt wird, eine willkürliche Selektionsmaschien, eine Geldmaschine --\> EINE COMMUNITY, Qualitätskontrolle
-
-·         Shared Ownership à Zeitschrift kann nicht an Verlag verkauft werden
-
-·         Content vs. Service: content controlled by academic community, technical services (publishing, typesetting) can be paid for
-
-o   Neuroimage (Chris Chambers)
-
-§  Übergang zu OA 2020 mit APC (mehrere tausend Dollar)
-
-§  Pandemie war zeitgleich, Community fand es nicht gut, hat es aber mitgemacht
-
-§  Wegen großem Erfolg wurden APCs erhöht (3150\$?)
-
-§  Community hat viele Jahre hart gearbeitet und wird dann mit höheren Kosten bestraft, hat aber nichts von den Kosten
-
-§  Chief Editor (Steve Smith) wollten Reduktion auf 2000\$ verhandeln, Elsevier wollte das nicht: „Market Forces support the current APC" und fand die Kosten absolut berechtigt. Solche Kosten sind eine große Hürde für globalen Süden.
-
-§  Editorial Board hatte genug und alle haben resigniert. 3 Journals: Neuroimage, Neuroimage reports, Neuroimage clinical à \~40 Leute, haben das koordiniert, um öffentliche Wirkung zu maximieren (mit Medien, sozialen Medien, haben mit non-profit Publisher gesprochen)
-
-§  Kommerzielle Verlage sind Parasiten, fügen der Wissenschaft keinen Wert hinzu, existieren nur, um Profit aus Wissenschaft zu ziehen und geben den Wissenschaftler\*innen fast nichts zurück (höchstens Typesetting)
-
-§  Wichtige Message an alle: „from this point onwards, it is socially inacceptable to support these journals" "it's important that we do this all together"
-
-§  Die Zeitschriften nun so gut wie Tod à nicht einfach ein anderes Journal erstellen, sondern klar machen, dass der Name nichts bedeutet, sondern die Community
-
-§  Und das reicht noch nicht: Mass Resignations sollten eher wöchentlich stattfinden, sind aber ziemlich selten; strong editor in chief ist nötig; wir brauchen auch gar keine Publisher (Peer Community In Initiative zeigt das)
-
-§  Verlag (Elsevier) hat wohl versucht, öffentliche Kommunikation über EMR zu beeinflussen und versucht, Forschende einzuschüchtern
-
-o   Critical Public Health (Judith XXX)
-
-§  Editorin hatte Moratorium für 1 Jahr, laut Vertrag durfte sie also 1 Jahr nach Ende des Vertrages Verbot, für eine Zeitschrift zu arbeiten
-
-§  Verlag wollte Verträge ändern: statt „page budget" (5 issues pro Jahr mit vorgegebener Seitenzahl) „minimum number of papers" Modell; Editorial Board hatte dabei kein Mitspracherecht
-
-§  Graduelle Erosion von akademischer Kontrolle
-
-§  2023: Board unilateral resigned (erstes Mal, dass sich alle einig waren)
-
-§  <https://cphn.net/breaking-news/>
-
-§  Journal of Critical Public Health neu gegründet, über OJS gehostet
-
-§  Schwierigkeit:
-
-·         Netzwerk, dem das Journal gehört, musste formalisiert werden (bisher vor allem jiscmail Liste)
-
-·         Nachhaltigkeit ist schwierig langfristig mit diamond Open Access
-
-·         Keine Indizierung bisher (ISSN, IF, Abstracting)
-
-·         Legale Fragen zum Intellectual Property unklar und nicht geprüft: Die Community hat Submission Guidelines usw. geschrieben, Verlag (Taylor and Francis) behauptet nun, dass diese Texte dem Verlag gehören. Wissenschaftler\*innen haben keine Kapazitäten für Gerichtsprozess.
-
-o   Neuropathologie: XXX à Free Neuropathology
-
-o   Verlage sind dagegen ausgestattet
-
-§  Editorial Board wird rotiert, damit sich Editors nicht so stark vereinen können
-
-§  Unwahrscheinliche Treffen in Person
-
-§  Non-compete Klauseln / Moratorien
-
-o   Liste von EMR: <https://retractionwatch.com/the-retraction-watch-mass-resignations-list/>
-
-o   <https://sparceurope.org/the-seed-of-a-global-federation-for-diamond-open-access-has-been-planted/>
-
-Eine besondere Form des öffentlichen Zugangs verbreitet sich aktuell in der biotechnologischen Forschung aus. Damit Wissenschaftler\*innen, Ingenieur\*innen, aber auch die allgemeine Bevölkerung Zugang zu Konstruktionen hat, wird dort zu Klemmbausteinen wie beispielsweise LEGO® Steinen gegriffen \[eigenes Foto von Lego Steinen) <https://doi.org/10.1016/j.tibtech.2022.02.003> . So hat David Aguilar (Tabelle 1) beispielsweise einen prosthetischen Arm mit Klemmbausteinen entworfen.
+Offenheit der Wissenschaft kann viele Gesichter haben: Eine besondere Form des öffentlichen Zugangs verbreitet sich aktuell in der biotechnologischen Forschung aus. Damit Wissenschaftler\*innen, Ingenieur\*innen, aber auch die allgemeine Bevölkerung Zugang zu Konstruktionen hat, wird dort zu Klemmbausteinen wie beispielsweise solchen von dem Unternehmen LEGO® gegriffen [@Boulter2022-xu]. Das Patent für "den Lego-Stein" ist bereits ausgelaufen, sodass verschiedene Unternehmen oder Personen mit 3D-Drucker eigene Klemmbausteine herstellen können. Die Dateien für 3D-Drucker sind im Internet frei verfügbar. So konnte der Forscher David Aguilar beispielsweise einen prosthetischen Arm mit Klemmbausteinen entwerfen.
+:::
 
 ### Pre-Prints
 
@@ -362,22 +254,10 @@ Je nach Fach haben unterschiedlich viele Zeitschriften mit PCI Initiativen Verei
 | Registered Report                            | Ergebnisse liegen noch nicht vor                                     |
 | Peer-Community-In Registered Report (PCI-RR) | Ergebnisse liegen noch nicht vor                                     |
 
-#### Open peer-review
-
-So können Leser\*innen von Meta-Psychology oder dem Journal of Open Psychology Data zu jedem Artikel einen Review Report (XXX richiges Wort? Link einfügen) lesen und nachvollziehen, was die Reviewer genau getan haben und wie sich der Artikel dadurch entwickelt hat. Vereinzelten Studien zufolge (REF, REF) führt das offene Review zu faireren und positiveren Einschätzungen.
-
-XXX: Arten von Open Access einfügen - Gold -- Diamond
-
-Weitere Peer-Review Modelle
-
--          <https://reuse-dept.org> Replikation in Computer Science
-
-Review Ampel
-
 ::: callout-note
-## Meine Erfahrungen mit Peer Review
+## Anekdoten: Meine schlimmsten Erfahrungen mit Peer Review
 
-Peer Review ist brutal. Das ist meine persönliche Erfahrung mit dem Prozess. Schnell habe ich in meiner wissenschaftlichen Arbeit gelernt, dass es in vielen Fällen ein Glücksspiel ist. Renommierte Wissenschaftler\*innen erklärten mir, dass sie Artikel hätten, die sie über Jahre immer wieder bei Zeitschriften immer wieder eingereicht hätten, und die schließlich positiv aufgenommen worden wären, ohne, dass sie sie stark verändert hätten. Jenseits von der Akzeptanz eines Artikels zur Publikation geht es auch um die Gründe für die Ablehnung: Häufig lesen Gutachtende Artikel nicht aufmerksam und Kritiken sind nicht konstruktiv. Hierzu ein paar Beispiele:
+Peer Review ist brutal. Das ist meine persönliche Erfahrung mit dem Prozess. Früh musste ich in meiner wissenschaftlichen Arbeit lernen, dass es in vielen Fällen ein Glücksspiel ist. Renommierte Wissenschaftler\*innen erklärten mir, dass sie Artikel hätten, die sie über Jahre immer wieder bei Zeitschriften immer wieder eingereicht hätten, und die schließlich positiv aufgenommen worden wären, ohne, dass sie sie stark verändert hätten. Jenseits von der Akzeptanz eines Artikels zur Publikation geht es auch um die Gründe für die Ablehnung: Häufig lesen Gutachtende Artikel nicht aufmerksam und Kritiken sind nicht konstruktiv. Hierzu meine schlimmsten Erfahrungsberichte.
 
 **Einreichung bei Collabra**: Es handelte sich um einen Artikel, der zwischen den Disziplinen steht. Es geht nicht nur um Erwartungen, nicht nur um Produktbewertungen, nicht nur um die Methode, Daten direkt aus dem Internet herunterzuladen. Der "bunte-Vogel-Artikel" war bereits bei drei Zeitschriften abgelehnt worden. Bei keiner wurde er an die Reviewer weitergegeben, weil er nie zur Zeitschrift passte. Die Zeitschrift *Collabra*, bei der wir ihn schließlich einreichten, war zu dem Zeitpunkt noch wenige Jahre alt und war breit aufgestellt. Nach der Einreichung im Mai 2020 haben wir über ein halbes Jahr lang auf das Gutachten gewartet. Länger zu warten ist erstmal ein gutes Zeichen: Der Artikel wurde wohl an Reviewer rausgeschickt. In dem Fall wurden wir jedoch bitter enttäuscht: Im November 2020 erfuhren wir auf Nachfrage hin, dass 14 Gutachter\*innen angefragt wurden, sodass die Herausgeberin auf Basis eines Gutachtens entschied, das Manuskript abzulehnen. Grund dafür war, dass die Methode aufgrund der inzidentellen Daten nicht geeignet für die Fragestellung war. In der Psychologie sowie den Wirtschaftswissenschaften ist das Problem mit "echten Daten" seit mehreren Jahrzehnten bekannt und wir hatten es bereits ausgiebig im Artikel diskutiert.
 
@@ -388,468 +268,117 @@ Peer Review ist brutal. Das ist meine persönliche Erfahrung mit dem Prozess. Sc
 Das sind nur kurze Auszüge aus dutzenden Einreichungen und Ablehnungen. Darüber hinaus kann fast jede\*r Forschende\*r von substanzlosen persönliche Beleidigungen berichten. Meiner Erfahrung nach ist anonymes versus öffentliches Peer Review wie ein Vergleich von anonymen Kommentarspalten mit nicht anonymen: Bei Anonymität beherrschen persönliche Beleidigungen und Unwahrheiten den Dialog.
 :::
 
-### Open Science Incentives FORRT NOSI Badges Open Science in Berufungskommission
+### Replikationsforschung
 
--          N-best evaluation (https://osf.io/preprints/psyarxiv/tzaqh): nur die z.B. N = 5 für die ausgeschriebene Stelle wichtigsten Publikationen werden berücksichtigt, statt auszuzählen werden diese dann ganz genau an
+Häufig ist die Rede von einer Replikationskrise, also einer Krise von zu geringer Replizierbarkeit. Wenig überraschend hat sich das auf die Rolle von Replikationen in den Sozialwissenschaften und darüber hinaus ausgewirkt. Zahlreiche Wege wurden eingeschlagen, die das Ansehen von Replikationsstudien und damit ihre Häufigkeit in der Forschung erhöhen. Dabei müssen die Wissenschaften nachholen, was sie zu Beginn ihrer Existenz hätten tun sollen, nämlich festzulegen, welche Ansprüche an Replizierbarkeit bestehen und wie diese geprüft werden sollen. Mit Replizierbarkeit meine ich dabei, dass eine Hypothese sich auch mit anderen Daten als denen der Originalstudie bestätigen lässt. Es geht also um ein minimales Maß an Verallgemeinerbarkeit und nicht primär um ein tieferes Verständnis von Theorien, auch, wenn letzteres dennoch manchmal kritisiert wird, obwohl niemand behauptet hat, Replikationen sollten das Theorie-Problem ebenfalls lösen [@feest2019replication].
 
--          StudySwap "However, a potential barrier to independent, prepublication replication attempts is that many researchers have a difficult time finding other labs to conduct such attempts. StudySwap can be used to find an independent research team to conduct a replication attempt of a not-yet-published study" (Chartier et al., 2018, p. 575). Zitat von: <https://osf.io/preprints/psyarxiv/dtvs7/> p. 11
+::: callout-note
+## Unschärfe von Replikationsstudien
 
--          Reviewer Initiativen und Boycotts\
-[Richard D. Morey et al. (2016) The Peer Reviewers' Openness Initiative: incentivizing open research practices through peer review, Royal Society Open Science; DOI: 10.1098/rsos.150547. Published 13 January 2016](http://rsos.royalsocietypublishing.org/content/3/1/150547#sec-6)
+Ein noch ungelöstes Problem ist die Unschärfe von Original- *und* Replikationsstudien. @Ting2024-af kritisieren, dass die Ungenauigkeit von Replikationsstudien oft missachtet wird. Ihnen entgeht dabei jedoch, dass Replikationsstudien in fast allen Fällen eine weitaus höhere Schärfe im Studiendesign haben und höhere methodische Standards einhalten, als alle vorherigen Studien. Schönigung von Ergebnissen im Sinne von p-hacking [@Simmons.2011] sind prinzipiell auch bei Replikationen möglich [@protzko2018null], durch die höheren Standards jedoch schwieriger. Zwar berücksichtigen Forschende Replikationsbefunde in ihren Urteilen angemessen [@mcdiarmid2021psychologists], Untersuchungen dazu, wie Anfällig Replikationen für Datenfälschung im Vergleich zu Originalstudien sind, gibt es bisher noch keine.
+:::
 
-### Replikationsforschung[\[LR49\]](#_msocom_49) : Ansehen und Kompetenz (Normalität) im Umgang mit Replikationsstudien steigern
+#### Was *soll* sich replizieren lassen?
 
--   
+Vor dem Hintergrund der Robustheit wird klar, wann eine erfolgreiche Replikation zu erwarten ist und wann nicht: Wird eine Hypothese in einer Originalstudie als allgemeingültig formuliert (z.B. kurz nach der Geburt wiegen männliche Babys im Mittel mehr als weibliche Babys), sollte sie sich auch wiederholbar nachweisen lassen. Dem stehen Fälle gegenüber, wenn eine Hypothese nicht allgemeingültig formuliert ist (z.B. dass etwas auf einen spezifischen Kontext bezogen ist wie in qualitativer Forschung). Es gibt ganze Disziplinen, für die Replizierbarkeit irrelevant ist, beispielsweise wird in der Archäologie bei Ausgrabungen ein Objekt aus seinem Kontext gerissen und damit das Original "zerstört". Dieser Prozess ist nicht wiederholbar und es hat auch niemand den Anspruch daran. Ebenfalls ist es möglich Artefakte (also Befunde, die nur durch Methoden entstanden sind) zu wiederholen, wenn deren Ursprung auf einer allgemeinen Gesetzgültigkeit basiert [@devezer2021case]. Zum Beispiel kann es vorkommen, dass ein statistisches Modell replizierbar "anschlägt", also Befundmuster identifiziert, auch wenn diese nicht auf Grund der eigentlichen Erklärung entstehen sondern nur, weil sie schlecht kalibriert sind oder ihre Voraussetzungen verletzt wurden. Beispielsweise schien es lange Zeit so, dass Linkshänder\*innen früher sterben als Rechtshänder\*innen. Dieser Befund konnte eine Zeit lang für verschiedene deutsche Stichproben nachgewiesen werden und es wurden bereits Überlegungen angestellt, woran das liegen könnte. Anhand heutiger Daten ist die Replikation nicht mehr möglich, weil es sich um ein Artefakt handelte: Bis vor einigen Jahrzehnten wurden alle Kinder dazu erzogen, mit rechts zu schreiben und zu schneiden. Schließlich stoppte die Umerziehung. Um in den darauffolgenden Jahren als linkhändrige Person in den Sterbestatistiken aufzutauchen, musste man ziemlich jung gestorben sein - denn ältere Personen, die mit links schreiben, gab es ja aufgrund der Umerziehung nicht. Das hatte zur Folge, dass linkshändrige Tote im Mittel ganze 10 Jahre jünger waren als rechtshändrige Tote. Replizierbarkeit ist also nicht hinreichend für Validität oder Wahrheit, aber um die Gültigkeit einer Hypothese zu unterstreichen oder ihren Wahrheitsanspruch zu verteidigen ist Replizierbarkeit notwendig.
 
--   Unterscheidung Vertrauenskrise und Replikationskrise: <https://philarchive.org/archive/FEEWRI>
+@fletcher2021role listet die Bedingungen dafür auf, dass sich etwas replizieren lässt:
 
-    -   
+1.  Es liegen keine Fehler in der Datenanalyse vor.
 
-    -   Replikationsstudien können keine Forschung ersetzen, die auf ein tieferes Verständnis von Theorien abzielt
+2.  Der Befund ist nicht auf statistische Unschärfe zurückzuführen.
 
-    -   
+3.  Der Befund hängt nicht von vernachlässigten Hintergrundfaktoren ab.
 
-    -   Replizierbarkeit betrifft Robustheit, Mindestanforderungen an Verallgemeinerbarkeit, und Erhöhung des Vertrauens dadurch, dass QRPs und Datenfälschung weniger wahrscheinlich werden \[was, wenn original- und replikations-studie gefälscht sind?\]
+4.  Es lag kein Betrug oder anderes wissenschaftliches Fehlverhalten vor.
 
-    -   
+5.  Der Befund lässt sich auf eine Grundgesamtheit verallgemeinern, die größer als die Stichprobe der Originalstudie ist.
 
-    -   Kein Schwarz-weiß-denken: Unsicherheiten sind mit Replikations- und Original-Studien verbunden <https://journals.sagepub.com/doi/abs/10.1177/10755470241239947?journalCode=scxb>
+6.  Die Hypothese ist auch dann noch gültig, wenn sie auf eine völlig andere Weise geprüft wird. 
 
-    -   
+::: callout-tip
+## Notwendige und hinreichende Bedingung
 
--   
+Replizierbarkeit ist eine notwendige aber keine hinreichende Bedingung für Allgemeingültigkeit, was ist damit gemeint? Die Begriffe "notwendig" und "hinreichend" sind vielen Personen wahrscheinlich aus der mathematischen Kurvendiskussion bekannt. Ihre genaue Bedeutung ist vor allem in der Logik relevant:
 
--   Es wird klar, was replizierbar sein sollte und was nicht.
+-   Notwendig heißt "es geht nicht ohne". Kakaopulver zu haben, ist notwendig dafür, dass ich einen Kakao zubereiten kann heißt, ich kann keinen Kakao zubereiten, wenn ich kein Kakaopulver habe. Gleichzeitig ist es nicht ausreichend oder hinreichend: Nur, weil ich Kakaopulver habe, heißt das nicht, dass ich Kakao zubereiten kann. Vielleicht fehlt noch Milch, Wasser, eine Tasse, oder eine Mikrowelle.
 
-    -   
+-   Hinreichend heißt: Wenn es da ist, dann reicht das schon und keine weiteren Bedingungen müssen erfüllt sein. Wenn ich ein Flugzeug am Himmel höre, dann ist das hinreichend dafür, dass am Himmel ein Flugzeug entlang fliegt. Es ist aber auch möglich, dass ein Flugzeug am Himmel entlang fliegt, ohne dass ich es höre (zum Beispiel, weil es sehr hoch fliegt, die Umgebungsgeräusche sehr laut sind, oder es ein leiser Segelflieger ist).
 
-    -   Wahre, statistische Phänomene können nicht replizierbar sein
+Anders als in manchen Beispielen, muss die Bedingung nicht immer vor dem Ereignis auftreten. Es geht also um keinen Kausalzusammenhang, bei dem eines zum anderen *führt*. Eine Besonderheit bei Bedingungen ist, dass wenn A notwendig für B ist, dann ist B hinreichend für A. Dass ich einen Kakao zubereitet habe, ist also hinreichend dafür, dass ich Kakaopulver habe. Und, dass ein Flugzeug am Himmel entlang fliegt ist notwendig dafür, dass ich es hören kann.
+:::
 
-        -   
+#### Wer repliziert?
 
-        -   Methode könnte sehr ungenau sein und trotz „wahrem" Befund nur eine sehr geringe Replikationsrate haben (mathematischer Beweis dafür bei <https://royalsocietypublishing.org/doi/10.1098/rsos.200805#d1e454>)
-
-        -   
-
-        -   Mere-Measurement Effect
-
-        -   
-
-        -   Ethnografie, qualitative Methoden, Archäologie („Befund wird bei Ausgrabung aus Kontext gerissen und dadurch zerstört")
-
-        -   
-
-    -   
-
-    -   Sachen, die keine allgemeinen Gesetzmäßigkeiten darstellen können trotzdem replizierbar sein
-
-        -   
-
-        -   Artefakte
-
-        -   
-
-        -   Unpassende Modelle, deren Annahmen inkorrekt sind, lassen sich manchmal reproduzieren und mit neuen Daten auch replizieren
-
-        -   
-
-        -   Heisenbug (?)
-
-        -   
-
-    -   
-
-    -   Replizierbarkeit ist nicht hinreichend für Wahrheit
-
-    -   
-
-    -   Belief updating nach Replikationen <https://www.nature.com/articles/s41562-021-01220-7>
-
-    -   <https://royalsocietypublishing.org/doi/10.1098/rsos.200805#d1e454>
-
--   listen notwendige [\[LR51\]](#_msocom_51) Bedingungen dafür auf, dass „wahre" Befunde replizierbar sein können
-
--   
-
--   Ziele von Replikationen
-
-    -   Fletcher (2020) describes the function of replication is to confirm one of the following claims regarding the findings of the original research: (1) they are not due to mistakes in data analysis, (2) they are not due to sampling error, (3) they do not depend on contextual factors, (4) they do not arise from fraud or questionable research practices, (5) they generalize to a larger population than that sampled in the original, (6) their aspects pertaining to the theoretical hypothesis of interest hold even when that hypothesis is operationalized or tested in completely different ways
-
-        <https://cornerstone.lib.mnsu.edu/cgi/viewcontent.cgi?article=2424&context=etds>
-
-    -    
-
-        ::: callout-tip
-        ## Notwendige und hinreichende Bedingung
-
-        erklären
-        :::
+Trotz starker Bemühungen sind Replikationsstudien immer noch relativ selten. Schätzungen reichen von 5% bis unter 0.1% je nach Forschungsdisziplin.
 
 -   Niemand repliziert
 
-    -   
-
     -   <https://www.econstor.eu/bitstream/10419/267931/1/I4R-DP013.pdf>
-
-    -   
 
     -   <https://osf.io/preprints/psyarxiv/fzngs>
 
-    -   
-
     -   <https://journals.sagepub.com/doi/10.1177/1745691620979806>
-
-    -   
 
     -   <https://peerj.com/articles/7654/>
 
-    -   
-
     -   <https://doi.org/10.1016/j.respol.2018.07.019>
-
-    -   
 
     -   <https://doi.org/10.1111/lang.12286>
 
-    -   
-
     -   <https://journals.sagepub.com/doi/10.1177/0741932516646083>
-
-    -   
 
     -   <https://journals.sagepub.com/doi/10.1177/1477370815578197>
 
-    -   
-
     -   <https://journals.sagepub.com/doi/10.3102/0013189X14545513>
-
-    -   
 
     -   <https://journals.sagepub.com/doi/10.1177/1745691612460688>
 
-    -   
-
     -   <https://www.journals.uchicago.edu/doi/10.1086/506236>
-
-    -   
 
     -   <https://osf.io/preprints/psyarxiv/sa6rc>
 
-    -   
-
     -   <https://www.pnas.org/doi/abs/10.1073/pnas.2208863120>
-
-    -   
 
     -   tweet von gilad: https://twitter.com/giladfeldman/status/1735950123291779119
 
-    -   
+#### Ansehen von Replikationsstudien
 
--   
+Replikationen von Bem's berüchtigter Studie zum Erfühlen der Zukunft wurden bei der Zeitschrift, bei der sie veröffentlicht wurde, ohne Begutachtungsprozess abgelehnt ("Desk Reject"). Der Editor erklärte, die Zeitschrift veröffentlicht keine Replikationsstudien, egal was dabei herauskam, da sie nicht die Zeitschrift der Bem Replikationen sein möchten [@Lakens.2023]. Unter den 3185 Zeitschriften mit TOP Faktor gaben im Jahr 2024 341 Zeitschriften (10.7%) an, dass sie Replikationen akzeptieren. Sie werden als Konfrontation der aktuellen theoretischen Erwartungen mit aktuellen Daten definiert und ihre wichtige Rolle im wissenschaftlichen Prozess mehr und mehr anerkannt (REF <https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000691>). Ein Großteil dieser Entwicklung ist von der Sozialpsychologie getragen, andere Felder verändern sich kaum oder nur langsam (REF, <https://psycharchives.org/en/item/74463c10-7347-4bf2-8156-5618d42c4e93>), doch selbst dort sind Diskussionen von Replikationsbefunden zum Teil noch hart und die Replikationen werden (REF, [https://osf.io/96pnj](#0){.uri}).
 
--   Geringes Ansehen verändert sich
+In den Wirtschaftswissenschaften hat sich das Insitute for Replications (I4R, <https://i4replication.org/reports.html>) gebildet, welches sogenannte Replication Games organisiert, bei denen Studien reproduziert und repliziert wurden. Anknüpfend an eine Forderung [@Zimmermann2015-jw] wurde das Journal of Comments and Replications in Economics (JCRe) gegründet. Ab 2024 konzentriert sich das I4R darauf, Replikationen zu spezifischen Zeitschriften durchzuführen. Ironischerweise tut es das nicht für Open Access Zeitschriften, sondern beispielsweise für Nature (REF <https://www.nature.com/articles/s41562-023-01807-2>).
 
-    -   
+#### Arten von Replikationsprojekten
 
-    -   Vor 10 Jahren: <https://osf.io/preprints/psyarxiv/dtvs7/> p. 9 replications of Bem's pre-cognition study were desk-rejected by the editor of JPSP, Eliot Smith, who stated "This journal does not publish replication studies, whether successful or unsuccessful" and "We don't want to be the Journal of Bem Replication" (Aldhous, 2011).
+Während ein Großteil der Replikationsstudien klassischen Studien entspricht, haben sich Spezialmodelle entwickelt. Beispielsweise können Forschende mit StudySwap Gruppen suchen, die ihre Ergebnisse vor der Veröffentlichung replizieren (REF <https://osf.io/preprints/psyarxiv/dtvs7/>; p. 11). Im Rahmen von Registered Replication Reports konzentrieren sich große Teams an mehreren Orten auf eine zuvor abgestimmte Studie und führen sie gleichzeitig überall durch. Einer der fruchtbarsten Ansätze ist die Nutzung von Abschlussarbeiten für Replikationen. Im Rahmen eines Studiums müssen alle Studierende eine Abschlussarbeit (z.B. Bachelorarbeit oder Masterarbeit) ablegen. Anhand von Replikationen können sie lernen, eine wichtige Studie nachzubilden und prüfen gleichzeitig die Robustheit der Originalbefunde. Während @Quintana2021-dp vorschlug, Abschlussarbeiten so zu verwenden, ist es bereits gängige Praxis in den vergleichenden Politikwissenschaften \[@korell2023student\], in der Psychologie [@Jekel.2020; @Feldman.2021; @Boyce.2023; @wagge2019publishing], und in den Wirtschaftswissenschaften (<https://home.uni-leipzig.de/lerep/>). Am Wissenschaftszentrum Berlin für Sozialforschung (https://www.wzb.eu/de/forschung/markt-und-entscheidung/verhalten-auf-maerkten/labsquare) und beim Sports Science Replication Center (https://ssreplicationcentre.com) starteten 2024 ebenfalls Replikationsreihen.
 
-    -   
+#### Wer veröffentlicht Replikationen?
 
-    -   Jetzt immer mehr Replikation als innovativ: "Defining replication as a confrontation of current theoretical expectations clarifies its important, exciting, and generative role in scientific progress." <https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000691>
+@srivastava2012pottery schlug eine "Pottery Barn" Regel für wissenschaftliche Zeitschriften vor. Unter dieser Regel versteht man das in Töpfereien übliche Regel "wer es kaputt macht, muss es kaufen". Für Replikationen hieße das, dass eine Zeitschrift alle Replikationen zu einer Studie, die sie veröffentlicht hat, ebenfalls veröffentlichen muss. Tatsächlich tut das keine Zeitschrift - möglicherweise aus Furcht, ihren Impact Factor zu reduzieren oder der unzureichenden wissenschaftlichen Qualitätssicherung beschuldigt zu werden. Abgesehen von den Replikationsszeitschriften JCRe (<https://www.jcr-econ.org>) und Rescience X (rescience.org/x) gibt es vereinzelte Zeitschriften, die Replikationsstudien veröffentlichen. In der Psychologie sind das beispielsweise Meta-Psychology und das Journal of Trial and Error.
 
-    -   
+Um die Auffindbarkeit von Replikationen dennoch zu erhöhen, sind Replikationen*datenbanken* entstanden. Dabei sammeln Forschende Replikationsstudien und bereiten sie nutzerfreundlich auf. Für Wirtschaftswissenschaften hat Jan Höffler mit dem Replication Wiki ([https://replication.uni-goettingen.de/wiki/](https://replication.uni-goettingen.de/wiki/index.php/Special:FormEdit/New_Replication){.uri}) grundlegende Arbeit geleistet [@hoffler2017replicationwiki]. In der Psychologie stellte LeBel curatescience.org vor. Das Projekt starb schnell wieder aus, die Idee wurde von FORRT mit "Replications and Reversals" (forrt.org/reversals/) aufgegriffen und 2023 mit der "Replication Database" zur "FORRT Replication Database" vereinigt. Mit meta-analytischen Funktionen und der Möglichkeit, Quellenverzeichniss auf Replikationsstudien zu prüfen ist die FORRT Replication Database aktuell das umfangreichste Projekt (forrt.org/replication-hub). Der Großteil dieser Projekte wird von großen Communities gestemmt, bei welcher die Teilnehmenden mühselig per Hand Daten beitragen. Automatisierte Methoden sind in Entwicklung, allerdings noch unausgereift [@de2023automatically].
 
-    -   Mehr Replikationen, aber zB in Soc Psych noch nicht Mainstream <https://psycharchives.org/en/item/74463c10-7347-4bf2-8156-5618d42c4e93>
+#### Was ist eine gute Replikation?
 
-    -   
+Über viele Fächer hinweg werden Replikationsmethoden entwickelt. Vorangehend mit der Psychologie [@Brandt.2014; @Huffmeier.2016] gibt es Richtlinien für Replikationen in quantiativer Soziologie [@freese2017replication], Geisteswissenschaften [@Schoch.2023], und Marketing [@urminsky2024taking]. Methoden zur Stichprobenplanung \[@Simonsohn.2015; REF <https://www.researchgate.net/publication/373047996_Bayesian_approaches_to_designing_replication_studies>\
+<https://link.springer.com/article/10.1007/s11749-023-00916-4>\] und zur Auswahl \[REF; <https://www.sciencedirect.com/science/article/pii/S0010945223002691>; [https://www.researchgate.net/publication/365057816_ORMA_A_strategy_to_reduce_Psychology's_replication_problems](https://www.researchgate.net/publication/365057816_ORMA_A_strategy_to_reduce_Psychology's_replication_problems)\], Bewertung (https://docs.google.com/document/d/1p7GeOpwzQyTuzAWsD1w3zql2dS6mFgEhdf38Lc3uXC4/edit#heading=h.oti7bgwflneo), und Kommunikation \[REF; <https://doi.org/10.1017/S1049096520000943>\] von Replikationsstudien wurden entwickelt. Unten werden Empfehlungen in Form eines Replikationsleitfadens strukturiert.
 
-    -   Replikationen Initiative: <https://i4replication.org/reports.html>
+::: callout-tip
+## Schnelldurchlauf: Leitfaden für die Durchführung von Replikationsstudien
 
-    -   
+1.  Wahl der Studie: Die zu replizierende Studie sollte relevant und anzweifelbar sein. Relevanz kann sich durch viele Zitationen äußern oder dadurch, dass viel Forschung auf dem Befund aufbaut. Existieren bereits viele Replikationen und ist klar, dass Replizierbarkeit gegeben oder nicht gegeben ist, ist eine Replikationsstudie wenig informativ. Aufgrund der Replikationskrise ist die Anzweifelbarkeit meistens gegeben (z.B. durch P-Werte nah an der 5% Schwelle). Mittels meta-analytischer Auffälligkeiten [@Adler.2023] lässt sich die Anzweifelbarkeit ebenfalls prüfen.\
+    Bei der Auswahl empfiehlt es sich zudem, bisherige Diskussionen (Kommentare in Zeitschriften oder auf Pubpeer.com) zu berücksichtigen, falls es sie gibt. Im Rahmen von Abschlussarbeiten ist außerdem die Machbarkeit zu berücksichtigen: Eine Längsschnittstudie, die 10 Jahre dauert, ist nicht gut machbar. Ebenfalls sollte es für den entsprechenden Bereich etablierte Replikationsstandards geben. Für Daten von Gehirnscannern ist das beispielsweise noch nicht der Fall, da dort hunderte bis tausende von Korrelationen verglichen werden und die Originalwerte häufig nicht verfügbar sind.
 
-    -   <https://openresearch.amsterdam/image/2018/1/15/20180115_replication_studies_web.pdf>
+2.  Durchführung: Eine Bestandsaufnahme aller öffentlicher Materialien ist empfehlenswert. Wenn möglich, sollten Originalergebnisse reproduziert und geprüft werden. Auch ohne Daten lassen sich zum Beispiel via statcheck.io [@nuijten2016prevalence] Werte auf Korrektheit prüfen. Bei jüngeren Studien können die Originalautor\*innen Daten und Materialien zur Verfügung stellen. \
+    Eine besondere Herausforderung ist in der Forschung die Planung des Stichprobenumfanges (statistische Power). Zwar ist das Problem für Replikationsstudien deshalb am geringsten, weil es dort schon einen Befund zur Orientierung gibt, allerdings ist der meistens zu unscharf, um den für die Berechnungen zu verwenden. Der Small Telescopes Approach [@Simonsohn.2015] hilft hierbei aus und ggf. muss auf Äquivalenztests zurückgegriffen werden [@Lakens.2017].\
+    Um die Anpassung der Originalmethode kommen Replizierende nur selten: Materialien sind veraltet, müssen in eine andere Sprache übersetzt werden, oder an eine besondere Stichprobe von Personen angepasst werden. Dabei können ähnliche Studien helfen, die mittels Replikationsdatenbank aufgespürt werden können [@Roseler.2024]. Häufig bieten sich auch Erweiterungen (Extensions) an, die den Informationsgehalt der Studie erhöhen.
 
-    -   
+3.  Analyse: Ähnlich wie bei den Methoden ist es häufig sinnvoll, die Originalanalyse nachzubilden (konfirmatorisch) und anschließend weitere Tests durchzuführen (exploratorisch). Ein Vergleich der Ergebnisse - auch im Hinblick auf methodische Unterschiede - erlaubt dann ein umfassendes Bild.
 
-    -   Ruf nach Zeitschrift (<https://s3.amazonaws.com/real.stlouisfed.org/wp/2015/2015-016.pdf>) erhört (JCRe)
+4.  Diskussion: Unter welchen Bedingungen die Replikation als erfolgreich interpretiert wird, sollte zuvor in einer Präregistrierung festgelegt werden. Vorschläge für Kriterien machen @Brandt.2014, @LeBel.2019, und @Anderson.2017. Abweichungen von der Präregistrierung und der Originalstudie sollten dabei ausgiebig diskutiert werden. Ob ein Kommentar der Autor\*innen der Originalstudie hilfreich ist, ist umstritten, obgleich Kommentare für die Veröffentlichung bei manchen Zeitschriften nötig ist.
 
-    -   
-
-    -   Diskussionen sind zum Teil noch hart und Replikationsstudien werden falsch dargestellt <https://osf.io/96pnj>
-
-    -   
-
--   
-
--   Arten von Replikationsprojekten
-
-    -   
-
-    -   RRR: <https://www.researchgate.net/publication/366862422_A_Roadmap_to_Large-Scale_Multi-Country_Replications_in_Psychology>
-
-    -   
-
-    -   Registered Repots /PCI-RR (steht dazu s chon woanders etwas? Ist ja nicht explizit für replikationen)
-
-    -   
-
-    -   Abschlussarbeiten für Replikationen nutzen:
-
-        -   
-
-        -   <https://www.nature.com/articles/s41562-021-01192-8>
-
-        -   
-
-        -   Studierende als Replizierende: <https://link.springer.com/article/10.1007/s12286-023-00578-4>
-
-        -   
-
-        -   Hagen Cumulative Science Project:\
-            <https://journals.sagepub.com/doi/10.1177/1475725719868149>
-
-        -   
-
-        -   Gilad Feldmans Projekte CORE <https://osf.io/5z4a8/>
-
-        -   
-
-    -   
-
--   
-
-§  Leipziger Replikationsstudien: <https://home.uni-leipzig.de/lerep/>
-
-§  CREP <https://www.frontiersin.org/articles/10.3389/fpsyg.2019.00247/full>
-
-§  Laufende Großprojekte
-
-§  I4R und Replication Games: <https://www.nature.com/articles/s41562-023-01807-2>
-
-§  ZWB Lab²
-
-§  Beteiligung von Original-Autor\*innen
-
-§  <https://osf.io/preprints/psyarxiv/dwg9v>
-
--   
-
--   Veröffentlichung von Replikationen
-
-    -   
-
-    -   Vorschlag: jede Zeitschrift ist zuständig für Replizierbarkeit eigener Studien und MUSS Replikationsversuche veröffentlichen; pottery barn rule <https://thehardestscience.com/2012/09/27/a-pottery-barn-rule-for-scientific-journals/>
-
-    -   
-
-    -   Neue Journals
-
-        -   
-
-        -   Replikationen Journal: <https://www.jcr-econ.org>
-
-        -   
-
-        -   Reproducibility in Neuroscience: <https://jrn.epistemehealth.com/about/editorialteam/>
-
-        -   
-
-        -   Journal of Trial and Error <https://trialanderror.org>
-
-        -   
-
-        -   <http://rescience.org/x> Replication Journals
-
-        -   
-
-    -   
-
-    -   Datenbanken für Replikationen
-
-        -   
-
-        -   Göttingen Replication Wiki <https://replication.uni-goettingen.de/wiki/index.php/Special:FormEdit/New_Replication> or <https://blog.repec.org/2020/08/04/a-replication-database-for-economics-and-social-sciences-the-replicationwiki/> (Jan H. Höffler) <https://doi.org/10.1045/march2017-hoeffler>
-
-        -   
-
-        -   CurateScience.org
-
-        -   
-
-        -   FORRT Replications and Reversals
-
-        -   
-
-        -   Replication Database (ReD)
-
-        -   
-
-    -   
-
-    -   Auffinden von Replikationen: <https://arxiv.org/pdf/2311.15055.pdf>
-
-    -   
-
--   
-
--   Ressourcen zum Lernen über Replikationen
-
-    -   
-
-    -   Review über Replikationen in quantitativer Soziologie: <https://www.annualreviews.org/doi/10.1146/annurev-soc-060116-053450>
-
-    -   
-
-    -   Wiki für Studierende / Webinar in Göttingen: <https://replication.uni-goettingen.de/wiki/index.php/Webinar_series:_Replicating_empirical_studies_in_economics_-_an_opportunity_for_students> Replication Wiki
-
-    -   
-
--   
-
--   Replikationsmethodologie weiterentwickelt
-
-    -   
-
-    -   Terminologie wie am Anfang vorgestellt (Hüffmeier, Paper zu Generalizability von dem akademischen Rat aus Bamberg \[evolutionsbiologie\])
-
-    -   
-
-    -   Small telescopes approach
-
-    -   
-
-    -   Bayesian sample size planning <https://www.researchgate.net/publication/373047996_Bayesian_approaches_to_designing_replication_studies>\
-        <https://link.springer.com/article/10.1007/s11749-023-00916-4>
-
-    -   
-
-    -   Selection of replication studies <https://www.sciencedirect.com/science/article/pii/S0010945223002691>
-
-    -   
-
-    -   <https://www.researchgate.net/publication/365181293_Bayesian_approaches_to_designing_replication_studies>
-
-    -   
-
-    -   Empfehlungen, wie Autor\*innen von Replikationsstudien mit den Originalautor\*innen kommunizieren sollten: <https://doi.org/10.1017/S1049096520000943>
-
-    -   
-
-    -   Kriterien für Bewertung: <https://docs.google.com/document/d/1p7GeOpwzQyTuzAWsD1w3zql2dS6mFgEhdf38Lc3uXC4/edit#heading=h.oti7bgwflneo>
-
-        -   
-
-        -   Problem beim Updaten von Materialien: wenn original, dann veraltet und unpassend -- wenn neu, dann anders und unpassend; siehe auch Kommentar von John Protzko <https://rr.peercommunityin.org/PCIRegisteredReports/articles/rec?id=750>
-
-        -   
-
-    -   
-
-    -   Identifikation probleamtischer Forschungsliteratur:  Original Replication of Meta-Analyses or ORMA [https://www.researchgate.net/publication/365057816_ORMA_A_strategy_to_reduce_Psychology's_replication_problems](https://www.researchgate.net/publication/365057816_ORMA_A_strategy_to_reduce_Psychology's_replication_problems)
-
-    -   
-
--   
-
-§  Qualitative Forschung profitiert evtl. nicht von Replikationen <https://open.lnu.se/index.php/metapsychology/article/view/3764>
-
-KASTEN / Leitfaden: Eine Replikationsstudie durchführen
-
-1.      Wahl der Studie
-
-·         Wichtigkeit der Originalstudie (Grundlegend, evtl. erkennbar durch viele Zitationen)
-
-·         Ungewissheit der Originalstudie (Replikationswahrscheinlichkeit möglichst nicht 0 oder 1)
-
-·         Bisher noch keine Replikationen
-
-·         Diskussionen dazu beachten (z.B. via hypothes.is oder pubpeer.com à auf pubpeer.com Paper suchen und schauen, ob es dazu Kommentare gibt)
-
-·         Machbarkeit (online möglich? Querschnitt? Instrumente Verfügbar bzw. bezahlbar?)
-
-·         Etablierte Replikationsstandards für den Bereich? (bei FMRI Daten oder Längsschnittanalysen schwieriger als bei einfachen F- oder t-Tests)
-
-·         Zusatz: Meta-analytische Indikatoren: auffällige P-Curve/Z-Curve, klare Hinweise auf Publikationsbias oder QRP
-
-2.      Durchführung
-
-·         Bestandsaufnahme der veröffentlichten Materialien und Daten
-
-·         Daten berechnen
-
-·   Bei verfügbaren Daten: komputationale Reproduzierbarkeit prüfen
-
-·   Bei fehlenden Teststatistiken diese ausrechnen
-
-·   Bei fehlenden Werten zu allem möglichen, evtl. andere Studien hinzuziehen
-
-·         Kontaktaufnahme zu Originalautor\*innen, wenn möglich
-
-·         Stichprobenplanung: nicht den Originalstichprobenumfang nehmen, sondern Poweranalyse-Ansätze nutzen
-
-·   Small-Telescopes-Approach
-
-·   Untere KI-Grenze
-
-·   Äquivalenztests
-
-·         Anpassung der Methode
-
-·   Ggf. Update veralteter Materialien
-
-·   Übersetzung in andere Sprache
-
-·   Notwendigkeit einer besonderen Stichprobe?
-
-·   Gibt es etablierte Standards bezüglich des statistischen Tests (v.a. bei standardisierten Effektstärken \[r, *d*, *f*\], nicht bei komplexen Verfahren wie RSA, Clustering, Decision Trees, FMRI Daten)
-
-·   Gibt es ähnliche Replikationsstudien in dem Bereich, die für die Methode herangezogen werden können (z.B. via Replication Database suchen)
-
-·         Anpassungen
-
-·   Qualitätssicherung: Welche Veränderungen sind nötig oder sinnvoll? Was wissen wir neues, was wir berücksichtigen sollten?
-
-·   Extensions: Lassen sich zusätzliche Items o.ä. „hinten" an die Studie anhängen, womit sich die externe Validität erhöhen könnte? Gibt es zusätzliche einfache Ergänzungen, bei denen eine Replikation nicht zu erwarten ist?
-
-·         Präregistrierung mittels Template (Empfehlung: Replication Recipe, Brandt et al., 2014 <http://dx.doi.org/10.1016/j.jesp.2013.10.005>
-
-·         Ggf. als PCI-RR submitten
-
-3.      Analyse
-
-·         Berechnung der Ergebnisse
-
-·         Vergleich Original vs. Replikation
-
-·         Vergleich naher vs. „ferner" Ergebnisse (z.B. bei denselben Items vs. Bei Extension \[falls vorhanden\]
-
-4.      Diskussion
-
-·         Bewertung des Ergebnis
-
-·   LeBel Kriterien (signal/no signal + size)
-
-·   Umgangssprache (success, failure, practical failure, inconclusive)
-
-·         Abweichungen von Präregistrierung (jeweils Beschreibung, Begründung, und Auswirkung auf Ergebnisse)
-
-·         Abweichung von Originalstudie (jeweils Beschreibung, Begründung, und ob es die Ähnlichkeit der Ergebnisse hätte beeinflussen können)
-
-·         Bei anderen Ergebnissen Originalautor\*innen um Kommentar bitten
-
-5.      Bericht
-
-·         Manuskript: Orientierung an state-of-the Art von Gilad Feldman (LINK/REF) und an I4R Replication Report Template (<https://osf.io/j2qrx>)
-
-·         Eintragung in Replication Database (via Fragebogen oder StaRT)
-
-·         Registrierung der Ergebnisse über Replication Recipe („post completion")
-
-·         Ggf. Verweis auf Replikationsstudie unter der Originalstudie bei pubpeer.com
-
-·         Preprint: auf passendem Server hochladen
-
-·         Zeitschrift: Originalzeitschrift (meistens kein Interesse), Collabra: Psychology, PCI (wenn es eins gibt), Meta-Psychology (designierte Section für Replikationen); Hinweise zu Zeitschriften hier: <https://i4replication.org/publishing.html>
+5.  Bericht: Umfangreiche Berichte von Feldman und Kolleg\*innen [@Ziano.2021] bieten gute Orientierung für Manuskripte. Für kurze Berichte ist ebenfalls ein [standardisiertes Formular](https://osf.io/j2qrx) verfügbar, mittels welchem Befunde in die Replikationendatenbank eingetragen werden können. @Brandt.2014 empfehlen außerdem eine Registrierung der Ergebnisse, welche die Weiterverwendung ermöglicht [@Roseler.2022d]. Zuletzt ist eine Veröffentlichung des Pre-Prints empfehlenswert.
+:::
 
 ### Modellierung von Replizierbarkeit
 
@@ -877,29 +406,19 @@ o   Metapsy <https://www.metapsy.org>
 
 o   Metalab stanford <https://langcog.github.io/metalab/>
 
-Tabelle aktualisieren (siehe PPT + Metspy.org)
+Tabelle aktualisieren (siehe PPT)
 
-|     |                                 |     |                                                                                             |     |                                       |     |
-|----------|----------|----------|---------------|----------|----------|----------|
-|     |                                 |     |                                                                                             |     |                                       |     |
-|     | **Name**[\[LR54\]](#_msocom_54) |     | **Link**                                                                                    |     | **Topics**                            |     |
-|     |                                 |     |                                                                                             |     |                                       |     |
-|     | MetaLab                         |     | [langcog.github.io/metalab](https://langcog.github.io/metalab)                              |     | Early Language, Cognitive Development |     |
-|     |                                 |     |                                                                                             |     |                                       |     |
-|     | metaBUS                         |     | [metabus.org](http://metabus.org/)                                                          |     | All of social sciences                |     |
-|     |                                 |     |                                                                                             |     |                                       |     |
-|     | SOLES                           |     | [camarades.shinyapps.io/AD-SOLES/](https://camarades.shinyapps.io/AD-SOLES/)                |     | Animal models of Alzheimer's disease  |     |
-|     |                                 |     |                                                                                             |     |                                       |     |
-|     | OpAQ                            |     | [t1p.de/openanchoring](https://t1p.de/openanchoring)                                        |     | Anchoring Effects                     |     |
-|     |                                 |     |                                                                                             |     |                                       |     |
-|     | FReD                            |     | [t1p.de/ReD](https://t1p.de/ReD)                                                            |     | Replications (all fields)             |     |
-|     |                                 |     |                                                                                             |     |                                       |     |
-|     | Power Posing                    |     | [metaanalyses.shinyapps.io/bodypositions](https://metaanalyses.shinyapps.io/bodypositions/) |     | Body Position Effects                 |     |
-|     |                                 |     |                                                                                             |     |                                       |     |
-|     | Metadataset                     |     | [metadataset.com](https://www.metadataset.com/)                                             |     | Agriculture                           |     |
-|     |                                 |     |                                                                                             |     |                                       |     |
-|     | METAPSY                         |     | <https://www.metapsy.org>                                                                   |     | Psychotherapy                         |     |
-|     |                                 |     |                                                                                             |     |                                       |     |
+|                                 |                                                                                             |                                       |
+|-----------|-----------|-----------|
+| **Name**[\[LR54\]](#_msocom_54) | **Link**                                                                                    | **Topics**                            |
+| MetaLab                         | [langcog.github.io/metalab](https://langcog.github.io/metalab)                              | Early Language, Cognitive Development |
+| metaBUS                         | [metabus.org](http://metabus.org/)                                                          | All of social sciences                |
+| SOLES                           | [camarades.shinyapps.io/AD-SOLES/](https://camarades.shinyapps.io/AD-SOLES/)                | Animal models of Alzheimer's disease  |
+| OpAQ                            | [t1p.de/openanchoring](https://t1p.de/openanchoring)                                        | Anchoring Effects                     |
+| FReD                            | [t1p.de/ReD](https://t1p.de/ReD)                                                            | Replications (all fields)             |
+| Power Posing                    | [metaanalyses.shinyapps.io/bodypositions](https://metaanalyses.shinyapps.io/bodypositions/) | Body Position Effects                 |
+| Metadataset                     | [metadataset.com](https://www.metadataset.com/)                                             | Agriculture                           |
+| METAPSY                         | <https://www.metapsy.org>                                                                   | Psychotherapy                         |
 
 Anleitungen:
 
@@ -1088,5 +607,9 @@ und
 -   @Henderson2022-ci beschreibt zehn einfache Regeln zum Schreiben eines Registered Reports
 
 -   Ein Erklärvideo zu PCIs ist online verfügbar (<https://www.youtube.com/watch?v=4PZhpnc8wwo>).
+
+-   Berichte, wie Replikationen in verschiedenen Disziplinen aussehen, berichtet @royal2018replication.
+
+-   Mittels einem Wiki und einem Webinar können Studierende über das [ReplicationWiki](https://replication.uni-goettingen.de/wiki/index.php/Webinar_series:_Replicating_empirical_studies_in_economics_-_an_opportunity_for_students) über Replikationen lernen.
 
 ### Literatur
