@@ -52,10 +52,8 @@ Welche Perspektive sich langfristig herauskristallisiert ist noch ungewiss. Im Z
 
 -   Forschende für Vorträge und Workshops zum Thema Open Science vermittelt das deutsche Netzwerk der Open-Science Initiativen: https://osf.io/tbkzh/wiki/home/
 
--   Eine Einführung in das Thema Open Sciencef ür Studierende (englisch) bieten @pennington2023student und @chambers2017seven.
+-   Eine Einführung in das Thema Open Science für Studierende (englisch) bieten @pennington2023student, @noauthor_2024-bm, und @chambers2017seven.
 
 -   Ein deutsches Glossar mit Open Science Begriffen ist online via FORRT verfügbar: https://forrt.org/glossary/german/
 
 -   Open Science ist noch nicht die Norm, wie jeder dazu beitragen kann, fassen @Kohrs2023-mf zusammen.
-
-·         Matters of Significance <https://discovery.ucl.ac.uk/id/eprint/10186829/1/Matters-of-Significance.pdf>

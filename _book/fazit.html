@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -297,7 +317,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#was-hat-sich-verbessert" id="toc-was-hat-sich-verbessert" class="nav-link active" data-scroll-target="#was-hat-sich-verbessert">Was hat sich verbessert?</a></li>
   <li><a href="#was-ist-noch-zu-tun" id="toc-was-ist-noch-zu-tun" class="nav-link" data-scroll-target="#was-ist-noch-zu-tun">Was ist noch zu tun?</a></li>
   <li><a href="#was-geschieht-jetzt-gerade" id="toc-was-geschieht-jetzt-gerade" class="nav-link" data-scroll-target="#was-geschieht-jetzt-gerade">Was geschieht jetzt gerade?</a></li>
-  <li><a href="#literaturempfehlungen" id="toc-literaturempfehlungen" class="nav-link" data-scroll-target="#literaturempfehlungen">Literaturempfehlungen</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -323,88 +342,127 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AUFLISTEN / TABELLE: Gründe für „nicht repliziert”</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Neue Wissenschaft: Meta-Wissenschaft, die mit sozialwissenschaftlichen Methoden arbeitet</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Höherer Grad an Systematizität (Hoyningen-Huene)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Selbstkorrektur von Wissenschaft als aktive Arbeit statt Invisible Hand</p>
+<p>Wissenschaftler*innen arbeiten unter starkem Druck und das wissenschaftliche System belohnt Sorgfalt und Offenheit weniger als Innovation und klare Ergebnisse. In den Sozialwissenschaften tun sich immer mehr Forschende zusammen, diese Probleme zu lösen. Aus der Vertrauenskrise hervorgehend befindet sich große Teile der Psychologie bereits in einer Renaissance. Täglich werden Diskussionen auf persönlicher, institutioneller, und politischer Ebene darüber geführt, wie Wissenschaft betrieben werden sollte. Es ist dabei klar geworden, dass es in der Wissenschaft nicht wie in manch einem ökonomischen Markt eine “unsichtbare Hand” gibt, die dafür sorgt, dass alles ins Gleichgewicht findet - stattdessen sind es die Forschenden, die sich aktiv um die Selbstkorrektur von Wissenschaft bemühen. Bevor jedoch eine Intervention zur Verbesserung von Forschung stattfinden kann, wird zuerst eine Inventur (Wo sind Verbesserungen nötig?) und anschließend eine Beobachtung benötigt. Eine Inventur über Probleme und Lösungsvorschläge biete ich mit diesem Buch an. Es ist nun die Rolle der <em>Meta-Wissenschaft</em>, also Wissenschaft über Wissenschaft, zu prüfen, welche Lösungsansätze wie gut funktionieren.</p>
 <section id="was-hat-sich-verbessert" class="level3">
 <h3 class="anchored" data-anchor-id="was-hat-sich-verbessert">Was hat sich verbessert?</h3>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Review der Veränderungen <a href="https://www.researchgate.net/publication/355421853_Replicability_Robustness_and_Reproducibility_in_Psychological_Science" class="uri">https://www.researchgate.net/publication/355421853_Replicability_Robustness_and_Reproducibility_in_Psychological_Science</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; journal guidelines und reporting: <a href="https://www.researchgate.net/publication/364374923_The_influence_of_journal_submission_guidelines_on_authors'_reporting_of_statistics_and_use_of_open_research_practices_Five_years_later">https://www.researchgate.net/publication/364374923_The_influence_of_journal_submission_guidelines_on_authors’_reporting_of_statistics_and_use_of_open_research_practices_Five_years_later</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.nature.com/articles/s41562-023-01749-9" class="uri">https://www.nature.com/articles/s41562-023-01749-9</a> extreme Erhöhung von Replikationsrate durch neue Methoden in kleienr Stichprobe von Phänomenen</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.nature.com/articles/s44271-023-00003-2" class="uri">https://www.nature.com/articles/s44271-023-00003-2</a> positive structural, procedural, and community changes</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Neue Meinung zu OS Praktiken: <a href="https://www.researchgate.net/publication/373685253_Survey_of_open_science_practices_and_attitudes_in_the_social_sciences" class="uri">https://www.researchgate.net/publication/373685253_Survey_of_open_science_practices_and_attitudes_in_the_social_sciences</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Meta-Wissenschaftliche Evaluation von neuen Methoden</p>
-<p>o&nbsp;&nbsp; Bisherige Vorschläge sind zum Teil intuitiv und nicht ausführlich geprüft <a href="https://journals.sagepub.com/doi/10.1177/10892680241235120" class="uri">https://journals.sagepub.com/doi/10.1177/10892680241235120</a>; manche der Intuitionen sind auch falsch (z.B. wichtig ist nur, was replizierbar ist)</p>
-<p>o&nbsp;&nbsp; Initial evidence registerd reports</p>
-<p>o&nbsp;&nbsp; Nosek 2023 paper (protzko?)</p>
-<p>o&nbsp;&nbsp; Hilft Preregistration gegen p-hacking? <a href="https://ideas.repec.org/p/zbw/i4rdps/101.html" class="uri">https://ideas.repec.org/p/zbw/i4rdps/101.html</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Strikte Normen könnten Flexibilität verringern und Offenheit und Innovationspotenziale einschränken</p>
-<p>o&nbsp;&nbsp; Anfänglich unplausible Hypothesen sollten nicht direkt verworfen werden, manchmal führt auch eine Beharrungstendenz von Wissenschaftler*innen dazu, dass sich neue, anfänglich unplausible Theorien, durchsetzen (<a href="https://journals.sagepub.com/doi/10.1177/10892680241235120" class="uri">https://journals.sagepub.com/doi/10.1177/10892680241235120</a>)</p>
+<p>Ich hoffe, dass die Kapitel zu den Lösungen klar gemacht haben, dass es kein Problem gibt, für dass es nicht mindestens einen Lösungsvorschlag gibt und dass diese bereits vielfältig umgesetzt werden <span class="citation" data-cites="Korbmacher.2023">(<a href="#ref-Korbmacher.2023" role="doc-biblioref">Korbmacher et al. 2023</a>)</span>. Beispielsweise wurden für Replikationsforschung Leitfäden erarbeitet und Replikationen werden seltener als persönliche Attacken und mehr als sinnvolles Werkzeug angesehen <span class="citation" data-cites="Nosek2022-zg">(<a href="#ref-Nosek2022-zg" role="doc-biblioref">Nosek et al. 2022</a>)</span>. Strengere Vorgaben bei Berichten statistischer Tests haben sich deutlich auf deren Nachvollziehbarkeit ausgewirkt <span class="citation" data-cites="Giofre2023-jt">(<a href="#ref-Giofre2023-jt" role="doc-biblioref">Giofrè et al. 2023</a>)</span>, Präregistrierungen haben P-Hacking reduziert <span class="citation" data-cites="brodeur2024preregistration">(<a href="#ref-brodeur2024preregistration" role="doc-biblioref">Brodeur et al. 2024</a>)</span>, und vereinzelt konnten mit modernen Methoden extrem hohe Replikationsraten erreicht werden <span class="citation" data-cites="Protzko.2023">(<a href="#ref-Protzko.2023" role="doc-biblioref">Protzko et al. 2023</a>)</span>. Wie Forschende in der Psychologie diese Ansätze nutzen, ist zwischen 2010 und 2020 von 49% auf 87% stark angestiegen <span class="citation" data-cites="Ferguson2023-qh">(<a href="#ref-Ferguson2023-qh" role="doc-biblioref">Ferguson et al. 2023</a>)</span>.</p>
 </section>
 <section id="was-ist-noch-zu-tun" class="level3">
 <h3 class="anchored" data-anchor-id="was-ist-noch-zu-tun">Was ist noch zu tun?</h3>
-<p>Wissenschaft zeigt, dass Selbstkorrekturprozesse existieren, Replikationskrise ist allerdings noch nicht annähernd überwunden</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lösungen für Strukturelle Probleme erst am Anfang der Umsetzung</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Open Access Problematik aktuell mit Momentum, allerdings unklar, ob weitere Jahrzehnte zur Lösung benötigt werden</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Änderungsvorschläge müssen wissenschaftlich geprüft werden</p>
-<p>o&nbsp;&nbsp; Interventionen oft sinnvoll, manchmal aufwändig, aber oft ist unklar, wie viel sie bringen (z.B. Präregistrierungen)</p>
-<p>o&nbsp;&nbsp; Selbst Artikel, die sich mit Open Science befassen, halten sich selbst manchmal nicht an die Standards (z.B. REF<a href="#_msocom_1">[LR1]</a>&nbsp;)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Replikationsraten (Replikationen pro Publikationen) maximal 5%, eher &lt;1%</p>
-<p>o&nbsp;&nbsp; <a href="https://twitter.com/giladfeldman/status/1735950123291779119" class="uri">https://twitter.com/giladfeldman/status/1735950123291779119</a></p>
-<p>o&nbsp;&nbsp; <a href="https://osf.io/preprints/psyarxiv/sa6rc" class="uri">https://osf.io/preprints/psyarxiv/sa6rc</a> in Psychologie „54 out of 88 journals did not publish any direct replication articles in the eleven years surveyed” (Abstract)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Interdisziplinäres Problem erfordert Zusammenarbeit</p>
-<p>o&nbsp;&nbsp; Replikationsdefinitionen wurden zB in Psychologie (Hüffmeier et al.), Digital Humanities (Repetitive Research) und Marketing (<a href="https://doi.org/10.1093/jcr/ucae007" class="uri">https://doi.org/10.1093/jcr/ucae007</a>, Table 1) erstellt, sind aber völlig redundant</p>
-<p>Policy pyramide<a href="#_msocom_2">[LR2]</a>&nbsp;?</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Offene thematische Punkte</p>
-<p>o&nbsp;&nbsp; Wie sieht Replizierbarkeit jenseits von Sozialwissenschaften aus? (cognitive, behavioral, social)</p>
-<p>o&nbsp;&nbsp; Welche alternativen Anforderungen bestehen in logisch-formalen und qualitativ/hermeneutischen Disziplinen?</p>
-<p>o&nbsp;&nbsp; Credibility beyond replicability <a href="https://www.researchgate.net/publication/359766772_Credibility_Beyond_Replicability_Improving_the_Four_Validities_in_Psychological_Science" class="uri">https://www.researchgate.net/publication/359766772_Credibility_Beyond_Replicability_Improving_the_Four_Validities_in_Psychological_Science</a></p>
-<p>o&nbsp;&nbsp; Welche Rolle spielt Open Science bei sich verschließenden Nationen und im Krieg</p>
-<p>§&nbsp; Positivistisch: Abtrennung</p>
-<p>§&nbsp; Relationistisch: Die anderen haben eh ein anderes Bild, ihnen hilft das nicht</p>
-<p>§&nbsp; Altruistisch/Idealistisch: Wissenschaft soll der Menschheit helfen und nicht diskriminieren</p>
-<p>§&nbsp; Nationalistisch: Gesellschaft bezahlt Wissenschaft, sie muss auch primär davon profitieren</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Infrastructure (make it possible)</p>
-<p>o&nbsp;&nbsp; Offenheit des gesamten Wissenschaftsprozesses fördern<br>
-<a href="https://doi.org/10.1371/journal.pbio.3002362" class="uri">https://doi.org/10.1371/journal.pbio.3002362</a></p>
-<p>o&nbsp;&nbsp; Deal-Gruppe ist damit, Ausbeutung von Wissenschaft durch Großverlage zu stoppen, gescheitert (<a href="https://www.faz.net/aktuell/wissen/forschung-politik/wissenschaftliche-grossverlage-wissenschaftliche-grossverlage-19344181.html" class="uri">https://www.faz.net/aktuell/wissen/forschung-politik/wissenschaftliche-grossverlage-wissenschaftliche-grossverlage-19344181.html</a>)</p>
-<p>o&nbsp;&nbsp; &nbsp;</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; User interface / experience (make it easy)</p>
-<p>o&nbsp;&nbsp; Viele OS Lösungen sehr einfach</p>
-<p>o&nbsp;&nbsp; Open Source Software z.T. sehr schwierig (Literaturverwaltung, Statistik, Publikationssysteme erfordern Eingabe via klobigem Interface)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Communities (make it normative)</p>
-<p>o&nbsp;&nbsp; Wissenschaftler*innen, die angesehene Kolleg*innen kritisieren werden oft verklagt (z.B. Datacolada oder Elisabeth Bik, <a href="https://www.buzzfeednews.com/article/stephaniemlee/elisabeth-bik-didier-raoult-hydroxychloroquine-study" class="uri">https://www.buzzfeednews.com/article/stephaniemlee/elisabeth-bik-didier-raoult-hydroxychloroquine-study</a>)</p>
-<p>o&nbsp;&nbsp; &nbsp;</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Incentives (make it rewarding)</p>
-<p>o&nbsp;&nbsp; Forschende und Bibliotheken stehen immernoch in einer Art Gefangenendilemma und wer sich zuerst bewegt, hat einen Nachteil</p>
-<p>o&nbsp;&nbsp; Impact Factors und Berufungskommissionen immernoch verrückt nach Zitationen: <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6" class="uri">https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6</a></p>
-<p>o&nbsp;&nbsp; Index jacking (<a href="https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/asi.24855" class="uri">https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/asi.24855</a>)</p>
-<p>o&nbsp;&nbsp;</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Policy (make it required)</p>
-<p>o&nbsp;&nbsp; TOP guidelines als Norm vielerorts noch nicht durchgesetzt</p>
-<p>o&nbsp;&nbsp; Open Science ist noch nicht die Norm, wie jeder dazu beitragen kann, wird hier zusammengefasst <a href="https://doi.org/10.7554/eLife.89736" class="uri">https://doi.org/10.7554/eLife.89736</a></p>
-<p>o&nbsp;&nbsp; Neue Probleme wie Open Washing (<a href="https://epdos.nl" class="uri">https://epdos.nl</a>) oder vermeintliche Transformationsverträge von Verlagen mit Universitätsbibliotheken, bei denen das Ziel ist, sich langfristig von Verlagen unabhängig zu machen, gleichzeitig aber keine Transformation stattfindet sondern Folgeverträge vereinbart werden</p>
-<p>o&nbsp;&nbsp; &nbsp;</p>
+<p>Bei vielen Disziplinen ist die aktive Auseinandersetzung mit Open Science noch ausstehend. Während Sozial- und Persönlichkeitspsychologie unter den Sozialwissenschaftlern eine Vorreiterrolle spielen, hat die Auseinandersetzung in der Konsumentenpsychologie oder jenseits der Psychologie in Medizin, Erziehungswissenschaften, oder Soziologie erst vor wenigen Jahren begonnen. Und selbst in der Psychologie gibt es noch große Defizite. Zum Beispiel veröffentlichten nur 34 von 88 Zeitschriften Replikationsstudien mit einem Gesamtanteil von 0.2% an allen veröffentlichten Studien <span class="citation" data-cites="clarke2023prevalence">(<a href="#ref-clarke2023prevalence" role="doc-biblioref">Clarke et al. 2023</a>)</span>.</p>
+<p>Allgemein gilt: Um Diskussionen dabei mehr als nur intuitiv sinnvoll zu führen, ist eine meta-wissenschaftliche Evaluation der neuen Methoden unabdingbar <span class="citation" data-cites="Phaf2024-dl Soderberg.2021">(<a href="#ref-Phaf2024-dl" role="doc-biblioref">Phaf 2024b</a>; <a href="#ref-Soderberg.2021" role="doc-biblioref">Soderberg et al. 2021</a>)</span>. Es kehrt das Spektrum der möglichen Reaktionen auf Replikationsfehlschläge zurück: Sollte eine Theorie nach einem Replikationsfehlschlag sofort verworfen werden, oder ist das zu radikal und eine Beharrungstendenz von Forschenden könnte helfen, starke Theorien zu etablieren <span class="citation" data-cites="phaf2024positive">(<a href="#ref-phaf2024positive" role="doc-biblioref">Phaf 2024a</a>)</span>? Ebenfalls ist eine interdisziplinäre Zusammenarbeit sinnvoll: Beispielsweise würde es viel Arbeit ersparen, wenn Terminologien fächerübergreifend entwickelt werden, statt wie aktuell einzeln (und stark redundant) für Psychologie <span class="citation" data-cites="Huffmeier.2016">(<a href="#ref-Huffmeier.2016" role="doc-biblioref">Hüffmeier, Mazei, and Schultze 2016</a>)</span>, Geisteswissenschaften <span class="citation" data-cites="Schoch.2023">(<a href="#ref-Schoch.2023" role="doc-biblioref">Schöch 2023</a>)</span>, und Marketing <span class="citation" data-cites="urminsky2024taking">(<a href="#ref-urminsky2024taking" role="doc-biblioref">Urminsky and Dietvorst 2024</a>)</span>. In manchen Bereichen ist sogar gänzlich unklar, wie Replikationserfolg aussieht, es lässt sich also kaum beurteilen, ob zwei Studien, die dasselbe untersuchen, zum selben Ergebnis kommen.</p>
+<p>Open Science wird gelegentlich mit <em>Open Access</em> gleichgestellt. Zwar ist Open Science viel mehr als das, allerdings ist die Diskussion um Open Access eine der ältesten und stückweit unabhängig von Problemen wissenschaftlicher Integrität. Das soziale Dilemma, also wie sich Forschende von kommerziellen Verlagen unabhängig machen können, ist weit davon gelöst zu werden. Ob Abkommen zwischen Universitäten und Verlagen (z.B. DEAL Verträge) erfolgreich werden, ist noch ungewiss.</p>
+<div class="callout callout-style-simple callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Open Washing
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Selbst Forschung, die sich mit dem Thema Open Science befasst, hält sich manchmal nicht an die Kriterien, die sie fordert. Beispielsweise steht ein Artikel von Open Science Verfechtern <span class="citation" data-cites="Protzko.2023">(<a href="#ref-Protzko.2023" role="doc-biblioref">Protzko et al. 2023</a>)</span> in der <a href="https://statmodeling.stat.columbia.edu/2023/11/21/of-course-its-preregistered-just-give-me-a-sec/">Kritik</a>, weil dort - ohne transparent darüber zu berichten - von der Präregistrierung abgewichen wurde.</p>
+</div>
+</div>
 </section>
 <section id="was-geschieht-jetzt-gerade" class="level3">
 <h3 class="anchored" data-anchor-id="was-geschieht-jetzt-gerade">Was geschieht jetzt gerade?</h3>
-<p>This is not final. Netherlands reports of scientific misconduct Stay up to date</p>
-<p>- pscyh methods discussion group</p>
-<p>- open science initiatives (Germany: NOSI)</p>
-<p>- Retrationwatch blog</p>
-<p>- FORRT</p>
-<p>- Institutionalisierung von Open Science im Rahmen von dafür zuständigen Personen in Universitäten (MüCOS!)</p>
+<p>Die hier diskutierten Ideen und Befunde sind ein aktueller Schnappschuss eines dynamischen Diskurses. Mehr und mehr Universitäten gründen Zentren für Open Science und setzen sich mit den dazugehörigen Themen auseinander. Im Rahmen eines Schwerpunktprogramms zu Meta-Wissenschaft und Replizierbarkeit werden von der LMU München aus Forschungsprojekte gefördert. Das amerikanische Center for Open Science arbeitet an zahlreichen Projekten, und im Rahmen der europäischen FORRT-Initiative werden Projekte und Teams organisiert. Es ist nun nur noch eine Frage der Zeit, bis sich alle Forschenden der Probleme und Lösungsansätze bewusst sind und sich an der Verbesserung von Wissenschaft beteiligen.</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Krieg und Open Science
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Ein aktuell noch relativ wenig behandeltes Thema ist das des Krieges. Viele Forschungsinstitutionen unterliegen einem Embargo, durch welches Kollaborationen mit Forschenden aus bestimmten Ländern wie China oder Russland gemeldet oder sogar unterlassen werden müssen. Je nach epistemologischem Standpunkt sind verschiedene Entwicklungen möglich:</p>
+<ul>
+<li><p>Positivismus: Davon ausgehend, dass es <em>die eine Wahrheit</em> gäbe <span class="citation" data-cites="Wittgenstein.19222004">(<a href="#ref-Wittgenstein.19222004" role="doc-biblioref">Wittgenstein 1922/2004</a>)</span>, der nur alle auf die Schliche kommen müssen, sind gegnerische Nationen als Konkurrenten zu sehen, mit denen Wissen nicht geteilt werden sollte. Ihnen gegenüber müsste sich Wissenschaft also verschließen. Wie das mit Datenbanken im Internet zu bewerkstelligen ist, ist vorwiegend eine technische Frage.</p></li>
+<li><p>Relationistisch: Im Sinne von <span class="citation" data-cites="Fleck.19352015">Fleck (<a href="#ref-Fleck.19352015" role="doc-biblioref">1935/2015</a>)</span>, ist Wahrheit gesellschaftlich verankert und verschiedene Gesellschaften können theoretisch mit verschiedenen Wahrheiten arbeiten. Die Forschenden von gegnerischen Nationen könnten sich dadurch möglicherweise gar nicht für die Sichtweisen der anderen interessieren oder diese als politisch durchtränkt abtun.</p></li>
+<li><p>Nationalistisch: Aus dieser Perspektive ließe sich anbringen, dass eine Gesellschaft, die die Wissenschaft finanziert, primär davon profitieren sollte.</p></li>
+<li><p>Altruistisch/Idealistisch: In Anlehnung an die Mertonschen Normen <span class="citation" data-cites="Merton.1968">(<a href="#ref-Merton.1968" role="doc-biblioref">Merton 1968</a>)</span> lässt sich Wissenschaft als ein Gemeingut von allen Menschen verstehen, auf das niemand privilegierten Zugriff hat (Kommunismus des wissenschaftlichen Wissens) und wovon alle Menschen profitieren können. Bei dieser Haltung macht Wissenschaft an politischen Grenzen keinen Halt. Aus dieser Perspektive ließe sich Open Science als diplomatische Strategie zum wissenschaftlichen Austausch trotz politischer Differenzen verstehen.</p></li>
+</ul>
+<p>Welche Perspektive sich langfristig herauskristallisiert ist noch ungewiss. Im Zuge des Krieges in Israel und Gaza und einem offenen Brief von Wissenschaftler*innen dazu, erstellte das Bildungsministerium im Juni 2024 Listen von Hochschullehrenden, mit bestimmter politischer Einstellung sind und <a href="https://www.tagesschau.de/investigativ/panorama/bmbf-stark-watzinger-foerdergelder-100.html">prüfte die Möglichkeit der Kürzung von Forschungsgeldern</a>. Diese Fördergeld-Affäre wird aus der Wissenschaft heraus - ungeachtet der politischen Hintergründe - als eine Bedrohung der Freiheit der Wissenschaft wahrgenommen und ist eher mit nationalistischen und positivistischen Perspektiven vereinbar.</p>
+</div>
+</div>
+<section id="weiterführende-informationen" class="level4">
+<h4 class="anchored" data-anchor-id="weiterführende-informationen">Weiterführende Informationen</h4>
+<ul>
+<li><p>Über aktuelle Neuigkeiten zu Fehler in der Forschung berichtet Retractionwatch: https://retractionwatch.com</p></li>
+<li><p>Forschende für Vorträge und Workshops zum Thema Open Science vermittelt das deutsche Netzwerk der Open-Science Initiativen: https://osf.io/tbkzh/wiki/home/</p></li>
+<li><p>Eine Einführung in das Thema Open Science für Studierende (englisch) bieten <span class="citation" data-cites="pennington2023student">Pennington (<a href="#ref-pennington2023student" role="doc-biblioref">2023</a>)</span>, <span class="citation" data-cites="noauthor_2024-bm"><span>“Matters of Significance”</span> (<a href="#ref-noauthor_2024-bm" role="doc-biblioref">2024</a>)</span>, und <span class="citation" data-cites="chambers2017seven">Chambers (<a href="#ref-chambers2017seven" role="doc-biblioref">2017</a>)</span>.</p></li>
+<li><p>Ein deutsches Glossar mit Open Science Begriffen ist online via FORRT verfügbar: https://forrt.org/glossary/german/</p></li>
+<li><p>Open Science ist noch nicht die Norm, wie jeder dazu beitragen kann, fassen <span class="citation" data-cites="Kohrs2023-mf">Kohrs et al. (<a href="#ref-Kohrs2023-mf" role="doc-biblioref">2023</a>)</span> zusammen.</p></li>
+</ul>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-brodeur2024preregistration" class="csl-entry" role="listitem">
+Brodeur, Abel, Nikolai M Cook, Jonathan S Hartley, and Anthony Heyes. 2024. <span>“Do Preregistration and Preanalysis Plans Reduce p-Hacking and Publication Bias? Evidence from 15,992 Test Statistics and Suggestions for Improvement.”</span> <em>Journal of Political Economy Microeconomics</em> 2 (3): 000–000.
+</div>
+<div id="ref-chambers2017seven" class="csl-entry" role="listitem">
+Chambers, CD. 2017. <span>“The Seven Deadly Sins of Psychology. The Seven Deadly Sins of Psychology.”</span> Princeton University Press. https://doi. org/10.2307/j. ctvc779w5.
+</div>
+<div id="ref-clarke2023prevalence" class="csl-entry" role="listitem">
+Clarke, Beth, Pui Yu Lee, Sarah R Schiavone, Mijke Rhemtulla, and Simine Vazire. 2023. <span>“The Prevalence of Direct Replication Articles in Top-Ranking Psychology Journals.”</span>
+</div>
+<div id="ref-Ferguson2023-qh" class="csl-entry" role="listitem">
+Ferguson, Joel, Rebecca Littman, Garret Christensen, Elizabeth Levy Paluck, Nicholas Swanson, Zenan Wang, Edward Miguel, David Birke, and John-Henry Pezzuto. 2023. <span>“Survey of Open Science Practices and Attitudes in the Social Sciences.”</span> <em>Nat. Commun.</em> 14 (1): 5401.
+</div>
+<div id="ref-Fleck.19352015" class="csl-entry" role="listitem">
+Fleck, Ludwik. 1935/2015. <em>Entstehung Und Entwicklung Einer Wissenschaftlichen Tatsache [Formation and Development of a Scientific Fact]: Einf<span>ü</span>hrung in Die Lehre Vom Denkstil Und Denkkollektiv [Introduction to Thinking Style and Thinking Collective]</em>. 10. Auflage. Vol. 312. Suhrkamp-Taschenbuch Wissenschaft. Frankfurt am Main: Suhrkamp.
+</div>
+<div id="ref-Giofre2023-jt" class="csl-entry" role="listitem">
+Giofrè, David, Ingrid Boedker, Geoff Cumming, Carlotta Rivella, and Patrizio Tressoldi. 2023. <span>“The Influence of Journal Submission Guidelines on Authors’ Reporting of Statistics and Use of Open Research Practices: Five Years Later.”</span> <em>Behav. Res. Methods</em> 55 (7): 3845–54.
+</div>
+<div id="ref-Huffmeier.2016" class="csl-entry" role="listitem">
+Hüffmeier, Joachim, Jens Mazei, and Thomas Schultze. 2016. <span>“Reconceptualizing Replication as a Sequence of Different Studies: A Replication Typology.”</span> <em>Journal of Experimental Social Psychology</em> 66: 81–92. <a href="https://doi.org/10.1016/j.jesp.2015.09.009">https://doi.org/10.1016/j.jesp.2015.09.009</a>.
+</div>
+<div id="ref-Kohrs2023-mf" class="csl-entry" role="listitem">
+Kohrs, Friederike E, Susann Auer, Alexandra Bannach-Brown, Susann Fiedler, Tamarinde Laura Haven, Verena Heise, Constance Holman, et al. 2023. <span>“Eleven Strategies for Making Reproducible Research and Open Science Training the Norm at Research Institutions.”</span> <em>Elife</em> 12 (November).
+</div>
+<div id="ref-Korbmacher.2023" class="csl-entry" role="listitem">
+Korbmacher, Max, Flavio Azevedo, Charlotte R. Pennington, Helena Hartmann, Madeleine Pownall, Kathleen Schmidt, Mahmoud Elsherif, et al. 2023. <span>“The Replication Crisis Has Led to Positive Structural, Procedural, and Community Changes.”</span> <em>Communications Psychology</em> 1 (1). <a href="https://doi.org/10.1038/s44271-023-00003-2">https://doi.org/10.1038/s44271-023-00003-2</a>.
+</div>
+<div id="ref-noauthor_2024-bm" class="csl-entry" role="listitem">
+<span>“Matters of Significance.”</span> 2024. UCL Press.
+</div>
+<div id="ref-Merton.1968" class="csl-entry" role="listitem">
+Merton, Robert K. 1968. <span>“The Matthew Effect in Science.”</span> <em>Science (New York, N.Y.)</em> 159 (3810): 56–63. <a href="https://doi.org/10.1126/science.159.3810.56">https://doi.org/10.1126/science.159.3810.56</a>.
+</div>
+<div id="ref-Nosek2022-zg" class="csl-entry" role="listitem">
+Nosek, Brian A, Tom E Hardwicke, Hannah Moshontz, Aurélien Allard, Katherine S Corker, Anna Dreber, Fiona Fidler, et al. 2022. <span>“Replicability, Robustness, and Reproducibility in Psychological Science.”</span> <em>Annu. Rev. Psychol.</em> 73 (1): 719–48.
+</div>
+<div id="ref-pennington2023student" class="csl-entry" role="listitem">
+Pennington, Charlotte. 2023. <em>A Student’s Guide to Open Science: Using the Replication Crisis to Reform Psychology</em>. McGraw-Hill Education (UK).
+</div>
+<div id="ref-phaf2024positive" class="csl-entry" role="listitem">
+Phaf, R Hans. 2024a. <span>“Positive Deviance Underlies Successful Science: Normative Methodologies Risk Throwing Out the Baby with the Bathwater.”</span> <em>Review of General Psychology</em>, 10892680241235120.
+</div>
+<div id="ref-Phaf2024-dl" class="csl-entry" role="listitem">
+———. 2024b. <span>“Positive Deviance Underlies Successful Science: Normative Methodologies Risk Throwing Out the Baby with the Bathwater.”</span> <em>Rev. Gen. Psychol.</em>, February.
+</div>
+<div id="ref-Protzko.2023" class="csl-entry" role="listitem">
+Protzko, John, Jon Krosnick, Leif Nelson, Brian A. Nosek, Jordan Axt, Matt Berent, Nicholas Buttrick, et al. 2023. <span>“High Replicability of Newly Discovered Social-Behavioural Findings Is Achievable.”</span> <em>Nature Human Behaviour</em>. <a href="https://doi.org/10.1038/s41562-023-01749-9">https://doi.org/10.1038/s41562-023-01749-9</a>.
+</div>
+<div id="ref-Schoch.2023" class="csl-entry" role="listitem">
+Schöch, Christof. 2023. <span>“Repetitive Research: A Conceptual Space and Terminology of Replication, Reproduction, Revision, Reanalysis, Reinvestigation and Reuse in Digital Humanities.”</span> <em>International Journal of Digital Humanities</em> 5 (2-3): 373–403. <a href="https://doi.org/10.1007/s42803-023-00073-y">https://doi.org/10.1007/s42803-023-00073-y</a>.
+</div>
+<div id="ref-Soderberg.2021" class="csl-entry" role="listitem">
+Soderberg, Courtney K., Timothy M. Errington, Sarah R. Schiavone, Julia Bottesini, Felix Singleton Thorn, Simine Vazire, Kevin M. Esterling, and Brian A. Nosek. 2021. <span>“Initial Evidence of Research Quality of Registered Reports Compared with the Standard Publishing Model.”</span> <em>Nature Human Behaviour</em>. <a href="https://doi.org/10.1038/s41562-021-01142-4">https://doi.org/10.1038/s41562-021-01142-4</a>.
+</div>
+<div id="ref-urminsky2024taking" class="csl-entry" role="listitem">
+Urminsky, Oleg, and Berkeley J Dietvorst. 2024. <span>“Taking the Full Measure: Integrating Replication into Research Practice to Assess Generalizability.”</span> <em>Journal of Consumer Research</em> 51 (1): 157–68.
+</div>
+<div id="ref-Wittgenstein.19222004" class="csl-entry" role="listitem">
+Wittgenstein, Ludwig. 1922/2004. <em>Logisch-Philosophische Abhandlung: Tractatus Logico-Philosophicus</em>. 1st ed. Vol. 12. Edition Suhrkamp. Frankfurt am Main: Suhrkamp.
+</div>
+</div>
 </section>
-<section id="literaturempfehlungen" class="level2">
-<h2 class="anchored" data-anchor-id="literaturempfehlungen">Literaturempfehlungen</h2>
-<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chris Chambers Buch <a href="https://doi.org/10.2307/j.ctvc779w5" class="uri">https://doi.org/10.2307/j.ctvc779w5</a></p>
-<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Charlotte Pennington Buch, hier ein Kapitel: <a href="https://osf.io/preprints/psyarxiv/2tqep" class="uri">https://osf.io/preprints/psyarxiv/2tqep</a></p>
-<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matters of Significance <a href="https://discovery.ucl.ac.uk/id/eprint/10186829/1/Matters-of-Significance.pdf" class="uri">https://discovery.ucl.ac.uk/id/eprint/10186829/1/Matters-of-Significance.pdf</a></p>
-<p>&nbsp;<a href="#_msoanchor_1">[LR1]</a><a href="https://ideas.repec.org/p/stg/wpaper/2020_01.html" class="uri">https://ideas.repec.org/p/stg/wpaper/2020_01.html</a></p>
-<p>&nbsp;<a href="#_msoanchor_2">[LR2]</a></p>
-
-
 </section>
 
 </main> <!-- /main -->
