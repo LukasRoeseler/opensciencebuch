@@ -6,6 +6,8 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
+In der Wissenschaft gibt es nicht *die eine Methode* [@Feyerabend.19752002], sondern Methoden werden für Probleme entwickelt, Probleme gelöst und Methoden weiterentwickelt oder fallen gelassen. Mit Open Science Reformen kommen unzählige Methodische Neuerungen, Verbesserungen, und Vorschläge, die für Forschende häufig überwältigend sind: Forschung durchführen, Lehre machen, Drittmittel einwerben, und jetzt auch noch Open Science? Was dabei vielen entgeht ist, dass
+
 Große Menge an Lösungsvorschlägen, für einzelne Forschende oft überwältigend
 
 Wegweise:
@@ -433,7 +435,7 @@ o   Berichte von Opfern von Vergewaltigungen à müssen anonymisiert werden, e
 -          Alternative zu Clarivate Analytics Web of Science Literaturdatenbank: <https://openalex.org> https://arxiv.org/abs/2205.01833
 
 |     |                                   |     |                               |     |                                 |     |
-|-----|-----------------------------------|-----|-------------------------------|-----|---------------------------------|-----|
+|----------|-------------|----------|-----------|----------|------------|----------|
 |     |                                   |     |                               |     |                                 |     |
 |     | **Infrastruktur**                 |     | **Kommerzielle Software**     |     | **Open Source Software**        |     |
 |     |                                   |     |                               |     |                                 |     |

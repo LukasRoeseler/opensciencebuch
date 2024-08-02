@@ -1,4 +1,6 @@
 ---
+
+---
 title: "Das System"
 editor: visual
 format: html
@@ -8,7 +10,7 @@ bibliographystyle: apa
 
 Ansätze, die darauf abzielen, das System zu verändern, bergen am meisten Potenzial, denn um im System Geld verdienen zu können, müssen Forschende sich an die Regeln halten. Und solange Publikationen die Währung sind und Paper mit knackigen Titeln und eindeutigen Ergebnissen als qualitativ hochwertiger befunden werden, sind Forschende darin motiviert, nach knackigen Titeln und eindeutigen Ergebnissen und nicht nach der Wahrheit zu suchen.
 
-Allgemein ist eine positive Entwicklung sichtbar [@Korbmacher.2023] und eine Veränderung der Anreizstruktur wird anvisiert. Sie lässt sich als Angleichung des wissenschaftlichen Systems an die *Mertonschen Normen* (nach Robert Merton) auffassen [@merton1973sociology]: (1) Kommunismus: Das wissenschaftliche Wissen sollte allen Wissenschaftler\*innen gleichermaßen gehören, um die Zusammenarbeit zu fördern. (2) Universalismus: Wissenschaftliche Güte ist unabhängig vom soziopolitischen Status und persönlichen Attributen der Teilhabenden. (3) Desinteresse: Wissenschaftliche Institutionen handeln im Interesse der Wissenschaft und nicht für persönlichen Gewinn. (4) Organisierter Skeptizismus: Wissenschaftliche Behauptungen sollten einer kritischen Prüfung unterzogen werden bevor sie akzeptiert werden.
+Insgesamt ist eine positive Entwicklung sichtbar [@Korbmacher.2023] und eine Veränderung der Anreizstruktur wird anvisiert. Sie lässt sich als Angleichung des wissenschaftlichen Systems an die *Mertonschen Normen* (nach Robert Merton) auffassen [@merton1973sociology]: (1) Kommunismus: Das wissenschaftliche Wissen sollte allen Wissenschaftler\*innen gleichermaßen gehören, um die Zusammenarbeit zu fördern. (2) Universalismus: Wissenschaftliche Güte ist unabhängig vom soziopolitischen Status und persönlichen Attributen der Teilhabenden. (3) Desinteresse: Wissenschaftliche Institutionen handeln im Interesse der Wissenschaft und nicht für persönlichen Gewinn. (4) Organisierter Skeptizismus: Wissenschaftliche Behauptungen sollten einer kritischen Prüfung unterzogen werden bevor sie akzeptiert werden.
 
 Nosek empfiehlt in einem [Blogpost](https://www.cos.io/blog/strategy-for-culture-change) eine Maßnahmenstruktur, nach welcher die gewünschten Veränderung nacheinander ...
 
@@ -73,7 +75,7 @@ Um zu prüfen, ob die Urteile im Begutachtungsprozess zwischen den Urteilenden �
 Seit der Auseinandersetzung Forschender mit dem Begutachtungssystem wird darüber hinaus diskutiert, was mit Gutachten passiert: Traditionell bleiben sie unter Verschluss. In der Fachzeitschrift erscheint der finale Artikel und alle vorherigen Versionen sind nur Autor*innen,* Herausgeber*in,* und Gutachter\*innen bekannt. Diese bleiben zudem meistens anonym, das heißt, wenn sie sich keine Mühe gegeben haben, wird es wahrscheinlich nie auffallen. Außerdem haben Forschende keinen Anreiz, Gutachten zu verfassen - höchstens erhalten sie einen Nachweis, dass sie ein Manuskript bei einer Zeitschrift begutachtet haben. Einige Zeitschriften haben inzwischen das *Open Peer Review* eingeführt. Der Name passt nur halb, denn veröffentlicht werden Gutachten nur dann, wenn der Artikel bei der Zeitschrift akzeptiert wird. Das birgt die Gefahr, dass schwerwiegende Probleme, welche für eine Ablehnung üblicherweise nötig sind, nicht ans Licht kommen. Forschende können den Artikel dann ohne Überarbeitung bei einer anderen Zeitschrift einreichen, wo die Probleme vielleicht nicht entdeckt werden. Dieses Vorgehen führt zu Doppelarbeit und enormen Kosten [@aczel2021billion]. Zoltan Kekecs merkte dazu bei einer Diskussion im Rahmen einer Konferenz an, dass selbst Kasinos, die in Konkurrenz zueinander stehen, Listen von Betrüger*innen miteinander austauschen. Herausgeber*innen von Zeitschriften tun das noch nicht.
 
 | Gutachten bleiben unter Verschluss                   | Gutachten werden bei Publikation veröffentlicht                                                                      | Gutachten werden bei Publikation und Ablehnung veröffentlicht |
-|-------------------|----------------------------------|--------------------|
+|-------------------|---------------------------------|--------------------|
 | Es ist kein Nachweis der Qualitätskontrolle möglich. | Abgelehnte Artikel können bei anderen Zeitschriften ohne Überarbeitung eingereicht werden und führen zu Mehraufwand. | Qualitätskontrolle ist nachvollziehbar und transparent.       |
 
 Umstrittener als die Veröffentlichung von Gutachten ist die Anonymität der Gutachter*innen: Der Standard ist, dass Gutachten anonym sind, aber bei Wunsch unterzeichnet werden können. Promovierende, die einen Artikel eines potenziellen zukünftigen Chefs oder einer zukünftigen Chefin schlecht beurteilen, werden dadurch geschützt. Selbst Professor*innen können bei negativen Beurteilungen riskieren, dass der oder die Kollegin später einen Forschungsgelderantrag von ihnen begutachtet und sich für die Kritik rächt. Auf der anderen Seite kann Anonymität zur Folge haben, dass Kritik gegen die Person gerichtet ist und nicht konstruktiv ist.
@@ -164,7 +166,7 @@ Dieses Buch wurde vollständig mittels kostenloser Software verfasst (GNU R, RSt
 Um den Zugang zu wissenschaftlichem Wissen zu erhöhen, wird mehr und mehr Forschung als "Open Access" (offener Zugang) veröffentlicht. Spezifisch kann das auf vielen verschiedenen Wegen geschehen: Personen können Artikel in nicht-kommerziellen Zeitschriften veröffentlichen (für eine Sammlung an über 20.000 Zeitschriften siehe z.B. https://doaj.org), manche kommerzielle Zeitschriften machen Artikel nach Ablauf einer bestimmten Zeit frei verfügbar, oder sie können Geld bezahlen, damit der Artikel öffentlich zugänglich in einer traditionellen Fachzeitschrift erscheint. Dabei können sich die Kosten auf Werte zwischen ein paar hunderten Euro bis zu 9.000€ bei "angesehenen Zeitschriften" belaufen. Die Gelder dafür stammen meistens aus den Mitteln von Universitäten (z.B. Open Access Funds) oder aus Projektmitteln, das heißt, dass bei der Beantragung von Geldern für das Projekt auch Gelder mit beantragt wurden, um die Kosten für Open Access Publikationen zu bezahlen. Während Open Access ursprünglich explizit nicht dieses Bezahlmodell meint, haben es Zeitschriften inzwischen "rekommerzialisiert", sich also zu Nutzen gemacht. In der Open-Access-Strategie der Hochschulen des Landes Nordrhein-Westfalen [@Openness2023-yk] werden die Typen übersichtlich aufgelistet. Neben Open Access bei der Erstveröffentlichung haben Forschende im Sinne von "Green Open Access" üblicherweise das Recht, die von ihnen verfassten Artikeln auf ihrer eigenen Website, denen ihrer Institution, oder auf fachlichen Repositorien hochzuladen. @Zumstein2023-kn empfiehlt beispielsweise, bei Zeitschriften mit Abo-Modell ("Subskriptionsmodell") nicht die Open Access Option dazuzukaufen, da es nicht nachhaltig ist und stattdessen die Zweitveröffentlichung offen zu machen.
 
 | Typ            | Regelung                                                                                                |
-|---------------|---------------------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | Gold / Diamond | Alle Publikationen sind sofort und kostenlos verfügbar                                                  |
 | Hybrid         | Die Zeitschrift hat ein Abo-Modell. Einzelne Artikel werden gegen eine Gebühr öffentlich gemacht.       |
 | Moving Wall    | Die Zeitschrift hat ein Abo-Modell. Nach Ablauf einer Frist (6-48 Monate) sind Artikel frei zugänglich. |
@@ -350,7 +352,7 @@ In den Wirtschaftswissenschaften hat sich das Insitute for Replications (I4R, <h
 
 #### Arten von Replikationsprojekten
 
-Während ein Großteil der Replikationsstudien klassischen Studien entspricht, haben sich Spezialmodelle entwickelt. Beispielsweise können Forschende mit StudySwap Gruppen suchen, die ihre Ergebnisse vor der Veröffentlichung replizieren (REF <https://osf.io/preprints/psyarxiv/dtvs7/>; p. 11). Im Rahmen von Registered Replication Reports konzentrieren sich große Teams an mehreren Orten auf eine zuvor abgestimmte Studie und führen sie gleichzeitig überall durch. Einer der fruchtbarsten Ansätze ist die Nutzung von Abschlussarbeiten für Replikationen. Im Rahmen eines Studiums müssen alle Studierende eine Abschlussarbeit (z.B. Bachelorarbeit oder Masterarbeit) ablegen. Anhand von Replikationen können sie lernen, eine wichtige Studie nachzubilden und prüfen gleichzeitig die Robustheit der Originalbefunde. Während @Quintana2021-dp vorschlug, Abschlussarbeiten so zu verwenden, ist es bereits gängige Praxis in den vergleichenden Politikwissenschaften \[@korell2023student\], in der Psychologie [@Jekel.2020; @Feldman.2021; @Boyce.2023; @wagge2019publishing], und in den Wirtschaftswissenschaften (<https://home.uni-leipzig.de/lerep/>). Am Wissenschaftszentrum Berlin für Sozialforschung (https://www.wzb.eu/de/forschung/markt-und-entscheidung/verhalten-auf-maerkten/labsquare) und beim Sports Science Replication Center (https://ssreplicationcentre.com) starteten 2024 ebenfalls Replikationsreihen.
+Während ein Großteil der Replikationsstudien klassischen Studien entspricht, haben sich Spezialmodelle entwickelt. Beispielsweise können Forschende mit StudySwap Gruppen suchen, die ihre Ergebnisse vor der Veröffentlichung replizieren (REF <https://osf.io/preprints/psyarxiv/dtvs7/>; p. 11). Im Rahmen von Registered Replication Reports konzentrieren sich große Teams an mehreren Orten auf eine zuvor abgestimmte Studie und führen sie gleichzeitig überall durch. Einer der fruchtbarsten Ansätze ist die Nutzung von Abschlussarbeiten für Replikationen. Im Rahmen eines Studiums müssen alle Studierende eine Abschlussarbeit (z.B. Bachelorarbeit oder Masterarbeit) ablegen. Anhand von Replikationen können sie lernen, eine wichtige Studie nachzubilden und prüfen gleichzeitig die Robustheit der Originalbefunde. Während @Quintana2021-dp vorschlug, Abschlussarbeiten so zu verwenden, ist es bereits gängige Praxis in den vergleichenden Politikwissenschaften [@korell2023student], in der Psychologie [@Jekel.2020; @Feldman.2021; @Boyce.2023; @wagge2019publishing], und in den Wirtschaftswissenschaften (<https://home.uni-leipzig.de/lerep/>). Am Wissenschaftszentrum Berlin für Sozialforschung (https://www.wzb.eu/de/forschung/markt-und-entscheidung/verhalten-auf-maerkten/labsquare) und beim Sports Science Replication Center (https://ssreplicationcentre.com) starteten 2024 ebenfalls Replikationsreihen.
 
 #### Wer veröffentlicht Replikationen?
 
@@ -364,243 +366,88 @@ Um die Auffindbarkeit von Replikationen dennoch zu erhöhen, sind Replikationen*
 <https://link.springer.com/article/10.1007/s11749-023-00916-4>\] und zur Auswahl \[REF; <https://www.sciencedirect.com/science/article/pii/S0010945223002691>; [https://www.researchgate.net/publication/365057816_ORMA_A_strategy_to_reduce_Psychology's_replication_problems](https://www.researchgate.net/publication/365057816_ORMA_A_strategy_to_reduce_Psychology's_replication_problems)\], Bewertung (https://docs.google.com/document/d/1p7GeOpwzQyTuzAWsD1w3zql2dS6mFgEhdf38Lc3uXC4/edit#heading=h.oti7bgwflneo), und Kommunikation \[REF; <https://doi.org/10.1017/S1049096520000943>\] von Replikationsstudien wurden entwickelt. Unten werden Empfehlungen in Form eines Replikationsleitfadens strukturiert.
 
 ::: callout-tip
-## Schnelldurchlauf: Leitfaden für die Durchführung von Replikationsstudien
+## Kurzleitfaden für die Durchführung von Replikationsstudien
 
-1.  Wahl der Studie: Die zu replizierende Studie sollte relevant und anzweifelbar sein. Relevanz kann sich durch viele Zitationen äußern oder dadurch, dass viel Forschung auf dem Befund aufbaut. Existieren bereits viele Replikationen und ist klar, dass Replizierbarkeit gegeben oder nicht gegeben ist, ist eine Replikationsstudie wenig informativ. Aufgrund der Replikationskrise ist die Anzweifelbarkeit meistens gegeben (z.B. durch P-Werte nah an der 5% Schwelle). Mittels meta-analytischer Auffälligkeiten [@Adler.2023] lässt sich die Anzweifelbarkeit ebenfalls prüfen.\
+1.  **Wahl der Studie** \
+    Die zu replizierende Studie sollte relevant und anzweifelbar sein. Relevanz kann sich durch viele Zitationen äußern oder dadurch, dass viel Forschung auf dem Befund aufbaut. Existieren bereits viele Replikationen und ist klar, dass Replizierbarkeit gegeben oder nicht gegeben ist, ist eine Replikationsstudie wenig informativ. Aufgrund der Replikationskrise ist die Anzweifelbarkeit meistens gegeben (z.B. durch P-Werte nah an der 5% Schwelle). Mittels meta-analytischer Auffälligkeiten [@Adler.2023] lässt sich die Anzweifelbarkeit ebenfalls prüfen.\
     Bei der Auswahl empfiehlt es sich zudem, bisherige Diskussionen (Kommentare in Zeitschriften oder auf Pubpeer.com) zu berücksichtigen, falls es sie gibt. Im Rahmen von Abschlussarbeiten ist außerdem die Machbarkeit zu berücksichtigen: Eine Längsschnittstudie, die 10 Jahre dauert, ist nicht gut machbar. Ebenfalls sollte es für den entsprechenden Bereich etablierte Replikationsstandards geben. Für Daten von Gehirnscannern ist das beispielsweise noch nicht der Fall, da dort hunderte bis tausende von Korrelationen verglichen werden und die Originalwerte häufig nicht verfügbar sind.
 
-2.  Durchführung: Eine Bestandsaufnahme aller öffentlicher Materialien ist empfehlenswert. Wenn möglich, sollten Originalergebnisse reproduziert und geprüft werden. Auch ohne Daten lassen sich zum Beispiel via statcheck.io [@nuijten2016prevalence] Werte auf Korrektheit prüfen. Bei jüngeren Studien können die Originalautor\*innen Daten und Materialien zur Verfügung stellen. \
+2.  **Durchführung**\
+    Eine Bestandsaufnahme aller öffentlicher Materialien ist empfehlenswert. Wenn möglich, sollten Originalergebnisse reproduziert und geprüft werden. Auch ohne Daten lassen sich zum Beispiel via statcheck.io [@nuijten2016prevalence] Werte auf Korrektheit prüfen. Bei jüngeren Studien können die Originalautor\*innen Daten und Materialien zur Verfügung stellen.\
     Eine besondere Herausforderung ist in der Forschung die Planung des Stichprobenumfanges (statistische Power). Zwar ist das Problem für Replikationsstudien deshalb am geringsten, weil es dort schon einen Befund zur Orientierung gibt, allerdings ist der meistens zu unscharf, um den für die Berechnungen zu verwenden. Der Small Telescopes Approach [@Simonsohn.2015] hilft hierbei aus und ggf. muss auf Äquivalenztests zurückgegriffen werden [@Lakens.2017].\
     Um die Anpassung der Originalmethode kommen Replizierende nur selten: Materialien sind veraltet, müssen in eine andere Sprache übersetzt werden, oder an eine besondere Stichprobe von Personen angepasst werden. Dabei können ähnliche Studien helfen, die mittels Replikationsdatenbank aufgespürt werden können [@Roseler.2024]. Häufig bieten sich auch Erweiterungen (Extensions) an, die den Informationsgehalt der Studie erhöhen.
 
-3.  Analyse: Ähnlich wie bei den Methoden ist es häufig sinnvoll, die Originalanalyse nachzubilden (konfirmatorisch) und anschließend weitere Tests durchzuführen (exploratorisch). Ein Vergleich der Ergebnisse - auch im Hinblick auf methodische Unterschiede - erlaubt dann ein umfassendes Bild.
+3.  **Analyse**\
+    Ähnlich wie bei den Methoden ist es häufig sinnvoll, die Originalanalyse nachzubilden (konfirmatorisch) und anschließend weitere Tests durchzuführen (exploratorisch). Ein Vergleich der Ergebnisse - auch im Hinblick auf methodische Unterschiede - erlaubt dann ein umfassendes Bild.
 
-4.  Diskussion: Unter welchen Bedingungen die Replikation als erfolgreich interpretiert wird, sollte zuvor in einer Präregistrierung festgelegt werden. Vorschläge für Kriterien machen @Brandt.2014, @LeBel.2019, und @Anderson.2017. Abweichungen von der Präregistrierung und der Originalstudie sollten dabei ausgiebig diskutiert werden. Ob ein Kommentar der Autor\*innen der Originalstudie hilfreich ist, ist umstritten, obgleich Kommentare für die Veröffentlichung bei manchen Zeitschriften nötig ist.
+4.  **Diskussion**\
+    Unter welchen Bedingungen die Replikation als erfolgreich interpretiert wird, sollte zuvor in einer Präregistrierung festgelegt werden. Vorschläge für Kriterien machen @Brandt.2014, @LeBel.2019, und @Anderson.2017. Abweichungen von der Präregistrierung und der Originalstudie sollten dabei ausgiebig diskutiert werden. Ob ein Kommentar der Autor\*innen der Originalstudie hilfreich ist, ist umstritten, obgleich Kommentare für die Veröffentlichung bei manchen Zeitschriften nötig ist.
 
-5.  Bericht: Umfangreiche Berichte von Feldman und Kolleg\*innen [@Ziano.2021] bieten gute Orientierung für Manuskripte. Für kurze Berichte ist ebenfalls ein [standardisiertes Formular](https://osf.io/j2qrx) verfügbar, mittels welchem Befunde in die Replikationendatenbank eingetragen werden können. @Brandt.2014 empfehlen außerdem eine Registrierung der Ergebnisse, welche die Weiterverwendung ermöglicht [@Roseler.2022d]. Zuletzt ist eine Veröffentlichung des Pre-Prints empfehlenswert.
+5.  **Bericht**\
+    Umfangreiche Berichte von Feldman und Kolleg\*innen [@Ziano.2021] bieten gute Orientierung für eigene Manuskripte. Für kurze Berichte ist ebenfalls ein [standardisiertes Formular](https://osf.io/j2qrx) verfügbar, mittels welchem Befunde in die Replikationendatenbank eingetragen werden können. @Brandt.2014 empfehlen außerdem eine Registrierung der Ergebnisse, welche die Weiterverwendung ermöglicht [@Roseler.2022d]. Zuletzt ist eine Veröffentlichung des Pre-Prints empfehlenswert. Für Sozialwissenschaften und Medizin befindet sich zur Zeit eine interdisziplinäre Replikationszeitschrift in der Vorbereitungsphase, bei der die Studie zur Veröffentlichung eingereicht werden kann.
 :::
 
 ### Modellierung von Replizierbarkeit
 
-Alle Studien in einem Wissenschaftsbereich zu replizieren ist aktuell unrealistisch und würde enorme Ressourcen benötigen. Daher befinden sich verschiedene Methoden in Entwicklung, um auf Basis von Eigenschaften einer Studie vorherzusagen, welche Replikationsergebnis zu erwarten ist. Im [repliCATS](https://www.youtube.com/watch?v=qa2_9NrEmeA) Projekt, das Teil des SCORE Projektes zur Messung wissenschaftlicher Qualität ist, werden Einschätzungen von Forschenden, Reproduktionsversuche, und Replikationsversuche kombiniert. Ähnliche Projekte verwenden komplexe statistische Modelle (z.B. Large-Language-Models) oder meta-analytische Methoden wie p-curve oder Z-curve zur Vorhersage von Replikationsraten. Solche Modelle benötigen üblicherweise sehr viele Beobachtungen und Vorhersagen sind nur auf der Ebene von hunderten Studien sinnvoll. Beispielsweise rechneten Boyce et al. 2023 und Hagen Cumulative Science project Moderationsanalysen, prüften also welche Eigenschaften von Studien sich auf das Replikationsergebnis auswirken (z.B. Wechsel von Studie im Labor zu Online-Studie). Mittels umfassender Datenbanken wie der FORRT Replication Database können in Zukunft präzisere Modelle erstellt werden. Aktuelle Ergebnisse sind als vorläufig und mit Vorsicht zu interpretieren, da sie auf nicht-zufälligen Stichproben basieren, die Studieneigenschaften nicht systematisch und zufällig variiert wurden, und Replikationen solcher meta-analytischen Befunde schwierig sind.
+Alle Studien in einem Wissenschaftsbereich zu replizieren ist aktuell unrealistisch und würde enorme Ressourcen benötigen. Daher befinden sich verschiedene Methoden in Entwicklung, um auf Basis von Eigenschaften einer Studie vorherzusagen, welche Replikationsergebnis zu erwarten ist. Im [repliCATS](https://www.youtube.com/watch?v=qa2_9NrEmeA) Projekt, das Teil des SCORE Projektes zur Messung wissenschaftlicher Qualität ist, werden Einschätzungen von Forschenden, Reproduktionsversuche, und Replikationsversuche kombiniert. Ähnliche Projekte verwenden komplexe statistische Modelle (z.B. Large-Language-Models) oder meta-analytische Methoden wie p-curve oder Z-curve zur Vorhersage von Replikationsraten. Solche Modelle benötigen üblicherweise sehr viele Beobachtungen und Vorhersagen sind nur auf der Ebene von hunderten Studien sinnvoll. Beispielsweise rechneten @Boyce.2023 und Hagen Cumulative Science project [@Jekel.2020] Moderationsanalysen, prüften also welche Eigenschaften von Studien sich auf das Replikationsergebnis auswirken (z.B. Wechsel von Studie im Labor zu Online-Studie). Mittels umfassender Datenbanken wie der FORRT Replication Database [@Roseler.2024] können in Zukunft präzisere Modelle erstellt werden. Aktuelle Ergebnisse sind als vorläufig und mit Vorsicht zu interpretieren, da sie auf nicht-zufälligen Stichproben basieren, die Studieneigenschaften nicht systematisch und zufällig variiert wurden, und Replikationen solcher meta-analytischen Befunde schwierig sind.
 
 ### Veröffentlichung aller Ergebnisse
 
--          <https://opentrials.net/about/>
+Um das lange bekannte File-Drawer-Problem [@Sterling.1959; @Rosenthal.1979] zu lösen gibt es intensive Bemühungen, statistische Modelle zu entwickeln, die die Verzerrung "herausrechnen" können. Keines der aktuellen Modelle funktioniert für alle Daten [@Carter.2019], weshalb Forschende aktuell nicht daran vorbei kommen, alle Ergebnisse zu veröffentlichen.
 
--          Unveröffentlichte Medizinische Studien: Quest Dashboard: <https://quest-cttd.bihealth.org/#tabStart>
+In der Medizin ist der besondere Fall, dass Studien am Menschen öffentlich registriert werden müssen, bevor sie durchgeführt werden. Es existiert also eine öffentlich einsehbare Datenbank, mittels derer nachvollzogen werden kann, wer zu welchem Zeitpunkt eine Studie durchgeführt hat. Gleichzeitig müssen die Registrierungsnummern bei der Veröffentlichung von Artikeln angegeben werden. Werden beide Daten kombiniert, können wir sehen, wie viele Studien innerhalb eines bestimmten Zeitraums nach der Registrierung veröffentlicht werden - und das sogar aufgeteilt nach Personen und Institutionen (Quest Dashboard; [https://quest-cttd.bihealth.org/](https://quest-cttd.bihealth.org/#tabStart){.uri}). Im Open Trials Projekt (https://opentrials.net/about/) wird zudem daran gearbeitet, Informationen zu Registrierungen und Forschungsartikeln aus verschiedenen Datenbanken zu verknüpfen.
 
--          File drawer reports
+In anderen Fächern besteht keine Pflicht zur Durchführung von Studien, sodass völlig unklar ist, welche und wie viele Studien "in der Schublade landen". Die Zeitschrift Meta-Psychology bietet ein Artikel-Format für psychologische File-Drawer-Reports (Schubladenberichte) an, in denen Forschende alle Studien zu einem bestimmten Thema veröffentlichen können und dabei auch fehlgeschlagene oder fehlerhafte Studien berichten. Das Journal of Negative Results (<https://www.jnr-eeb.org/index.php/jnr/about>) und das Journal of Articles in Support of the Null Hypothesis (https://www.jasnh.com) sind spezialisiert auf Ergebnisse, die die nicht den Erwartungen entsprechen. Im Rahmen des Projektes *PsychFileDrawer* existierte eine Zeit lang eine online Datenbank für psychologische Studien, die nicht veröffentlicht wurden, und "All Results Journals" veröffentlichten Ergebnisse aus den Naturwissenschaften (http://www.arjournals.com). Von letzteren ist allerdings nur noch die Biologie Zeitschrift aktiv, während Physik und Chemie seit langer Zeit nichts publiziert haben.
 
-o   Meta psychology
+Themenspezifisch haben sich vor allem in der Psychologie Datenbanken etabliert, die alle Studien zu einem Thema zusammenfassen, mittels derer sich Studien durchsuchen und manchmal sogar statistisch zusammenfassen lassen. Solche Zusammenfassungen sind häufig Meta-Analysen (Studien über Studien bzw. Analysen von vielen Studienergebnissen) und mithilfe der Datenbanken sind sie dynamisch, es lassen sich also Studien filtern, Datenbanken wachsen über die Zeit, und Benutzer\*innen können die Analysen selbst bestimmen. Durch die zentrale Rolle von statistischen Ergebnissen sind sie vielversprechend in Bezug auf kumulative Wissenschaft, das heißt, sie erleichtern es Forschenden, aufeinander aufzubauen. Neben den Themen und Funktionen unterscheiden sich die Datenbanken außerdem darin, wie sie Ergebnisse sammeln. Manche stammen von einzelnen Forschenden und andere sind durch "Crowd Sourcing" entstanden, das heißt, eine Gruppe stellt die Infrastruktur der Datenbank bereit und andere Forschende senden ihre Daten dort hin. Das hat den Vorteil, dass die Arbeit geteilt wird und die Beitragenden ihre Daten durch die Veröffentlichung in der Datenbank sichtbarer machen. In der folgenden Tabelle sind einige themenspezifische Datenbanken aufgelistet.
 
-o   psychfiledrawer.org meta-psychology
+|              |                                                                                             |                                          |
+|------------------|---------------------------|---------------------------|
+| **Name**     | **Link**                                                                                    | **Topics**                               |
+| MetaLab      | [langcog.github.io/metalab](https://langcog.github.io/metalab)                              | Sprachentwicklung, kognitive Entwicklung |
+| metaBUS      | [metabus.org](http://metabus.org/)                                                          | Sozialwissenschaften                     |
+| SOLES        | [camarades.shinyapps.io/AD-SOLES/](https://camarades.shinyapps.io/AD-SOLES/)                | Tiermodelle von Alzheimer                |
+| OpAQ         | [t1p.de/openanchoring](https://t1p.de/openanchoring)                                        | Anker Effekte                            |
+| FReD         | [t1p.de/ReD](https://t1p.de/ReD)                                                            | Replikationsstudien                      |
+| Power Posing | [metaanalyses.shinyapps.io/bodypositions](https://metaanalyses.shinyapps.io/bodypositions/) | Effekte der Körperhaltung                |
+| Metadataset  | [metadataset.com](https://www.metadataset.com/)                                             | Landwirtschaft                           |
+| METAPSY      | <https://www.metapsy.org>                                                                   | Psychotherapie                           |
 
--          Datenbanken, die auch unveröffentlichte Ergebnisse aufnehmen (auch Lösung für cumulative science)
-
-o   Bodypositions, OpAQ Community Augmented: metalab.stanford, metabus, <https://camarades.shinyapps.io/AD-SOLES/> , ...
-
-o   Replication database
-
-o   Metapsy <https://www.metapsy.org>
-
-o   Metalab stanford <https://langcog.github.io/metalab/>
-
-Tabelle aktualisieren (siehe PPT)
-
-|                                 |                                                                                             |                                       |
-|-----------|-----------|-----------|
-| **Name**[\[LR54\]](#_msocom_54) | **Link**                                                                                    | **Topics**                            |
-| MetaLab                         | [langcog.github.io/metalab](https://langcog.github.io/metalab)                              | Early Language, Cognitive Development |
-| metaBUS                         | [metabus.org](http://metabus.org/)                                                          | All of social sciences                |
-| SOLES                           | [camarades.shinyapps.io/AD-SOLES/](https://camarades.shinyapps.io/AD-SOLES/)                | Animal models of Alzheimer's disease  |
-| OpAQ                            | [t1p.de/openanchoring](https://t1p.de/openanchoring)                                        | Anchoring Effects                     |
-| FReD                            | [t1p.de/ReD](https://t1p.de/ReD)                                                            | Replications (all fields)             |
-| Power Posing                    | [metaanalyses.shinyapps.io/bodypositions](https://metaanalyses.shinyapps.io/bodypositions/) | Body Position Effects                 |
-| Metadataset                     | [metadataset.com](https://www.metadataset.com/)                                             | Agriculture                           |
-| METAPSY                         | <https://www.metapsy.org>                                                                   | Psychotherapy                         |
-
-Anleitungen:
-
-metaUI: <https://github.com/lukaswallrich/metaui>
-
-Dynameta: <https://github.com/gls21/Dynameta>
-
-Materialien: <https://cama.psychopen.eu>
-
--          Journal of Articles in Support of the Null Hypothesis
-
--          Journal of Negative Results <https://www.jnr-eeb.org/index.php/jnr/about>
+Inzwischen werden auch Werkzeuge entwickelt, die Forschenden helfen, solche Datenbanken zu erstellen. *MetaUI* und *Dynameta* erleichtern das erstellen einer Website, auf welche Daten interaktiv analysiert und heruntergeladen werden können (metaUI, <https://github.com/lukaswallrich/metaui>; Dynameta, https://github.com/gls21/Dynameta). Weitere Materialien erarbeitet das Project PsychOpen CAMA (https://cama.psychopen.eu).
 
 ### Umgang mit Fehlern
 
--          Fehlerkultur
+Wissenschaftliche Fehler können massive Folgen haben. Beispielsweise hatte der [Wakefield Skandal](https://de.wikipedia.org/wiki/MMR-Impfstoff#Der_Fall_Wakefield), bei welchem Eltern bezahlt wurden, falsche Aussagen über die Entwicklung ihrer Kinder nach einer Impfung zu tätigen, eine Impfskepsis zur Folge. Das bedeutet, dass Eltern ihre Kinder aus Sorge vor den Folgen nicht impfen lassen und die Kinder dadurch erkranken und sterben können, obwohl der Ursprung der Sorge falsch war und längst und vielfach widerlegt wurde [@destefano2019mmr]. In vielen Wissenschaften herrscht eine angespannte Fehlerkultur: Sobald jemand einen Fehler herausstellt, wird es als persönlicher Angriff verstanden und Kritiker werden beleidigt [@Baumeister.2016b]. Durch die strenge Hierarchien kann es für Forschende, die noch keine Festanstellung haben, fatal sein, Professor\*innen zu kritisieren, da sie ihre Artikel begutachten und über ihre Arbeitsverträge entscheiden können. Im Fall Wakefield dauert es selbst nachdem der Fehler klar war, viele Jahre, bis die Artikel öffentlich von der Zeitschrift zurückgezogen wurden [@eggertson2010lancet]. Und zuletzt merken Forschende gar nicht, wenn Artikel zurückgezogen werden, außer sie suchen aktiv danach.
 
--          Retraction
+Mit verschiedenen Ansätzen soll die Fehlerkultur offener gestaltet werden und diese Probleme gelöst werden. Eigentlich sollte allen klar sein, dass Fehler immer wieder passieren und alle davon profitieren, wenn die Fehler korrigiert werden. In der Wissenschaftspraxis profitieren nur leider nicht immer *alle*, sondern die Person, die den Fehler begangen hat, hat dank dieses Fehlers vielleicht einen Nobelpreis oder eine Professur bekommen. Um den Diskurs darüber anzukurbeln, haben Psycholog\*innen aus der Schweiz ein Kopfgeld-Programm gestartet (https://error.reviews), bei welchem sich Personen bewerben und anschließend mit der Findung von Fehlern anderer Geld verdienen, oder in der Rolle der Begutachtenden Geld verdienen, wenn sie keine oder nur kleine Fehler begangen haben. Plattformen wie Pubpeer.com erlauben außerdem die anonyme Kommentierung von Forschung. Von besonderem Interesse ist dort Forschung von renommierten Personen, wie zum Beispiel dem Nobelpreisträger Thomas Südhof, auf Basis dessen Forschungsartikeln Diskussionen mit teilweise [über 50 Kommentaren](https://pubpeer.com/publications/F7C42C356B2E7049FDB68A434EF4F8) geführt werden. Kommentare bei Pubper haben außerdem zu zahlreichen Retractions (also "Zurückziehungen" veröffentlichter Artikel) geführt. Retractions werden in der Retractiondatabase (retractiondatabase.org) gesammelt. Mittels eines Browser-Plugins können Forschende sich Artikel, zu denen es Pubpeer-Diskussionen gibt, hervorheben lassen. Um Retractions sichtbarer zu machen, wird aktuell (Sommer 2024) eine Studie durchgeführt, bei der Personen, die in Pre-Prints zurückgezogene Artikel zitieren, eine E-Mail-Benachrichtigung erhalten (RetractoBot, <https://www.retracted.net>).
 
-o   Standardisierte Retraction Notes: <https://www.researchgate.net/publication/374082265_A_tale_of_three_retractions_a_call_for_standardized_categorization_and_criteria_in_retraction_statements>
+In den Fällen, in denen es zu Retractions kommt, wird ein kurzer Text veröffentlicht, in dem erklärt wird, weshalb ein Artikel zurückgezogen wird. Solche Texte sind kaum standardisiert und oft intransparent. Das Committee of Publishing Ethics (https://publicationethics.org) hat Empfehlungen erarbeitet, unter welchen Bedingungen Artikel zurückgezogen werden und @ivory2024tale empfehlen standardisierte Texte, um die Gründe für die Retraction darzulegen.
 
-o   Wissenschaftliche Fehler können extreme Folgen haben; Lancet MMR Autism Fraud <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2831678/>
+Vereinzelt prüfen Wissenschaftler\*innen große Mengen an Artikeln. Am berühmtesten ist darunter Elisabeth Bik. Sie hat zu Retractions von fast 600 Artikeln und Korrekturen von fast 500 Artikeln beigetragen (<https://www.buzzfeednews.com/article/stephaniemlee/elisabeth-bik-didier-raoult-hydroxychloroquine-study>). Dabei prüft sie Abbildungen in Forschungsartikeln aus der Biologie. Beispielsweise werden dabei sogenannte Western Blots beim Überführen von Artikeln in das Zeitschriftenformat, beim Erstellen von Abbildungen durch die Forschenden, oder sogar boswillig kopiert.
 
-o   Einige Wissenschaftler\*innen prüfen große Mengen an Artikeln, Elisabeth Bik z.B. hat zu Retractions von fast 600 und Korrekturen von fast 500 Artikeln beigetragen (<https://www.buzzfeednews.com/article/stephaniemlee/elisabeth-bik-didier-raoult-hydroxychloroquine-study>)
+::: callout-note
+## Erfahrungsbericht: Vom Fehler zur Korrektur
 
-o   Aktuell Studie zur Sichtbarkeit von Retractions mit Möglichkeit, sich über zurückgezogene Artikel, die man zitiert, informieren zu lassen (RetractoBot, <https://www.retracted.net>) vom Bennett Institute for Applied Data Science at the University of Oxford.
+Im Jahr 2021 habe ich einen Forschungsartikel zu einem Datensatz geschrieben, der durch die Zusammenarbeit von 99 Forschenden erstellt werden konnte [@Roseler.2021e]. 2022 wurde der Artikel beim Journal of Open Psychology Data veröffentlicht. Es war mir jedoch ein Fehler unterlaufen. Wie der erkannt und behoben wurde, beschreibe ich in der folgenden Historie:
 
--          Pubpeer.com
+1.  Oktober 2022: Während der Revision (Überarbeitung) des Artikels kamen Daten von weiteren Forschenden hinzu. An dem Verfassen des Artikels waren bis dahin 64 Leute beteiligt, die Liste stieg dann auf 74 Personen. Ich sendete das überarbeitete Manuskript mit einer Tabelle der 74 Leute an die Zeitschrift. In dem System konnten Autor\*innen *zusätzlich* auch in dafür vorgesehene Felder eingetragen werden. In den Feldern standen also die 64 Personen und im Artikel die 74. Der eingereichte Artikel wurde dann akzeptiert und seitens der Zeitschrift in das entsprechende Format überführt. Auch die Tabelle wurde überführt, nur löschte dabei jemand gezielt die zehn in die Tabelle (alphabetisch) einsortierten Personen unter Abgleich mit den Personen, die bei der ersten Einreichung in das System eingetragen wurden. Ich bekam den fertigen Artikel und hatte eine Woche Zeit, dazu Rückmeldung zugeben. Mir fielen die fehlenden Personen nicht auf.
 
-o   Beispiel einer Diskussion eines Papers vom Nobelpreisträger Thomas Südhof <https://pubpeer.com/publications/DAF32F6DB6C166337E5381F769AE52#1>
+2.  2023 kontaktierte mich einer der fehlenden Autoren: Seine Doktorandin wollte die Quellenangabe auf ihren Lebenslauf schreiben, fand sich aber unter den Beteiligten nicht wieder. Dabei fiel auf, dass das Team aus 6 Personen komplett fehlte. Ich schrieb dem Herausgeber der Zeitschrift, entschuldigte mich für den Fehler, und fragte, ob eine Änderung noch möglich sei. Das war nicht der Fall, aber eine Korrektur war möglich.
 
-o   Hohe Aufmerksamkeit führt zu Korrektur vieler Fehler, zum Beispiel von 12 Fehlern (Stand: Dezember 2023) im Südhof Lab (<https://med.stanford.edu/sudhoflab/science-resources/integrity---pubpeer.html>)
+3.  Ich entschied mich für die Korrektur. Die Zeitschrift hatte in den vergangenen Monaten die Software für die Verwaltung von Einreichungen verändert und ich musste für die neue Einreichung alle 74 Personen erneut eintragen. Dies dauert inklusive Prüfungen ungefähr einen vollständigen Arbeitstag, allerdings forderte das System die Nationalitäten aller Beteiligten - und die wusste ich nicht. Ungefähr die Hälfte von ihnen waren Studierende, viele weitere hatten die Institution gewechselt, es war mir also nicht mehr möglich, die Nationalitäten aller Beteiligten in Erfahrung zu bringen. Ich wies auf das Problem hin und wartete darauf, dass bei der Korrektur eine Ausnahme gemacht werden konnte. Gleichzeitig begann meine 6-monatige Elternzeit, inklusive Umzug und Jobwechsel. Nach meiner Rückkehr kontaktierte ich einen der Herausgeber erneut. Es folgten weitere sieben Monate der Stille - mir wurde trotz mehrmaligem Nachfragen nicht geantwortet.
 
--          Error project (malte elson)
+4.  Im Januar 2024 erstellte ich einen [Pubpeer-Kommentar](https://pubpeer.com/publications/4C94D3988E8D66520AA044DECEE0F3). Ich verlor die Hoffnung, dass der Prozess jemals ein Ende finden würde, wollte aber auf den Fehler aufmerksam machen. Dort war die korrekte Liste der Beteiligten, die auch der Zeitschrift vorlag.
+
+5.  Im Juli 2024 schrieb ich mehreren Herausgebern erneut. Diesmal wurde mir geantwortet. Der Zeitschrift lagen plötzlich Nationalitäten der Beteiligten vor, die jemand bei der Original-Veröffentlichung händisch eingetragen haben musste. Ich konnte nun alle Autor\*innen erneut und mit Nationalität eintragen. Mir fiel dabei auf, dass außer den sechs fehlenden noch vier weitere fehlten, die sich nicht bei mir gemeldet hatten. Ich berichtete allen Betroffenen über die Vorgänge und entschuldigte mich nocheinmal. Seitens der Zeitschrift wurde dann sehr schnell der formatierte Artikel vorbereitet. Wieder hatte ich eine Woche Zeit für Korrekturvorschläge. Gemeinsam mit Kollegen und Hilfskräften merkten wir circa 10 weitere Fehler bei Namen und Institutionen an und baten darum, die korrigierte Version erneut an uns zu senden, damit wir uns nicht wieder jahrelang um eine Korrektur bemühen müssen.
+
+6.  \[Die Geschichte ist noch nicht abgeschlossen.\]
+:::
 
 ### Offene Lehre / Open Teaching / Open Educational Resources
 
--          [https://zpid.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?utm_campaign=ptos_videos#folderID="2936633e-384a-4cf1-a8ea-aee500adc653"&notificationBannerShown=true](https://zpid.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx?utm_campaign=ptos_videos#folderID=%222936633e-384a-4cf1-a8ea-aee500adc653%22&notificationBannerShown=true)
+Unter dem Stichwort *Open Educational Resources* werden jegliche Materialien verstanden, die zur Lehre verwendet werden können. Das kann Bücher - so wie dieses - Forschungsartikel, Präsentationsfolien, aufgezeichnete Lehrveranstaltungen, oder Erklärvideos betreffen. Open bedeutet dabei meistens, dass sie sich gratis aus dem Internet herunterladen lassen. Diese Ressourcen zu teilen trifft den Kern von Open Science: Es soll niemand ausgeschlossen werden, nicht durch mangelnde Verfügbarkeit an einem Ort, hohe Preise, oder die Sprache. Häufig laden Open Science Verfechter\*innen ihre Materialien in Portalen hoch (z.B. <https://www.oerbw.de>, https://www.twillo.de/oer/web/, https://portal.hoou.de). Plattformen wie Zenodo (https://zenodo.org) oder das Open Science Framework (osf.io) erlauben eine kostenlose Langzeitarchivierung - also garantierte Verfügbarkeit von mindestens 20 bzw. 50 Jahren).
 
--          Repositorien für Bildungs- und Lehrmaterialien (Beispiele u.a. von <https://leibniz-psychology.org/practices-and-tools-of-open-science/open-science-in-der-lehre>)
-
-o   <https://www.oerbw.de>
-
-o   <https://www.twillo.de/oer/web/>
-
-o   <https://portal.hoou.de>
-
-o   <https://zenodo.org>
-
-o   Osf.io
-
-o   <https://forrt.org/syllabus/> (spezifisch open science)
-
--          Offene Webinare, zB zu Replikationsforschung <https://acm-rep.github.io/2024/posters/ACM_REP24_paper_30.pdf>
-
--          Anleitungen und Glossare (Parsons et al., 2022) zum Beispiel wundervoll gesammelt bei FORRT.org
-
--          Open Scholarship Knowledge Base (OSKB)
-
--          ROSiE Knowledge Hub https://rosie-project.eu/knowledge-hub/#!training/health-and-life-sciences
-
--          Open Economics Guide <https://openeconomics.zbw.eu/en/>
-
--          ARIADNE
-
- [\[LR1\]](#_msoanchor_1)REF
-
- [\[LR2\]](#_msoanchor_2)https://opusproject.eu/openscience-news/open-science-horizon-unescos-recommendation/
-
--           [\[LR3\]](#_msoanchor_3)<https://www8.cao.go.jp/cstp/kokusaiteki/g7_2023/2023_bestpracticepaper.pdf>
-
- [\[LR4\]](#_msoanchor_4)<https://www.consilium.europa.eu/en/press/press-releases/2023/05/23/council-calls-for-transparent-equitable-and-open-access-to-scholarly-publications/>
-
- [\[LR5\]](#_msoanchor_5)<https://www.ema.europa.eu/en/documents/regulatory-procedural-guideline/triggers-audits-good-laboratory-practice-glp-studies_en.pdf>
-
- [\[LR6\]](#_msoanchor_6)<https://zenodo.org/record/8322048> 
-
- [\[LR7\]](#_msoanchor_7)https://opal.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument/MMV18-2422.pdf
-
- [\[LR8\]](#_msoanchor_8)https://www.jmwiarda.de/https-www.jmwiarda.de-2024-05-28-bitte-nachschaerfen/
-
- [\[LR9\]](#_msoanchor_9)Erhöhung der Offenheit an finnischen Universitäten <https://www.zbw-mediatalk.eu/de/2024/02/open-science-monitoring-offenheit-als-wichtiger-teil-guter-forschungspraxis-in-finnland/>
-
-Netzwerk Nachhaltige Wissenschaft
-
-<https://zenodo.org/records/11204833>
-
- [\[LR10\]](#_msoanchor_10)Das zu Universitäten?
-
- [\[LR11\]](#_msoanchor_11)Worum geht es dabei genau?
-
- [\[LR12\]](#_msoanchor_12)https://arxiv.org/abs/2205.01833
-
- [\[LR13\]](#_msoanchor_13)schönbrodt research practices I und II
-
- [\[LR14\]](#_msoanchor_14)<https://www.cambridge.org/core/books/abs/data-science-in-the-library/toward-reproducibility-academic-libraries-and-open-science/6FB18D7BCD8B82E597ED0D4B390C72EE>
-
- [\[LR15\]](#_msoanchor_15)<https://www.degruyter.com/document/doi/10.1515/bfp-2024-0008/html>
-
- [\[LR16\]](#_msoanchor_16)https://de.wikipedia.org/wiki/Zweitveröffentlichung
-
- [\[LR17\]](#_msoanchor_17)<https://doi.org/10.31234/osf.io/prx8w>
-
- [\[LR18\]](#_msoanchor_18)https://zenodo.org/records/7193838
-
- [\[LR19\]](#_msoanchor_19)ergänzen, Gesellschaft für Wirtschaftswissenschaften?
-
-o    [\[LR20\]](#_msoanchor_20)[Public Open Science Institut für die Psychologie (ZPID)](https://leibniz-psychology.org/das-institut)
-
- [\[LR21\]](#_msoanchor_21)<https://openscience.cern>
-
-o    [\[LR22\]](#_msoanchor_22)<https://www.apa.org/pubs/journals/resources/publishing-tips/transparency-openness-promotion-guidelines?utm_campaign=apa_publishing&utm_medium=direct_email&utm_source=businessdevelopment&utm_content=openscience_promo_11302023&utm_term=text_middle_learnmore>
-
- [\[LR23\]](#_msoanchor_23)<https://osf.io/bnh7p>
-
- [\[LR24\]](#_msoanchor_24)<https://joss.theoj.org>
-
- [\[LR25\]](#_msoanchor_25)erklären
-
- [\[LR26\]](#_msoanchor_26)<https://www.researchgate.net/publication/372509504_A_Guide_for_Social_Science_Journal_Editors_on_Easing_into_Open_Science>
-
- [\[LR27\]](#_msoanchor_27)Idee: Review als Kommentar bei Pubpeer posten bei Ablehnung
-
- [\[LR30\]](#_msoanchor_30)<https://osf.io/preprints/psyarxiv/5hkjz>
-
- [\[LR31\]](#_msoanchor_31)<https://s3.amazonaws.com/real.stlouisfed.org/wp/2015/2015-016.pdf>
-
- [\[LR32\]](#_msoanchor_32)link
-
- [\[LR33\]](#_msoanchor_33)<https://royalsocietypublishing.org/doi/10.1098/rsos.230206>
-
- [\[LR34\]](#_msoanchor_34)<https://royalsocietypublishing.org/doi/10.1098/rsos.230206>
-
- [\[LR35\]](#_msoanchor_35)boyce 2023 eleven years
-
- [\[LR36\]](#_msoanchor_36)hagen cumulative science project
-
- [\[LR37\]](#_msoanchor_37)forrt glossary
-
- [\[LR38\]](#_msoanchor_38)<https://osf.io/preprints/psyarxiv/bkxfq>
-
- [\[LR39\]](#_msoanchor_39)<https://open.lnu.se/index.php/metapsychology/article/view/3764>
-
- [\[LR40\]](#_msoanchor_40)https://blogs.lse.ac.uk/impactofsocialsciences/2019/03/29/the-value-of-a-journal-is-the-community-it-creates-not-the-papers-it-publishes/
-
- [\[LR41\]](#_msoanchor_41)
-
- [\[LR42\]](#_msoanchor_42)Hier Bild von Lego-Steinen einfügen (selbst schießen)
-
- [\[LR43\]](#_msoanchor_43)<https://doi.org/10.1016/j.tibtech.2022.02.003>
-
- [\[LR44\]](#_msoanchor_44)<https://osf.io/preprints/metaarxiv/7x9vy>
-
- [\[LR45\]](#_msoanchor_45)ergänzen:
-
-·         [10.1038/s41562-021-01193-7](https://doi.org/10.1038/s41562-021-01193-7)
-
- [\[LR46\]](#_msoanchor_46)<https://journals.sagepub.com/doi/10.1177/25152459211007467>
-
- [\[LR47\]](#_msoanchor_47)Irgendwo diskutieren, warum negative gutachten nicht veröffentlicht werden
-
- [\[LR48\]](#_msoanchor_48)https://osf.io/preprints/psyarxiv/tzaqh
-
- [\[LR49\]](#_msoanchor_49)hier nochmal durchschauen: <https://lakens.github.io/statistical_inferences/17-replication.html#analyzing-replication-studies> 
-
-und
-
-<https://pubmed.ncbi.nlm.nih.gov/26214497/>
-
- [\[LR50\]](#_msoanchor_50)<https://royalsocietypublishing.org/doi/10.1098/rsos.200805#d1e454>
-
- [\[LR51\]](#_msoanchor_51)Kasten: Begriffserklärung für *Notwendige und hinreichende Bedingungen*
-
- [\[LR52\]](#_msoanchor_52)Fletcher (2020) describes the function of replication is to confirm one of the following claims regarding the findings of the original research: (1) they are not due to mistakes in data analysis, (2) they are not due to sampling error, (3) they do not depend on contextual factors, (4) they do not arise from fraud or questionable research practices, (5) they generalize to a larger population than that sampled in the original, (6) their aspects pertaining to the theoretical hypothesis of interest hold even when that hypothesis is operationalized or tested in completely different ways
-
-<https://cornerstone.lib.mnsu.edu/cgi/viewcontent.cgi?article=2424&context=etds>
-
- [\[LR53\]](#_msoanchor_53)<https://www.youtube.com/watch?v=qa2_9NrEmeA>
-
- [\[LR54\]](#_msoanchor_54)aktualisieren (siehe ppt)
-
- [\[LR55\]](#_msoanchor_55)<https://rosie-project.eu/knowledge-hub/#!training/health-and-life-sciences>
+Unter den verschiedenen Akteuren im Bereich Open Educational Resources ist besonders FORRT hervorzuheben: In *Educational Nexus* werden spezifisch zu Open Science viele verschiedene Kurse und Unterlagen bereitgestellt (<https://forrt.org/syllabus/>). Es werden online Seminare durchgeführt, ein mehrsprachiges [Glossar](https://forrt.org/glossary/german/) und eine Wissensdatenbank verwaltet [@Parsons.2022]. Weitere nennenswerte Wissensbanken sind die [ROSiE Knowledge Hub](https://rosie-project.eu/knowledge-hub/#!training/health-and-life-sciences) und der [Open Economics Guide](https://openeconomics.zbw.eu/).
 
 #### Weiterführende Informationen
 
@@ -611,5 +458,7 @@ und
 -   Berichte, wie Replikationen in verschiedenen Disziplinen aussehen, berichtet @royal2018replication.
 
 -   Mittels einem Wiki und einem Webinar können Studierende über das [ReplicationWiki](https://replication.uni-goettingen.de/wiki/index.php/Webinar_series:_Replicating_empirical_studies_in_economics_-_an_opportunity_for_students) über Replikationen lernen.
+
+-   Johanna Gereke und Anne-Sophie Waag haben in einem [Vortrag](https://leibniz-psychology.org/practices-and-tools-of-open-science/open-science-in-der-lehre) Open Science in der universitären Lehre diskutiert.
 
 ### Literatur
