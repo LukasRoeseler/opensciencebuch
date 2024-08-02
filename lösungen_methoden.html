@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -278,7 +312,7 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lösungen_system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">bibliographystyle: apa</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Das System</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -315,7 +349,7 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#reproducibility-checks-reproduzierbarkeit" id="toc-reproducibility-checks-reproduzierbarkeit" class="nav-link active" data-scroll-target="#reproducibility-checks-reproduzierbarkeit"><span class="header-section-number">15.0.1</span> Reproducibility Checks / Reproduzierbarkeit</a></li>
+  <li><a href="#prüfung-auf-reproduzierbarkeit" id="toc-prüfung-auf-reproduzierbarkeit" class="nav-link active" data-scroll-target="#prüfung-auf-reproduzierbarkeit"><span class="header-section-number">15.0.1</span> Prüfung auf Reproduzierbarkeit</a></li>
   <li><a href="#robustness-checks" id="toc-robustness-checks" class="nav-link" data-scroll-target="#robustness-checks"><span class="header-section-number">15.0.2</span> Robustness checks</a></li>
   <li><a href="#open-data" id="toc-open-data" class="nav-link" data-scroll-target="#open-data"><span class="header-section-number">15.0.3</span> Open Data</a></li>
   <li><a href="#replicability" id="toc-replicability" class="nav-link" data-scroll-target="#replicability"><span class="header-section-number">15.0.4</span> Replicability</a></li>
@@ -323,7 +357,8 @@ div.csl-indent {
   <li><a href="#open-source-software" id="toc-open-source-software" class="nav-link" data-scroll-target="#open-source-software"><span class="header-section-number">15.0.6</span> Open Source Software</a></li>
   <li><a href="#slow-science" id="toc-slow-science" class="nav-link" data-scroll-target="#slow-science"><span class="header-section-number">15.0.7</span> Slow Science</a></li>
   <li><a href="#big-team-science" id="toc-big-team-science" class="nav-link" data-scroll-target="#big-team-science"><span class="header-section-number">15.0.8</span> Big Team Science</a></li>
-  <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur"><span class="header-section-number">15.0.9</span> Literatur</a></li>
+  <li><a href="#weiterführende-informationen" id="toc-weiterführende-informationen" class="nav-link" data-scroll-target="#weiterführende-informationen"><span class="header-section-number">15.0.9</span> Weiterführende Informationen</a></li>
+  <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur"><span class="header-section-number">15.0.10</span> Literatur</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -349,46 +384,57 @@ div.csl-indent {
 </header>
 
 
-<p>In der Wissenschaft gibt es nicht <em>die eine Methode</em> <span class="citation" data-cites="Feyerabend.19752002">(<a href="#ref-Feyerabend.19752002" role="doc-biblioref">Feyerabend 1975/2002</a>)</span>, sondern Methoden werden für Probleme entwickelt, Probleme gelöst und Methoden weiterentwickelt oder fallen gelassen. Mit Open Science Reformen kommen unzählige Methodische Neuerungen, Verbesserungen, und Vorschläge, die für Forschende häufig überwältigend sind: Forschung durchführen, Lehre machen, Drittmittel einwerben, und jetzt auch noch Open Science? Was dabei vielen entgeht ist, dass</p>
-<p>Große Menge an Lösungsvorschlägen, für einzelne Forschende oft überwältigend</p>
-<p>Wegweise:</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ariadne</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kumu Access2perspectives <a href="https://kumu.io/access2perspectives/open-science#disciplines/" class="uri">https://kumu.io/access2perspectives/open-science#disciplines/</a></p>
-<section id="meta-analyses-und-reviews" class="level4" data-number="15.0.0.1">
-<h4 data-number="15.0.0.1" class="anchored" data-anchor-id="meta-analyses-und-reviews"><span class="header-section-number">15.0.0.1</span> Meta-Analyses und Reviews</h4>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; use meta-analysis for replication studies <a href="https://www.researchgate.net/publication/360848749_Replication_Is_for_Meta-Analysis" class="uri">https://www.researchgate.net/publication/360848749_Replication_Is_for_Meta-Analysis</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ricthlinien im Hinblick auf neue Standards: <a href="https://osf.io/preprints/psyarxiv/59vsw" class="uri">https://osf.io/preprints/psyarxiv/59vsw</a></p>
-<section id="assessing-publication-bias" class="level5" data-number="15.0.0.1.1">
-<h5 data-number="15.0.0.1.1" class="anchored" data-anchor-id="assessing-publication-bias"><span class="header-section-number">15.0.0.1.1</span> Assessing publication bias</h5>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.researchgate.net/publication/363583595_Assessing_Publication_Bias_a_7-Step_User's_Guide_with_Best-Practice_Recommendations">https://www.researchgate.net/publication/363583595_Assessing_Publication_Bias_a_7-Step_User’s_Guide_with_Best-Practice_Recommendations</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toolbox: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0148296323005489" class="uri">https://www.sciencedirect.com/science/article/abs/pii/S0148296323005489</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; z-curve und z-curve validation preprint</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Test for excess significance (Ioannidis &amp; Trikalinos, 2007)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Incredibility Index (Schimmack, 2012)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Funnel plot (Light &amp; Pillemer, 1984)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P-curve (Simonsohn, Nelson, &amp; Simmons, 2014)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Z-Curve (Bartos &amp; Schimmack, 2020)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sensitivitätsbatterie (bushman kepes röseler körner)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RoBMA bayesian <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jrsm.1594" class="uri">https://onlinelibrary.wiley.com/doi/full/10.1002/jrsm.1594</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cumulative science</p>
-<p>o&nbsp;&nbsp; Machine readable manuscripts</p>
-<p>o&nbsp;&nbsp; Reporting templates (e.g., Brandt et al., 2014, replication recipe post completion registration on OSF, REF successes and failures)</p>
-<p>o&nbsp;&nbsp; Dynamic meta analyses</p>
-<p>§&nbsp; Bodypositions,</p>
-<p>§&nbsp; OpAQ Community Augmented:</p>
-<p>§&nbsp; metalab.stanford,</p>
-<p>§&nbsp; metabus,</p>
-<p>§&nbsp; soles, …</p>
-<p>§&nbsp; Replication database</p>
-<p>§&nbsp; ReproSci <a href="https://reprosci.epfl.ch" class="uri">https://reprosci.epfl.ch</a></p>
-<p>§&nbsp; <a href="https://portlandpress.com/clinsci/article/137/10/773/233083/Systematic-online-living-evidence-summaries" class="uri">https://portlandpress.com/clinsci/article/137/10/773/233083/Systematic-online-living-evidence-summaries</a></p>
-<p>§&nbsp; metaUI r Paket</p>
-<p>o&nbsp;&nbsp; Multiverse analyses</p>
-<p>o&nbsp;&nbsp; &nbsp;</p>
+<p>In der Wissenschaft gibt es nicht <em>die eine Methode</em> <span class="citation" data-cites="Feyerabend.19752002">(<a href="#ref-Feyerabend.19752002" role="doc-biblioref">Feyerabend 1975/2002</a>)</span>, sondern Methoden werden für Probleme entwickelt, Probleme gelöst und Methoden weiterentwickelt oder fallen gelassen. Methoden sind also wie Werkzeuge, und nicht alles lässt sich mit einem Schraubendreher zusammenbauen. Mit Open Science Reformen kommen unzählige Methodische Neuerungen, Verbesserungen, und Vorschläge, die für Forschende häufig überwältigend sind: Forschungsprojekte voranbringen, Seminare und Vorlesungen halten, Drittmittel einwerben, und jetzt auch noch Open Science? Während viele Probleme auf eine unzureichende Methodenausbildung zurückgeführt werden <span class="citation" data-cites="lakens2021practical">(<a href="#ref-lakens2021practical" role="doc-biblioref">Daniel Lakens 2021</a>)</span>, die Forschende zu ihrer eigenen Last nachholen müssen, erleichtern einige Methoden die Arbeit. Für Promovierende wurde in der biologischen Psychologie beispielsweise der Wegweise ARIADNE entwickelt (https://igor-biodgps.github.io/ARIADNE/graph/graph.html). Dieses Kapitel bietet einen Überblick über methodische Entwicklungen und Diskussionen in den Sozialwissenschaften und Disziplinen, die vorrangig mit statistischen Methoden arbeiten.</p>
+<section id="meta-analysen" class="level4" data-number="15.0.0.1">
+<h4 data-number="15.0.0.1" class="anchored" data-anchor-id="meta-analysen"><span class="header-section-number">15.0.0.1</span> Meta-Analysen</h4>
+<p>Unter Meta-Analysen werden Studien über Studien verstanden. Dabei extrahieren Forschende üblicherweise Ergebnisse aus bereits veröffentlichten Studien, schreiben andere Forschende aus einem Feld an und fragen nach unveröffentlichten Studien, und analysieren mit statistischen Methoden die Gemeinsamkeiten und Unterschiede zwischen den Ergebnissen. <span class="citation" data-cites="fletcher2022replication">Fletcher (<a href="#ref-fletcher2022replication" role="doc-biblioref">2022</a>)</span> argumentiert, dass nur mithilfe von Meta-Analysen die Allgemeingültigkeit von (statistischen) Phänomenen nachgewiesen werden kann. Im Idealfall könnten alle so weitermachen wie bisher und meta-analytische Modelle würden die Probleme korrigieren. Angesichts verheerender Publikationsbiases ist das allerdings aktuell nicht möglich. Wie Meta-Analysen dennoch informativ sein können, empfehlen <span class="citation" data-cites="carlsson2024beginner">Carlsson et al. (<a href="#ref-carlsson2024beginner" role="doc-biblioref">2024</a>)</span> allgemein und liste ich im Folgenden für spezifische Probleme auf.</p>
+<section id="publikationsbias-und-p-hacking-einschätzen" class="level5" data-number="15.0.0.1.1">
+<h5 data-number="15.0.0.1.1" class="anchored" data-anchor-id="publikationsbias-und-p-hacking-einschätzen"><span class="header-section-number">15.0.0.1.1</span> Publikationsbias und P-Hacking einschätzen</h5>
+<p>Bei Meta-Analysen gilt: “Garbage in, garbage out”. Wer viele schlecht durchgeführte Studien in einer Meta-Analyse zusammenfasst, erhält eine schlechte Zusammenfassung. Das hatte beispielsweise zur Folge, dass <span class="citation" data-cites="Hagger.2010">Hagger et al. (<a href="#ref-Hagger.2010" role="doc-biblioref">2010</a>)</span> ihrer Meta-Analyse einen deutlichen Effekt für ein Modell über die Willensstärke finden konnten, nachfolgende, groß angelegte Replikationsversuche und Analysen jedoch alle scheiterten, einen ebenso großen Effekt zu finden <span class="citation" data-cites="Hagger.2016b Friese.2018 Dang.2020 vohs2021multisite">(<a href="#ref-Hagger.2016b" role="doc-biblioref">Hagger et al. 2016</a>; <a href="#ref-Friese.2018" role="doc-biblioref">Friese et al. 2018</a>; <a href="#ref-Dang.2020" role="doc-biblioref">Dang et al. 2020</a>; <a href="#ref-vohs2021multisite" role="doc-biblioref">Vohs et al. 2021</a>)</span>. Was trotzdem möglich ist und auch in jeder Meta-Analyse getan werden sollte, ist eine Einschätzung der Datenqualität, beispielsweise der Stärke des Publikationsbiases. Dabei gibt es Methoden, die prüfen, ob es nicht veröffentlichte Studien gibt, und Methoden, die für die potenziell fehlenden Studien korrigieren. Teilweise funktionieren diese erst bei über 200 Studien, manche lassen sich jedoch auch schon bei einem Dutzend Studien anwenden.</p>
+<section id="funnel-plot" class="level6" data-number="15.0.0.1.1.1">
+<h6 data-number="15.0.0.1.1.1" class="anchored" data-anchor-id="funnel-plot"><span class="header-section-number">15.0.0.1.1.1</span> Funnel Plot</h6>
+<p>Eine der ältesten Methoden ist der Funnel Plot (Trichter-Diagramm) <span class="citation" data-cites="light1984summing">(<a href="#ref-light1984summing" role="doc-biblioref">Light and Pillemer 1984</a>)</span>. Dabei werden Präzision und Effektstärke der einzelnen Studien in einem Diagramm dargestellt. Im Idealfall sollten die Punkte das Bild eines Trichters bilden: Je präziser eine Studie ist (zum Beispiel durch eine große Stichprobe), desto eher sollte der dort gemessene Zusammenhang im Mittel liegen. Unpräzisere Studien verschätzen sich unsystematisch, also sie liegen mal drüber und mal drunter. Dadurch, dass nicht signifikante Ergebnisse selten veröffentlicht werden, bildet sich in dem Trichter-Diagramm fast nie ein Trichter, sondern nicht-signifikante Ergebnisse fehlen einfach.</p>
+<p>In der folgenden Abbildung ist ein Trichter-Diagramm für eine Studie zum Zusammenhang zwischen Angst vor Mathematik und Leistung in Mathematik. Das Muster ist fast symmetrisch, es liegt also nur ein schwacher Publikationsbias vor. Die kleinen Zusammenhänge am unteren Rand sind etwas nach rechts verzerrt, und die präzisen Effekte ganz oben sind nicht alle gleich groß, sondern variieren stark.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Funnel plot example</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(psymetadata)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>ds <span class="ot">&lt;-</span> psymetadata<span class="sc">::</span>barroso2021</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>model <span class="ot">&lt;-</span> metafor<span class="sc">::</span><span class="fu">rma.mv</span>(<span class="at">yi =</span> ds<span class="sc">$</span>yi, <span class="at">V =</span> ds<span class="sc">$</span>vi, <span class="at">random =</span> <span class="sc">~</span><span class="dv">1</span> <span class="sc">|</span> study_id, <span class="at">data =</span> ds)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>metafor<span class="sc">::</span><span class="fu">funnel</span>(model, <span class="at">xlab =</span> <span class="st">"Beobachtete Effektstärke"</span>, <span class="at">ylab =</span> <span class="st">"Präzision (Standardfehler)"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="lösungen_methoden_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="p-curve" class="level6" data-number="15.0.0.1.1.2">
+<h6 data-number="15.0.0.1.1.2" class="anchored" data-anchor-id="p-curve"><span class="header-section-number">15.0.0.1.1.2</span> P-Curve</h6>
+<p>Beim P-Hacking werden Daten auf verschiedene Weisen ausgewertet und es wird diejenige berichtet, die einen niedrigen und damit signifikanten P-Wert zur Folge hat. Ergebnisse werden also nicht signifikant, weil die Hypothesen korrekt sind, sondern weil die Daten so lange ausgewertet wurden, bis sie signifikant wurden. Im Kapitel P-Hacking konnten wir sehen, wie P-Werte verteilt sind, je nachdem ob die Hypothese korrekt ist oder nicht. Diese Tatsache macht sich die P-Curve (<span class="citation" data-cites="Simonsohn.2014">Simonsohn, Nelson, and Simmons (<a href="#ref-Simonsohn.2014" role="doc-biblioref">2014b</a>)</span>; <span class="citation" data-cites="Simonsohn.2014b">Simonsohn, Nelson, and Simmons (<a href="#ref-Simonsohn.2014b" role="doc-biblioref">2014a</a>)</span>; <span class="citation" data-cites="Simonsohn.2015b">Simonsohn, Simmons, and Nelson (<a href="#ref-Simonsohn.2015b" role="doc-biblioref">2015</a>)</span>) zu Nutzen. P-Werte eines Sets and Studien werden in einem Diagramm abgebildet und ihre Verteilung wird geprüft. Liegt kein P-Hacking vor sind die Werte entweder gleich verteilt (alle P-Werte kommen gleich häufig vor) oder sammeln sich bei 0 (kleinere P-Werte kommen häufiger vor). P-Hacking hat jedoch zur Folge, dass sich die Werte an der 5% Grenze tummeln, denn weiter als bis dort müssen die Daten nicht “gehackt” werden. Die Methode gewann vor allem deshalb an Bekanntheit, weil <span class="citation" data-cites="Simmons.2017">Simmons and Simonsohn (<a href="#ref-Simmons.2017" role="doc-biblioref">2017</a>)</span> die Methode auf eines der berühmtesten psychologischen Phänomene, dem Power Posing, angewandt haben und herausfanden, dass dort wahrscheinlich P-Hacking vorlag. Kritiker stellten später weitere Möglichkeiten vor, wie auch ohne P-Hacking eine suspekte P-Curve entstehen kann und das Verfahren wird inzwischen kaum mehr verwendet <span class="citation" data-cites="Erdfelder.2019">(<a href="#ref-Erdfelder.2019" role="doc-biblioref">Erdfelder and Heck 2019</a>)</span>.</p>
+</section>
+<section id="z-curve" class="level6" data-number="15.0.0.1.1.3">
+<h6 data-number="15.0.0.1.1.3" class="anchored" data-anchor-id="z-curve"><span class="header-section-number">15.0.0.1.1.3</span> Z-Curve</h6>
+<p>Statt P-Werte zu nehmen, können meta-analytische Befunde auch in sogenannte Z-Werte umgerechnet werden. Sie sind normalverteilt und mittels zusätzlicher Algorithmen lässt sich auf Basis von beobachteten Effekten schätzen, wie viele weitere Effekte es geben müsste. Dieses Verfahren namen Z-Curve <span class="citation" data-cites="Bartos.2022b">(<a href="#ref-Bartos.2022b" role="doc-biblioref">Bartoš and Schimmack 2022</a>)</span> kann also für den File-Drawer Effekt und für P-Hacking korrigieren. Das Ergebnis daraus ist auch eine Schätzung, wie hoch die Replikationsrate wäre, wenn alle analysierten Studien erneut durchgeführt würden. Aktuellen Studien zufolge funktionieren diese Schätzungen ziemlich gut, obgleich sie eine große Menge an Daten benötigen <span class="citation" data-cites="Sotola.2022 Sotola.2023 roseler2023predicting">(<a href="#ref-Sotola.2022" role="doc-biblioref">Sotola and Credé 2022</a>; <a href="#ref-Sotola.2023" role="doc-biblioref">Sotola 2023</a>; <a href="#ref-roseler2023predicting" role="doc-biblioref">Röseler 2023</a>)</span>.</p>
+</section>
+<section id="sensitivitätsanalyse" class="level6" data-number="15.0.0.1.1.4">
+<h6 data-number="15.0.0.1.1.4" class="anchored" data-anchor-id="sensitivitätsanalyse"><span class="header-section-number">15.0.0.1.1.4</span> Sensitivitätsanalyse</h6>
+<p>Ein Ansatz, welcher nicht nur bei Meta-Analysen sondern bei fast allen statistischen Auswertungen funktioniert, sind sogenannte Sensitivitäts- oder Robustheits-Analysen. Es werden dabei verschiedene Auswertungswege durchgegangen und dabei geprüft, wie stark sie sich auf die Ergebnisse auswerten. Bei Meta-Analysen können zum Beispiel viele mögliche Verfahren gleichzeitig gerechnet werden. Einen solchen Schrotschuss-Ansatz hat <span class="citation" data-cites="Kepes.2017">Kepes, Bushman, and Anderson (<a href="#ref-Kepes.2017" role="doc-biblioref">2017</a>)</span> geprägt, woraufhin er in anderen Studien übernommen wurde <span class="citation" data-cites="Korner.2022">(<a href="#ref-Korner.2022" role="doc-biblioref">Körner et al. 2022</a>)</span>. Einen Überblick über verschiedene Verfahren und unter welchen Bedingungen sie für Daten geeignet sind, bieten <span class="citation" data-cites="Carter.2019">Carter et al. (<a href="#ref-Carter.2019" role="doc-biblioref">2019</a>)</span>.</p>
 </section>
 </section>
-<section id="reproducibility-checks-reproduzierbarkeit" class="level3" data-number="15.0.1">
-<h3 data-number="15.0.1" class="anchored" data-anchor-id="reproducibility-checks-reproduzierbarkeit"><span class="header-section-number">15.0.1</span> Reproducibility Checks / Reproduzierbarkeit</h3>
+<section id="daumenregeln-für-beurteilung-einzelner-artikel" class="level5" data-number="15.0.0.1.2">
+<h5 data-number="15.0.0.1.2" class="anchored" data-anchor-id="daumenregeln-für-beurteilung-einzelner-artikel"><span class="header-section-number">15.0.0.1.2</span> Daumenregeln für Beurteilung einzelner Artikel</h5>
+<p>Eine Meta-Analyse ist aufwändig und kann mehrere Jahre dauern. Selbst Forschende, die keine Mittel für Studentische Hilfskräfte haben, die ihnen beim Codieren und Prüfen von hunderten bis tausenden Studien helfen, haben hier kaum eine Chance, eine ordentliche Analyse durchzuführen. Die folgenden Daumenregeln - und mehr als das sollen sie auch nicht sein - bieten Abkürzungen zur Beurteilung wissenschaftlicher Qualität.</p>
+<section id="viele-signifikante-studien" class="level6" data-number="15.0.0.1.2.1">
+<h6 data-number="15.0.0.1.2.1" class="anchored" data-anchor-id="viele-signifikante-studien"><span class="header-section-number">15.0.0.1.2.1</span> Viele Signifikante Studien</h6>
+<p>Seit einer Vertrauenskrise in der Sozialpsychologie in den 1960er Jahren <span class="citation" data-cites="Lakens.2023">(<a href="#ref-Lakens.2023" role="doc-biblioref">Daniel Lakens 2023</a>)</span> werden in Forschungsartikeln seitens vieler Zeitschriften mehrere Studien gefordert. Das hatte zur Folge, dass die Ressourcen statt in eine ordentliche Studie in mehrere kleinere Studien investiert wurden. Die meisten dieser “Multi-Study-Paper” haben dann ausschließlich signifikante Ergebnisse über bis zu 10 Studien hinweg. Während viele Studien mit durchweg signifikanten Ergebnissen auf den ersten Blick beeindruckend aussehen, lösen Sie beim näheren Hinsehen jedoch Skepsis aus: Einzelne Studien haben üblicherweise eine Wahrscheinlichkeit von 80-95%, dass dabei signifikante Ergebnisse bei der zentralen Analyse herauskommen. Diese Wahrscheinlichkeit (Statistische Teststärke oder Power) nimmt ab, wenn man mehrere Studien nacheinander durchführt. Es ist vergleichbar mit einem Schützen, der in 99% der Fälle mit einem Gewehr eine Glasflasche trifft. Die Wahrscheinlichkeit, dass er bei einem Schuss eine Glasflasche trifft ist also 99%. Die Wahrscheinlichkeit, dass er mit 50 Schüssen 50 Glasflaschen trifft ist weniger, nämlich 99%^50 (hoch fünfzig) = 60,5%. Bei wissenschaftlichen Studien kommt es auf ähnliche Weise zu einer “Power-Deflation”. Die Wahrscheinlichkeit, 4 signifikante Studien mit jeweils 80% Power durchzuführen, ist 40,96%. Dann eine genau solche Studie zu veröffentlichen ist extrem unwahrscheinlich <span class="citation" data-cites="Lakens.2017b">(<a href="#ref-Lakens.2017b" role="doc-biblioref">Daniël Lakens and Etz 2017</a>)</span>.</p>
+</section>
+</section>
+</section>
+<section id="prüfung-auf-reproduzierbarkeit" class="level3" data-number="15.0.1">
+<h3 data-number="15.0.1" class="anchored" data-anchor-id="prüfung-auf-reproduzierbarkeit"><span class="header-section-number">15.0.1</span> Prüfung auf Reproduzierbarkeit</h3>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Meta-Psychology</p>
 <p>o&nbsp;&nbsp; Societies: Besteht auf Reproducibility: <a href="https://doi.org/10.15626/MP.2023.4020" class="uri">https://doi.org/10.15626/MP.2023.4020</a></p>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Statcheck</p>
@@ -564,10 +610,10 @@ div.csl-indent {
 <p>o&nbsp;&nbsp; Gigerenzer P-Value unwissen</p>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bayesian, Kritik: <a href="https://journals.sagepub.com/doi/10.1177/25152459231213371" class="uri">https://journals.sagepub.com/doi/10.1177/25152459231213371</a></p>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Effektstärken statt p-Werte</p>
-<p>o&nbsp;&nbsp; Equivalence testing</p>
+<p>o&nbsp;&nbsp; Equivalence testing <span class="citation" data-cites="Lakens.2017">Daniël Lakens (<a href="#ref-Lakens.2017" role="doc-biblioref">2017</a>)</span>; <span class="citation" data-cites="Lakens.2018">Daniël Lakens, Scheel, and Isager (<a href="#ref-Lakens.2018" role="doc-biblioref">2018</a>)</span></p>
 <p>o&nbsp;&nbsp; Rölle von kleinen Effekten: <a href="https://journals.sagepub.com/doi/full/10.1177/17456916221100420" class="uri">https://journals.sagepub.com/doi/full/10.1177/17456916221100420</a></p>
 <p>o&nbsp;&nbsp; practical relevance of small effect sizes <a href="https://www.researchgate.net/publication/352412241_Evaluating_the_practical_relevance_of_observed_effect_sizes_in_psychological_research" class="uri">https://www.researchgate.net/publication/352412241_Evaluating_the_practical_relevance_of_observed_effect_sizes_in_psychological_research</a></p>
-<p>o&nbsp;&nbsp; effect sizes guide</p>
+<p>o&nbsp;&nbsp; effect sizes guide jane guide to effect sizes and confidence intervals</p>
 <p>o&nbsp;&nbsp; &nbsp;</p>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alternative lakens paper “alternative to p-value is correctly used p-value”</p>
 <p>o&nbsp;&nbsp; Philosophische Diskussion über Nutzen von P-Werten: <a href="https://journals.sagepub.com/doi/full/10.1177/09593543231160112" class="uri">https://journals.sagepub.com/doi/full/10.1177/09593543231160112</a> und hier <a href="https://journals.sagepub.com/doi/10.1177/0959354312465483?icid=int.sj-full-text.similar-articles.1" class="uri">https://journals.sagepub.com/doi/10.1177/0959354312465483?icid=int.sj-full-text.similar-articles.1</a></p>
@@ -603,121 +649,34 @@ div.csl-indent {
 <table class="caption-top table">
 <tbody>
 <tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
 <td><strong>Infrastruktur</strong></td>
-<td></td>
 <td><strong>Kommerzielle Software</strong></td>
-<td></td>
 <td><strong>Open Source Software</strong></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="even">
-<td></td>
 <td>Literaturdatenbank</td>
-<td></td>
-<td></td>
-<td></td>
+<td>SCOPUS</td>
 <td><a href="https://openalex.org" class="uri">https://openalex.org</a></td>
-<td></td>
 </tr>
 <tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
 <td>Literaturverwaltung</td>
-<td></td>
 <td>Citavi, Mendeley</td>
-<td></td>
 <td>Zotero</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="even">
-<td></td>
 <td>Datenerhebung</td>
-<td></td>
 <td>Unipark, Millisecond Inquisit</td>
-<td></td>
 <td>PsychoPy</td>
-<td></td>
 </tr>
 <tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
 <td>Datenanalyse</td>
-<td></td>
 <td>IBM SPSS, Stata</td>
-<td></td>
 <td>GNU R, Python, Jupyter Notebook</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="even">
-<td></td>
 <td>Begutachtung und Veröffentlichung</td>
-<td></td>
 <td>Editorial Manager</td>
-<td></td>
 <td>Open Journal System</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -735,13 +694,105 @@ div.csl-indent {
 <p>&nbsp;<a href="#_msoanchor_4">[LR4]</a><a href="https://www.researchgate.net/publication/377965519_Freeing_social_and_medical_scientists_from_the_replication_crisis" class="uri">https://www.researchgate.net/publication/377965519_Freeing_social_and_medical_scientists_from_the_replication_crisis</a></p>
 <p>&nbsp;<a href="#_msoanchor_5">[LR5]</a>https://arxiv.org/abs/2402.05519#:~:text=Practical%20implications%3A%20Overall%2C%20ChatGPT%20does,steps%20to%20control%20its%20use.</p>
 </section>
-<section id="literatur" class="level3" data-number="15.0.9">
-<h3 data-number="15.0.9" class="anchored" data-anchor-id="literatur"><span class="header-section-number">15.0.9</span> Literatur</h3>
+<section id="weiterführende-informationen" class="level3" data-number="15.0.9">
+<h3 data-number="15.0.9" class="anchored" data-anchor-id="weiterführende-informationen"><span class="header-section-number">15.0.9</span> Weiterführende Informationen</h3>
+<ul>
+<li><p><span class="citation" data-cites="kepes2023assessing">Kepes, Wang, and Cortina (<a href="#ref-kepes2023assessing" role="doc-biblioref">2023</a>)</span> haben einen Anfänger-Leitfaden für die Einschätzung von Publikationsbias entwickelt.</p></li>
+<li><p><span class="citation" data-cites="harrer2021doing">Harrer et al. (<a href="#ref-harrer2021doing" role="doc-biblioref">2021</a>)</span> haben ein kostenlos verfügbares Buch zur Durchführung von Meta-Analysen geschrieben: https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/</p></li>
+<li><p><span class="citation" data-cites="Adler.2023">Adler, Röseler, and Schöniger (<a href="#ref-Adler.2023" role="doc-biblioref">2023</a>)</span> haben verschiedene Tools zur heuristischen Beurteilung von Vertrauenswürdigkeit wissenschaftlicher Befunde gesammelt. Auf https://mktg.shinyapps.io/Toolbox_App/ können Forschende Daten eingeben und die verschiedenen Verfahren durchführen.</p></li>
+</ul>
+</section>
+<section id="literatur" class="level3" data-number="15.0.10">
+<h3 data-number="15.0.10" class="anchored" data-anchor-id="literatur"><span class="header-section-number">15.0.10</span> Literatur</h3>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Adler.2023" class="csl-entry" role="listitem">
+Adler, Susanne Jana, Lukas Röseler, and Martina Katharina Schöniger. 2023. <span>“A Toolbox to Evaluate the Trustworthiness of Published Findings.”</span> <em>Journal of Business Research</em> 167: 114189. <a href="https://doi.org/10.1016/j.jbusres.2023.114189">https://doi.org/10.1016/j.jbusres.2023.114189</a>.
+</div>
+<div id="ref-Bartos.2022b" class="csl-entry" role="listitem">
+Bartoš, František, and Ulrich Schimmack. 2022. <span>“Z-Curve 2.0: Estimating Replication Rates and Discovery Rates.”</span> <em>Meta-Psychology</em> 6. <a href="https://doi.org/10.15626/MP.2021.2720">https://doi.org/10.15626/MP.2021.2720</a>.
+</div>
+<div id="ref-carlsson2024beginner" class="csl-entry" role="listitem">
+Carlsson, Rickard, Lucija Batinović, Natalie Hyltse, André Kalmendal, Thomas Nordström, and Marta Topor. 2024. <span>“A Beginner’s Guide to Open and Reproducible Systematic Reviews in Psychology.”</span>
+</div>
+<div id="ref-Carter.2019" class="csl-entry" role="listitem">
+Carter, Evan C., Felix D. Schönbrodt, Will M. Gervais, and Joseph Hilgard. 2019. <span>“Correcting for Bias in Psychology: A Comparison of Meta-Analytic Methods.”</span> <em>Advances in Methods and Practices in Psychological Science</em> 2 (2): 115–44. <a href="https://doi.org/10.1177/2515245919847196">https://doi.org/10.1177/2515245919847196</a>.
+</div>
+<div id="ref-Dang.2020" class="csl-entry" role="listitem">
+Dang, Junhua, Paul Barker, Anna Baumert, Margriet Bentvelzen, Elliot Berkman, Nita Buchholz, Jacek Buczny, et al. 2020. <span>“A Multilab Replication of the Ego Depletion Effect.”</span> <em>Social Psychological and Personality Science</em>, 194855061988770. <a href="https://doi.org/10.1177/1948550619887702">https://doi.org/10.1177/1948550619887702</a>.
+</div>
+<div id="ref-Erdfelder.2019" class="csl-entry" role="listitem">
+Erdfelder, Edgar, and Daniel W. Heck. 2019. <span>“Detecting Evidential Value and p -Hacking with the p -Curve Tool.”</span> <em>Zeitschrift f<span>ü</span>r Psychologie</em> 227 (4): 249–60. <a href="https://doi.org/10.1027/2151-2604/a000383">https://doi.org/10.1027/2151-2604/a000383</a>.
+</div>
 <div id="ref-Feyerabend.19752002" class="csl-entry" role="listitem">
 Feyerabend, Paul K. 1975/2002. <em>Against Method</em>. Reprinted der 3. ed. 1993. London: Verso.
+</div>
+<div id="ref-fletcher2022replication" class="csl-entry" role="listitem">
+Fletcher, Samuel C. 2022. <span>“Replication Is for Meta-Analysis.”</span> <em>Philosophy of Science</em> 89 (5): 960–69.
+</div>
+<div id="ref-Friese.2018" class="csl-entry" role="listitem">
+Friese, Malte, David D. Loschelder, Karolin Gieseler, Julius Frankenbach, and Michael Inzlicht. 2018. <span>“Is Ego Depletion Real? An Analysis of Arguments.”</span> <em>Personality and Social Psychology Review : An Official Journal of the Society for Personality and Social Psychology, Inc</em>. <a href="https://doi.org/10.1177/1088868318762183">https://doi.org/10.1177/1088868318762183</a>.
+</div>
+<div id="ref-Hagger.2016b" class="csl-entry" role="listitem">
+Hagger, Martin S., Nikos L. D. Chatzisarantis, Hugo Alberts, Calvin Octavianus Anggono, Cédric Batailler, Angela R. Birt, Ralf Brand, et al. 2016. <span>“A Multilab Preregistered Replication of the Ego-Depletion Effect.”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 11 (4): 546–73. <a href="https://doi.org/10.1177/1745691616652873">https://doi.org/10.1177/1745691616652873</a>.
+</div>
+<div id="ref-Hagger.2010" class="csl-entry" role="listitem">
+Hagger, Martin S., Chantelle Wood, Chris Stiff, and Nikos L. D. Chatzisarantis. 2010. <span>“Ego Depletion and the Strength Model of Self-Control: A Meta-Analysis.”</span> <em>Psychological Bulletin</em> 136 (4): 495–525. <a href="https://doi.org/10.1037/a0019486">https://doi.org/10.1037/a0019486</a>.
+</div>
+<div id="ref-harrer2021doing" class="csl-entry" role="listitem">
+Harrer, Mathias, Pim Cuijpers, Toshi Furukawa, and David Ebert. 2021. <em>Doing Meta-Analysis with r: A Hands-on Guide</em>. Chapman; Hall/CRC.
+</div>
+<div id="ref-Kepes.2017" class="csl-entry" role="listitem">
+Kepes, Sven, Brad J. Bushman, and Craig A. Anderson. 2017. <span>“Violent Video Game Effects Remain a Societal Concern: Reply to Hilgard, Engelhardt, and Rouder (2017).”</span> <em>Psychological Bulletin</em> 143 (7): 775–82. <a href="https://doi.org/10.1037/bul0000112">https://doi.org/10.1037/bul0000112</a>.
+</div>
+<div id="ref-kepes2023assessing" class="csl-entry" role="listitem">
+Kepes, Sven, Wenhao Wang, and Jose M Cortina. 2023. <span>“Assessing Publication Bias: A 7-Step User’s Guide with Best-Practice Recommendations.”</span> <em>Journal of Business and Psychology</em> 38 (5): 957–82.
+</div>
+<div id="ref-Korner.2022" class="csl-entry" role="listitem">
+Körner, Robert, Lukas Röseler, Astrid Schütz, and Brad J. Bushman. 2022. <span>“Dominance and Prestige: Meta-Analytic Review of Experimentally Induced Body Position Effects on Behavioral, Self-Report, and Physiological Dependent Variables.”</span> <em>Psychological Bulletin</em> 148 (1-2): 67–85. <a href="https://doi.org/10.1037/bul0000356">https://doi.org/10.1037/bul0000356</a>.
+</div>
+<div id="ref-lakens2021practical" class="csl-entry" role="listitem">
+Lakens, Daniel. 2021. <span>“The Practical Alternative to the p Value Is the Correctly Used p Value.”</span> <em>Perspectives on Psychological Science</em> 16 (3): 639–48.
+</div>
+<div id="ref-Lakens.2023" class="csl-entry" role="listitem">
+———. 2023. <span>“Concerns about Replicability, Theorizing, Applicability, Generalizability, and Methodology Across Two Crises in Social Psychology.”</span> <a href="https://doi.org/10.31234/osf.io/dtvs7">https://doi.org/10.31234/osf.io/dtvs7</a>.
+</div>
+<div id="ref-Lakens.2017" class="csl-entry" role="listitem">
+Lakens, Daniël. 2017. <span>“Equivalence Tests: A Practical Primer for t Tests, Correlations, and Meta-Analyses.”</span> <em>Social Psychological and Personality Science</em> 8 (4): 355–62. <a href="https://doi.org/10.1177/1948550617697177">https://doi.org/10.1177/1948550617697177</a>.
+</div>
+<div id="ref-Lakens.2017b" class="csl-entry" role="listitem">
+Lakens, Daniël, and Alexander J. Etz. 2017. <span>“Too True to Be Bad: When Sets of Studies with Significant and Nonsignificant Findings Are Probably True.”</span> <em>Social Psychological and Personality Science</em> 8 (8): 875–81. <a href="https://doi.org/10.1177/1948550617693058">https://doi.org/10.1177/1948550617693058</a>.
+</div>
+<div id="ref-Lakens.2018" class="csl-entry" role="listitem">
+Lakens, Daniël, Anne M. Scheel, and Peder M. Isager. 2018. <span>“Equivalence Testing for Psychological Research: A Tutorial.”</span> <em>Advances in Methods and Practices in Psychological Science</em> 1 (2): 259–69. <a href="https://doi.org/10.1177/2515245918770963">https://doi.org/10.1177/2515245918770963</a>.
+</div>
+<div id="ref-light1984summing" class="csl-entry" role="listitem">
+Light, Richard J, and David B Pillemer. 1984. <em>Summing up: The Science of Reviewing Research</em>. Harvard University Press.
+</div>
+<div id="ref-roseler2023predicting" class="csl-entry" role="listitem">
+Röseler, Lukas. 2023. <span>“Predicting Replication Rates with z-Curve: A Brief Exploratory Validation Study Using the Replication Database.”</span>
+</div>
+<div id="ref-Simmons.2017" class="csl-entry" role="listitem">
+Simmons, Joseph P., and Uri Simonsohn. 2017. <span>“Power Posing: P-Curving the Evidence.”</span> <em>Psychological Science</em> 28 (5): 687–93. <a href="https://doi.org/10.1177/0956797616658563">https://doi.org/10.1177/0956797616658563</a>.
+</div>
+<div id="ref-Simonsohn.2014b" class="csl-entry" role="listitem">
+Simonsohn, Uri, Leif D. Nelson, and Joseph P. Simmons. 2014a. <span>“P-Curve and Effect Size: Correcting for Publication Bias Using Only Significant Results.”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 9 (6): 666–81. <a href="https://doi.org/10.1177/1745691614553988">https://doi.org/10.1177/1745691614553988</a>.
+</div>
+<div id="ref-Simonsohn.2014" class="csl-entry" role="listitem">
+———. 2014b. <span>“P-Curve: A Key to the File-Drawer.”</span> <em>Journal of Experimental Psychology. General</em> 143 (2): 534–47. <a href="https://doi.org/10.1037/a0033242">https://doi.org/10.1037/a0033242</a>.
+</div>
+<div id="ref-Simonsohn.2015b" class="csl-entry" role="listitem">
+Simonsohn, Uri, Joseph P. Simmons, and Leif D. Nelson. 2015. <span>“Better p-Curves: Making p-Curve Analysis More Robust to Errors, Fraud, and Ambitious p-Hacking, a Reply to Ulrich and Miller (2015).”</span> <em>Journal of Experimental Psychology. General</em> 144 (6): 1146–52. <a href="https://doi.org/10.1037/xge0000104">https://doi.org/10.1037/xge0000104</a>.
+</div>
+<div id="ref-Sotola.2023" class="csl-entry" role="listitem">
+Sotola, Lukas Karel. 2023. <span>“How Can i Study from Below, That Which Is Above?”</span> <em>Meta-Psychology</em> 7. <a href="https://doi.org/10.15626/MP.2022.3299">https://doi.org/10.15626/MP.2022.3299</a>.
+</div>
+<div id="ref-Sotola.2022" class="csl-entry" role="listitem">
+Sotola, Lukas Karel, and Marcus Credé. 2022. <span>“On the Predicted Replicability of Two Decades of Experimental Research on System Justification: A z–Curve Analysis.”</span> <em>European Journal of Social Psychology</em> 52 (5-6): 895–909. <a href="https://doi.org/10.1002/ejsp.2858">https://doi.org/10.1002/ejsp.2858</a>.
+</div>
+<div id="ref-vohs2021multisite" class="csl-entry" role="listitem">
+Vohs, Kathleen D, Brandon J Schmeichel, Sophie Lohmann, Quentin F Gronau, Anna J Finley, Sarah E Ainsworth, Jessica L Alquist, et al. 2021. <span>“A Multisite Preregistered Paradigmatic Test of the Ego-Depletion Effect.”</span> <em>Psychological Science</em> 32 (10): 1566–81.
 </div>
 </div>
 </section>
@@ -1169,8 +1220,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./lösungen_system.html" class="pagination-link" aria-label="bibliographystyle: apa">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">bibliographystyle: apa</span></span>
+      <a href="./lösungen_system.html" class="pagination-link" aria-label="Das System">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Das System</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
