@@ -1,6 +1,4 @@
 ---
-
----
 title: "Das System"
 editor: visual
 format: html
