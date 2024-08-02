@@ -10,93 +10,75 @@ In der Wissenschaft gibt es nicht *die eine Methode* [@Feyerabend.19752002], son
 
 #### Meta-Analysen
 
-Unter Meta-Analysen werden Studien über Studien verstanden. Dabei extrahieren Forschende üblicherweise Ergebnisse aus bereits veröffentlichten Studien, schreiben andere Forschende aus einem Feld an und fragen nach unveröffentlichten Studien, und analysieren mit statistischen Methoden die Gemeinsamkeiten und Unterschiede zwischen den Ergebnissen. @fletcher2022replication argumentiert, dass nur mithilfe von Meta-Analysen die Allgemeingültigkeit von (statistischen) Phänomenen nachgewiesen werden kann. Angesichts verheerender Publikationsbiases ist das allerdings aktuell nicht möglich. Wie Meta-Analysen dennoch informativ sein können, empfehlen @carlsson2024beginner allgemein und liste ich im Folgenden für spezifische Probleme auf.
+Unter Meta-Analysen werden Studien über Studien verstanden. Dabei extrahieren Forschende üblicherweise Ergebnisse aus bereits veröffentlichten Studien, schreiben andere Forschende aus einem Feld an und fragen nach unveröffentlichten Studien, und analysieren mit statistischen Methoden die Gemeinsamkeiten und Unterschiede zwischen den Ergebnissen. @fletcher2022replication argumentiert, dass nur mithilfe von Meta-Analysen die Allgemeingültigkeit von (statistischen) Phänomenen nachgewiesen werden kann. Im Idealfall könnten alle so weitermachen wie bisher und meta-analytische Modelle würden die Probleme korrigieren. Angesichts verheerender Publikationsbiases ist das allerdings aktuell nicht möglich. Wie Meta-Analysen dennoch informativ sein können, empfehlen @carlsson2024beginner allgemein und liste ich im Folgenden für spezifische Probleme auf.
 
 ##### Publikationsbias und P-Hacking einschätzen
 
 Bei Meta-Analysen gilt: "Garbage in, garbage out". Wer viele schlecht durchgeführte Studien in einer Meta-Analyse zusammenfasst, erhält eine schlechte Zusammenfassung. Das hatte beispielsweise zur Folge, dass @Hagger.2010 ihrer Meta-Analyse einen deutlichen Effekt für ein Modell über die Willensstärke finden konnten, nachfolgende, groß angelegte Replikationsversuche und Analysen jedoch alle scheiterten, einen ebenso großen Effekt zu finden [@Hagger.2016b; @Friese.2018; @Dang.2020; @vohs2021multisite]. Was trotzdem möglich ist und auch in jeder Meta-Analyse getan werden sollte, ist eine Einschätzung der Datenqualität, beispielsweise der Stärke des Publikationsbiases. Dabei gibt es Methoden, die prüfen, ob es nicht veröffentlichte Studien gibt, und Methoden, die für die potenziell fehlenden Studien korrigieren. Teilweise funktionieren diese erst bei über 200 Studien, manche lassen sich jedoch auch schon bei einem Dutzend Studien anwenden.
 
-###### Funnel Plot, Eggers Test
+###### Funnel Plot
 
-(Light & Pillemer, 1984)
+Eine der ältesten Methoden ist der Funnel Plot (Trichter-Diagramm) [@light1984summing]. Dabei werden Präzision und Effektstärke der einzelnen Studien in einem Diagramm dargestellt. Im Idealfall sollten die Punkte das Bild eines Trichters bilden: Je präziser eine Studie ist (zum Beispiel durch eine große Stichprobe), desto eher sollte der dort gemessene Zusammenhang im Mittel liegen. Unpräzisere Studien verschätzen sich unsystematisch, also sie liegen mal drüber und mal drunter. Dadurch, dass nicht signifikante Ergebnisse selten veröffentlicht werden, bildet sich in dem Trichter-Diagramm fast nie ein Trichter, sondern nicht-signifikante Ergebnisse fehlen einfach.
+
+In der folgenden Abbildung ist ein Trichter-Diagramm für eine Studie zum Zusammenhang zwischen Angst vor Mathematik und Leistung in Mathematik. Das Muster ist fast symmetrisch, es liegt also nur ein schwacher Publikationsbias vor. Die kleinen Zusammenhänge am unteren Rand sind etwas nach rechts verzerrt, und die präzisen Effekte ganz oben sind nicht alle gleich groß, sondern variieren stark.
+
+```{r}
+# Funnel plot example
+library(psymetadata)
+ds <- psymetadata::barroso2021
+
+model <- metafor::rma.mv(yi = ds$yi, V = ds$vi, random = ~1 | study_id, data = ds)
+metafor::funnel(model, xlab = "Beobachtete Effektstärke", ylab = "Präzision (Standardfehler)")
+
+```
 
 ###### P-Curve
 
-@Simonsohn.2014; @Simonsohn.2014b; @Simonsohn.2015b
-
-Kritik: @Erdfelder.2019
+Beim P-Hacking werden Daten auf verschiedene Weisen ausgewertet und es wird diejenige berichtet, die einen niedrigen und damit signifikanten P-Wert zur Folge hat. Ergebnisse werden also nicht signifikant, weil die Hypothesen korrekt sind, sondern weil die Daten so lange ausgewertet wurden, bis sie signifikant wurden. Im Kapitel P-Hacking konnten wir sehen, wie P-Werte verteilt sind, je nachdem ob die Hypothese korrekt ist oder nicht. Diese Tatsache macht sich die P-Curve (@Simonsohn.2014; @Simonsohn.2014b; @Simonsohn.2015b) zu Nutzen. P-Werte eines Sets and Studien werden in einem Diagramm abgebildet und ihre Verteilung wird geprüft. Liegt kein P-Hacking vor sind die Werte entweder gleich verteilt (alle P-Werte kommen gleich häufig vor) oder sammeln sich bei 0 (kleinere P-Werte kommen häufiger vor). P-Hacking hat jedoch zur Folge, dass sich die Werte an der 5% Grenze tummeln, denn weiter als bis dort müssen die Daten nicht "gehackt" werden. Die Methode gewann vor allem deshalb an Bekanntheit, weil @Simmons.2017 die Methode auf eines der berühmtesten psychologischen Phänomene, dem Power Posing, angewandt haben und herausfanden, dass dort wahrscheinlich P-Hacking vorlag. Kritiker stellten später weitere Möglichkeiten vor, wie auch ohne P-Hacking eine suspekte P-Curve entstehen kann und das Verfahren wird inzwischen kaum mehr verwendet [@Erdfelder.2019].
 
 ###### Z-Curve
 
-@Bartos.2022b
+Statt P-Werte zu nehmen, können meta-analytische Befunde auch in sogenannte Z-Werte umgerechnet werden. Sie sind normalverteilt und mittels zusätzlicher Algorithmen lässt sich auf Basis von beobachteten Effekten schätzen, wie viele weitere Effekte es geben müsste. Dieses Verfahren namen Z-Curve [@Bartos.2022b] kann also für den File-Drawer Effekt und für P-Hacking korrigieren. Das Ergebnis daraus ist auch eine Schätzung, wie hoch die Replikationsrate wäre, wenn alle analysierten Studien erneut durchgeführt würden. Aktuellen Studien zufolge funktionieren diese Schätzungen ziemlich gut, obgleich sie eine große Menge an Daten benötigen [@Sotola.2022; @Sotola.2023; @roseler2023predicting].
 
 ###### Sensitivitätsanalyse
 
-Schrotflinten-Ansatz: @Kepes.2017; @Korner.2022
-
-###### Weitere Meta-Analytische Korrekturen
-
-@Carter.2019
+Ein Ansatz, welcher nicht nur bei Meta-Analysen sondern bei fast allen statistischen Auswertungen funktioniert, sind sogenannte Sensitivitäts- oder Robustheits-Analysen. Es werden dabei verschiedene Auswertungswege durchgegangen und dabei geprüft, wie stark sie sich auf die Ergebnisse auswerten. Bei Meta-Analysen können zum Beispiel viele mögliche Verfahren gleichzeitig gerechnet werden. Einen solchen Schrotschuss-Ansatz hat @Kepes.2017 geprägt, woraufhin er in anderen Studien übernommen wurde [@Korner.2022]. Einen Überblick über verschiedene Verfahren und unter welchen Bedingungen sie für Daten geeignet sind, bieten @Carter.2019.
 
 ##### Daumenregeln für Beurteilung einzelner Artikel
 
+Eine Meta-Analyse ist aufwändig und kann mehrere Jahre dauern. Selbst Forschende, die keine Mittel für Studentische Hilfskräfte haben, die ihnen beim Codieren und Prüfen von hunderten bis tausenden Studien helfen, haben hier kaum eine Chance, eine ordentliche Analyse durchzuführen. Die folgenden Daumenregeln - und mehr als das sollen sie auch nicht sein - bieten Abkürzungen zur Beurteilung wissenschaftlicher Qualität.
+
 ###### Viele Signifikante Studien
 
-@Lakens.2017b
+Seit einer Vertrauenskrise in der Sozialpsychologie in den 1960er Jahren [@Lakens.2023] werden in Forschungsartikeln seitens vieler Zeitschriften mehrere Studien gefordert. Das hatte zur Folge, dass die Ressourcen statt in eine ordentliche Studie in mehrere kleinere Studien investiert wurden. Die meisten dieser "Multi-Study-Paper" haben dann ausschließlich signifikante Ergebnisse über bis zu 10 Studien hinweg. Während viele Studien mit durchweg signifikanten Ergebnissen auf den ersten Blick beeindruckend aussehen, lösen Sie beim näheren Hinsehen jedoch Skepsis aus: Einzelne Studien haben üblicherweise eine Wahrscheinlichkeit von 80-95%, dass dabei signifikante Ergebnisse bei der zentralen Analyse herauskommen. Diese Wahrscheinlichkeit (Statistische Teststärke oder Power) nimmt ab, wenn man mehrere Studien nacheinander durchführt. Es ist vergleichbar mit einem Schützen, der in 99% der Fälle mit einem Gewehr eine Glasflasche trifft. Die Wahrscheinlichkeit, dass er bei einem Schuss eine Glasflasche trifft ist also 99%. Die Wahrscheinlichkeit, dass er mit 50 Schüssen 50 Glasflaschen trifft ist weniger, nämlich 99%\^50 (hoch fünfzig) = 60,5%. Bei wissenschaftlichen Studien kommt es auf ähnliche Weise zu einer "Power-Deflation". Die Wahrscheinlichkeit, 4 signifikante Studien mit jeweils 80% Power durchzuführen, ist 40,96%. Dann eine genau solche Studie zu veröffentlichen ist extrem unwahrscheinlich [@Lakens.2017b].
 
-###### Toolbox
+### Prüfung auf Reproduzierbarkeit
 
-@Adler.2023
+Wird ein Befund mit denselben Daten und idealerweise demselben Programm bzw. Analysecode erneut getestet und geprüft, ob dieselben Zahlen dabei rauskommen - also nicht nur, ob die Hypothese erneut bestätigt wird - dann handelt es sich um eine Reproduktion der Ergebnisse. Im Gegensatz zu einer Replikation werden also keine neuen Daten erhoben. Dass Ergebnisse reproduzierbar sind, sollte das absolute Minimum für wissenschaftliche Berichte sein, ist es jedoch noch längst nicht.
 
-### Prüfugn auf Reproduzierbarkeit
+::: callout-important
+## Begriffs-Wirrwarr
 
--          Meta-Psychology
+Während der Begriff *Replikation* in den Wirtschaftswissenschaften sowohl die Prüfung einer vorliegenden Studie mit neuen Daten, als auch die erneute Prüfung mit denselben Daten meint, wird für letzteres in der Psychologie *Reproduktion* verwendet. In der biologischen Forschung über Fortpflanzung, der Reproduktionsforschung, wird außerdem auf Reproduzierbarkeit ausgewichen. In wieder anderen Fällen wie der @OpenScienceCollaboration.2015 wird bei Replikationen (neue Daten) von "Reproducibility" gesprochen und wiederholte Tests mit denselben Daten werden "komputationale Reproduzierbarkeit" (computational reproducibility) genannt. Zuletzt verschwimmen in manchen Bereichen die Grenzen, wenn zum Beispiel bei einer Replikation der Befunde der Pisa Studie teilweise dieselben Daten und teilweise neue verwendet werden oder wenn die Daten computergeneriert sind und dasselbe Programm fähig ist mittels Pseudozufallszahlengenerator andere Daten zu generieren, die aber dieselbe Struktur haben.
+:::
 
-o   Societies: Besteht auf Reproducibility: <https://doi.org/10.15626/MP.2023.4020>
+Seit wenigen Jahren führt die Zeitschrift Meta-Psychology als eine der ersten für alle veröffentlichten Artikel Reproduzierbarkeits-Prüfungen durch. Diese werden durch Forschende freiwillig oder im Rahmen ihrer Tätigkeit bei der Zeitschrift durchgeführt. Während diese Praxis bereits für andere Zeitschriften gefordert wurde [@lindsay2023plea], ist es jedoch noch immer die Ausnahme. Reproduktionschecks aller möglicher Disziplinen können bei Rescience veröffentlicht werden (<http://rescience.github.io>). Für das Jahr 2024 hat das Institute for Replications angekündigt, Studien aus der Zeitschrift Nature Human Behavior zu reproduzieren [@noauthor_2024-ta]. Nature Human Behavior ist eine der angesehensten Zeitschriften bei der Erforschung menschlichen Verhaltens, wobei angesehen nicht mit wissenschaftlicher Qualität gleichzusetzen ist. Sie wird vom Springer Verlag verwaltet und fordert mit Publikationskosten in Höhe von circa 9000€ pro Artikel die höchste Gebühr. Die strategische Entscheidung, sich auf die dortigen Artikel zu konzentrieren hat den Vorteil, dass Personen, die die Reproduzierbarkeits-Checks durchführen, diese eventuell dort veröffentlichen können und dass Reproduktionen große Aufmerksamkeit erfahren. Angesichts des Qualitätsanspruches solcher Zeitschriften an ihre Qualität und der Tatsache, dass kostenlose Zeitschriften wie Meta-Psychology die Prozedur ohne externe Hilfe durch das Institute for Replication durchführen können, bildet sich hier wieder das bekannte Bild ab, bei dem Verlage ihr Prestige dafür missbrauchen, kostenlose und profit-generierende Arbeit aus der Wissenschaft zu ziehen. Am Ende ist es wieder nicht die Zeitschrift selbst, die zur wissenschaftlichen Qualitätssicherung beiträgt, sondern das Institute for Replication.
 
--          Statcheck
+Eine Abkürzung bei der Prüfung von Korrektheit, welche bei vielen Zeitschriften verwendet wird, ist das Programm [statcheck](statcheck.io). Es erkennt automatisch klassische statistische Tests und prüft auf Basis der berichteten Werte, ob diese konsistent sind. @hartgerink2016688 hat Ergebnisse aus über 50.000 Artikeln mit dem Programm geprüft und die Artikel mittels Pubpeer kommentieren lassen. Weil der Algorithmus in seltenen Fällen - wie in den Kommentaren offen dargelegt - fälschlicherweise Werte als fehlerhaft markiert und die Autor\*innen der Artikel zuvor nicht vor den Kommentaren gewarnt wurden, hat die [DGPs das Vorgehen verurteilt](https://www.dgps.de/schwerpunkte/stellungnahmen-und-empfehlungen/stellungnahmen/details/stellungnahme-des-dgps-vorstands-zur-praxis-der-automatischen-plausibilitaetsueberpruefung-wissenschaftlicher-arbeiten-mit-statcheck/). Die Antworten der Statcheck-Gruppe und von Christ Hartgerink sind nicht mehr verfügbar.
 
-o   <https://www.mdpi.com/2306-5729/1/3/14>
+::: callout-note
+## Reproduktion auf Knopfdruck
 
-o   M nuijten paper
+Mit sogenannten *Push-Button-Replications* ist gemeint, dass Ergebnisse ohne großen Aufwand und von allen Forschenden nachgerechnet werden können - auf Knopfdruck eben. Während sozialwissenschaftliche Zeitschriften mehr und mehr fordern, Daten und Analysecode so zu veröffentlichen, dass die Ergebnisse nachgerechnet werden, verkörpert die Zeitschrift Image Processing Online (IPOL, https://www.ipol.im) das Ideal dieses Vorgehen: Zu jedem dort veröffentlichten Artikel ist eine Demo verfügbar, bei der nach Auswahl eines Bildes, der in dem Artikel veröffentlichte Algorithmus live durchgeführt wird.
+:::
 
--          <https://osf.io/mydzv/>
+#### Großangelegte Reproduktionsprojekte
 
--          Guidelines: https://docs.google.com/document/d/1p7GeOpwzQyTuzAWsD1w3zql2dS6mFgEhdf38Lc3uXC4/edit#heading=h.gjdgxs
+In verschiedenen Forschungsdisziplinen gibt es großangelegte Projekte, Reproduzierbarkeit für vollständige Disziplinen zu schätzen. Ein Pionier auf dem Gebiet war das ReplicationWiki von Höffler (https://replication.uni-goettingen.de/). Nachfolgende Projekte wie das Replication Network (replicationnetwork3.wordpress.com) stützten sich weitesgehend auf die dort zusammengefassten Daten. Für die Wirtschaftswissenschaften berichteten @brodeur2024mass eine Reproduzierbarkeitsrate von 70% und in den Management Sciences bei 55% [@fivsar2024reproducibility]. Mit dem Insitute for Replication (I4R) überschneidet sich außerdem die Social Science Reproduction Platform des Berkley Initiative for Transparency in the Social Sciences (BITSS); https://www.bitss.org/resources/social-science-reproduction-platform/). Während das I4R voraussichtlich 2024 eine Datenbank mit allen Ergebnissen veröffentlicht, ist die Plattform der BITSS bereits verfügbar.
 
--          Container / Capsules
+#### Open Code
 
--          Journal für Computational Reproducibility: <http://rescience.github.io>
-
--          Übergreifendes Gebiet: **Research Software Engineering** (RSE)
-
-o   <https://arxiv.org/pdf/1609.00037.pdf>
-
--          Großangelegte Reproduktionsprojekte
-
-o   Vor allem zwei Projekte, beteiligte Personen überschneiden sich, sind aber unabhängig
-
-o   Verwenden ordinalen Reproducibility Score
-
-§  Erklärung <https://bitss.github.io/ACRE/assessment.html#levels-of-computational-reproducibility-for-a-specific-display-item>
-
-o   Social Science Reproduction Platform, <https://www.socialsciencereproduction.org/metrics>
-
-§  Leitfaden für Durchführung von Reproduktionen: <https://www.socialsciencereproduction.org/metrics>
-
-o   Institute for Replication (I4R)
-
-§  Eigene Datenbank
-
-§  Internationale Events „Replication Games"
-
-§  Vor allem Ökonomie und Politikwissenschaften <https://journals.sagepub.com/doi/10.1177/20531680241233439>
-
-§  Ergebnisse von 110 Reproduktionen „Mass reproducibility and replicability: a new hope" <https://econpapers.repec.org/paper/zbwi4rdps/>
-
-o   Open Code wird seitens Zeitschriften und zukünftig eventuell auch für den Abschluss von Datennutzungsverträgen mit Panels nötig (SOEP hat zB nur 20% open code, <https://www.wifa.uni-leipzig.de/fileadmin/Fakultät_Wifa/Institut_für_Theoretische_Volkswirtschaftslehre/Professur_Makroökonomik/Economics_Research_Seminar/ERS-Paper_Marcus.pdf>)
-
-Empfehlungen einer Zeitschrift für "push-button-replications" (reproduzierbarkeit): https://www.3ieimpact.org/blogs/whats-deal-push-button-replications
+Öffentlich verfügbare Daten und Code sind notwendig für Reproduktions- und Robustheits-Checks. Zeitschriften stehen hier zwischen der Entscheidung, Einreichungen schwieriger und sich selbst damit weniger attraktiv zu machen, indem sie höhere Anforderungen stellen, und die wissenschaftliche Qualitätssicherung zu fördern. Ein ähnliches Problem herrscht auch bei Betreibern von Panels, in denen regelmäßig große Befragungen oder Leistungstest, wie zum Beispiel die PISA Studie oder das Sozio-Ökonomische-Panel (SOEP). Bei Analysen der SOEP-Daten wird der Code nur in 20% der Fälle geteilt (<https://www.wifa.uni-leipzig.de/fileadmin/Fakultät_Wifa/Institut_für_Theoretische_Volkswirtschaftslehre/Professur_Makroökonomik/Economics_Research_Seminar/ERS-Paper_Marcus.pdf>)
 
 ### Robustness checks
 
@@ -438,5 +420,11 @@ Viele der Entwicklungen lassen sich als „langsame Wissenschaft" (oder engl. Sl
 ### Weiterführende Informationen
 
 -   @kepes2023assessing haben einen Anfänger-Leitfaden für die Einschätzung von Publikationsbias entwickelt.
+
+-   @harrer2021doing haben ein kostenlos verfügbares Buch zur Durchführung von Meta-Analysen geschrieben: https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/
+
+-   @Adler.2023 haben verschiedene Tools zur heuristischen Beurteilung von Vertrauenswürdigkeit wissenschaftlicher Befunde gesammelt. Auf https://mktg.shinyapps.io/Toolbox_App/ können Forschende Daten eingeben und die verschiedenen Verfahren durchführen.
+
+-   @wilson2017good sammeln Empfehlungen, denen alle Forschenden für das Sicherstellen von Reproduzierbarkeit nachkommen sollten.
 
 ### Literatur
