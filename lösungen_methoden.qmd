@@ -6,75 +6,49 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
-In der Wissenschaft gibt es nicht *die eine Methode* [@Feyerabend.19752002], sondern Methoden werden für Probleme entwickelt, Probleme gelöst und Methoden weiterentwickelt oder fallen gelassen. Mit Open Science Reformen kommen unzählige Methodische Neuerungen, Verbesserungen, und Vorschläge, die für Forschende häufig überwältigend sind: Forschung durchführen, Lehre machen, Drittmittel einwerben, und jetzt auch noch Open Science? Was dabei vielen entgeht ist, dass
+In der Wissenschaft gibt es nicht *die eine Methode* [@Feyerabend.19752002], sondern Methoden werden für Probleme entwickelt, Probleme gelöst und Methoden weiterentwickelt oder fallen gelassen. Methoden sind also wie Werkzeuge, und nicht alles lässt sich mit einem Schraubendreher zusammenbauen. Mit Open Science Reformen kommen unzählige Methodische Neuerungen, Verbesserungen, und Vorschläge, die für Forschende häufig überwältigend sind: Forschungsprojekte voranbringen, Seminare und Vorlesungen halten, Drittmittel einwerben, und jetzt auch noch Open Science? Während viele Probleme auf eine unzureichende Methodenausbildung zurückgeführt werden [@lakens2021practical], die Forschende zu ihrer eigenen Last nachholen müssen, erleichtern einige Methoden die Arbeit. Für Promovierende wurde in der biologischen Psychologie beispielsweise der Wegweise ARIADNE entwickelt (https://igor-biodgps.github.io/ARIADNE/graph/graph.html). Dieses Kapitel bietet einen Überblick über methodische Entwicklungen und Diskussionen in den Sozialwissenschaften und Disziplinen, die vorrangig mit statistischen Methoden arbeiten.
 
-Große Menge an Lösungsvorschlägen, für einzelne Forschende oft überwältigend
+#### Meta-Analysen
 
-Wegweise:
+Unter Meta-Analysen werden Studien über Studien verstanden. Dabei extrahieren Forschende üblicherweise Ergebnisse aus bereits veröffentlichten Studien, schreiben andere Forschende aus einem Feld an und fragen nach unveröffentlichten Studien, und analysieren mit statistischen Methoden die Gemeinsamkeiten und Unterschiede zwischen den Ergebnissen. @fletcher2022replication argumentiert, dass nur mithilfe von Meta-Analysen die Allgemeingültigkeit von (statistischen) Phänomenen nachgewiesen werden kann. Angesichts verheerender Publikationsbiases ist das allerdings aktuell nicht möglich. Wie Meta-Analysen dennoch informativ sein können, empfehlen @carlsson2024beginner allgemein und liste ich im Folgenden für spezifische Probleme auf.
 
--          Ariadne
+##### Publikationsbias und P-Hacking einschätzen
 
--          Kumu Access2perspectives <https://kumu.io/access2perspectives/open-science#disciplines/>
+Bei Meta-Analysen gilt: "Garbage in, garbage out". Wer viele schlecht durchgeführte Studien in einer Meta-Analyse zusammenfasst, erhält eine schlechte Zusammenfassung. Das hatte beispielsweise zur Folge, dass @Hagger.2010 ihrer Meta-Analyse einen deutlichen Effekt für ein Modell über die Willensstärke finden konnten, nachfolgende, groß angelegte Replikationsversuche und Analysen jedoch alle scheiterten, einen ebenso großen Effekt zu finden [@Hagger.2016b; @Friese.2018; @Dang.2020; @vohs2021multisite]. Was trotzdem möglich ist und auch in jeder Meta-Analyse getan werden sollte, ist eine Einschätzung der Datenqualität, beispielsweise der Stärke des Publikationsbiases. Dabei gibt es Methoden, die prüfen, ob es nicht veröffentlichte Studien gibt, und Methoden, die für die potenziell fehlenden Studien korrigieren. Teilweise funktionieren diese erst bei über 200 Studien, manche lassen sich jedoch auch schon bei einem Dutzend Studien anwenden.
 
-#### Meta-Analyses und Reviews
+###### Funnel Plot, Eggers Test
 
--          use meta-analysis for replication studies <https://www.researchgate.net/publication/360848749_Replication_Is_for_Meta-Analysis>
+(Light & Pillemer, 1984)
 
--          Ricthlinien im Hinblick auf neue Standards: <https://osf.io/preprints/psyarxiv/59vsw>
+###### P-Curve
 
-##### Assessing publication bias
+@Simonsohn.2014; @Simonsohn.2014b; @Simonsohn.2015b
 
--          [https://www.researchgate.net/publication/363583595_Assessing_Publication_Bias_a_7-Step_User's_Guide_with_Best-Practice_Recommendations](https://www.researchgate.net/publication/363583595_Assessing_Publication_Bias_a_7-Step_User's_Guide_with_Best-Practice_Recommendations)
+Kritik: @Erdfelder.2019
 
--          Toolbox: <https://www.sciencedirect.com/science/article/abs/pii/S0148296323005489>
+###### Z-Curve
 
--          z-curve und z-curve validation preprint
+@Bartos.2022b
 
--          Test for excess significance (Ioannidis & Trikalinos, 2007)
+###### Sensitivitätsanalyse
 
--          Incredibility Index (Schimmack, 2012)
+Schrotflinten-Ansatz: @Kepes.2017; @Korner.2022
 
--          Funnel plot (Light & Pillemer, 1984)
+###### Weitere Meta-Analytische Korrekturen
 
--          P-curve (Simonsohn, Nelson, & Simmons, 2014)
+@Carter.2019
 
--          Z-Curve (Bartos & Schimmack, 2020)
+##### Daumenregeln für Beurteilung einzelner Artikel
 
--          Sensitivitätsbatterie (bushman kepes röseler körner)
+###### Viele Signifikante Studien
 
--          RoBMA bayesian <https://onlinelibrary.wiley.com/doi/full/10.1002/jrsm.1594>
+@Lakens.2017b
 
--          Cumulative science
+###### Toolbox
 
-o   Machine readable manuscripts
+@Adler.2023
 
-o   Reporting templates (e.g., Brandt et al., 2014, replication recipe post completion registration on OSF, REF successes and failures)
-
-o   Dynamic meta analyses
-
-§  Bodypositions,
-
-§  OpAQ Community Augmented:
-
-§  metalab.stanford,
-
-§  metabus,
-
-§  soles, ...
-
-§  Replication database
-
-§  ReproSci <https://reprosci.epfl.ch>
-
-§  <https://portlandpress.com/clinsci/article/137/10/773/233083/Systematic-online-living-evidence-summaries>
-
-§  metaUI r Paket
-
-o   Multiverse analyses
-
-o    
-
-### Reproducibility Checks / Reproduzierbarkeit
+### Prüfugn auf Reproduzierbarkeit
 
 -          Meta-Psychology
 
@@ -384,13 +358,13 @@ o   Gigerenzer P-Value unwissen
 
 -          Effektstärken statt p-Werte
 
-o   Equivalence testing
+o   Equivalence testing @Lakens.2017; @Lakens.2018
 
 o   Rölle von kleinen Effekten: <https://journals.sagepub.com/doi/full/10.1177/17456916221100420>
 
 o   practical relevance of small effect sizes <https://www.researchgate.net/publication/352412241_Evaluating_the_practical_relevance_of_observed_effect_sizes_in_psychological_research>
 
-o   effect sizes guide
+o   effect sizes guide jane guide to effect sizes and confidence intervals
 
 o    
 
@@ -434,21 +408,14 @@ o   Berichte von Opfern von Vergewaltigungen à müssen anonymisiert werden, e
 
 -          Alternative zu Clarivate Analytics Web of Science Literaturdatenbank: <https://openalex.org> https://arxiv.org/abs/2205.01833
 
-|     |                                   |     |                               |     |                                 |     |
-|----------|-------------|----------|-----------|----------|------------|----------|
-|     |                                   |     |                               |     |                                 |     |
-|     | **Infrastruktur**                 |     | **Kommerzielle Software**     |     | **Open Source Software**        |     |
-|     |                                   |     |                               |     |                                 |     |
-|     | Literaturdatenbank                |     |                               |     | <https://openalex.org>          |     |
-|     |                                   |     |                               |     |                                 |     |
-|     | Literaturverwaltung               |     | Citavi, Mendeley              |     | Zotero                          |     |
-|     |                                   |     |                               |     |                                 |     |
-|     | Datenerhebung                     |     | Unipark, Millisecond Inquisit |     | PsychoPy                        |     |
-|     |                                   |     |                               |     |                                 |     |
-|     | Datenanalyse                      |     | IBM SPSS, Stata               |     | GNU R, Python, Jupyter Notebook |     |
-|     |                                   |     |                               |     |                                 |     |
-|     | Begutachtung und Veröffentlichung |     | Editorial Manager             |     | Open Journal System             |     |
-|     |                                   |     |                               |     |                                 |     |
+|                                   |                               |                                 |
+|---------------------------|--------------------------|-----------------------|
+| **Infrastruktur**                 | **Kommerzielle Software**     | **Open Source Software**        |
+| Literaturdatenbank                | SCOPUS                        | <https://openalex.org>          |
+| Literaturverwaltung               | Citavi, Mendeley              | Zotero                          |
+| Datenerhebung                     | Unipark, Millisecond Inquisit | PsychoPy                        |
+| Datenanalyse                      | IBM SPSS, Stata               | GNU R, Python, Jupyter Notebook |
+| Begutachtung und Veröffentlichung | Editorial Manager             | Open Journal System             |
 
 ### Slow Science
 
@@ -467,5 +434,9 @@ Viele der Entwicklungen lassen sich als „langsame Wissenschaft" (oder engl. Sl
  [\[LR4\]](#_msoanchor_4)<https://www.researchgate.net/publication/377965519_Freeing_social_and_medical_scientists_from_the_replication_crisis>
 
  [\[LR5\]](#_msoanchor_5)https://arxiv.org/abs/2402.05519#:\~:text=Practical%20implications%3A%20Overall%2C%20ChatGPT%20does,steps%20to%20control%20its%20use.
+
+### Weiterführende Informationen
+
+-   @kepes2023assessing haben einen Anfänger-Leitfaden für die Einschätzung von Publikationsbias entwickelt.
 
 ### Literatur
