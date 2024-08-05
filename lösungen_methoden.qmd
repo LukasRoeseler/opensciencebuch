@@ -416,7 +416,7 @@ o   Rölle von kleinen Effekten: <https://journals.sagepub.com/doi/full/10.117
 o   practical relevance of small effect sizes <https://www.researchgate.net/publication/352412241_Evaluating_the_practical_relevance_of_observed_effect_sizes_in_psychological_research>
 
 <<<<<<< HEAD
-o   effect sizes guide jane guide to effect sizes and confidence intervals @jané2024
+o   effect sizes guide jane guide to effect sizes and confidence intervals @jane2024
 =======
 o   effect sizes guide jane guide to effect sizes and confidence intervals
 >>>>>>> fafde0efa311638f4b2cb750dea40208e22560f3
