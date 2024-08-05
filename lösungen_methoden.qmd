@@ -10,17 +10,12 @@ In der Wissenschaft gibt es nicht *die eine Methode* [@Feyerabend.19752002], son
 
 #### Meta-Analysen
 
-<<<<<<< HEAD
 Unter Meta-Analysen werden Studien über Studien verstanden. Dabei extrahieren Forschende üblicherweise Ergebnisse aus bereits veröffentlichten Studien, schreiben andere Forschende aus einem Feld an und fragen nach unveröffentlichten Studien, und analysieren mit statistischen Methoden die Gemeinsamkeiten und Unterschiede zwischen den Ergebnissen. @fletcher2022replication argumentiert, dass nur mithilfe von Meta-Analysen die Allgemeingültigkeit von (statistischen) Phänomenen nachgewiesen werden kann. Im Idealfall könnten alle so weitermachen wie bisher und meta-analytische Modelle würden die Probleme korrigieren. Angesichts verheerender Publikationsbiases ist das allerdings aktuell nicht möglich. Wie Meta-Analysen dennoch informativ sein können, empfehlen @carlsson2024beginner allgemein und liste ich im Folgenden für spezifische Probleme auf.
-=======
-Unter Meta-Analysen werden Studien über Studien verstanden. Dabei extrahieren Forschende üblicherweise Ergebnisse aus bereits veröffentlichten Studien, schreiben andere Forschende aus einem Feld an und fragen nach unveröffentlichten Studien, und analysieren mit statistischen Methoden die Gemeinsamkeiten und Unterschiede zwischen den Ergebnissen. @fletcher2022replication argumentiert, dass nur mithilfe von Meta-Analysen die Allgemeingültigkeit von (statistischen) Phänomenen nachgewiesen werden kann. Angesichts verheerender Publikationsbiases ist das allerdings aktuell nicht möglich. Wie Meta-Analysen dennoch informativ sein können, empfehlen @carlsson2024beginner allgemein und liste ich im Folgenden für spezifische Probleme auf.
->>>>>>> fafde0efa311638f4b2cb750dea40208e22560f3
 
 ##### Publikationsbias und P-Hacking einschätzen
 
 Bei Meta-Analysen gilt: "Garbage in, garbage out". Wer viele schlecht durchgeführte Studien in einer Meta-Analyse zusammenfasst, erhält eine schlechte Zusammenfassung. Das hatte beispielsweise zur Folge, dass @Hagger.2010 ihrer Meta-Analyse einen deutlichen Effekt für ein Modell über die Willensstärke finden konnten, nachfolgende, groß angelegte Replikationsversuche und Analysen jedoch alle scheiterten, einen ebenso großen Effekt zu finden [@Hagger.2016b; @Friese.2018; @Dang.2020; @vohs2021multisite]. Was trotzdem möglich ist und auch in jeder Meta-Analyse getan werden sollte, ist eine Einschätzung der Datenqualität, beispielsweise der Stärke des Publikationsbiases. Dabei gibt es Methoden, die prüfen, ob es nicht veröffentlichte Studien gibt, und Methoden, die für die potenziell fehlenden Studien korrigieren. Teilweise funktionieren diese erst bei über 200 Studien, manche lassen sich jedoch auch schon bei einem Dutzend Studien anwenden.
 
-<<<<<<< HEAD
 ###### Funnel Plot
 
 Eine der ältesten Methoden ist der Funnel Plot (Trichter-Diagramm) [@light1984summing]. Dabei werden Präzision und Effektstärke der einzelnen Studien in einem Diagramm dargestellt. Im Idealfall sollten die Punkte das Bild eines Trichters bilden: Je präziser eine Studie ist (zum Beispiel durch eine große Stichprobe), desto eher sollte der dort gemessene Zusammenhang im Mittel liegen. Unpräzisere Studien verschätzen sich unsystematisch, also sie liegen mal drüber und mal drunter. Dadurch, dass nicht signifikante Ergebnisse selten veröffentlicht werden, bildet sich in dem Trichter-Diagramm fast nie ein Trichter, sondern nicht-signifikante Ergebnisse fehlen einfach.
@@ -99,41 +94,6 @@ Mit sogenannten *Push-Button-Replications* ist gemeint, dass Ergebnisse ohne gro
 :::
 
 #### Großangelegte Reproduktionsprojekte
-=======
-###### Funnel Plot, Eggers Test
-
-(Light & Pillemer, 1984)
-
-###### P-Curve
-
-@Simonsohn.2014; @Simonsohn.2014b; @Simonsohn.2015b
-
-Kritik: @Erdfelder.2019
-
-###### Z-Curve
-
-@Bartos.2022b
-
-###### Sensitivitätsanalyse
-
-Schrotflinten-Ansatz: @Kepes.2017; @Korner.2022
-
-###### Weitere Meta-Analytische Korrekturen
-
-@Carter.2019
-
-##### Daumenregeln für Beurteilung einzelner Artikel
-
-###### Viele Signifikante Studien
-
-@Lakens.2017b
-
-###### Toolbox
-
-@Adler.2023
-
-### Prüfugn auf Reproduzierbarkeit
->>>>>>> fafde0efa311638f4b2cb750dea40208e22560f3
 
 In verschiedenen Forschungsdisziplinen gibt es großangelegte Projekte, Reproduzierbarkeit für vollständige Disziplinen zu schätzen. Ein Pionier auf dem Gebiet war das ReplicationWiki von Höffler (https://replication.uni-goettingen.de/). Nachfolgende Projekte wie das Replication Network (replicationnetwork3.wordpress.com) stützten sich weitesgehend auf die dort zusammengefassten Daten. Für die Wirtschaftswissenschaften berichteten @brodeur2024mass eine Reproduzierbarkeitsrate von 70% und in den Management Sciences bei 55% [@fivsar2024reproducibility]. Mit dem Insitute for Replication (I4R) überschneidet sich außerdem die Social Science Reproduction Platform des Berkley Initiative for Transparency in the Social Sciences (BITSS); https://www.bitss.org/resources/social-science-reproduction-platform/). Während das I4R voraussichtlich 2024 eine Datenbank mit allen Ergebnissen veröffentlicht, ist die Plattform der BITSS bereits verfügbar.
 
@@ -195,6 +155,7 @@ Während Forschende oft nicht die Expertise oder die Zeit haben, ihre Manuskript
 ### Statistik
 
 Es sind wahrscheinlich alle Forschungsdisziplinen, die Statistik verwenden, von der Replikationskrise betroffen. Ganz im Sinne von "post hoc ergo propter hoc" (danach, also deswegen), wird diese Tatsache häufig so interpretiert, dass das Verwenden statistischer Methoden die Ursache für die Replikationsprobleme ist. Während dagegen argumentiert wird, dass die Methoden nur *falsch* verwendet werden [@Lakens.2021b], schlagen manche Forschende auch Veränderungen oder Alternativen vor. Eine Gruppe 72 von Psycholog\*innen hat beispielsweise gefordert, die Signifikanzgrenze für neue Befunde von 5% auf 0,5% herunterzusetzen [@Benjamin.2018], sodass p-hacking erschwert wird. Andere schlagen vor, das Null Hypothesis Significance Testing (NHST, Null-Hypothesen-Signifikanztesten) komplett zu verbannen und andere Methoden zu verwenden: @Wagenmakers.2007 plädiert für Bayesianische Statistik, und die Zeitschfit Basic and Applied Psychology verbietet die Verwendung von Signifikanztests, was das Problem von falsch-positiven Befunden möglicherweise noch vergrößert hat [@fricker2019assessing].
+
 
 ### Open Data und Open Materials
 
