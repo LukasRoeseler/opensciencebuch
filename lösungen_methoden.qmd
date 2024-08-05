@@ -52,6 +52,25 @@ Eine Meta-Analyse ist aufwändig und kann mehrere Jahre dauern. Selbst Forschend
 
 Seit einer Vertrauenskrise in der Sozialpsychologie in den 1960er Jahren [@Lakens.2023] werden in Forschungsartikeln seitens vieler Zeitschriften mehrere Studien gefordert. Das hatte zur Folge, dass die Ressourcen statt in eine ordentliche Studie in mehrere kleinere Studien investiert wurden. Die meisten dieser "Multi-Study-Paper" haben dann ausschließlich signifikante Ergebnisse über bis zu 10 Studien hinweg. Während viele Studien mit durchweg signifikanten Ergebnissen auf den ersten Blick beeindruckend aussehen, lösen Sie beim näheren Hinsehen jedoch Skepsis aus: Einzelne Studien haben üblicherweise eine Wahrscheinlichkeit von 80-95%, dass dabei signifikante Ergebnisse bei der zentralen Analyse herauskommen. Diese Wahrscheinlichkeit (Statistische Teststärke oder Power) nimmt ab, wenn man mehrere Studien nacheinander durchführt. Es ist vergleichbar mit einem Schützen, der in 99% der Fälle mit einem Gewehr eine Glasflasche trifft. Die Wahrscheinlichkeit, dass er bei einem Schuss eine Glasflasche trifft ist also 99%. Die Wahrscheinlichkeit, dass er mit 50 Schüssen 50 Glasflaschen trifft ist weniger, nämlich 99%\^50 (hoch fünfzig) = 60,5%. Bei wissenschaftlichen Studien kommt es auf ähnliche Weise zu einer "Power-Deflation". Die Wahrscheinlichkeit, 4 signifikante Studien mit jeweils 80% Power durchzuführen, ist 40,96%. Dann eine genau solche Studie zu veröffentlichen ist extrem unwahrscheinlich [@Lakens.2017b].
 
+###### Effektstärken "gerade so signifikant"
+
+Angelehnt an die Logik der P-Curve ist es unwahrscheinlich, dass P-Werte zwischen 1 und 5% liegen. Aufgrund von p-hacking kommt es allerdings häufig vor. Ein P-Wert nahe 5% geht außerdem mit einem Konfidenzintervall der Effektstärke nahe 0 einher (z.B. @jané2024). Angenommen jemand führt zwei Studien zu einem Thema durch und beide haben P-Werte nahe 5% und ungefähr gleich große Versuchspersonen-Anzahlen, dann kommt die Frage auf, weshalb die Stichprobengröße für die spätere Studie nicht erhöht wurde: Auf Basis eines gerade so signifikanten Ergebnisses ist klar, dass man "Glück" hatte, da die statistische Power nicht sonderlich hoch war. Plant man also die Stichprobe für die nächste Studie, sollte man die erste Studie dabei zugrund legen und den Plan anpassen (z.B. @Lakens.2021).
+
+```{r}
+rs <- c(seq(.01, .9, by = .01)) # Korrelationen, für die die Funktion ausgeführt wird
+rsci <- sapply(rs, FUN = function(rs) {psychometric::CIr(r = rs, n = 250)}) # füre Funktion mehrfach aus
+
+rci <- data.frame(t(rsci))
+names(rci) <- c("lcl", "ucl")
+rci$r <- rs
+
+plot(rci$r, rci$r, type = "l", xlab = "Korrelation"
+     , ylab = "Korrelation mit Konfidenzintervall"
+     , main = "Breite von Konfidenzintervallen je nach Korrelationsgröße\nfür N = 250")
+lines(rci$r, rci$ucl, lty = 2)
+lines(rci$r, rci$lcl, lty = 2)
+```
+
 ### Prüfung auf Reproduzierbarkeit
 
 Wird ein Befund mit denselben Daten und idealerweise demselben Programm bzw. Analysecode erneut getestet und geprüft, ob dieselben Zahlen dabei rauskommen - also nicht nur, ob die Hypothese erneut bestätigt wird - dann handelt es sich um eine Reproduktion der Ergebnisse. Im Gegensatz zu einer Replikation werden also keine neuen Daten erhoben. Dass Ergebnisse reproduzierbar sind, sollte das absolute Minimum für wissenschaftliche Berichte sein, ist es jedoch noch längst nicht.
@@ -80,21 +99,57 @@ In verschiedenen Forschungsdisziplinen gibt es großangelegte Projekte, Reproduz
 
 Öffentlich verfügbare Daten und Code sind notwendig für Reproduktions- und Robustheits-Checks. Zeitschriften stehen hier zwischen der Entscheidung, Einreichungen schwieriger und sich selbst damit weniger attraktiv zu machen, indem sie höhere Anforderungen stellen, und die wissenschaftliche Qualitätssicherung zu fördern. Ein ähnliches Problem herrscht auch bei Betreibern von Panels, in denen regelmäßig große Befragungen oder Leistungstest, wie zum Beispiel die PISA Studie oder das Sozio-Ökonomische-Panel (SOEP). Bei Analysen der SOEP-Daten wird der Code nur in 20% der Fälle geteilt (<https://www.wifa.uni-leipzig.de/fileadmin/Fakultät_Wifa/Institut_für_Theoretische_Volkswirtschaftslehre/Professur_Makroökonomik/Economics_Research_Seminar/ERS-Paper_Marcus.pdf>)
 
-### Robustness checks
+### Robustheits-Analysen
 
--          Multiverse analysis <https://www.researchgate.net/publication/367204012_EEGManyPipelines_A_large-scale_grass-root_multi-analyst_study_of_EEG_analysis_practices_in_the_wild>
+Ähnlich wie die Sensitivitäts- oder Robustheitsanalysen lassen sich auch bei einzelnen Studien weitere Wege im "Garden of Forking Paths" gehen. Zur Erinnerung: Der Weg von Daten zu Ergebnissen ist lang und beinhaltet viele verschiedene Entscheidungen. Um zu zeigen, dass das Ergebnis eben nicht von diesen Entscheidungen abhängt, kann gezeigt werden, wie die Ergebnisse aussehen, wenn andere Entscheidungen getroffen werden würden. Der Extremfall dieser Robustheits-Analysen ist die *Multiversum-Analyse.* Hier wird versucht, alle möglichen Entscheidungen gleichzeitig zu treffen. Die daraus resultierenden Ergebnisse werden dann wieder in irgendeiner Form analysiert (z.B. gemittelt) oder dargestellt [@jacobsen2024preprocessing]. Eine weitere Möglichkeit ist die der *Multi-Analyst-Study*. Dabei geht es um die Abhängigkeit der Ergebnisse von den Entscheidungen verschiedener Forschenden und viele Personen analysieren die Daten unabhängig voneinander. Es wird schließlich geprüft, wie stark die Ergebnisse zwischen den Forschenden übereinstimmen.
 
-#### Markdown Documents
+In der folgenden Abbildung wurde für einen festen Datensatz (Fantasiedaten) verschiedene Analysemethoden verwendet. Dabei wurden verschiedene Typen von Korrelationen, verschiedene Stichprobenumfänge, und verschiedene Hypothesen verwendet. Das Ergebnis ändert sich dabei jedes mal ein bisschen, sodass der Wert zwischen 0,20 und 0,35 liegt, die positive (und signifikante) Korrelation bleibt aber erhalten.
 
--   
+```{r}
+library(MASS) # Paket laden
 
--   Computational Reproducibility Pilot Project: <https://psyarxiv.com/k8d4u/> \| HIER AUCH DISKUTIERT ALS SERVICE (könnte ULB machen)
+set.seed(1) # Zufallszahl festlegen, damit Ergebnisse immer identisch sind 
+r_det <- .4 # einprogrammierte Korrelation
+ds <- MASS::mvrnorm(n = 197, mu = c(0,0), Sigma = matrix(c(1, r_det, r_det, 1), ncol = 2, byrow = TRUE))
+ds <- as.data.frame(ds)
+names(ds) <- c("x", "y")
 
--   
 
-interactive multiverse / multiverse analysis
+r <- data.frame("p", "estimate")
 
-Statistik
+for (i in c(nrow(ds), 150)) {
+  for (j in c("two.sided", "greater")) {
+    for (k in c("pearson", "spearman", "kendall")) {
+      for (l in F) {
+        
+        r <- rbind(r, unlist(cor.test(ds$x[1:i], ds$y[1:i], alternative = j, method = k, continuity = l)[3:4]))
+        
+      }
+    }
+  }
+}
+
+r <- r[-1, ]
+names(r) <- c("p", "estimate")
+plot(1:nrow(r), r$estimate
+     , pch = 20
+     # , col = ifelse(as.numeric(r$p) < .05, "red", "blue")
+     , ylim = c(0, r_det+.2)
+     , xaxt = 'n'
+     , ylab = "Korrelation"
+     , xlab = ""
+     , bty = "l"
+     )
+abline(0,0)
+```
+
+####  Reproduzierbare Manuskripte
+
+In der online-Version dieses Buches gibt es die Möglichkeit, vor Abbildungen einen Code anzeigen zu lassen. Mit diesem Code lässt sich die Abbildungen ganz einfach rekonstruieren bzw. reproduzieren. Auch Forschungsartikel können auf diese Weise geschrieben werden. Text, Programmiercode, sowie Ergebnisse als Zahlen, Tabellen, und Diagramme werden in einem einzelnen Programm geschrieben und Forschende ersparen sich das Kopieren oder Abtippen von Zahlen. Das Nachrechnen von Ergebnissen wird außerdem stark vereinfacht. Programmiersprachen basieren auf der sogenannten Markdown Sprache und in Programmen können unzählige weitere Programmiersprachen eingebettet sein.
+
+Während Forschende oft nicht die Expertise oder die Zeit haben, ihre Manuskripte reproduzierbar zu gestalten, gibt es bereits Pilotprojekte \[@baker2023reproduceme\] und Zeitschriften [@Carlsson.2017], die Forschende unterstützen. In Kombination mit Multiversum-Analysen ist es in Forschungsartikeln im Internet außerdem möglich, den Text so zu erstellen, dass er interaktiv auf alternative Analyse-Entscheidungen reagiert. Leser\*innen können also im Manuskript Entscheidungen treffen und direkt sehen, wie sich die Ergebnisse ändern.
+
+### Statistik
 
 -          Bayesianische Statistik
 
@@ -391,7 +446,7 @@ o   Berichte von Opfern von Vergewaltigungen à müssen anonymisiert werden, e
 -          Alternative zu Clarivate Analytics Web of Science Literaturdatenbank: <https://openalex.org> https://arxiv.org/abs/2205.01833
 
 |                                   |                               |                                 |
-|-----------------------------------|-------------------------------|---------------------------------|
+|--------------------------|-----------------------|------------------------|
 | **Infrastruktur**                 | **Kommerzielle Software**     | **Open Source Software**        |
 | Literaturdatenbank                | SCOPUS                        | <https://openalex.org>          |
 | Literaturverwaltung               | Citavi, Mendeley              | Zotero                          |
