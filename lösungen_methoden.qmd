@@ -55,7 +55,7 @@ Seit einer Vertrauenskrise in der Sozialpsychologie in den 1960er Jahren [@Laken
 
 ###### Effektstärken "gerade so signifikant"
 
-Angelehnt an die Logik der P-Curve ist es unwahrscheinlich, dass P-Werte zwischen 1 und 5% liegen. Aufgrund von p-hacking kommt es allerdings häufig vor. Ein P-Wert nahe 5% geht außerdem mit einem Konfidenzintervall der Effektstärke nahe 0 einher (z.B. @jané2024). Angenommen jemand führt zwei Studien zu einem Thema durch und beide haben P-Werte nahe 5% und ungefähr gleich große Versuchspersonen-Anzahlen, dann kommt die Frage auf, weshalb die Stichprobengröße für die spätere Studie nicht erhöht wurde: Auf Basis eines gerade so signifikanten Ergebnisses ist klar, dass man "Glück" hatte, da die statistische Power nicht sonderlich hoch war. Plant man also die Stichprobe für die nächste Studie, sollte man die erste Studie dabei zugrund legen und den Plan anpassen (z.B. @Lakens.2021).
+Angelehnt an die Logik der P-Curve ist es unwahrscheinlich, dass P-Werte zwischen 1 und 5% liegen. Aufgrund von p-hacking kommt es allerdings häufig vor. Ein P-Wert nahe 5% geht außerdem mit einem Konfidenzintervall der Effektstärke nahe 0 einher (z.B. @jane2024). Angenommen jemand führt zwei Studien zu einem Thema durch und beide haben P-Werte nahe 5% und ungefähr gleich große Versuchspersonen-Anzahlen, dann kommt die Frage auf, weshalb die Stichprobengröße für die spätere Studie nicht erhöht wurde: Auf Basis eines gerade so signifikanten Ergebnisses ist klar, dass man "Glück" hatte, da die statistische Power nicht sonderlich hoch war. Plant man also die Stichprobe für die nächste Studie, sollte man die erste Studie dabei zugrund legen und den Plan anpassen (z.B. @Lakens.2021).
 
 ```{r}
 #| code-fold: true
@@ -158,144 +158,84 @@ Es sind wahrscheinlich alle Forschungsdisziplinen, die Statistik verwenden, von 
 
 ### Open Data und Open Materials
 
--          Abbruch einer Promotion, Wechsel der Institution, usw. können dazu führen, dass wertvolle Zeit & Arbeit verloren gehen; im Extremfall wurden Tiere aufgezogen, operiert, und Forschung kann nicht weitergeführt werden wegen schlechter Dokumentierung
+Durch die häufigen befristeten Verträge und viele Wechsel zwischen Universitäten aber auch durch Abbrüche von Promotionen oder Ausscheiden aus der Wissenschaft durch das Wissenschaftszeitvertragsgesetz müssen Projekte an andere Forschende übergeben werden. Wenn die Forschungsmaterialien und -daten nicht dokumentiert und aufbereitet sind, gehen dadurch Zeit und Arbeit verloren. Im Extremfall wurden in einem Labor Tiere aufgezogen und operiert und die Untersuchung kann nicht weitergeführt werden. Open Data und Materials (Offene \[Forschungs\]Daten und offene \[Forschungs\]Materialien) haben den Zweck, das zu verhindern, gemeinsames Arbeiten zu ermöglichen, und Fehler korrigierbar zu machen. In extremeren Fällen versuchen Forschende, Artikel mit gefälschten Daten zu veröffentlichen. Nur an den Stellen, an denen offen zugängliche Daten verfügbar sind, kann dieser Betrug auffallen [@carlisle2021false].
 
--          Vor Durchführung der Studie sollte klar sein, wie die Daten aussehen werden (Variablen, Bedeutung, Umfang, usw.)
+Zahlreiche Untersuchungen konnten bereits zeigen, dass Daten auch auf Anfrage häufig nicht geteilt werden, und dass sich das im Zuge der Replikationskrise nicht verändert hat[@vanpaemel2015we]. Ob Daten geteilt werden gibt darüber hinaus keinen Aufschluss darüber, ob darin Fehler sind [@claesen2023data]. Mehr und mehr Zeitschriften fodern die Veröffentlichung von Daten (z.B. https://topfactor.org/journals?factor=Data+Transparency), Drittmittelgeber fordern Datenmanagementpläne, Werkzeuge zur automatischen Datenaufbereitung befinden sich in der Entwicklung (https://leibniz-psychology.org/das-institut/drittmittelprojekte/datawiz-ii), und viele Forschungsdaten-Repositorien - also Websites, auf denen Daten hochladbar und auffindbar sind - sind entstanden.
 
--          <https://www.datalad.org>  
+Die wichtigsten Voraussetzungen dafür, dass Forschende Daten teilen können, sind die Zustimmung der Versuchspersonen (falls vorhanden), Anonymisierung falls nötig (z.B. bei Daten über Gesundheit oder politischer Einstellung), und die Rechte an den Daten. Die Zustimmung von Versuchspersonen werden standardmäßig vor Beginn von Untersuchungen erfragt, Anonymisierung geschieht bei der Erhebung oder im Nachhinein (z.B. bei qualitativen Daten mittels [AMNESIA](https://amnesia.openaire.eu)), und die Rechte liegen üblicherweise nur dann nicht vor, wenn die Daten für ein Unternehmen erhoben wurden. Der wohl schwierigste Teil ist die Anonymisierung. @campbell2023open berichten beispielsweise, wie sie Berichte von Überlebenden sexueller Übergriffe mittels eines mehrstufigen Prozesses anonymisiert haben, bei denen Namen, Daten, Orte, Trauma-Historien, und weitere sensible Daten zensiert wurden.
 
-falsifizierte Daten können nur durch Sichtung identifiziert werden https://associationofanaesthetists-publications.onlinelibrary.wiley.com/doi/full/10.1111/anae.15263
+::: callout-note
+## Wo werden Forschungsdaten hochgeladen?
 
--          Myths: <https://www.sortee.org/blog/2024/04/12/2024_open_data_myths/>
+Je nach Fach und Institution werden Forschungsdaten an unterschiedlichen Stellen archiviert. Universitäten haben häufig eigene Services, für die Auffindbarkeit bieten sich aber üblicherweise fachspezifische Repositorien an: Psycholog\*innen nutzen häufig das [Open Science Framework (OSF)](https://osf.io/), [PsychArchives](https://www.psycharchives.org) vom Leibniz-Institut für Psychologie, oder [Researchbox.org](researchbox.org). Für die Wirtschaftswissenschaften bietet das Leibniz-Institut für Sozialwissenschaften mit [GESIS](https://www.gesis.org/datenservices/daten-teilen) verschiedene Hilfen. Mit [LISTER](https://www.nfdi4chem.de/de/lister-halbautomatische-metadatenextraktion-aus-kommentierter-experimentdokumentation-in-elabftw/) wird in der Chemie an Software gearbeitet, mittels derer Daten auf Basis von elektronischen Laborbüchern halbautomatisiert beschrieben werden können. [Re3data](https://www.re3data.org) bietet eine Übersicht über Forschungsdatenrepositorien (z.B. nach Fächern).
 
--          <https://leibniz-psychology.org/das-institut/drittmittelprojekte/datawiz-ii>
+| Fach/Disziplin                    | Repositorium                                          |
+|----------------------------|--------------------------------------------|
+| Psychologie                       | osf.io                                                |
+| Sozialwissenschaften              | data.gesis.org                                        |
+| Politik- und Sozialwissenschaften | icpsr.umich.edu                                       |
+| Lebenswissenschaften              | Pangaea.de                                            |
+| Kunst- und Geistewissenschaften   | de.Dariah.eu                                          |
+| Linguistik                        | Clarin.eu                                             |
+| Biologie                          | gfbio.org                                             |
+| Materialwissenschaften            | nomad-lab.eu                                          |
+| Qualitative Daten                 | [qdr.syr.edu](https://qdr.syr.edu/deposit/data){.uri} |
 
--          originalstudie hierzu,
+: Repositorien für Forschungsdaten
+:::
 
--          Vanpaemel et al., 205,
+::: callout-warning
+## Wo werden Forschungsdaten veröffentlicht?
 
--          und das: <https://www.researchgate.net/publication/370001752_Data_sharing_upon_request_and_statistical_consistency_errors_in_psychology_A_replication_of_Wicherts_Bakker_and_Molenaar_2011>
+Über Repositorien können Forschungsdaten per Mausklick veröffentlicht werden. Wenn weitere Funktionen wie interaktive Analysen oder ein Peer Review gewünscht ist, nutzen Forschende darauf abgestimmte Werkzeuge und Fachzeitschriften. Psychologische Datensätze können beispielsweise im Journal of Open Psychology Data veröffentlicht werden, das R-Paket PsyMetaData [@rodriguez2022psymetadata] enthält Daten aus psychologischen Meta-Analysen, und die Zeitschrift [Inggrid](https://www.inggrid.org) veröffentlicht Daten aus den Ingenieurswissenschaften.
 
--          Repositorien für daten
+Auf dafür erstellten Websites können Forschende bei [MOCODA](https://db.mocoda2.de) auf Daten von Chatverläufen zugreifen, die freiwillig und anonymisiert von Personen geteilt wurden, bei [CODA](https://cooperationdatabank.org) Daten zur menschlichen Kooperation herunterladen, oder bei [OpAQ](https://metaanalyses.shinyapps.io/OpAQ/) Schätzurteile analysieren.
+:::
 
-o   Osf.io
+#### Kriterien für die Aufbereitung Forschungsdaten
 
-o   Psych archives zpid
+Das bloße Hochladen von Forschungsdaten auf eine Website reicht nicht aus, um Forschung transparenter zu machen. Üblicherweise werden die Daten in dem Forschungsartikel, in dem sie verwendet wurden, verlinkt und es wird ein Codebook bereitgestellt, in dem steht, welche Werte was bedeuten.
 
-o   Re3
+Die Tabelle zeigt einen Ausschnitt aus einem Fantasie-Datensatz mit drei Variablen. Üblicherweise enthalten Datensätze viele weitere Daten (z.B. die Abiturnote aufgeteilt in verschiedene Fächer, Demografische Daten wie Alter und Geschlecht, Datum der Befragung, ggf. Variablen mit kryptischen Namen wie "V1_Z01", "V0815"). Hier sind die drei Variablen (also Spalten) "ID", welche eine fortlaufende Zahl ist um verschiedene Versuchspersonen zu kennzeichnen, IQ, mit welchem ein gemessener IQ von einem bestimmten Intelligenztest angegeben wird, und die Abiturnote, die Personen selbst berichten sollten. Das Codebuch enthält diese Informationen.
 
-o   Universitätsspezifische (z.B. datastore der Uni Münster)
+| ID  | IQ  | Abiturnote |
+|-----|-----|------------|
+| 1   | 103 | 2,6        |
+| 2   | 86  | 2,4        |
+| 3   | 112 | 1,8        |
 
-o   Fachspezifische (info auch hier: <https://forschungsdaten.info/themen/veroeffentlichen-und-archivieren/repositorien/>)
+: Beispiel für einen Datensatz
 
-§  Economics & social sciences: data.gesis.org
+##### FAIR und CARE
 
-§  Earth science and life science: Pangaea.de
+Interdisziplinär wurden die FAIR Prinzipien für Forschungsdaten entwickelt. Sie empfehlen, Daten auffindbar (**F**indable), zugänglich (**A**ccessible), von verschiedenen Computern lesbar (**I**nteroperable), und wiederverwendbar (**R**esusable) zu archivieren. @de2016research strukturiert Anforderungen pyramidenförmig mit der Speicherung als Fundament, dem Teilen darüber, und der Qualitätssicherung als Spitze. Laut einem [EU-Bericht](https://publications.europa.eu/resource/cellar/d375368c-1a0a-11e9-8d04-01aa75ed71a1.0001.01/DOC_1) belaufen sich die jährlichen Kosten dafür, dass Daten nicht den FAIR Prinzipien entsprechen, auf 10,2 Milliarden Euro. Disziplin-spezifische Vorlagen, um geteilte Daten FAIR zu machen, werden derzeit vom Center for Open Science entwickelt (www.cos.io/blog/cedar-embeddable-editor).
 
-§  Humanities, cultural studies: de.dariah.eu
+Einen weiteren Schritt gehen die CARE-Prinzipien. Sie wurden für Datenerhebung zu einheimischen Völkern entworfen. Aufbauen auf FAIR fordern sie einen kollektiven Nutzen (**c**ollective benefit) der Daten, beispielsweise durch Verwendbarkeit durch die Gesellschaft wie es bei [Hochwassergefahrenkarten](https://www.flussgebiete.nrw.de/hochwassergefahrenkarten-und-hochwasserrisikokarten) der Fall ist oder durch Bürgerbeteiligung wie bei Münsters "[Coolem Stadtplan](https://beteiligung.nrw.de/portal/muenster/beteiligung/themen/1004355/1007106/1048392)", der Orte, an denen es an heißen Tagen kühl ist, eintragen lässt. Den Personen, die mit den Daten abgebildet werden, muss eine Autorität zur Kontrolle (**a**uthority to control) gegeben werden, das heißt, sie sollen Mitbestimmungsrecht über das Aussehen der Daten haben. Zur Wahrung ihrer Selbstbestimmung sollten Daten außerdem verantwortlich (**r**esponsible) geteilt werden und ihre Rechte und ihr Wohlergehen sollten bei der Forschung im Zentrum stehen (**e**thics). Wenn Nicht-Wissenschaftler\*innen aktiv an der Datenerhebung oder -aufbereitung beteiligt sind, ist die Rede von Citizen Science (Bürger\*innen Wisssenschaft). Beispielsweise können Personen ihre gesammelten Liebesbriefe an das [Liebesbriefarchiv](https://liebesbriefarchiv.de) senden, bei welchem die deutsche Sprache, Umgangsformen, und Kulturwandel umfangreicher als nur mithilfe von einzelnen berühmten Gelehrten erforscht werden kann.
 
-§  Linguistics: [www.clarin.eu](http://www.clarin.eu)
+::: callout-note
+## Forschungsdaten bei Regierungen anfragen
 
-§  Biology: gfbio.org
+Wenn Regierungen Unternehmen beauftragen, Fragestellungen zu beantworten, können Bürger\*innen die Daten dafür anfragen. Für das Vereinigte Königreich gibt es beispielsweise die Platform [WhatDoTheyKnow](https://www.whatdotheyknow.com/request/trial_protocols_behavioural_insi_2), in Deutschland ist das Analog [FragDenStaat](https://fragdenstaat.de). In einer Studie haben @maier2024exploring solche Daten verwendet, um zu prüfen, ob dort Empfehlungen zu Open Science Praktiken berücksichtigt wurden.
+:::
 
-§  Materialwissenschaften: nomad-lab-eu
+#### Sorgen zu Offenen Daten
 
-§  Psychologie: Researchbox.org
+##### Daten-Polizei
 
-o   Coscine <https://about.coscine.de>
+Der Diskurs um Open Science ist hin und wieder sehr aufgeladen: Forschende, die nach Daten fragen oder diese Nutzen um Fehler zu identifizieren, werden als Datenparasiten, Datenpolizei, oder sogar Datenterroristen bezeichnet. Die Aussage, "wer nichts zu verbergen hat, hat auch nichts zu befürchten", hat einen dystopischen Beigeschmack und Forschende machen sich in politisch aufgebrachten Zeiten und im Angesicht von Plagiatsjägern ungern durchsichtig. Es ist in diesem Kontext aber zu Berücksichtigen, dass es bei Wissenschaft nicht um ein eigenbrötlerisches Hobby handelt, sondern um einen Beruf mit gesellschaftlicher Verantwortung. Wer hier etwas verbirgt, sollte zurecht unter Verdacht stehen, keine ordentliche Wissenschaft zu machen. An der Universitäts- und Landesbibliothek Münster stehen passend dazu an der Außenwand die großen roten Buchstaben: "Gehorche keinem". Bilde dir stattdessen deine eigene Meinung, geh in die Werke und die Daten der Forschenden und überzeuge dich selbst von der Wahrheit. Wenn Forschende ihre Daten nicht teilen und Artikel hinter Bezahlschranken veröffentlichen, bedeutet das eine unnötige Erschwerung der unabhängigen Meinungsbildung.
 
-o   Zenodo (interdisziplinär)
+##### Daten-Klau
 
-o   Git
+Daten zu teilen steht oft das Ziel entgegen, anderen Forschenden gegenüber einen Wettbewerbsvorteil zu haben. Das bedeutet, dass Forschende ihre Daten zurückhalten, möglichst viele Artikel auf deren Basis veröffentlichen, und erst wenn dort "nichts mehr zu holen ist", die Daten teilen. Die Sorge ist, dass andere Forschende schneller darin sind, Forschungsartikel auf Basis der Daten zu veröffentlichen. Faktisch werden die Daten schließlich gar nicht veröffentlicht. Bei dieser Sorge ist wichtig, nachzuvollziehen, dass *Daten teilen* nicht *Daten verschenken* bedeutet. Beim Teilen müssen Forschende eine Lizenz angeben, die beispielsweise das Zitieren der Daten vorgibt. Halten sich andere Forschende nicht daran, riskieren sie ihre Karriere. Darüber hinaus ist es einfacher nachzuweisen, wer die Daten ursprünglich erhoben hat, wenn die Person sie frühzeitig veröffentlicht.
 
-o   Open Source Lösungen statt proprietärer Software, <https://www.mkw.nrw/hochschule-und-forschung/digitalisierung-hochschule-und-wissenschaft/forschungsdatenmanagement-fdm> <https://www.nfdi.de>
+##### Zitationszahlen
 
-o   <https://www.researchobject.org/ro-crate/>
-
-o   <https://www.protocols.io>
-
-o   <https://www.icpsr.umich.edu/web/pages/ICPSR/index.html>
-
-o   Für Qualitative Daten: <https://qdr.syr.edu/deposit/data>
-
-Daten automatisch anonymisieren lassen mit [AMNESIA](https://amnesia.openaire.eu/)
-
-#### FAIR Kriterien für Forschungsdaten
-
-o   Pyramid of requirements <https://content.iospress.com/articles/information-services-and-use/isu805>
-
-o   Halbautomatische Extraktion von Meta-Daten <https://www.nfdi4chem.de/de/lister-halbautomatische-metadatenextraktion-aus-kommentierter-experimentdokumentation-in-elabftw/>
-
-o   Datenstruktur: <https://psych-ds.github.io>
-
-o   Fair Aware Tool zum Testen des Wissens zu FAIR <https://fairaware.dans.knaw.nl>
-
-o   Ohne Fair kostet es Europäische Wirtschaft jedes Jahr 10.2 Milliarden Euro <https://publications.europa.eu/resource/cellar/d375368c-1a0a-11e9-8d04-01aa75ed71a1.0001.01/DOC_1>
-
-o   Feld-spezifische Templates für FAIRe daten: <https://www.cos.io/blog/cedar-embeddable-editor?utm_source=linkedin&utm_medium=social>
-
-#### CARE Kriterien für Forschungsdaten
-
-o   Collective benefit: Ergebnisse sind auch von Gesellschaft verwendbar, Bürgerbeteiligung
-
-o   Authority to control:
-
-o   Responsibility: verschiedene Sprachenu und Weltanschauungen werden berücksichtigt
-
-o   Ethics: Wertschätzung
-
-#### Zeitschriften und Datenbanken für Forschungsdaten
-
-Zeitschriften
-
-o   JOPD (psychologie)
-
-o   Ing.grid (ingenieurswissenschaften) <https://www.inggrid.org>
-
-o   Weitere wichtige?
-
-Beispiele für Datenbanken
-
-o   <https://db.mocoda2.de/c/home> Chatverläufe
-
-o   OpAQ Ankereffekte
-
-o   Cooperation database
-
-o   Stanford meta analysis aggregator
-
-o   [http://metabus.org#](http://metabus.org)
-
-o   Listen
-
-§  Aaron Charlton Mktgo.org
-
-§  <https://replications.clearerthinking.org/replications/>
-
--          Teilen von qualitativen Daten, dort ist Anonymisierung relative schwierig: <https://doi.org/10.1177/25152459231205832>
-
--          Data parasites / data police / data terrorists
-
--          Nachfragen: <https://www.whatdotheyknow.com/request/trial_protocols_behavioural_insi_2>
-
--          Mehr Zitate? <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230416>
-
--          Workshop-Unterlagen: <https://j-5chneider.github.io/PTOS-open-data/>
-
--          Infosammlung zu Forschungsdaten: <https://github.com/UB-Mannheim/awesome-RDM>
-
--          Daten auch wertvoll als Gedächtnis der Gesellschaft, soetwas sollte archiviert werden, z.B. <https://liebesbriefarchiv.de>
-
-o   Daten von Personen aus allen Feldern der Gesellschaft (crowdsourced) und öffentlich verfügbar
-
-o   Andere Beispiele für Citizen Science: <https://www.buergerschaffenwissen.de> und <https://wissenschaft-im-dialog.de/mitmachen/>
+Gelegentlich wird für Open Data damit geworben, dass Forschung dadurch mehr Zitate erhält. Das motiviert einige Wissenschaftler\*innen mehr als die gute wissenschaftliche Praxis, ist aber wahrscheinlich nicht [@colavizza2020citation].
 
 ::: callout-note
 ## Was bedeutet Langzeitarchivierung?
 
-Langzeitarchivierung vs. Archivierung
-
-o   1000 Jahre <https://archiveprogram.github.com>
+Drittmittelgeber fordern gelegentlich Langzeitarchivierung. Das bedeutet je nach Kontext, dass die Daten 20 oder 50 Jahre lange gespeichert werden und abrufbar sein müssen. Eine etwas extreme Variante der Langzeitarchivierung wurde mit Daten auf Github.io durchgeführt: Dort wurden alle Daten, die am 02.02.2020 hochgeladen waren, gespeichert und in einer alten Kohlemine in Norwegen gebracht. Dort sollen sie bis zu 1000 Jahre verbleiben können.
 :::
 
 ### Replizierbarkeit erhöhen
@@ -414,7 +354,7 @@ o   Rölle von kleinen Effekten: <https://journals.sagepub.com/doi/full/10.117
 
 o   practical relevance of small effect sizes <https://www.researchgate.net/publication/352412241_Evaluating_the_practical_relevance_of_observed_effect_sizes_in_psychological_research>
 
-o   effect sizes guide jane guide to effect sizes and confidence intervals @jane2024
+o   effect sizes guide jane guide to effect sizes and confidence intervals @jane2024guide
 
 o    
 
@@ -424,13 +364,7 @@ o   Philosophische Diskussion über Nutzen von P-Werten: <https://journals.sag
 
 ### Qualitative Forschung und Open Science
 
--          Pseudonymisierung von Daten ist hier sehr besonders, denn...: [https://doi.org/10.1177/160940692110346](https://doi.org/10.1177/16094069211034641)
-
--          Präregistrierungs-Template: <https://docs.google.com/document/d/16vLoRAs6RmXKy0v1RCx6osSaYk4r64Hgl6S4_KtWbeM/edit#heading=h.fwbi14d4b65g>
-
--          Sharing sensitive qualitative data: <https://www.youtube.com/watch?v=-Pha3EINF3s>
-
-o   Berichte von Opfern von Vergewaltigungen à müssen anonymisiert werden, extrem aufwändig, kann stellvertretene Traumata auslösen
+Bei qualitativer Forschung steht im Vorhinein häufig keine klare Fragestellung fest, sondern sie wird im Forschungsprozess entwickelt. Neben Anonymisierung [@campbell2023open] nimmt daher auch die Präregistrierung eine besondere Rolle ein. Trotzdem gibt es typische Abläufe, bei denen beispielsweise Entscheidungen über die Kodierung von Antworten getroffen werden - und die lassen sich mit dafür vorgesehenen [Templates](https://docs.google.com/document/d/16vLoRAs6RmXKy0v1RCx6osSaYk4r64Hgl6S4_KtWbeM/edit#heading=h.fwbi14d4b65g) präregistrieren.
 
 ### Open Source Software
 
@@ -470,8 +404,13 @@ goodbye author hello contributor
 
 -   @wilson2017good sammeln Empfehlungen, denen alle Forschenden für das Sicherstellen von Reproduzierbarkeit nachkommen sollten.
 
-### Weiterführende Informationen
+<!-- -->
 
 -   @kepes2023assessing haben einen Anfänger-Leitfaden für die Einschätzung von Publikationsbias entwickelt.
+-   <https://www.datalad.org> ist ein kostenloses Programm, das automatisch dokumentiert, wie aus Daten Wissen gewonnen wird.
+-   Typische Mythen offener Daten werden in einem Blog Post von Elina Takola diskutiert: https://www.sortee.org/blog/2024/04/12/2024_open_data_myths/
+-   Mit dem FAIR-Aware Quiz (<https://fairaware.dans.knaw.nl>) können Forschende ihr Wissen zum Teilen von Forschungsdaten testen.
+-   Offene Lehrmaterialien zu FAIR Data werden von [Jürgen Schneider](https://j-5chneider.github.io/PTOS-open-data/) und von der [Universitätsbibliothek Mannheim](https://github.com/UB-Mannheim/awesome-RDM) bereitgestellt
+-   Beispiele für Citizen Science und Möglichkeiten zum Mitmachen sind auf [Buergerschaffenwissen.de](https://www.buergerschaffenwissen.de) und [Wissenschaft-im-Dialog.de](https://wissenschaft-im-dialog.de/mitmachen/).
 
 ### Literatur

@@ -22,7 +22,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-<<<<<<< HEAD
 /* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { line-height: 1.25; }
@@ -57,8 +56,6 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-=======
->>>>>>> fafde0efa311638f4b2cb750dea40208e22560f3
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -315,7 +312,7 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lösungen_system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">bibliographystyle: apa</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Das System</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -353,15 +350,16 @@ div.csl-indent {
    
   <ul>
   <li><a href="#prüfung-auf-reproduzierbarkeit" id="toc-prüfung-auf-reproduzierbarkeit" class="nav-link active" data-scroll-target="#prüfung-auf-reproduzierbarkeit"><span class="header-section-number">15.0.1</span> Prüfung auf Reproduzierbarkeit</a></li>
-  <li><a href="#robustness-checks" id="toc-robustness-checks" class="nav-link" data-scroll-target="#robustness-checks"><span class="header-section-number">15.0.2</span> Robustness checks</a></li>
-  <li><a href="#open-data" id="toc-open-data" class="nav-link" data-scroll-target="#open-data"><span class="header-section-number">15.0.3</span> Open Data</a></li>
-  <li><a href="#replicability" id="toc-replicability" class="nav-link" data-scroll-target="#replicability"><span class="header-section-number">15.0.4</span> Replicability</a></li>
-  <li><a href="#qualitative-forschung-und-open-science" id="toc-qualitative-forschung-und-open-science" class="nav-link" data-scroll-target="#qualitative-forschung-und-open-science"><span class="header-section-number">15.0.5</span> Qualitative Forschung und Open Science</a></li>
-  <li><a href="#open-source-software" id="toc-open-source-software" class="nav-link" data-scroll-target="#open-source-software"><span class="header-section-number">15.0.6</span> Open Source Software</a></li>
-  <li><a href="#slow-science" id="toc-slow-science" class="nav-link" data-scroll-target="#slow-science"><span class="header-section-number">15.0.7</span> Slow Science</a></li>
-  <li><a href="#big-team-science" id="toc-big-team-science" class="nav-link" data-scroll-target="#big-team-science"><span class="header-section-number">15.0.8</span> Big Team Science</a></li>
-  <li><a href="#weiterführende-informationen" id="toc-weiterführende-informationen" class="nav-link" data-scroll-target="#weiterführende-informationen"><span class="header-section-number">15.0.9</span> Weiterführende Informationen</a></li>
-  <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur"><span class="header-section-number">15.0.10</span> Literatur</a></li>
+  <li><a href="#robustheits-analysen" id="toc-robustheits-analysen" class="nav-link" data-scroll-target="#robustheits-analysen"><span class="header-section-number">15.0.2</span> Robustheits-Analysen</a></li>
+  <li><a href="#statistik" id="toc-statistik" class="nav-link" data-scroll-target="#statistik"><span class="header-section-number">15.0.3</span> Statistik</a></li>
+  <li><a href="#open-data-und-open-materials" id="toc-open-data-und-open-materials" class="nav-link" data-scroll-target="#open-data-und-open-materials"><span class="header-section-number">15.0.4</span> Open Data und Open Materials</a></li>
+  <li><a href="#replizierbarkeit-erhöhen" id="toc-replizierbarkeit-erhöhen" class="nav-link" data-scroll-target="#replizierbarkeit-erhöhen"><span class="header-section-number">15.0.5</span> Replizierbarkeit erhöhen</a></li>
+  <li><a href="#qualitative-forschung-und-open-science" id="toc-qualitative-forschung-und-open-science" class="nav-link" data-scroll-target="#qualitative-forschung-und-open-science"><span class="header-section-number">15.0.6</span> Qualitative Forschung und Open Science</a></li>
+  <li><a href="#open-source-software" id="toc-open-source-software" class="nav-link" data-scroll-target="#open-source-software"><span class="header-section-number">15.0.7</span> Open Source Software</a></li>
+  <li><a href="#slow-science" id="toc-slow-science" class="nav-link" data-scroll-target="#slow-science"><span class="header-section-number">15.0.8</span> Slow Science</a></li>
+  <li><a href="#big-team-science" id="toc-big-team-science" class="nav-link" data-scroll-target="#big-team-science"><span class="header-section-number">15.0.9</span> Big Team Science</a></li>
+  <li><a href="#weiterführende-informationen" id="toc-weiterführende-informationen" class="nav-link" data-scroll-target="#weiterführende-informationen"><span class="header-section-number">15.0.10</span> Weiterführende Informationen</a></li>
+  <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur"><span class="header-section-number">15.0.11</span> Literatur</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -387,7 +385,6 @@ div.csl-indent {
 </header>
 
 
-<<<<<<< HEAD
 <p>In der Wissenschaft gibt es nicht <em>die eine Methode</em> <span class="citation" data-cites="Feyerabend.19752002">(<a href="#ref-Feyerabend.19752002" role="doc-biblioref">Feyerabend 1975/2002</a>)</span>, sondern Methoden werden für Probleme entwickelt, Probleme gelöst und Methoden weiterentwickelt oder fallen gelassen. Methoden sind also wie Werkzeuge, und nicht alles lässt sich mit einem Schraubendreher zusammenbauen. Mit Open Science Reformen kommen unzählige Methodische Neuerungen, Verbesserungen, und Vorschläge, die für Forschende häufig überwältigend sind: Forschungsprojekte voranbringen, Seminare und Vorlesungen halten, Drittmittel einwerben, und jetzt auch noch Open Science? Während viele Probleme auf eine unzureichende Methodenausbildung zurückgeführt werden <span class="citation" data-cites="lakens2021practical">(<a href="#ref-lakens2021practical" role="doc-biblioref">Daniel Lakens 2021</a>)</span>, die Forschende zu ihrer eigenen Last nachholen müssen, erleichtern einige Methoden die Arbeit. Für Promovierende wurde in der biologischen Psychologie beispielsweise der Wegweise ARIADNE entwickelt (https://igor-biodgps.github.io/ARIADNE/graph/graph.html). Dieses Kapitel bietet einen Überblick über methodische Entwicklungen und Diskussionen in den Sozialwissenschaften und Disziplinen, die vorrangig mit statistischen Methoden arbeiten.</p>
 <section id="meta-analysen" class="level4" data-number="15.0.0.1">
 <h4 data-number="15.0.0.1" class="anchored" data-anchor-id="meta-analysen"><span class="header-section-number">15.0.0.1</span> Meta-Analysen</h4>
@@ -400,12 +397,15 @@ div.csl-indent {
 <p>Eine der ältesten Methoden ist der Funnel Plot (Trichter-Diagramm) <span class="citation" data-cites="light1984summing">(<a href="#ref-light1984summing" role="doc-biblioref">Light and Pillemer 1984</a>)</span>. Dabei werden Präzision und Effektstärke der einzelnen Studien in einem Diagramm dargestellt. Im Idealfall sollten die Punkte das Bild eines Trichters bilden: Je präziser eine Studie ist (zum Beispiel durch eine große Stichprobe), desto eher sollte der dort gemessene Zusammenhang im Mittel liegen. Unpräzisere Studien verschätzen sich unsystematisch, also sie liegen mal drüber und mal drunter. Dadurch, dass nicht signifikante Ergebnisse selten veröffentlicht werden, bildet sich in dem Trichter-Diagramm fast nie ein Trichter, sondern nicht-signifikante Ergebnisse fehlen einfach.</p>
 <p>In der folgenden Abbildung ist ein Trichter-Diagramm für eine Studie zum Zusammenhang zwischen Angst vor Mathematik und Leistung in Mathematik. Das Muster ist fast symmetrisch, es liegt also nur ein schwacher Publikationsbias vor. Die kleinen Zusammenhänge am unteren Rand sind etwas nach rechts verzerrt, und die präzisen Effekte ganz oben sind nicht alle gleich groß, sondern variieren stark.</p>
 <div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Funnel plot example</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(psymetadata)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>ds <span class="ot">&lt;-</span> psymetadata<span class="sc">::</span>barroso2021</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>model <span class="ot">&lt;-</span> metafor<span class="sc">::</span><span class="fu">rma.mv</span>(<span class="at">yi =</span> ds<span class="sc">$</span>yi, <span class="at">V =</span> ds<span class="sc">$</span>vi, <span class="at">random =</span> <span class="sc">~</span><span class="dv">1</span> <span class="sc">|</span> study_id, <span class="at">data =</span> ds)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>metafor<span class="sc">::</span><span class="fu">funnel</span>(model, <span class="at">xlab =</span> <span class="st">"Beobachtete Effektstärke"</span>, <span class="at">ylab =</span> <span class="st">"Präzision (Standardfehler)"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -426,44 +426,6 @@ div.csl-indent {
 <section id="sensitivitätsanalyse" class="level6" data-number="15.0.0.1.1.4">
 <h6 data-number="15.0.0.1.1.4" class="anchored" data-anchor-id="sensitivitätsanalyse"><span class="header-section-number">15.0.0.1.1.4</span> Sensitivitätsanalyse</h6>
 <p>Ein Ansatz, welcher nicht nur bei Meta-Analysen sondern bei fast allen statistischen Auswertungen funktioniert, sind sogenannte Sensitivitäts- oder Robustheits-Analysen. Es werden dabei verschiedene Auswertungswege durchgegangen und dabei geprüft, wie stark sie sich auf die Ergebnisse auswerten. Bei Meta-Analysen können zum Beispiel viele mögliche Verfahren gleichzeitig gerechnet werden. Einen solchen Schrotschuss-Ansatz hat <span class="citation" data-cites="Kepes.2017">Kepes, Bushman, and Anderson (<a href="#ref-Kepes.2017" role="doc-biblioref">2017</a>)</span> geprägt, woraufhin er in anderen Studien übernommen wurde <span class="citation" data-cites="Korner.2022">(<a href="#ref-Korner.2022" role="doc-biblioref">Körner et al. 2022</a>)</span>. Einen Überblick über verschiedene Verfahren und unter welchen Bedingungen sie für Daten geeignet sind, bieten <span class="citation" data-cites="Carter.2019">Carter et al. (<a href="#ref-Carter.2019" role="doc-biblioref">2019</a>)</span>.</p>
-=======
-<p>In der Wissenschaft gibt es nicht <em>die eine Methode</em> <span class="citation" data-cites="Feyerabend.19752002">(<a href="#ref-Feyerabend.19752002" role="doc-biblioref">Feyerabend 1975/2002</a>)</span>, sondern Methoden werden für Probleme entwickelt, Probleme gelöst und Methoden weiterentwickelt oder fallen gelassen. Mit Open Science Reformen kommen unzählige Methodische Neuerungen, Verbesserungen, und Vorschläge, die für Forschende häufig überwältigend sind: Forschung durchführen, Lehre machen, Drittmittel einwerben, und jetzt auch noch Open Science? Was dabei vielen entgeht ist, dass</p>
-<p>Große Menge an Lösungsvorschlägen, für einzelne Forschende oft überwältigend</p>
-<p>Wegweise:</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ariadne</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kumu Access2perspectives <a href="https://kumu.io/access2perspectives/open-science#disciplines/" class="uri">https://kumu.io/access2perspectives/open-science#disciplines/</a></p>
-<section id="meta-analyses-und-reviews" class="level4" data-number="15.0.0.1">
-<h4 data-number="15.0.0.1" class="anchored" data-anchor-id="meta-analyses-und-reviews"><span class="header-section-number">15.0.0.1</span> Meta-Analyses und Reviews</h4>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; use meta-analysis for replication studies <a href="https://www.researchgate.net/publication/360848749_Replication_Is_for_Meta-Analysis" class="uri">https://www.researchgate.net/publication/360848749_Replication_Is_for_Meta-Analysis</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ricthlinien im Hinblick auf neue Standards: <a href="https://osf.io/preprints/psyarxiv/59vsw" class="uri">https://osf.io/preprints/psyarxiv/59vsw</a></p>
-<section id="assessing-publication-bias" class="level5" data-number="15.0.0.1.1">
-<h5 data-number="15.0.0.1.1" class="anchored" data-anchor-id="assessing-publication-bias"><span class="header-section-number">15.0.0.1.1</span> Assessing publication bias</h5>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.researchgate.net/publication/363583595_Assessing_Publication_Bias_a_7-Step_User's_Guide_with_Best-Practice_Recommendations">https://www.researchgate.net/publication/363583595_Assessing_Publication_Bias_a_7-Step_User’s_Guide_with_Best-Practice_Recommendations</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toolbox: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0148296323005489" class="uri">https://www.sciencedirect.com/science/article/abs/pii/S0148296323005489</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; z-curve und z-curve validation preprint</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Test for excess significance (Ioannidis &amp; Trikalinos, 2007)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Incredibility Index (Schimmack, 2012)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Funnel plot (Light &amp; Pillemer, 1984)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P-curve (Simonsohn, Nelson, &amp; Simmons, 2014)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Z-Curve (Bartos &amp; Schimmack, 2020)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sensitivitätsbatterie (bushman kepes röseler körner)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RoBMA bayesian <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jrsm.1594" class="uri">https://onlinelibrary.wiley.com/doi/full/10.1002/jrsm.1594</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cumulative science</p>
-<p>o&nbsp;&nbsp; Machine readable manuscripts</p>
-<p>o&nbsp;&nbsp; Reporting templates (e.g., Brandt et al., 2014, replication recipe post completion registration on OSF, REF successes and failures)</p>
-<p>o&nbsp;&nbsp; Dynamic meta analyses</p>
-<p>§&nbsp; Bodypositions,</p>
-<p>§&nbsp; OpAQ Community Augmented:</p>
-<p>§&nbsp; metalab.stanford,</p>
-<p>§&nbsp; metabus,</p>
-<p>§&nbsp; soles, …</p>
-<p>§&nbsp; Replication database</p>
-<p>§&nbsp; ReproSci <a href="https://reprosci.epfl.ch" class="uri">https://reprosci.epfl.ch</a></p>
-<p>§&nbsp; <a href="https://portlandpress.com/clinsci/article/137/10/773/233083/Systematic-online-living-evidence-summaries" class="uri">https://portlandpress.com/clinsci/article/137/10/773/233083/Systematic-online-living-evidence-summaries</a></p>
-<p>§&nbsp; metaUI r Paket</p>
-<p>o&nbsp;&nbsp; Multiverse analyses</p>
-<p>o&nbsp;&nbsp; &nbsp;</p>
->>>>>>> fafde0efa311638f4b2cb750dea40208e22560f3
 </section>
 </section>
 <section id="daumenregeln-für-beurteilung-einzelner-artikel" class="level5" data-number="15.0.0.1.2">
@@ -472,6 +434,34 @@ div.csl-indent {
 <section id="viele-signifikante-studien" class="level6" data-number="15.0.0.1.2.1">
 <h6 data-number="15.0.0.1.2.1" class="anchored" data-anchor-id="viele-signifikante-studien"><span class="header-section-number">15.0.0.1.2.1</span> Viele Signifikante Studien</h6>
 <p>Seit einer Vertrauenskrise in der Sozialpsychologie in den 1960er Jahren <span class="citation" data-cites="Lakens.2023">(<a href="#ref-Lakens.2023" role="doc-biblioref">Daniel Lakens 2023</a>)</span> werden in Forschungsartikeln seitens vieler Zeitschriften mehrere Studien gefordert. Das hatte zur Folge, dass die Ressourcen statt in eine ordentliche Studie in mehrere kleinere Studien investiert wurden. Die meisten dieser “Multi-Study-Paper” haben dann ausschließlich signifikante Ergebnisse über bis zu 10 Studien hinweg. Während viele Studien mit durchweg signifikanten Ergebnissen auf den ersten Blick beeindruckend aussehen, lösen Sie beim näheren Hinsehen jedoch Skepsis aus: Einzelne Studien haben üblicherweise eine Wahrscheinlichkeit von 80-95%, dass dabei signifikante Ergebnisse bei der zentralen Analyse herauskommen. Diese Wahrscheinlichkeit (Statistische Teststärke oder Power) nimmt ab, wenn man mehrere Studien nacheinander durchführt. Es ist vergleichbar mit einem Schützen, der in 99% der Fälle mit einem Gewehr eine Glasflasche trifft. Die Wahrscheinlichkeit, dass er bei einem Schuss eine Glasflasche trifft ist also 99%. Die Wahrscheinlichkeit, dass er mit 50 Schüssen 50 Glasflaschen trifft ist weniger, nämlich 99%^50 (hoch fünfzig) = 60,5%. Bei wissenschaftlichen Studien kommt es auf ähnliche Weise zu einer “Power-Deflation”. Die Wahrscheinlichkeit, 4 signifikante Studien mit jeweils 80% Power durchzuführen, ist 40,96%. Dann eine genau solche Studie zu veröffentlichen ist extrem unwahrscheinlich <span class="citation" data-cites="Lakens.2017b">(<a href="#ref-Lakens.2017b" role="doc-biblioref">Daniël Lakens and Etz 2017</a>)</span>.</p>
+</section>
+<section id="effektstärken-gerade-so-signifikant" class="level6" data-number="15.0.0.1.2.2">
+<h6 data-number="15.0.0.1.2.2" class="anchored" data-anchor-id="effektstärken-gerade-so-signifikant"><span class="header-section-number">15.0.0.1.2.2</span> Effektstärken “gerade so signifikant”</h6>
+<p>Angelehnt an die Logik der P-Curve ist es unwahrscheinlich, dass P-Werte zwischen 1 und 5% liegen. Aufgrund von p-hacking kommt es allerdings häufig vor. Ein P-Wert nahe 5% geht außerdem mit einem Konfidenzintervall der Effektstärke nahe 0 einher (z.B. <span class="citation" data-cites="jané2024">(<a href="#ref-jané2024" role="doc-biblioref"><strong>jané2024?</strong></a>)</span>). Angenommen jemand führt zwei Studien zu einem Thema durch und beide haben P-Werte nahe 5% und ungefähr gleich große Versuchspersonen-Anzahlen, dann kommt die Frage auf, weshalb die Stichprobengröße für die spätere Studie nicht erhöht wurde: Auf Basis eines gerade so signifikanten Ergebnisses ist klar, dass man “Glück” hatte, da die statistische Power nicht sonderlich hoch war. Plant man also die Stichprobe für die nächste Studie, sollte man die erste Studie dabei zugrund legen und den Plan anpassen (z.B. <span class="citation" data-cites="Lakens.2021">Daniël Lakens (<a href="#ref-Lakens.2021" role="doc-biblioref">2021a</a>)</span>).</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>rs <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fu">seq</span>(.<span class="dv">01</span>, .<span class="dv">9</span>, <span class="at">by =</span> .<span class="dv">01</span>)) <span class="co"># Korrelationen, für die die Funktion ausgeführt wird</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>rsci <span class="ot">&lt;-</span> <span class="fu">sapply</span>(rs, <span class="at">FUN =</span> <span class="cf">function</span>(rs) {psychometric<span class="sc">::</span><span class="fu">CIr</span>(<span class="at">r =</span> rs, <span class="at">n =</span> <span class="dv">250</span>)}) <span class="co"># füre Funktion mehrfach aus</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>rci <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="fu">t</span>(rsci))</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(rci) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"lcl"</span>, <span class="st">"ucl"</span>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>rci<span class="sc">$</span>r <span class="ot">&lt;-</span> rs</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(rci<span class="sc">$</span>r, rci<span class="sc">$</span>r, <span class="at">type =</span> <span class="st">"l"</span>, <span class="at">xlab =</span> <span class="st">"Korrelation"</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>     , <span class="at">ylab =</span> <span class="st">"Korrelation mit Konfidenzintervall"</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>     , <span class="at">main =</span> <span class="st">"Breite von Konfidenzintervallen je nach Korrelationsgröße</span><span class="sc">\n</span><span class="st">für N = 250"</span>)</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="fu">lines</span>(rci<span class="sc">$</span>r, rci<span class="sc">$</span>ucl, <span class="at">lty =</span> <span class="dv">2</span>)</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="fu">lines</span>(rci<span class="sc">$</span>r, rci<span class="sc">$</span>lcl, <span class="at">lty =</span> <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="lösungen_methoden_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
 </section>
 </section>
@@ -515,95 +505,228 @@ Reproduktion auf Knopfdruck
 <p>Öffentlich verfügbare Daten und Code sind notwendig für Reproduktions- und Robustheits-Checks. Zeitschriften stehen hier zwischen der Entscheidung, Einreichungen schwieriger und sich selbst damit weniger attraktiv zu machen, indem sie höhere Anforderungen stellen, und die wissenschaftliche Qualitätssicherung zu fördern. Ein ähnliches Problem herrscht auch bei Betreibern von Panels, in denen regelmäßig große Befragungen oder Leistungstest, wie zum Beispiel die PISA Studie oder das Sozio-Ökonomische-Panel (SOEP). Bei Analysen der SOEP-Daten wird der Code nur in 20% der Fälle geteilt (<a href="https://www.wifa.uni-leipzig.de/fileadmin/Fakultät_Wifa/Institut_für_Theoretische_Volkswirtschaftslehre/Professur_Makroökonomik/Economics_Research_Seminar/ERS-Paper_Marcus.pdf" class="uri">https://www.wifa.uni-leipzig.de/fileadmin/Fakultät_Wifa/Institut_für_Theoretische_Volkswirtschaftslehre/Professur_Makroökonomik/Economics_Research_Seminar/ERS-Paper_Marcus.pdf</a>)</p>
 </section>
 </section>
-<section id="robustness-checks" class="level3" data-number="15.0.2">
-<h3 data-number="15.0.2" class="anchored" data-anchor-id="robustness-checks"><span class="header-section-number">15.0.2</span> Robustness checks</h3>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Multiverse analysis <a href="https://www.researchgate.net/publication/367204012_EEGManyPipelines_A_large-scale_grass-root_multi-analyst_study_of_EEG_analysis_practices_in_the_wild" class="uri">https://www.researchgate.net/publication/367204012_EEGManyPipelines_A_large-scale_grass-root_multi-analyst_study_of_EEG_analysis_practices_in_the_wild</a></p>
-<section id="markdown-documents" class="level4" data-number="15.0.2.1">
-<h4 data-number="15.0.2.1" class="anchored" data-anchor-id="markdown-documents"><span class="header-section-number">15.0.2.1</span> Markdown Documents</h4>
-<ul>
-<li></li>
-<li><p>Computational Reproducibility Pilot Project: <a href="https://psyarxiv.com/k8d4u/" class="uri">https://psyarxiv.com/k8d4u/</a> | HIER AUCH DISKUTIERT ALS SERVICE (könnte ULB machen)</p></li>
-<li></li>
-</ul>
-<p>interactive multiverse / multiverse analysis</p>
-<p>Statistik</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bayesianische Statistik</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Verbannung von NHST bei Basic and Applied Psychology, bisher mit negativen Auswirkungen, die die Probleme eventuell noch verschärfen (<a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1537892#:~:text=Part%20of%20the%20BASP%20editors,their%20expository%20text%20with%20a" class="uri">https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1537892#:~:text=Part%20of%20the%20BASP%20editors,their%20expository%20text%20with%20a</a>)</p>
-<p>#### Transparency Checklist</p>
+<section id="robustheits-analysen" class="level3" data-number="15.0.2">
+<h3 data-number="15.0.2" class="anchored" data-anchor-id="robustheits-analysen"><span class="header-section-number">15.0.2</span> Robustheits-Analysen</h3>
+<p>Ähnlich wie die Sensitivitäts- oder Robustheitsanalysen lassen sich auch bei einzelnen Studien weitere Wege im “Garden of Forking Paths” gehen. Zur Erinnerung: Der Weg von Daten zu Ergebnissen ist lang und beinhaltet viele verschiedene Entscheidungen. Um zu zeigen, dass das Ergebnis eben nicht von diesen Entscheidungen abhängt, kann gezeigt werden, wie die Ergebnisse aussehen, wenn andere Entscheidungen getroffen werden würden. Der Extremfall dieser Robustheits-Analysen ist die <em>Multiversum-Analyse.</em> Hier wird versucht, alle möglichen Entscheidungen gleichzeitig zu treffen. Die daraus resultierenden Ergebnisse werden dann wieder in irgendeiner Form analysiert (z.B. gemittelt) oder dargestellt <span class="citation" data-cites="jacobsen2024preprocessing">(<a href="#ref-jacobsen2024preprocessing" role="doc-biblioref">Jacobsen et al. 2024</a>)</span>. Eine weitere Möglichkeit ist die der <em>Multi-Analyst-Study</em>. Dabei geht es um die Abhängigkeit der Ergebnisse von den Entscheidungen verschiedener Forschenden und viele Personen analysieren die Daten unabhängig voneinander. Es wird schließlich geprüft, wie stark die Ergebnisse zwischen den Forschenden übereinstimmen.</p>
+<p>In der folgenden Abbildung wurde für einen festen Datensatz (Fantasiedaten) verschiedene Analysemethoden verwendet. Dabei wurden verschiedene Typen von Korrelationen, verschiedene Stichprobenumfänge, und verschiedene Hypothesen verwendet. Das Ergebnis ändert sich dabei jedes mal ein bisschen, sodass der Wert zwischen 0,20 und 0,35 liegt, die positive (und signifikante) Korrelation bleibt aber erhalten.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(MASS) <span class="co"># Paket laden</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1</span>) <span class="co"># Zufallszahl festlegen, damit Ergebnisse immer identisch sind </span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>r_det <span class="ot">&lt;-</span> .<span class="dv">4</span> <span class="co"># einprogrammierte Korrelation</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>ds <span class="ot">&lt;-</span> MASS<span class="sc">::</span><span class="fu">mvrnorm</span>(<span class="at">n =</span> <span class="dv">197</span>, <span class="at">mu =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">0</span>), <span class="at">Sigma =</span> <span class="fu">matrix</span>(<span class="fu">c</span>(<span class="dv">1</span>, r_det, r_det, <span class="dv">1</span>), <span class="at">ncol =</span> <span class="dv">2</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>ds <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(ds)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(ds) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"x"</span>, <span class="st">"y"</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>r <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="st">"p"</span>, <span class="st">"estimate"</span>)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="fu">c</span>(<span class="fu">nrow</span>(ds), <span class="dv">150</span>)) {</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (j <span class="cf">in</span> <span class="fu">c</span>(<span class="st">"two.sided"</span>, <span class="st">"greater"</span>)) {</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> (k <span class="cf">in</span> <span class="fu">c</span>(<span class="st">"pearson"</span>, <span class="st">"spearman"</span>, <span class="st">"kendall"</span>)) {</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>      <span class="cf">for</span> (l <span class="cf">in</span> F) {</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>        r <span class="ot">&lt;-</span> <span class="fu">rbind</span>(r, <span class="fu">unlist</span>(<span class="fu">cor.test</span>(ds<span class="sc">$</span>x[<span class="dv">1</span><span class="sc">:</span>i], ds<span class="sc">$</span>y[<span class="dv">1</span><span class="sc">:</span>i], <span class="at">alternative =</span> j, <span class="at">method =</span> k, <span class="at">continuity =</span> l)[<span class="dv">3</span><span class="sc">:</span><span class="dv">4</span>]))</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>r <span class="ot">&lt;-</span> r[<span class="sc">-</span><span class="dv">1</span>, ]</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(r) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"p"</span>, <span class="st">"estimate"</span>)</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="dv">1</span><span class="sc">:</span><span class="fu">nrow</span>(r), r<span class="sc">$</span>estimate</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>     , <span class="at">pch =</span> <span class="dv">20</span></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>     <span class="co"># , col = ifelse(as.numeric(r$p) &lt; .05, "red", "blue")</span></span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>     , <span class="at">ylim =</span> <span class="fu">c</span>(<span class="dv">0</span>, r_det<span class="fl">+.2</span>)</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>     , <span class="at">xaxt =</span> <span class="st">'n'</span></span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>     , <span class="at">ylab =</span> <span class="st">"Korrelation"</span></span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>     , <span class="at">xlab =</span> <span class="st">""</span></span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>     , <span class="at">bty =</span> <span class="st">"l"</span></span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>     )</span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="dv">0</span>,<span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="lösungen_methoden_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<section id="reproduzierbare-manuskripte" class="level4" data-number="15.0.2.1">
+<h4 data-number="15.0.2.1" class="anchored" data-anchor-id="reproduzierbare-manuskripte"><span class="header-section-number">15.0.2.1</span> Reproduzierbare Manuskripte</h4>
+<p>In der online-Version dieses Buches gibt es die Möglichkeit, vor Abbildungen einen Code anzeigen zu lassen. Mit diesem Code lässt sich die Abbildungen ganz einfach rekonstruieren bzw. reproduzieren. Auch Forschungsartikel können auf diese Weise geschrieben werden. Text, Programmiercode, sowie Ergebnisse als Zahlen, Tabellen, und Diagramme werden in einem einzelnen Programm geschrieben und Forschende ersparen sich das Kopieren oder Abtippen von Zahlen. Das Nachrechnen von Ergebnissen wird außerdem stark vereinfacht. Programmiersprachen basieren auf der sogenannten Markdown Sprache und in Programmen können unzählige weitere Programmiersprachen eingebettet sein.</p>
+<p>Während Forschende oft nicht die Expertise oder die Zeit haben, ihre Manuskripte reproduzierbar zu gestalten, gibt es bereits Pilotprojekte <span class="citation" data-cites="baker2023reproduceme">(<a href="#ref-baker2023reproduceme" role="doc-biblioref">Baker et al. 2023</a>)</span> und Zeitschriften <span class="citation" data-cites="Carlsson.2017">(<a href="#ref-Carlsson.2017" role="doc-biblioref">Carlsson et al. 2017</a>)</span>, die Forschende unterstützen. In Kombination mit Multiversum-Analysen ist es in Forschungsartikeln im Internet außerdem möglich, den Text so zu erstellen, dass er interaktiv auf alternative Analyse-Entscheidungen reagiert. Leser*innen können also im Manuskript Entscheidungen treffen und direkt sehen, wie sich die Ergebnisse ändern.</p>
 </section>
 </section>
-<section id="open-data" class="level3" data-number="15.0.3">
-<h3 data-number="15.0.3" class="anchored" data-anchor-id="open-data"><span class="header-section-number">15.0.3</span> Open Data</h3>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Abbruch einer Promotion, Wechsel der Institution, usw. können dazu führen, dass wertvolle Zeit &amp; Arbeit verloren gehen; im Extremfall wurden Tiere aufgezogen, operiert, und Forschung kann nicht weitergeführt werden wegen schlechter Dokumentierung</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vor Durchführung der Studie sollte klar sein, wie die Daten aussehen werden (Variablen, Bedeutung, Umfang, usw.)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.datalad.org" class="uri">https://www.datalad.org</a> &nbsp;</p>
-<p>falsifizierte Daten können nur durch Sichtung identifiziert werden https://associationofanaesthetists-publications.onlinelibrary.wiley.com/doi/full/10.1111/anae.15263</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Myths: <a href="https://www.sortee.org/blog/2024/04/12/2024_open_data_myths/" class="uri">https://www.sortee.org/blog/2024/04/12/2024_open_data_myths/</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://leibniz-psychology.org/das-institut/drittmittelprojekte/datawiz-ii" class="uri">https://leibniz-psychology.org/das-institut/drittmittelprojekte/datawiz-ii</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; originalstudie hierzu,</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vanpaemel et al., 205,</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; und das: <a href="https://www.researchgate.net/publication/370001752_Data_sharing_upon_request_and_statistical_consistency_errors_in_psychology_A_replication_of_Wicherts_Bakker_and_Molenaar_2011" class="uri">https://www.researchgate.net/publication/370001752_Data_sharing_upon_request_and_statistical_consistency_errors_in_psychology_A_replication_of_Wicherts_Bakker_and_Molenaar_2011</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Repositorien für daten</p>
-<p>o&nbsp;&nbsp; Osf.io</p>
-<p>o&nbsp;&nbsp; Psych archives zpid</p>
-<p>o&nbsp;&nbsp; Re3</p>
-<p>o&nbsp;&nbsp; Universitätsspezifische (z.B. datastore der Uni Münster)</p>
-<p>o&nbsp;&nbsp; Fachspezifische (info auch hier: <a href="https://forschungsdaten.info/themen/veroeffentlichen-und-archivieren/repositorien/" class="uri">https://forschungsdaten.info/themen/veroeffentlichen-und-archivieren/repositorien/</a>)</p>
-<p>§&nbsp; Economics &amp; social sciences: data.gesis.org</p>
-<p>§&nbsp; Earth science and life science: Pangaea.de</p>
-<p>§&nbsp; Humanities, cultural studies: de.dariah.eu</p>
-<p>§&nbsp; Linguistics: <a href="http://www.clarin.eu">www.clarin.eu</a></p>
-<p>§&nbsp; Biology: gfbio.org</p>
-<p>§&nbsp; Materialwissenschaften: nomad-lab-eu</p>
-<p>§&nbsp; Psychologie: Researchbox.org</p>
-<p>o&nbsp;&nbsp; Coscine <a href="https://about.coscine.de" class="uri">https://about.coscine.de</a></p>
-<p>o&nbsp;&nbsp; Zenodo (interdisziplinär)</p>
-<p>o&nbsp;&nbsp; Git</p>
-<p>o&nbsp;&nbsp; Open Source Lösungen statt proprietärer Software, <a href="https://www.mkw.nrw/hochschule-und-forschung/digitalisierung-hochschule-und-wissenschaft/forschungsdatenmanagement-fdm" class="uri">https://www.mkw.nrw/hochschule-und-forschung/digitalisierung-hochschule-und-wissenschaft/forschungsdatenmanagement-fdm</a> <a href="https://www.nfdi.de" class="uri">https://www.nfdi.de</a></p>
-<p>o&nbsp;&nbsp; <a href="https://www.researchobject.org/ro-crate/" class="uri">https://www.researchobject.org/ro-crate/</a></p>
-<p>o&nbsp;&nbsp; <a href="https://www.protocols.io" class="uri">https://www.protocols.io</a></p>
-<p>o&nbsp;&nbsp; <a href="https://www.icpsr.umich.edu/web/pages/ICPSR/index.html" class="uri">https://www.icpsr.umich.edu/web/pages/ICPSR/index.html</a></p>
-<p>o&nbsp;&nbsp; Für Qualitative Daten: <a href="https://qdr.syr.edu/deposit/data" class="uri">https://qdr.syr.edu/deposit/data</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kriterien für Daten teilen: FAIR</p>
-<p>o&nbsp;&nbsp; Pyramid of requirements <a href="https://content.iospress.com/articles/information-services-and-use/isu805" class="uri">https://content.iospress.com/articles/information-services-and-use/isu805</a></p>
-<p>o&nbsp;&nbsp; Halbautomatische Extraktion von Meta-Daten <a href="https://www.nfdi4chem.de/de/lister-halbautomatische-metadatenextraktion-aus-kommentierter-experimentdokumentation-in-elabftw/" class="uri">https://www.nfdi4chem.de/de/lister-halbautomatische-metadatenextraktion-aus-kommentierter-experimentdokumentation-in-elabftw/</a></p>
-<p>o&nbsp;&nbsp; Datenstruktur: <a href="https://psych-ds.github.io" class="uri">https://psych-ds.github.io</a></p>
-<p>o&nbsp;&nbsp; Fair Aware Tool zum Testen des Wissens zu FAIR <a href="https://fairaware.dans.knaw.nl" class="uri">https://fairaware.dans.knaw.nl</a></p>
-<p>o&nbsp;&nbsp; Ohne Fair kostet es Europäische Wirtschaft jedes Jahr 10.2 Milliarden Euro <a href="https://publications.europa.eu/resource/cellar/d375368c-1a0a-11e9-8d04-01aa75ed71a1.0001.01/DOC_1" class="uri">https://publications.europa.eu/resource/cellar/d375368c-1a0a-11e9-8d04-01aa75ed71a1.0001.01/DOC_1</a></p>
-<p>o&nbsp;&nbsp; Feld-spezifische Templates für FAIRe daten: <a href="https://www.cos.io/blog/cedar-embeddable-editor?utm_source=linkedin&amp;utm_medium=social" class="uri">https://www.cos.io/blog/cedar-embeddable-editor?utm_source=linkedin&amp;utm_medium=social</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CARE</p>
-<p>o&nbsp;&nbsp; Collective benefit: Ergebnisse sind auch von Gesellschaft verwendbar, Bürgerbeteiligung</p>
-<p>o&nbsp;&nbsp; Authority to control:</p>
-<p>o&nbsp;&nbsp; Responsibility: verschiedene Sprachenu und Weltanschauungen werden berücksichtigt</p>
-<p>o&nbsp;&nbsp; Ethics: Wertschätzung</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zeitschriften</p>
-<p>o&nbsp;&nbsp; JOPD (psychologie)</p>
-<p>o&nbsp;&nbsp; Ing.grid (ingenieurswissenschaften) <a href="https://www.inggrid.org" class="uri">https://www.inggrid.org</a></p>
-<p>o&nbsp;&nbsp; Weitere wichtige?</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Beispiele für Datenbanken</p>
-<p>o&nbsp;&nbsp; <a href="https://db.mocoda2.de/c/home" class="uri">https://db.mocoda2.de/c/home</a> Chatverläufe</p>
-<p>o&nbsp;&nbsp; OpAQ Ankereffekte</p>
-<p>o&nbsp;&nbsp; Cooperation database</p>
-<p>o&nbsp;&nbsp; Stanford meta analysis aggregator</p>
-<p>o&nbsp;&nbsp; <a href="http://metabus.org">http://metabus.org#</a></p>
-<p>o&nbsp;&nbsp; Listen</p>
-<p>§&nbsp; Aaron Charlton Mktgo.org</p>
-<p>§&nbsp; <a href="https://replications.clearerthinking.org/replications/" class="uri">https://replications.clearerthinking.org/replications/</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Teilen von qualitativen Daten, dort ist Anonymisierung relative schwierig: <a href="https://doi.org/10.1177/25152459231205832" class="uri">https://doi.org/10.1177/25152459231205832</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Data parasites / data police / data terrorists</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nachfragen: <a href="https://www.whatdotheyknow.com/request/trial_protocols_behavioural_insi_2" class="uri">https://www.whatdotheyknow.com/request/trial_protocols_behavioural_insi_2</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mehr Zitate? <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230416" class="uri">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230416</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Workshop-Unterlagen: <a href="https://j-5chneider.github.io/PTOS-open-data/" class="uri">https://j-5chneider.github.io/PTOS-open-data/</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Infosammlung zu Forschungsdaten: <a href="https://github.com/UB-Mannheim/awesome-RDM" class="uri">https://github.com/UB-Mannheim/awesome-RDM</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Daten auch wertvoll als Gedächtnis der Gesellschaft, soetwas sollte archiviert werden, z.B. <a href="https://liebesbriefarchiv.de" class="uri">https://liebesbriefarchiv.de</a></p>
-<p>o&nbsp;&nbsp; Daten von Personen aus allen Feldern der Gesellschaft (crowdsourced) und öffentlich verfügbar</p>
-<p>o&nbsp;&nbsp; Andere Beispiele für Citizen Science: <a href="https://www.buergerschaffenwissen.de" class="uri">https://www.buergerschaffenwissen.de</a> und <a href="https://wissenschaft-im-dialog.de/mitmachen/" class="uri">https://wissenschaft-im-dialog.de/mitmachen/</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Langzeitarchivierung vs.&nbsp;Archivierung</p>
-<p>o&nbsp;&nbsp; 1000 Jahre <a href="https://archiveprogram.github.com" class="uri">https://archiveprogram.github.com</a></p>
-<p>Daten automatisch anonymisieren lassen mit <a href="https://amnesia.openaire.eu/">AMNESIA</a></p>
+<section id="statistik" class="level3" data-number="15.0.3">
+<h3 data-number="15.0.3" class="anchored" data-anchor-id="statistik"><span class="header-section-number">15.0.3</span> Statistik</h3>
+<p>Es sind wahrscheinlich alle Forschungsdisziplinen, die Statistik verwenden, von der Replikationskrise betroffen. Ganz im Sinne von “post hoc ergo propter hoc” (danach, also deswegen), wird diese Tatsache häufig so interpretiert, dass das Verwenden statistischer Methoden die Ursache für die Replikationsprobleme ist. Während dagegen argumentiert wird, dass die Methoden nur <em>falsch</em> verwendet werden <span class="citation" data-cites="Lakens.2021b">(<a href="#ref-Lakens.2021b" role="doc-biblioref">Daniël Lakens 2021b</a>)</span>, schlagen manche Forschende auch Veränderungen oder Alternativen vor. Eine Gruppe 72 von Psycholog*innen hat beispielsweise gefordert, die Signifikanzgrenze für neue Befunde von 5% auf 0,5% herunterzusetzen <span class="citation" data-cites="Benjamin.2018">(<a href="#ref-Benjamin.2018" role="doc-biblioref">Benjamin et al. 2018</a>)</span>, sodass p-hacking erschwert wird. Andere schlagen vor, das Null Hypothesis Significance Testing (NHST, Null-Hypothesen-Signifikanztesten) komplett zu verbannen und andere Methoden zu verwenden: <span class="citation" data-cites="Wagenmakers.2007">Wagenmakers (<a href="#ref-Wagenmakers.2007" role="doc-biblioref">2007</a>)</span> plädiert für Bayesianische Statistik, und die Zeitschfit Basic and Applied Psychology verbietet die Verwendung von Signifikanztests, was das Problem von falsch-positiven Befunden möglicherweise noch vergrößert hat <span class="citation" data-cites="fricker2019assessing">(<a href="#ref-fricker2019assessing" role="doc-biblioref">Fricker Jr et al. 2019</a>)</span>.</p>
 </section>
-<section id="replicability" class="level3" data-number="15.0.4">
-<h3 data-number="15.0.4" class="anchored" data-anchor-id="replicability"><span class="header-section-number">15.0.4</span> Replicability</h3>
+<section id="open-data-und-open-materials" class="level3" data-number="15.0.4">
+<h3 data-number="15.0.4" class="anchored" data-anchor-id="open-data-und-open-materials"><span class="header-section-number">15.0.4</span> Open Data und Open Materials</h3>
+<p>Durch die häufigen befristeten Verträge und viele Wechsel zwischen Universitäten aber auch durch Abbrüche von Promotionen oder Ausscheiden aus der Wissenschaft durch das Wissenschaftszeitvertragsgesetz müssen Projekte an andere Forschende übergeben werden. Wenn die Forschungsmaterialien und -daten nicht dokumentiert und aufbereitet sind, gehen dadurch Zeit und Arbeit verloren. Im Extremfall wurden in einem Labor Tiere aufgezogen und operiert und die Untersuchung kann nicht weitergeführt werden. Open Data und Materials (Offene [Forschungs]Daten und offene [Forschungs]Materialien) haben den Zweck, das zu verhindern, gemeinsames Arbeiten zu ermöglichen, und Fehler korrigierbar zu machen. In extremeren Fällen versuchen Forschende, Artikel mit gefälschten Daten zu veröffentlichen. Nur an den Stellen, an denen offen zugängliche Daten verfügbar sind, kann dieser Betrug auffallen <span class="citation" data-cites="carlisle2021false">(<a href="#ref-carlisle2021false" role="doc-biblioref">Carlisle 2021</a>)</span>.</p>
+<p>Zahlreiche Untersuchungen konnten bereits zeigen, dass Daten auch auf Anfrage häufig nicht geteilt werden, und dass sich das im Zuge der Replikationskrise nicht verändert hat<span class="citation" data-cites="vanpaemel2015we">(<a href="#ref-vanpaemel2015we" role="doc-biblioref">Vanpaemel et al. 2015</a>)</span>. Ob Daten geteilt werden gibt darüber hinaus keinen Aufschluss darüber, ob darin Fehler sind <span class="citation" data-cites="claesen2023data">(<a href="#ref-claesen2023data" role="doc-biblioref">Claesen et al. 2023</a>)</span>. Mehr und mehr Zeitschriften fodern die Veröffentlichung von Daten (z.B. https://topfactor.org/journals?factor=Data+Transparency), Drittmittelgeber fordern Datenmanagementpläne, Werkzeuge zur automatischen Datenaufbereitung befinden sich in der Entwicklung (https://leibniz-psychology.org/das-institut/drittmittelprojekte/datawiz-ii), und viele Forschungsdaten-Repositorien - also Websites, auf denen Daten hochladbar und auffindbar sind - sind entstanden.</p>
+<p>Die wichtigsten Voraussetzungen dafür, dass Forschende Daten teilen können, sind die Zustimmung der Versuchspersonen (falls vorhanden), Anonymisierung falls nötig (z.B. bei Daten über Gesundheit oder politischer Einstellung), und die Rechte an den Daten. Die Zustimmung von Versuchspersonen werden standardmäßig vor Beginn von Untersuchungen erfragt, Anonymisierung geschieht bei der Erhebung oder im Nachhinein (z.B. bei qualitativen Daten mittels <a href="https://amnesia.openaire.eu">AMNESIA</a>), und die Rechte liegen üblicherweise nur dann nicht vor, wenn die Daten für ein Unternehmen erhoben wurden. Der wohl schwierigste Teil ist die Anonymisierung. <span class="citation" data-cites="campbell2023open">Campbell et al. (<a href="#ref-campbell2023open" role="doc-biblioref">2023</a>)</span> berichten beispielsweise, wie sie Berichte von Überlebenden sexueller Übergriffe mittels eines mehrstufigen Prozesses anonymisiert haben, bei denen Namen, Daten, Orte, Trauma-Historien, und weitere sensible Daten zensiert wurden.</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Wo werden Forschungsdaten hochgeladen?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Je nach Fach und Institution werden Forschungsdaten an unterschiedlichen Stellen archiviert. Universitäten haben häufig eigene Services, für die Auffindbarkeit bieten sich aber üblicherweise fachspezifische Repositorien an: Psycholog*innen nutzen häufig das <a href="https://osf.io/">Open Science Framework (OSF)</a>, <a href="https://www.psycharchives.org">PsychArchives</a> vom Leibniz-Institut für Psychologie, oder <a href="researchbox.org">Researchbox.org</a>. Für die Wirtschaftswissenschaften bietet das Leibniz-Institut für Sozialwissenschaften mit <a href="https://www.gesis.org/datenservices/daten-teilen">GESIS</a> verschiedene Hilfen. Mit <a href="https://www.nfdi4chem.de/de/lister-halbautomatische-metadatenextraktion-aus-kommentierter-experimentdokumentation-in-elabftw/">LISTER</a> wird in der Chemie an Software gearbeitet, mittels derer Daten auf Basis von elektronischen Laborbüchern halbautomatisiert beschrieben werden können. <a href="https://www.re3data.org">Re3data</a> bietet eine Übersicht über Forschungsdatenrepositorien (z.B. nach Fächern).</p>
+<table class="caption-top table">
+<caption>Repositorien für Forschungsdaten</caption>
+<thead>
+<tr class="header">
+<th>Fach/Disziplin</th>
+<th>Repositorium</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Psychologie</td>
+<td>osf.io</td>
+</tr>
+<tr class="even">
+<td>Sozialwissenschaften</td>
+<td>data.gesis.org</td>
+</tr>
+<tr class="odd">
+<td>Politik- und Sozialwissenschaften</td>
+<td>icpsr.umich.edu</td>
+</tr>
+<tr class="even">
+<td>Lebenswissenschaften</td>
+<td>Pangaea.de</td>
+</tr>
+<tr class="odd">
+<td>Kunst- und Geistewissenschaften</td>
+<td>de.Dariah.eu</td>
+</tr>
+<tr class="even">
+<td>Linguistik</td>
+<td>Clarin.eu</td>
+</tr>
+<tr class="odd">
+<td>Biologie</td>
+<td>gfbio.org</td>
+</tr>
+<tr class="even">
+<td>Materialwissenschaften</td>
+<td>nomad-lab.eu</td>
+</tr>
+<tr class="odd">
+<td>Qualitative Daten</td>
+<td><a href="https://qdr.syr.edu/deposit/data" class="uri">qdr.syr.edu</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="callout callout-style-simple callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Wo werden Forschungsdaten veröffentlicht?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Über Repositorien können Forschungsdaten per Mausklick veröffentlicht werden. Wenn weitere Funktionen wie interaktive Analysen oder ein Peer Review gewünscht ist, nutzen Forschende darauf abgestimmte Werkzeuge und Fachzeitschriften. Psychologische Datensätze können beispielsweise im Journal of Open Psychology Data veröffentlicht werden, das R-Paket PsyMetaData <span class="citation" data-cites="rodriguez2022psymetadata">(<a href="#ref-rodriguez2022psymetadata" role="doc-biblioref">Rodriguez and Williams 2022</a>)</span> enthält Daten aus psychologischen Meta-Analysen, und die Zeitschrift <a href="https://www.inggrid.org">Inggrid</a> veröffentlicht Daten aus den Ingenieurswissenschaften.</p>
+<p>Auf dafür erstellten Websites können Forschende bei <a href="https://db.mocoda2.de">MOCODA</a> auf Daten von Chatverläufen zugreifen, die freiwillig und anonymisiert von Personen geteilt wurden, bei <a href="https://cooperationdatabank.org">CODA</a> Daten zur menschlichen Kooperation herunterladen, oder bei <a href="https://metaanalyses.shinyapps.io/OpAQ/">OpAQ</a> Schätzurteile analysieren.</p>
+</div>
+</div>
+<section id="kriterien-für-die-aufbereitung-forschungsdaten" class="level4" data-number="15.0.4.1">
+<h4 data-number="15.0.4.1" class="anchored" data-anchor-id="kriterien-für-die-aufbereitung-forschungsdaten"><span class="header-section-number">15.0.4.1</span> Kriterien für die Aufbereitung Forschungsdaten</h4>
+<p>Das bloße Hochladen von Forschungsdaten auf eine Website reicht nicht aus, um Forschung transparenter zu machen. Üblicherweise werden die Daten in dem Forschungsartikel, in dem sie verwendet wurden, verlinkt und es wird ein Codebook bereitgestellt, in dem steht, welche Werte was bedeuten.</p>
+<p>Die Tabelle zeigt einen Ausschnitt aus einem Fantasie-Datensatz mit drei Variablen. Üblicherweise enthalten Datensätze viele weitere Daten (z.B. die Abiturnote aufgeteilt in verschiedene Fächer, Demografische Daten wie Alter und Geschlecht, Datum der Befragung, ggf. Variablen mit kryptischen Namen wie “V1_Z01”, “V0815”). Hier sind die drei Variablen (also Spalten) “ID”, welche eine fortlaufende Zahl ist um verschiedene Versuchspersonen zu kennzeichnen, IQ, mit welchem ein gemessener IQ von einem bestimmten Intelligenztest angegeben wird, und die Abiturnote, die Personen selbst berichten sollten. Das Codebuch enthält diese Informationen.</p>
+<table class="caption-top table">
+<caption>Beispiel für einen Datensatz</caption>
+<thead>
+<tr class="header">
+<th>ID</th>
+<th>IQ</th>
+<th>Abiturnote</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>103</td>
+<td>2,6</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>86</td>
+<td>2,4</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>112</td>
+<td>1,8</td>
+</tr>
+</tbody>
+</table>
+<section id="fair-und-care" class="level5" data-number="15.0.4.1.1">
+<h5 data-number="15.0.4.1.1" class="anchored" data-anchor-id="fair-und-care"><span class="header-section-number">15.0.4.1.1</span> FAIR und CARE</h5>
+<p>Interdisziplinär wurden die FAIR Prinzipien für Forschungsdaten entwickelt. Sie empfehlen, Daten auffindbar (<strong>F</strong>indable), zugänglich (<strong>A</strong>ccessible), von verschiedenen Computern lesbar (<strong>I</strong>nteroperable), und wiederverwendbar (<strong>R</strong>esusable) zu archivieren. <span class="citation" data-cites="de2016research">De Waard (<a href="#ref-de2016research" role="doc-biblioref">2016</a>)</span> strukturiert Anforderungen pyramidenförmig mit der Speicherung als Fundament, dem Teilen darüber, und der Qualitätssicherung als Spitze. Laut einem <a href="https://publications.europa.eu/resource/cellar/d375368c-1a0a-11e9-8d04-01aa75ed71a1.0001.01/DOC_1">EU-Bericht</a> belaufen sich die jährlichen Kosten dafür, dass Daten nicht den FAIR Prinzipien entsprechen, auf 10,2 Milliarden Euro. Disziplin-spezifische Vorlagen, um geteilte Daten FAIR zu machen, werden derzeit vom Center for Open Science entwickelt (www.cos.io/blog/cedar-embeddable-editor).</p>
+<p>Einen weiteren Schritt gehen die CARE-Prinzipien. Sie wurden für Datenerhebung zu einheimischen Völkern entworfen. Aufbauen auf FAIR fordern sie einen kollektiven Nutzen (<strong>c</strong>ollective benefit) der Daten, beispielsweise durch Verwendbarkeit durch die Gesellschaft wie es bei <a href="https://www.flussgebiete.nrw.de/hochwassergefahrenkarten-und-hochwasserrisikokarten">Hochwassergefahrenkarten</a> der Fall ist oder durch Bürgerbeteiligung wie bei Münsters “<a href="https://beteiligung.nrw.de/portal/muenster/beteiligung/themen/1004355/1007106/1048392">Coolem Stadtplan</a>”, der Orte, an denen es an heißen Tagen kühl ist, eintragen lässt. Den Personen, die mit den Daten abgebildet werden, muss eine Autorität zur Kontrolle (<strong>a</strong>uthority to control) gegeben werden, das heißt, sie sollen Mitbestimmungsrecht über das Aussehen der Daten haben. Zur Wahrung ihrer Selbstbestimmung sollten Daten außerdem verantwortlich (<strong>r</strong>esponsible) geteilt werden und ihre Rechte und ihr Wohlergehen sollten bei der Forschung im Zentrum stehen (<strong>e</strong>thics). Wenn Nicht-Wissenschaftler*innen aktiv an der Datenerhebung oder -aufbereitung beteiligt sind, ist die Rede von Citizen Science (Bürger*innen Wisssenschaft). Beispielsweise können Personen ihre gesammelten Liebesbriefe an das <a href="https://liebesbriefarchiv.de">Liebesbriefarchiv</a> senden, bei welchem die deutsche Sprache, Umgangsformen, und Kulturwandel umfangreicher als nur mithilfe von einzelnen berühmten Gelehrten erforscht werden kann.</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Forschungsdaten bei Regierungen anfragen
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Wenn Regierungen Unternehmen beauftragen, Fragestellungen zu beantworten, können Bürger*innen die Daten dafür anfragen. Für das Vereinigte Königreich gibt es beispielsweise die Platform <a href="https://www.whatdotheyknow.com/request/trial_protocols_behavioural_insi_2">WhatDoTheyKnow</a>, in Deutschland ist das Analog <a href="https://fragdenstaat.de">FragDenStaat</a>. In einer Studie haben <span class="citation" data-cites="maier2024exploring">Maier et al. (<a href="#ref-maier2024exploring" role="doc-biblioref">2024</a>)</span> solche Daten verwendet, um zu prüfen, ob dort Empfehlungen zu Open Science Praktiken berücksichtigt wurden.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="sorgen-zu-offenen-daten" class="level4" data-number="15.0.4.2">
+<h4 data-number="15.0.4.2" class="anchored" data-anchor-id="sorgen-zu-offenen-daten"><span class="header-section-number">15.0.4.2</span> Sorgen zu Offenen Daten</h4>
+<section id="daten-polizei" class="level5" data-number="15.0.4.2.1">
+<h5 data-number="15.0.4.2.1" class="anchored" data-anchor-id="daten-polizei"><span class="header-section-number">15.0.4.2.1</span> Daten-Polizei</h5>
+<p>Der Diskurs um Open Science ist hin und wieder sehr aufgeladen: Forschende, die nach Daten fragen oder diese Nutzen um Fehler zu identifizieren, werden als Datenparasiten, Datenpolizei, oder sogar Datenterroristen bezeichnet. Die Aussage, “wer nichts zu verbergen hat, hat auch nichts zu befürchten”, hat einen dystopischen Beigeschmack und Forschende machen sich in politisch aufgebrachten Zeiten und im Angesicht von Plagiatsjägern ungern durchsichtig. Es ist in diesem Kontext aber zu Berücksichtigen, dass es bei Wissenschaft nicht um ein eigenbrötlerisches Hobby handelt, sondern um einen Beruf mit gesellschaftlicher Verantwortung. Wer hier etwas verbirgt, sollte zurecht unter Verdacht stehen, keine ordentliche Wissenschaft zu machen. An der Universitäts- und Landesbibliothek Münster stehen passend dazu an der Außenwand die großen roten Buchstaben: “Gehorche keinem”. Bilde dir stattdessen deine eigene Meinung, geh in die Werke und die Daten der Forschenden und überzeuge dich selbst von der Wahrheit. Wenn Forschende ihre Daten nicht teilen und Artikel hinter Bezahlschranken veröffentlichen, bedeutet das eine unnötige Erschwerung der unabhängigen Meinungsbildung.</p>
+</section>
+<section id="daten-klau" class="level5" data-number="15.0.4.2.2">
+<h5 data-number="15.0.4.2.2" class="anchored" data-anchor-id="daten-klau"><span class="header-section-number">15.0.4.2.2</span> Daten-Klau</h5>
+<p>Daten zu teilen steht oft das Ziel entgegen, anderen Forschenden gegenüber einen Wettbewerbsvorteil zu haben. Das bedeutet, dass Forschende ihre Daten zurückhalten, möglichst viele Artikel auf deren Basis veröffentlichen, und erst wenn dort “nichts mehr zu holen ist”, die Daten teilen. Die Sorge ist, dass andere Forschende schneller darin sind, Forschungsartikel auf Basis der Daten zu veröffentlichen. Faktisch werden die Daten schließlich gar nicht veröffentlicht. Bei dieser Sorge ist wichtig, nachzuvollziehen, dass <em>Daten teilen</em> nicht <em>Daten verschenken</em> bedeutet. Beim Teilen müssen Forschende eine Lizenz angeben, die beispielsweise das Zitieren der Daten vorgibt. Halten sich andere Forschende nicht daran, riskieren sie ihre Karriere. Darüber hinaus ist es einfacher nachzuweisen, wer die Daten ursprünglich erhoben hat, wenn die Person sie frühzeitig veröffentlicht.</p>
+</section>
+<section id="zitationszahlen" class="level5" data-number="15.0.4.2.3">
+<h5 data-number="15.0.4.2.3" class="anchored" data-anchor-id="zitationszahlen"><span class="header-section-number">15.0.4.2.3</span> Zitationszahlen</h5>
+<p>Gelegentlich wird für Open Data damit geworben, dass Forschung dadurch mehr Zitate erhält. Das motiviert einige Wissenschaftler*innen mehr als die gute wissenschaftliche Praxis, ist aber wahrscheinlich nicht <span class="citation" data-cites="colavizza2020citation">(<a href="#ref-colavizza2020citation" role="doc-biblioref">Colavizza et al. 2020</a>)</span>.</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Was bedeutet Langzeitarchivierung?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Drittmittelgeber fordern gelegentlich Langzeitarchivierung. Das bedeutet je nach Kontext, dass die Daten 20 oder 50 Jahre lange gespeichert werden und abrufbar sein müssen. Eine etwas extreme Variante der Langzeitarchivierung wurde mit Daten auf Github.io durchgeführt: Dort wurden alle Daten, die am 02.02.2020 hochgeladen waren, gespeichert und in einer alten Kohlemine in Norwegen gebracht. Dort sollen sie bis zu 1000 Jahre verbleiben können.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="replizierbarkeit-erhöhen" class="level3" data-number="15.0.5">
+<h3 data-number="15.0.5" class="anchored" data-anchor-id="replizierbarkeit-erhöhen"><span class="header-section-number">15.0.5</span> Replizierbarkeit erhöhen</h3>
+<p>Die bisherigen Ansätze wie Meta-Analysen oder Reproduzierbarkeits-Prüfungen können häufig für bestehende Projekte durchgeführt werden. Bei den folgenden gestaltet sich das allerdings schwieriger - sie sind vor allem für neue Forschung geeignet und haben das Ziel, die Replizierbarkeit von neu veröffentlichten Studien zu erhöhen. Wie im Fazit des Buches erörtert, ist eine allgemeine, fächerübergreifende Aussage darüber, ob diese Vorschläge sich tatsächlich auf Replizierbarkeit auswirken aufgrund von seltenen Replikationsstudien schwierig. So oder so ist ihr Sinn im Hinblick auf die Probleme von Nachvollziehbarkeit und P-Hacking deutlich.</p>
 <p>#### Assuring Replicability in Primary Research</p>
 <ol type="1">
 <li><p>Replikationsstudien in Sozialpsychologie schwierig wegen Anreizstruktur und Ressourcen https://doi.org/10.1027/1864-9335/a000548</p></li>
@@ -612,10 +735,24 @@ Reproduktion auf Knopfdruck
 <li><p>Irise project (EU-gefördertes Projekt): <a href="https://irise-project.eu/research-outputs" class="uri">https://irise-project.eu/research-outputs</a></p></li>
 <li></li>
 <li><p>Messungenauigkeit: <a href="https://osf.io/2me7t" class="uri">https://osf.io/2me7t</a></p></li>
-<li></li>
 </ol>
-<section id="preregistration-präregistrierung" class="level4" data-number="15.0.4.1">
-<h4 data-number="15.0.4.1" class="anchored" data-anchor-id="preregistration-präregistrierung"><span class="header-section-number">15.0.4.1</span> Preregistration / Präregistrierung</h4>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Transparenz-Checkliste
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="citation" data-cites="Aczel.2020">Aczel et al. (<a href="#ref-Aczel.2020" role="doc-biblioref">2020</a>)</span> haben eine Checkliste entworfen, die Forschende Punkt für Punkt durchgehen können, um zu prüfen, ob ihr Forschungsbericht transparent ist. In der Online-App (https://www.shinyapps.org/apps/TransparencyChecklist/) kann anschließend ein Bericht daraus generiert werden, der an den Forschungsartikel angehängt werden kann.</p>
+<p>Die Checkliste ist in die Themen Präregistrierung, Methoden, Ergebnisse, und Daten/Code/Materialien eingeteilt. Beispielsweise wird in Bezug auf die Ergebnisse gefragt, ob die Anzahl an Beobachtungen für alle Gruppen angegeben wurde. Die Checkliste ist aktuell in ca. 30 Sprachen verfügbar, darunter auch Deutsch. Die Liste von <span class="citation" data-cites="Aczel.2020">Aczel et al. (<a href="#ref-Aczel.2020" role="doc-biblioref">2020</a>)</span> ist allerdings primär für quantitative Studien geeignet. Für qualitative und gemischte Studien haben <span class="citation" data-cites="symonds2024quality">Symonds and Tang (<a href="#ref-symonds2024quality" role="doc-biblioref">2024</a>)</span> ein Bewertungsschema entworfen.</p>
+<p>Eine weitere und kürzere Variante ist die 21-Worte-Lösung. Dabei wird eine vorgeschlagene Erklärung <span class="citation" data-cites="Simmons.2012">(<a href="#ref-Simmons.2012" role="doc-biblioref">Simmons, Nelson, and Simonsohn 2012</a>)</span> in den Bericht aufgenommen und versichert, dass keine Studien(ergebnisse) vorenthalten wurden. Sie ist bei weitem nicht so sicher und umfangreich wie die Transparenz-Checkliste, fördert aber niedrigschwellig die Auseinandersetzung mit Transparenz von Forschungsberichten.</p>
+</div>
+</div>
+<section id="preregistration-präregistrierung" class="level4" data-number="15.0.5.1">
+<h4 data-number="15.0.5.1" class="anchored" data-anchor-id="preregistration-präregistrierung"><span class="header-section-number">15.0.5.1</span> Preregistration / Präregistrierung</h4>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Erklärung</p>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gütekriterien: Struktur + Vollständigkeit (simmons nelson vs.&nbsp;Pham consumer psych)</p>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Analyseplan wichtig, um wirklich P-Hacking vorzubeugen: <a href="https://www.journals.uchicago.edu/doi/abs/10.1086/730455" class="uri">https://www.journals.uchicago.edu/doi/abs/10.1086/730455</a></p>
@@ -623,17 +760,23 @@ Reproduktion auf Knopfdruck
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; High replicability neues project <a href="https://www.nature.com/articles/s41562-023-01749-9" class="uri">https://www.nature.com/articles/s41562-023-01749-9</a> [hierzu Infobox, dass es umstritten ist, weil sie intransparent von der Präregistrierung abgewichen sind]</p>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prävalenz: <a href="https://datacolada.org/115" class="uri">https://datacolada.org/115</a></p>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Es sollte nicht nur über Bereitschaft von Forschenden gehen, sondern auch im Peer Review verankert werden, sauber zu präregistrieren: <a href="https://journal.trialanderror.org/pub/reflections-on-preregistration/release/2" class="uri">https://journal.trialanderror.org/pub/reflections-on-preregistration/release/2</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deviations:</p>
+<section id="abweichungen-von-präregistrierungen" class="level5" data-number="15.0.5.1.1">
+<h5 data-number="15.0.5.1.1" class="anchored" data-anchor-id="abweichungen-von-präregistrierungen"><span class="header-section-number">15.0.5.1.1</span> Abweichungen von Präregistrierungen</h5>
 <p>o&nbsp;&nbsp; Alle weichen ab: <a href="https://osf.io/preprints/psyarxiv/nj4es" class="uri">https://osf.io/preprints/psyarxiv/nj4es</a> , <a href="https://osf.io/f2z7y" class="uri">https://osf.io/f2z7y</a> slide 12/21</p>
 <p>o&nbsp;&nbsp; niemand prüft auf Abweichungen: <a href="https://osf.io/preprints/psyarxiv/nh7qw" class="uri">https://osf.io/preprints/psyarxiv/nh7qw</a></p>
 <p>o&nbsp;&nbsp; Transparent changes: <a href="https://osf.io/6fk87" class="uri">https://osf.io/6fk87</a></p>
 <p>o&nbsp;&nbsp; How to deviate: <a href="https://osf.io/preprints/psyarxiv/ha29k" class="uri">https://osf.io/preprints/psyarxiv/ha29k</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Repositorien</p>
+</section>
+<section id="wo-werden-studien-präregistriert" class="level5" data-number="15.0.5.1.2">
+<h5 data-number="15.0.5.1.2" class="anchored" data-anchor-id="wo-werden-studien-präregistriert"><span class="header-section-number">15.0.5.1.2</span> Wo werden Studien präregistriert?</h5>
 <p>o&nbsp;&nbsp; <a href="https://meta-meta-resources.org/running-studies/preparation/pre-reg-repos/">https://meta-meta-resources.org/running-studies/preparation/pre-reg-repos/#</a>!</p>
 <p>o&nbsp;&nbsp; <a href="https://www.alltrials.net" class="uri">https://www.alltrials.net</a></p>
 <p>o&nbsp;&nbsp; <a href="https://clinicaltrials.gov" class="uri">https://clinicaltrials.gov</a></p>
 <p>o&nbsp;&nbsp; <a href="http://www.crd.york.ac.uk/PROSPERO/" class="uri">http://www.crd.york.ac.uk/PROSPERO/</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Auswirkung auf Ergebnisse</p>
+</section>
+<section id="nachweise-der-effektivität-von-präregistrierungen" class="level5" data-number="15.0.5.1.3">
+<h5 data-number="15.0.5.1.3" class="anchored" data-anchor-id="nachweise-der-effektivität-von-präregistrierungen"><span class="header-section-number">15.0.5.1.3</span> Nachweise der Effektivität von Präregistrierungen</h5>
+<p>Effektivität wofür? Replizierbarkeit oder File-Drawer Problem?</p>
 <p>o&nbsp;&nbsp; Wahrscheinlichkeit positiven Befunden statt &gt;90% dadurch nur 40-50%, Scheel, Schijen, &amp; Lakens(2021) [siehe auch <a href="https://osf.io/f2z7y" class="uri">https://osf.io/f2z7y</a>, slide 17/21]</p>
 <p>o&nbsp;&nbsp; <a href="https://drive.google.com/file/d/1gcyBE78tb9zerl4M35uS3npVGvMp-MPZ/view" class="uri">https://drive.google.com/file/d/1gcyBE78tb9zerl4M35uS3npVGvMp-MPZ/view</a> The effectiveness of preregistration in psychology: Assessing preregistration strictness and preregistration-study consistency olmo van den akker<a href="#_msocom_2">[LR2]</a>&nbsp;</p>
 <p>##### Pre-Registration templates what is a good prereg? (see Simmons et al) What to preregister? Analysis script</p>
@@ -648,19 +791,16 @@ Reproduktion auf Knopfdruck
 <li></li>
 </ul>
 </section>
-<section id="internal-replications" class="level4" data-number="15.0.4.2">
-<h4 data-number="15.0.4.2" class="anchored" data-anchor-id="internal-replications"><span class="header-section-number">15.0.4.2</span> Internal Replications</h4>
-<p><a href="https://perception.yale.edu/papers/17-Scholl-APSObserver.pdf" class="uri">https://perception.yale.edu/papers/17-Scholl-APSObserver.pdf</a></p>
 </section>
-<section id="power-analysis" class="level4" data-number="15.0.4.3">
-<h4 data-number="15.0.4.3" class="anchored" data-anchor-id="power-analysis"><span class="header-section-number">15.0.4.3</span> Power Analysis</h4>
+<section id="power-analysis" class="level4" data-number="15.0.5.2">
+<h4 data-number="15.0.5.2" class="anchored" data-anchor-id="power-analysis"><span class="header-section-number">15.0.5.2</span> Power Analysis</h4>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Power</p>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Small-telescopes approach</p>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bayesianischer Ansatz</p>
 <p>o&nbsp;&nbsp; So lange erheben, bis Bayes-Faktor konvergiert; kann Stichprobeunumfang reduzieren, wurde so zB für Verhaltensforschung bei Tieren empfohlen (<a href="https://www.nature.com/articles/s41684-023-01308-9" class="uri">https://www.nature.com/articles/s41684-023-01308-9</a>)</p>
 </section>
-<section id="new-statistics" class="level4" data-number="15.0.4.4">
-<h4 data-number="15.0.4.4" class="anchored" data-anchor-id="new-statistics"><span class="header-section-number">15.0.4.4</span> New statistics</h4>
+<section id="new-statistics" class="level4" data-number="15.0.5.3">
+<h4 data-number="15.0.5.3" class="anchored" data-anchor-id="new-statistics"><span class="header-section-number">15.0.5.3</span> New statistics</h4>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frequentistische Statistik wird benutzt, ist oft missverstanden und Inhalte sind mit anderen Perpsektiven vermischt (<a href="https://journals.sagepub.com/doi/10.1177/0959354314546157?icid=int.sj-full-text.similar-articles.3" class="uri">https://journals.sagepub.com/doi/10.1177/0959354314546157?icid=int.sj-full-text.similar-articles.3</a>)</p>
 <p>o&nbsp;&nbsp; Gigerenzer P-Value unwissen</p>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bayesian, Kritik: <a href="https://journals.sagepub.com/doi/10.1177/25152459231213371" class="uri">https://journals.sagepub.com/doi/10.1177/25152459231213371</a></p>
@@ -668,32 +808,18 @@ Reproduktion auf Knopfdruck
 <p>o&nbsp;&nbsp; Equivalence testing <span class="citation" data-cites="Lakens.2017">Daniël Lakens (<a href="#ref-Lakens.2017" role="doc-biblioref">2017</a>)</span>; <span class="citation" data-cites="Lakens.2018">Daniël Lakens, Scheel, and Isager (<a href="#ref-Lakens.2018" role="doc-biblioref">2018</a>)</span></p>
 <p>o&nbsp;&nbsp; Rölle von kleinen Effekten: <a href="https://journals.sagepub.com/doi/full/10.1177/17456916221100420" class="uri">https://journals.sagepub.com/doi/full/10.1177/17456916221100420</a></p>
 <p>o&nbsp;&nbsp; practical relevance of small effect sizes <a href="https://www.researchgate.net/publication/352412241_Evaluating_the_practical_relevance_of_observed_effect_sizes_in_psychological_research" class="uri">https://www.researchgate.net/publication/352412241_Evaluating_the_practical_relevance_of_observed_effect_sizes_in_psychological_research</a></p>
-<p>o&nbsp;&nbsp; effect sizes guide jane guide to effect sizes and confidence intervals</p>
+<p>o&nbsp;&nbsp; effect sizes guide jane guide to effect sizes and confidence intervals <span class="citation" data-cites="jane2024guide">Jané et al. (<a href="#ref-jane2024guide" role="doc-biblioref">2024</a>)</span></p>
 <p>o&nbsp;&nbsp; &nbsp;</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alternative lakens paper “alternative to p-value is correctly used p-value”</p>
+<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alternative lakens paper “alternative to p-value is correctly used p-value” <span class="citation" data-cites="Lakens.2021b">Daniël Lakens (<a href="#ref-Lakens.2021b" role="doc-biblioref">2021b</a>)</span></p>
 <p>o&nbsp;&nbsp; Philosophische Diskussion über Nutzen von P-Werten: <a href="https://journals.sagepub.com/doi/full/10.1177/09593543231160112" class="uri">https://journals.sagepub.com/doi/full/10.1177/09593543231160112</a> und hier <a href="https://journals.sagepub.com/doi/10.1177/0959354312465483?icid=int.sj-full-text.similar-articles.1" class="uri">https://journals.sagepub.com/doi/10.1177/0959354312465483?icid=int.sj-full-text.similar-articles.1</a></p>
 </section>
-<section id="word-solution" class="level4" data-number="15.0.4.5">
-<h4 data-number="15.0.4.5" class="anchored" data-anchor-id="word-solution"><span class="header-section-number">15.0.4.5</span> 21 Word Solution</h4>
 </section>
-<section id="open-materials" class="level4" data-number="15.0.4.6">
-<h4 data-number="15.0.4.6" class="anchored" data-anchor-id="open-materials"><span class="header-section-number">15.0.4.6</span> Open Materials</h4>
+<section id="qualitative-forschung-und-open-science" class="level3" data-number="15.0.6">
+<h3 data-number="15.0.6" class="anchored" data-anchor-id="qualitative-forschung-und-open-science"><span class="header-section-number">15.0.6</span> Qualitative Forschung und Open Science</h3>
+<p>Bei qualitativer Forschung steht im Vorhinein häufig keine klare Fragestellung fest, sondern sie wird im Forschungsprozess entwickelt. Neben Anonymisierung <span class="citation" data-cites="campbell2023open">(<a href="#ref-campbell2023open" role="doc-biblioref">Campbell et al. 2023</a>)</span> nimmt daher auch die Präregistrierung eine besondere Rolle ein. Trotzdem gibt es typische Abläufe, bei denen beispielsweise Entscheidungen über die Kodierung von Antworten getroffen werden - und die lassen sich mit dafür vorgesehenen <a href="https://docs.google.com/document/d/16vLoRAs6RmXKy0v1RCx6osSaYk4r64Hgl6S4_KtWbeM/edit#heading=h.fwbi14d4b65g">Templates</a> präregistrieren.</p>
 </section>
-<section id="transparency" class="level4" data-number="15.0.4.7">
-<h4 data-number="15.0.4.7" class="anchored" data-anchor-id="transparency"><span class="header-section-number">15.0.4.7</span> Transparency</h4>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bewertungskriterien: <a href="https://osf.io/preprints/psyarxiv/djmcq" class="uri">https://osf.io/preprints/psyarxiv/djmcq</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Transparency Checklist</p>
-</section>
-</section>
-<section id="qualitative-forschung-und-open-science" class="level3" data-number="15.0.5">
-<h3 data-number="15.0.5" class="anchored" data-anchor-id="qualitative-forschung-und-open-science"><span class="header-section-number">15.0.5</span> Qualitative Forschung und Open Science</h3>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pseudonymisierung von Daten ist hier sehr besonders, denn…: <a href="https://doi.org/10.1177/16094069211034641">https://doi.org/10.1177/160940692110346</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Präregistrierungs-Template: <a href="https://docs.google.com/document/d/16vLoRAs6RmXKy0v1RCx6osSaYk4r64Hgl6S4_KtWbeM/edit#heading=h.fwbi14d4b65g" class="uri">https://docs.google.com/document/d/16vLoRAs6RmXKy0v1RCx6osSaYk4r64Hgl6S4_KtWbeM/edit#heading=h.fwbi14d4b65g</a></p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sharing sensitive qualitative data: <a href="https://www.youtube.com/watch?v=-Pha3EINF3s" class="uri">https://www.youtube.com/watch?v=-Pha3EINF3s</a></p>
-<p>o&nbsp;&nbsp; Berichte von Opfern von Vergewaltigungen à müssen anonymisiert werden, extrem aufwändig, kann stellvertretene Traumata auslösen</p>
-</section>
-<section id="open-source-software" class="level3" data-number="15.0.6">
-<h3 data-number="15.0.6" class="anchored" data-anchor-id="open-source-software"><span class="header-section-number">15.0.6</span> Open Source Software</h3>
+<section id="open-source-software" class="level3" data-number="15.0.7">
+<h3 data-number="15.0.7" class="anchored" data-anchor-id="open-source-software"><span class="header-section-number">15.0.7</span> Open Source Software</h3>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Research Software Engineering (RSE) [siehe auch oben bei reproducible code, aber hier sollte das meiste dazu stehen]</p>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Non proprietär à Gefahr vor Lock-in</p>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GNU Lizenz</p>
@@ -701,86 +827,98 @@ Reproduktion auf Knopfdruck
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bibliotheken, die Wissen verwalten, positionieren sich neu, um nun Infrastruktur zu stellen (z.B. <a href="https://www.cambridge.org/core/books/abs/data-science-in-the-library/toward-reproducibility-academic-libraries-and-open-science/6FB18D7BCD8B82E597ED0D4B390C72EE">https://www.cambridge.org/core/books/abs/data-science-in-the-library/toward-reproducibility-academic-libraries-and-open-science/6FB18D7BCD8B82E597ED0D4B390C72EE#</a>)</p>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Von Chan-Zuckerberg-Initiative Unternehmen: <a href="https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/" class="uri">https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/</a></p>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alternative zu Clarivate Analytics Web of Science Literaturdatenbank: <a href="https://openalex.org" class="uri">https://openalex.org</a> https://arxiv.org/abs/2205.01833</p>
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td><strong>Infrastruktur</strong></td>
-<td><strong>Kommerzielle Software</strong></td>
-<td><strong>Open Source Software</strong></td>
-</tr>
-<tr class="even">
-<td>Literaturdatenbank</td>
-<td>SCOPUS</td>
-<td><a href="https://openalex.org" class="uri">https://openalex.org</a></td>
-</tr>
-<tr class="odd">
-<td>Literaturverwaltung</td>
-<td>Citavi, Mendeley</td>
-<td>Zotero</td>
-</tr>
-<tr class="even">
-<td>Datenerhebung</td>
-<td>Unipark, Millisecond Inquisit</td>
-<td>PsychoPy</td>
-</tr>
-<tr class="odd">
-<td>Datenanalyse</td>
-<td>IBM SPSS, Stata</td>
-<td>GNU R, Python, Jupyter Notebook</td>
-</tr>
-<tr class="even">
-<td>Begutachtung und Veröffentlichung</td>
-<td>Editorial Manager</td>
-<td>Open Journal System</td>
-</tr>
-</tbody>
-</table>
+<blockquote class="blockquote">
+<blockquote class="blockquote">
+<blockquote class="blockquote">
+<blockquote class="blockquote">
+<blockquote class="blockquote">
+<blockquote class="blockquote">
+<blockquote class="blockquote">
+<p>fafde0efa311638f4b2cb750dea40208e22560f3 | <strong>Infrastruktur</strong> | <strong>Kommerzielle Software</strong> | <strong>Open Source Software</strong> | | Literaturdatenbank | SCOPUS | <a href="https://openalex.org" class="uri">https://openalex.org</a> | | Literaturverwaltung | Citavi, Mendeley | Zotero | | Datenerhebung | Unipark, Millisecond Inquisit | PsychoPy | | Datenanalyse | IBM SPSS, Stata | GNU R, Python, Jupyter Notebook | | Begutachtung und Veröffentlichung | Editorial Manager | Open Journal System |</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
 </section>
-<section id="slow-science" class="level3" data-number="15.0.7">
-<h3 data-number="15.0.7" class="anchored" data-anchor-id="slow-science"><span class="header-section-number">15.0.7</span> Slow Science</h3>
+<section id="slow-science" class="level3" data-number="15.0.8">
+<h3 data-number="15.0.8" class="anchored" data-anchor-id="slow-science"><span class="header-section-number">15.0.8</span> Slow Science</h3>
 <p>Viele der Entwicklungen lassen sich als „langsame Wissenschaft” (oder engl. Slow Science) zusammenfassen. Der traditionellen Produktion von Forschungsartikeln steht die achtsame Auseinandersetzung entgegen. Dass viele der vorgeschlagenen Lösungen im Wettbewerb um veröffentlichte Forschungsartikel nachteilig sind, kritisiert beispielsweise Hyman (2024 <a href="https://www.researchgate.net/publication/377965519_Freeing_social_and_medical_scientists_from_the_replication_crisis" class="uri">https://www.researchgate.net/publication/377965519_Freeing_social_and_medical_scientists_from_the_replication_crisis</a> ). Er schlägt stattdessen vor, die Probleme mittels künstlicher Intelligenz zu lösen. Verlage wie Elsevier benutzen diese beispielsweise bereits für Peer Review (<a href="#0" class="uri">https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-the-review-process</a>), wenngleich Modelle wie ChatGPT 4.0 nicht dafür geeignet sind https://arxiv.org/abs/2402.05519#:~:text=Practical%20implications%3A%20Overall%2C%20ChatGPT%20does,steps%20to%20control%20its%20use. ).</p>
 </section>
-<section id="big-team-science" class="level3" data-number="15.0.8">
-<h3 data-number="15.0.8" class="anchored" data-anchor-id="big-team-science"><span class="header-section-number">15.0.8</span> Big Team Science</h3>
+<section id="big-team-science" class="level3" data-number="15.0.9">
+<h3 data-number="15.0.9" class="anchored" data-anchor-id="big-team-science"><span class="header-section-number">15.0.9</span> Big Team Science</h3>
 <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CRediT und Übersetzungen <a href="https://github.com/contributorshipcollaboration/credit-translation" class="uri">https://github.com/contributorshipcollaboration/credit-translation</a></p>
-<p>&nbsp;<a href="#_msoanchor_1">[LR1]</a><a href="https://journals.sagepub.com/doi/10.1177/20531680241233439" class="uri">https://journals.sagepub.com/doi/10.1177/20531680241233439</a></p>
-<p>&nbsp;<a href="#_msoanchor_2">[LR2]</a>viele paper von denen dazu</p>
-<p>&nbsp;<a href="#_msoanchor_3">[LR3]</a>https://arxiv.org/abs/2205.01833</p>
-<p>&nbsp;<a href="#_msoanchor_4">[LR4]</a><a href="https://www.researchgate.net/publication/377965519_Freeing_social_and_medical_scientists_from_the_replication_crisis" class="uri">https://www.researchgate.net/publication/377965519_Freeing_social_and_medical_scientists_from_the_replication_crisis</a></p>
-<p>&nbsp;<a href="#_msoanchor_5">[LR5]</a>https://arxiv.org/abs/2402.05519#:~:text=Practical%20implications%3A%20Overall%2C%20ChatGPT%20does,steps%20to%20control%20its%20use.</p>
+<p>goodbye author hello contributor</p>
 </section>
-<section id="weiterführende-informationen" class="level3" data-number="15.0.9">
-<h3 data-number="15.0.9" class="anchored" data-anchor-id="weiterführende-informationen"><span class="header-section-number">15.0.9</span> Weiterführende Informationen</h3>
+<section id="weiterführende-informationen" class="level3" data-number="15.0.10">
+<h3 data-number="15.0.10" class="anchored" data-anchor-id="weiterführende-informationen"><span class="header-section-number">15.0.10</span> Weiterführende Informationen</h3>
 <ul>
 <li><p><span class="citation" data-cites="kepes2023assessing">Kepes, Wang, and Cortina (<a href="#ref-kepes2023assessing" role="doc-biblioref">2023</a>)</span> haben einen Anfänger-Leitfaden für die Einschätzung von Publikationsbias entwickelt.</p></li>
 <li><p><span class="citation" data-cites="harrer2021doing">Harrer et al. (<a href="#ref-harrer2021doing" role="doc-biblioref">2021</a>)</span> haben ein kostenlos verfügbares Buch zur Durchführung von Meta-Analysen geschrieben: https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/</p></li>
 <li><p><span class="citation" data-cites="Adler.2023">Adler, Röseler, and Schöniger (<a href="#ref-Adler.2023" role="doc-biblioref">2023</a>)</span> haben verschiedene Tools zur heuristischen Beurteilung von Vertrauenswürdigkeit wissenschaftlicher Befunde gesammelt. Auf https://mktg.shinyapps.io/Toolbox_App/ können Forschende Daten eingeben und die verschiedenen Verfahren durchführen.</p></li>
 <li><p><span class="citation" data-cites="wilson2017good">Wilson et al. (<a href="#ref-wilson2017good" role="doc-biblioref">2017</a>)</span> sammeln Empfehlungen, denen alle Forschenden für das Sicherstellen von Reproduzierbarkeit nachkommen sollten.</p></li>
 </ul>
+<!-- -->
+<ul>
+<li><span class="citation" data-cites="kepes2023assessing">Kepes, Wang, and Cortina (<a href="#ref-kepes2023assessing" role="doc-biblioref">2023</a>)</span> haben einen Anfänger-Leitfaden für die Einschätzung von Publikationsbias entwickelt.</li>
+<li><a href="https://www.datalad.org" class="uri">https://www.datalad.org</a> ist ein kostenloses Programm, das automatisch dokumentiert, wie aus Daten Wissen gewonnen wird.</li>
+<li>Typische Mythen offener Daten werden in einem Blog Post von Elina Takola diskutiert: https://www.sortee.org/blog/2024/04/12/2024_open_data_myths/</li>
+<li>Mit dem FAIR-Aware Quiz (<a href="https://fairaware.dans.knaw.nl" class="uri">https://fairaware.dans.knaw.nl</a>) können Forschende ihr Wissen zum Teilen von Forschungsdaten testen.</li>
+<li>Offene Lehrmaterialien zu FAIR Data werden von <a href="https://j-5chneider.github.io/PTOS-open-data/">Jürgen Schneider</a> und von der <a href="https://github.com/UB-Mannheim/awesome-RDM">Universitätsbibliothek Mannheim</a> bereitgestellt</li>
+<li>Beispiele für Citizen Science und Möglichkeiten zum Mitmachen sind auf <a href="https://www.buergerschaffenwissen.de">Buergerschaffenwissen.de</a> und <a href="https://wissenschaft-im-dialog.de/mitmachen/">Wissenschaft-im-Dialog.de</a>.</li>
+</ul>
 </section>
-<section id="literatur" class="level3" data-number="15.0.10">
-<h3 data-number="15.0.10" class="anchored" data-anchor-id="literatur"><span class="header-section-number">15.0.10</span> Literatur</h3>
+<section id="literatur" class="level3" data-number="15.0.11">
+<h3 data-number="15.0.11" class="anchored" data-anchor-id="literatur"><span class="header-section-number">15.0.11</span> Literatur</h3>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<<<<<<< HEAD
+<div id="ref-Aczel.2020" class="csl-entry" role="listitem">
+Aczel, Balazs, Barnabas Szaszi, Alexandra Sarafoglou, Zoltan Kekecs, Šimon Kucharský, Daniel Benjamin, Christopher D. Chambers, et al. 2020. <span>“A Consensus-Based Transparency Checklist.”</span> <em>Nature Human Behaviour</em> 4 (1): 4–6. <a href="https://doi.org/10.1038/s41562-019-0772-6">https://doi.org/10.1038/s41562-019-0772-6</a>.
+</div>
 <div id="ref-Adler.2023" class="csl-entry" role="listitem">
 Adler, Susanne Jana, Lukas Röseler, and Martina Katharina Schöniger. 2023. <span>“A Toolbox to Evaluate the Trustworthiness of Published Findings.”</span> <em>Journal of Business Research</em> 167: 114189. <a href="https://doi.org/10.1016/j.jbusres.2023.114189">https://doi.org/10.1016/j.jbusres.2023.114189</a>.
+</div>
+<div id="ref-baker2023reproduceme" class="csl-entry" role="listitem">
+Baker, Daniel, Mareike Berg, Kirralise Hansford, Bartholomew Quinn, Federico Gabriele Segala, and Erin English. 2023. <span>“ReproduceMe: Lessons from a Pilot Project on Computational Reproducibility.”</span>
 </div>
 <div id="ref-Bartos.2022b" class="csl-entry" role="listitem">
 Bartoš, František, and Ulrich Schimmack. 2022. <span>“Z-Curve 2.0: Estimating Replication Rates and Discovery Rates.”</span> <em>Meta-Psychology</em> 6. <a href="https://doi.org/10.15626/MP.2021.2720">https://doi.org/10.15626/MP.2021.2720</a>.
 </div>
+<div id="ref-Benjamin.2018" class="csl-entry" role="listitem">
+Benjamin, Daniel J., James O. Berger, Magnus Johannesson, Brian A. Nosek, Eric-Jan Wagenmakers, Richard Berk, Kenneth A. Bollen, et al. 2018. <span>“Redefine Statistical Significance.”</span> <em>Nature Human Behaviour</em> 2 (1): 6–10. <a href="https://doi.org/10.1038/s41562-017-0189-z">https://doi.org/10.1038/s41562-017-0189-z</a>.
+</div>
 <div id="ref-brodeur2024mass" class="csl-entry" role="listitem">
 Brodeur, Abel, Derek Mikola, and Nikolai Cook. 2024. <span>“Mass Reproducibility and Replicability: A New Hope.”</span>
+</div>
+<div id="ref-campbell2023open" class="csl-entry" role="listitem">
+Campbell, Rebecca, McKenzie Javorka, Jasmine Engleton, Kathryn Fishwick, Katie Gregory, and Rachael Goodman-Williams. 2023. <span>“Open-Science Guidance for Qualitative Research: An Empirically Validated Approach for de-Identifying Sensitive Narrative Data.”</span> <em>Advances in Methods and Practices in Psychological Science</em> 6 (4): 25152459231205832.
+</div>
+<div id="ref-carlisle2021false" class="csl-entry" role="listitem">
+Carlisle, JB. 2021. <span>“False Individual Patient Data and Zombie Randomised Controlled Trials Submitted to Anaesthesia.”</span> <em>Anaesthesia</em> 76 (4): 472–79.
 </div>
 <div id="ref-carlsson2024beginner" class="csl-entry" role="listitem">
 Carlsson, Rickard, Lucija Batinović, Natalie Hyltse, André Kalmendal, Thomas Nordström, and Marta Topor. 2024. <span>“A Beginner’s Guide to Open and Reproducible Systematic Reviews in Psychology.”</span>
 </div>
+<div id="ref-Carlsson.2017" class="csl-entry" role="listitem">
+Carlsson, Rickard, Henrik Danielsson, Moritz Heene, Åse Innes-Ker, Daniël Lakens, Ulrich Schimmack, Felix D. Schönbrodt, Marcel van Asssen, and Yana Weinstein. 2017. <span>“Inaugural Editorial of Meta-Psychology.”</span> <em>Meta-Psychology</em> 1: a1001. <a href="https://doi.org/10.15626/MP2017.1001">https://doi.org/10.15626/MP2017.1001</a>.
+</div>
 <div id="ref-Carter.2019" class="csl-entry" role="listitem">
 Carter, Evan C., Felix D. Schönbrodt, Will M. Gervais, and Joseph Hilgard. 2019. <span>“Correcting for Bias in Psychology: A Comparison of Meta-Analytic Methods.”</span> <em>Advances in Methods and Practices in Psychological Science</em> 2 (2): 115–44. <a href="https://doi.org/10.1177/2515245919847196">https://doi.org/10.1177/2515245919847196</a>.
 </div>
+<div id="ref-claesen2023data" class="csl-entry" role="listitem">
+Claesen, Aline, Wolf Vanpaemel, Anne-Sofie Maerten, Thomas Verliefde, Francis Tuerlinckx, and Tom Heyman. 2023. <span>“Data Sharing Upon Request and Statistical Consistency Errors in Psychology: A Replication of Wicherts, Bakker and Molenaar (2011).”</span> <em>Plos One</em> 18 (4): e0284243.
+</div>
+<div id="ref-colavizza2020citation" class="csl-entry" role="listitem">
+Colavizza, Giovanni, Iain Hrynaszkiewicz, Isla Staden, Kirstie Whitaker, and Barbara McGillivray. 2020. <span>“The Citation Advantage of Linking Publications to Research Data.”</span> <em>PloS One</em> 15 (4): e0230416.
+</div>
 <div id="ref-Dang.2020" class="csl-entry" role="listitem">
 Dang, Junhua, Paul Barker, Anna Baumert, Margriet Bentvelzen, Elliot Berkman, Nita Buchholz, Jacek Buczny, et al. 2020. <span>“A Multilab Replication of the Ego Depletion Effect.”</span> <em>Social Psychological and Personality Science</em>, 194855061988770. <a href="https://doi.org/10.1177/1948550619887702">https://doi.org/10.1177/1948550619887702</a>.
+</div>
+<div id="ref-de2016research" class="csl-entry" role="listitem">
+De Waard, Anita. 2016. <span>“Research Data Management at Elsevier: Supporting Networks of Data and Workflows.”</span> <em>Information Services &amp; Use</em> 36 (1-2): 49–55.
 </div>
 <div id="ref-Erdfelder.2019" class="csl-entry" role="listitem">
 Erdfelder, Edgar, and Daniel W. Heck. 2019. <span>“Detecting Evidential Value and p -Hacking with the p -Curve Tool.”</span> <em>Zeitschrift f<span>ü</span>r Psychologie</em> 227 (4): 249–60. <a href="https://doi.org/10.1027/2151-2604/a000383">https://doi.org/10.1027/2151-2604/a000383</a>.
@@ -793,6 +931,9 @@ Fišar, Miloš, Ben Greiner, Christoph Huber, Elena Katok, Ali I Ozkes, and Mana
 </div>
 <div id="ref-fletcher2022replication" class="csl-entry" role="listitem">
 Fletcher, Samuel C. 2022. <span>“Replication Is for Meta-Analysis.”</span> <em>Philosophy of Science</em> 89 (5): 960–69.
+</div>
+<div id="ref-fricker2019assessing" class="csl-entry" role="listitem">
+Fricker Jr, Ronald D, Katherine Burke, Xiaoyan Han, and William H Woodall. 2019. <span>“Assessing the Statistical Analyses Used in Basic and Applied Social Psychology After Their p-Value Ban.”</span> <em>The American Statistician</em> 73 (sup1): 374–84.
 </div>
 <div id="ref-Friese.2018" class="csl-entry" role="listitem">
 Friese, Malte, David D. Loschelder, Karolin Gieseler, Julius Frankenbach, and Michael Inzlicht. 2018. <span>“Is Ego Depletion Real? An Analysis of Arguments.”</span> <em>Personality and Social Psychology Review : An Official Journal of the Society for Personality and Social Psychology, Inc</em>. <a href="https://doi.org/10.1177/1088868318762183">https://doi.org/10.1177/1088868318762183</a>.
@@ -808,6 +949,12 @@ Harrer, Mathias, Pim Cuijpers, Toshi Furukawa, and David Ebert. 2021. <em>Doing 
 </div>
 <div id="ref-hartgerink2016688" class="csl-entry" role="listitem">
 Hartgerink, Chris HJ. 2016. <span>“688,112 Statistical Results: Content Mining Psychology Articles for Statistical Test Results.”</span> <em>Data</em> 1 (3): 14.
+</div>
+<div id="ref-jacobsen2024preprocessing" class="csl-entry" role="listitem">
+Jacobsen, Nadine Svenja Josee, Daniel Kristanto, Suong Welp, Yusuf Cosku Inceler, and Stefan Debener. 2024. <span>“Preprocessing Choices for P3 Analyses with Mobile EEG: A Systematic Literature Review and Interactive Exploration.”</span> <em>bioRxiv</em>, 2024–04.
+</div>
+<div id="ref-jane2024guide" class="csl-entry" role="listitem">
+Jané, Matthew B, Qinyu Xiao, Siu Kit Yeung, Mattan S Ben-Shachar, Aaron R Caldwell, Denis Cousineau, Daniel J Dunleavy, et al. 2024. <span>“Guide to Effect Sizes and Confidence Intervals.”</span> <em>DOI: Https://Doi. Org/10.17605/OSF. IO/D8C4G</em>.
 </div>
 <div id="ref-Kepes.2017" class="csl-entry" role="listitem">
 Kepes, Sven, Brad J. Bushman, and Craig A. Anderson. 2017. <span>“Violent Video Game Effects Remain a Societal Concern: Reply to Hilgard, Engelhardt, and Rouder (2017).”</span> <em>Psychological Bulletin</em> 143 (7): 775–82. <a href="https://doi.org/10.1037/bul0000112">https://doi.org/10.1037/bul0000112</a>.
@@ -827,6 +974,12 @@ Lakens, Daniel. 2021. <span>“The Practical Alternative to the p Value Is the C
 <div id="ref-Lakens.2017" class="csl-entry" role="listitem">
 Lakens, Daniël. 2017. <span>“Equivalence Tests: A Practical Primer for t Tests, Correlations, and Meta-Analyses.”</span> <em>Social Psychological and Personality Science</em> 8 (4): 355–62. <a href="https://doi.org/10.1177/1948550617697177">https://doi.org/10.1177/1948550617697177</a>.
 </div>
+<div id="ref-Lakens.2021" class="csl-entry" role="listitem">
+———. 2021a. <span>“Sample Size Justification.”</span> <a href="https://doi.org/10.31234/osf.io/9d3yf">https://doi.org/10.31234/osf.io/9d3yf</a>.
+</div>
+<div id="ref-Lakens.2021b" class="csl-entry" role="listitem">
+———. 2021b. <span>“The Practical Alternative to the p Value Is the Correctly Used p Value.”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 16 (3): 639–48. <a href="https://doi.org/10.1177/1745691620958012">https://doi.org/10.1177/1745691620958012</a>.
+</div>
 <div id="ref-Lakens.2017b" class="csl-entry" role="listitem">
 Lakens, Daniël, and Alexander J. Etz. 2017. <span>“Too True to Be Bad: When Sets of Studies with Significant and Nonsignificant Findings Are Probably True.”</span> <em>Social Psychological and Personality Science</em> 8 (8): 875–81. <a href="https://doi.org/10.1177/1948550617693058">https://doi.org/10.1177/1948550617693058</a>.
 </div>
@@ -839,14 +992,23 @@ Light, Richard J, and David B Pillemer. 1984. <em>Summing up: The Science of Rev
 <div id="ref-lindsay2023plea" class="csl-entry" role="listitem">
 Lindsay, D Stephen. 2023. <span>“A Plea to Psychology Professional Societies That Publish Journals: Assess Computational Reproducibility.”</span> <em>Meta-Psychology</em> 7.
 </div>
+<div id="ref-maier2024exploring" class="csl-entry" role="listitem">
+Maier, Maximilian, František Bartoš, Nichola Raihani, David R Shanks, TD Stanley, Eric-Jan Wagenmakers, and Adam JL Harris. 2024. <span>“Exploring Open Science Practices in Behavioural Public Policy Research.”</span> <em>Royal Society Open Science</em> 11 (2): 231486.
+</div>
 <div id="ref-OpenScienceCollaboration.2015" class="csl-entry" role="listitem">
 Open Science Collaboration. 2015. <span>“Psychology: Estimating the Reproducibility of Psychological Science.”</span> <em>Science (New York, N.Y.)</em> 349 (6251): aac4716. <a href="https://doi.org/10.1126/science.aac4716">https://doi.org/10.1126/science.aac4716</a>.
 </div>
 <div id="ref-noauthor_2024-ta" class="csl-entry" role="listitem">
 <span>“Promoting Reproduction and Replication at Scale.”</span> 2024. <em>Nat. Hum. Behav.</em> 8 (1): 1.
 </div>
+<div id="ref-rodriguez2022psymetadata" class="csl-entry" role="listitem">
+Rodriguez, Josue E, and Donald R Williams. 2022. <span>“Psymetadata: An r Package Containing Open Datasets from Meta-Analyses in Psychology.”</span>
+</div>
 <div id="ref-roseler2023predicting" class="csl-entry" role="listitem">
 Röseler, Lukas. 2023. <span>“Predicting Replication Rates with z-Curve: A Brief Exploratory Validation Study Using the Replication Database.”</span>
+</div>
+<div id="ref-Simmons.2012" class="csl-entry" role="listitem">
+Simmons, Joseph P., Leif D. Nelson, and Uri Simonsohn. 2012. <span>“A 21 Word Solution.”</span> <em>SSRN Electronic Journal</em>. <a href="https://doi.org/10.2139/ssrn.2160588">https://doi.org/10.2139/ssrn.2160588</a>.
 </div>
 <div id="ref-Simmons.2017" class="csl-entry" role="listitem">
 Simmons, Joseph P., and Uri Simonsohn. 2017. <span>“Power Posing: P-Curving the Evidence.”</span> <em>Psychological Science</em> 28 (5): 687–93. <a href="https://doi.org/10.1177/0956797616658563">https://doi.org/10.1177/0956797616658563</a>.
@@ -866,17 +1028,21 @@ Sotola, Lukas Karel. 2023. <span>“How Can i Study from Below, That Which Is Ab
 <div id="ref-Sotola.2022" class="csl-entry" role="listitem">
 Sotola, Lukas Karel, and Marcus Credé. 2022. <span>“On the Predicted Replicability of Two Decades of Experimental Research on System Justification: A z–Curve Analysis.”</span> <em>European Journal of Social Psychology</em> 52 (5-6): 895–909. <a href="https://doi.org/10.1002/ejsp.2858">https://doi.org/10.1002/ejsp.2858</a>.
 </div>
+<div id="ref-symonds2024quality" class="csl-entry" role="listitem">
+Symonds, Jennifer E, and Xin Tang. 2024. <span>“Quality Appraisal Checklist for Quantitative, Qualitative, and Mixed Methods Studies.”</span>
+</div>
+<div id="ref-vanpaemel2015we" class="csl-entry" role="listitem">
+Vanpaemel, Wolf, Maarten Vermorgen, Leen Deriemaecker, and Gert Storms. 2015. <span>“Are We Wasting a Good Crisis? The Availability of Psychological Research Data After the Storm.”</span> <em>Collabra</em> 1 (1): 3.
+</div>
 <div id="ref-vohs2021multisite" class="csl-entry" role="listitem">
 Vohs, Kathleen D, Brandon J Schmeichel, Sophie Lohmann, Quentin F Gronau, Anna J Finley, Sarah E Ainsworth, Jessica L Alquist, et al. 2021. <span>“A Multisite Preregistered Paradigmatic Test of the Ego-Depletion Effect.”</span> <em>Psychological Science</em> 32 (10): 1566–81.
+</div>
+<div id="ref-Wagenmakers.2007" class="csl-entry" role="listitem">
+Wagenmakers, Eric-Jan. 2007. <span>“A Practical Solution to the Pervasive Problems Ofp Values.”</span> <em>Psychonomic Bulletin <span>&amp;</span> Review</em> 14 (5): 779–804. <a href="https://doi.org/10.3758/BF03194105">https://doi.org/10.3758/BF03194105</a>.
 </div>
 <div id="ref-wilson2017good" class="csl-entry" role="listitem">
 Wilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, and Tracy K Teal. 2017. <span>“Good Enough Practices in Scientific Computing.”</span> <em>PLoS Computational Biology</em> 13 (6): e1005510.
 </div>
-=======
-<div id="ref-Feyerabend.19752002" class="csl-entry" role="listitem">
-Feyerabend, Paul K. 1975/2002. <em>Against Method</em>. Reprinted der 3. ed. 1993. London: Verso.
-</div>
->>>>>>> fafde0efa311638f4b2cb750dea40208e22560f3
 </div>
 </section>
 
@@ -1303,8 +1469,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./lösungen_system.html" class="pagination-link" aria-label="bibliographystyle: apa">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">bibliographystyle: apa</span></span>
+      <a href="./lösungen_system.html" class="pagination-link" aria-label="Das System">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Das System</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
