@@ -1,5 +1,5 @@
 ---
-title: "Probleme des Wissenschaftlichen Systems"
+title: "Das System"
 editor: visual
 format: html
 bibliography: references.bib
