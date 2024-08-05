@@ -156,7 +156,6 @@ Während Forschende oft nicht die Expertise oder die Zeit haben, ihre Manuskript
 
 Es sind wahrscheinlich alle Forschungsdisziplinen, die Statistik verwenden, von der Replikationskrise betroffen. Ganz im Sinne von "post hoc ergo propter hoc" (danach, also deswegen), wird diese Tatsache häufig so interpretiert, dass das Verwenden statistischer Methoden die Ursache für die Replikationsprobleme ist. Während dagegen argumentiert wird, dass die Methoden nur *falsch* verwendet werden [@Lakens.2021b], schlagen manche Forschende auch Veränderungen oder Alternativen vor. Eine Gruppe 72 von Psycholog\*innen hat beispielsweise gefordert, die Signifikanzgrenze für neue Befunde von 5% auf 0,5% herunterzusetzen [@Benjamin.2018], sodass p-hacking erschwert wird. Andere schlagen vor, das Null Hypothesis Significance Testing (NHST, Null-Hypothesen-Signifikanztesten) komplett zu verbannen und andere Methoden zu verwenden: @Wagenmakers.2007 plädiert für Bayesianische Statistik, und die Zeitschfit Basic and Applied Psychology verbietet die Verwendung von Signifikanztests, was das Problem von falsch-positiven Befunden möglicherweise noch vergrößert hat [@fricker2019assessing].
 
-
 ### Open Data und Open Materials
 
 -          Abbruch einer Promotion, Wechsel der Institution, usw. können dazu führen, dass wertvolle Zeit & Arbeit verloren gehen; im Extremfall wurden Tiere aufgezogen, operiert, und Forschung kann nicht weitergeführt werden wegen schlechter Dokumentierung
@@ -415,11 +414,7 @@ o   Rölle von kleinen Effekten: <https://journals.sagepub.com/doi/full/10.117
 
 o   practical relevance of small effect sizes <https://www.researchgate.net/publication/352412241_Evaluating_the_practical_relevance_of_observed_effect_sizes_in_psychological_research>
 
-<<<<<<< HEAD
 o   effect sizes guide jane guide to effect sizes and confidence intervals @jane2024
-=======
-o   effect sizes guide jane guide to effect sizes and confidence intervals
->>>>>>> fafde0efa311638f4b2cb750dea40208e22560f3
 
 o    
 
@@ -453,18 +448,7 @@ o   Berichte von Opfern von Vergewaltigungen à müssen anonymisiert werden, e
 
 -          Alternative zu Clarivate Analytics Web of Science Literaturdatenbank: <https://openalex.org> https://arxiv.org/abs/2205.01833
 
-|                                   |                               |                                 |
-<<<<<<< HEAD
-|-----------------------------------|-------------------------------|---------------------------------|
-=======
-|---------------------------|--------------------------|-----------------------|
->>>>>>> fafde0efa311638f4b2cb750dea40208e22560f3
-| **Infrastruktur**                 | **Kommerzielle Software**     | **Open Source Software**        |
-| Literaturdatenbank                | SCOPUS                        | <https://openalex.org>          |
-| Literaturverwaltung               | Citavi, Mendeley              | Zotero                          |
-| Datenerhebung                     | Unipark, Millisecond Inquisit | PsychoPy                        |
-| Datenanalyse                      | IBM SPSS, Stata               | GNU R, Python, Jupyter Notebook |
-| Begutachtung und Veröffentlichung | Editorial Manager             | Open Journal System             |
+> > > > > > > fafde0efa311638f4b2cb750dea40208e22560f3 \| **Infrastruktur** \| **Kommerzielle Software** \| **Open Source Software** \| \| Literaturdatenbank \| SCOPUS \| <https://openalex.org> \| \| Literaturverwaltung \| Citavi, Mendeley \| Zotero \| \| Datenerhebung \| Unipark, Millisecond Inquisit \| PsychoPy \| \| Datenanalyse \| IBM SPSS, Stata \| GNU R, Python, Jupyter Notebook \| \| Begutachtung und Veröffentlichung \| Editorial Manager \| Open Journal System \|
 
 ### Slow Science
 
