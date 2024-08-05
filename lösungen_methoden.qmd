@@ -143,7 +143,7 @@ plot(1:nrow(r), r$estimate
 abline(0,0)
 ```
 
-####  Reproduzierbare Manuskripte
+#### Reproduzierbare Manuskripte
 
 In der online-Version dieses Buches gibt es die Möglichkeit, vor Abbildungen einen Code anzeigen zu lassen. Mit diesem Code lässt sich die Abbildungen ganz einfach rekonstruieren bzw. reproduzieren. Auch Forschungsartikel können auf diese Weise geschrieben werden. Text, Programmiercode, sowie Ergebnisse als Zahlen, Tabellen, und Diagramme werden in einem einzelnen Programm geschrieben und Forschende ersparen sich das Kopieren oder Abtippen von Zahlen. Das Nachrechnen von Ergebnissen wird außerdem stark vereinfacht. Programmiersprachen basieren auf der sogenannten Markdown Sprache und in Programmen können unzählige weitere Programmiersprachen eingebettet sein.
 
@@ -151,13 +151,9 @@ Während Forschende oft nicht die Expertise oder die Zeit haben, ihre Manuskript
 
 ### Statistik
 
--          Bayesianische Statistik
+Es sind wahrscheinlich alle Forschungsdisziplinen, die Statistik verwenden, von der Replikationskrise betroffen. Ganz im Sinne von "post hoc ergo propter hoc" (danach, also deswegen), wird diese Tatsache häufig so interpretiert, dass das Verwenden statistischer Methoden die Ursache für die Replikationsprobleme ist. Während dagegen argumentiert wird, dass die Methoden nur *falsch* verwendet werden [@Lakens.2021b], schlagen manche Forschende auch Veränderungen oder Alternativen vor. Eine Gruppe 72 von Psycholog\*innen hat beispielsweise gefordert, die Signifikanzgrenze für neue Befunde von 5% auf 0,5% herunterzusetzen [@Benjamin.2018], sodass p-hacking erschwert wird. Andere schlagen vor, das Null Hypothesis Significance Testing (NHST, Null-Hypothesen-Signifikanztesten) komplett zu verbannen und andere Methoden zu verwenden: @Wagenmakers.2007 plädiert für Bayesianische Statistik, und die Zeitschfit Basic and Applied Psychology verbietet die Verwendung von Signifikanztests, was das Problem von falsch-positiven Befunden möglicherweise noch vergrößert hat [@fricker2019assessing].
 
--          Verbannung von NHST bei Basic and Applied Psychology, bisher mit negativen Auswirkungen, die die Probleme eventuell noch verschärfen (<https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1537892#:~:text=Part%20of%20the%20BASP%20editors,their%20expository%20text%20with%20a>)
-
-\#### Transparency Checklist
-
-### Open Data
+### Open Data und Open Materials
 
 -          Abbruch einer Promotion, Wechsel der Institution, usw. können dazu führen, dass wertvolle Zeit & Arbeit verloren gehen; im Extremfall wurden Tiere aufgezogen, operiert, und Forschung kann nicht weitergeführt werden wegen schlechter Dokumentierung
 
@@ -219,7 +215,9 @@ o   <https://www.icpsr.umich.edu/web/pages/ICPSR/index.html>
 
 o   Für Qualitative Daten: <https://qdr.syr.edu/deposit/data>
 
--          Kriterien für Daten teilen: FAIR
+Daten automatisch anonymisieren lassen mit [AMNESIA](https://amnesia.openaire.eu/)
+
+#### FAIR Kriterien für Forschungsdaten
 
 o   Pyramid of requirements <https://content.iospress.com/articles/information-services-and-use/isu805>
 
@@ -233,7 +231,7 @@ o   Ohne Fair kostet es Europäische Wirtschaft jedes Jahr 10.2 Milliarden Eur
 
 o   Feld-spezifische Templates für FAIRe daten: <https://www.cos.io/blog/cedar-embeddable-editor?utm_source=linkedin&utm_medium=social>
 
--          CARE
+#### CARE Kriterien für Forschungsdaten
 
 o   Collective benefit: Ergebnisse sind auch von Gesellschaft verwendbar, Bürgerbeteiligung
 
@@ -243,7 +241,9 @@ o   Responsibility: verschiedene Sprachenu und Weltanschauungen werden berück
 
 o   Ethics: Wertschätzung
 
--          Zeitschriften
+#### Zeitschriften und Datenbanken für Forschungsdaten
+
+Zeitschriften
 
 o   JOPD (psychologie)
 
@@ -251,7 +251,7 @@ o   Ing.grid (ingenieurswissenschaften) <https://www.inggrid.org>
 
 o   Weitere wichtige?
 
--          Beispiele für Datenbanken
+Beispiele für Datenbanken
 
 o   <https://db.mocoda2.de/c/home> Chatverläufe
 
@@ -287,13 +287,17 @@ o   Daten von Personen aus allen Feldern der Gesellschaft (crowdsourced) und �
 
 o   Andere Beispiele für Citizen Science: <https://www.buergerschaffenwissen.de> und <https://wissenschaft-im-dialog.de/mitmachen/>
 
--          Langzeitarchivierung vs. Archivierung
+::: callout-note
+## Was bedeutet Langzeitarchivierung?
+
+Langzeitarchivierung vs. Archivierung
 
 o   1000 Jahre <https://archiveprogram.github.com>
+:::
 
-Daten automatisch anonymisieren lassen mit [AMNESIA](https://amnesia.openaire.eu/)
+### Replizierbarkeit erhöhen
 
-### Replicability
+Die bisherigen Ansätze wie Meta-Analysen oder Reproduzierbarkeits-Prüfungen können häufig für bestehende Projekte durchgeführt werden. Bei den folgenden gestaltet sich das allerdings schwieriger - sie sind vor allem für neue Forschung geeignet und haben das Ziel, die Replizierbarkeit von neu veröffentlichten Studien zu erhöhen. Wie im Fazit des Buches erörtert, ist eine allgemeine, fächerübergreifende Aussage darüber, ob diese Vorschläge sich tatsächlich auf Replizierbarkeit auswirken aufgrund von seltenen Replikationsstudien schwierig. So oder so ist ihr Sinn im Hinblick auf die Probleme von Nachvollziehbarkeit und P-Hacking deutlich.
 
 \#### Assuring Replicability in Primary Research
 
@@ -309,7 +313,15 @@ Daten automatisch anonymisieren lassen mit [AMNESIA](https://amnesia.openaire.eu
 
 6.  Messungenauigkeit: <https://osf.io/2me7t>
 
-7.  
+::: callout-note
+## Transparenz-Checkliste
+
+@Aczel.2020 haben eine Checkliste entworfen, die Forschende Punkt für Punkt durchgehen können, um zu prüfen, ob ihr Forschungsbericht transparent ist. In der Online-App (https://www.shinyapps.org/apps/TransparencyChecklist/) kann anschließend ein Bericht daraus generiert werden, der an den Forschungsartikel angehängt werden kann.
+
+Die Checkliste ist in die Themen Präregistrierung, Methoden, Ergebnisse, und Daten/Code/Materialien eingeteilt. Beispielsweise wird in Bezug auf die Ergebnisse gefragt, ob die Anzahl an Beobachtungen für alle Gruppen angegeben wurde. Die Checkliste ist aktuell in ca. 30 Sprachen verfügbar, darunter auch Deutsch. Die Liste von @Aczel.2020 ist allerdings primär für quantitative Studien geeignet. Für qualitative und gemischte Studien haben @symonds2024quality ein Bewertungsschema entworfen.
+
+Eine weitere und kürzere Variante ist die 21-Worte-Lösung. Dabei wird eine vorgeschlagene Erklärung [@Simmons.2012] in den Bericht aufgenommen und versichert, dass keine Studien(ergebnisse) vorenthalten wurden. Sie ist bei weitem nicht so sicher und umfangreich wie die Transparenz-Checkliste, fördert aber niedrigschwellig die Auseinandersetzung mit Transparenz von Forschungsberichten.
+:::
 
 #### Preregistration / Präregistrierung
 
@@ -327,7 +339,7 @@ Daten automatisch anonymisieren lassen mit [AMNESIA](https://amnesia.openaire.eu
 
 -          Es sollte nicht nur über Bereitschaft von Forschenden gehen, sondern auch im Peer Review verankert werden, sauber zu präregistrieren: <https://journal.trialanderror.org/pub/reflections-on-preregistration/release/2>
 
--          Deviations:
+##### Abweichungen von Präregistrierungen
 
 o   Alle weichen ab: <https://osf.io/preprints/psyarxiv/nj4es> , <https://osf.io/f2z7y> slide 12/21
 
@@ -337,7 +349,7 @@ o   Transparent changes: <https://osf.io/6fk87>
 
 o   How to deviate: <https://osf.io/preprints/psyarxiv/ha29k>
 
--          Repositorien
+##### Wo werden Studien präregistriert?
 
 o   [https://meta-meta-resources.org/running-studies/preparation/pre-reg-repos/#](https://meta-meta-resources.org/running-studies/preparation/pre-reg-repos/)!
 
@@ -347,7 +359,9 @@ o   <https://clinicaltrials.gov>
 
 o   <http://www.crd.york.ac.uk/PROSPERO/>
 
--          Auswirkung auf Ergebnisse
+##### Nachweise der Effektivität von Präregistrierungen
+
+Effektivität wofür? Replizierbarkeit oder File-Drawer Problem?
 
 o   Wahrscheinlichkeit positiven Befunden statt \>90% dadurch nur 40-50%, Scheel, Schijen, & Lakens(2021) \[siehe auch <https://osf.io/f2z7y>, slide 17/21\]
 
@@ -370,10 +384,6 @@ OSF arbeitet neue ein <https://www.cos.io/blog/call-for-submission-for-preregist
 -   Prereg als Mittel zur Transparenz in der Forschungsplanung auch für Exploration sinnvoll, bei Hypothesentesten v.a. Eliminierung von Freiheitsgraden und Erhöhung von Vertrauen
 
 -   
-
-#### Internal Replications
-
-<https://perception.yale.edu/papers/17-Scholl-APSObserver.pdf>
 
 #### Power Analysis
 
@@ -401,23 +411,13 @@ o   Rölle von kleinen Effekten: <https://journals.sagepub.com/doi/full/10.117
 
 o   practical relevance of small effect sizes <https://www.researchgate.net/publication/352412241_Evaluating_the_practical_relevance_of_observed_effect_sizes_in_psychological_research>
 
-o   effect sizes guide jane guide to effect sizes and confidence intervals
+o   effect sizes guide jane guide to effect sizes and confidence intervals @jané2024
 
 o    
 
--          Alternative lakens paper "alternative to p-value is correctly used p-value"
+-          Alternative lakens paper "alternative to p-value is correctly used p-value" @Lakens.2021b
 
 o   Philosophische Diskussion über Nutzen von P-Werten: <https://journals.sagepub.com/doi/full/10.1177/09593543231160112> und hier <https://journals.sagepub.com/doi/10.1177/0959354312465483?icid=int.sj-full-text.similar-articles.1>
-
-#### 21 Word Solution
-
-#### Open Materials
-
-#### Transparency
-
--          Bewertungskriterien: <https://osf.io/preprints/psyarxiv/djmcq>
-
--          Transparency Checklist
 
 ### Qualitative Forschung und Open Science
 
@@ -462,15 +462,7 @@ Viele der Entwicklungen lassen sich als „langsame Wissenschaft" (oder engl. Sl
 
 -          CRediT und Übersetzungen <https://github.com/contributorshipcollaboration/credit-translation>
 
- [\[LR1\]](#_msoanchor_1)<https://journals.sagepub.com/doi/10.1177/20531680241233439>
-
- [\[LR2\]](#_msoanchor_2)viele paper von denen dazu
-
- [\[LR3\]](#_msoanchor_3)https://arxiv.org/abs/2205.01833
-
- [\[LR4\]](#_msoanchor_4)<https://www.researchgate.net/publication/377965519_Freeing_social_and_medical_scientists_from_the_replication_crisis>
-
- [\[LR5\]](#_msoanchor_5)https://arxiv.org/abs/2402.05519#:\~:text=Practical%20implications%3A%20Overall%2C%20ChatGPT%20does,steps%20to%20control%20its%20use.
+goodbye author hello contributor
 
 ### Weiterführende Informationen
 
