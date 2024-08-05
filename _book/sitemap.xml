@@ -54,11 +54,19 @@
   </url>
   <url>
     <loc>lukasroeseler.github.io/opensciencebuch/lösungen_system.html</loc>
+<<<<<<< HEAD
     <lastmod>2024-08-02T10:32:03.972Z</lastmod>
   </url>
   <url>
     <loc>lukasroeseler.github.io/opensciencebuch/lösungen_methoden.html</loc>
     <lastmod>2024-08-02T14:59:47.825Z</lastmod>
+=======
+    <lastmod>2024-08-02T09:53:33.825Z</lastmod>
+  </url>
+  <url>
+    <loc>lukasroeseler.github.io/opensciencebuch/lösungen_methoden.html</loc>
+    <lastmod>2024-08-02T10:01:39.435Z</lastmod>
+>>>>>>> fafde0efa311638f4b2cb750dea40208e22560f3
   </url>
   <url>
     <loc>lukasroeseler.github.io/opensciencebuch/lösungen_theorien.html</loc>
@@ -90,10 +98,18 @@
   </url>
   <url>
     <loc>lukasroeseler.github.io/opensciencebuch/Open-Science--Wie-sich-die-Wissenschaft-öffnet.pdf</loc>
+<<<<<<< HEAD
     <lastmod>2024-08-02T15:04:16.890Z</lastmod>
   </url>
   <url>
     <loc>lukasroeseler.github.io/opensciencebuch/Open-Science--Wie-sich-die-Wissenschaft-öffnet.epub</loc>
     <lastmod>2024-08-02T15:04:26.842Z</lastmod>
+=======
+    <lastmod>2024-08-02T10:02:12.007Z</lastmod>
+  </url>
+  <url>
+    <loc>lukasroeseler.github.io/opensciencebuch/Open-Science--Wie-sich-die-Wissenschaft-öffnet.epub</loc>
+    <lastmod>2024-08-02T10:02:22.072Z</lastmod>
+>>>>>>> fafde0efa311638f4b2cb750dea40208e22560f3
   </url>
 </urlset>
