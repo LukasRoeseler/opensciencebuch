@@ -449,7 +449,7 @@ o   Berichte von Opfern von Vergewaltigungen à müssen anonymisiert werden, e
 -          Alternative zu Clarivate Analytics Web of Science Literaturdatenbank: <https://openalex.org> https://arxiv.org/abs/2205.01833
 
 |                                   |                               |                                 |
-|--------------------------|-----------------------|------------------------|
+|-----------------------------------|-------------------------------|---------------------------------|
 | **Infrastruktur**                 | **Kommerzielle Software**     | **Open Source Software**        |
 | Literaturdatenbank                | SCOPUS                        | <https://openalex.org>          |
 | Literaturverwaltung               | Citavi, Mendeley              | Zotero                          |
