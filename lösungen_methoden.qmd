@@ -170,7 +170,7 @@ Die wichtigsten Voraussetzungen dafür, dass Forschende Daten teilen können, si
 Je nach Fach und Institution werden Forschungsdaten an unterschiedlichen Stellen archiviert. Universitäten haben häufig eigene Services, für die Auffindbarkeit bieten sich aber üblicherweise fachspezifische Repositorien an: Psycholog\*innen nutzen häufig das [Open Science Framework (OSF)](https://osf.io/), [PsychArchives](https://www.psycharchives.org) vom Leibniz-Institut für Psychologie, oder [Researchbox.org](researchbox.org). Für die Wirtschaftswissenschaften bietet das Leibniz-Institut für Sozialwissenschaften mit [GESIS](https://www.gesis.org/datenservices/daten-teilen) verschiedene Hilfen. Mit [LISTER](https://www.nfdi4chem.de/de/lister-halbautomatische-metadatenextraktion-aus-kommentierter-experimentdokumentation-in-elabftw/) wird in der Chemie an Software gearbeitet, mittels derer Daten auf Basis von elektronischen Laborbüchern halbautomatisiert beschrieben werden können. [Re3data](https://www.re3data.org) bietet eine Übersicht über Forschungsdatenrepositorien (z.B. nach Fächern).
 
 | Fach/Disziplin                    | Repositorium                                          |
-|-----------------------------------|-------------------------------------------------------|
+|----------------------------|--------------------------------------------|
 | Psychologie                       | osf.io                                                |
 | Sozialwissenschaften              | data.gesis.org                                        |
 | Politik- und Sozialwissenschaften | icpsr.umich.edu                                       |
@@ -240,21 +240,7 @@ Drittmittelgeber fordern gelegentlich Langzeitarchivierung. Das bedeutet je nach
 
 ### Replizierbarkeit erhöhen
 
-Die bisherigen Ansätze wie Meta-Analysen oder Reproduzierbarkeits-Prüfungen können häufig für bestehende Projekte durchgeführt werden. Bei den folgenden gestaltet sich das allerdings schwieriger - sie sind vor allem für neue Forschung geeignet und haben das Ziel, die Replizierbarkeit von neu veröffentlichten Studien zu erhöhen. Wie im Fazit des Buches erörtert, ist eine allgemeine, fächerübergreifende Aussage darüber, ob diese Vorschläge sich tatsächlich auf Replizierbarkeit auswirken aufgrund von seltenen Replikationsstudien schwierig. So oder so ist ihr Sinn im Hinblick auf die Probleme von Nachvollziehbarkeit und P-Hacking deutlich.
-
-\#### Assuring Replicability in Primary Research
-
-1.  Replikationsstudien in Sozialpsychologie schwierig wegen Anreizstruktur und Ressourcen https://doi.org/10.1027/1864-9335/a000548
-
-2.  Andere Felder, Soziologie, Präregistrierung: <https://www.researchgate.net/publication/368454140_Preregistration_and_Registered_Reports_in_Sociology_Strengths_Weaknesses_and_Other_Considerations>
-
-3.  
-
-4.  Irise project (EU-gefördertes Projekt): <https://irise-project.eu/research-outputs>
-
-5.  
-
-6.  Messungenauigkeit: <https://osf.io/2me7t>
+Die bisherigen Ansätze wie Meta-Analysen oder Reproduzierbarkeits-Prüfungen können häufig für bestehende Projekte durchgeführt werden. Bei den folgenden gestaltet sich das allerdings schwieriger - sie sind vor allem für neue Forschung geeignet und haben das Ziel, die Replizierbarkeit von neu veröffentlichten Studien zu erhöhen. Wie im Fazit des Buches erörtert, ist eine allgemeine, fächerübergreifende Aussage darüber, ob diese Vorschläge sich tatsächlich auf Replizierbarkeit auswirken aufgrund von seltenen Replikationsstudien schwierig. Selbst in der Sozialpsychologie sind Replikationen aktuell noch immer die am schwächsten umgesetzte Maßnahme unter allen Empfehlungen zu Open Science [@glockner2024quality]. So oder so ist der Sinn der Maßnahmen, die allgemein die Transparenz von Forschung erhöhen, im Hinblick auf Replikationsschwierigkeiten und P-Hacking deutlich.
 
 ::: callout-note
 ## Transparenz-Checkliste
@@ -266,67 +252,51 @@ Die Checkliste ist in die Themen Präregistrierung, Methoden, Ergebnisse, und Da
 Eine weitere und kürzere Variante ist die 21-Worte-Lösung. Dabei wird eine vorgeschlagene Erklärung [@Simmons.2012] in den Bericht aufgenommen und versichert, dass keine Studien(ergebnisse) vorenthalten wurden. Sie ist bei weitem nicht so sicher und umfangreich wie die Transparenz-Checkliste, fördert aber niedrigschwellig die Auseinandersetzung mit Transparenz von Forschungsberichten.
 :::
 
-#### Preregistration / Präregistrierung
+#### Präregistration (Preregistration)
 
--   Erklärung
+Forschung ist entweder konfirmatorisch (d.h. Forschende haben sich im Vorhinein klare Gedanken dazu gemacht, welche Daten sie erheben, welche Analysen sie rechnen, und was dabei die möglichen Ergebnisse sein könnten), oder exploratorisch (d.h. Forschende versuchen, unvoreingenommen an eine Sache heranzugehen und dabei Fragen für zukünftige, möglicherweise konfirmatorische Forschung, zu generieren). Wann immer Forschung konfirmatorisch ist, sollte sie *präregistriert* sein. Das bedeutet, dass alle Gedanken, die sich Forschende im Vorhinein gemacht haben sollten, vor der Datenerhebung niedergeschrieben werden sollten. Präregistrierungen sollen damit verhindern, dass sich Forschende in einem *Garden of Forking Paths* befinden, bzw. helfen sie, den Pfad im Vorhinein festzulegen, damit es im Nachhinein nicht mehr möglich ist, den Pfad zu ändern, um die gewünschten Ergebnisse zu generieren.
 
--   Gütekriterien: Struktur + Vollständigkeit (simmons nelson vs. Pham consumer psych)
+![](images/gardenofforkingpaths_prereg.jpg)
 
--   Analyseplan wichtig, um wirklich P-Hacking vorzubeugen: <https://www.journals.uchicago.edu/doi/abs/10.1086/730455>
+Eine gute Päregistrierung ist dadurch gekennzeichnet, dass Forschende sich damit aller Freiheitsgrade berauben [@Wicherts.2016] und alle Entscheidungen, die sie auf dem Weg von den Daten zu den Ergebnissen fällen, vorweg nehmen. Darüber hinaus sollten Präregistrierungen gut strukturiert sein, damit andere Personen leicht nachprüfen können, was vorher festgelegt wurde [@Simmons.2020b]. Um alle nötigen Entscheidungen (z.B. Umgang mit fehlenden Werten oder geplante Anzahl an befragten Personen) strukturiert festzuhalten, gibt es Präregistrierungs-Vorlagen (Templates). Diese existieren für alle möglichen Bereiche, wie sozialpsychologische Experimente [@vantVeer.2016] oder Replikationsstudien [@Brandt.2014]. Eine Sammlung von über 20 Vorlagen mit Verwendungszwecken ist [hier](https://osf.io/7xrn9) verfügbar. Forschende, die noch wenig Erfahrung in bestimmten Bereichen haben, werden durch das Template unterstützt. Beispielsweise enthalten Preregistration-Templates für Meta-Analysen Übersichten von Literaturdatenbanken und beinhalten bereits Goldstandards zu transparenten Berichten [PRISMA; @DavidMoher.]. Darüber hinaus können die Unterlagen der Präregistrierung für das Manuskript weiterverwendet werden.
 
--   <https://www.researchgate.net/publication/375575020_Preregistration_in_practice_A_comparison_of_preregistered_and_non-preregistered_studies_in_psychology>
+#### Präregistrierung immer mit Analyse-Plan und Analyse-Code
 
--   High replicability neues project <https://www.nature.com/articles/s41562-023-01749-9> \[hierzu Infobox, dass es umstritten ist, weil sie intransparent von der Präregistrierung abgewichen sind\]
+Bezüglich der Verbreitung von Präregistrierungen existiert der Konflikt, ob sie möglichst einfach und ressourcenschonend eingeführt werden sollten, oder ob umfangreiche und aufwändig erstellte Präregistrierungen gefordert werden sollten. Beispielsweise besteht das [häufig genutzte](https://datacolada.org/115) Template von aspredicted.org aus nur 11 Fragen und beinhaltet nicht die Möglichkeit, den Analysecode oder andere Dateien anzuhängen. Da der Zweck von Präregistrierungen das Verhindern von P-Hacking ist, sind Kompromisse beim Umfang von Präregistrierungen unsinnig.
 
--   Prävalenz: <https://datacolada.org/115>
-
--   Es sollte nicht nur über Bereitschaft von Forschenden gehen, sondern auch im Peer Review verankert werden, sauber zu präregistrieren: <https://journal.trialanderror.org/pub/reflections-on-preregistration/release/2>
+Der Analyse-Code basiert auf einem bestimmten Programm und einer entsprechenden Programmiersprache und führt die Aufbereitung der Daten (z.B. Berechnung von Scores, Ausschluss von Beobachtungen) und die Analysen durch. Traditionell wird er nach Erhebung der Daten geschrieben. Dadurch kann es passieren, dass Studien wertlos sind, weil erst nach der Datenerhebung auffällt, dass die geplanten Analysen nicht möglich sind, und dass Studien so ausgewertet werden, dass dabei die gewünschten Ergebnisse herauskommen (p-hacking). @van2023preregistration konnten für psychologische Forschungsartikel nicht nachweisen, dass Präregistrierungen gegen P-Hacking wirken, haben aber nicht zwischen Präregistrierungen mit und ohne Analyseplan differenziert. Für Registered Reports, bei denen üblicherweise ein ausgearbeiteter Analyseplan gefordert wird, konnten @scheel2021excess zeigen, dass der Anteil an hypothesenkonformen Ergebnissen stark absinkt. @brodeur2024preregistration konnten mit tausenden statistischen Tests aus wirtschaftswissenschaftlichen Forschungsartikeln nachweisen, dass Präregistrierung nur dann gegen P-Hacking wirkt, wenn ein Analyse-Plan vorliegt. Vom Analyse*-Plan* unterscheidet sich der Analyse-*Code* dadurch, dass er unmissverständlich ist. Im Plan könnte beispielsweise stehen "wir berechnen die Korrelation zwischen Variable X und Variable Y und prüfen, ob sie signifikant ist". Dabei wird nicht spezifiziert, welches Signifikanzniveau verwendet wird, ob ein einseitiger oder zweiseitiger Signifikanztest durchgeführt wird, welche Art der Korrelation berechnet wird (Produkt-Moment, Spearman, Kendall), wie mit fehlenden Werten umgegangen wird, usw. Die Wahrscheinlichkeit, ein signifikantes Ergebnis zu erhalten, wenn die wahre Korrelation 0 ist, steigt dann von dem festgelegten Signifikanzniveau von beispielsweise 5% auf 10%. Das kann mit Programmiercode (z.B. "cor.test(x, y)") nicht passieren, da dort klar definiert ist, welche Standardeinstellungen verwendet werden, wenn etwas nicht spezifiziert ist. Gutachter\*innen von Forschung sollten also klar darauf achten, was alles zur Präregistrierung gehört [@thibault2023reflections].
 
 #### Abweichungen von Präregistrierungen
 
-o Alle weichen ab: <https://osf.io/preprints/psyarxiv/nj4es> , <https://osf.io/f2z7y> slide 12/21
-
-o niemand prüft auf Abweichungen: <https://osf.io/preprints/psyarxiv/nh7qw>
-
-o Transparent changes: <https://osf.io/6fk87>
-
-o How to deviate: <https://osf.io/preprints/psyarxiv/ha29k>
+„Je planmässiger Menschen vorgehen, desto wirksamer trifft sie der Zufall" heißt es in Friedrich Dürrenmatts 21 Punkten zu "Die Physiker" [@durrenmatt2012p]. Auch bei Präregistrierungen gilt, dass Forschende nicht alle Eventualitäten antizipieren können. Es ist also damit zu rechnen, dass aufgrund von Programmierfehlern, Denkfehlern, oder zuvor unberücksichtigten Argumenten anders vorgegangen werden muss, als es in der Präregistrierung festgelegt wurde. Abweichungen von Präregistrierungen kommen sehr häufig vor [@Heirene.2021], beispielsweise ist die tatsächliche Stichprobengröße in [mehr als 50% der Fälle](https://osf.io/f2z7y) nicht genau die Zielstichprobe. Den richtigen Umgang zeichnet dann wieder einmal die Transparenz aus: Jede Abweichung sollte klar kommuniziert werden und es sollte diskutiert werden, weshalb abgewichen wurde, und wie sich die Abweichung auf die Ergebnisse auswirkt (z.B. indem geprüft wird, ob sich Ergebnisse ändern, wenn die Zielstichprobe statt die Gesamtstichprobe mit mehr Beobachtungen als geplant verwendet wird) [@Heirene.2021; siehe auch @lakens2024and]. Aktuell prüfen Gutachter\*innen keine Präregistrierungen und keine Abweichungen [@syed2023some; @targ2021estimating].
 
 #### Wo werden Studien präregistriert?
 
-o [https://meta-meta-resources.org/running-studies/preparation/pre-reg-repos/#](https://meta-meta-resources.org/running-studies/preparation/pre-reg-repos/)!
+Für die Präregistrierung von Studien existiert bereits eine breite Infrastruktur. Forschende können Studien beispielsweise über das Open Science Framework (osf.io) präregistrieren und dort ebenfalls Daten, Materialien, Analysen, und Manuskripte hochladen sowie später Pre-Prints veröffentlichen. Projekte und Präregistrierungen können dabei auch privat oder anonymisiert bleiben, wobei für Präregistrierungen ein mehrjähriges Embargo festgelegt werden kann, also eine Zeit, in der die Präregistrierung noch nicht öffentlich ist und nur mit einem speziellen Link abgerufen werden kann. Alle öffentlichen Präregistrierungen werden automatisch von Google Scholar indiziert und sind danach auch auffindbar, zitierbar, und auch in der [OSF-Suchmaschine](https://osf.io/registries) sichtbar. Im OSF können offene Vorlagen aber auch spezifische existierende Vorlagen wie von @Brandt.2014 für die Präregistrierung verwendet werden ([weitere Templates](https://www.cos.io/blog/call-for-submission-for-preregistration-templates) werden zukünftig eingearbeitet).
 
-o <https://www.alltrials.net>
+Ein weiterer Anbieter von Präregistrierungen ist aspredicted.org, wobei dort keine Dateien angehängt werden können und die 11 Fragen vor allem für klassische psychologische Untersuchungen passend sind. Medizinische Studien werden - meistens ohne die für eine eigentliche Präregistrierung wichtigen Angaben - via <https://clinicaltrials.gov> und Meta-Analysen via PROSPERO (<http://www.crd.york.ac.uk/PROSPERO/>) registriert.
 
-o <https://clinicaltrials.gov>
+::: callout-note
+## Checkliste zum Präregistrieren
 
-o <http://www.crd.york.ac.uk/PROSPERO/>
+**Vor der Studiendurchführung**
 
-#### Nachweise der Effektivität von Präregistrierungen
+-   Methodik und Analyseplan der Studie wurden vollständig und strukturiert (idealerweise mittels Template) beschrieben
 
-Effektivität wofür? Replizierbarkeit oder File-Drawer Problem?
+-   Analyseskript wurde mithilfe von Testdaten oder Zufallszahlen geschrieben und funktioniert
 
-o Wahrscheinlichkeit positiven Befunden statt \>90% dadurch nur 40-50%, Scheel, Schijen, & Lakens(2021) \[siehe auch <https://osf.io/f2z7y>, slide 17/21\]
+-   Präregistrierung wurde vor der Studie mit einem Zeitstempel archiviert (z.B. via OSF.io)
 
-o <https://drive.google.com/file/d/1gcyBE78tb9zerl4M35uS3npVGvMp-MPZ/view> The effectiveness of preregistration in psychology: Assessing preregistration strictness and preregistration-study consistency olmo van den akker[\[LR2\]](#_msocom_2)
+**Nach der Studiendurchführung**
 
-\##### Pre-Registration templates what is a good prereg? (see Simmons et al) What to preregister? Analysis script
+-   Link zur Präregistrierung ist im Manuskript hinterlegt (z.B. beim Methodenteil oder in einem Absatz über Transparent und Offenheit der Studie, idealerweise gepaart mit Links zu Daten und Materialien)
 
-OSF arbeitet neue ein <https://www.cos.io/blog/call-for-submission-for-preregistration-templates>
+-   Alle Abweichungen von der Präregistrierung sind aufgelistet und begründet
+:::
 
--   
+#### Was, wenn nicht die gewünschten Ergebnisse herauskommen?
 
--   Diskrepanz zwischen Präregistrierung/Prereg und Publikation: <https://bmjopen.bmj.com/content/13/10/e076264.long>
-
--   
-
--   Kritik: <https://journals.sagepub.com/doi/10.1037/gpr0000135>
-
--   
-
--   Prereg als Mittel zur Transparenz in der Forschungsplanung auch für Exploration sinnvoll, bei Hypothesentesten v.a. Eliminierung von Freiheitsgraden und Erhöhung von Vertrauen
-
--   
+Eine Frage, die mich Forschende häufig im Gespräch über Präregistrierung stellen, demonstriert erneut die Diskrepanz zwischen *Forschung, die gut für die Wissenschaft ist*, und *Forschung, die gut für die Karriere ist*. Eine Präregistrierung verhindert, dass Ergebnisse geschönigt werden können (P-Hacking). Dadurch steigt das Risiko, Ergebnisse zu erhalten, die sich nicht gut veröffentlichen lassen, beispielsweise weil sie nicht bahnbrechend oder wie erwartet sind. Während eine Präregistrierung also Forschende auszeichnet, die an guter Wissenschaft interessiert sind, kann es aktuell und in verschiedenen Forschungsdisziplinen für die Karriere negative Folgen haben, Daten nicht zu schönigen.
 
 #### Power Analysis
 
