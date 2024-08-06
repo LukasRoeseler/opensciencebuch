@@ -304,58 +304,48 @@ Eine weitere Methode, die vorwiegend für konfirmatorische Forschung mit statist
 
 Poweranalysen sind schon lange bekannt und es wird zumindest in der Psychologie regelmäßig kritisiert, dass sie zu selten durchgeführt werden [@Cohen.1988; @Cohen.1992; @Cohen.2013]. Während sie häufig noch nicht oder unzureichend in die Methodenausbildung von Studierenden eingebunden sind, gibt es inzwischen umfangreiche Anleitungen [@Lakens.2021], Programme [@Zhang.2022; @Champely.2020; @Faul.2007; @Faul.2009], und [Video-Tutorials](https://www.youtube.com/watch?v=XhfkodpyIsw). Inzwischen wurden Methoden auch für alternative Signifikanztests [Äquivalenztests; @Lakens.2017; @Lakens.2018] und Replikationen [@Simonsohn.2015] entwickelt. Eine besondere Art der Stichprobenplanung basiert auf Bayesianischer Statistik und wird vor allem in ethisch bedenklichen Situationen wie der Verhaltensforschung bei Tieren empfohlen: @richter2024challenging schlägt dazu vor, den sogenannten Bayes-Faktor, der im Gegensatz zu P-Werten der Signifikanztests auch bei fehlenden Zusammenhängen konvergiert, nach jeder Beobachtung oder jeder Versuchsdurchführung zu berechnen und die Studie abzuschließen, sobald ein bestimmter Wert überschritten wurde. Wichtig ist dabei, dass sich dieses Vorgehen explizit nur für Bayesianische Ansätze eignet.
 
-#### Noch mehr Statistik
+#### Effektstärken statt P-Werte
 
-Es ist inzwischen klar, dass statistische Methoden häufig missverstanden und falsch gebraucht werden [@perezgonzalez2014reconceptualization; @lakens2021practical; @gigerenzer2004mindless]. Aktuell verlagert sich die Diskussion von P-Werten hin zu Effektstärken und der Frage, welche Rolle verschiedene Werte spielen. Beispielsweise konnten @vohs2021multisite nachweisen, dass es den umstrittenen Effekt der verschwindenden Selbstkontrolle im *Ego Depletion Paradigma* gibt (er also nicht gleich 0 ist), allerdings war er in ihrer Untersuchung so klein, dass man alleine für einen erfolgreichen Nachweise über 6.700 Versuchsperson benötigen würde - mehr als jedes Experiment, das jemals zu dem Thema durchgeführt wurde und fast doppelt so viel wie die 3.524 Versuchspersonen von @vohs2021multisite.
+Es ist inzwischen klar, dass statistische Methoden häufig missverstanden und falsch gebraucht werden [@perezgonzalez2014reconceptualization; @lakens2021practical; @gigerenzer2004mindless]. Aktuell verlagert sich die Diskussion von P-Werten [@uygun2023epistemic] hin zu Effektstärken und der Frage, welche Rolle verschiedene Werte spielen. Beispielsweise konnten @vohs2021multisite nachweisen, dass es den umstrittenen Effekt der verschwindenden Selbstkontrolle im *Ego Depletion Paradigma* gibt (er also nicht gleich 0 ist), allerdings war er in ihrer Untersuchung so klein, dass man alleine für einen erfolgreichen Nachweise über 6.700 Versuchsperson benötigen würde - mehr als jedes Experiment, das jemals zu dem Thema durchgeführt wurde und fast doppelt so viel wie die 3.524 Versuchspersonen von @vohs2021multisite. Dabei ist umstritten, ob Forschende sich für leicht nachweisbare Phänomene, sogenannte "niedrig hängende Äpfel" [@Baumeister.2020] konzentrieren sollten, ob es eine Grenze gibt, ab der Phänomene praktisch nicht erforschbar und damit nicht von Interesse sind [@primbs2023small], und welche praktische Relevanz sie haben [@anvari2021evaluating].
 
 ```{r}
 #| code-fold: true
 d <- 0.08 # Cohen's d = 0.08, 95% CI [0.01, 0.15], p. 45 hier: https://www.psychologie.uni-wuerzburg.de/fileadmin/06020231/pubs/eder/Vohs_et_al_-paradigmatic_depletion_MS_final.pdf
 n_per_cell <- power.t.test(n = NULL, delta = d, power = .95, type = "two.sample", alternative = "one.sided")$n
-ceiling(n_per_cell*2)
+n_minimum <- ceiling(n_per_cell*2)
 ```
 
-o Rölle von kleinen Effekten: <https://journals.sagepub.com/doi/full/10.1177/17456916221100420>
-
-o practical relevance of small effect sizes <https://www.researchgate.net/publication/352412241_Evaluating_the_practical_relevance_of_observed_effect_sizes_in_psychological_research>
-
-o effect sizes guide jane guide to effect sizes and confidence intervals @jane2024guide
-
--   Alternative lakens paper "alternative to p-value is correctly used p-value" @Lakens.2021b
-
-o Philosophische Diskussion über Nutzen von P-Werten: <https://journals.sagepub.com/doi/full/10.1177/09593543231160112> und hier <https://journals.sagepub.com/doi/10.1177/0959354312465483?icid=int.sj-full-text.similar-articles.1>
-
-### Qualitative Forschung und Open Science
+### Qualitative Forschung
 
 Bei qualitativer Forschung steht im Vorhinein häufig keine klare Fragestellung fest, sondern sie wird im Forschungsprozess entwickelt. Neben Anonymisierung [@campbell2023open] nimmt daher auch die Präregistrierung eine besondere Rolle ein. Trotzdem gibt es typische Abläufe, bei denen beispielsweise Entscheidungen über die Kodierung von Antworten getroffen werden - und die lassen sich mit dafür vorgesehenen [Templates](https://docs.google.com/document/d/16vLoRAs6RmXKy0v1RCx6osSaYk4r64Hgl6S4_KtWbeM/edit#heading=h.fwbi14d4b65g) präregistrieren.
 
 ### Open Source Software
 
--   Research Software Engineering (RSE) \[siehe auch oben bei reproducible code, aber hier sollte das meiste dazu stehen\]
+Forschung ohne Programme zur Literaturrecherche, -verwaltung, Datenanalyse, und Schreiben von wissenschaftlichen Texten ist in den meisten Disziplinen undenkbar. Im Bereich der Software heißt der relevante Bereich "Research Software Engineering" (Technik der Forschungs-Software) und die Herausforderung besteht darin, dass Forschende, obwohl sie bisher kaum in Kontakt mit dem Schreiben von Software (z.B. Analysecode) in Berührung gekommen sind, Expertise in diesem Bereich sammeln. Das beginnt bei allgemeinen Empfehlungen im "Sprachgebrauch" von Programmiersprachen (z.B. [Zen of Python](https://en.wikipedia.org/wiki/Zen_of_Python)) bis hin zum gemeinsamen Zusammenarbeiten über Systeme wie Github oder Gitlab.
 
--   Non proprietär à Gefahr vor Lock-in
+Open Source bedeutet dabei, dass der Quelltext eines Programmes lesbar und kostenlos weiterverwendbar ist. Somit ist nachvollziehbar, was genau in dem Programm geschieht. Während beispielsweise die Statistiksoftware IBM SPSS keinen solchen Code hat, lässt sich in GNU R jeder Schritt bei der Berechnung statistischer Modelle nachvollziehen. Fehler in der Software können nur bei Open Source Programmen entdeckt werden und gefährden die Wissenschaft [@soergel2014rampant]. Beispielsweise wurde Software zur Auswertung von fMRI-Daten (also einer Art des "Gehirn-Scans") erst 15 Jahre nach deren Einführung verwendet und deren Qualität war unzureichend [@eklund2016cluster]. Darüber hinaus besteht bei proprietärer Software, also Software, die einem Unternehmen oder einer Person "gehört", die Gefahr des *Lock-In*: Personen verlassen sich auf das Programm und stimmen ihre Arbeitsprozesse stark darauf ab. Irgendwann sind sie davon abhängig, können beispielsweise ihre Daten nur noch mit dem einen Programm verwalten oder ein Wechsel würde enorme Kosten nach sich ziehen [@Brembs.2023]. Eine Lizenz, anhand der sich Open Source Software erkennen lässt, ist die [GNU Lizenz](https://de.wikipedia.org/wiki/GNU-Lizenz_für_freie_Dokumentation). Weit verbreitete proprietäre Software über die Forschung hinaus ist beispielsweise Microsoft Windows und die Office Pakete, Adobe Acrobat zum Lesen von PDF Dateien, oder Zoom für Videotelefonate.
 
--   GNU Lizenz
+Kurz: Für die Forschung, bei welcher die Nachvollziehbarkeit eine vorrangige Rolle spielt, sollte wenn möglich nur auf Open Source Software zurückgegriffen werden. Für manche Methoden ist das aktuell nicht möglich, dort ist es Aufgabe der Hochschulbibliotheken als Verwalterinnen des Wissens [@Quan2021-tp] und Fachgesellschaften als Anlaufstelle der Disziplinen, die nötige Infrastruktur zu stellen oder entwickeln zu lassen.
 
--   Open Source Bedeutung
+| Infrastruktur                     | Kommerzielle Software         | Non-Kommerzielle Software                                             |
+|-----------------------------------|-------------------------------|-----------------------------------------------------------------------|
+| Literaturdatenbank                | SCOPUS                        | OpenAlex [@priem2022openalex]                                         |
+| Literaturverwaltung               | Citavi, Mendeley              | Zotero [@puckett2011zotero]                                           |
+| Datenerhebung                     | Unipark, Millisecond Inquisit | PsychoPy [@peirce2022building]                                        |
+| Statistische Datenanalyse         | IBM SPSS, Stata               | GNU R [@RCoreTeam.2018], PSPP [@yagnik2014pspp], JASP [@love2019jasp] |
+| Begutachtung und Veröffentlichung | Editorial Manager             | Open Journal System [@willinsky2005open]                              |
 
--   Bibliotheken, die Wissen verwalten, positionieren sich neu, um nun Infrastruktur zu stellen (z.B. [https://www.cambridge.org/core/books/abs/data-science-in-the-library/toward-reproducibility-academic-libraries-and-open-science/6FB18D7BCD8B82E597ED0D4B390C72EE#](https://www.cambridge.org/core/books/abs/data-science-in-the-library/toward-reproducibility-academic-libraries-and-open-science/6FB18D7BCD8B82E597ED0D4B390C72EE))
-
--   Von Chan-Zuckerberg-Initiative Unternehmen: <https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/>
-
--   Alternative zu Clarivate Analytics Web of Science Literaturdatenbank: <https://openalex.org> https://arxiv.org/abs/2205.01833
-
-I**nfrastruktur** \| **Kommerzielle Software** \| **Open Source Software** \| \| Literaturdatenbank \| SCOPUS \| <https://openalex.org> \| \| Literaturverwaltung \| Citavi, Mendeley \| Zotero \| \| Datenerhebung \| Unipark, Millisecond Inquisit \| PsychoPy \| \| Datenanalyse \| IBM SPSS, Stata \| GNU R, Python, Jupyter Notebook \| \| Begutachtung und Veröffentlichung \| Editorial Manager \| Open Journal System
+: Kommerzielle und Non-Kommerzielle Software
 
 ### Slow Science
 
-Viele der Entwicklungen lassen sich als „langsame Wissenschaft" (oder engl. Slow Science) zusammenfassen. Der traditionellen Produktion von Forschungsartikeln steht die achtsame Auseinandersetzung entgegen. Dass viele der vorgeschlagenen Lösungen im Wettbewerb um veröffentlichte Forschungsartikel nachteilig sind, kritisiert beispielsweise Hyman (2024 <https://www.researchgate.net/publication/377965519_Freeing_social_and_medical_scientists_from_the_replication_crisis> ). Er schlägt stattdessen vor, die Probleme mittels künstlicher Intelligenz zu lösen. Verlage wie Elsevier benutzen diese beispielsweise bereits für Peer Review ([https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-the-review-process](#0){.uri}), wenngleich Modelle wie ChatGPT 4.0 nicht dafür geeignet sind https://arxiv.org/abs/2402.05519#:\~:text=Practical%20implications%3A%20Overall%2C%20ChatGPT%20does,steps%20to%20control%20its%20use. ).
+Viele der Open Science Entwicklungen lassen sich als „langsame Wissenschaft" (oder engl. Slow Science) zusammenfassen. Der traditionellen Massenproduktion von qualitativ minderwertigen Forschungsartikeln steht die achtsame Auseinandersetzung und gründliche Prüfung entgegen. Dass viele der vorgeschlagenen Lösungen im Wettbewerb um veröffentlichte Forschungsartikel nachteilig sind, kritisiert beispielsweise @hyman2024freeing. Er schlägt stattdessen vor, die Probleme mittels künstlicher Intelligenz zu lösen. Verlage wie Elsevier benutzen diese beispielsweise [bereits für Peer Review](https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-the-review-process), wenngleich Modelle wie ChatGPT 4.0 nicht dafür geeignet sind [@thelwall2024can].
 
 ### Big Team Science
 
--   CRediT und Übersetzungen <https://github.com/contributorshipcollaboration/credit-translation>
+Großangelegte Forschungsprojekte wie ManyBabies [@byers2020building], Replikationsprojekte [@OpenScienceCollaboration.2015], Initiativen wie FORRT [@Azevedo2019-df], und Software-Entwicklung wie GNU R [@RCoreTeam.2018] haben gezeigt, wozu große Gruppen Forschender fähig sind und dass sich viele der aktuellen Probleme nicht durch einzelne Forschende lösen lassen. In der Physik wird der Rekord an der größten Anzahl an Autor\*innen von einer Studie am CERN zum Higgs Boson gehalten. Ungefähr 15 der 33 Seiten bestehen aus den Namen der Beteiligten - mit weiteren Seiten für die Institutionen [@aad2015combined]. Dabei wandelt sich das Konzept von Autoren und Autorinnen hin zu Mitwirkenden [Contributors; @holcombe2019farewell].
 
-goodbye author hello contributor
+Um klar anzugeben, wer was getan hat, können Forschende die Contributor Roles Taxonomy [CRediT; @holcombe2019contributorship] verwenden, die aus standardisierten Rollenbeschreibungen besteht. Mittels Apps können dann einfache Tabellen oder Listen erstellt werden, aus denen die Beiträge aller Mitwirkenden ersichtlich werden [@holcombe2020documenting].
 
 ### Weiterführende Informationen
 
@@ -378,5 +368,7 @@ goodbye author hello contributor
 -   Offene Lehrmaterialien zu FAIR Data werden von [Jürgen Schneider](https://j-5chneider.github.io/PTOS-open-data/) und von der [Universitätsbibliothek Mannheim](https://github.com/UB-Mannheim/awesome-RDM) bereitgestellt
 
 -   Beispiele für Citizen Science und Möglichkeiten zum Mitmachen sind auf [Buergerschaffenwissen.de](https://www.buergerschaffenwissen.de) und [Wissenschaft-im-Dialog.de](https://wissenschaft-im-dialog.de/mitmachen/).
+
+-   Einen Überblick und Übersetzungen der Contributor Roles Taxonomy gibt es online: <https://github.com/contributorshipcollaboration/credit-translation>
 
 ### Literatur
