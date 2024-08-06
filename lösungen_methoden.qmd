@@ -298,35 +298,28 @@ Ein weiterer Anbieter von Präregistrierungen ist aspredicted.org, wobei dort ke
 
 Eine Frage, die mich Forschende häufig im Gespräch über Präregistrierung stellen, demonstriert erneut die Diskrepanz zwischen *Forschung, die gut für die Wissenschaft ist*, und *Forschung, die gut für die Karriere ist*. Eine Präregistrierung verhindert, dass Ergebnisse geschönigt werden können (P-Hacking). Dadurch steigt das Risiko, Ergebnisse zu erhalten, die sich nicht gut veröffentlichen lassen, beispielsweise weil sie nicht bahnbrechend oder wie erwartet sind. Während eine Präregistrierung also Forschende auszeichnet, die an guter Wissenschaft interessiert sind, kann es aktuell und in verschiedenen Forschungsdisziplinen für die Karriere negative Folgen haben, Daten nicht zu schönigen.
 
-#### Power Analysis
+#### Stichprobenumfang planen
 
--   Power
+Eine weitere Methode, die vorwiegend für konfirmatorische Forschung mit statistischen Methoden zu empfehlen ist, ist die Planung des Stichprobenumfanges. Diese Planung kann auf Ressourcen oder auf Basis anderer Rahmenbedingungen passieren, wird in den Sozialwissenschaften und der Medizin aber häufig mittels Power-Analysen gemacht. Statistische Power ist dabei die Wahrscheinlichkeit, einen Zusammenhang einer gewissen Größe zu finden, wenn tatsächlich ein Zusammenhang vorliegt. Die Logik ist dabei, dass ein Zusammenhang *nicht* deshalb nicht gefunden werden soll, weil die Studie nicht dafür geeignet war.
 
--   Small-telescopes approach
+Poweranalysen sind schon lange bekannt und es wird zumindest in der Psychologie regelmäßig kritisiert, dass sie zu selten durchgeführt werden [@Cohen.1988; @Cohen.1992; @Cohen.2013]. Während sie häufig noch nicht oder unzureichend in die Methodenausbildung von Studierenden eingebunden sind, gibt es inzwischen umfangreiche Anleitungen [@Lakens.2021], Programme [@Zhang.2022; @Champely.2020; @Faul.2007; @Faul.2009], und [Video-Tutorials](https://www.youtube.com/watch?v=XhfkodpyIsw). Inzwischen wurden Methoden auch für alternative Signifikanztests [Äquivalenztests; @Lakens.2017; @Lakens.2018] und Replikationen [@Simonsohn.2015] entwickelt. Eine besondere Art der Stichprobenplanung basiert auf Bayesianischer Statistik und wird vor allem in ethisch bedenklichen Situationen wie der Verhaltensforschung bei Tieren empfohlen: @richter2024challenging schlägt dazu vor, den sogenannten Bayes-Faktor, der im Gegensatz zu P-Werten der Signifikanztests auch bei fehlenden Zusammenhängen konvergiert, nach jeder Beobachtung oder jeder Versuchsdurchführung zu berechnen und die Studie abzuschließen, sobald ein bestimmter Wert überschritten wurde. Wichtig ist dabei, dass sich dieses Vorgehen explizit nur für Bayesianische Ansätze eignet.
 
--   Bayesianischer Ansatz
+#### Noch mehr Statistik
 
-o So lange erheben, bis Bayes-Faktor konvergiert; kann Stichprobeunumfang reduzieren, wurde so zB für Verhaltensforschung bei Tieren empfohlen (<https://www.nature.com/articles/s41684-023-01308-9>)
+Es ist inzwischen klar, dass statistische Methoden häufig missverstanden und falsch gebraucht werden [@perezgonzalez2014reconceptualization; @lakens2021practical; @gigerenzer2004mindless]. Aktuell verlagert sich die Diskussion von P-Werten hin zu Effektstärken und der Frage, welche Rolle verschiedene Werte spielen. Beispielsweise konnten @vohs2021multisite nachweisen, dass es den umstrittenen Effekt der verschwindenden Selbstkontrolle im *Ego Depletion Paradigma* gibt (er also nicht gleich 0 ist), allerdings war er in ihrer Untersuchung so klein, dass man alleine für einen erfolgreichen Nachweise über 6.700 Versuchsperson benötigen würde - mehr als jedes Experiment, das jemals zu dem Thema durchgeführt wurde und fast doppelt so viel wie die 3.524 Versuchspersonen von @vohs2021multisite.
 
-#### New statistics
-
--   Frequentistische Statistik wird benutzt, ist oft missverstanden und Inhalte sind mit anderen Perpsektiven vermischt (<https://journals.sagepub.com/doi/10.1177/0959354314546157?icid=int.sj-full-text.similar-articles.3>)
-
-o Gigerenzer P-Value unwissen
-
--   Bayesian, Kritik: <https://journals.sagepub.com/doi/10.1177/25152459231213371>
-
--   Effektstärken statt p-Werte
-
-o Equivalence testing @Lakens.2017; @Lakens.2018
+```{r}
+#| code-fold: true
+d <- 0.08 # Cohen's d = 0.08, 95% CI [0.01, 0.15], p. 45 hier: https://www.psychologie.uni-wuerzburg.de/fileadmin/06020231/pubs/eder/Vohs_et_al_-paradigmatic_depletion_MS_final.pdf
+n_per_cell <- power.t.test(n = NULL, delta = d, power = .95, type = "two.sample", alternative = "one.sided")$n
+ceiling(n_per_cell*2)
+```
 
 o Rölle von kleinen Effekten: <https://journals.sagepub.com/doi/full/10.1177/17456916221100420>
 
 o practical relevance of small effect sizes <https://www.researchgate.net/publication/352412241_Evaluating_the_practical_relevance_of_observed_effect_sizes_in_psychological_research>
 
 o effect sizes guide jane guide to effect sizes and confidence intervals @jane2024guide
-
-o
 
 -   Alternative lakens paper "alternative to p-value is correctly used p-value" @Lakens.2021b
 
