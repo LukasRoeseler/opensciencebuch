@@ -12,11 +12,11 @@ In der Wissenschaft gibt es nicht *die eine Methode* [@Feyerabend.19752002], son
 
 Unter Meta-Analysen werden Studien über Studien verstanden. Dabei extrahieren Forschende üblicherweise Ergebnisse aus bereits veröffentlichten Studien, schreiben andere Forschende aus einem Feld an und fragen nach unveröffentlichten Studien, und analysieren mit statistischen Methoden die Gemeinsamkeiten und Unterschiede zwischen den Ergebnissen. @fletcher2022replication argumentiert, dass nur mithilfe von Meta-Analysen die Allgemeingültigkeit von (statistischen) Phänomenen nachgewiesen werden kann. Im Idealfall könnten alle so weitermachen wie bisher und meta-analytische Modelle würden die Probleme korrigieren. Angesichts verheerender Publikationsbiases ist das allerdings aktuell nicht möglich. Wie Meta-Analysen dennoch informativ sein können, empfehlen @carlsson2024beginner allgemein und liste ich im Folgenden für spezifische Probleme auf.
 
-##### Publikationsbias und P-Hacking einschätzen
+#### Publikationsbias und P-Hacking einschätzen
 
 Bei Meta-Analysen gilt: "Garbage in, garbage out". Wer viele schlecht durchgeführte Studien in einer Meta-Analyse zusammenfasst, erhält eine schlechte Zusammenfassung. Das hatte beispielsweise zur Folge, dass @Hagger.2010 ihrer Meta-Analyse einen deutlichen Effekt für ein Modell über die Willensstärke finden konnten, nachfolgende, groß angelegte Replikationsversuche und Analysen jedoch alle scheiterten, einen ebenso großen Effekt zu finden [@Hagger.2016b; @Friese.2018; @Dang.2020; @vohs2021multisite]. Was trotzdem möglich ist und auch in jeder Meta-Analyse getan werden sollte, ist eine Einschätzung der Datenqualität, beispielsweise der Stärke des Publikationsbiases. Dabei gibt es Methoden, die prüfen, ob es nicht veröffentlichte Studien gibt, und Methoden, die für die potenziell fehlenden Studien korrigieren. Teilweise funktionieren diese erst bei über 200 Studien, manche lassen sich jedoch auch schon bei einem Dutzend Studien anwenden.
 
-###### Funnel Plot
+#### Funnel Plot
 
 Eine der ältesten Methoden ist der Funnel Plot (Trichter-Diagramm) [@light1984summing]. Dabei werden Präzision und Effektstärke der einzelnen Studien in einem Diagramm dargestellt. Im Idealfall sollten die Punkte das Bild eines Trichters bilden: Je präziser eine Studie ist (zum Beispiel durch eine große Stichprobe), desto eher sollte der dort gemessene Zusammenhang im Mittel liegen. Unpräzisere Studien verschätzen sich unsystematisch, also sie liegen mal drüber und mal drunter. Dadurch, dass nicht signifikante Ergebnisse selten veröffentlicht werden, bildet sich in dem Trichter-Diagramm fast nie ein Trichter, sondern nicht-signifikante Ergebnisse fehlen einfach.
 
@@ -33,27 +33,27 @@ metafor::funnel(model, xlab = "Beobachtete Effektstärke", ylab = "Präzision (S
 
 ```
 
-###### P-Curve
+#### P-Curve
 
 Beim P-Hacking werden Daten auf verschiedene Weisen ausgewertet und es wird diejenige berichtet, die einen niedrigen und damit signifikanten P-Wert zur Folge hat. Ergebnisse werden also nicht signifikant, weil die Hypothesen korrekt sind, sondern weil die Daten so lange ausgewertet wurden, bis sie signifikant wurden. Im Kapitel P-Hacking konnten wir sehen, wie P-Werte verteilt sind, je nachdem ob die Hypothese korrekt ist oder nicht. Diese Tatsache macht sich die P-Curve (@Simonsohn.2014; @Simonsohn.2014b; @Simonsohn.2015b) zu Nutzen. P-Werte eines Sets and Studien werden in einem Diagramm abgebildet und ihre Verteilung wird geprüft. Liegt kein P-Hacking vor sind die Werte entweder gleich verteilt (alle P-Werte kommen gleich häufig vor) oder sammeln sich bei 0 (kleinere P-Werte kommen häufiger vor). P-Hacking hat jedoch zur Folge, dass sich die Werte an der 5% Grenze tummeln, denn weiter als bis dort müssen die Daten nicht "gehackt" werden. Die Methode gewann vor allem deshalb an Bekanntheit, weil @Simmons.2017 die Methode auf eines der berühmtesten psychologischen Phänomene, dem Power Posing, angewandt haben und herausfanden, dass dort wahrscheinlich P-Hacking vorlag. Kritiker stellten später weitere Möglichkeiten vor, wie auch ohne P-Hacking eine suspekte P-Curve entstehen kann und das Verfahren wird inzwischen kaum mehr verwendet [@Erdfelder.2019].
 
-###### Z-Curve
+#### Z-Curve
 
 Statt P-Werte zu nehmen, können meta-analytische Befunde auch in sogenannte Z-Werte umgerechnet werden. Sie sind normalverteilt und mittels zusätzlicher Algorithmen lässt sich auf Basis von beobachteten Effekten schätzen, wie viele weitere Effekte es geben müsste. Dieses Verfahren namen Z-Curve [@Bartos.2022b] kann also für den File-Drawer Effekt und für P-Hacking korrigieren. Das Ergebnis daraus ist auch eine Schätzung, wie hoch die Replikationsrate wäre, wenn alle analysierten Studien erneut durchgeführt würden. Aktuellen Studien zufolge funktionieren diese Schätzungen ziemlich gut, obgleich sie eine große Menge an Daten benötigen [@Sotola.2022; @Sotola.2023; @roseler2023predicting].
 
-###### Sensitivitätsanalyse
+#### Sensitivitätsanalyse
 
 Ein Ansatz, welcher nicht nur bei Meta-Analysen sondern bei fast allen statistischen Auswertungen funktioniert, sind sogenannte Sensitivitäts- oder Robustheits-Analysen. Es werden dabei verschiedene Auswertungswege durchgegangen und dabei geprüft, wie stark sie sich auf die Ergebnisse auswerten. Bei Meta-Analysen können zum Beispiel viele mögliche Verfahren gleichzeitig gerechnet werden. Einen solchen Schrotschuss-Ansatz hat @Kepes.2017 geprägt, woraufhin er in anderen Studien übernommen wurde [@Korner.2022]. Einen Überblick über verschiedene Verfahren und unter welchen Bedingungen sie für Daten geeignet sind, bieten @Carter.2019.
 
-##### Daumenregeln für Beurteilung einzelner Artikel
+#### Daumenregeln für Beurteilung einzelner Artikel
 
 Eine Meta-Analyse ist aufwändig und kann mehrere Jahre dauern. Selbst Forschende, die keine Mittel für Studentische Hilfskräfte haben, die ihnen beim Codieren und Prüfen von hunderten bis tausenden Studien helfen, haben hier kaum eine Chance, eine ordentliche Analyse durchzuführen. Die folgenden Daumenregeln - und mehr als das sollen sie auch nicht sein - bieten Abkürzungen zur Beurteilung wissenschaftlicher Qualität.
 
-###### Viele Signifikante Studien
+#### Viele Signifikante Studien
 
 Seit einer Vertrauenskrise in der Sozialpsychologie in den 1960er Jahren [@Lakens.2023] werden in Forschungsartikeln seitens vieler Zeitschriften mehrere Studien gefordert. Das hatte zur Folge, dass die Ressourcen statt in eine ordentliche Studie in mehrere kleinere Studien investiert wurden. Die meisten dieser "Multi-Study-Paper" haben dann ausschließlich signifikante Ergebnisse über bis zu 10 Studien hinweg. Während viele Studien mit durchweg signifikanten Ergebnissen auf den ersten Blick beeindruckend aussehen, lösen Sie beim näheren Hinsehen jedoch Skepsis aus: Einzelne Studien haben üblicherweise eine Wahrscheinlichkeit von 80-95%, dass dabei signifikante Ergebnisse bei der zentralen Analyse herauskommen. Diese Wahrscheinlichkeit (Statistische Teststärke oder Power) nimmt ab, wenn man mehrere Studien nacheinander durchführt. Es ist vergleichbar mit einem Schützen, der in 99% der Fälle mit einem Gewehr eine Glasflasche trifft. Die Wahrscheinlichkeit, dass er bei einem Schuss eine Glasflasche trifft ist also 99%. Die Wahrscheinlichkeit, dass er mit 50 Schüssen 50 Glasflaschen trifft ist weniger, nämlich 99%\^50 (hoch fünfzig) = 60,5%. Bei wissenschaftlichen Studien kommt es auf ähnliche Weise zu einer "Power-Deflation". Die Wahrscheinlichkeit, 4 signifikante Studien mit jeweils 80% Power durchzuführen, ist 40,96%. Dann eine genau solche Studie zu veröffentlichen ist extrem unwahrscheinlich [@Lakens.2017b].
 
-###### Effektstärken "gerade so signifikant"
+#### Effektstärken "gerade so signifikant"
 
 Angelehnt an die Logik der P-Curve ist es unwahrscheinlich, dass P-Werte zwischen 1 und 5% liegen. Aufgrund von p-hacking kommt es allerdings häufig vor. Ein P-Wert nahe 5% geht außerdem mit einem Konfidenzintervall der Effektstärke nahe 0 einher (z.B. @jane2024). Angenommen jemand führt zwei Studien zu einem Thema durch und beide haben P-Werte nahe 5% und ungefähr gleich große Versuchspersonen-Anzahlen, dann kommt die Frage auf, weshalb die Stichprobengröße für die spätere Studie nicht erhöht wurde: Auf Basis eines gerade so signifikanten Ergebnisses ist klar, dass man "Glück" hatte, da die statistische Power nicht sonderlich hoch war. Plant man also die Stichprobe für die nächste Studie, sollte man die erste Studie dabei zugrund legen und den Plan anpassen (z.B. @Lakens.2021).
 
@@ -206,7 +206,7 @@ Die Tabelle zeigt einen Ausschnitt aus einem Fantasie-Datensatz mit drei Variabl
 
 : Beispiel für einen Datensatz
 
-##### FAIR und CARE
+#### FAIR und CARE
 
 Interdisziplinär wurden die FAIR Prinzipien für Forschungsdaten entwickelt. Sie empfehlen, Daten auffindbar (**F**indable), zugänglich (**A**ccessible), von verschiedenen Computern lesbar (**I**nteroperable), und wiederverwendbar (**R**esusable) zu archivieren. @de2016research strukturiert Anforderungen pyramidenförmig mit der Speicherung als Fundament, dem Teilen darüber, und der Qualitätssicherung als Spitze. Laut einem [EU-Bericht](https://publications.europa.eu/resource/cellar/d375368c-1a0a-11e9-8d04-01aa75ed71a1.0001.01/DOC_1) belaufen sich die jährlichen Kosten dafür, dass Daten nicht den FAIR Prinzipien entsprechen, auf 10,2 Milliarden Euro. Disziplin-spezifische Vorlagen, um geteilte Daten FAIR zu machen, werden derzeit vom Center for Open Science entwickelt (www.cos.io/blog/cedar-embeddable-editor).
 
@@ -220,15 +220,15 @@ Wenn Regierungen Unternehmen beauftragen, Fragestellungen zu beantworten, könne
 
 #### Sorgen zu Offenen Daten
 
-##### Daten-Polizei
+#### Daten-Polizei
 
 Der Diskurs um Open Science ist hin und wieder sehr aufgeladen: Forschende, die nach Daten fragen oder diese Nutzen um Fehler zu identifizieren, werden als Datenparasiten, Datenpolizei, oder sogar Datenterroristen bezeichnet. Die Aussage, "wer nichts zu verbergen hat, hat auch nichts zu befürchten", hat einen dystopischen Beigeschmack und Forschende machen sich in politisch aufgebrachten Zeiten und im Angesicht von Plagiatsjägern ungern durchsichtig. Es ist in diesem Kontext aber zu Berücksichtigen, dass es bei Wissenschaft nicht um ein eigenbrötlerisches Hobby handelt, sondern um einen Beruf mit gesellschaftlicher Verantwortung. Wer hier etwas verbirgt, sollte zurecht unter Verdacht stehen, keine ordentliche Wissenschaft zu machen. An der Universitäts- und Landesbibliothek Münster stehen passend dazu an der Außenwand die großen roten Buchstaben: "Gehorche keinem". Bilde dir stattdessen deine eigene Meinung, geh in die Werke und die Daten der Forschenden und überzeuge dich selbst von der Wahrheit. Wenn Forschende ihre Daten nicht teilen und Artikel hinter Bezahlschranken veröffentlichen, bedeutet das eine unnötige Erschwerung der unabhängigen Meinungsbildung.
 
-##### Daten-Klau
+#### Daten-Klau
 
 Daten zu teilen steht oft das Ziel entgegen, anderen Forschenden gegenüber einen Wettbewerbsvorteil zu haben. Das bedeutet, dass Forschende ihre Daten zurückhalten, möglichst viele Artikel auf deren Basis veröffentlichen, und erst wenn dort "nichts mehr zu holen ist", die Daten teilen. Die Sorge ist, dass andere Forschende schneller darin sind, Forschungsartikel auf Basis der Daten zu veröffentlichen. Faktisch werden die Daten schließlich gar nicht veröffentlicht. Bei dieser Sorge ist wichtig, nachzuvollziehen, dass *Daten teilen* nicht *Daten verschenken* bedeutet. Beim Teilen müssen Forschende eine Lizenz angeben, die beispielsweise das Zitieren der Daten vorgibt. Halten sich andere Forschende nicht daran, riskieren sie ihre Karriere. Darüber hinaus ist es einfacher nachzuweisen, wer die Daten ursprünglich erhoben hat, wenn die Person sie frühzeitig veröffentlicht.
 
-##### Zitationszahlen
+#### Zitationszahlen
 
 Gelegentlich wird für Open Data damit geworben, dass Forschung dadurch mehr Zitate erhält. Das motiviert einige Wissenschaftler\*innen mehr als die gute wissenschaftliche Praxis, ist aber wahrscheinlich nicht [@colavizza2020citation].
 
@@ -268,47 +268,47 @@ Eine weitere und kürzere Variante ist die 21-Worte-Lösung. Dabei wird eine vor
 
 #### Preregistration / Präregistrierung
 
--          Erklärung
+-   Erklärung
 
--          Gütekriterien: Struktur + Vollständigkeit (simmons nelson vs. Pham consumer psych)
+-   Gütekriterien: Struktur + Vollständigkeit (simmons nelson vs. Pham consumer psych)
 
--          Analyseplan wichtig, um wirklich P-Hacking vorzubeugen: <https://www.journals.uchicago.edu/doi/abs/10.1086/730455>
+-   Analyseplan wichtig, um wirklich P-Hacking vorzubeugen: <https://www.journals.uchicago.edu/doi/abs/10.1086/730455>
 
--          <https://www.researchgate.net/publication/375575020_Preregistration_in_practice_A_comparison_of_preregistered_and_non-preregistered_studies_in_psychology>
+-   <https://www.researchgate.net/publication/375575020_Preregistration_in_practice_A_comparison_of_preregistered_and_non-preregistered_studies_in_psychology>
 
--          High replicability neues project <https://www.nature.com/articles/s41562-023-01749-9> \[hierzu Infobox, dass es umstritten ist, weil sie intransparent von der Präregistrierung abgewichen sind\]
+-   High replicability neues project <https://www.nature.com/articles/s41562-023-01749-9> \[hierzu Infobox, dass es umstritten ist, weil sie intransparent von der Präregistrierung abgewichen sind\]
 
--          Prävalenz: <https://datacolada.org/115>
+-   Prävalenz: <https://datacolada.org/115>
 
--          Es sollte nicht nur über Bereitschaft von Forschenden gehen, sondern auch im Peer Review verankert werden, sauber zu präregistrieren: <https://journal.trialanderror.org/pub/reflections-on-preregistration/release/2>
+-   Es sollte nicht nur über Bereitschaft von Forschenden gehen, sondern auch im Peer Review verankert werden, sauber zu präregistrieren: <https://journal.trialanderror.org/pub/reflections-on-preregistration/release/2>
 
-##### Abweichungen von Präregistrierungen
+#### Abweichungen von Präregistrierungen
 
-o   Alle weichen ab: <https://osf.io/preprints/psyarxiv/nj4es> , <https://osf.io/f2z7y> slide 12/21
+o Alle weichen ab: <https://osf.io/preprints/psyarxiv/nj4es> , <https://osf.io/f2z7y> slide 12/21
 
-o   niemand prüft auf Abweichungen: <https://osf.io/preprints/psyarxiv/nh7qw>
+o niemand prüft auf Abweichungen: <https://osf.io/preprints/psyarxiv/nh7qw>
 
-o   Transparent changes: <https://osf.io/6fk87>
+o Transparent changes: <https://osf.io/6fk87>
 
-o   How to deviate: <https://osf.io/preprints/psyarxiv/ha29k>
+o How to deviate: <https://osf.io/preprints/psyarxiv/ha29k>
 
-##### Wo werden Studien präregistriert?
+#### Wo werden Studien präregistriert?
 
-o   [https://meta-meta-resources.org/running-studies/preparation/pre-reg-repos/#](https://meta-meta-resources.org/running-studies/preparation/pre-reg-repos/)!
+o [https://meta-meta-resources.org/running-studies/preparation/pre-reg-repos/#](https://meta-meta-resources.org/running-studies/preparation/pre-reg-repos/)!
 
-o   <https://www.alltrials.net>
+o <https://www.alltrials.net>
 
-o   <https://clinicaltrials.gov>
+o <https://clinicaltrials.gov>
 
-o   <http://www.crd.york.ac.uk/PROSPERO/>
+o <http://www.crd.york.ac.uk/PROSPERO/>
 
-##### Nachweise der Effektivität von Präregistrierungen
+#### Nachweise der Effektivität von Präregistrierungen
 
 Effektivität wofür? Replizierbarkeit oder File-Drawer Problem?
 
-o   Wahrscheinlichkeit positiven Befunden statt \>90% dadurch nur 40-50%, Scheel, Schijen, & Lakens(2021) \[siehe auch <https://osf.io/f2z7y>, slide 17/21\]
+o Wahrscheinlichkeit positiven Befunden statt \>90% dadurch nur 40-50%, Scheel, Schijen, & Lakens(2021) \[siehe auch <https://osf.io/f2z7y>, slide 17/21\]
 
-o   <https://drive.google.com/file/d/1gcyBE78tb9zerl4M35uS3npVGvMp-MPZ/view> The effectiveness of preregistration in psychology: Assessing preregistration strictness and preregistration-study consistency olmo van den akker[\[LR2\]](#_msocom_2) 
+o <https://drive.google.com/file/d/1gcyBE78tb9zerl4M35uS3npVGvMp-MPZ/view> The effectiveness of preregistration in psychology: Assessing preregistration strictness and preregistration-study consistency olmo van den akker[\[LR2\]](#_msocom_2)
 
 \##### Pre-Registration templates what is a good prereg? (see Simmons et al) What to preregister? Analysis script
 
@@ -330,37 +330,37 @@ OSF arbeitet neue ein <https://www.cos.io/blog/call-for-submission-for-preregist
 
 #### Power Analysis
 
--          Power
+-   Power
 
--          Small-telescopes approach
+-   Small-telescopes approach
 
--          Bayesianischer Ansatz
+-   Bayesianischer Ansatz
 
-o   So lange erheben, bis Bayes-Faktor konvergiert; kann Stichprobeunumfang reduzieren, wurde so zB für Verhaltensforschung bei Tieren empfohlen (<https://www.nature.com/articles/s41684-023-01308-9>)
+o So lange erheben, bis Bayes-Faktor konvergiert; kann Stichprobeunumfang reduzieren, wurde so zB für Verhaltensforschung bei Tieren empfohlen (<https://www.nature.com/articles/s41684-023-01308-9>)
 
 #### New statistics
 
--          Frequentistische Statistik wird benutzt, ist oft missverstanden und Inhalte sind mit anderen Perpsektiven vermischt (<https://journals.sagepub.com/doi/10.1177/0959354314546157?icid=int.sj-full-text.similar-articles.3>)
+-   Frequentistische Statistik wird benutzt, ist oft missverstanden und Inhalte sind mit anderen Perpsektiven vermischt (<https://journals.sagepub.com/doi/10.1177/0959354314546157?icid=int.sj-full-text.similar-articles.3>)
 
-o   Gigerenzer P-Value unwissen
+o Gigerenzer P-Value unwissen
 
--          Bayesian, Kritik: <https://journals.sagepub.com/doi/10.1177/25152459231213371>
+-   Bayesian, Kritik: <https://journals.sagepub.com/doi/10.1177/25152459231213371>
 
--          Effektstärken statt p-Werte
+-   Effektstärken statt p-Werte
 
-o   Equivalence testing @Lakens.2017; @Lakens.2018
+o Equivalence testing @Lakens.2017; @Lakens.2018
 
-o   Rölle von kleinen Effekten: <https://journals.sagepub.com/doi/full/10.1177/17456916221100420>
+o Rölle von kleinen Effekten: <https://journals.sagepub.com/doi/full/10.1177/17456916221100420>
 
-o   practical relevance of small effect sizes <https://www.researchgate.net/publication/352412241_Evaluating_the_practical_relevance_of_observed_effect_sizes_in_psychological_research>
+o practical relevance of small effect sizes <https://www.researchgate.net/publication/352412241_Evaluating_the_practical_relevance_of_observed_effect_sizes_in_psychological_research>
 
-o   effect sizes guide jane guide to effect sizes and confidence intervals @jane2024guide
+o effect sizes guide jane guide to effect sizes and confidence intervals @jane2024guide
 
-o    
+o
 
--          Alternative lakens paper "alternative to p-value is correctly used p-value" @Lakens.2021b
+-   Alternative lakens paper "alternative to p-value is correctly used p-value" @Lakens.2021b
 
-o   Philosophische Diskussion über Nutzen von P-Werten: <https://journals.sagepub.com/doi/full/10.1177/09593543231160112> und hier <https://journals.sagepub.com/doi/10.1177/0959354312465483?icid=int.sj-full-text.similar-articles.1>
+o Philosophische Diskussion über Nutzen von P-Werten: <https://journals.sagepub.com/doi/full/10.1177/09593543231160112> und hier <https://journals.sagepub.com/doi/10.1177/0959354312465483?icid=int.sj-full-text.similar-articles.1>
 
 ### Qualitative Forschung und Open Science
 
@@ -368,21 +368,21 @@ Bei qualitativer Forschung steht im Vorhinein häufig keine klare Fragestellung 
 
 ### Open Source Software
 
--          Research Software Engineering (RSE) \[siehe auch oben bei reproducible code, aber hier sollte das meiste dazu stehen\]
+-   Research Software Engineering (RSE) \[siehe auch oben bei reproducible code, aber hier sollte das meiste dazu stehen\]
 
--          Non proprietär à Gefahr vor Lock-in
+-   Non proprietär à Gefahr vor Lock-in
 
--          GNU Lizenz
+-   GNU Lizenz
 
--          Open Source Bedeutung
+-   Open Source Bedeutung
 
--          Bibliotheken, die Wissen verwalten, positionieren sich neu, um nun Infrastruktur zu stellen (z.B. [https://www.cambridge.org/core/books/abs/data-science-in-the-library/toward-reproducibility-academic-libraries-and-open-science/6FB18D7BCD8B82E597ED0D4B390C72EE#](https://www.cambridge.org/core/books/abs/data-science-in-the-library/toward-reproducibility-academic-libraries-and-open-science/6FB18D7BCD8B82E597ED0D4B390C72EE))
+-   Bibliotheken, die Wissen verwalten, positionieren sich neu, um nun Infrastruktur zu stellen (z.B. [https://www.cambridge.org/core/books/abs/data-science-in-the-library/toward-reproducibility-academic-libraries-and-open-science/6FB18D7BCD8B82E597ED0D4B390C72EE#](https://www.cambridge.org/core/books/abs/data-science-in-the-library/toward-reproducibility-academic-libraries-and-open-science/6FB18D7BCD8B82E597ED0D4B390C72EE))
 
--          Von Chan-Zuckerberg-Initiative Unternehmen: <https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/>
+-   Von Chan-Zuckerberg-Initiative Unternehmen: <https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/>
 
--          Alternative zu Clarivate Analytics Web of Science Literaturdatenbank: <https://openalex.org> https://arxiv.org/abs/2205.01833
+-   Alternative zu Clarivate Analytics Web of Science Literaturdatenbank: <https://openalex.org> https://arxiv.org/abs/2205.01833
 
-> > > > > > > fafde0efa311638f4b2cb750dea40208e22560f3 \| **Infrastruktur** \| **Kommerzielle Software** \| **Open Source Software** \| \| Literaturdatenbank \| SCOPUS \| <https://openalex.org> \| \| Literaturverwaltung \| Citavi, Mendeley \| Zotero \| \| Datenerhebung \| Unipark, Millisecond Inquisit \| PsychoPy \| \| Datenanalyse \| IBM SPSS, Stata \| GNU R, Python, Jupyter Notebook \| \| Begutachtung und Veröffentlichung \| Editorial Manager \| Open Journal System \|
+I**nfrastruktur** \| **Kommerzielle Software** \| **Open Source Software** \| \| Literaturdatenbank \| SCOPUS \| <https://openalex.org> \| \| Literaturverwaltung \| Citavi, Mendeley \| Zotero \| \| Datenerhebung \| Unipark, Millisecond Inquisit \| PsychoPy \| \| Datenanalyse \| IBM SPSS, Stata \| GNU R, Python, Jupyter Notebook \| \| Begutachtung und Veröffentlichung \| Editorial Manager \| Open Journal System
 
 ### Slow Science
 
@@ -390,7 +390,7 @@ Viele der Entwicklungen lassen sich als „langsame Wissenschaft" (oder engl. Sl
 
 ### Big Team Science
 
--          CRediT und Übersetzungen <https://github.com/contributorshipcollaboration/credit-translation>
+-   CRediT und Übersetzungen <https://github.com/contributorshipcollaboration/credit-translation>
 
 goodbye author hello contributor
 
@@ -404,13 +404,16 @@ goodbye author hello contributor
 
 -   @wilson2017good sammeln Empfehlungen, denen alle Forschenden für das Sicherstellen von Reproduzierbarkeit nachkommen sollten.
 
-<!-- -->
-
 -   @kepes2023assessing haben einen Anfänger-Leitfaden für die Einschätzung von Publikationsbias entwickelt.
+
 -   <https://www.datalad.org> ist ein kostenloses Programm, das automatisch dokumentiert, wie aus Daten Wissen gewonnen wird.
+
 -   Typische Mythen offener Daten werden in einem Blog Post von Elina Takola diskutiert: https://www.sortee.org/blog/2024/04/12/2024_open_data_myths/
+
 -   Mit dem FAIR-Aware Quiz (<https://fairaware.dans.knaw.nl>) können Forschende ihr Wissen zum Teilen von Forschungsdaten testen.
+
 -   Offene Lehrmaterialien zu FAIR Data werden von [Jürgen Schneider](https://j-5chneider.github.io/PTOS-open-data/) und von der [Universitätsbibliothek Mannheim](https://github.com/UB-Mannheim/awesome-RDM) bereitgestellt
+
 -   Beispiele für Citizen Science und Möglichkeiten zum Mitmachen sind auf [Buergerschaffenwissen.de](https://www.buergerschaffenwissen.de) und [Wissenschaft-im-Dialog.de](https://wissenschaft-im-dialog.de/mitmachen/).
 
 ### Literatur
