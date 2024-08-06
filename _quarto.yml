@@ -14,7 +14,7 @@ book:
     left: |
        Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0.1th ed.). https://doi.org/10.17605/OSF.IO/2QXWV
     right: |
-      Mithilfe von <a href="https://quarto.org/">Quarto</a> erstellt.
+      Mithilfe von <a href="https://quarto.org/">Quarto</a> erstellt. Lizenz: CC-By Attribution 4.0 International.
   favicon: images/favicon_os.jpg
   cookie-consent: false
   site-url: lukasroeseler.github.io/opensciencebuch/
@@ -68,6 +68,7 @@ format:
     cover-image: images/cover.jpg
     callout-appearance: simple
     css: styles.css
+    number-sections: false
     
   pdf:
     documentclass: scrreprt

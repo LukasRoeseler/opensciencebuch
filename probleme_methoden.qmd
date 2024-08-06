@@ -18,9 +18,7 @@ Zum Verständnis der fragwürdigen Forschungspraktiken (QRP) ist eine wichtige f
 
 Problematisch wird es, wenn exploratorische Forschung als konfirmatorische kommuniziert wird, also so getan wird, als hätte eine Einzelbeobachtung eine bereits formulierte Gesetzmäßigkeit bestätigt, statt sie bloß inspiriert. Diese Art Unlogik heißt Zirkelschluss: Die Gesetzmäßigkeit gilt wegen der Beobachtung. Und die Beobachtung entspricht der Gesetzmäßigkeit.
 
-**Abbildung Z**
-
-*Skizziertes Vorgehen bei explorativer (a) versus konfirmatorischer (b) Forschung. Exploratives Vorgehen ist nicht zielgerichtet, die Richtung kann sich ändern, und ist manchmal mit unvorhergesehenen Ergebnissen verbunden. Konfirmatorisches Vorgehen bildet oft einen engen und kontrollierten Ausschnitt eines Sachverhaltes ab.*
+![Skizziertes und vereinfachtes Vorgehen bei konfirmatorischer (links) versus exploratorischer (rechts) Forschung. Konfirmatorisches Vorgehen bildet oft einen engen und kontrollierten Ausschnitt eines Sachverhaltes ab. Exploratives Vorgehen ist nicht zielgerichtet, die Richtung kann sich ändern, und ist manchmal mit unvorhergesehenen Ergebnissen verbunden. ](images/explo_vs_konfi.jpg)
 
 #### Methoden der Datengenerierung
 
@@ -142,7 +140,7 @@ Die Chance, signifikante P-Werte zu kriegen, ohne, dass die getestete Hypothese 
 *Wahrscheinlichkeit für ein signifikantes Ergebnis durch die Anwendung verschiedener P-Hacking Techniken nach @Simmons.2011, Tabelle 1. Der Anteil signifikanter Ergebnisse sollte hier den festgelegten 5% des Alpha-Fehlers entsprechen.*
 
 | Technik                                                             | Anteil signifikanter Ergebnisse |
-|---------------------------------------------------------------------|---------------------------------|
+|-----------------------------------------------|------------------------|
 | Mehrere abhängige Variablen, deren Korrelation r = .5 ist           | 9,5%                            |
 | 10 weitere Beobachtungen je Gruppe erheben                          | 7,7%                            |
 | Eine weitere Variable (z.B. Geschlecht) mit in das Modell aufnehmen | 11,7%                           |
@@ -159,27 +157,37 @@ Die Chance, signifikante P-Werte zu kriegen, ohne, dass die getestete Hypothese 
 
 Im Rahmen der Planung einer sozialwissenschaftlichen Studie stellt sich oft die Frage, wie ein bestimmtes Konstrukt gemessen werden soll. Für Intelligenz, politischer Ansicht, Lebenszufriedenheit, und viele andere Variable gibt es nicht *den* Test sondern viele Maße, die teilweise gering miteinander zusammenhängen. Gleichzeitig sind die zu testenden Theorien meist vage und diktieren nicht, mit welchem Maß ein Konstrukt gemessen werden sollte. Theorien sind den Messmethoden gegenüber also oft agnostisch. Werden in einer Studie dann verschiedene Messmethoden für ein Konstrukt gewählt, müsste die Theorie über alle Tests gleichermaßen bestätigt werden. Falls das nicht der Fall ist, sollte die Theorie angepasst werden. Entgegen dieser Empfehlung und um die Chance der Publikation der Ergebnisse zu maximieren, berichten Forschende Ergebnisse oft *selektiv*. Statt aller Ergebnisse werden also nur die „passendsten" oder „spannendsten" berichtet. Wie oben im Thema P-Hacking und Freiheitsgrade von Forschenden klar geworden ist, führt das dazu, dass Zusammenhänge gefunden werden, die eigentlich nicht existieren. Werden zum Beispiel drei verschiedene und unabhängige Maße zum Testen einer Hypothese verwendet steigt Wahrscheinlichkeit für mindestens ein signifikantes Ergebnis von 5% auf 14%.
 
-**Abbildung K**
-
-Selektives Berichten: Von den sechs geprüften Korrelationen ist nur eine signifikant - und das rein zufällig. Alle gemeinsam sind nicht signifikant. Um die Ergebnisse zu veröffentlichen berichten Forschende nur den spannendsten Teil der Ergebnisse und verzerren damit das Bild. Die Chance, aus sechs Tests - bei denen keine Zusammenhänge vorliegen - einen signifikanten zu erhalten liegt bei ca. 27%.
+Selektives Berichten: Von den hundert Korrelationen mit unzusammenhängenden Zufallszahlen sind im Mittel fünf signifikante zu erwarten - und das *rein zufällig*. Alle gemeinsam sind nicht signifikant. Um bessere Chancen auf eine Veröffentlichung und damit auf eine unbefristete Stelle zu ergattern, berichten Forschende häufig nur den spannendsten Teil der Ergebnisse und verzerren damit das Bild.
 
 ```{r}
 #| code-fold: true
-
+library(ggplot2)
 # mean(replicate(1000, mean(replicate(6, cor.test(rnorm(50), rnorm(50))$p.value) < .05) > 0)) # 26.7%
 set.seed(1)
 n <- 100
+ncors <- 100
 
-layout(matrix(c(1:6), nrow = 2)) 
-for (i in 1:6) {
-  x <- rnorm(n)
-  y <- rnorm(n)
-  
-  plot(x, y
-       , main = paste("r(", n-2, ") = ", round(cor(x,y), 3), ", p = ", round((cor.test(x,y)$p.value), 3), sep = "")
-       , pch = 20, yaxt = 'n', xaxt = 'n', xlab = "", ylab = "")
+cors <- data.frame(    "r" = NULL
+                   , "lcl" = NULL
+                   , "ucl" = NULL)
+for (i in 1:ncors) {
+ cortest_temp <- cor.test(rnorm(n), rnorm(n))
+ r_temp <- cortest_temp$estimate
+ lcl_temp <- cortest_temp$conf.int[1]
+ ucl_temp <- cortest_temp$conf.int[2]
+ 
+ cors <- rbind(cors, c(r_temp, lcl_temp, ucl_temp))
+ # rm(c(r_temp, lcl_temp, ucl_temp))
 }
-layout(1)
+
+names(cors) <- c("r", "lcl", "ucl")
+cors$signifikant <- ifelse(cors$ucl < 0 | cors$lcl > 0, "Ja", "Nein")
+
+ggplot(cors, aes(x = r, y = 1:nrow(cors), col = signifikant)) + geom_point() +
+  geom_errorbar(aes(xmin = lcl, xmax = ucl)) +
+  theme_bw() +
+  geom_vline(xintercept = 0, lty = 2, col = "red")
+
 ```
 
 ### Optionales Stoppen (Optional Stopping)

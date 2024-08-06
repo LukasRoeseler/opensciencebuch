@@ -22,4 +22,12 @@ Kurze Zeit später veröffentliche Daryl Bem, bekannt durch grundlegende psychol
 
 Seine Studien wurden im Marketing gefeiert und als Neurowissenschaftliche Erkenntnisse verkauft: Wer ein heißes Getränk (im Vergleich zu einem kalten) trinkt, schätzt andere Personen als "wärmer" (großzügig, rücksichtsvoll) ein [@williams2008experiencing]. Wer Anagramme löst, die etwas mit hohem Alter zu tun haben (z.B. PFLEGEHEIM, GRAU, oder zum selbst probieren GHOSTECK), geht danach in langsamerem Tempo [@bargh1996automaticity]. Viele dieser Studien wurden repliziert: Forschenden fiel in der Anagramme-Studie auf, dass Bargh und Kolleg\*innen die Zeit mit Stoppuhren gemessen hatten und dabei wussten, welche Person die "Alt"-Wörter und welche die neutralen Anagramme gelöst hatten - dabei lernt jede\*r Psychologie-Studierende im ersten Jahr, dass das nicht der Fall sein sollten und Versuchsleiter\*innen "blind" gegenüber dem Untersuchungszweck und der Zuordnung der Personen zu den Gruppen sein sollte. In ihrer Replikation [@Doyen.2012] ließen Doyen und Kolleg\*innen die Zeit mit Lichtschranken erfassen und maßen selbst wie Bargh et al. in der Originalstudie. Bei der problematischen Messung kam dasselbe raus, die Lichtschranken, denen vorher nicht verraten wurde, welche Hypothese mit ihnen untersucht werden sollten und welche Personen welche Anagramme lösen mussten, konnten den Effekt jedoch nicht replizieren.
 
+::: callout-important
+## Wichtige Ereignisse jenseits der Psychologie
+
+In der Verhaltensbiologie zeigten @Crabbe1999-ao bereits viel früher, dass Befunde zum Einfluss der Gene auf das Verhalten stark davon abhingen, in welchem Labor die Mäuse untersucht wurden. Während Verbesserungen im Forschungsprozess seitdem immer wieder gefordert wurden [@Kafkafi2018-yr] blieb eine Revolution wie in der Psychologie aus.
+
+Ein etwas anderes Problem ergab sich im Rahmen der Sequenzierung der menschlichen DNS: Dort beantragten Unternehmen noch während des Erforschungsprozess die Rechte daran (*Intellectual Property*). Die negativen sozialen und wissenschaftlichen Folgen wurden früh diskutiert [@Moore2000-pr] und sind noch immer [Teil von wissenschaftlichen und politischen Diskussionen](https://www.ip.mpg.de/en/research/research-news/position-statement-on-new-genomic-techniques-and-intellectual-property-law.html).
+:::
+
 ### Literatur

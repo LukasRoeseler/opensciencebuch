@@ -20,7 +20,7 @@ Fehler passieren, und Tippfehler sind mir sehr viele passiert. Ich danke Lena R�
 In Beispielen, Hinweisen, und Anmerkungen stütze ich mich zudem auf zahlreiche Beispiele, die ich mit Kolleginnen, Kollegen, Freundinnen und Freunden diskutiert habe. Ich danke Daniel Wolf, Johannes Leder, Matthias Borgstede, Astrid Schütz, Ulrike Starker, Georg Felser, Viola Voß, Mitja Back, Jan H. Höffler, Gilad Feldman und vielen anderen für die spannenden Gespräche!
 :::
 
-::: callout-note
+::: {.callout-note icon="false"}
 ## Über mich
 
 Mein Name ist Lukas Röseler und ich bin Wissenschaftler. Ich habe in Wernigerode Wirtschaftspsychologie studiert, mich darüber hinaus mit Philosophie und Wissenschaftstheorie beschäftigt, und habe 2021 als Doktorand der ersten Generation[^about-1] in Bamberg meinen Doktortitel in Psychologie erhalten. Seit 2023 bin ich Geschäftsführer des Münster Center for Open Science und darf mich im Rahmen dessen mit transparenter und vertrauenswürdiger Wissenschaft in zahlreichen Disziplinen auseinandersetzen. Parallel dazu betreibe ich Meta-Wissenschaft, also *Wissenschaft über Wissenschaft*.
