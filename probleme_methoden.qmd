@@ -148,9 +148,9 @@ Die Chance, signifikante P-Werte zu kriegen, ohne, dass die getestete Hypothese 
 | Alle Techniken gleichzeitig                                         | 60,7%                           |
 
 ::: callout-tip
-## Forschung kann nicht witzig sein?
+## Daten fälschen für Dummys
 
-@Hussey.2018 (und darauf aufbauend @sarstedt2023advanced) schlugen bereits Methoden vor, um P-Hacking noch stärker zu erleichtern. Auf dieser Website können Benutzer\*innen Zufallszahlen in dem gewünschten Bereich generieren: <https://mktg.shinyapps.io/extra-p_ointless/>
+@Hussey.2018 (und darauf aufbauend @sarstedt2023advanced) schlugen selbstironisch bereits Methoden vor, um P-Hacking noch stärker zu erleichtern. Auf dieser Website können Benutzer\*innen Zufallszahlen in dem gewünschten Bereich generieren: <https://mktg.shinyapps.io/extra-p_ointless/>
 :::
 
 ### Selektives Berichten (*Selective Reporting*)

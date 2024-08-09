@@ -17,3 +17,7 @@ Ich verstehe Open Science als eine große Trigger-Warnung, die vor die Sozialwis
 ![Spektrum der Reaktionen auf die Replikationskrise](images/spektrumreaktionen.jpg)
 
 Besonders groß ist das Problem bei Lehrbüchern: Stellen Sie sich vor, sie haben ein Buch über einen Teil der Psychologie (Aushängeschild ist hier oft die Sozialpsychologie) verfasst, das auf Jahrzehnten an Forschung besteht, hunderten Veröffentlichungen, und tausenden Studien. Hier hilft es kaum, das Buch komplett zu ignorieren. Praktikabel, alle Studien selbst zu replizieren, ist es allerdings auch nicht. Klar ist den meisten Wissenschaftler\*innen hierbei: So wie es bisher gelaufen ist, kann es nicht weitergehen. Eine fünfzig prozentige Garantie für wissenschaftliche Erkenntnisse sollte nicht der Anspruch von etwas sein, das sich Wissenschaft nennt. Von vorne müssen wir aber auch nicht starten.
+
+### Weiterführende Informationen
+
+-   Reaktionen verschiedener Mitglieder der Deutschen Gesellschaft für Psychologie (DGPs) auf die Stellungnahme des Vorstands aus einem Diskussionsforum sind online nachlesbar: https://replicationindex.com/wp-content/uploads/2022/12/DGPs_Diskussionsforum.pdf

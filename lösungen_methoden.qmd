@@ -75,7 +75,7 @@ lines(rci$r, rci$lcl, lty = 2)
 
 ### Prüfung auf Reproduzierbarkeit
 
-Wird ein Befund mit denselben Daten und idealerweise demselben Programm bzw. Analysecode erneut getestet und geprüft, ob dieselben Zahlen dabei rauskommen - also nicht nur, ob die Hypothese erneut bestätigt wird - dann handelt es sich um eine Reproduktion der Ergebnisse. Im Gegensatz zu einer Replikation werden also keine neuen Daten erhoben. Dass Ergebnisse reproduzierbar sind, sollte das absolute Minimum für wissenschaftliche Berichte sein, ist es jedoch noch längst nicht.
+Wird ein Befund mit denselben Daten und idealerweise demselben Programm bzw. Analysecode erneut getestet und geprüft, ob dieselben Zahlen dabei rauskommen - also nicht nur, ob die Hypothese erneut bestätigt wird - dann handelt es sich um eine Reproduktion der Ergebnisse. Im Gegensatz zu einer Replikation werden also keine neuen Daten erhoben. Dass Ergebnisse reproduzierbar sind, sollte das absolute Minimum für wissenschaftliche Berichte sein, ist es jedoch noch längst nicht. In nur seltenen Fällen gibt es Reproduktionen, die mittlere Rate über Felder hinweg (Wirtschaftswissenschaften, Erziehungswissenscahften, Biomedizin, Gesundheitswissenscahften) liegt bei circa 50% [@cobey2023epidemiological] und nicht einmal einfache Analysen mit Programmen, die explizit Protokolle zur Reproduzierbarkeit ausgeben ist extrem nierig [@thibault2024evaluation].
 
 ::: callout-important
 ## Begriffs-Wirrwarr
