@@ -328,7 +328,7 @@ Open Source bedeutet dabei, dass der Quelltext eines Programmes lesbar und koste
 Kurz: Für die Forschung, bei welcher die Nachvollziehbarkeit eine vorrangige Rolle spielt, sollte wenn möglich nur auf Open Source Software zurückgegriffen werden. Für manche Methoden ist das aktuell nicht möglich, dort ist es Aufgabe der Hochschulbibliotheken als Verwalterinnen des Wissens [@Quan2021-tp] und Fachgesellschaften als Anlaufstelle der Disziplinen, die nötige Infrastruktur zu stellen oder entwickeln zu lassen.
 
 | Infrastruktur                     | Kommerzielle Software         | Non-Kommerzielle Software                                             |
-|-----------------------------------|-------------------------------|-----------------------------------------------------------------------|
+|------------------|------------------|------------------------------------|
 | Literaturdatenbank                | SCOPUS                        | OpenAlex [@priem2022openalex]                                         |
 | Literaturverwaltung               | Citavi, Mendeley              | Zotero [@puckett2011zotero]                                           |
 | Datenerhebung                     | Unipark, Millisecond Inquisit | PsychoPy [@peirce2022building]                                        |
@@ -358,6 +358,10 @@ Um klar anzugeben, wer was getan hat, können Forschende die Contributor Roles T
 -   @wilson2017good sammeln Empfehlungen, denen alle Forschenden für das Sicherstellen von Reproduzierbarkeit nachkommen sollten.
 
 -   @kepes2023assessing haben einen Anfänger-Leitfaden für die Einschätzung von Publikationsbias entwickelt.
+
+-   Technische Hürden beim Teilen von menschlichen Neuroimaging Daten diskutieren @giehl2024sharing.
+
+-   Die Empfehlungen der Deutschen Gesellschaft für Psychologie (DGPs) zum Umgang mit Forschungsdaten [@schonbrodt2017umgang] sind online verfügbar: https://www.uni-muenster.de/imperia/md/content/fb7/ethikkommission/dgps_datenmanagement_deu_9.11.16.pdf
 
 -   <https://www.datalad.org> ist ein kostenloses Programm, das automatisch dokumentiert, wie aus Daten Wissen gewonnen wird.
 

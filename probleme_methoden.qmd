@@ -18,7 +18,7 @@ Zum Verständnis der fragwürdigen Forschungspraktiken (QRP) ist eine wichtige f
 
 Problematisch wird es, wenn exploratorische Forschung als konfirmatorische kommuniziert wird, also so getan wird, als hätte eine Einzelbeobachtung eine bereits formulierte Gesetzmäßigkeit bestätigt, statt sie bloß inspiriert. Diese Art Unlogik heißt Zirkelschluss: Die Gesetzmäßigkeit gilt wegen der Beobachtung. Und die Beobachtung entspricht der Gesetzmäßigkeit.
 
-![Skizziertes und vereinfachtes Vorgehen bei konfirmatorischer (links) versus exploratorischer (rechts) Forschung. Konfirmatorisches Vorgehen bildet oft einen engen und kontrollierten Ausschnitt eines Sachverhaltes ab. Exploratives Vorgehen ist nicht zielgerichtet, die Richtung kann sich ändern, und ist manchmal mit unvorhergesehenen Ergebnissen verbunden. ](images/explo_vs_konfi.jpg)
+![Skizziertes und vereinfachtes Vorgehen bei konfirmatorischer (links) versus exploratorischer (rechts) Forschung. Konfirmatorisches Vorgehen bildet oft einen engen und kontrollierten Ausschnitt eines Sachverhaltes ab. Exploratives Vorgehen ist nicht zielgerichtet, die Richtung kann sich ändern, und ist manchmal mit unvorhergesehenen Ergebnissen verbunden.](images/explo_vs_konfi.jpg)
 
 #### Methoden der Datengenerierung
 
@@ -140,7 +140,7 @@ Die Chance, signifikante P-Werte zu kriegen, ohne, dass die getestete Hypothese 
 *Wahrscheinlichkeit für ein signifikantes Ergebnis durch die Anwendung verschiedener P-Hacking Techniken nach @Simmons.2011, Tabelle 1. Der Anteil signifikanter Ergebnisse sollte hier den festgelegten 5% des Alpha-Fehlers entsprechen.*
 
 | Technik                                                             | Anteil signifikanter Ergebnisse |
-|-----------------------------------------------|------------------------|
+|-----------------------------------------------|-------------------------|
 | Mehrere abhängige Variablen, deren Korrelation r = .5 ist           | 9,5%                            |
 | 10 weitere Beobachtungen je Gruppe erheben                          | 7,7%                            |
 | Eine weitere Variable (z.B. Geschlecht) mit in das Modell aufnehmen | 11,7%                           |
@@ -248,5 +248,6 @@ Sehr düster ist dabei die Tatsache, dass Methoden zur Datenfälschung einerseit
 
 -   Bei diesem englischsprachigen Podcast wird diskutiert, wie und ob sich Betrug in der Wissenschaft stoppen lässt: <https://freakonomics.com/podcast/can-academic-fraud-be-stopped/>
 -   Wie sich die Replikationskrise aus Perspektive eines jungen Forschers angefühlt hat beschreibt Daniel Lakens: <http://daniellakens.blogspot.com/2020/11/why-i-care-about-replication-studies.html>
+-   @nagy2024bestiary listen fragwürdige Forschungspraktiken (QRP) systematisch in ihrem *Bestarium* auf.
 
 ### Literatur

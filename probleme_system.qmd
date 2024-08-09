@@ -64,6 +64,12 @@ Das soziale Dilemma besteht nun in der Schwierigkeit, dieses System zu veränder
 
 [^probleme_system-4]: Damit sind Zeitschriften gemeint, die Artikel ohne Abonnement-Zugang und ohne Paywall veröffentlichen, und zwar ohne Kosten für die Autor\*innen.
 
+### Wissenschaftliche Qualitätskontrolle
+
+Durch die Probleme des wissenschaftlichen Systems zieht sich das Problem der Qualitätskontrolle. Im Begutachtungsprozess vor der Veröffentlichung werden viele Fehler nicht erkannt und nach der Veröffentlichung sind Berichte so intransparent, dass es oft nicht einmal möglich ist, gefälschte Daten zu entlarven. Gutachten wissenschaftlicher Artikel bleiben meistens unter Verschluss und wenn eine Zeitschrift einen Artikel ablehnt, wird er bei einer anderen eingereicht. Die bereits herausgestellten Kritikpunkt gehen dabei verloren [@aczel2021billion].
+
+Wissenschaftliche Artikel haben am Ende einen Absatz zu möglichen Interessenkonflikten. Dort müssen Forschende angeben, wenn sie Leistungen von Unternehmen für die Forschung bekommen haben, oder in irgendeiner Weise von der Forschung profitieren (z.B. Aktien des Unternehmens besitzen, dessen Medikament sie positiv gestetet haben). In der Glücksspiel-Forschung fehlen diese Angaben oft [@Heirene.2021]. Einige große Unternehmen untergraben systematisch den wissenschaftlichen Konsens, indem sie falsche Informationen streuen: Dazu gehört beispielsweise die Tabakindustrie und der sichere negative Effekt vom Rauchen auf die Gesundheit [@reed2021disinformation].
+
 ## Vertiefende Informationen
 
 Der kostenlose Film "Paywall: The Business of Scholarship" behandelt das Thema Paywalls sowie den öffentlichem Zugang von wissenschaftlichem Wissen: https://paywallthemovie.com/paywall
