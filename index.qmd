@@ -6,8 +6,6 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
-# Willkommen {.unnumbered}
-
 ::: callout-caution
 ## Warnung
 
