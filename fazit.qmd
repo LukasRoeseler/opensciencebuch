@@ -14,7 +14,7 @@ Ich hoffe, dass die Kapitel zu den Lösungen klar gemacht haben, dass es kein Pr
 
 ### Was ist noch zu tun?
 
-Bei vielen Disziplinen ist die aktive Auseinandersetzung mit Open Science noch ausstehend. Während Sozial- und Persönlichkeitspsychologie unter den Sozialwissenschaftlern eine Vorreiterrolle spielen, hat die Auseinandersetzung in der Konsumentenpsychologie oder jenseits der Psychologie in Medizin, Erziehungswissenschaften, oder Soziologie erst vor wenigen Jahren begonnen. Und selbst in der Psychologie gibt es noch große Defizite. Zum Beispiel veröffentlichten nur 34 von 88 Zeitschriften Replikationsstudien mit einem Gesamtanteil von 0.2% an allen veröffentlichten Studien [@clarke2023prevalence].
+Bei vielen Disziplinen ist die aktive Auseinandersetzung mit Open Science noch ausstehend. Während Sozial- und Persönlichkeitspsychologie unter den Sozialwissenschaftlern eine Vorreiterrolle spielen, hat die Auseinandersetzung in der Konsumentenpsychologie oder jenseits der Psychologie in Medizin, Erziehungswissenschaften, oder Soziologie erst vor wenigen Jahren begonnen. Und selbst in der Psychologie gibt es noch große Defizite. Zum Beispiel veröffentlichten nur 34 von 88 Zeitschriften Replikationsstudien mit einem Gesamtanteil von 0.2% an allen veröffentlichten Studien [@clarke2023prevalence; @Feldman2024-tr].
 
 Allgemein gilt: Um Diskussionen dabei mehr als nur intuitiv sinnvoll zu führen, ist eine meta-wissenschaftliche Evaluation der neuen Methoden unabdingbar [@Phaf2024-dl; @Soderberg.2021]. Es kehrt das Spektrum der möglichen Reaktionen auf Replikationsfehlschläge zurück: Sollte eine Theorie nach einem Replikationsfehlschlag sofort verworfen werden, oder ist das zu radikal und eine Beharrungstendenz von Forschenden könnte helfen, starke Theorien zu etablieren [@phaf2024positive]? Ebenfalls ist eine interdisziplinäre Zusammenarbeit sinnvoll: Beispielsweise würde es viel Arbeit ersparen, wenn Terminologien fächerübergreifend entwickelt werden, statt wie aktuell einzeln (und stark redundant) für Psychologie [@Huffmeier.2016], Geisteswissenschaften [@Schoch.2023], und Marketing [@urminsky2024taking]. In manchen Bereichen ist sogar gänzlich unklar, wie Replikationserfolg aussieht, es lässt sich also kaum beurteilen, ob zwei Studien, die dasselbe untersuchen, zum selben Ergebnis kommen.
 
@@ -46,9 +46,15 @@ Ein aktuell noch relativ wenig behandeltes Thema ist das des Krieges. Viele Fors
 Welche Perspektive sich langfristig herauskristallisiert ist noch ungewiss. Im Zuge des Krieges in Israel und Gaza und einem offenen Brief von Wissenschaftler\*innen dazu, erstellte das Bildungsministerium im Juni 2024 Listen von Hochschullehrenden, mit bestimmter politischer Einstellung sind und [prüfte die Möglichkeit der Kürzung von Forschungsgeldern](https://www.tagesschau.de/investigativ/panorama/bmbf-stark-watzinger-foerdergelder-100.html). Diese Fördergeld-Affäre wird aus der Wissenschaft heraus - ungeachtet der politischen Hintergründe - als eine Bedrohung der Freiheit der Wissenschaft wahrgenommen und ist eher mit nationalistischen und positivistischen Perspektiven vereinbar.
 :::
 
+In der Kommunikation zwischen Wissenschaftler\*innen und der Gesellschaft besteht dabei ein Spannungsverhältnis: Untereinander müssen Forschende kommunizieren, dass Reformen und Verbesserungen in der Wissenschaft nötig sind - was am einfachsten mit Hinweisen auf die Probleme funktioniert. Im Dialog mit der Gesellschaft kann ein Hinweis auf diese Probleme jedoch das Vertrauen in Wissenschaft gefährden [@penders2024scandal]. Es bleibt hierbei also zu betonen, dass Wissenschaft nicht abgeschlossen (genau genommen *nie* abgeschlossen) ist, das aber nicht bedeutet, dass es weniger vertrauenswürdig als Gerüchte, Verschwörungstheorien, Einzelerfahrungen, oder Religion ist. Die selbst-kritische Haltung ist stattdessen ein zentraler Bestandteil von Wissenschaft und ein Zeichen dafür, dass die Selbstkorrektur-Mechanismen funktionieren.
+
 #### Weiterführende Informationen
 
 -   Über aktuelle Neuigkeiten zu Fehler in der Forschung berichtet Retractionwatch: https://retractionwatch.com
+
+-   Auf ihrem Youtube-Kanal diskutiert Mai Thi Nguyen-Kim Probleme wie Publikationsbias und Selbstkorrekturmechanismen: https://www.youtube.com/watch?v=DHyRaUeHcGY
+
+-   Sabine Hossenfelder behandelt in einem Youtube-Video das Problem, wie Klima-Wissenschaftler\*innen ihre Befunde kommunizieren (sollten): https://www.youtube.com/watch?v=gMOjD_Lt8qY
 
 -   Forschende für Vorträge und Workshops zum Thema Open Science vermittelt das deutsche Netzwerk der Open-Science Initiativen: https://osf.io/tbkzh/wiki/home/
 

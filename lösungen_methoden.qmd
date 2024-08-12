@@ -351,6 +351,8 @@ Um klar anzugeben, wer was getan hat, können Forschende die Contributor Roles T
 
 -   @kepes2023assessing haben einen Anfänger-Leitfaden für die Einschätzung von Publikationsbias entwickelt.
 
+-   Für Präklinische Studien verwaltet CAMARADES Berlin ein Wiki zu systematischen Reviews: https://www.camarades.de
+
 -   @harrer2021doing haben ein kostenlos verfügbares Buch zur Durchführung von Meta-Analysen geschrieben: https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/
 
 -   @Adler.2023 haben verschiedene Tools zur heuristischen Beurteilung von Vertrauenswürdigkeit wissenschaftlicher Befunde gesammelt. Auf https://mktg.shinyapps.io/Toolbox_App/ können Forschende Daten eingeben und die verschiedenen Verfahren durchführen.
