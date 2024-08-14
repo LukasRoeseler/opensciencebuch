@@ -74,6 +74,10 @@ Zeitschriften machen sich die Lage zu Nutzen, indem sie gegen eine schwache oder
 
 ## Vertiefende Informationen
 
-Der kostenlose Film "Paywall: The Business of Scholarship" behandelt das Thema Paywalls sowie den öffentlichem Zugang von wissenschaftlichem Wissen: https://paywallthemovie.com/paywall
+-   Der kostenlose Film "Paywall: The Business of Scholarship" behandelt das Thema Paywalls sowie den öffentlichem Zugang von wissenschaftlichem Wissen: https://paywallthemovie.com/paywall
+
+-   Das Thema der Neurodiversität in der Forschung diskutieren @Elsherif.2022. Via [FORRT.org](https://forrt.org/neurodiversity/) verwaltet die Gruppe darüber hinaus eine Datenbank neurodivergenter Forschender und weitere Projekte.
+
+-   Réscmi Thériault und Patrick Forscher haben kürzlich das [*Missing Majority Dashbaord*](https://remi-theriault.com/dashboards/missing_majority#home) veröffentlicht [@theriault2024missing], das automatisch mittels der OpenAlex Literaturdatenbank darstellt, von welchen Kontinenten Autor\*innen stammen. Nordamerika und Europa sind dabei deutlich überrepräsentiert.
 
 ## Literatur
