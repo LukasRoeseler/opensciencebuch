@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de-DE" xml:lang="de-DE"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.53">
@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Lukas Röseler">
+<meta name="description" content="Vertrauenskrise, Replikationsrevolution, und Open Science einfach und umfangreich erklärt">
 
-<title>8&nbsp; Struktur der Vertrauenskrise – Open Science: Wie sich die Wissenschaft öffnet</title>
+<title>Struktur der Vertrauenskrise – Open Science: Wie sich die Wissenschaft öffnet</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -32,7 +53,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./probleme.html" rel="next">
-<link href="./beimerstenversuch.html" rel="prev">
+<link href="./wandel.html" rel="prev">
 <link href="./images/favicon_os.jpg" rel="icon" type="image/jpeg">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -57,17 +78,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
   }
 }</script>
 
@@ -81,13 +102,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./geschichte.html">Die Geschichte der Open Science Bewegung</a></li><li class="breadcrumb-item"><a href="./struktur.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Struktur der Vertrauenskrise</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./geschichte.html">Die Geschichte der Open Science Bewegung</a></li><li class="breadcrumb-item"><a href="./struktur.html"><span class="chapter-title">Struktur der Vertrauenskrise</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -119,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
           </li>
       </ul>
     </div>
-  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Lesemodus umschalten">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
   </div>
@@ -129,42 +150,38 @@ ul.task-list li input[type="checkbox"] {
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Suchen"></div>
         </div>
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Willkommen</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Willkommen</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Über das Buch</span></span></a>
+  <a href="./about.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Über das Buch</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./einleitung.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Einleitung</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./wasistopenscience.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Was ist Open Science?</span></span></a>
+  <a href="./wasistopenscience.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Was ist Open Science?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./umgehenmitopenscience.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Wie ist mit Open Science umzugehen?</span></span></a>
+  <a href="./umgehenmitopenscience.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Wie ist mit Open Science umzugehen?</span></a>
   </div>
 </li>
       </ul>
@@ -173,39 +190,29 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./geschichte.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Die Geschichte der Open Science Bewegung</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./anfänge.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Anfänge einer Revolution</span></span></a>
+  <a href="./anfänge.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Anfänge einer Revolution</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./bestandsaufnahme.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Bestandsaufnahme</span></span></a>
+  <a href="./bestandsaufnahme.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Bestandsaufnahme</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./wandel.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Wandel im System</span></span></a>
+  <a href="./wandel.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Wandel im System</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./beimerstenversuch.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Beim ersten Versuch klappt es nie: Der Paradigmenwechsel in der Psychologie</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./struktur.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Struktur der Vertrauenskrise</span></span></a>
+  <a href="./struktur.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Struktur der Vertrauenskrise</span></a>
   </div>
 </li>
       </ul>
@@ -214,45 +221,34 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./probleme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Probleme</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Probleme des Wissenschaftlichen Systems</span></span></a>
+  <a href="./probleme_system.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Das System</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_karriere.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Karriere in der Wissenschaft</span></span></a>
+  <a href="./probleme_karriere.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Karriere in der Wissenschaft</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_methoden.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Probleme der wissenschaftlichen Methoden</span></span></a>
+  <a href="./probleme_methoden.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Methoden</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_theorien.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
+  <a href="./probleme_theorien.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Theorien</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_epistemische.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Epistemische Probleme</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./probleme_krieg.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Krieg und Open Science</span></span></a>
+  <a href="./probleme_epistemische.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Epistemische Probleme</span></a>
   </div>
 </li>
       </ul>
@@ -261,33 +257,29 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./lösungen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lösungen</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lösungen_system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Das System</span></span></a>
+  <a href="./lösungen_system.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Das System</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lösungen_methoden.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Methoden</span></span></a>
+  <a href="./lösungen_methoden.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Methoden</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lösungen_theorien.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
+  <a href="./lösungen_theorien.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Theorien</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lösungen_welt.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Die Welt</span></span></a>
+  <a href="./lösungen_welt.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Die Welt</span></a>
   </div>
 </li>
       </ul>
@@ -301,15 +293,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhaltsverzeichnis</h2>
+   
+  <ul>
+  <li><a href="#literatur" id="toc-literatur" class="nav-link active" data-scroll-target="#literatur">Literatur</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./geschichte.html">Die Geschichte der Open Science Bewegung</a></li><li class="breadcrumb-item"><a href="./struktur.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Struktur der Vertrauenskrise</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./geschichte.html">Die Geschichte der Open Science Bewegung</a></li><li class="breadcrumb-item"><a href="./struktur.html"><span class="chapter-title">Struktur der Vertrauenskrise</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Struktur der Vertrauenskrise</span></h1>
+<h1 class="title"><span class="chapter-title">Struktur der Vertrauenskrise</span></h1>
 </div>
 
 
@@ -326,8 +324,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Im Gespräch über Präregistrierungen – eine Methode zur Erhöhung der Replizierbarkeit eines Befundes – entgegnete ein Kollege: “Schön und gut, aber solange sich das System nicht ändert, wird sich an Replikationsraten nichts ändern.” Wie lässt sich dieser Einwand verstehen? Zäumen wir dazu das Pferd von hinten auf: Spätestens seit dem Reproducibility Project Psychology (Open Science Collaboration, 2015) ist den meisten Psycholog*innen klar, dass wir massive Probleme bei der Replizierbarkeit von Befunden haben. Woher kommen diese genau? Ein wichtiges Problem ist hierbei der <em>Publikationsbias</em>, womit gemeint ist, dass bei der Veröffentlichung von wissenschaftlichen Berichten eine Auswahl getroffen werden muss und dadurch nur bestimmte Ergebnisse publiziert werden (z.B. Ergebnisse, die eine bestimmte Theorie stützen). Dadurch steht ein verzerrtes Bild der Realität. Oft schreiben Wissenschaftler*innen sogar nur bestimmte Befunde zu Berichten zusammen. “Fehlgeschlagene Experimente”, also solche, bei denen eine Hypothese nicht bestätigt oder eine Theorie nicht gestützt werden konnte, landen in der Schublade (engl. <em>File-Drawer-Problem</em>; Rosenthal, 1979; Sterling, 1959). In extremeren Fällen bedienen sich Wissenschaftler*innen verschiedener größtenteils anerkannter Methoden, die Daten so darzustellen, dass sie die Hypothese stützen oder tun so, als ob das, was sich aus den Daten lesen lässt, von Beginn an die Hypothese gewesen wäre (HARKing, REF). Aber was treibt Personen, die sich vor allem für den Beruf wegen ihres Interesse an der Funktionsweise der Welt (oder im Falle der Psychologie der Funktionsweise des Menschen) und wegen Ihrer Suche nach Wahrheit entschieden haben dazu, die Wahrheit zu schönen? Am Anfang des komplexen Prozesses, welcher zur Replikationskrise geführt hat, steht das aktuelle wissenschaftliche System: Ein Großteil der in der Wissenschaft beschäftigten arbeitet unter extremem Druck und prekären Arbeitsbedingungen. Um nach ein bis zwei Jahren eine Vertragsverlängerung zu erhalten, müssen Publikationen von Artikeln in möglichst angesehenen Fachzeitschriften nachgewiesen werden. Diese kriegt man durch besonders aussagekräftige und spannende Ergebnisse. Das Anreizsystem der Wissenschaft belohnt also nicht Wahrheit, Genauigkeit, Bescheidenheit, oder Transparenz, sondern vor allem diejenigen Dinge, die nicht in der Hand eine*r Wissenschaftler*in liegen: Spannende und eindeutige Ergebnisse.</p>
-<p>Der Prozess von prekären Arbeitsbedingungen bis zur niedrigen Replikationsrate ist in Abbildung 1 veranschaulicht. In den folgenden Kapiteln werden die Probleme und Lösungsansätze im Detail diskutiert.</p>
+<p>Im Gespräch über Präregistrierungen – eine Methode zur Erhöhung der Replizierbarkeit eines Befundes – entgegnete ein Kollege: “Schön und gut, aber solange sich das System nicht ändert, wird sich an Replikationsraten nichts ändern.” Wie lässt sich dieser Einwand verstehen? Zäumen (bzw. trensen) wir dazu das Pferd von hinten auf: Spätestens seit dem Reproducibility Project Psychology (Open Science Collaboration, 2015) ist den meisten Psycholog*innen klar, dass es große Probleme bei der Replizierbarkeit von Befunden gibt. Woher kommen diese genau? Ein wichtiges Problem ist hierbei der <em>Publikationsbias</em>, womit gemeint ist, dass bei der Veröffentlichung von wissenschaftlichen Berichten eine Auswahl getroffen werden muss und dadurch nur bestimmte Ergebnisse publiziert werden (z.B. Ergebnisse, die eine bestimmte Theorie stützen). Dadurch steht ein verzerrtes Bild der Realität. Oft schreiben Wissenschaftler*innen sogar nur bestimmte Befunde zu Berichten zusammen. “Fehlgeschlagene Experimente”, also solche, bei denen eine Hypothese nicht bestätigt oder eine Theorie nicht gestützt werden konnte, landen in der Schublade (engl. <em>File-Drawer-Problem</em>; <span class="citation" data-cites="Rosenthal.1979">Rosenthal (<a href="#ref-Rosenthal.1979" role="doc-biblioref">1979</a>)</span>; <span class="citation" data-cites="sterling1959publication">Sterling (<a href="#ref-sterling1959publication" role="doc-biblioref">1959</a>)</span>). In extremeren Fällen bedienen sich Wissenschaftler*innen verschiedener größtenteils anerkannter Methoden, die Daten so darzustellen, dass sie die Hypothese stützen oder tun so, als ob das, was sich aus den Daten lesen lässt, von Beginn an die Hypothese gewesen wäre (HARKing, <span class="citation" data-cites="Parsons.2022">Parsons u.&nbsp;a. (<a href="#ref-Parsons.2022" role="doc-biblioref">2022</a>)</span>). Aber was treibt Personen, die sich vor allem für den Beruf wegen ihres Interesse an der Funktionsweise der Welt (oder im Falle der Psychologie der Funktionsweise des Menschen) und wegen Ihrer Suche nach Wahrheit entschieden haben dazu, die Wahrheit zu unbewusst zu schönen oder sogar bewusst zu manipulieren? Am Anfang des komplexen Prozesses, welcher zur Replikationskrise geführt hat, steht das aktuelle wissenschaftliche System: Ein Großteil der in der Wissenschaft beschäftigten arbeitet unter extremem Druck und prekären Arbeitsbedingungen. Um nach ein bis zwei Jahren eine Vertragsverlängerung zu erhalten, müssen Publikationen von Artikeln in möglichst angesehenen Fachzeitschriften nachgewiesen werden. Diese kriegt man durch besonders aussagekräftige und spannende Ergebnisse. Das Anreizsystem der Wissenschaft belohnt also nicht Wahrheit, Genauigkeit, Bescheidenheit, oder Transparenz, sondern vor allem diejenigen Dinge, die nicht in der Hand eine*r Wissenschaftler*in liegen: Spannende und eindeutige Ergebnisse <span class="citation" data-cites="Bakker.2012">(<a href="#ref-Bakker.2012" role="doc-biblioref">Bakker, van Dijk, und Wicherts 2012</a>)</span>.</p>
+<p>Der Prozess von prekären Arbeitsbedingungen bis zur niedrigen Replikationsrate ist hier veranschaulicht. In den folgenden Kapiteln werden die Probleme und Lösungsansätze im Detail diskutiert.</p>
 <p><strong>Abbildung 2</strong></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -335,10 +333,25 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>Das Anreizsystem der Wissenschaft als Ursache für Replikationsfehlschläge</figcaption>
 </figure>
 </div>
-<p><a href="#_msocom_10">[LR10]</a>&nbsp;</p>
-<p><a href="#_ftnref1">[1]</a>Obgleich dieses „Reproducibility Project Psychology” die gesamte Fachgemeinschaft zutiefst erschütterte und den Weg für einen Paradigmenwechsel ebnete, bemängeln manche Forschende auch negative Auswirkungen auf nachfolgende Replikationsforschung. Indem 100 Studien gleichzeitig von einer Gruppe aus über 100 Forschenden veröffentlicht wurden, setzte das Projekt unrealistische Maßstäbe für Replikationsforschung (REF Gilad Feldman twitter siehe eine Mail Sommer 2022). Gleichzeitig war die Qualitätskontrolle dabei weniger streng, da die Einzelstudien nicht alle in dem Maße begutachtet werden konnten, wie es bei einer traditionellen Veröffentlichung der Fall gewesen wäre (z.B. Röseler 2022 OSF Replications). Einige gleichermaßen ambitionierte Vorhaben wurden veröffentlicht, wie zum Beispiel die ManyLabs Studien (REF) oder Versuche, bei denen unabhängige Gruppen dieselben Hypothesen testeten und replizierten (REF crowdsourcing hypothesis test). Oft beschränken sich diese Vorhaben auf Studien, die sich im Rahmen einer Online-Befragung replizieren lassen. Verhaltensbeobachtungen sind dabei unterrepräsentiert.</p>
+<section id="literatur" class="level3">
+<h3 class="anchored" data-anchor-id="literatur">Literatur</h3>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Bakker.2012" class="csl-entry" role="listitem">
+Bakker, Marjan, Annette van Dijk, und Jelte M. Wicherts. 2012. <span>„The Rules of the Game Called Psychological Science“</span>. <em>Perspectives on psychological science : a journal of the Association for Psychological Science</em> 7 (6): 543–54. <a href="https://doi.org/10.1177/1745691612459060">https://doi.org/10.1177/1745691612459060</a>.
+</div>
+<div id="ref-Parsons.2022" class="csl-entry" role="listitem">
+Parsons, Sam, Flávio Azevedo, Mahmoud M. Elsherif, Samuel Guay, Owen N. Shahim, Gisela H. Govaart, Emma Norris, u.&nbsp;a. 2022. <span>„A community-sourced glossary of open scholarship terms“</span>. <em>Nature Human Behaviour</em> 6 (3): 312–18. <a href="https://doi.org/10.1038/s41562-021-01269-4">https://doi.org/10.1038/s41562-021-01269-4</a>.
+</div>
+<div id="ref-Rosenthal.1979" class="csl-entry" role="listitem">
+Rosenthal, Robert. 1979. <span>„The file drawer problem and tolerance for null results“</span>. <em>Psychological Bulletin</em> 86 (3): 638–41. <a href="https://doi.org/10.1037/0033-2909.86.3.638">https://doi.org/10.1037/0033-2909.86.3.638</a>.
+</div>
+<div id="ref-sterling1959publication" class="csl-entry" role="listitem">
+Sterling, Theodore D. 1959. <span>„Publication decisions and their possible effects on inferences drawn from tests of significance—or vice versa“</span>. <em>Journal of the American statistical association</em> 54 (285): 30–34.
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -384,12 +397,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Kopiert");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Kopiert");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -763,8 +776,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./beimerstenversuch.html" class="pagination-link" aria-label="Beim ersten Versuch klappt es nie: Der Paradigmenwechsel in der Psychologie">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Beim ersten Versuch klappt es nie: Der Paradigmenwechsel in der Psychologie</span></span>
+      <a href="./wandel.html" class="pagination-link" aria-label="Wandel im System">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Wandel im System</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
@@ -777,13 +790,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0th ed.). https://lukasroeseler.github.io/opensciencebuch</p>
+<p>Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0.1th ed.). https://doi.org/10.17605/OSF.IO/2QXWV</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></div>
     <div class="nav-footer-right">
-<p>Mithilfe von <a href="https://quarto.org/">Quarto</a> erstellt.</p>
+<p>Mithilfe von <a href="https://quarto.org/">Quarto</a> erstellt. Lizenz: CC-By Attribution 4.0 International.</p>
 </div>
   </div>
 </footer>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de-DE" xml:lang="de-DE"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.53">
@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Lukas Röseler">
+<meta name="description" content="Vertrauenskrise, Replikationsrevolution, und Open Science einfach und umfangreich erklärt">
 
-<title>18&nbsp; Die Welt – Open Science: Wie sich die Wissenschaft öffnet</title>
+<title>Die Welt – Open Science: Wie sich die Wissenschaft öffnet</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -57,17 +78,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
   }
 }</script>
 
@@ -81,13 +102,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lösungen.html">Lösungen</a></li><li class="breadcrumb-item"><a href="./lösungen_welt.html"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Die Welt</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lösungen.html">Lösungen</a></li><li class="breadcrumb-item"><a href="./lösungen_welt.html"><span class="chapter-title">Die Welt</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -119,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
           </li>
       </ul>
     </div>
-  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Lesemodus umschalten">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
   </div>
@@ -129,42 +150,38 @@ ul.task-list li input[type="checkbox"] {
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Suchen"></div>
         </div>
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Willkommen</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Willkommen</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Über das Buch</span></span></a>
+  <a href="./about.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Über das Buch</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./einleitung.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Einleitung</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./wasistopenscience.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Was ist Open Science?</span></span></a>
+  <a href="./wasistopenscience.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Was ist Open Science?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./umgehenmitopenscience.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Wie ist mit Open Science umzugehen?</span></span></a>
+  <a href="./umgehenmitopenscience.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Wie ist mit Open Science umzugehen?</span></a>
   </div>
 </li>
       </ul>
@@ -173,39 +190,29 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./geschichte.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Die Geschichte der Open Science Bewegung</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./anfänge.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Anfänge einer Revolution</span></span></a>
+  <a href="./anfänge.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Anfänge einer Revolution</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./bestandsaufnahme.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Bestandsaufnahme</span></span></a>
+  <a href="./bestandsaufnahme.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Bestandsaufnahme</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./wandel.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Wandel im System</span></span></a>
+  <a href="./wandel.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Wandel im System</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./beimerstenversuch.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Beim ersten Versuch klappt es nie: Der Paradigmenwechsel in der Psychologie</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./struktur.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Struktur der Vertrauenskrise</span></span></a>
+  <a href="./struktur.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Struktur der Vertrauenskrise</span></a>
   </div>
 </li>
       </ul>
@@ -214,45 +221,34 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./probleme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Probleme</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Probleme des Wissenschaftlichen Systems</span></span></a>
+  <a href="./probleme_system.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Das System</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_karriere.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Karriere in der Wissenschaft</span></span></a>
+  <a href="./probleme_karriere.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Karriere in der Wissenschaft</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_methoden.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Probleme der wissenschaftlichen Methoden</span></span></a>
+  <a href="./probleme_methoden.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Methoden</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_theorien.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
+  <a href="./probleme_theorien.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Theorien</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_epistemische.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Epistemische Probleme</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./probleme_krieg.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Krieg und Open Science</span></span></a>
+  <a href="./probleme_epistemische.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Epistemische Probleme</span></a>
   </div>
 </li>
       </ul>
@@ -261,33 +257,29 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./lösungen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lösungen</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lösungen_system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Das System</span></span></a>
+  <a href="./lösungen_system.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Das System</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lösungen_methoden.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Methoden</span></span></a>
+  <a href="./lösungen_methoden.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Methoden</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lösungen_theorien.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
+  <a href="./lösungen_theorien.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Theorien</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lösungen_welt.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Die Welt</span></span></a>
+  <a href="./lösungen_welt.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Die Welt</span></a>
   </div>
 </li>
       </ul>
@@ -301,15 +293,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhaltsverzeichnis</h2>
+   
+  <ul>
+  <li><a href="#literatur" id="toc-literatur" class="nav-link active" data-scroll-target="#literatur">Literatur</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lösungen.html">Lösungen</a></li><li class="breadcrumb-item"><a href="./lösungen_welt.html"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Die Welt</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lösungen.html">Lösungen</a></li><li class="breadcrumb-item"><a href="./lösungen_welt.html"><span class="chapter-title">Die Welt</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Die Welt</span></h1>
+<h1 class="title"><span class="chapter-title">Die Welt</span></h1>
 </div>
 
 
@@ -326,18 +324,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Nachdem nun systemische, methodische, und theoretische Gründe für die Replikationskrise diskutiert wurden, endet die Diskussion mit einem allgemeinen und ontologischen Punkt: Die Erwartung, dass sich Befunde wiederholt feststellen lassen müssen beruht auf der Annahme oder Theorie, dass die Welt – oder zumindest die jeweils in der Wissenschaft untersuchte Gesetzmäßigkeit – stabil ist. Bei fluktuierenden Mustern in der Welt oder im menschlichen Verhalten sind Replikationsfehlschläge wenig überraschend. Für die Psychologie haben REF <a href="#_msocom_1">[LR1]</a>&nbsp;und Gergen <a href="#_msocom_2">[LR2]</a>&nbsp;(REF, siehe auch REF<a href="#_msocom_3">[LR3]</a>&nbsp;)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Historizität (why psychology cannot be a science jan smedslund)</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Indeed, the argument put forward by Gergen (1973) that most (if not all) effects in psychology are not stable across time and context was one of the starting points for the first crisis in social psychology. Gergen writes: “It is the purpose of this paper to argue that social psychology is primarily an historical inquiry. Unlike the natural sciences, it deals with facts that are largely nonrepeatable and which fluctuate markedly over time” (1973, p.&nbsp;310). Nach Lakens two crises <a href="https://osf.io/preprints/psyarxiv/dtvs7/" class="uri">https://osf.io/preprints/psyarxiv/dtvs7/</a> p.&nbsp;12</p>
-<p>o&nbsp;&nbsp; Das ist aber unklar und auch nicht ausreichend erforscht</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; more research</p>
-<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; evtl Ontologie<a href="#_msocom_4">[LR4]</a>&nbsp;</p>
-<p>&nbsp;<a href="#_msoanchor_1">[LR1]</a>Dänemark, why psychology cannot be a science</p>
-<p>&nbsp;<a href="#_msoanchor_2">[LR2]</a>REF siehe bei lakens</p>
-<p>&nbsp;<a href="#_msoanchor_3">[LR3]</a>Lakens two crises</p>
-<p>&nbsp;<a href="#_msoanchor_4">[LR4]</a><a href="https://psycnet.apa.org/record/2024-93999-001" class="uri">https://psycnet.apa.org/record/2024-93999-001</a></p>
+<p>Nachdem nun systemische, methodische, und theoretische Gründe für die Replikationskrise diskutiert wurden, endet die Diskussion mit einem allgemeinen und ontologischen Punkt: Die Erwartung, dass sich Befunde wiederholt feststellen lassen müssen beruht auf der Annahme oder Theorie, dass die Welt – oder zumindest die jeweils in der Wissenschaft untersuchte Gesetzmäßigkeit – stabil ist. Bei fluktuierenden Mustern in der Welt oder im menschlichen Verhalten sind Replikationsfehlschläge wenig überraschend. Für die Psychologie hat beispielsweise <span class="citation" data-cites="Smedslund.2015">Smedslund (<a href="#ref-Smedslund.2015" role="doc-biblioref">2015</a>)</span> kritisiert, dass diese Annahme falsch ist und hat diese <em>Historizität</em> als einen der Gründe angeführt, weshalb Psychologie keine Naturwissenschaft sein kann. Ähnlich argumentierte ebenfalls <span class="citation" data-cites="gergen1973social">Gergen (<a href="#ref-gergen1973social" role="doc-biblioref">1973</a>)</span>. Beide Sichtweisen haben ihren Ursprung möglicherweise in der Grundlagendiskussion der Psychologie: Anfang des 20. Jahrhunderts, als die Psychologie sich langsam von der Philosophie distanzierte und vermehrt empirisch (also durch Beobachtungen statt nur Überlegungen) arbeitete, unterteilte <span class="citation" data-cites="dilthey1970aufbau">Dilthey und Riedel (<a href="#ref-dilthey1970aufbau" role="doc-biblioref">1970</a>)</span> Naturwissenschaften und Geisteswissenschaften dahingehend, dass in es in den Naturwissenschaften nicht um das Nacherleben und Begreifen nachrangig sind und es um abstrakte und allgemeine (<em>nomothetische</em>) Gesetzmäßigkeiten geht. Geisteswissenschaften hingegen betrachten Vorgeänge in einem konkreten und einzigartigen (<em>idiographischen</em>) Zusammenhang mit allen dazugehörigen Besonderheiten. Es etablierte sich langfristig der naturwissenschaftliche Ansatz, der bereits 50 Jahre zuvor fruchtbare Erkenntnisse lieferte <span class="citation" data-cites="Fechner.1860">(<a href="#ref-Fechner.1860" role="doc-biblioref">Fechner 1860</a>)</span>.</p>
+<p>Eine besondere Rolle beim Verallgemeinern von einzelnen Beobachtungen auf allgemeingültige Gesetzmäßigkeiten spielt auch der Zufall. Das Besondere bei statistischen Methoden ist beispielsweise, dass die Unsicherheit als Zahl ausgedrückt wird und damit <em>quantifiziert</em> wird. Die wichtige Frage im Rahmen von Replikationsproblemen ist, ob die Unterschiede zwischen Befunden zufällig oder aufgrund irgendwelche Unterschiede entstanden sind. Diese zwei Arten des Zufalls werden als ontologischer und epistemischer Zufall bezeichnet. Ontologischer Zufall bedeutet, dass ein einfach keinen Grund gibt, während wir ihn beim epistemologischen Zufall bloß nicht kennen. Der Ausgang bei einem Münzwurf, also ob die Münze auf Kopf oder Zahl landet, ist beispielsweise ein Fall epistemischen Zufalls: Würden wir alle wichtigen Parameter kennen (Höhe der Hand, Stärke des Wurfes, welche Seite beim Werfen oben liegt, usw.), könnten wir eindeutig vorhersagen, wie die Münze landet. Übrigens landen faire Münzen meistens auf der Seite, mit der sie gestartet sind <span class="citation" data-cites="Bartos2023-jt">(<a href="#ref-Bartos2023-jt" role="doc-biblioref">Bartoš u.&nbsp;a. 2023</a>)</span>.</p>
+<section id="literatur" class="level3">
+<h3 class="anchored" data-anchor-id="literatur">Literatur</h3>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Bartos2023-jt" class="csl-entry" role="listitem">
+Bartoš, František, Alexandra Sarafoglou, Henrik R Godmann, Amir Sahrani, David Klein Leunk, Pierre Y Gui, David Voss, u.&nbsp;a. 2023. <span>„Fair coins tend to land on the same side they started: Evidence from 350,757 flips“</span>.
+</div>
+<div id="ref-dilthey1970aufbau" class="csl-entry" role="listitem">
+Dilthey, Wilhelm, und Manfred Riedel. 1970. <em>Der Aufbau der geschichtlichen Welt in den Geisteswissenschaften</em>. Suhrkamp Frankfurt am Main.
+</div>
+<div id="ref-Fechner.1860" class="csl-entry" role="listitem">
+Fechner, Gustav Theodor. 1860. <em>Elemente der Psychophysik</em>. Leipzig: <span>Breitkopf und H<span>ä</span>rtel</span>.
+</div>
+<div id="ref-gergen1973social" class="csl-entry" role="listitem">
+Gergen, Kenneth J. 1973. <span>„Social psychology as history.“</span> <em>Journal of personality and social psychology</em> 26 (2): 309.
+</div>
+<div id="ref-Smedslund.2015" class="csl-entry" role="listitem">
+Smedslund, Jan. 2015. <span>„Why psychology cannot be an empirical science“</span>. <em>Integrative psychological <span>&amp;</span> behavioral science</em>. <a href="https://doi.org/10.1007/s12124-015-9339-x">https://doi.org/10.1007/s12124-015-9339-x</a>.
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -383,12 +393,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Kopiert");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Kopiert");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -763,7 +773,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./lösungen_theorien.html" class="pagination-link" aria-label="Theorien">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Theorien</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Theorien</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
@@ -776,13 +786,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0th ed.). https://lukasroeseler.github.io/opensciencebuch</p>
+<p>Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0.1th ed.). https://doi.org/10.17605/OSF.IO/2QXWV</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></div>
     <div class="nav-footer-right">
-<p>Mithilfe von <a href="https://quarto.org/">Quarto</a> erstellt.</p>
+<p>Mithilfe von <a href="https://quarto.org/">Quarto</a> erstellt. Lizenz: CC-By Attribution 4.0 International.</p>
 </div>
   </div>
 </footer>

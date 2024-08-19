@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de-DE" xml:lang="de-DE"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.53">
@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Lukas Röseler">
+<meta name="description" content="Vertrauenskrise, Replikationsrevolution, und Open Science einfach und umfangreich erklärt">
 
-<title>17&nbsp; Theorien – Open Science: Wie sich die Wissenschaft öffnet</title>
+<title>Theorien – Open Science: Wie sich die Wissenschaft öffnet</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -57,17 +78,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
   }
 }</script>
 
@@ -81,13 +102,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lösungen.html">Lösungen</a></li><li class="breadcrumb-item"><a href="./lösungen_theorien.html"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Theorien</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lösungen.html">Lösungen</a></li><li class="breadcrumb-item"><a href="./lösungen_theorien.html"><span class="chapter-title">Theorien</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -119,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
           </li>
       </ul>
     </div>
-  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Lesemodus umschalten">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
   </div>
@@ -129,42 +150,38 @@ ul.task-list li input[type="checkbox"] {
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Suchen"></div>
         </div>
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Willkommen</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Willkommen</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Über das Buch</span></span></a>
+  <a href="./about.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Über das Buch</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./einleitung.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Einleitung</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./wasistopenscience.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Was ist Open Science?</span></span></a>
+  <a href="./wasistopenscience.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Was ist Open Science?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./umgehenmitopenscience.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Wie ist mit Open Science umzugehen?</span></span></a>
+  <a href="./umgehenmitopenscience.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Wie ist mit Open Science umzugehen?</span></a>
   </div>
 </li>
       </ul>
@@ -173,39 +190,29 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./geschichte.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Die Geschichte der Open Science Bewegung</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./anfänge.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Anfänge einer Revolution</span></span></a>
+  <a href="./anfänge.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Anfänge einer Revolution</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./bestandsaufnahme.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Bestandsaufnahme</span></span></a>
+  <a href="./bestandsaufnahme.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Bestandsaufnahme</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./wandel.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Wandel im System</span></span></a>
+  <a href="./wandel.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Wandel im System</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./beimerstenversuch.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Beim ersten Versuch klappt es nie: Der Paradigmenwechsel in der Psychologie</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./struktur.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Struktur der Vertrauenskrise</span></span></a>
+  <a href="./struktur.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Struktur der Vertrauenskrise</span></a>
   </div>
 </li>
       </ul>
@@ -214,45 +221,34 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./probleme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Probleme</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Probleme des Wissenschaftlichen Systems</span></span></a>
+  <a href="./probleme_system.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Das System</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_karriere.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Karriere in der Wissenschaft</span></span></a>
+  <a href="./probleme_karriere.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Karriere in der Wissenschaft</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_methoden.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Probleme der wissenschaftlichen Methoden</span></span></a>
+  <a href="./probleme_methoden.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Methoden</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_theorien.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
+  <a href="./probleme_theorien.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Theorien</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_epistemische.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Epistemische Probleme</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./probleme_krieg.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Krieg und Open Science</span></span></a>
+  <a href="./probleme_epistemische.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Epistemische Probleme</span></a>
   </div>
 </li>
       </ul>
@@ -261,33 +257,29 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./lösungen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lösungen</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lösungen_system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Das System</span></span></a>
+  <a href="./lösungen_system.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Das System</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lösungen_methoden.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Methoden</span></span></a>
+  <a href="./lösungen_methoden.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Methoden</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lösungen_theorien.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
+  <a href="./lösungen_theorien.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Theorien</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lösungen_welt.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Die Welt</span></span></a>
+  <a href="./lösungen_welt.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Die Welt</span></a>
   </div>
 </li>
       </ul>
@@ -303,20 +295,21 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+    <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
-  <li><a href="#spezifizierung-und-formalisierung" id="toc-spezifizierung-und-formalisierung" class="nav-link active" data-scroll-target="#spezifizierung-und-formalisierung"><span class="header-section-number">17.0.1</span> Spezifizierung und Formalisierung</a></li>
-  <li><a href="#gegnerische-kollaborationen" id="toc-gegnerische-kollaborationen" class="nav-link" data-scroll-target="#gegnerische-kollaborationen"><span class="header-section-number">17.0.2</span> Gegnerische Kollaborationen</a></li>
+  <li><a href="#spezifizierung-und-formalisierung" id="toc-spezifizierung-und-formalisierung" class="nav-link active" data-scroll-target="#spezifizierung-und-formalisierung">Spezifizierung und Formalisierung</a></li>
+  <li><a href="#gegnerische-kollaborationen" id="toc-gegnerische-kollaborationen" class="nav-link" data-scroll-target="#gegnerische-kollaborationen">Gegnerische Kollaborationen</a></li>
+  <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur">Literatur</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lösungen.html">Lösungen</a></li><li class="breadcrumb-item"><a href="./lösungen_theorien.html"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Theorien</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lösungen.html">Lösungen</a></li><li class="breadcrumb-item"><a href="./lösungen_theorien.html"><span class="chapter-title">Theorien</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Theorien</span></h1>
+<h1 class="title"><span class="chapter-title">Theorien</span></h1>
 </div>
 
 
@@ -333,36 +326,79 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Theorien übernehmen in der Wissenschaft oft die Funktion eines Wegweisers. Durch sie lässt sich einschätzen, wie die Ergebnisse einer Untersuchung aussehen, bevor sie durchgeführt werden. Falls die Ergebnisse also nicht wie erwartet sind, zum Beispiel wenn eine Replikation fehlschlägt, besteht der Verdacht, die Theorie könnte falsch oder unvollständig sein. In der Psychologie, in welcher Theorien häufig in Alltagssprache und nicht formalisiert (also als mathematische Formeln) notiert werden, ist der Sinn von formalen Varianten schon lange diskutiert (REF<a href="#_msocom_1">[LR1]</a>&nbsp;, REF<a href="#_msocom_2">[LR2]</a>&nbsp;, REF<a href="#_msocom_3">[LR3]</a>&nbsp;) und Replikationsfehlschläge werden darauf zurückgeführt, dass die Theorien zu unpräzise, missverständlich, und nicht gut ausgearbeitet sind. Es herrscht das Motto, Theorien seien wie Zahnbürsten und man solle niemals die von jemand anderem nehmen (REF<a href="#_msocom_4">[LR4]</a>&nbsp;). Daran, dass das Problem seit Jahrzehnten beschrieben wird, hat sich wenig geändert (REF<a href="#_msocom_5">[LR5]</a>&nbsp;, REF<a href="#_msocom_6">[LR6]</a>&nbsp;). Inzwischen gibt es jedoch Bemühungen, das Problem auch zu lösen (REF<a href="#_msocom_7">[LR7]</a>&nbsp;, REF<a href="#_msocom_8">[LR8]</a>&nbsp;), beispielsweise durch das herausstellen der Vorteile von bekannten formalen Theorien (REF<a href="#_msocom_9">[LR9]</a>&nbsp;<a href="#_msocom_10">[LR10]</a>&nbsp;), Entwicklung von Werkzeugen zur Formalisierung von Theorien (<a href="https://www.theorymaps.org" class="uri">https://www.theorymaps.org</a>), oder durch einzelne Forschende. Der Wert von Replikationsstudien wird im Rahmen der „Theorie-Krise” darin gesehen, dass nur durch wiederholte Untersuchung festgestellt werden kann, unter welchen Bedingungen ein bestimmtes Phänomen nachweisbar ist (z.B. REF<a href="#_msocom_11">[LR11]</a>&nbsp;).</p>
-<section id="spezifizierung-und-formalisierung" class="level3" data-number="17.0.1">
-<h3 data-number="17.0.1" class="anchored" data-anchor-id="spezifizierung-und-formalisierung"><span class="header-section-number">17.0.1</span> Spezifizierung und Formalisierung</h3>
-<p>Das Problem einer Theorie in Alltagssprache lässt sich wie folgt veranschaulichen: REF<a href="#_msocom_12">[LR12]</a>&nbsp; versuchten, eine Studie zur Facial Feedback Hypothese zu replizieren. Die Hypothese besagt, dass Personen, wenn sie einen Stift so im Mund halten, dass dabei diejenigen Muskeln beansprucht werden, die auch beim Grinsen genutzt werden, Dinge lustiger finden, als wenn sie den Stift anders im Mund halten. Damit geprüft werden konnte, ob Versuchspersonen ihre Stifte richtig in den Mund nahmen, wurden sie in der Replikationsstudie gefilmt. Das war in der Originalstudie nicht der Fall. Die Replikationsstudien schlugen fehl und der Unterschied der Kamera wurde von den Autoren der Originalstudie als Grund genannt, weshalb die Replikation fehlschlug (REF<a href="#_msocom_13">[LR13]</a>&nbsp;). Ob und wie die Präsenz einer Kamera in dem Versuchsaufbau relevant ist, war nicht Teil der Theorie beziehungsweise Hypothese. Durch die Formulierung der Theorie in gewöhnlicher Sprache können unendlich viele solcher „Post Hoc” Erklärungen in die Diskussion eingebracht werden, die jegliche Replikationsfehlschläge relativieren. Bei einer formalen Theorie sind solche Missverständnisse seltener.</p>
-<p>Aus dem Problem, dass Theorien schwer verständlich und wenig informativ sind, folgt die Tatsache, dass die meisten Theorien nie falsifiziert werden, aber auch nicht weiter untersucht werden („Zombie-Theorien”, REF<a href="#_msocom_14">[LR14]</a>&nbsp;). Ähnlich verhält es sich mit psychologischen Skalen, bei denen die meisten nur einmal verwendet werden (REF<a href="#_msocom_15">[LR15]</a>&nbsp;). Flexible Theorien vereinfachen außerdem das p-Hacking: In der Theorie ist keine Vorgabe zum Aufbereiten der Daten, also kann diejenige Variante gewählt werden, die die Theorie bestätigt (REF<a href="#_msocom_16">[LR16]</a>&nbsp;).</p>
+<p>Theorien übernehmen in der Wissenschaft oft die Funktion eines Wegweisers. Durch sie lässt sich einschätzen, wie die Ergebnisse einer Untersuchung aussehen, bevor sie durchgeführt werden. Falls die Ergebnisse also nicht wie erwartet sind, zum Beispiel wenn eine Replikation fehlschlägt, besteht der Verdacht, die Theorie könnte falsch oder unvollständig sein. In der Psychologie, in welcher Theorien häufig in Alltagssprache und nicht formalisiert (also als mathematische Formeln) notiert werden, ist der Sinn von formalen Varianten schon lange diskutiert <span class="citation" data-cites="Meehl.2004 platt1964strong Wilcox2024-kx">(<a href="#ref-Meehl.2004" role="doc-biblioref">Meehl 2004</a>; <a href="#ref-platt1964strong" role="doc-biblioref">Platt 1964</a>; <a href="#ref-Wilcox2024-kx" role="doc-biblioref">Wilcox und Rousselet 2024</a>)</span> und Replikationsfehlschläge werden darauf zurückgeführt, dass die Theorien zu unpräzise, missverständlich, und nicht gut ausgearbeitet sind. Es herrscht das Motto, Theorien seien wie Zahnbürsten und man solle niemals die von jemand anderem nehmen. Daran, dass das Problem seit Jahrzehnten beschrieben wird, hat sich wenig geändert <span class="citation" data-cites="Lakens.2023 Muthukrishna.2019">(<a href="#ref-Lakens.2023" role="doc-biblioref">Lakens 2023</a>; <a href="#ref-Muthukrishna.2019" role="doc-biblioref">Muthukrishna und Henrich 2019</a>)</span>. Inzwischen gibt es jedoch Bemühungen, das Problem auch zu lösen <span class="citation" data-cites="ap2024replication Erkan2023-bf">(<a href="#ref-ap2024replication" role="doc-biblioref">Sion und Earp 2024</a>; <a href="#ref-Erkan2023-bf" role="doc-biblioref">Erkan und Devezer 2023</a>)</span>, beispielsweise durch das herausstellen der Vorteile von bekannten formalen Theorien <span class="citation" data-cites="Robinaugh.2021">(<a href="#ref-Robinaugh.2021" role="doc-biblioref">Robinaugh u.&nbsp;a. 2021</a>)</span>, Entwicklung von Werkzeugen zur Formalisierung von Theorien (<a href="https://www.theorymaps.org" class="uri">https://www.theorymaps.org</a>), oder durch einzelne Forschende. Der Wert von Replikationsstudien wird im Rahmen der „Theorie-Krise” darin gesehen, dass nur durch wiederholte Untersuchung festgestellt werden kann, unter welchen Bedingungen ein bestimmtes Phänomen nachweisbar ist <span class="citation" data-cites="Erkan2023-bf">(<a href="#ref-Erkan2023-bf" role="doc-biblioref">Erkan und Devezer 2023</a>)</span>.</p>
+<section id="spezifizierung-und-formalisierung" class="level3">
+<h3 class="anchored" data-anchor-id="spezifizierung-und-formalisierung">Spezifizierung und Formalisierung</h3>
+<p>Das Problem einer Theorie in Alltagssprache lässt sich wie folgt veranschaulichen: <span class="citation" data-cites="Wagenmakers.2016">Wagenmakers u.&nbsp;a. (<a href="#ref-Wagenmakers.2016" role="doc-biblioref">2016</a>)</span> versuchten, eine Studie zur Facial Feedback Hypothese zu replizieren. Die Hypothese besagt, dass Personen, wenn sie einen Stift so im Mund halten, dass dabei diejenigen Muskeln beansprucht werden, die auch beim Grinsen genutzt werden, Dinge lustiger finden, als wenn sie den Stift anders im Mund halten. Damit geprüft werden konnte, ob Versuchspersonen ihre Stifte richtig in den Mund nahmen, wurden sie in der Replikationsstudie gefilmt. Das war in der Originalstudie nicht der Fall. Die Replikationsstudien schlugen fehl und der Unterschied der Kamera wurde von den Autoren der Originalstudie als Grund genannt, weshalb die Replikation fehlschlug <span class="citation" data-cites="Strack.2016">(<a href="#ref-Strack.2016" role="doc-biblioref">Strack 2016</a>)</span>. Ob und wie die Präsenz einer Kamera in dem Versuchsaufbau relevant ist, war nicht Teil der Theorie beziehungsweise Hypothese. Durch die Formulierung der Theorie in gewöhnlicher Sprache können unendlich viele solcher „Post Hoc” Erklärungen in die Diskussion eingebracht werden, die jegliche Replikationsfehlschläge relativieren. Bei einer formalen Theorie sind solche Missverständnisse seltener.</p>
+<p>Aus dem Problem, dass Theorien schwer verständlich und wenig informativ sind, folgt die Tatsache, dass die meisten Theorien nie falsifiziert werden, aber auch nicht weiter untersucht werden („Zombie-Theorien”, <span class="citation" data-cites="Ferguson.2012">Ferguson und Heene (<a href="#ref-Ferguson.2012" role="doc-biblioref">2012</a>)</span>). Ähnlich verhält es sich mit psychologischen Skalen, bei denen die meisten nur einmal verwendet werden <span class="citation" data-cites="Elson.2023">(<a href="#ref-Elson.2023" role="doc-biblioref">Elson u.&nbsp;a. 2023</a>)</span>. Flexible Theorien vereinfachen außerdem das p-Hacking: In der Theorie ist keine Vorgabe zum Aufbereiten der Daten, also kann diejenige Variante gewählt werden, die die Theorie bestätigt <span class="citation" data-cites="Van_den_Akker2022-gz">(<a href="#ref-Van_den_Akker2022-gz" role="doc-biblioref">Van den Akker u.&nbsp;a. 2022</a>)</span>.</p>
 </section>
-<section id="gegnerische-kollaborationen" class="level3" data-number="17.0.2">
-<h3 data-number="17.0.2" class="anchored" data-anchor-id="gegnerische-kollaborationen"><span class="header-section-number">17.0.2</span> Gegnerische Kollaborationen</h3>
-<p>Ein Ansatz, bei dem verhindert werden soll, dass uninformative Studien durchgeführt werden und sich Diskussionen auf Verstehensweisen von Theorien fokussieren, sind gegnerische Kollaborationen (adversarial collaborations, REF<a href="#_msocom_17">[LR17]</a>&nbsp;). Dabei arbeiten Vertreter*innen von zwei inkompatiblen Standpunkten miteinander und erstellen beispielsweise eine Studie, die den Konflikt beilegen soll (z.B. REF<a href="#_msocom_18">[LR18]</a>&nbsp;, REF<a href="#_msocom_19">[LR19]</a>&nbsp;).</p>
-<p>&nbsp;<a href="#_msoanchor_1">[LR1]</a>meehl</p>
-<p>&nbsp;<a href="#_msoanchor_2">[LR2]</a>Severe testing(?) platt 1984</p>
-<p>&nbsp;<a href="#_msoanchor_3">[LR3]</a><a href="https://doi.org/10.31219/osf.io/9amhe" class="uri">https://doi.org/10.31219/osf.io/9amhe</a></p>
-<p>&nbsp;<a href="#_msoanchor_4">[LR4]</a>Herkunft des zitates rausfinden</p>
-<p>&nbsp;<a href="#_msoanchor_5">[LR5]</a>Two crises lakens</p>
-<p>&nbsp;<a href="#_msoanchor_6">[LR6]</a>muthukrishna</p>
-<p>&nbsp;<a href="#_msoanchor_7">[LR7]</a>https://www.researchgate.net/publication/378966795_Replication_and_Theory_Development_in_the_Social_and_Psychological_Sciences</p>
-<p>&nbsp;<a href="#_msoanchor_8">[LR8]</a><a href="https://www.researchgate.net/publication/375305901_Tension_Between_Theory_and_Practice_of_Replication" class="uri">https://www.researchgate.net/publication/375305901_Tension_Between_Theory_and_Practice_of_Replication</a></p>
-<p>&nbsp;<a href="#_msoanchor_9">[LR9]</a>Formal theories paper mit angst, partnerschaft</p>
-<p>&nbsp;<a href="#_msoanchor_10">[LR10]</a>Robinaugh, D. J., Haslbeck, J. M., Ryan, O., Fried, E. I., &amp; Waldorp, L. J. (2021). Invisible hands and fine calipers: A call to use formal theory as a toolkit for theory construction.&nbsp;<em>Perspectives on Psychological Science</em>,&nbsp;<em>16</em>(4), 725-743.</p>
-<p>&nbsp;<a href="#_msoanchor_11">[LR11]</a><a href="https://journal.trialanderror.org/pub/tension-between-theory/release/1" class="uri">https://journal.trialanderror.org/pub/tension-between-theory/release/1</a></p>
-<p>&nbsp;<a href="#_msoanchor_12">[LR12]</a>replication facial feedback</p>
-<p>&nbsp;<a href="#_msoanchor_13">[LR13]</a>antwort auf RRR facial feedback</p>
-<p>&nbsp;<a href="#_msoanchor_14">[LR14]</a>Ferguson, C. J., &amp; Heene, M. (2012). A vast graveyard of undead theories: Publication bias and psychological science’s aversion to the null.&nbsp;<em>Perspectives on Psychological Science</em>,&nbsp;<em>7</em>(6), 555-561.</p>
-<p>&nbsp;<a href="#_msoanchor_15">[LR15]</a>Elson, M., Hussey, I., Alsalti, T., &amp; Arslan, R. C. (2023). Psychological measures aren’t toothbrushes.&nbsp;<em>Communications Psychology</em>,&nbsp;<em>1</em>(1), 25.</p>
-<p>&nbsp;<a href="#_msoanchor_16">[LR16]</a>https://www.researchgate.net/publication/364419271_Selective_Hypothesis_Reporting_in_Psychology_Comparing_Preregistrations_and_Corresponding_Publications</p>
-<p>&nbsp;<a href="#_msoanchor_17">[LR17]</a>Cleeremans, A. (2022). Theory as adversarial collaboration.&nbsp;<em>Nature Human Behaviour</em>,&nbsp;<em>6</em>(4), 485-486.</p>
-<p>&nbsp;<a href="#_msoanchor_18">[LR18]</a>Mellers, B., Hertwig, R., &amp; Kahneman, D. (2001). Do frequency representations eliminate conjunction effects? An exercise in adversarial collaboration.&nbsp;<em>Psychological Science</em>,&nbsp;<em>12</em>(4), 269-275.</p>
-<p>&nbsp;<a href="#_msoanchor_19">[LR19]</a>Cowan, N., Belletier, C., Doherty, J. M., Jaroslawska, A. J., Rhodes, S., Forsberg, A., ... &amp; Logie, R. H. (2020). How do scientific views change? Notes from an extended adversarial collaboration.&nbsp;<em>Perspectives on Psychological Science</em>,&nbsp;<em>15</em>(4), 1011-1025.</p>
+<section id="gegnerische-kollaborationen" class="level3">
+<h3 class="anchored" data-anchor-id="gegnerische-kollaborationen">Gegnerische Kollaborationen</h3>
+<p>Ein Ansatz, bei dem verhindert werden soll, dass uninformative Studien durchgeführt werden und sich Diskussionen auf Verstehensweisen von Theorien fokussieren, sind gegnerische Kollaborationen (adversarial collaborations, <span class="citation" data-cites="cleeremans2022theory">Cleeremans (<a href="#ref-cleeremans2022theory" role="doc-biblioref">2022</a>)</span>). Dabei arbeiten Vertreter*innen von zwei inkompatiblen Standpunkten miteinander und erstellen beispielsweise eine Studie, die den Konflikt beilegen soll <span class="citation" data-cites="Cowan.2020 mellers2001frequency">(<a href="#ref-Cowan.2020" role="doc-biblioref">Cowan u.&nbsp;a. 2020</a>; <a href="#ref-mellers2001frequency" role="doc-biblioref">Mellers, Hertwig, und Kahneman 2001</a>)</span>.</p>
+<section id="weiterführende-informationen" class="level4">
+<h4 class="anchored" data-anchor-id="weiterführende-informationen">Weiterführende Informationen</h4>
+<ul>
+<li><span class="citation" data-cites="Trafimow2016-ol">Trafimow und Earp (<a href="#ref-Trafimow2016-ol" role="doc-biblioref">2016</a>)</span> beschreiben, wie Replikationen auch ohne Theorie möglich sind.</li>
+</ul>
+</section>
+</section>
+<section id="literatur" class="level3">
+<h3 class="anchored" data-anchor-id="literatur">Literatur</h3>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-cleeremans2022theory" class="csl-entry" role="listitem">
+Cleeremans, Axel. 2022. <span>„Theory as adversarial collaboration“</span>. <em>Nature Human Behaviour</em> 6 (4): 485–86.
+</div>
+<div id="ref-Cowan.2020" class="csl-entry" role="listitem">
+Cowan, Nelson, Clément Belletier, Jason M. Doherty, Agnieszka J. Jaroslawska, Stephen Rhodes, Alicia Forsberg, Moshe Naveh-Benjamin, Pierre Barrouillet, Valérie Camos, und Robert H. Logie. 2020. <span>„How Do Scientific Views Change? Notes From an Extended Adversarial Collaboration“</span>. <em>Perspectives on psychological science : a journal of the Association for Psychological Science</em> 15 (4): 1011–25. <a href="https://doi.org/10.1177/1745691620906415">https://doi.org/10.1177/1745691620906415</a>.
+</div>
+<div id="ref-Elson.2023" class="csl-entry" role="listitem">
+Elson, Malte, Ian Hussey, Taym Alsalti, und Ruben C. Arslan. 2023. <span>„Psychological measures aren’t toothbrushes“</span>. <em>Communications Psychology</em> 1 (1). <a href="https://doi.org/10.1038/s44271-023-00026-9">https://doi.org/10.1038/s44271-023-00026-9</a>.
+</div>
+<div id="ref-Erkan2023-bf" class="csl-entry" role="listitem">
+Erkan, Buzbas, und Berna Devezer. 2023. <span>„Tension between theory and practice of replication“</span>. <em>J. Trial Error</em> 4 (1): 73–81.
+</div>
+<div id="ref-Ferguson.2012" class="csl-entry" role="listitem">
+Ferguson, Christopher J., und Moritz Heene. 2012. <span>„A Vast Graveyard of Undead Theories: Publication Bias and Psychological Science’s Aversion to the Null“</span>. <em>Perspectives on psychological science : a journal of the Association for Psychological Science</em> 7 (6): 555–61. <a href="https://doi.org/10.1177/1745691612459059">https://doi.org/10.1177/1745691612459059</a>.
+</div>
+<div id="ref-Lakens.2023" class="csl-entry" role="listitem">
+Lakens, Daniel. 2023. <span>„Concerns about Replicability, Theorizing, Applicability, Generalizability, and Methodology across Two Crises in Social Psychology“</span>. <a href="https://doi.org/10.31234/osf.io/dtvs7">https://doi.org/10.31234/osf.io/dtvs7</a>.
+</div>
+<div id="ref-Meehl.2004" class="csl-entry" role="listitem">
+Meehl, Paul E. 2004. <span>„Theoretical risks and tabular asterisks: Sir Karl, Sir Ronald, and the slow progress of soft psychology“</span>. <em>Applied and Preventive Psychology</em> 11 (1): 1. <a href="https://doi.org/10.1016/j.appsy.2004.02.001">https://doi.org/10.1016/j.appsy.2004.02.001</a>.
+</div>
+<div id="ref-mellers2001frequency" class="csl-entry" role="listitem">
+Mellers, Barbara, Ralph Hertwig, und Daniel Kahneman. 2001. <span>„Do frequency representations eliminate conjunction effects? An exercise in adversarial collaboration“</span>. <em>Psychological Science</em> 12 (4): 269–75.
+</div>
+<div id="ref-Muthukrishna.2019" class="csl-entry" role="listitem">
+Muthukrishna, Michael, und Joseph Henrich. 2019. <span>„A problem in theory“</span>. <em>Nature Human Behaviour</em> 349 (Suppl 1): aac4716. <a href="https://doi.org/10.1038/s41562-018-0522-1">https://doi.org/10.1038/s41562-018-0522-1</a>.
+</div>
+<div id="ref-platt1964strong" class="csl-entry" role="listitem">
+Platt, John R. 1964. <span>„Strong Inference: Certain systematic methods of scientific thinking may produce much more rapid progress than others.“</span> <em>science</em> 146 (3642): 347–53.
+</div>
+<div id="ref-Robinaugh.2021" class="csl-entry" role="listitem">
+Robinaugh, Donald J., Jonas M. B. Haslbeck, Oisín Ryan, Eiko I. Fried, und Lourens J. Waldorp. 2021. <span>„Invisible Hands and Fine Calipers: A Call to Use Formal Theory as a Toolkit for Theory Construction“</span>. <em>Perspectives on psychological science : a journal of the Association for Psychological Science</em> 16 (4): 725–43. <a href="https://doi.org/10.1177/1745691620974697">https://doi.org/10.1177/1745691620974697</a>.
+</div>
+<div id="ref-ap2024replication" class="csl-entry" role="listitem">
+Sion, Tomos G ap, und Brian D Earp. 2024. <span>„Replication and theory development in the social and psychological sciences“</span>.
+</div>
+<div id="ref-Strack.2016" class="csl-entry" role="listitem">
+Strack, Fritz. 2016. <span>„Reflection on the Smiling Registered Replication Report“</span>. <em>Perspectives on psychological science : a journal of the Association for Psychological Science</em> 11 (6): 929–30. <a href="https://doi.org/10.1177/1745691616674460">https://doi.org/10.1177/1745691616674460</a>.
+</div>
+<div id="ref-Trafimow2016-ol" class="csl-entry" role="listitem">
+Trafimow, David, und Brian D Earp. 2016. <span>„Badly specified theories are not responsible for the replication crisis in social psychology: Comment on Klein“</span>. <em>Theory Psychol.</em> 26 (4): 540–48.
+</div>
+<div id="ref-Van_den_Akker2022-gz" class="csl-entry" role="listitem">
+Van den Akker, Olmo, Marcel A L M van Assen, Manon Enting, M de Jonge, How Hwee Ong, Franziska Frauke Rüffer, Martijn Schoenmakers, Andrea Helena Stoevenbelt, Jelte M Wicherts, und Marjan Bakker. 2022. <span>„Selective hypothesis reporting in psychology: Comparing preregistrations and corresponding publications“</span>. <em>BITSS</em>.
+</div>
+<div id="ref-Wagenmakers.2016" class="csl-entry" role="listitem">
+Wagenmakers, Eric-Jan, Titia Beek, Laura Dijkhoff, Quentin F. Gronau, Alberto Acosta, Reginald B. Adams, Daniel N. Albohn, u.&nbsp;a. 2016. <span>„Registered Replication Report: Strack, Martin, <span>&amp;</span> Stepper (1988)“</span>. <em>Perspectives on psychological science : a journal of the Association for Psychological Science</em> 11 (6): 917–28. <a href="https://doi.org/10.1177/1745691616674458">https://doi.org/10.1177/1745691616674458</a>.
+</div>
+<div id="ref-Wilcox2024-kx" class="csl-entry" role="listitem">
+Wilcox, Rand R, und Guillaume A Rousselet. 2024. <span>„More reasons why replication is A difficult issue“</span>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -409,12 +445,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Kopiert");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Kopiert");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -789,12 +825,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./lösungen_methoden.html" class="pagination-link" aria-label="Methoden">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Methoden</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Methoden</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./lösungen_welt.html" class="pagination-link" aria-label="Die Welt">
-        <span class="nav-page-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Die Welt</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-title">Die Welt</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -802,13 +838,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0th ed.). https://lukasroeseler.github.io/opensciencebuch</p>
+<p>Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0.1th ed.). https://doi.org/10.17605/OSF.IO/2QXWV</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></div>
     <div class="nav-footer-right">
-<p>Mithilfe von <a href="https://quarto.org/">Quarto</a> erstellt.</p>
+<p>Mithilfe von <a href="https://quarto.org/">Quarto</a> erstellt. Lizenz: CC-By Attribution 4.0 International.</p>
 </div>
   </div>
 </footer>

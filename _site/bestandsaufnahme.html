@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de-DE" xml:lang="de-DE"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.53">
@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Lukas Röseler">
+<meta name="description" content="Vertrauenskrise, Replikationsrevolution, und Open Science einfach und umfangreich erklärt">
 
-<title>5&nbsp; Bestandsaufnahme – Open Science: Wie sich die Wissenschaft öffnet</title>
+<title>Bestandsaufnahme – Open Science: Wie sich die Wissenschaft öffnet</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 /* CSS for citations */
 div.csl-bib-body { }
@@ -77,17 +112,17 @@ div.csl-indent {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
   }
 }</script>
 
@@ -101,13 +136,13 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./geschichte.html">Die Geschichte der Open Science Bewegung</a></li><li class="breadcrumb-item"><a href="./bestandsaufnahme.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Bestandsaufnahme</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./geschichte.html">Die Geschichte der Open Science Bewegung</a></li><li class="breadcrumb-item"><a href="./bestandsaufnahme.html"><span class="chapter-title">Bestandsaufnahme</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -139,7 +174,7 @@ div.csl-indent {
           </li>
       </ul>
     </div>
-  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Lesemodus umschalten">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
   </div>
@@ -149,42 +184,38 @@ div.csl-indent {
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Suchen"></div>
         </div>
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Willkommen</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Willkommen</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Über das Buch</span></span></a>
+  <a href="./about.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Über das Buch</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./einleitung.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Einleitung</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./wasistopenscience.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Was ist Open Science?</span></span></a>
+  <a href="./wasistopenscience.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Was ist Open Science?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./umgehenmitopenscience.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Wie ist mit Open Science umzugehen?</span></span></a>
+  <a href="./umgehenmitopenscience.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Wie ist mit Open Science umzugehen?</span></a>
   </div>
 </li>
       </ul>
@@ -193,39 +224,29 @@ div.csl-indent {
       <div class="sidebar-item-container"> 
             <a href="./geschichte.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Die Geschichte der Open Science Bewegung</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./anfänge.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Anfänge einer Revolution</span></span></a>
+  <a href="./anfänge.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Anfänge einer Revolution</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./bestandsaufnahme.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Bestandsaufnahme</span></span></a>
+  <a href="./bestandsaufnahme.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Bestandsaufnahme</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./wandel.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Wandel im System</span></span></a>
+  <a href="./wandel.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Wandel im System</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./beimerstenversuch.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Beim ersten Versuch klappt es nie: Der Paradigmenwechsel in der Psychologie</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./struktur.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Struktur der Vertrauenskrise</span></span></a>
+  <a href="./struktur.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Struktur der Vertrauenskrise</span></a>
   </div>
 </li>
       </ul>
@@ -234,45 +255,34 @@ div.csl-indent {
       <div class="sidebar-item-container"> 
             <a href="./probleme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Probleme</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Probleme des Wissenschaftlichen Systems</span></span></a>
+  <a href="./probleme_system.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Das System</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_karriere.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Karriere in der Wissenschaft</span></span></a>
+  <a href="./probleme_karriere.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Karriere in der Wissenschaft</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_methoden.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Probleme der wissenschaftlichen Methoden</span></span></a>
+  <a href="./probleme_methoden.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Methoden</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_theorien.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
+  <a href="./probleme_theorien.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Theorien</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probleme_epistemische.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Epistemische Probleme</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./probleme_krieg.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Krieg und Open Science</span></span></a>
+  <a href="./probleme_epistemische.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Epistemische Probleme</span></a>
   </div>
 </li>
       </ul>
@@ -281,33 +291,29 @@ div.csl-indent {
       <div class="sidebar-item-container"> 
             <a href="./lösungen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lösungen</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lösungen_system.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Das System</span></span></a>
+  <a href="./lösungen_system.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Das System</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lösungen_methoden.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Methoden</span></span></a>
+  <a href="./lösungen_methoden.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Methoden</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lösungen_theorien.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Theorien</span></span></a>
+  <a href="./lösungen_theorien.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Theorien</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lösungen_welt.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Die Welt</span></span></a>
+  <a href="./lösungen_welt.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Die Welt</span></a>
   </div>
 </li>
       </ul>
@@ -323,24 +329,24 @@ div.csl-indent {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+    <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
-  <li><a href="#definition-von-replizierbarkeit" id="toc-definition-von-replizierbarkeit" class="nav-link active" data-scroll-target="#definition-von-replizierbarkeit"><span class="header-section-number">5.0.1</span> Definition von Replizierbarkeit</a></li>
-  <li><a href="#weiterführende-literatur" id="toc-weiterführende-literatur" class="nav-link" data-scroll-target="#weiterführende-literatur"><span class="header-section-number">5.0.2</span> Weiterführende Literatur</a></li>
-  <li><a href="#eine-schwalbe-macht-noch-keinen-sommer" id="toc-eine-schwalbe-macht-noch-keinen-sommer" class="nav-link" data-scroll-target="#eine-schwalbe-macht-noch-keinen-sommer"><span class="header-section-number">5.0.3</span> &nbsp;„Eine Schwalbe macht noch keinen Sommer”</a></li>
-  <li><a href="#phänomen-zentrierte-replikationsprojekte" id="toc-phänomen-zentrierte-replikationsprojekte" class="nav-link" data-scroll-target="#phänomen-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.4</span> Phänomen-zentrierte Replikationsprojekte</a></li>
-  <li><a href="#disziplin-zentrierte-replikationsprojekte" id="toc-disziplin-zentrierte-replikationsprojekte" class="nav-link" data-scroll-target="#disziplin-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.5</span> Disziplin-zentrierte Replikationsprojekte</a></li>
+  <li><a href="#definition-von-replizierbarkeit" id="toc-definition-von-replizierbarkeit" class="nav-link active" data-scroll-target="#definition-von-replizierbarkeit">Definition von Replizierbarkeit</a></li>
+  <li><a href="#weiterführende-literatur" id="toc-weiterführende-literatur" class="nav-link" data-scroll-target="#weiterführende-literatur">Weiterführende Literatur</a></li>
+  <li><a href="#eine-schwalbe-macht-noch-keinen-sommer" id="toc-eine-schwalbe-macht-noch-keinen-sommer" class="nav-link" data-scroll-target="#eine-schwalbe-macht-noch-keinen-sommer">„Eine Schwalbe macht noch keinen Sommer”</a></li>
+  <li><a href="#phänomen-zentrierte-replikationsprojekte" id="toc-phänomen-zentrierte-replikationsprojekte" class="nav-link" data-scroll-target="#phänomen-zentrierte-replikationsprojekte">Phänomen-zentrierte Replikationsprojekte</a></li>
+  <li><a href="#disziplin-zentrierte-replikationsprojekte" id="toc-disziplin-zentrierte-replikationsprojekte" class="nav-link" data-scroll-target="#disziplin-zentrierte-replikationsprojekte">Disziplin-zentrierte Replikationsprojekte</a></li>
   <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur">Literatur</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./geschichte.html">Die Geschichte der Open Science Bewegung</a></li><li class="breadcrumb-item"><a href="./bestandsaufnahme.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Bestandsaufnahme</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./geschichte.html">Die Geschichte der Open Science Bewegung</a></li><li class="breadcrumb-item"><a href="./bestandsaufnahme.html"><span class="chapter-title">Bestandsaufnahme</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Bestandsaufnahme</span></h1>
+<h1 class="title"><span class="chapter-title">Bestandsaufnahme</span></h1>
 </div>
 
 
@@ -358,8 +364,21 @@ div.csl-indent {
 
 
 <p>Eine ähnliche Vertrauenskrise gab es in der Sozialpsychologie in den 1960er Jahren <span class="citation" data-cites="Lakens.2023">(<a href="#ref-Lakens.2023" role="doc-biblioref">Lakens 2023</a>)</span>. Ein entscheidender Unterschied war diesmal die Bestandsaufnahme: Parallel zu diesen eigenartigen Befunden oder <em>Anomalien</em> vernetzten sich Psycholog*innen um Brian Nosek international und untersuchten die Replizierbarkeit von 100 Studien aus namhaften psychologischen Fachzeitschriften <span class="citation" data-cites="OpenScienceCollaboration.2015">(<a href="#ref-OpenScienceCollaboration.2015" role="doc-biblioref">Open Science Collaboration 2015</a>)</span>. Sie fanden heraus, dass sich nur 39 der 100 Originalbefunde replizieren ließen. Bei allen anderen Studien, waren die Replikationsergebnisse anders als die ursprünglichen Ergebnisse. Viele weitere Großprojekte folgten, alle mit ähnlichen Ergebnissen: Die Replikationsraten lagen weit unter den Gewünschten.</p>
-<p>Zahlreiche Verbünde folgten. Einige Projekte konzentrierten sich auf einzelne Phänomene. Beispielsweise haben sich 17 Forschungsgruppen zusammengetan, um den Befund des <em>Facial Feedback</em> <span class="citation" data-cites="Strack.1988">(<a href="#ref-Strack.1988" role="doc-biblioref">Strack, Martin, and Stepper 1988</a>)</span> zu replizieren <span class="citation" data-cites="Wagenmakers.2016">(<a href="#ref-Wagenmakers.2016" role="doc-biblioref">Wagenmakers et al. 2016</a>)</span>. Dabei geht darum, dass Personen einen Stift mit den Zähnen festhalten und dabei je nach Ausrichtung des Stiftes entweder diejenigen Muskeln anspannen, die sie auch zum Lachen benötigen oder eben nicht. In der “Lachen”-Bedingung fanden die Versuchspersonen im Anschluss Comics witziger. Die Replikation schlug fehl. 2022 wurde eine weitere Studie mit über 3000 Versuchspersonen aus 19 Ländern veröffentlicht - diesmal auch mit direkter Beteiligung von Fritz Strack, der die Originalstudie durchgeführt hatte <span class="citation" data-cites="Coles.2022">(<a href="#ref-Coles.2022" role="doc-biblioref">Coles et al. 2022</a>)</span>. Wieder zeigte sich, dass die Position eines Stiftes im Mund sich nicht auf die Bewertung von Stimuli auswirkt. Jenseits von sozialpsychologischen Befunden konzentrierten sich Forschende auch auf Bereiche wie Forschung mit Babys <span class="citation" data-cites="byers2020building">(<a href="#ref-byers2020building" role="doc-biblioref">Byers-Heinlein et al. 2020</a>)</span> oder auf ganze Zeitschriften <span class="citation" data-cites="Camerer.2018">(<a href="#ref-Camerer.2018" role="doc-biblioref">Camerer et al. 2018</a>)</span>.</p>
-<p><strong>Liste großer Replikationsprojekte (siehe auch https://forrt.org/replication-hub/)</strong></p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Kritische Betrachtung der Open Science Collaboration, 2015
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Obgleich dieses „Reproducibility Project Psychology” die gesamte Fachgemeinschaft zutiefst erschütterte und den Weg für einen Paradigmenwechsel ebnete, bemängeln manche Forschende auch negative Auswirkungen auf nachfolgende Replikationsforschung. Indem 100 Studien gleichzeitig von einer Gruppe aus über 100 Forschenden veröffentlicht wurden, setzte das Projekt unrealistische Maßstäbe für Replikationsforschung. Gleichzeitig war die Qualitätskontrolle dabei weniger streng, da die einzelnen Studien nicht alle in dem Maße begutachtet werden konnten, wie es bei einer traditionellen Veröffentlichung der Fall gewesen wäre (z.B. <span class="citation" data-cites="Roseler.2022d">Röseler u.&nbsp;a. (<a href="#ref-Roseler.2022d" role="doc-biblioref">2022</a>)</span>). Einige gleichermaßen ambitionierte Vorhaben wurden veröffentlicht, wie zum Beispiel die ManyLabs Studien (z.B. <span class="citation" data-cites="Klein.2014">Klein u.&nbsp;a. (<a href="#ref-Klein.2014" role="doc-biblioref">2014</a>)</span>; <span class="citation" data-cites="Klein.2018">Klein u.&nbsp;a. (<a href="#ref-Klein.2018" role="doc-biblioref">2018</a>)</span>) oder Versuche, bei denen unabhängige Gruppen dieselben Hypothesen testeten und replizierten <span class="citation" data-cites="Landy.2020">(<a href="#ref-Landy.2020" role="doc-biblioref">Landy u.&nbsp;a. 2020</a>)</span>. Oft beschränken sich diese Vorhaben auf Studien, die sich im Rahmen einer Online-Befragung replizieren lassen. Formate wie Längsschnittstudien oder Verhaltensbeobachtungen sind dabei unterrepräsentiert.</p>
+</div>
+</div>
+<p>Zahlreiche Verbünde folgten. Einige Projekte konzentrierten sich auf einzelne Phänomene. Beispielsweise haben sich 17 Forschungsgruppen zusammengetan, um den Befund des <em>Facial Feedback</em> <span class="citation" data-cites="Strack.1988">(<a href="#ref-Strack.1988" role="doc-biblioref">Strack, Martin, und Stepper 1988</a>)</span> zu replizieren <span class="citation" data-cites="Wagenmakers.2016">(<a href="#ref-Wagenmakers.2016" role="doc-biblioref">Wagenmakers u.&nbsp;a. 2016</a>)</span>. Dabei geht darum, dass Personen einen Stift mit den Zähnen festhalten und dabei je nach Ausrichtung des Stiftes entweder diejenigen Muskeln anspannen, die sie auch zum Lachen benötigen oder eben nicht. In der “Lachen”-Bedingung fanden die Versuchspersonen im Anschluss Comics witziger. Die Replikation schlug fehl. 2022 wurde eine weitere Studie mit über 3000 Versuchspersonen aus 19 Ländern veröffentlicht - diesmal auch mit direkter Beteiligung von Fritz Strack, der die Originalstudie durchgeführt hatte <span class="citation" data-cites="Coles.2022">(<a href="#ref-Coles.2022" role="doc-biblioref">Coles u.&nbsp;a. 2022</a>)</span>. Wieder zeigte sich, dass die Position eines Stiftes im Mund sich nicht auf die Bewertung von Stimuli auswirkt. Jenseits von sozialpsychologischen Befunden konzentrierten sich Forschende auch auf Bereiche wie Forschung mit Babys <span class="citation" data-cites="byers2020building">(<a href="#ref-byers2020building" role="doc-biblioref">Byers-Heinlein u.&nbsp;a. 2020</a>)</span> oder auf ganze Zeitschriften <span class="citation" data-cites="Camerer.2018">(<a href="#ref-Camerer.2018" role="doc-biblioref">Camerer u.&nbsp;a. 2018</a>)</span>.</p>
+<p><strong>Liste großer Replikationsprojekte (siehe auch <a href="https://forrt.org/replication-hub/">FORRT Replication Hub</a>)</strong></p>
 <table class="caption-top table">
 <tbody>
 <tr class="odd">
@@ -484,11 +503,11 @@ div.csl-indent {
 </tr>
 </tbody>
 </table>
-<section id="definition-von-replizierbarkeit" class="level3" data-number="5.0.1">
-<h3 data-number="5.0.1" class="anchored" data-anchor-id="definition-von-replizierbarkeit"><span class="header-section-number">5.0.1</span> Definition von Replizierbarkeit</h3>
-<p>Zu sagen, was repliziert werden konnte und was nicht, ist erst nach einer Definition möglich. Im Sprachgebrauch von Forschenden wird mit „wurde repliziert” gemeint, dass ein Replikationsversuch zu gleichen Ergebnissen wie eine Originalstudie gekommen ist. Zu Replikationsfehlschläge wird „konnte nicht repliziert werden” gesagt, subtil davon abweichend kann „wurde nicht repliziert” meinen, dass keine Replikationsversuche existieren oder sie fehlschlugen. Für eine Wissenschaft, die über 100 Jahre alt ist, scheint es überraschend, dass noch immer keine klare Definition wichtiger Konzepte rund um das Thema Replikation vorliegt, geschweige denn es zur Routine gehört, Studien zu replizieren. Während sich in verschiedenen Feldern abweichende Taxonomien durchgesetzt haben, sieht die Verwendung in diesem Buch wie in der Tabelle beschrieben aus.</p>
+<section id="definition-von-replizierbarkeit" class="level3">
+<h3 class="anchored" data-anchor-id="definition-von-replizierbarkeit">Definition von Replizierbarkeit</h3>
+<p>Zu sagen, was repliziert werden konnte und was nicht, ist erst nach einer Definition möglich. Im Sprachgebrauch von Forschenden wird mit „wurde repliziert” gemeint, dass ein Replikationsversuch zu gleichen Ergebnissen wie eine Originalstudie gekommen ist. Zu Replikationsfehlschläge wird „konnte nicht repliziert werden” gesagt, subtil davon abweichend kann „wurde nicht repliziert” meinen, dass keine Replikationsversuche existieren oder sie fehlschlugen. Für eine Wissenschaft, die über 100 Jahre alt ist, scheint es überraschend, dass noch immer keine klare Definition wichtiger Konzepte rund um das Thema Replikation vorliegt, geschweige denn es zur Routine gehört, Studien zu replizieren. Während sich in verschiedenen Feldern abweichende Taxonomien, also Modelle zur Einordnung verschiedener Arten von Replikationen, durchgesetzt haben, sieht die Verwendung in diesem Buch wie in der Tabelle beschrieben aus.</p>
 <table class="caption-top table">
-<caption>Replikations-Taxonomie nach Turing Way <span class="citation" data-cites="turingwaycommunity2024illustrations">(<a href="#ref-turingwaycommunity2024illustrations" role="doc-biblioref">The Turing Way Community and Scriberia 2024</a>)</span></caption>
+<caption>Replikations-Taxonomie nach Turing Way <span class="citation" data-cites="turingwaycommunity2024illustrations">(<a href="#ref-turingwaycommunity2024illustrations" role="doc-biblioref">The Turing Way Community und Scriberia 2024</a>)</span></caption>
 <thead>
 <tr class="header">
 <th></th>
@@ -519,9 +538,9 @@ div.csl-indent {
 </tbody>
 </table>
 </section>
-<section id="weiterführende-literatur" class="level3" data-number="5.0.2">
-<h3 data-number="5.0.2" class="anchored" data-anchor-id="weiterführende-literatur"><span class="header-section-number">5.0.2</span> Weiterführende Literatur</h3>
-<p>Für eine systematischere, in den Informationswissenschaften verankerte Taxonomie zur Art der Replikation siehe <span class="citation" data-cites="Plesser2018">(<a href="#ref-Plesser2018" role="doc-biblioref">Plesser 2018</a>)</span>. Eine an den statistischen Methoden angelehnte Taxonomie für die Ergebnisse von Replikationsstudien haben LeBel et al. <span class="citation" data-cites="LeBel.2019">(<a href="#ref-LeBel.2019" role="doc-biblioref">LeBel et al. 2019</a>)</span> vorgeschlagen. Philosophisch diskutiert wird Replikationsnähe zum Beispiel von <span class="citation" data-cites="Choi2023">(<a href="#ref-Choi2023" role="doc-biblioref">Choi 2023</a>)</span> und <span class="citation" data-cites="Leonelli2023">(<a href="#ref-Leonelli2023" role="doc-biblioref">Leonelli 2023</a>)</span>.&nbsp;</p>
+<section id="weiterführende-literatur" class="level3">
+<h3 class="anchored" data-anchor-id="weiterführende-literatur">Weiterführende Literatur</h3>
+<p>Für eine systematischere, in den Informationswissenschaften verankerte Taxonomie zur Art der Replikation siehe <span class="citation" data-cites="Plesser2018">(<a href="#ref-Plesser2018" role="doc-biblioref">Plesser 2018</a>)</span>. Eine an den statistischen Methoden angelehnte Taxonomie für die Ergebnisse von Replikationsstudien haben LeBel et al. <span class="citation" data-cites="LeBel.2019">(<a href="#ref-LeBel.2019" role="doc-biblioref">LeBel u.&nbsp;a. 2019</a>)</span> vorgeschlagen. Philosophisch diskutiert wird Replikationsnähe zum Beispiel von <span class="citation" data-cites="Choi2023">(<a href="#ref-Choi2023" role="doc-biblioref">Choi 2023</a>)</span> und <span class="citation" data-cites="Leonelli2023">(<a href="#ref-Leonelli2023" role="doc-biblioref">Leonelli 2023</a>)</span>.</p>
 <table class="caption-top table">
 <caption>Replikationstaxonomie</caption>
 <colgroup>
@@ -537,9 +556,9 @@ div.csl-indent {
 <tbody>
 <tr class="odd">
 <td>Ergebnisse einer Replikationsstudie</td>
-<td><p>-Erfolgreich</p>
-<p>-Fehlgeschlagen</p>
-<p>-Unklar oder gemischt</p></td>
+<td><p>Erfolgreich</p>
+<p>Fehlgeschlagen</p>
+<p>Unklar oder gemischt</p></td>
 </tr>
 <tr class="even">
 <td>Nähe einer Replikationsstudie zur Originalstudie (in Anlehnung an Lebel REF und Hüffmeier et al REF)</td>
@@ -566,43 +585,64 @@ Mit anderen Daten zu denselben Ergebnissen gelangen</p></td>
 </tbody>
 </table>
 </section>
-<section id="eine-schwalbe-macht-noch-keinen-sommer" class="level3" data-number="5.0.3">
-<h3 data-number="5.0.3" class="anchored" data-anchor-id="eine-schwalbe-macht-noch-keinen-sommer"><span class="header-section-number">5.0.3</span> &nbsp;„Eine Schwalbe macht noch keinen Sommer”</h3>
-<p>Ob an einem wissenschaftlichen Befund „etwas dran ist”, er also einen Wahrheitsanspruch hat, hängt – neben seiner eigentlichen Art der Etablierung – bei der Replikationsforschung von vielen Faktoren ab. Was waren die Ergebnisse der Replikationsstudie? Wie viele und wie unterschiedliche Studien wurden durchgeführt? Wie sahen die genauen Methoden aus? Was waren die Unterschiede zwischen Replikationen und Originalstudie? Während Einzelstudien immer einen Erkenntnisgewinn liefern (mindestens, ob eine bestimmte Methode praktikabel ist, <span class="citation" data-cites="Sikorski2023-qp">(<a href="#ref-Sikorski2023-qp" role="doc-biblioref">Sikorski and Andreoletti 2023</a>)</span>, können sie je nach Forschungsgebiet stark variieren <span class="citation" data-cites="McShane2022-yd">Landy et al. (<a href="#ref-Landy.2020" role="doc-biblioref">2020</a>)</span>. Für das Gesamtbild braucht es mehr, wie zum Beispiel eine statistische Aggregation aller Einzelbefunde im Rahmen einer Meta-Analyse. Ein Beispiel mit Fantasiedaten befindet sich dazu in Abbildung X.</p>
-<p>ABBILDUNG X: Forest plot mit simulierten Ergebnissen von Original + vielen Einzelstudien; in den Notes dann ausführliche Erklärung.</p>
-<pre class="{---}"><code>title: "Wald Diagramm (Forest Plot)"
-format:
-  html:
-    code-fold: true
----
-  
-{r}
-library(ggplot2)
-library(metafor)
-
-set.seed(10)
-k &lt;- 15
-cors &lt;- data.frame("Stichprobenumfang" = round(rchisq(n = k, df = 2, ncp = 0)*5+10, digits = 0)
-                   , "Korrelation" = rnorm(n = k, mean = .05, sd = .3)
-                   , "Studie" = paste("Studie", toupper(letters[1:k]), sep = " ")
-                   , "yi" = NA
-                   , "vi" = NA
-                   )
-
-cors[, 4:5] &lt;- metafor::escalc(ni = cors$Stichprobenumfang, ri = cors$Korrelation, measure = "COR")
-cors$ucb &lt;- cors$yi + qnorm(.975)*cors$vi
-cors$lcb &lt;- cors$yi - qnorm(.975)*cors$vi
-
-
-
-ggplot(cors, aes(x = Korrelation, y = reorder(Studie, Korrelation))) + 
-  geom_point() + geom_errorbar(xmin = cors$lcb, xmax = cors$ucb) + 
-  geom_vline(xintercept = 0, lty = 2) + theme_classic() + ylab("") + 
-  xlim(c(-.4, .6))</code></pre>
+<section id="eine-schwalbe-macht-noch-keinen-sommer" class="level3">
+<h3 class="anchored" data-anchor-id="eine-schwalbe-macht-noch-keinen-sommer">„Eine Schwalbe macht noch keinen Sommer”</h3>
+<p>Ob an einem wissenschaftlichen Befund „etwas dran ist”, er also einen Wahrheitsanspruch hat, hängt – neben seiner eigentlichen Art der Etablierung – bei der Replikationsforschung von vielen Faktoren ab. Was waren die Ergebnisse der Replikationsstudie? Wie viele und wie unterschiedliche Studien wurden durchgeführt? Wie sahen die genauen Methoden aus? Was waren die Unterschiede zwischen Replikationen und Originalstudie? Während Einzelstudien immer einen Erkenntnisgewinn liefern (mindestens, ob eine bestimmte Methode praktikabel ist, <span class="citation" data-cites="Sikorski2023-qp">(<a href="#ref-Sikorski2023-qp" role="doc-biblioref">Sikorski und Andreoletti 2023</a>)</span>, können sie je nach Forschungsgebiet stark variieren <span class="citation" data-cites="McShane2022-yd">Landy u.&nbsp;a. (<a href="#ref-Landy.2020" role="doc-biblioref">2020</a>)</span>. Für das Gesamtbild braucht es mehr, wie zum Beispiel eine statistische Zusammenfassung vieler einzelner Studien zu einer Gesamtstudie (<em>Meta-Analyse</em>). Ein Beispiel mit Fantasiedaten befindet sich dazu in der folgenden Abbildung.</p>
+<p>Betrachtet man viele Studien, die den Zusammenhang zweier Dinge, wie zum Beispiel Einkommen und Bildungsabschluss, untersucht haben, so werden sich die Studien hinsichtlich der Details unterscheiden: Was wurde alles zum Einkommen gezählt (Netto, Brutto, Sozialleistungen, Einkommen von Familienangehörigen, Werte über einen Zeitraum oder von einem bestimmten Zeitpunkt aus der Vergangenheit, usw.) oder auch welche Personen befragt wurden (Studierende, Berufstätige, wurden Befragte bezahlt, usw.). Alle diese Unterschiede wirken sich möglicherweise auf den Zusammenhang aus, und selbst wenn sie es nicht tun, unterliegen Zusammenhänge oft Schwankungen, die sich durch die Messmethoden ergeben. In dem Beispiel lässt sich die Stärke des Zusammenhangs auf eine Zahl und eine dazugehörige Präzision herunterbrechen. Die Zahl heißt hier “Korrelation” und die Schärfe “Fehlerbalken”. In dem Wald-Diagramm (<em>Forest Plot / Blobbogram</em>) sind mögliche Korrelationen aus verschiedenen Studien abgebildet. Im Rahmen einer Meta-Analyse können Studienergebnisse anschließend kombiniert und Unterschiede untersucht werden.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(metafor)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stderr">
+<pre><code>Lade nötiges Paket: Matrix</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Lade nötiges Paket: metadat</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Lade nötiges Paket: numDeriv</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Loading the 'metafor' package (version 4.6-0). For an
+introduction to the package please type: help(metafor)</code></pre>
+</div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">10</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>k <span class="ot">&lt;-</span> <span class="dv">15</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>cors <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="st">"Stichprobenumfang"</span> <span class="ot">=</span> <span class="fu">round</span>(<span class="fu">rchisq</span>(<span class="at">n =</span> k, <span class="at">df =</span> <span class="dv">2</span>, <span class="at">ncp =</span> <span class="dv">0</span>)<span class="sc">*</span><span class="dv">5</span><span class="sc">+</span><span class="dv">10</span>, <span class="at">digits =</span> <span class="dv">0</span>)</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>                   , <span class="st">"Korrelation"</span> <span class="ot">=</span> <span class="fu">rnorm</span>(<span class="at">n =</span> k, <span class="at">mean =</span> .<span class="dv">05</span>, <span class="at">sd =</span> .<span class="dv">3</span>)</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>                   , <span class="st">"Studie"</span> <span class="ot">=</span> <span class="fu">paste</span>(<span class="st">"Studie"</span>, <span class="fu">toupper</span>(letters[<span class="dv">1</span><span class="sc">:</span>k]), <span class="at">sep =</span> <span class="st">" "</span>)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>                   , <span class="st">"yi"</span> <span class="ot">=</span> <span class="cn">NA</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>                   , <span class="st">"vi"</span> <span class="ot">=</span> <span class="cn">NA</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>                   )</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>cors[, <span class="dv">4</span><span class="sc">:</span><span class="dv">5</span>] <span class="ot">&lt;-</span> metafor<span class="sc">::</span><span class="fu">escalc</span>(<span class="at">ni =</span> cors<span class="sc">$</span>Stichprobenumfang, <span class="at">ri =</span> cors<span class="sc">$</span>Korrelation, <span class="at">measure =</span> <span class="st">"COR"</span>)</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>cors<span class="sc">$</span>ucb <span class="ot">&lt;-</span> cors<span class="sc">$</span>yi <span class="sc">+</span> <span class="fu">qnorm</span>(.<span class="dv">975</span>)<span class="sc">*</span>cors<span class="sc">$</span>vi</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>cors<span class="sc">$</span>lcb <span class="ot">&lt;-</span> cors<span class="sc">$</span>yi <span class="sc">-</span> <span class="fu">qnorm</span>(.<span class="dv">975</span>)<span class="sc">*</span>cors<span class="sc">$</span>vi</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(cors, <span class="fu">aes</span>(<span class="at">x =</span> Korrelation, <span class="at">y =</span> <span class="fu">reorder</span>(Studie, Korrelation))) <span class="sc">+</span> </span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span> <span class="fu">geom_errorbar</span>(<span class="at">xmin =</span> cors<span class="sc">$</span>lcb, <span class="at">xmax =</span> cors<span class="sc">$</span>ucb) <span class="sc">+</span> </span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> <span class="dv">0</span>, <span class="at">lty =</span> <span class="dv">2</span>) <span class="sc">+</span> <span class="fu">theme_classic</span>() <span class="sc">+</span> <span class="fu">ylab</span>(<span class="st">""</span>) <span class="sc">+</span> </span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">xlim</span>(<span class="fu">c</span>(<span class="sc">-</span>.<span class="dv">4</span>, .<span class="dv">6</span>))</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="bestandsaufnahme_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
-<section id="phänomen-zentrierte-replikationsprojekte" class="level3" data-number="5.0.4">
-<h3 data-number="5.0.4" class="anchored" data-anchor-id="phänomen-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.4</span> Phänomen-zentrierte Replikationsprojekte</h3>
-<p>Im Gegensatz zu dem breit gefächerten RPP und anderen Versuchen, die Replikationsrate zu schätzen, haben sich andere Versuche auf grundlegende Phänomene fokussiert. Dutzende Gruppen auf der ganzen Welt haben sich in solchen Fällen zusammengeschlossen, auf einen Versuchsaufbau geeinigt, und führen die Studien mit einer enormen Anzahl an Versuchspersonen durch. Die meisten dieser Vorhaben stammen aus der Psychologie. Während die dabei gefundenen Effektstärken, also sozusagen die Deutlichkeit eines Zusammenhanges oder Befundes, in fast allen Fällen weit unter denen bisheriger Studien lagen <span class="citation" data-cites="Kvarven.2020">(<a href="#ref-Kvarven.2020" role="doc-biblioref">Kvarven, Strømland, and Johannesson 2020</a>)</span>, waren sie zudem beim Großteil der Studien null, die Phänomene waren also „nicht sichtbar” <span class="citation" data-cites="Alogna.2014">Rife et al. (<a href="#ref-rife2024registered" role="doc-biblioref">2024</a>)</span>. So konnte beispielsweise mit einer enormen Präzision gezeigt werden, dass eine Geschichte über einen Professor Versuchspersonen in einem anschließenden Leistungstest *nicht* schlauer macht <span class="citation" data-cites="ODonnell.2018">(<a href="#ref-ODonnell.2018" role="doc-biblioref">O’Donnell et al. 2018</a>)</span>.</p>
+<section id="phänomen-zentrierte-replikationsprojekte" class="level3">
+<h3 class="anchored" data-anchor-id="phänomen-zentrierte-replikationsprojekte">Phänomen-zentrierte Replikationsprojekte</h3>
+<p>Im Gegensatz zu dem breit gefächerten RPP und anderen Versuchen, die Replikationsrate zu schätzen, haben sich andere Versuche auf grundlegende Phänomene fokussiert. Dutzende Gruppen auf der ganzen Welt haben sich in solchen Fällen zusammengeschlossen, auf einen Versuchsaufbau geeinigt, und führen die Studien mit einer enormen Anzahl an Versuchspersonen durch. Die meisten dieser Vorhaben stammen aus der Psychologie. Während die dabei gefundenen Effektstärken, also sozusagen die Deutlichkeit eines Zusammenhanges oder Befundes, in fast allen Fällen weit unter denen bisheriger Studien lagen <span class="citation" data-cites="Kvarven.2020">(<a href="#ref-Kvarven.2020" role="doc-biblioref">Kvarven, Strømland, und Johannesson 2020</a>)</span>, waren sie zudem beim Großteil der Studien null, die Phänomene waren also „nicht sichtbar” <span class="citation" data-cites="Alogna.2014 Eerland.2016 Bouwmeester.2017 ODonnell.2018 Wagenmakers.2016 Cheung.2016 vaidis2024multilab rife2024registered">(<a href="#ref-Alogna.2014" role="doc-biblioref">Alogna u.&nbsp;a. 2014</a>; <a href="#ref-Eerland.2016" role="doc-biblioref">Eerland u.&nbsp;a. 2016</a>; <a href="#ref-Bouwmeester.2017" role="doc-biblioref">Bouwmeester u.&nbsp;a. 2017</a>; <a href="#ref-ODonnell.2018" role="doc-biblioref">O’Donnell u.&nbsp;a. 2018</a>; <a href="#ref-Wagenmakers.2016" role="doc-biblioref">Wagenmakers u.&nbsp;a. 2016</a>.; <a href="#ref-Cheung.2016" role="doc-biblioref">Cheung u.&nbsp;a. 2016</a>; <a href="#ref-vaidis2024multilab" role="doc-biblioref">Vaidis u.&nbsp;a. 2024</a>; <a href="#ref-rife2024registered" role="doc-biblioref">Rife u.&nbsp;a. 2024</a>)</span>. So konnte beispielsweise mit einer enormen Präzision gezeigt werden, dass eine Geschichte über einen Professor Versuchspersonen in einem anschließenden Leistungstest *nicht* schlauer macht <span class="citation" data-cites="ODonnell.2018">(<a href="#ref-ODonnell.2018" role="doc-biblioref">O’Donnell u.&nbsp;a. 2018</a>)</span>.</p>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -613,15 +653,15 @@ Effiziente Nutzung von Ressourcen?
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Wie geht man mit Ressourcen bei Replikationen um? Bei Zusammenschlüssen vieler Forschender stellt sich diese Frage unweigerlich. Erstellen alle Gruppen unabhängig voneinander die Studie? Halten sich alle an ein zuvor abgestimmtes Protokoll? Führen sie die Studie nacheinander durch um voneinander zu lernen? Bei <em>Registered Replication Reports</em> wird für gewöhnlich von einem zuvor mit anderen Forschenden (z.B. den Autor*innen der Originalstudie) ein Versuchsaufbau abgestimmt. Teams in verschiedenen Ländern übersetzen das Protokoll dann und halten sich bei der Durchführung eng daran. Diese Protokolle sind manchmal nicht im Vorhinein getestet <span class="citation" data-cites="https://doi.org/10.31234/osf.io/c6r8x">(<a href="#ref-https://doi.org/10.31234/osf.io/c6r8x" role="doc-biblioref"><strong>https://doi.org/10.31234/osf.io/c6r8x?</strong></a>)</span>, basieren oft aber auf erfolgreichen, namhaften Studien. Das hat den Vorteil, dass Unterschiede zwischen den Gruppen nicht auf Unterschiede in der Durchführung zurückzuführen sind und sich Kulturen vergleichen lassen <span class="citation" data-cites="Kakinohana.2022">(<a href="#ref-Kakinohana.2022" role="doc-biblioref">Kakinohana, Pilati, and Klein 2022</a>)</span>. Ein Nachteil dabei ist jedoch, dass, wenn an einem, zwei, oder fünf Standorten das Experiment schon nicht funktioniert, es fraglich ist, ob die übrigen 30 Gruppen es auch probieren sollten. In den Worten von Buttliere <span class="citation" data-cites="https://doi.org/10.31234/osf.io/c6r8x">(<a href="#ref-https://doi.org/10.31234/osf.io/c6r8x" role="doc-biblioref"><strong>https://doi.org/10.31234/osf.io/c6r8x?</strong></a>)</span>: “Wer bekommt bessere Ergebnisse? 39 Personen, die etwas zum ersten Mal tun, oder eine Person, die etwas 39 Mal tut?”</p>
+<p>Wie geht man mit Ressourcen bei Replikationen um? Bei Zusammenschlüssen vieler Forschender stellt sich diese Frage unweigerlich. Erstellen alle Gruppen unabhängig voneinander die Studie? Halten sich alle an ein zuvor abgestimmtes Protokoll? Führen sie die Studie nacheinander durch um voneinander zu lernen? Bei <em>Registered Replication Reports</em> wird für gewöhnlich von einem zuvor mit anderen Forschenden (z.B. den Autor*innen der Originalstudie) ein Versuchsaufbau abgestimmt. In anderen Fällen wird gemeinsam ein Versuchsaufbau erarbeitet, der zum Testen der Theorie ideal sein sollte (<em>Creative Destruction Approach</em>, <span class="citation" data-cites="tierney2020creative">Tierney u.&nbsp;a. (<a href="#ref-tierney2020creative" role="doc-biblioref">2020</a>)</span>). Teams in verschiedenen Ländern übersetzen das Protokoll dann und halten sich bei der Durchführung eng daran. Diese Protokolle sind manchmal nicht im Vorhinein getestet <span class="citation" data-cites="Buttliere2024-iq">(<a href="#ref-Buttliere2024-iq" role="doc-biblioref">Buttliere 2024</a>)</span>, basieren oft aber auf erfolgreichen, namhaften Studien. Das hat den Vorteil, dass Unterschiede zwischen den Gruppen nicht auf Unterschiede in der Durchführung zurückzuführen sind und sich Kulturen vergleichen lassen <span class="citation" data-cites="Kakinohana.2022">(<a href="#ref-Kakinohana.2022" role="doc-biblioref">Kakinohana, Pilati, und Klein 2022</a>)</span>. Ein Nachteil dabei ist jedoch, dass, wenn an einem, zwei, oder fünf Standorten das Experiment schon nicht funktioniert, es fraglich ist, ob die übrigen 30 Gruppen es auch probieren sollten. In den Worten von <span class="citation" data-cites="Buttliere2024-iq">Buttliere (<a href="#ref-Buttliere2024-iq" role="doc-biblioref">2024</a>)</span>: “Wer bekommt bessere Ergebnisse? 39 Personen, die etwas zum ersten Mal tun, oder eine Person, die etwas 39 Mal tut?”</p>
 </div>
 </div>
 </section>
-<section id="disziplin-zentrierte-replikationsprojekte" class="level3" data-number="5.0.5">
-<h3 data-number="5.0.5" class="anchored" data-anchor-id="disziplin-zentrierte-replikationsprojekte"><span class="header-section-number">5.0.5</span> Disziplin-zentrierte Replikationsprojekte</h3>
+<section id="disziplin-zentrierte-replikationsprojekte" class="level3">
+<h3 class="anchored" data-anchor-id="disziplin-zentrierte-replikationsprojekte">Disziplin-zentrierte Replikationsprojekte</h3>
 <p>Ungefähr die Hälfte aller psychologischen Befunde ist also nicht replizierbar. Heißt das, alle Sozialwissenschaftlichen Lehrbücher aus allen Disziplinen sind zur Hälfte falsch? Die klare Antwort heißt <em>nein</em>. Die akkurate Antwort lautet <em>kommt darauf an</em>.</p>
-<section id="jenseits-der-psychologie" class="level4" data-number="5.0.5.1">
-<h4 data-number="5.0.5.1" class="anchored" data-anchor-id="jenseits-der-psychologie"><span class="header-section-number">5.0.5.1</span> Jenseits der Psychologie</h4>
+<section id="jenseits-der-psychologie" class="level4">
+<h4 class="anchored" data-anchor-id="jenseits-der-psychologie">Jenseits der Psychologie</h4>
 <p>Inwiefern es auf die Disziplin innerhalb der Sozialwissenschaften ankommt wurde bisher vor allem in der Psychologie untersucht. Aktuelle Tendenzen weisen darauf hin, dass Replikationsraten in der Persönlichkeitspsychologie und kognitiven Psychologie <span class="citation" data-cites="Soto.2019">(<a href="#ref-Soto.2019" role="doc-biblioref">Soto 2019</a>)</span> höher liegen als die in der Sozialpsychologie <span class="citation" data-cites="OpenScienceCollaboration.2015">(<a href="#ref-OpenScienceCollaboration.2015" role="doc-biblioref">Open Science Collaboration 2015</a>)</span> oder im Marketing <span class="citation" data-cites="Charlton.2022">(<a href="#ref-Charlton.2022" role="doc-biblioref">Charlton 2022</a>)</span>. Während schon hunderte Replikationsversuche für sozialpsychologische Studien veröffentlicht sind, sind es in anderen Bereichen wie dem Marketing aktuell weniger - Stand Oktober 2022 sogar nur 9. Bereiche außerhalb der Psychologie sind von Replikationsproblemen ebenfalls betroffen. Von Problemen der Replizierbarkeit, Reproduzierbarkeit, und Nachvollziehbarkeit sind fast alle Disziplinen betroffen. Neue Lösungsansätze werden in Medizin, Biologie, Chemie, Physik, Geschichtswissenschaften, Politikwissenschaften, Erziehungswissenschaften, Informatik, und vielen weiteren Bereichen diskutiert.</p>
 </section>
 </section>
@@ -631,82 +671,97 @@ Effiziente Nutzung von Ressourcen?
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-Alogna.2014" class="csl-entry" role="listitem">
-Alogna, V. K., M. K. Attaya, P. Aucoin, Štěpán Bahník, S. Birch, A. R. Birt, B. H. Bornstein, et al. 2014. <span>“Registered Replication Report: Schooler and Engstler-Schooler (1990).”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 9 (5): 556–78. <a href="https://doi.org/10.1177/1745691614545653">https://doi.org/10.1177/1745691614545653</a>.
+Alogna, V. K., M. K. Attaya, P. Aucoin, Štěpán Bahník, S. Birch, A. R. Birt, B. H. Bornstein, u.&nbsp;a. 2014. <span>„Registered Replication Report: Schooler and Engstler-Schooler (1990)“</span>. <em>Perspectives on psychological science : a journal of the Association for Psychological Science</em> 9 (5): 556–78. <a href="https://doi.org/10.1177/1745691614545653">https://doi.org/10.1177/1745691614545653</a>.
 </div>
 <div id="ref-Bouwmeester.2017" class="csl-entry" role="listitem">
-Bouwmeester, S., P. P. J. L. Verkoeijen, B. Aczel, F. Barbosa, L. Bègue, P. Brañas-Garza, T. G. H. Chmura, et al. 2017. <span>“Registered Replication Report: Rand, Greene, and Nowak (2012).”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 12 (3): 527–42. <a href="https://doi.org/10.1177/1745691617693624">https://doi.org/10.1177/1745691617693624</a>.
+Bouwmeester, S., P. P. J. L. Verkoeijen, B. Aczel, F. Barbosa, L. Bègue, P. Brañas-Garza, T. G. H. Chmura, u.&nbsp;a. 2017. <span>„Registered Replication Report: Rand, Greene, and Nowak (2012)“</span>. <em>Perspectives on psychological science : a journal of the Association for Psychological Science</em> 12 (3): 527–42. <a href="https://doi.org/10.1177/1745691617693624">https://doi.org/10.1177/1745691617693624</a>.
+</div>
+<div id="ref-Buttliere2024-iq" class="csl-entry" role="listitem">
+Buttliere, Brett. 2024. <span>„Was this Registered Report pilot tested? Examination of Vaidis, Sleegers, Van Leeuwen, <span>DeMarree</span>, ... &amp; Priolo, D. (2024)“</span>. <em>PsyArXiv</em>.
 </div>
 <div id="ref-byers2020building" class="csl-entry" role="listitem">
-Byers-Heinlein, Krista, Christina Bergmann, Catherine Davies, Michael C Frank, J Kiley Hamlin, Melissa Kline, Jonathan F Kominsky, et al. 2020. <span>“Building a Collaborative Psychological Science: Lessons Learned from ManyBabies 1.”</span> <em>Canadian Psychology/Psychologie Canadienne</em> 61 (4): 349.
+Byers-Heinlein, Krista, Christina Bergmann, Catherine Davies, Michael C Frank, J Kiley Hamlin, Melissa Kline, Jonathan F Kominsky, u.&nbsp;a. 2020. <span>„Building a collaborative psychological science: Lessons learned from ManyBabies 1.“</span> <em>Canadian Psychology/Psychologie Canadienne</em> 61 (4): 349.
 </div>
 <div id="ref-Camerer.2018" class="csl-entry" role="listitem">
-Camerer, Colin F., Anna Dreber, Felix Holzmeister, Teck-Hua Ho, Jürgen Huber, Magnus Johannesson, Michael Kirchler, et al. 2018. <span>“Evaluating the Replicability of Social Science Experiments in Nature and Science Between 2010 and 2015.”</span> <em>Nature Human Behaviour</em> 2 (9): 637–44. <a href="https://doi.org/10.1038/s41562-018-0399-z">https://doi.org/10.1038/s41562-018-0399-z</a>.
+Camerer, Colin F., Anna Dreber, Felix Holzmeister, Teck-Hua Ho, Jürgen Huber, Magnus Johannesson, Michael Kirchler, u.&nbsp;a. 2018. <span>„Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015“</span>. <em>Nature human behaviour</em> 2 (9): 637–44. <a href="https://doi.org/10.1038/s41562-018-0399-z">https://doi.org/10.1038/s41562-018-0399-z</a>.
 </div>
 <div id="ref-Charlton.2022" class="csl-entry" role="listitem">
-Charlton, Aaron. 2022. <span>“Replications of Marketing Studies.”</span> OpenMKT.org. <a href="https://openmkt.org/research/replications-of-marketing-studies/">https://openmkt.org/research/replications-of-marketing-studies/</a>.
+Charlton, Aaron. 2022. <span>„Replications of Marketing Studies“</span>. OpenMKT.org. <a href="https://openmkt.org/research/replications-of-marketing-studies/">https://openmkt.org/research/replications-of-marketing-studies/</a>.
 </div>
 <div id="ref-Cheung.2016" class="csl-entry" role="listitem">
-Cheung, Irene, Lorne Campbell, Etienne P. LeBel, Robert A. Ackerman, Bülent Aykutog˘lu, Štěpán Bahník, Jeffrey D. Bowen, et al. 2016. <span>“Registered Replication Report: Study 1 from Finkel, Rusbult, Kumashiro, <span>&amp;</span> Hannon (2002).”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 11 (5): 750–64. <a href="https://doi.org/10.1177/1745691616664694">https://doi.org/10.1177/1745691616664694</a>.
+Cheung, Irene, Lorne Campbell, Etienne P. LeBel, Robert A. Ackerman, Bülent Aykutog˘lu, Štěpán Bahník, Jeffrey D. Bowen, u.&nbsp;a. 2016. <span>„Registered Replication Report: Study 1 From Finkel, Rusbult, Kumashiro, <span>&amp;</span> Hannon (2002)“</span>. <em>Perspectives on psychological science : a journal of the Association for Psychological Science</em> 11 (5): 750–64. <a href="https://doi.org/10.1177/1745691616664694">https://doi.org/10.1177/1745691616664694</a>.
 </div>
 <div id="ref-Choi2023" class="csl-entry" role="listitem">
-Choi, Hong Hui. 2023. <span>“In Defense of the Resampling Account of Replication.”</span> <em>Journal of Theoretical and Philosophical Psychology</em> 43 (4): 249–51. <a href="https://doi.org/10.1037/teo0000224">https://doi.org/10.1037/teo0000224</a>.
+Choi, Hong Hui. 2023. <span>„In defense of the resampling account of replication.“</span> <em>Journal of Theoretical and Philosophical Psychology</em> 43 (4): 249–51. <a href="https://doi.org/10.1037/teo0000224">https://doi.org/10.1037/teo0000224</a>.
 </div>
 <div id="ref-Coles.2022" class="csl-entry" role="listitem">
-Coles, Nicholas A., David S. March, Fernando Marmolejo-Ramos, Jeff T. Larsen, Nwadiogo C. Arinze, Izuchukwu L. G. Ndukaihe, Megan L. Willis, et al. 2022. <span>“A Multi-Lab Test of the Facial Feedback Hypothesis by the Many Smiles Collaboration.”</span> <em>Nature Human Behaviour</em>. <a href="https://doi.org/10.1038/s41562-022-01458-9">https://doi.org/10.1038/s41562-022-01458-9</a>.
+Coles, Nicholas A., David S. March, Fernando Marmolejo-Ramos, Jeff T. Larsen, Nwadiogo C. Arinze, Izuchukwu L. G. Ndukaihe, Megan L. Willis, u.&nbsp;a. 2022. <span>„A multi-lab test of the facial feedback hypothesis by the Many Smiles Collaboration“</span>. <em>Nature human behaviour</em>. <a href="https://doi.org/10.1038/s41562-022-01458-9">https://doi.org/10.1038/s41562-022-01458-9</a>.
 </div>
 <div id="ref-Eerland.2016" class="csl-entry" role="listitem">
-Eerland, Anita, Andrew M. Sherrill, Joseph P. Magliano, Rolf A. Zwaan, Jack D. Arnal, Philip Aucoin, Stephanie A. Berger, et al. 2016. <span>“Registered Replication Report: Hart <span>&amp;</span> Albarrac<span>í</span>n (2011).”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 11 (1): 158–71. <a href="https://doi.org/10.1177/1745691615605826">https://doi.org/10.1177/1745691615605826</a>.
+Eerland, Anita, Andrew M. Sherrill, Joseph P. Magliano, Rolf A. Zwaan, Jack D. Arnal, Philip Aucoin, Stephanie A. Berger, u.&nbsp;a. 2016. <span>„Registered Replication Report: Hart <span>&amp;</span> Albarrac<span>í</span>n (2011)“</span>. <em>Perspectives on psychological science : a journal of the Association for Psychological Science</em> 11 (1): 158–71. <a href="https://doi.org/10.1177/1745691615605826">https://doi.org/10.1177/1745691615605826</a>.
 </div>
 <div id="ref-Kakinohana.2022" class="csl-entry" role="listitem">
-Kakinohana, Regis K., Ronaldo Pilati, and Richard A. Klein. 2022. <span>“Does Anchoring Vary Across Cultures? Expanding the Many Labs Analysis.”</span> <em>European Journal of Social Psychology</em>. <a href="https://doi.org/10.1002/ejsp.2924">https://doi.org/10.1002/ejsp.2924</a>.
+Kakinohana, Regis K., Ronaldo Pilati, und Richard A. Klein. 2022. <span>„Does anchoring vary across cultures? Expanding the Many Labs analysis“</span>. <em>European Journal of Social Psychology</em>. <a href="https://doi.org/10.1002/ejsp.2924">https://doi.org/10.1002/ejsp.2924</a>.
+</div>
+<div id="ref-Klein.2014" class="csl-entry" role="listitem">
+Klein, Richard Anthony, Kate A. Ratliff, Michelangelo Vianello, Reginald B. Adams, Štěpán Bahník, Michael J. Bernstein, Konrad Bocian, u.&nbsp;a. 2014. <span>„Investigating Variation in Replicability“</span>. <em>Social Psychology</em> 45 (3): 142–52. <a href="https://doi.org/10.1027/1864-9335/a000178">https://doi.org/10.1027/1864-9335/a000178</a>.
+</div>
+<div id="ref-Klein.2018" class="csl-entry" role="listitem">
+Klein, Richard Anthony, Michelangelo Vianello, Fred Hasselman, Byron Gregory Adams, Reginald B. Adams, Sinan Alper, Mark Aveyard, u.&nbsp;a. 2018. <span>„Many Labs 2: Investigating Variation in Replicability Across Sample and Setting“</span>. <a href="https://doi.org/10.31234/osf.io/9654g">https://doi.org/10.31234/osf.io/9654g</a>.
 </div>
 <div id="ref-Kvarven.2020" class="csl-entry" role="listitem">
-Kvarven, Amanda, Eirik Strømland, and Magnus Johannesson. 2020. <span>“Comparing Meta-Analyses and Preregistered Multiple-Laboratory Replication Projects.”</span> <em>Nature Human Behaviour</em> 4 (4): 423–34. <a href="https://doi.org/10.1038/s41562-019-0787-z">https://doi.org/10.1038/s41562-019-0787-z</a>.
+Kvarven, Amanda, Eirik Strømland, und Magnus Johannesson. 2020. <span>„Comparing meta-analyses and preregistered multiple-laboratory replication projects“</span>. <em>Nature human behaviour</em> 4 (4): 423–34. <a href="https://doi.org/10.1038/s41562-019-0787-z">https://doi.org/10.1038/s41562-019-0787-z</a>.
 </div>
 <div id="ref-Lakens.2023" class="csl-entry" role="listitem">
-Lakens, Daniel. 2023. <span>“Concerns about Replicability, Theorizing, Applicability, Generalizability, and Methodology Across Two Crises in Social Psychology.”</span> <a href="https://doi.org/10.31234/osf.io/dtvs7">https://doi.org/10.31234/osf.io/dtvs7</a>.
+Lakens, Daniel. 2023. <span>„Concerns about Replicability, Theorizing, Applicability, Generalizability, and Methodology across Two Crises in Social Psychology“</span>. <a href="https://doi.org/10.31234/osf.io/dtvs7">https://doi.org/10.31234/osf.io/dtvs7</a>.
 </div>
 <div id="ref-Landy.2020" class="csl-entry" role="listitem">
-Landy, Justin F., Miaolei Liam Jia, Isabel L. Ding, Domenico Viganola, Warren Tierney, Anna Dreber, Magnus Johannesson, et al. 2020. <span>“Crowdsourcing Hypothesis Tests: Making Transparent How Design Choices Shape Research Results.”</span> <em>Psychological Bulletin</em> 146 (5): 451–79. <a href="https://doi.org/10.1037/bul0000220">https://doi.org/10.1037/bul0000220</a>.
+Landy, Justin F., Miaolei Liam Jia, Isabel L. Ding, Domenico Viganola, Warren Tierney, Anna Dreber, Magnus Johannesson, u.&nbsp;a. 2020. <span>„Crowdsourcing hypothesis tests: Making transparent how design choices shape research results“</span>. <em>Psychological Bulletin</em> 146 (5): 451–79. <a href="https://doi.org/10.1037/bul0000220">https://doi.org/10.1037/bul0000220</a>.
 </div>
 <div id="ref-LeBel.2019" class="csl-entry" role="listitem">
-LeBel, Etienne P., Wolf Vanpaemel, Irene Cheung, and Lorne Campbell. 2019. <span>“A Brief Guide to Evaluate Replications.”</span> <em>Meta-Psychology</em> 3. <a href="https://doi.org/10.15626/MP.2018.843">https://doi.org/10.15626/MP.2018.843</a>.
+LeBel, Etienne P., Wolf Vanpaemel, Irene Cheung, und Lorne Campbell. 2019. <span>„A Brief Guide to Evaluate Replications“</span>. <em>Meta-Psychology</em> 3. <a href="https://doi.org/10.15626/MP.2018.843">https://doi.org/10.15626/MP.2018.843</a>.
 </div>
 <div id="ref-Leonelli2023" class="csl-entry" role="listitem">
 Leonelli, Sabina. 2023. <em>Philosophy of Open Science</em>. Cambridge University Press. <a href="https://doi.org/10.1017/9781009416368">https://doi.org/10.1017/9781009416368</a>.
 </div>
 <div id="ref-McShane2022-yd" class="csl-entry" role="listitem">
-McShane, Blakeley B, Ulf Böckenholt, and Karsten T Hansen. 2022. <span>“Variation and Covariation in Large-Scale Replication Projects: An Evaluation of Replicability.”</span> <em>J. Am. Stat. Assoc.</em> 117 (540): 1605–21.
+McShane, Blakeley B, Ulf Böckenholt, und Karsten T Hansen. 2022. <span>„Variation and covariation in large-scale replication projects: An evaluation of replicability“</span>. <em>J. Am. Stat. Assoc.</em> 117 (540): 1605–21.
 </div>
 <div id="ref-ODonnell.2018" class="csl-entry" role="listitem">
-O’Donnell, Michael, Leif D. Nelson, Evi Ackermann, Balazs Aczel, Athfah Akhtar, Silvio Aldrovandi, Nasseem Alshaif, et al. 2018. <span>“Registered Replication Report: Dijksterhuis and van Knippenberg (1998).”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 13 (2): 268–94. <a href="https://doi.org/10.1177/1745691618755704">https://doi.org/10.1177/1745691618755704</a>.
+O’Donnell, Michael, Leif D. Nelson, Evi Ackermann, Balazs Aczel, Athfah Akhtar, Silvio Aldrovandi, Nasseem Alshaif, u.&nbsp;a. 2018. <span>„Registered Replication Report: Dijksterhuis and van Knippenberg (1998)“</span>. <em>Perspectives on psychological science : a journal of the Association for Psychological Science</em> 13 (2): 268–94. <a href="https://doi.org/10.1177/1745691618755704">https://doi.org/10.1177/1745691618755704</a>.
 </div>
 <div id="ref-OpenScienceCollaboration.2015" class="csl-entry" role="listitem">
-Open Science Collaboration. 2015. <span>“Psychology: Estimating the Reproducibility of Psychological Science.”</span> <em>Science (New York, N.Y.)</em> 349 (6251): aac4716. <a href="https://doi.org/10.1126/science.aac4716">https://doi.org/10.1126/science.aac4716</a>.
+Open Science Collaboration. 2015. <span>„Psychology: Estimating the reproducibility of psychological science“</span>. <em>Science (New York, N.Y.)</em> 349 (6251): aac4716. <a href="https://doi.org/10.1126/science.aac4716">https://doi.org/10.1126/science.aac4716</a>.
 </div>
 <div id="ref-Plesser2018" class="csl-entry" role="listitem">
-Plesser, Hans E. 2018. <span>“Reproducibility Vs. Replicability: A Brief History of a Confused Terminology.”</span> <em>Frontiers in Neuroinformatics</em> 11 (January). <a href="https://doi.org/10.3389/fninf.2017.00076">https://doi.org/10.3389/fninf.2017.00076</a>.
+Plesser, Hans E. 2018. <span>„Reproducibility vs. Replicability: A Brief History of a Confused Terminology“</span>. <em>Frontiers in Neuroinformatics</em> 11 (Januar). <a href="https://doi.org/10.3389/fninf.2017.00076">https://doi.org/10.3389/fninf.2017.00076</a>.
 </div>
 <div id="ref-rife2024registered" class="csl-entry" role="listitem">
-Rife, Sean, Quinn Lambert, Robert Calin-Jageman, Adamkovic Matus, Gabriel Banik, Itxaso Barberia, Jennifer Beaudry, et al. 2024. <span>“Registered Replication Report: Study 3 from Trafimow and Hughes (2012).”</span> <em>Advances in Methods and Practices in Psychological Science</em>.
+Rife, Sean, Quinn Lambert, Robert Calin-Jageman, Adamkovic Matus, Gabriel Banik, Itxaso Barberia, Jennifer Beaudry, u.&nbsp;a. 2024. <span>„Registered Replication Report: Study 3 from Trafimow and Hughes (2012)“</span>. <em>Advances in Methods and Practices in Psychological Science</em>.
+</div>
+<div id="ref-Roseler.2022d" class="csl-entry" role="listitem">
+Röseler, Lukas, Taisia Gendlina, Josefine Krapp, Noemi Labusch, und Astrid Schütz. 2022. <span>„Successes and Failures of Replications: A Meta-Analysis of Independent Replication Studies Based on the OSF Registries“</span>. <a href="https://doi.org/10.31222/osf.io/8psw2">https://doi.org/10.31222/osf.io/8psw2</a>.
 </div>
 <div id="ref-Sikorski2023-qp" class="csl-entry" role="listitem">
-Sikorski, Michał, and Mattia Andreoletti. 2023. <span>“Epistemic Functions of Replicability in Experimental Sciences: Defending the Orthodox View.”</span> <em>Found. Sci.</em>, February.
+Sikorski, Michał, und Mattia Andreoletti. 2023. <span>„Epistemic functions of replicability in experimental sciences: Defending the orthodox view“</span>. <em>Found. Sci.</em>, Februar.
 </div>
 <div id="ref-Soto.2019" class="csl-entry" role="listitem">
-Soto, Christopher J. 2019. <span>“How Replicable Are Links Between Personality Traits and Consequential Life Outcomes? The Life Outcomes of Personality Replication Project.”</span> <em>Psychological Science</em> 30 (5): 711–27. <a href="https://doi.org/10.1177/0956797619831612">https://doi.org/10.1177/0956797619831612</a>.
+Soto, Christopher J. 2019. <span>„How Replicable Are Links Between Personality Traits and Consequential Life Outcomes? The Life Outcomes of Personality Replication Project“</span>. <em>Psychological Science</em> 30 (5): 711–27. <a href="https://doi.org/10.1177/0956797619831612">https://doi.org/10.1177/0956797619831612</a>.
 </div>
 <div id="ref-Strack.1988" class="csl-entry" role="listitem">
-Strack, Fritz, Leonard L. Martin, and Sabine Stepper. 1988. <span>“Inhibiting and Facilitating Conditions of the Human Smile: A Nonobtrusive Test of the Facial Feedback Hypothesis.”</span> <em>Journal of Personality and Social Psychology</em> 54 (5): 768–77. <a href="https://doi.org/10.1037/0022-3514.54.5.768">https://doi.org/10.1037/0022-3514.54.5.768</a>.
+Strack, Fritz, Leonard L. Martin, und Sabine Stepper. 1988. <span>„Inhibiting and facilitating conditions of the human smile: A nonobtrusive test of the facial feedback hypothesis“</span>. <em>Journal of Personality and Social Psychology</em> 54 (5): 768–77. <a href="https://doi.org/10.1037/0022-3514.54.5.768">https://doi.org/10.1037/0022-3514.54.5.768</a>.
 </div>
 <div id="ref-turingwaycommunity2024illustrations" class="csl-entry" role="listitem">
-The Turing Way Community, and Scriberia. 2024. <span>“Illustrations from the Turing Way: Shared Under CC-BY 4.0 for Reuse.”</span> Zenodo. <a href="https://doi.org/10.5281/ZENODO.3332807">https://doi.org/10.5281/ZENODO.3332807</a>.
+The Turing Way Community, und Scriberia. 2024. <span>„Illustrations from The Turing Way: Shared under CC-BY 4.0 for reuse“</span>. Zenodo. <a href="https://doi.org/10.5281/ZENODO.3332807">https://doi.org/10.5281/ZENODO.3332807</a>.
+</div>
+<div id="ref-tierney2020creative" class="csl-entry" role="listitem">
+Tierney, Warren, Jay H Hardy III, Charles R Ebersole, Keith Leavitt, Domenico Viganola, Elena Giulia Clemente, Michael Gordon, u.&nbsp;a. 2020. <span>„Creative destruction in science“</span>. <em>Organizational Behavior and Human Decision Processes</em> 161: 291–309.
 </div>
 <div id="ref-vaidis2024multilab" class="csl-entry" role="listitem">
-Vaidis, David C, Willem WA Sleegers, Florian Van Leeuwen, Kenneth G DeMarree, Bjørn Sætrevik, Robert M Ross, Kathleen Schmidt, et al. 2024. <span>“A Multilab Replication of the Induced-Compliance Paradigm of Cognitive Dissonance.”</span> <em>Advances in Methods and Practices in Psychological Science</em> 7 (1): 25152459231213375.
+Vaidis, David C, Willem WA Sleegers, Florian Van Leeuwen, Kenneth G DeMarree, Bjørn Sætrevik, Robert M Ross, Kathleen Schmidt, u.&nbsp;a. 2024. <span>„A multilab replication of the induced-compliance paradigm of cognitive dissonance“</span>. <em>Advances in Methods and Practices in Psychological Science</em> 7 (1): 25152459231213375.
 </div>
 <div id="ref-Wagenmakers.2016" class="csl-entry" role="listitem">
-Wagenmakers, Eric-Jan, Titia Beek, Laura Dijkhoff, Quentin F. Gronau, Alberto Acosta, Reginald B. Adams, Daniel N. Albohn, et al. 2016. <span>“Registered Replication Report: Strack, Martin, <span>&amp;</span> Stepper (1988).”</span> <em>Perspectives on Psychological Science : A Journal of the Association for Psychological Science</em> 11 (6): 917–28. <a href="https://doi.org/10.1177/1745691616674458">https://doi.org/10.1177/1745691616674458</a>.
+Wagenmakers, Eric-Jan, Titia Beek, Laura Dijkhoff, Quentin F. Gronau, Alberto Acosta, Reginald B. Adams, Daniel N. Albohn, u.&nbsp;a. 2016. <span>„Registered Replication Report: Strack, Martin, <span>&amp;</span> Stepper (1988)“</span>. <em>Perspectives on psychological science : a journal of the Association for Psychological Science</em> 11 (6): 917–28. <a href="https://doi.org/10.1177/1745691616674458">https://doi.org/10.1177/1745691616674458</a>.
 </div>
 </div>
 </section>
@@ -755,12 +810,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Kopiert");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Kopiert");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -1135,12 +1190,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./anfänge.html" class="pagination-link" aria-label="Anfänge einer Revolution">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Anfänge einer Revolution</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Anfänge einer Revolution</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./wandel.html" class="pagination-link" aria-label="Wandel im System">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Wandel im System</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-title">Wandel im System</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -1148,13 +1203,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0th ed.). https://lukasroeseler.github.io/opensciencebuch</p>
+<p>Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0.1th ed.). https://doi.org/10.17605/OSF.IO/2QXWV</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></div>
     <div class="nav-footer-right">
-<p>Mithilfe von <a href="https://quarto.org/">Quarto</a> erstellt.</p>
+<p>Mithilfe von <a href="https://quarto.org/">Quarto</a> erstellt. Lizenz: CC-By Attribution 4.0 International.</p>
 </div>
   </div>
 </footer>
