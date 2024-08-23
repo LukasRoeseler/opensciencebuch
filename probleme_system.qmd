@@ -80,4 +80,6 @@ Zeitschriften machen sich die Lage zu Nutzen, indem sie gegen eine schwache oder
 
 -   Thériault und Forscher haben kürzlich das [*Missing Majority Dashbaord*](https://remi-theriault.com/dashboards/missing_majority#home) veröffentlicht [@theriault2024missing], das automatisch mittels der OpenAlex Literaturdatenbank darstellt, von welchen Kontinenten Autor\*innen stammen. Nordamerika und Europa sind dabei deutlich überrepräsentiert.
 
+-   TED Talk zur inklusiven Wissenschaft: <https://www.youtube.com/watch?v=tB_HeqnonNM>
+
 ## Literatur
