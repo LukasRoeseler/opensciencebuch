@@ -6,7 +6,7 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
-Um das Jahr 2010 herum häuften sich in der Psychologie Ereignisse, die für sich genommen als Einzelfälle abgetan werden konnten, gemeinsam aber ein negatives Bild der Wissenschaft zeichneten.
+Um das Jahr 2010 herum häuften sich in der Psychologie Ereignisse, die für sich genommen als Einzelfälle abgetan werden konnten, gemeinsam aber ein negatives Bild der Wissenschaft zeichneten. Die Fälle fallen in zwei Kategorien: Bei der Stapel-Affäre handelte es sich um eindeutigen Betrug durch das "Erfinden" von Daten oder Berichten von Studien, die nie durchgeführt wurden. Die anderen Fälle sind kein eindeutiger Betrug, stattdessen wurden dabei innerhalb der Wissenschaft zu diesem Zeitpunkt anerkannte Methoden verwendet um Ergebnisse zu produzieren.
 
 ### Stapel-Affäre {unnumbered.=""}
 
