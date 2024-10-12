@@ -144,7 +144,7 @@ Die Chance, signifikante p-Werte zu kriegen, ohne dass die getestete Hypothese �
 *Wahrscheinlichkeit für ein signifikantes Ergebnis durch die Anwendung verschiedener p-Hacking-Techniken nach @Simmons.2011, Tabelle 1. Der Anteil signifikanter Ergebnisse sollte hier den festgelegten 5% des Alpha-Fehlers entsprechen.*
 
 | Technik                                                             | Anteil signifikanter Ergebnisse |
-|------------------------------------------------|------------------------|
+|---------------------------------------------------------------------|---------------------------------|
 | Mehrere abhängige Variablen, deren Korrelation r = .5 ist           | 9,5%                            |
 | 10 weitere Beobachtungen je Gruppe erheben                          | 7,7%                            |
 | Eine weitere Variable (z.B. Geschlecht) mit in das Modell aufnehmen | 11,7%                           |
