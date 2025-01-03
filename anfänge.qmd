@@ -28,6 +28,8 @@ Seine Studien wurden im Marketing gefeiert und als neurowissenschaftliche Erkenn
 In der Verhaltensbiologie zeigten @Crabbe1999-ao bereits viel früher, dass Befunde zum Einfluss der Gene auf das Verhalten stark davon abhingen, in welchem Labor die Mäuse untersucht wurden. Während Verbesserungen im Forschungsprozess seitdem immer wieder gefordert wurden [@Kafkafi2018-yr] blieb eine Revolution wie in der Psychologie aus.
 
 Ein etwas anderes Problem ergab sich im Rahmen der Sequenzierung der menschlichen DNS: Dort beantragten Unternehmen noch während des Erforschungsprozess die Rechte daran (*Intellectual Property*). Die negativen sozialen und wissenschaftlichen Folgen wurden früh diskutiert [@Moore2000-pr] und sind noch immer [Teil von wissenschaftlichen und politischen Diskussionen](https://www.ip.mpg.de/en/research/research-news/position-statement-on-new-genomic-techniques-and-intellectual-property-law.html).
+
+Probleme mit Reproduzierbarkeit, also der Bestätigung von veröffentlichten Ergebnissen basierend auf denselben Daten, sind außerdem in präklinischen Tierstudien zu verschiedenen Medikamenten (Biologie), in der Krebsforschung (Medizin), Genetik (Biologie), Heilmitteln von ALS (Neurologie), und vielzitierten medizinischen Interventionen (Medizin) bekannt [@royal2018replication; S. 22, Tabelle 1].
 :::
 
 ### Literatur
