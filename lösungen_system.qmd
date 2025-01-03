@@ -54,7 +54,7 @@ Im Rahmen der Open Science Reform entstanden außerdem viele neue Vereinigungen.
 
 ### Zeitschriften
 
-Wissenschaftliche Zeitschriften gelten als Bühne des wissenschaftlichen Diskurses und bestimmen maßgeblich, welche Elemente des Forschungsprozesses zum „scientific record" gehören und damit relevant sind. Sie sind darüber hinaus als Organisatorinnen des Begutachtungsprozesses für die Qualitätssicherung in der Wissenschaft verantwortlich. Dem Mangel an Qualität entgegnend existieren bereits ausführliche Empfehlungen zur Gestaltung von Zeitschriften, es bilden sich neue Zeitschriften, und vollständige neue Begutachtungs- und Publikationsmodelle werden vorgeschlagen und vielseitig implementiert. Das Journal of [Open Source Software](https://joss.theoj.org) basiert beispielsweise auf einem öffentlich einsehbaren Programmiercode und seine Infrastruktur lässt sich für weitere Zeitschriften einfach kopieren und anpassen.
+Wissenschaftliche Zeitschriften gelten als Bühne des wissenschaftlichen Diskurses und bestimmen maßgeblich, welche Elemente des Forschungsprozesses zum „scientific record" gehören und damit relevant sind. Sie sind darüber hinaus als Organisatorinnen des Begutachtungsprozesses für die Qualitätssicherung in der Wissenschaft verantwortlich. Dem Mangel an Qualität entgegnend existieren bereits ausführliche Empfehlungen zur Gestaltung von Zeitschriften, es bilden sich neue Zeitschriften, Tools zur automatisierten Prüfung wie der [Problematic Paper Screener](https://dbrech.irit.fr/pls/apex/f?p=9999:1::::::) werden entwickelt, und vollständige neue Begutachtungs- und Publikationsmodelle werden vorgeschlagen und vielseitig implementiert. Das Journal of [Open Source Software](https://joss.theoj.org) basiert beispielsweise auf einem öffentlich einsehbaren Programmiercode und seine Infrastruktur lässt sich für weitere Zeitschriften einfach kopieren und anpassen.
 
 #### Empfehlungen
 
@@ -63,7 +63,7 @@ Herausgeber\*innen, die sich in Bezug auf die von ihnen verwaltete Zeitschrift m
 ::: callout-tip
 ## Wissenschaftsgeleitetes Publizieren
 
-Eine Alternative zu Publikationen von Forschung in den traditionellen, kommerziellen Zeitschriften stellen die Diamond Open Access Zeitschriften dar, die in der Hand der Forschenden liegen. Sechs Handreichungen, wie dabei vorgegangen werden sollte, sind in @Wrzesinski2023-qm zusammengefasst.
+Eine Alternative zu Publikationen von Forschung in den traditionellen, kommerziellen Zeitschriften stellen die Diamond Open Access Zeitschriften dar, die in der Hand der Forschenden liegen. Sechs Handreichungen, wie dabei vorgegangen werden sollte, sind in @Wrzesinski2023-qm zusammengefasst. Damit einher gehen Kündigungen von Verträgen zwischen Universitätsbibliotheken und Verlagen, wie beispielsweise dem [Boycott des MIT](https://sparcopen.org/our-work/big-deal-knowledge-base/unbundling-profiles/mit-libraries/) von Elsevier-Zeitschriften, der jährliche Einsparungen von circa 2 Millionen US-Dollar.
 :::
 
 #### Open Science Praktiken hervorheben
