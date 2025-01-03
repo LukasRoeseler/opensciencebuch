@@ -171,17 +171,17 @@ Die wichtigsten Voraussetzungen dafür, dass Forschende Daten teilen können, si
 
 Je nach Fach und Institution werden Forschungsdaten an unterschiedlichen Stellen archiviert. Universitäten haben häufig eigene Services, für die Auffindbarkeit bieten sich aber üblicherweise fachspezifische Repositorien an: Psycholog\*innen nutzen häufig das [Open Science Framework (OSF)](https://osf.io/), [PsychArchives](https://www.psycharchives.org) vom Leibniz-Institut für Psychologie, oder [Researchbox.org](researchbox.org). Für die Wirtschaftswissenschaften bietet das Leibniz-Institut für Sozialwissenschaften mit [GESIS](https://www.gesis.org/datenservices/daten-teilen) verschiedene Hilfen. Mit [LISTER](https://www.nfdi4chem.de/de/lister-halbautomatische-metadatenextraktion-aus-kommentierter-experimentdokumentation-in-elabftw/) wird in der Chemie an Software gearbeitet, mittels derer Daten auf Basis von elektronischen Laborbüchern halbautomatisiert beschrieben werden können. [Re3data](https://www.re3data.org) bietet eine Übersicht über Forschungsdatenrepositorien (z.B. nach Fächern).
 
-| Fach/Disziplin                    | Repositorium                                          |
-|-----------------------------------|-------------------------------------------------------|
-| Psychologie                       | osf.io                                                |
-| Sozialwissenschaften              | data.gesis.org                                        |
-| Politik- und Sozialwissenschaften | icpsr.umich.edu                                       |
-| Lebenswissenschaften              | Pangaea.de                                            |
-| Kunst- und Geistewissenschaften   | de.Dariah.eu                                          |
-| Linguistik                        | Clarin.eu                                             |
-| Biologie                          | gfbio.org                                             |
-| Materialwissenschaften            | nomad-lab.eu                                          |
-| Qualitative Daten                 | [qdr.syr.edu](https://qdr.syr.edu/deposit/data){.uri} |
+| Fach/Disziplin | Repositorium |
+|------------------------------------|------------------------------------|
+| Psychologie | osf.io |
+| Sozialwissenschaften | data.gesis.org |
+| Politik- und Sozialwissenschaften | icpsr.umich.edu |
+| Lebenswissenschaften | Pangaea.de |
+| Kunst- und Geistewissenschaften | de.Dariah.eu |
+| Linguistik | Clarin.eu |
+| Biologie | gfbio.org |
+| Materialwissenschaften | nomad-lab.eu |
+| Qualitative Daten | [qdr.syr.edu](https://qdr.syr.edu/deposit/data){.uri} |
 
 : Repositorien für Forschungsdaten
 :::
@@ -242,7 +242,7 @@ Drittmittelgeber fordern gelegentlich Langzeitarchivierung. Das bedeutet je nach
 
 ### Replizierbarkeit erhöhen
 
-Die bisherigen Ansätze wie Meta-Analysen oder Reproduzierbarkeits-Prüfungen können häufig für bestehende Projekte durchgeführt werden. Bei den folgenden gestaltet sich das allerdings schwieriger - sie sind vor allem für neue Forschung geeignet und haben das Ziel, die Replizierbarkeit von neu veröffentlichten Studien zu erhöhen. Wie im Fazit des Buches erörtert, ist eine allgemeine, fächerübergreifende Aussage darüber, ob diese Vorschläge sich tatsächlich auf Replizierbarkeit auswirken aufgrund von seltenen Replikationsstudien schwierig. Selbst in der Sozialpsychologie sind Replikationen aktuell noch immer die am schwächsten umgesetzte Maßnahme unter allen Empfehlungen zu Open Science [@glockner2024quality]. So oder so ist der Sinn der Maßnahmen, die allgemein die Transparenz von Forschung erhöhen, im Hinblick auf Replikationsschwierigkeiten und P-Hacking deutlich.
+Die bisherigen Ansätze wie Meta-Analysen oder Reproduzierbarkeits-Prüfungen können häufig für bestehende Projekte durchgeführt werden. Bei den folgenden Lösungsvorschlägen gestaltet sich das allerdings schwieriger - sie sind vor allem für neue Forschung geeignet und haben das Ziel, die Replizierbarkeit von neu veröffentlichten Studien zu erhöhen. Das beinhaltet strengere methodische Standards oder Replikationen vor der Publikation ("internale Replikationen", engl. internal replication), wie es beispielsweise in der genetischen Epidemiologie der Standard ist. Als positiver Nebeneffekt kommt hier dazu, dass sich Forschungsgruppen für Replikationsstudien zusammenschließen und Daten austauschen [@royal2018replication]. Wie im Fazit des Buches erörtert, ist eine allgemeine, fächerübergreifende Aussage darüber, ob diese Vorschläge sich tatsächlich auf Replizierbarkeit auswirken aufgrund von seltenen Replikationsstudien schwierig. Selbst in der Sozialpsychologie sind Replikationen aktuell noch immer die am schwächsten umgesetzte Maßnahme unter allen Empfehlungen zu Open Science [@glockner2024quality]. So oder so ist der Sinn der Maßnahmen, die allgemein die Transparenz von Forschung erhöhen, im Hinblick auf Replikationsschwierigkeiten und P-Hacking deutlich.
 
 ::: callout-note
 ## Transparente Berichte
@@ -329,13 +329,13 @@ Open Source bedeutet dabei, dass der Quelltext eines Programmes lesbar und koste
 
 Kurz: Für die Forschung, bei welcher die Nachvollziehbarkeit eine vorrangige Rolle spielt, sollte wenn möglich nur auf Open Source Software zurückgegriffen werden. Für manche Methoden ist das aktuell nicht möglich, dort ist es Aufgabe der Hochschulbibliotheken als Verwalterinnen des Wissens [@Quan2021-tp] und Fachgesellschaften als Anlaufstelle der Disziplinen, die nötige Infrastruktur zu stellen oder entwickeln zu lassen.
 
-| Infrastruktur                     | Kommerzielle Software         | Non-Kommerzielle Software                                             |
-|-----------------------------------|-------------------------------|-----------------------------------------------------------------------|
-| Literaturdatenbank                | SCOPUS                        | OpenAlex [@priem2022openalex]                                         |
-| Literaturverwaltung               | Citavi, Mendeley              | Zotero [@puckett2011zotero]                                           |
-| Datenerhebung                     | Unipark, Millisecond Inquisit | PsychoPy [@peirce2022building]                                        |
-| Statistische Datenanalyse         | IBM SPSS, Stata               | GNU R [@RCoreTeam.2018], PSPP [@yagnik2014pspp], JASP [@love2019jasp] |
-| Begutachtung und Veröffentlichung | Editorial Manager             | Open Journal System [@willinsky2005open]                              |
+| Infrastruktur | Kommerzielle Software | Non-Kommerzielle Software |
+|------------------------|------------------------|------------------------|
+| Literaturdatenbank | SCOPUS | OpenAlex [@priem2022openalex] |
+| Literaturverwaltung | Citavi, Mendeley | Zotero [@puckett2011zotero] |
+| Datenerhebung | Unipark, Millisecond Inquisit | PsychoPy [@peirce2022building] |
+| Statistische Datenanalyse | IBM SPSS, Stata | GNU R [@RCoreTeam.2018], PSPP [@yagnik2014pspp], JASP [@love2019jasp] |
+| Begutachtung und Veröffentlichung | Editorial Manager | Open Journal System [@willinsky2005open] |
 
 : Kommerzielle und Non-Kommerzielle Software
 
