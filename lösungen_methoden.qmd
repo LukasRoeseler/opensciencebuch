@@ -172,7 +172,7 @@ Die wichtigsten Voraussetzungen dafür, dass Forschende Daten teilen können, si
 Je nach Fach und Institution werden Forschungsdaten an unterschiedlichen Stellen archiviert. Universitäten haben häufig eigene Services, für die Auffindbarkeit bieten sich aber üblicherweise fachspezifische Repositorien an: Psycholog\*innen nutzen häufig das [Open Science Framework (OSF)](https://osf.io/), [PsychArchives](https://www.psycharchives.org) vom Leibniz-Institut für Psychologie, oder [Researchbox.org](researchbox.org). Für die Wirtschaftswissenschaften bietet das Leibniz-Institut für Sozialwissenschaften mit [GESIS](https://www.gesis.org/datenservices/daten-teilen) verschiedene Hilfen. Mit [LISTER](https://www.nfdi4chem.de/de/lister-halbautomatische-metadatenextraktion-aus-kommentierter-experimentdokumentation-in-elabftw/) wird in der Chemie an Software gearbeitet, mittels derer Daten auf Basis von elektronischen Laborbüchern halbautomatisiert beschrieben werden können. [Re3data](https://www.re3data.org) bietet eine Übersicht über Forschungsdatenrepositorien (z.B. nach Fächern).
 
 | Fach/Disziplin | Repositorium |
-|------------------------------------|------------------------------------|
+|----|----|
 | Psychologie | osf.io |
 | Sozialwissenschaften | data.gesis.org |
 | Politik- und Sozialwissenschaften | icpsr.umich.edu |
@@ -262,7 +262,7 @@ Forschung ist entweder konfirmatorisch (d.h. Forschende haben sich im Vorhinein 
 
 Eine gute Päregistrierung ist dadurch gekennzeichnet, dass Forschende sich damit aller Freiheitsgrade berauben [@Wicherts.2016] und alle Entscheidungen, die sie auf dem Weg von den Daten zu den Ergebnissen fällen, vorweg nehmen. Darüber hinaus sollten Präregistrierungen gut strukturiert sein, damit andere Personen leicht nachprüfen können, was vorher festgelegt wurde [@Simmons.2020b]. Um alle nötigen Entscheidungen (z.B. Umgang mit fehlenden Werten oder geplante Anzahl an befragten Personen) strukturiert festzuhalten, gibt es Präregistrierungs-Vorlagen (Templates). Diese existieren für alle möglichen Bereiche, wie sozialpsychologische Experimente [@vantVeer.2016] oder Replikationsstudien [@Brandt.2014]. Eine Sammlung von über 20 Vorlagen mit Verwendungszwecken ist [hier](https://osf.io/7xrn9) verfügbar. Forschende, die noch wenig Erfahrung in bestimmten Bereichen haben, werden durch das Template unterstützt. Beispielsweise enthalten Preregistration-Templates für Meta-Analysen Übersichten von Literaturdatenbanken und beinhalten bereits Goldstandards zu transparenten Berichten [PRISMA; @DavidMoher.]. Darüber hinaus können die Unterlagen der Präregistrierung für das Manuskript weiterverwendet werden.
 
-Die Methode der Präregistrierung hat sich in der Psychologie entwickelt. Dabei hat sie sich auf die *Registrierung* von Studien mit menschlichen Versuchspersonen in der Medizin und Registrierung von Meta-Analysen gestützt. Sie ist wie einige andere Modelle ohne größere Anpassungen auf viele andere Bereiche übertragbar, wie zum Beispiel der Paläontologie \[@Drage2023-fx\].
+Die Methode der Präregistrierung hat sich in der Psychologie entwickelt. Dabei hat sie sich auf die *Registrierung* von Studien mit menschlichen Versuchspersonen in der Medizin und Registrierung von Meta-Analysen gestützt. Sie ist wie einige andere Modelle ohne größere Anpassungen auf viele andere Bereiche übertragbar, wie zum Beispiel der Paläontologie [@Drage2023-fx].
 
 #### Präregistrierung immer mit Analyse-Plan und Analyse-Code
 
@@ -332,7 +332,7 @@ Open Source bedeutet dabei, dass der Quelltext eines Programmes lesbar und koste
 Kurz: Für die Forschung, bei welcher die Nachvollziehbarkeit eine vorrangige Rolle spielt, sollte wenn möglich nur auf Open Source Software zurückgegriffen werden. Für manche Methoden ist das aktuell nicht möglich, dort ist es Aufgabe der Hochschulbibliotheken als Verwalterinnen des Wissens [@Quan2021-tp] und Fachgesellschaften als Anlaufstelle der Disziplinen, die nötige Infrastruktur zu stellen oder entwickeln zu lassen.
 
 | Infrastruktur | Kommerzielle Software | Non-Kommerzielle Software |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Literaturdatenbank | SCOPUS | OpenAlex [@priem2022openalex] |
 | Literaturverwaltung | Citavi, Mendeley | Zotero [@puckett2011zotero] |
 | Datenerhebung | Unipark, Millisecond Inquisit | PsychoPy [@peirce2022building] |
