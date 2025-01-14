@@ -22,40 +22,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -342,7 +308,6 @@ div.csl-indent {
   <li><a href="#slow-science" id="toc-slow-science" class="nav-link" data-scroll-target="#slow-science">Slow Science</a></li>
   <li><a href="#big-team-science" id="toc-big-team-science" class="nav-link" data-scroll-target="#big-team-science">Big Team Science</a></li>
   <li><a href="#weiterführende-informationen" id="toc-weiterführende-informationen" class="nav-link" data-scroll-target="#weiterführende-informationen">Weiterführende Informationen</a></li>
-  <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur">Literatur</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></nav>
     </div>
@@ -382,15 +347,6 @@ div.csl-indent {
 <p>Eine der ältesten Methoden ist der Funnel Plot (Trichter-Diagramm) <span class="citation" data-cites="light1984summing">(<a href="#ref-light1984summing" role="doc-biblioref">Light und Pillemer 1984</a>)</span>. Dabei werden Präzision und Effektstärke der einzelnen Studien in einem Diagramm dargestellt. Im Idealfall sollten die Punkte das Bild eines Trichters bilden: Je präziser eine Studie ist (zum Beispiel durch eine große Stichprobe), desto eher sollte der dort gemessene Zusammenhang im Mittel liegen. Unpräzisere Studien verschätzen sich unsystematisch, also sie liegen mal drüber und mal drunter. Dadurch, dass nicht signifikante Ergebnisse selten veröffentlicht werden, bildet sich in dem Trichter-Diagramm fast nie ein Trichter, sondern nicht-signifikante Ergebnisse fehlen einfach.</p>
 <p>In der folgenden Abbildung ist ein Trichter-Diagramm für eine Studie zum Zusammenhang zwischen Angst vor Mathematik und Leistung in Mathematik. Das Muster ist fast symmetrisch, es liegt also nur ein schwacher Publikationsbias vor. Die kleinen Zusammenhänge am unteren Rand sind etwas nach rechts verzerrt, und die präzisen Effekte ganz oben sind nicht alle gleich groß, sondern variieren stark.</p>
 <div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Funnel plot example</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(psymetadata)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>ds <span class="ot">&lt;-</span> psymetadata<span class="sc">::</span>barroso2021</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>model <span class="ot">&lt;-</span> metafor<span class="sc">::</span><span class="fu">rma.mv</span>(<span class="at">yi =</span> ds<span class="sc">$</span>yi, <span class="at">V =</span> ds<span class="sc">$</span>vi, <span class="at">random =</span> <span class="sc">~</span><span class="dv">1</span> <span class="sc">|</span> study_id, <span class="at">data =</span> ds)</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>metafor<span class="sc">::</span><span class="fu">funnel</span>(model, <span class="at">xlab =</span> <span class="st">"Beobachtete Effektstärke"</span>, <span class="at">ylab =</span> <span class="st">"Präzision (Standardfehler)"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -424,21 +380,6 @@ div.csl-indent {
 <h4 class="anchored" data-anchor-id="effektstärken-gerade-so-signifikant">Effektstärken “gerade so signifikant”</h4>
 <p>Angelehnt an die Logik der P-Curve ist es unwahrscheinlich, dass P-Werte zwischen 1 und 5% liegen. Aufgrund von p-hacking kommt es allerdings häufig vor. Ein P-Wert nahe 5% geht außerdem mit einem Konfidenzintervall der Effektstärke nahe 0 einher (z.B. <span class="citation" data-cites="jane2024">(<a href="#ref-jane2024" role="doc-biblioref"><strong>jane2024?</strong></a>)</span>). Angenommen jemand führt zwei Studien zu einem Thema durch und beide haben P-Werte nahe 5% und ungefähr gleich große Versuchspersonen-Anzahlen, dann kommt die Frage auf, weshalb die Stichprobengröße für die spätere Studie nicht erhöht wurde: Auf Basis eines gerade so signifikanten Ergebnisses ist klar, dass man “Glück” hatte, da die statistische Power nicht sonderlich hoch war. Plant man also die Stichprobe für die nächste Studie, sollte man die erste Studie dabei zugrund legen und den Plan anpassen (z.B. <span class="citation" data-cites="Lakens.2021">Daniël Lakens (<a href="#ref-Lakens.2021" role="doc-biblioref">2021a</a>)</span>).</p>
 <div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>rs <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fu">seq</span>(.<span class="dv">01</span>, .<span class="dv">9</span>, <span class="at">by =</span> .<span class="dv">01</span>)) <span class="co"># Korrelationen, für die die Funktion ausgeführt wird</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>rsci <span class="ot">&lt;-</span> <span class="fu">sapply</span>(rs, <span class="at">FUN =</span> <span class="cf">function</span>(rs) {psychometric<span class="sc">::</span><span class="fu">CIr</span>(<span class="at">r =</span> rs, <span class="at">n =</span> <span class="dv">250</span>)}) <span class="co"># füre Funktion mehrfach aus</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>rci <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="fu">t</span>(rsci))</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(rci) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"lcl"</span>, <span class="st">"ucl"</span>)</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>rci<span class="sc">$</span>r <span class="ot">&lt;-</span> rs</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(rci<span class="sc">$</span>r, rci<span class="sc">$</span>r, <span class="at">type =</span> <span class="st">"l"</span>, <span class="at">xlab =</span> <span class="st">"Korrelation"</span></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>     , <span class="at">ylab =</span> <span class="st">"Korrelation mit Konfidenzintervall"</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>     , <span class="at">main =</span> <span class="st">"Breite von Konfidenzintervallen je nach Korrelationsgröße</span><span class="sc">\n</span><span class="st">für N = 250"</span>)</span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="fu">lines</span>(rci<span class="sc">$</span>r, rci<span class="sc">$</span>ucl, <span class="at">lty =</span> <span class="dv">2</span>)</span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="fu">lines</span>(rci<span class="sc">$</span>r, rci<span class="sc">$</span>lcl, <span class="at">lty =</span> <span class="dv">2</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -494,44 +435,6 @@ Reproduktion auf Knopfdruck
 <p>Ähnlich wie die Sensitivitäts- oder Robustheitsanalysen lassen sich auch bei einzelnen Studien weitere Wege im “Garden of Forking Paths” gehen. Zur Erinnerung: Der Weg von Daten zu Ergebnissen ist lang und beinhaltet viele verschiedene Entscheidungen. Um zu zeigen, dass das Ergebnis eben nicht von diesen Entscheidungen abhängt, kann gezeigt werden, wie die Ergebnisse aussehen, wenn andere Entscheidungen getroffen werden würden. Der Extremfall dieser Robustheits-Analysen ist die <em>Multiversum-Analyse.</em> Hier wird versucht, alle möglichen Entscheidungen gleichzeitig zu treffen. Die daraus resultierenden Ergebnisse werden dann wieder in irgendeiner Form analysiert (z.B. gemittelt) oder dargestellt <span class="citation" data-cites="jacobsen2024preprocessing">(<a href="#ref-jacobsen2024preprocessing" role="doc-biblioref">Jacobsen u.&nbsp;a. 2024</a>)</span>. Eine weitere Möglichkeit ist die der <em>Multi-Analyst-Study</em>. Dabei geht es um die Abhängigkeit der Ergebnisse von den Entscheidungen verschiedener Forschenden und viele Personen analysieren die Daten unabhängig voneinander. Es wird schließlich geprüft, wie stark die Ergebnisse zwischen den Forschenden übereinstimmen.</p>
 <p>In der folgenden Abbildung wurde für einen festen Datensatz (Fantasiedaten) verschiedene Analysemethoden verwendet. Dabei wurden verschiedene Typen von Korrelationen, verschiedene Stichprobenumfänge, und verschiedene Hypothesen verwendet. Das Ergebnis ändert sich dabei jedes mal ein bisschen, sodass der Wert zwischen 0,20 und 0,35 liegt, die positive (und signifikante) Korrelation bleibt aber erhalten.</p>
 <div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(MASS) <span class="co"># Paket laden</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1</span>) <span class="co"># Zufallszahl festlegen, damit Ergebnisse immer identisch sind </span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>r_det <span class="ot">&lt;-</span> .<span class="dv">4</span> <span class="co"># einprogrammierte Korrelation</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>ds <span class="ot">&lt;-</span> MASS<span class="sc">::</span><span class="fu">mvrnorm</span>(<span class="at">n =</span> <span class="dv">197</span>, <span class="at">mu =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">0</span>), <span class="at">Sigma =</span> <span class="fu">matrix</span>(<span class="fu">c</span>(<span class="dv">1</span>, r_det, r_det, <span class="dv">1</span>), <span class="at">ncol =</span> <span class="dv">2</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>ds <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(ds)</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(ds) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"x"</span>, <span class="st">"y"</span>)</span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>r <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="st">"p"</span>, <span class="st">"estimate"</span>)</span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="fu">c</span>(<span class="fu">nrow</span>(ds), <span class="dv">150</span>)) {</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (j <span class="cf">in</span> <span class="fu">c</span>(<span class="st">"two.sided"</span>, <span class="st">"greater"</span>)) {</span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> (k <span class="cf">in</span> <span class="fu">c</span>(<span class="st">"pearson"</span>, <span class="st">"spearman"</span>, <span class="st">"kendall"</span>)) {</span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>      <span class="cf">for</span> (l <span class="cf">in</span> F) {</span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>        </span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>        r <span class="ot">&lt;-</span> <span class="fu">rbind</span>(r, <span class="fu">unlist</span>(<span class="fu">cor.test</span>(ds<span class="sc">$</span>x[<span class="dv">1</span><span class="sc">:</span>i], ds<span class="sc">$</span>y[<span class="dv">1</span><span class="sc">:</span>i], <span class="at">alternative =</span> j, <span class="at">method =</span> k, <span class="at">continuity =</span> l)[<span class="dv">3</span><span class="sc">:</span><span class="dv">4</span>]))</span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>        </span>
-<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>      }</span>
-<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>    }</span>
-<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>r <span class="ot">&lt;-</span> r[<span class="sc">-</span><span class="dv">1</span>, ]</span>
-<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(r) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"p"</span>, <span class="st">"estimate"</span>)</span>
-<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="dv">1</span><span class="sc">:</span><span class="fu">nrow</span>(r), r<span class="sc">$</span>estimate</span>
-<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>     , <span class="at">pch =</span> <span class="dv">20</span></span>
-<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>     <span class="co"># , col = ifelse(as.numeric(r$p) &lt; .05, "red", "blue")</span></span>
-<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>     , <span class="at">ylim =</span> <span class="fu">c</span>(<span class="dv">0</span>, r_det<span class="fl">+.2</span>)</span>
-<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>     , <span class="at">xaxt =</span> <span class="st">'n'</span></span>
-<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>     , <span class="at">ylab =</span> <span class="st">"Korrelation"</span></span>
-<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>     , <span class="at">xlab =</span> <span class="st">""</span></span>
-<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>     , <span class="at">bty =</span> <span class="st">"l"</span></span>
-<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>     )</span>
-<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="dv">0</span>,<span class="dv">0</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -782,14 +685,6 @@ Checkliste zum Präregistrieren
 <section id="effektstärken-statt-p-werte" class="level4">
 <h4 class="anchored" data-anchor-id="effektstärken-statt-p-werte">Effektstärken statt P-Werte</h4>
 <p>Es ist inzwischen klar, dass statistische Methoden häufig missverstanden und falsch gebraucht werden <span class="citation" data-cites="perezgonzalez2014reconceptualization lakens2021practical gigerenzer2004mindless">(<a href="#ref-perezgonzalez2014reconceptualization" role="doc-biblioref">Perezgonzalez 2014</a>; <a href="#ref-lakens2021practical" role="doc-biblioref">Daniel Lakens 2021</a>; <a href="#ref-gigerenzer2004mindless" role="doc-biblioref">Gigerenzer 2004</a>)</span>. Aktuell verlagert sich die Diskussion von P-Werten <span class="citation" data-cites="uygun2023epistemic">(<a href="#ref-uygun2023epistemic" role="doc-biblioref">Uygun Tunç, Tunç, und Lakens 2023</a>)</span> hin zu Effektstärken und der Frage, welche Rolle verschiedene Werte spielen. Beispielsweise konnten <span class="citation" data-cites="vohs2021multisite">Vohs u.&nbsp;a. (<a href="#ref-vohs2021multisite" role="doc-biblioref">2021</a>)</span> nachweisen, dass es den umstrittenen Effekt der verschwindenden Selbstkontrolle im <em>Ego Depletion Paradigma</em> gibt (er also nicht gleich 0 ist), allerdings war er in ihrer Untersuchung so klein, dass man alleine für einen erfolgreichen Nachweise über 6.700 Versuchsperson benötigen würde - mehr als jedes Experiment, das jemals zu dem Thema durchgeführt wurde und fast doppelt so viel wie die 3.524 Versuchspersonen von <span class="citation" data-cites="vohs2021multisite">Vohs u.&nbsp;a. (<a href="#ref-vohs2021multisite" role="doc-biblioref">2021</a>)</span>. Dabei ist umstritten, ob Forschende sich für leicht nachweisbare Phänomene, sogenannte “niedrig hängende Äpfel” <span class="citation" data-cites="Baumeister.2020">(<a href="#ref-Baumeister.2020" role="doc-biblioref">Baumeister 2020</a>)</span> konzentrieren sollten, ob es eine Grenze gibt, ab der Phänomene praktisch nicht erforschbar und damit nicht von Interesse sind <span class="citation" data-cites="primbs2023small">(<a href="#ref-primbs2023small" role="doc-biblioref">Primbs u.&nbsp;a. 2023</a>)</span>, und welche praktische Relevanz sie haben <span class="citation" data-cites="anvari2021evaluating">(<a href="#ref-anvari2021evaluating" role="doc-biblioref">Anvari u.&nbsp;a. 2021</a>)</span>.</p>
-<div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="fl">0.08</span> <span class="co"># Cohen's d = 0.08, 95% CI [0.01, 0.15], p. 45 hier: https://www.psychologie.uni-wuerzburg.de/fileadmin/06020231/pubs/eder/Vohs_et_al_-paradigmatic_depletion_MS_final.pdf</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>n_per_cell <span class="ot">&lt;-</span> <span class="fu">power.t.test</span>(<span class="at">n =</span> <span class="cn">NULL</span>, <span class="at">delta =</span> d, <span class="at">power =</span> .<span class="dv">95</span>, <span class="at">type =</span> <span class="st">"two.sample"</span>, <span class="at">alternative =</span> <span class="st">"one.sided"</span>)<span class="sc">$</span>n</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>n_minimum <span class="ot">&lt;-</span> <span class="fu">ceiling</span>(n_per_cell<span class="sc">*</span><span class="dv">2</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-</div>
 </section>
 </section>
 <section id="qualitative-forschung" class="level3">
@@ -870,11 +765,9 @@ Checkliste zum Präregistrieren
 <li><p>Offene Lehrmaterialien zu FAIR Data werden von <a href="https://j-5chneider.github.io/PTOS-open-data/">Jürgen Schneider</a> und von der <a href="https://github.com/UB-Mannheim/awesome-RDM">Universitätsbibliothek Mannheim</a> bereitgestellt</p></li>
 <li><p>Beispiele für Citizen Science und Möglichkeiten zum Mitmachen sind auf <a href="www.mitforschen.org/">mitforschen.org</a> und <a href="https://wissenschaft-im-dialog.de/mitmachen/">Wissenschaft-im-Dialog.de</a>.</p></li>
 <li><p>Einen Überblick und Übersetzungen der Contributor Roles Taxonomy gibt es online: <a href="https://github.com/contributorshipcollaboration/credit-translation" class="uri">https://github.com/contributorshipcollaboration/credit-translation</a></p></li>
-<li><p>Ein Leitfaden zu Open Source Software stellt Bitkom e.V. bereit: <a href="https://www.bitkom.org/Bitkom/Publikationen/Open-Source-Leitfaden-Praxisempfehlungen-fuer-Open-Source-Software" class="uri">https://www.bitkom.org/Bitkom/Publikationen/Open-Source-Leitfaden-Praxisempfehlungen-fuer-Open-Source-Software</a></p></li>
+<li><p>Ein Leitfaden zu Open Source Software stellt Bitkom e.V. bereit: <a href="https://www.bitkom.org/Bitkom/Publikationen/Open-Source-Leitfaden-Praxisempfehlungen-fuer-Open-Source-Software" class="uri">https://www.bitkom.org/Bitkom/Publikationen/Open-Source-Leitfaden-Praxisempfehlungen-fuer-Open-Source-Software</a></p>
+<hr></li>
 </ul>
-</section>
-<section id="literatur" class="level3">
-<h3 class="anchored" data-anchor-id="literatur">Literatur</h3>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">

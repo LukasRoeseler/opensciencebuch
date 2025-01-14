@@ -2,6 +2,8 @@
 title: "Anfänge einer Revolution"
 editor: visual
 format: html
+execute:
+  echo: false
 bibliography: references.bib
 bibliographystyle: apa
 ---
@@ -32,4 +34,4 @@ Ein etwas anderes Problem ergab sich im Rahmen der Sequenzierung der menschliche
 Probleme mit Reproduzierbarkeit, also der Bestätigung von veröffentlichten Ergebnissen basierend auf denselben Daten, sind außerdem in präklinischen Tierstudien zu verschiedenen Medikamenten (Biologie), in der Krebsforschung (Medizin), Genetik (Biologie), Heilmitteln von ALS (Neurologie), und vielzitierten medizinischen Interventionen (Medizin) bekannt [@royal2018replication; S. 22, Tabelle 1].
 :::
 
-### Literatur
+------------------------------------------------------------------------

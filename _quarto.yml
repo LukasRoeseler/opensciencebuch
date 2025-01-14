@@ -7,7 +7,9 @@ book:
   title: "Open Science: Wie sich die Wissenschaft öffnet"
   language: de-DE
   author: "Lukas Röseler"
-  cover-image: images/cover.jpg
+  cover-image: cover.jpg
+  cover-image-alt: |
+    A picture of clouds from above with a break in the middle.
   description: "Vertrauenskrise, Replikationsrevolution, und Open Science einfach und umfangreich erklärt"
   reader-mode: true
 
@@ -66,15 +68,15 @@ format:
     code-link: true
 
     author-meta: "Lukas Röseler"
-    cover-image: images/cover.jpg
+    cover-image: cover.jpg
     callout-appearance: simple
     css: styles.css
     number-sections: false
     
   pdf:
     documentclass: scrreprt
-    cover-image: images/cover.jpg
+    cover-image: cover.jpg
   epub:
-    cover-image: images/cover.jpg
+    cover-image: cover.jpg
 
 editor: visual

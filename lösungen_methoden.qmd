@@ -23,7 +23,7 @@ Eine der ältesten Methoden ist der Funnel Plot (Trichter-Diagramm) [@light1984s
 In der folgenden Abbildung ist ein Trichter-Diagramm für eine Studie zum Zusammenhang zwischen Angst vor Mathematik und Leistung in Mathematik. Das Muster ist fast symmetrisch, es liegt also nur ein schwacher Publikationsbias vor. Die kleinen Zusammenhänge am unteren Rand sind etwas nach rechts verzerrt, und die präzisen Effekte ganz oben sind nicht alle gleich groß, sondern variieren stark.
 
 ```{r}
-#| code-fold: true
+#| echo: false
 # Funnel plot example
 library(psymetadata)
 ds <- psymetadata::barroso2021
@@ -58,7 +58,7 @@ Seit einer Vertrauenskrise in der Sozialpsychologie in den 1960er Jahren [@Laken
 Angelehnt an die Logik der P-Curve ist es unwahrscheinlich, dass P-Werte zwischen 1 und 5% liegen. Aufgrund von p-hacking kommt es allerdings häufig vor. Ein P-Wert nahe 5% geht außerdem mit einem Konfidenzintervall der Effektstärke nahe 0 einher (z.B. @jane2024). Angenommen jemand führt zwei Studien zu einem Thema durch und beide haben P-Werte nahe 5% und ungefähr gleich große Versuchspersonen-Anzahlen, dann kommt die Frage auf, weshalb die Stichprobengröße für die spätere Studie nicht erhöht wurde: Auf Basis eines gerade so signifikanten Ergebnisses ist klar, dass man "Glück" hatte, da die statistische Power nicht sonderlich hoch war. Plant man also die Stichprobe für die nächste Studie, sollte man die erste Studie dabei zugrund legen und den Plan anpassen (z.B. @Lakens.2021).
 
 ```{r}
-#| code-fold: true
+#| echo: false
 rs <- c(seq(.01, .9, by = .01)) # Korrelationen, für die die Funktion ausgeführt wird
 rsci <- sapply(rs, FUN = function(rs) {psychometric::CIr(r = rs, n = 250)}) # füre Funktion mehrfach aus
 
@@ -110,7 +110,7 @@ In verschiedenen Forschungsdisziplinen gibt es großangelegte Projekte, Reproduz
 In der folgenden Abbildung wurde für einen festen Datensatz (Fantasiedaten) verschiedene Analysemethoden verwendet. Dabei wurden verschiedene Typen von Korrelationen, verschiedene Stichprobenumfänge, und verschiedene Hypothesen verwendet. Das Ergebnis ändert sich dabei jedes mal ein bisschen, sodass der Wert zwischen 0,20 und 0,35 liegt, die positive (und signifikante) Korrelation bleibt aber erhalten.
 
 ```{r}
-#| code-fold: true
+#| echo: false
 library(MASS) # Paket laden
 
 set.seed(1) # Zufallszahl festlegen, damit Ergebnisse immer identisch sind 
@@ -313,7 +313,7 @@ Poweranalysen sind schon lange bekannt und es wird zumindest in der Psychologie 
 Es ist inzwischen klar, dass statistische Methoden häufig missverstanden und falsch gebraucht werden [@perezgonzalez2014reconceptualization; @lakens2021practical; @gigerenzer2004mindless]. Aktuell verlagert sich die Diskussion von P-Werten [@uygun2023epistemic] hin zu Effektstärken und der Frage, welche Rolle verschiedene Werte spielen. Beispielsweise konnten @vohs2021multisite nachweisen, dass es den umstrittenen Effekt der verschwindenden Selbstkontrolle im *Ego Depletion Paradigma* gibt (er also nicht gleich 0 ist), allerdings war er in ihrer Untersuchung so klein, dass man alleine für einen erfolgreichen Nachweise über 6.700 Versuchsperson benötigen würde - mehr als jedes Experiment, das jemals zu dem Thema durchgeführt wurde und fast doppelt so viel wie die 3.524 Versuchspersonen von @vohs2021multisite. Dabei ist umstritten, ob Forschende sich für leicht nachweisbare Phänomene, sogenannte "niedrig hängende Äpfel" [@Baumeister.2020] konzentrieren sollten, ob es eine Grenze gibt, ab der Phänomene praktisch nicht erforschbar und damit nicht von Interesse sind [@primbs2023small], und welche praktische Relevanz sie haben [@anvari2021evaluating].
 
 ```{r}
-#| code-fold: true
+#| echo: false
 d <- 0.08 # Cohen's d = 0.08, 95% CI [0.01, 0.15], p. 45 hier: https://www.psychologie.uni-wuerzburg.de/fileadmin/06020231/pubs/eder/Vohs_et_al_-paradigmatic_depletion_MS_final.pdf
 n_per_cell <- power.t.test(n = NULL, delta = d, power = .95, type = "two.sample", alternative = "one.sided")$n
 n_minimum <- ceiling(n_per_cell*2)
@@ -383,4 +383,4 @@ Um klar anzugeben, wer was getan hat, können Forschende die Contributor Roles T
 
 -   Ein Leitfaden zu Open Source Software stellt Bitkom e.V. bereit: <https://www.bitkom.org/Bitkom/Publikationen/Open-Source-Leitfaden-Praxisempfehlungen-fuer-Open-Source-Software>
 
-### Literatur
+    ------------------------------------------------------------------------

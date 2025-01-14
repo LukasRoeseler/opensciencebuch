@@ -25,4 +25,4 @@ Viele wissenschaftliche Disziplinen haben sich in den letzten Jahren stark verä
 
 In diesem Buch werden niedrigschwellig der Begriff der Offenheit, die Ursprünge des Wandels, und die Open Science Bewegung erklärt. Es werden Hintergründe des wissenschaftlichen Systems, neu entwickelte Methoden, und Probleme amtierender Methoden erläutert. Dabei wird vorwiegend auf Beispiele und Entwicklungen aus der Psychologie zurückgegriffen.
 
-## Literatur
+------------------------------------------------------------------------

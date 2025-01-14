@@ -22,4 +22,4 @@ Ein Ansatz, bei dem verhindert werden soll, dass uninformative Studien durchgef√
 
 -   @Trafimow2016-ol beschreiben, wie Replikationen auch ohne Theorie m√∂glich sind.
 
-### Literatur
+    ------------------------------------------------------------------------

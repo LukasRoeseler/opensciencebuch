@@ -341,10 +341,7 @@ div.csl-indent {
   <li><a href="#darstellung-kalibrierter-modelle-als-geplante-modelle-overfitting" id="toc-darstellung-kalibrierter-modelle-als-geplante-modelle-overfitting" class="nav-link" data-scroll-target="#darstellung-kalibrierter-modelle-als-geplante-modelle-overfitting">Darstellung kalibrierter Modelle als geplante Modelle (<em>Overfitting</em>)</a></li>
   <li><a href="#tendenz-von-menschen-sich-selbst-zu-bestätigen-confirmation-bias" id="toc-tendenz-von-menschen-sich-selbst-zu-bestätigen-confirmation-bias" class="nav-link" data-scroll-target="#tendenz-von-menschen-sich-selbst-zu-bestätigen-confirmation-bias">Tendenz von Menschen, sich selbst zu bestätigen (<em>Confirmation Bias</em>)</a></li>
   <li><a href="#datenfälschung" id="toc-datenfälschung" class="nav-link" data-scroll-target="#datenfälschung">Datenfälschung</a></li>
-  <li><a href="#weiterführende-informationen" id="toc-weiterführende-informationen" class="nav-link" data-scroll-target="#weiterführende-informationen">Weiterführende Informationen</a>
-  <ul class="collapse">
-  <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur">Literatur</a></li>
-  </ul></li>
+  <li><a href="#weiterführende-informationen" id="toc-weiterführende-informationen" class="nav-link" data-scroll-target="#weiterführende-informationen">Weiterführende Informationen</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/LukasRoeseler/opensciencebuch/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></nav>
     </div>
@@ -438,27 +435,6 @@ Statistische Signifikanz
 <p>Vollständige Studien mehrfach durchzuführen ist sehr aufwändig. Obwohl es ein relativ sicherer Weg zu signifikanten p-Werten ist, gibt es weitaus sparsamere Lösungen. Die meisten Analysen sind um ein vielfaches komplexer als die oben beschriebene Münzwurfstudie. Betrachten wir den immer noch sehr einfachen Signifikanztest für einen Korrelationskoeffizienten. Der Koeffizient ist eine Zahl zwischen -1 und 1 und beschreibt die Art des Zusammenhanges zwischen zwei Variablen (z.B. Einkommen und Lebenszufriedenheit). 0 bedeutet, dass kein Zusammenhang vorliegt, positive Werte bedeuten, dass wenn die eine Variable hohe Werte hat, dann hat auch die andere hohe Werte, und negative Korrelationen bedeuten, dass wenn eine Variable hohe Werte hat, dann hat die andere Variable eher niedrige Werte. In Abbildung X sind verschiedene Korrelationen dargestellt.</p>
 <p><strong>Verschiedene Zusammenhänge zwischen zwei Variablen und deren Korrelationskoeffizienten (simulierte Daten).</strong></p>
 <div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">layout</span>(<span class="fu">matrix</span>(<span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">4</span>), <span class="at">nrow =</span> <span class="dv">2</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>)) </span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">42</span>)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">100</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>x1 <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n)</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>y1 <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n)</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>y2 <span class="ot">&lt;-</span> x1<span class="sc">+</span><span class="fu">rnorm</span>(n)</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>y3 <span class="ot">&lt;-</span> <span class="sc">-</span>x1<span class="sc">+</span><span class="fu">rnorm</span>(n)</span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>y4 <span class="ot">&lt;-</span> <span class="fu">abs</span>(x1<span class="sc">+</span><span class="fu">rnorm</span>(n))<span class="sc">^</span><span class="dv">2</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(x1, y1, <span class="at">main =</span> <span class="fu">paste</span>(<span class="st">"r = "</span>, <span class="fu">round</span>(<span class="fu">cor</span>(x1, y1), <span class="dv">2</span>), <span class="at">sep =</span> <span class="st">""</span>)</span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>     , <span class="at">xaxt =</span> <span class="st">'n'</span>, <span class="at">yaxt =</span> <span class="st">'n'</span>, <span class="at">xlab =</span> <span class="st">""</span>, <span class="at">ylab =</span> <span class="st">""</span>, <span class="at">pch =</span> <span class="dv">20</span>)</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(x1, y2, <span class="at">main =</span> <span class="fu">paste</span>(<span class="st">"r = "</span>, <span class="fu">round</span>(<span class="fu">cor</span>(x1, y2), <span class="dv">2</span>), <span class="at">sep =</span> <span class="st">""</span>)</span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>     , <span class="at">xaxt =</span> <span class="st">'n'</span>, <span class="at">yaxt =</span> <span class="st">'n'</span>, <span class="at">xlab =</span> <span class="st">""</span>, <span class="at">ylab =</span> <span class="st">""</span>, <span class="at">pch =</span> <span class="dv">20</span>)</span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(x1, y3, <span class="at">main =</span> <span class="fu">paste</span>(<span class="st">"r = "</span>, <span class="fu">round</span>(<span class="fu">cor</span>(x1, y3), <span class="dv">2</span>), <span class="at">sep =</span> <span class="st">""</span>)</span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>     , <span class="at">xaxt =</span> <span class="st">'n'</span>, <span class="at">yaxt =</span> <span class="st">'n'</span>, <span class="at">xlab =</span> <span class="st">""</span>, <span class="at">ylab =</span> <span class="st">""</span>, <span class="at">pch =</span> <span class="dv">20</span>)</span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(x1, y4, <span class="at">main =</span> <span class="fu">paste</span>(<span class="st">"r = "</span>, <span class="fu">round</span>(<span class="fu">cor</span>(x1, y4), <span class="dv">2</span>), <span class="at">sep =</span> <span class="st">""</span>)</span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>     , <span class="at">xaxt =</span> <span class="st">'n'</span>, <span class="at">yaxt =</span> <span class="st">'n'</span>, <span class="at">xlab =</span> <span class="st">""</span>, <span class="at">ylab =</span> <span class="st">""</span>, <span class="at">pch =</span> <span class="dv">20</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -466,10 +442,6 @@ Statistische Signifikanz
 </figure>
 </div>
 </div>
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">layout</span>(<span class="dv">1</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
 </div>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -506,27 +478,6 @@ Korrelation
 <p>Unter den QRPs (fragwürdigen Forschungspraktiken) ist p-Hacking eine weitere Kategorie, die wiederum selbst verschiedene Techniken beinhaltet. Mit p-Hacking ist gemeint, dass Forschende ihre Freiheitsgrade nutzen, um den p-Wert „signifikant zu machen”, also unter 5% zu bringen. Eine oft fälschlicherweise gemachte Annahme zu p-Werten ist, dass hohe p-Werte für die <em>Abwesenheit</em> eines Zusammenhanges sprächen, oder dass p-Werte nur dann niedrig sind, wenn tatsächlich ein Zusammenhang vorliegt. Stattdessen sind p-Werte tendenziell klein, wenn ein Zusammenhang vorliegt, der auch mit der Menge der erhobenen Daten nachgewiesen werden kann. Wenn kein Zusammenhang vorliegt, sind p-Werte gleichverteilt, das heißt, alle p-Werte kommen gleich häufig vor. Im Sinne der oben genannten Definition ist von vornherein klar, dass bei 100 durchgeführten Studien tendenziell fünf einen signifikanten Zusammenhang aufweisen, <em>wenn eigentlich keiner vorliegt</em>. Diese Tatsache erlaubt diverse p-Hacking-Methoden. Simonsohn et al.&nbsp;(2014) zeigten, dass die Wahrscheinlichkeit, ein signifikantes Ergebnis zu kriegen, wenn eigentlich kein Zusammenhang in den Daten herrscht, von 5% auf ca. 60% steigen kann. Abbildung X zeigt die Verteilung von p-Werten bei verschieden hoher Teststärke (bzw. Power: der Wahrscheinlichkeit, einen Zusammenhang einer bestimmten Größe zu finden, wenn es ihn tatsächlich gibt).</p>
 <p><em>p-Werte sind bei Abwesenheit von Unterschieden oder Zusammenhängen, also beim Gelten der Nullhypothese, gleichverteilt. Je höher die statistische Teststärke (Power) ist, desto weiter verschiebt sich die Verteilung in den Bereich statistischer Signifikanz.</em></p>
 <div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># P-Value distribution ---------------------------------------------------- </span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">layout</span>(<span class="fu">matrix</span>(<span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>), <span class="at">nrow =</span> <span class="dv">1</span>)) </span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>effects <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">0</span>, .<span class="dv">1</span>, .<span class="dv">3</span>) </span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> effects) { </span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  effect <span class="ot">&lt;-</span> i </span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  n <span class="ot">&lt;-</span> <span class="dv">100</span> </span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  pvalues <span class="ot">&lt;-</span> (<span class="fu">replicate</span>(<span class="dv">1000</span>, <span class="fu">t.test</span>(<span class="fu">rnorm</span>(<span class="dv">100</span>), <span class="fu">rnorm</span>(<span class="dv">100</span>, i))<span class="sc">$</span>p.value)) </span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  power <span class="ot">&lt;-</span> <span class="fu">round</span>(pwr<span class="sc">::</span><span class="fu">pwr.t.test</span>(<span class="at">n =</span> n, <span class="at">d =</span> i, <span class="at">power =</span> <span class="cn">NULL</span>, <span class="at">alternative =</span> <span class="st">"two.sided"</span>)<span class="sc">$</span>power, <span class="dv">3</span>) </span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">hist</span>(pvalues</span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>       , <span class="at">xlab =</span> <span class="st">"p-Werte"</span></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>       , <span class="at">ylab =</span> <span class="st">"Anzahl"</span></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>       , <span class="at">main =</span> <span class="fu">paste</span>(<span class="st">"Effektstärke d = "</span>, i, <span class="st">"</span><span class="sc">\n</span><span class="st">Power = "</span>, power, <span class="at">sep =</span> <span class="st">""</span>) </span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>       , <span class="at">xlim =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>)</span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>       , <span class="at">yaxt =</span> <span class="st">'n'</span>) </span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>  } </span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -534,10 +485,6 @@ Korrelation
 </figure>
 </div>
 </div>
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">layout</span>(<span class="dv">1</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
 </div>
 <p>Die Chance, signifikante p-Werte zu kriegen, ohne dass die getestete Hypothese überhaupt stimmt, lässt sich durch „zerschneiden” der Stichprobe erhöhen (z.B. werden nur Frauen, Berufstätige, oder Personen, die älter als 30 Jahre sind, analysiert), durch das Erheben zusätzlicher Daten („optional stopping”), oder durch die Verwendung mehrerer zentraler Variablen (zum Beispiel wird Intelligenz mit 3 verschiedenen Tests erfasst und alle Tests werden einzeln mit Alter korreliert). Selbst das verändern kleiner Parameter in den statistischen Tests (z.B. Verwendung einer nicht-parametrischen Spearman Korrelation statt der Bravais-Pearson-Korrelation) erhöhen die Chancen auf ein signifikantes Ergebnis (siehe Tabelle Y). Einige Formen des <em>p-Hacking</em> lassen sich zum Beispiel hier ausprobieren: <a href="https://shinyapps.org/apps/p-hacker/" class="uri">https://shinyapps.org/apps/p-Hacker/</a> <span class="citation" data-cites="Schonbrodt.2016">(<a href="#ref-Schonbrodt.2016" role="doc-biblioref">Schönbrodt 2016</a>)</span>. <span class="citation" data-cites="Wicherts2016-br">Wicherts u.&nbsp;a. (<a href="#ref-Wicherts2016-br" role="doc-biblioref">2016</a>)</span> schlagen eine Checkliste vor, um p-Hacking zu vermeiden.</p>
 <p><em>Wahrscheinlichkeit für ein signifikantes Ergebnis durch die Anwendung verschiedener p-Hacking-Techniken nach <span class="citation" data-cites="Simmons.2011">Simmons, Nelson, und Simonsohn (<a href="#ref-Simmons.2011" role="doc-biblioref">2011</a>)</span>, Tabelle 1. Der Anteil signifikanter Ergebnisse sollte hier den festgelegten 5% des Alpha-Fehlers entsprechen.</em></p>
@@ -594,35 +541,6 @@ Daten fälschen für Dummys
 <p>Im Rahmen der Planung einer sozialwissenschaftlichen Studie stellt sich oft die Frage, wie ein bestimmtes Konstrukt gemessen werden soll. Für Intelligenz, politischer Ansicht, Lebenszufriedenheit, und viele andere Variablen gibt es nicht <em>den</em> Test sondern viele Messinstrumente, die teilweise gering miteinander zusammenhängen. Gleichzeitig sind die zu testenden Theorien meist vage und diktieren nicht, mit welchem Maß ein Konstrukt gemessen werden sollte. Theorien sind den Messmethoden gegenüber also oft agnostisch, oder anders gesagt: Laut der Theorie ist es unerheblich, wie die Variable gemessen wird. Werden in einer Studie dann verschiedene Messmethoden für ein Konstrukt gewählt, müsste die Theorie über alle Tests gleichermaßen bestätigt werden. Falls das nicht der Fall ist, sollte die Theorie angepasst werden. Entgegen dieser Empfehlung und um die Chance der Publikation der Ergebnisse zu maximieren, berichten Forschende Ergebnisse oft <em>selektiv</em>. Statt aller Ergebnisse werden also nur die „passendsten” oder „spannendsten” berichtet. Wie oben im Thema p-Hacking und Freiheitsgrade von Forschenden klar geworden ist, führt das dazu, dass Zusammenhänge gefunden werden, die eigentlich nicht existieren. Werden zum Beispiel drei verschiedene und unabhängige Maße zum Testen einer Hypothese verwendet, steigt Wahrscheinlichkeit für mindestens ein signifikantes Ergebnis von 5% auf 14%.</p>
 <p>Selektives Berichten: Von den hundert Korrelationen mit unzusammenhängenden Zufallszahlen sind im Mittel fünf signifikante zu erwarten - und das <em>rein zufällig</em>. Alle gemeinsam sind nicht signifikant. Um bessere Chancen auf eine Veröffentlichung und damit auf eine unbefristete Stelle zu ergattern, berichten Forschende häufig nur den spannendsten Teil der Ergebnisse und verzerren damit das Bild.</p>
 <div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co"># mean(replicate(1000, mean(replicate(6, cor.test(rnorm(50), rnorm(50))$p.value) &lt; .05) &gt; 0)) # 26.7%</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1</span>)</span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="dv">100</span></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>ncors <span class="ot">&lt;-</span> <span class="dv">100</span></span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>cors <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(    <span class="st">"r"</span> <span class="ot">=</span> <span class="cn">NULL</span></span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>                   , <span class="st">"lcl"</span> <span class="ot">=</span> <span class="cn">NULL</span></span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>                   , <span class="st">"ucl"</span> <span class="ot">=</span> <span class="cn">NULL</span>)</span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span>ncors) {</span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a> cortest_temp <span class="ot">&lt;-</span> <span class="fu">cor.test</span>(<span class="fu">rnorm</span>(n), <span class="fu">rnorm</span>(n))</span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a> r_temp <span class="ot">&lt;-</span> cortest_temp<span class="sc">$</span>estimate</span>
-<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a> lcl_temp <span class="ot">&lt;-</span> cortest_temp<span class="sc">$</span>conf.int[<span class="dv">1</span>]</span>
-<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a> ucl_temp <span class="ot">&lt;-</span> cortest_temp<span class="sc">$</span>conf.int[<span class="dv">2</span>]</span>
-<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a> cors <span class="ot">&lt;-</span> <span class="fu">rbind</span>(cors, <span class="fu">c</span>(r_temp, lcl_temp, ucl_temp))</span>
-<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a> <span class="co"># rm(c(r_temp, lcl_temp, ucl_temp))</span></span>
-<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(cors) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"r"</span>, <span class="st">"lcl"</span>, <span class="st">"ucl"</span>)</span>
-<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>cors<span class="sc">$</span>signifikant <span class="ot">&lt;-</span> <span class="fu">ifelse</span>(cors<span class="sc">$</span>ucl <span class="sc">&lt;</span> <span class="dv">0</span> <span class="sc">|</span> cors<span class="sc">$</span>lcl <span class="sc">&gt;</span> <span class="dv">0</span>, <span class="st">"Ja"</span>, <span class="st">"Nein"</span>)</span>
-<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(cors, <span class="fu">aes</span>(<span class="at">x =</span> r, <span class="at">y =</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">nrow</span>(cors), <span class="at">col =</span> signifikant)) <span class="sc">+</span> <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_errorbar</span>(<span class="fu">aes</span>(<span class="at">xmin =</span> lcl, <span class="at">xmax =</span> ucl)) <span class="sc">+</span></span>
-<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>() <span class="sc">+</span></span>
-<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> <span class="dv">0</span>, <span class="at">lty =</span> <span class="dv">2</span>, <span class="at">col =</span> <span class="st">"red"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -638,34 +556,6 @@ Daten fälschen für Dummys
 <p><strong>Abbildung P</strong></p>
 <p><em>Konvergenz von p-Werten und Effektstärken je nach Effektgröße: Effektstärken (hier: Korrelationskoeffizienten) konvergieren bei großen Stichproben: p-Werte konvergieren nur, wenn die Korrelation nicht 0 ist.</em></p>
 <div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># P-Value Convergence ----------------------------------------------------- </span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>imax <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">5</span>, <span class="dv">1000</span>, <span class="dv">10</span>) </span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>p0 <span class="ot">&lt;-</span> <span class="cn">NULL</span> </span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>p1 <span class="ot">&lt;-</span> <span class="cn">NULL</span> </span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>p2 <span class="ot">&lt;-</span> <span class="cn">NULL</span> </span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> imax) { </span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">set.seed</span>(<span class="dv">42</span>) </span>
-<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>  ds0 <span class="ot">&lt;-</span> MASS<span class="sc">::</span><span class="fu">mvrnorm</span>(<span class="at">n =</span> i, <span class="at">mu =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">0</span>), <span class="at">Sigma =</span> <span class="fu">matrix</span>(<span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>), <span class="at">nrow =</span> <span class="dv">2</span>)) </span>
-<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>  ds1 <span class="ot">&lt;-</span> MASS<span class="sc">::</span><span class="fu">mvrnorm</span>(<span class="at">n =</span> i, <span class="at">mu =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">0</span>), <span class="at">Sigma =</span> <span class="fu">matrix</span>(<span class="fu">c</span>(<span class="dv">1</span>, .<span class="dv">05</span>, .<span class="dv">05</span>, <span class="dv">1</span>), <span class="at">nrow =</span> <span class="dv">2</span>)) </span>
-<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>  ds2 <span class="ot">&lt;-</span> MASS<span class="sc">::</span><span class="fu">mvrnorm</span>(<span class="at">n =</span> i, <span class="at">mu =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">0</span>), <span class="at">Sigma =</span> <span class="fu">matrix</span>(<span class="fu">c</span>(<span class="dv">1</span>, .<span class="dv">1</span>, .<span class="dv">1</span>, <span class="dv">1</span>), <span class="at">nrow =</span> <span class="dv">2</span>)) </span>
-<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>  p0 <span class="ot">&lt;-</span> <span class="fu">c</span>(p0, <span class="fu">cor.test</span>(ds0[, <span class="dv">1</span>], ds0[, <span class="dv">2</span>])<span class="sc">$</span>p.value) </span>
-<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>  p1 <span class="ot">&lt;-</span> <span class="fu">c</span>(p1, <span class="fu">cor.test</span>(ds1[, <span class="dv">1</span>], ds1[, <span class="dv">2</span>])<span class="sc">$</span>p.value) </span>
-<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>  p2 <span class="ot">&lt;-</span> <span class="fu">c</span>(p2, <span class="fu">cor.test</span>(ds2[, <span class="dv">1</span>], ds2[, <span class="dv">2</span>])<span class="sc">$</span>p.value) </span>
-<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>} </span>
-<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>( <span class="at">y =</span> p0, <span class="at">x =</span> imax, <span class="at">type =</span> <span class="st">"l"</span>, <span class="at">col =</span> <span class="st">"grey"</span>, <span class="at">xlab =</span> <span class="st">"Stichprobengröße (Anzahl der Beobachtungen)"</span>, <span class="at">ylab =</span> <span class="st">"p-Wert"</span>) </span>
-<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a><span class="fu">lines</span>(<span class="at">y =</span> p1, <span class="at">x =</span> imax, <span class="at">col =</span> <span class="st">"orange"</span>) </span>
-<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a><span class="fu">lines</span>(<span class="at">y =</span> p2, <span class="at">x =</span> imax, <span class="at">col =</span> <span class="st">"red"</span>) </span>
-<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">h =</span> .<span class="dv">05</span>, <span class="at">lty =</span> <span class="dv">2</span>)</span>
-<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a><span class="fu">legend</span>(<span class="st">"topright"</span>, <span class="fu">c</span>(<span class="st">"r = 0"</span>, <span class="st">"r = .05"</span>, <span class="st">"r = .1"</span>), <span class="at">col =</span> <span class="fu">c</span>(<span class="st">"grey"</span>, <span class="st">"orange"</span>, <span class="st">"red"</span>), <span class="at">lty =</span> <span class="dv">1</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -696,8 +586,7 @@ Daten fälschen für Dummys
 <li>Wie sich die Replikationskrise aus Perspektive eines jungen Forschers angefühlt hat beschreibt Daniel Lakens: <a href="http://daniellakens.blogspot.com/2020/11/why-i-care-about-replication-studies.html" class="uri">http://daniellakens.blogspot.com/2020/11/why-i-care-about-replication-studies.html</a></li>
 <li><span class="citation" data-cites="nagy2024bestiary">Nagy u.&nbsp;a. (<a href="#ref-nagy2024bestiary" role="doc-biblioref">2024</a>)</span> listen fragwürdige Forschungspraktiken (QRP) systematisch in ihrem <em>Bestarium</em> auf.</li>
 </ul>
-<section id="literatur" class="level3">
-<h3 class="anchored" data-anchor-id="literatur">Literatur</h3>
+<hr>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
@@ -804,7 +693,6 @@ Wicherts, Jelte M, Coosje L S Veldkamp, Hilde E M Augusteijn, Marjan Bakker, Rob
 Yu, Erica C., Amber M. Sprenger, Rick P. Thomas, und Michael R. Dougherty. 2014. <span>„When decision heuristics and science collide“</span>. <em>Psychonomic Bulletin <span>&amp;</span> Review</em> 21 (2): 268–82. <a href="https://doi.org/10.3758/s13423-013-0495-z">https://doi.org/10.3758/s13423-013-0495-z</a>.
 </div>
 </div>
-</section>
 </section>
 <section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr>

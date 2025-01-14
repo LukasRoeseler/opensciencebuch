@@ -12,4 +12,4 @@ Im Rahmen dieses Buches wird die Open Science-Bewegung also als eine Reaktion au
 
 -   Die Geschichte der Replikationskrise beschreiben @Nelson.2018 und @Schimmack.2020. Eine positive Perspektive nehmen @Korbmacher.2023 ein.
 
-## Literatur
+------------------------------------------------------------------------

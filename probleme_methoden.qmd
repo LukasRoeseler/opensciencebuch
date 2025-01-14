@@ -58,7 +58,7 @@ Vollständige Studien mehrfach durchzuführen ist sehr aufwändig. Obwohl es ein
 **Verschiedene Zusammenhänge zwischen zwei Variablen und deren Korrelationskoeffizienten (simulierte Daten).**
 
 ```{r}
-#| code-fold: true
+#| echo: false
 
 layout(matrix(c(1, 1, 2, 2, 3, 3, 4, 4), nrow = 2, byrow = TRUE)) 
 set.seed(42)
@@ -116,7 +116,7 @@ Unter den QRPs (fragwürdigen Forschungspraktiken) ist p-Hacking eine weitere Ka
 *p-Werte sind bei Abwesenheit von Unterschieden oder Zusammenhängen, also beim Gelten der Nullhypothese, gleichverteilt. Je höher die statistische Teststärke (Power) ist, desto weiter verschiebt sich die Verteilung in den Bereich statistischer Signifikanz.*
 
 ```{r}
-#| code-fold: true
+#| echo: false
 # P-Value distribution ---------------------------------------------------- 
 layout(matrix(c(1,2,3), nrow = 1)) 
 
@@ -144,7 +144,7 @@ Die Chance, signifikante p-Werte zu kriegen, ohne dass die getestete Hypothese �
 *Wahrscheinlichkeit für ein signifikantes Ergebnis durch die Anwendung verschiedener p-Hacking-Techniken nach @Simmons.2011, Tabelle 1. Der Anteil signifikanter Ergebnisse sollte hier den festgelegten 5% des Alpha-Fehlers entsprechen.*
 
 | Technik | Anteil signifikanter Ergebnisse |
-|----|----|
+|------------------------------------|------------------------------------|
 | Mehrere abhängige Variablen, deren Korrelation r = .5 ist | 9,5% |
 | 10 weitere Beobachtungen je Gruppe erheben | 7,7% |
 | Eine weitere Variable (z.B. Geschlecht) mit in das Modell aufnehmen | 11,7% |
@@ -164,7 +164,7 @@ Im Rahmen der Planung einer sozialwissenschaftlichen Studie stellt sich oft die 
 Selektives Berichten: Von den hundert Korrelationen mit unzusammenhängenden Zufallszahlen sind im Mittel fünf signifikante zu erwarten - und das *rein zufällig*. Alle gemeinsam sind nicht signifikant. Um bessere Chancen auf eine Veröffentlichung und damit auf eine unbefristete Stelle zu ergattern, berichten Forschende häufig nur den spannendsten Teil der Ergebnisse und verzerren damit das Bild.
 
 ```{r}
-#| code-fold: true
+#| echo: false
 library(ggplot2)
 # mean(replicate(1000, mean(replicate(6, cor.test(rnorm(50), rnorm(50))$p.value) < .05) > 0)) # 26.7%
 set.seed(1)
@@ -203,7 +203,7 @@ Führt man bei der Durchführung einer Studie nach jeder Beobachtung den Test er
 *Konvergenz von p-Werten und Effektstärken je nach Effektgröße: Effektstärken (hier: Korrelationskoeffizienten) konvergieren bei großen Stichproben: p-Werte konvergieren nur, wenn die Korrelation nicht 0 ist.*
 
 ```{r}
-#| code-fold: true
+#| echo: false
 
 # P-Value Convergence ----------------------------------------------------- 
 imax <- seq(5, 1000, 10) 
@@ -254,4 +254,4 @@ Sehr düster ist dabei die Tatsache, dass Methoden zur Datenfälschung einerseit
 -   Wie sich die Replikationskrise aus Perspektive eines jungen Forschers angefühlt hat beschreibt Daniel Lakens: <http://daniellakens.blogspot.com/2020/11/why-i-care-about-replication-studies.html>
 -   @nagy2024bestiary listen fragwürdige Forschungspraktiken (QRP) systematisch in ihrem *Bestarium* auf.
 
-### Literatur
+------------------------------------------------------------------------

@@ -22,4 +22,4 @@ Wie stark sich Phänomene durch vermeintlich kleinere Unterschiede im Versuchsau
 
 -   @shiffrin2018scientific diskutiert das scheinbare Paradox zwischen Fallibilität, also der Tatsache, dass Wissenschaft nicht immer richtig liegt, und wissenschaftlichem Fortschritt.
 
-### Literatur
+    ------------------------------------------------------------------------

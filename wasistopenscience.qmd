@@ -14,4 +14,4 @@ Insgesamt wird Open Science als Lösung für zahlreiche aktuelle, meist zusammen
 
 ![Facetten von Open Science](images/facetten.jpg)
 
-## Literatur
+------------------------------------------------------------------------
