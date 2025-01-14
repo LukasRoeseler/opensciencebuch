@@ -81,7 +81,7 @@ Um zu prüfen, ob die Urteile im Begutachtungsprozess zwischen den Urteilenden �
 Seit der Auseinandersetzung Forschender mit dem Begutachtungssystem wird darüber hinaus diskutiert, was mit Gutachten passiert: Traditionell bleiben sie unter Verschluss. In der Fachzeitschrift erscheint der finale Artikel und alle vorherigen Versionen sind nur Autor\*innen, Herausgeber\**in,* und Gutachter\*innen bekannt. Diese bleiben zudem meistens anonym, das heißt, wenn sie sich keine Mühe gegeben haben, wird es wahrscheinlich nie auffallen. Außerdem haben Forschende keinen Anreiz, Gutachten zu verfassen - höchstens erhalten sie einen Nachweis, dass sie ein Manuskript bei einer Zeitschrift begutachtet haben. Einige Zeitschriften haben inzwischen das *Open Peer Review* eingeführt. Der Name passt nur halb, denn veröffentlicht werden Gutachten nur dann, wenn der Artikel bei der Zeitschrift akzeptiert wird. Das birgt die Gefahr, dass schwerwiegende Probleme, welche für eine Ablehnung üblicherweise nötig sind, nicht ans Licht kommen. Forschende können den Artikel dann ohne Überarbeitung bei einer anderen Zeitschrift einreichen, wo die Probleme vielleicht nicht entdeckt werden. Dieses Vorgehen führt zu Doppelarbeit und enormen Kosten [@aczel2021billion]. Zoltan Kekecs merkte dazu bei einer Diskussion im Rahmen einer Konferenz an, dass selbst Kasinos, die in Konkurrenz zueinander stehen, Listen von Betrüger\*innen miteinander austauschen. Herausgeber\*innen von Zeitschriften tun das noch nicht. Ein Modell, bei dem alle Bewertungen veröffentlicht werden, bietet Unjournal (<https://unjournal.pubpub.org>).
 
 | Gutachten bleiben unter Verschluss | Gutachten werden bei Publikation veröffentlicht | Gutachten werden bei Publikation und Ablehnung veröffentlicht |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Es ist kein Nachweis der Qualitätskontrolle möglich. | Abgelehnte Artikel können bei anderen Zeitschriften ohne Überarbeitung eingereicht werden und führen zu Mehraufwand. | Qualitätskontrolle ist nachvollziehbar und transparent. |
 
 Umstrittener als die Veröffentlichung von Gutachten ist die Anonymität der Gutachter\*innen: Der Standard ist, dass Gutachten anonym sind, aber bei Wunsch unterzeichnet werden können. Promovierende, die einen Artikel eines potenziellen zukünftigen Chefs oder einer zukünftigen Chefin schlecht beurteilen, werden dadurch geschützt. Selbst Professor\*innen können bei negativen Beurteilungen riskieren, dass der oder die Kolleg\*in später einen Forschungsgelderantrag von ihnen begutachtet und sich für die Kritik rächt. Auf der anderen Seite kann Anonymität zur Folge haben, dass Kritik gegen die Person gerichtet ist und nicht konstruktiv ist.
@@ -157,7 +157,7 @@ Dieses Buch wurde vollständig mittels kostenloser Software verfasst (GNU R, RSt
 :::
 
 | Service | Zweck | Anbieter |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Literaturdatenbank | Verwalten und Durchsuchen von Literatur | OpenAlex |
 | Datenrepositorium | Veröffentlichung von Forschungsdaten | re3data.org, osf.io, researchbox.org, zenodo.org |
 | Pre-Print Server | Veröffentlichung von Forschungsartikeln | arXiv.org |
@@ -172,7 +172,7 @@ Dieses Buch wurde vollständig mittels kostenloser Software verfasst (GNU R, RSt
 Um den Zugang zu wissenschaftlichem Wissen zu erhöhen, wird mehr und mehr Forschung als "Open Access" (offener Zugang) veröffentlicht. Spezifisch kann das auf vielen verschiedenen Wegen geschehen: Personen können Artikel in nicht-kommerziellen Zeitschriften veröffentlichen (für eine Sammlung an über 20.000 Zeitschriften siehe z.B. https://doaj.org), manche kommerzielle Zeitschriften machen Artikel nach Ablauf einer bestimmten Zeit frei verfügbar, oder sie können Geld bezahlen, damit der Artikel öffentlich zugänglich in einer traditionellen Fachzeitschrift erscheint. Dabei können sich die Kosten auf Werte zwischen ein paar hunderten Euro bis zu 9.000€ bei "angesehenen Zeitschriften" belaufen. Die Gelder dafür stammen meistens aus den Mitteln von Universitäten (z.B. Open Access Funds, die von der Deutschen Forschungsgemeinschaft \[DFG\] mit Steuergeldern bezuschusst oder übernommen werden) oder aus Projektmitteln, das heißt, dass bei der Beantragung von Geldern für das Projekt auch Gelder mit beantragt wurden, um die Kosten für Open Access Publikationen zu bezahlen. Während Open Access ursprünglich explizit nicht dieses Bezahlmodell meint, haben es Zeitschriften inzwischen "rekommerzialisiert" [@Morgan2024-lx], sich also zu Nutzen gemacht. In der Open-Access-Strategie der Hochschulen des Landes Nordrhein-Westfalen [@Openness2023-yk] werden die Typen übersichtlich aufgelistet. Neben Open Access bei der Erstveröffentlichung haben Forschende im Sinne von "Green Open Access" üblicherweise das Recht, die von ihnen verfassten Artikeln auf ihrer eigenen Website, denen ihrer Institution, oder auf fachlichen Repositorien hochzuladen. @Zumstein2023-kn empfiehlt beispielsweise, bei Zeitschriften mit Abo-Modell ("Subskriptionsmodell") nicht die Open Access Option dazuzukaufen, da es nicht nachhaltig ist und stattdessen die Zweitveröffentlichung offen zu machen.
 
 | Typ | Regelung |
-|------------------------------------|------------------------------------|
+|----|----|
 | Diamond | Alle Publikationen sind sofort und kostenlos verfügbar und es fallen keine Publikationsgebühren an |
 | Gold | Alle Publikationen sind sofort und kostenlos verfügbar, Autor\*innen bezahlen Geld je Publikation |
 | Hybrid | Die Zeitschrift hat ein Abo-Modell. Einzelne Artikel werden gegen eine Gebühr öffentlich gemacht. |
@@ -256,7 +256,7 @@ Je nach Fach haben unterschiedlich viele Zeitschriften mit PCI Initiativen Verei
 *Zusammenfassung der verschiedenen Begutachtungsmodelle und der jeweiligen Art des Umgangs mit den Forschungsergebnissen*
 
 |  |  |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Begutachtungsprozedur** | **Ausblendung der Ergebnisse** |
 | Traditionell | Ergebnisse sind sichtbar und fließen in die Beurteilung ein |
 | Results-Blind Peer Review | Ergebnisse liegen vor, werden den Begutachtenden jedoch vorenthalten |
@@ -322,7 +322,7 @@ Anders als in manchen Beispielen, muss die Bedingung nicht immer vor dem Ereigni
 Trotz starker Bemühungen sind Replikationsstudien immer noch relativ selten. Schätzungen reichen von 5% bis unter 0.1% je nach Forschungsdisziplin. Eigenen Angaben zufolge, haben die meisten Forschenden zwar mal eine Replikation durchgeführt, konnten aber die Originalbefunde nicht bestätigen [@Baker2016-nm]. Ein Großteil der Befunde aus der folgenden Tabelle stammen aus einem [Tweet von Gilad Feldman](https://x.com/giladfeldman/status/1735950123291779119).
 
 | Disziplin | Quelle | Befund |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Wirtschaftswissenschaften | @ankel2023economists | Je nach Zeitschrift ist der Anteil an Replikationen und Reproduktionen zwischen 0 und 11%. |
 | Wirtschaftswissenschaften | @mueller2019replication | 0,1% der Publizierten Studien sind Replikationen. |
 | Experimentelle Linguistik | @kobrock2023assessing | Weniger als 0,001% der Studien beinhalten Replikationen. |
@@ -349,7 +349,7 @@ In den Wirtschaftswissenschaften hat sich das Insitute for Replications (I4R, <h
 Während ein Großteil der Replikationsstudien klassischen Studien entspricht, haben sich Spezialmodelle entwickelt. Beispielsweise können Forschende mit StudySwap Gruppen suchen, die ihre Ergebnisse vor der Veröffentlichung replizieren [@Lakens.2023; p. 11]. Im Rahmen von Registered Replication Reports konzentrieren sich große Teams an mehreren Orten auf eine zuvor abgestimmte Studie und führen sie gleichzeitig überall durch. Einer der fruchtbarsten Ansätze ist die Nutzung von Abschlussarbeiten für Replikationen. Im Rahmen eines Studiums müssen alle Studierende eine Abschlussarbeit (z.B. Bachelorarbeit oder Masterarbeit) ablegen. Anhand von Replikationen können sie lernen, eine wichtige Studie nachzubilden und prüfen gleichzeitig die Robustheit der Originalbefunde. Während @Quintana2021-dp vorschlug, Abschlussarbeiten so zu verwenden, ist es bereits gängige Praxis in den vergleichenden Politikwissenschaften [@korell2023student], in der Psychologie [@Jekel.2020; @Feldman.2021; @Boyce.2023; @wagge2019publishing], und in den Wirtschaftswissenschaften (<https://home.uni-leipzig.de/lerep/>). Am Wissenschaftszentrum Berlin für Sozialforschung (https://www.wzb.eu/de/forschung/markt-und-entscheidung/verhalten-auf-maerkten/labsquare) und beim Sports Science Replication Center (https://ssreplicationcentre.com) starteten 2024 ebenfalls Replikationsreihen.
 
 | Typ | Erklärung | Beispiel |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Registered Replication Report | Forschende an vielen verschiedenen Orten führen dieselbe Replikationsstudie durch [@Simons.2014b]. | @Cheung.2016 |
 | Internal Replication | Eine Forschungsgruppe berichtet in einem Forschungsartikel eine *eigene* Replikation einer ihrer Studien. | @ongchoco2023visual |
 | Close Replication | Eine Orginalstudie soll möglichst ähnlich von anderen Forschenden durchgeführt werden. | @Xiao.2021 |
@@ -404,7 +404,7 @@ In anderen Fächern besteht keine Pflicht zur Durchführung von Studien, sodass 
 Themenspezifisch haben sich vor allem in der Psychologie Datenbanken etabliert, die alle Studien zu einem Thema zusammenfassen, mittels derer sich Studien durchsuchen und manchmal sogar statistisch zusammenfassen lassen. Solche Zusammenfassungen sind häufig Meta-Analysen (Studien über Studien bzw. Analysen von vielen Studienergebnissen) und mithilfe der Datenbanken sind sie dynamisch, es lassen sich also Studien filtern, Datenbanken wachsen über die Zeit, und Benutzer\*innen können die Analysen selbst bestimmen. Durch die zentrale Rolle von statistischen Ergebnissen sind sie vielversprechend in Bezug auf kumulative Wissenschaft, das heißt, sie erleichtern es Forschenden, aufeinander aufzubauen. Neben den Themen und Funktionen unterscheiden sich die Datenbanken außerdem darin, wie sie Ergebnisse sammeln. Manche stammen von einzelnen Forschenden und andere sind durch "Crowd Sourcing" entstanden, das heißt, eine Gruppe stellt die Infrastruktur der Datenbank bereit und andere Forschende senden ihre Daten dort hin. Das hat den Vorteil, dass die Arbeit geteilt wird und die Beitragenden ihre Daten durch die Veröffentlichung in der Datenbank sichtbarer machen. In der folgenden Tabelle sind einige themenspezifische Datenbanken aufgelistet.
 
 |  |  |  |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Name** | **Link** | **Topics** |
 | MetaLab | [langcog.github.io/metalab](https://langcog.github.io/metalab) | Sprachentwicklung, kognitive Entwicklung |
 | metaBUS | [metabus.org](http://metabus.org/) | Sozialwissenschaften |
