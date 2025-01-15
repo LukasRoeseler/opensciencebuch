@@ -7,15 +7,12 @@ book:
   title: "Open Science: Wie sich die Wissenschaft öffnet"
   language: de-DE
   author: "Lukas Röseler"
-  cover-image: cover.jpg
-  cover-image-alt: |
-    A picture of clouds from above with a break in the middle.
   description: "Vertrauenskrise, Replikationsrevolution, und Open Science einfach und umfangreich erklärt"
   reader-mode: true
 
   page-footer:
     left: |
-       Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0.1th ed.). https://doi.org/10.17605/OSF.IO/2QXWV
+       Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0.2th ed.). https://doi.org/10.17605/OSF.IO/2QXWV
     right: |
       Mithilfe von <a href="https://quarto.org/">Quarto</a> erstellt. Lizenz: CC-By Attribution 4.0 International.
   favicon: images/favicon_os.jpg
@@ -57,8 +54,8 @@ book:
         - lösungen_welt.qmd
         
     - part: fazit.qmd
-        
-  downloads: [pdf, epub]
+  
+  downloads: [pdf]
         
 
 format:
@@ -66,17 +63,12 @@ format:
     theme:
       - cosmo
     code-link: true
-
     author-meta: "Lukas Röseler"
-    cover-image: cover.jpg
     callout-appearance: simple
     css: styles.css
     number-sections: false
-    
   pdf:
     documentclass: scrreprt
-    cover-image: cover.jpg
-  epub:
     cover-image: cover.jpg
 
 editor: visual

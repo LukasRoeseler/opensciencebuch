@@ -1,12 +1,10 @@
 ---
-title: "Einleitung"
+title: "Einleitung: Nachvollziehbare Wissenschaft"
 editor: visual
 format: html
 bibliography: references.bib
 bibliographystyle: apa
 ---
-
-# Nachvollziehbare Wissenschaft
 
 Beginnen wir mit einem hypothetischen Beispiel: In Deutschland [könnte](https://www.tagesschau.de/inland/innenpolitik/organspende-gesetz-100.html) der Standard zur Organspende verändert werden. Momentan ist niemand Organspender\*in, solange er oder sie der Organspände nicht ausdrücklich *zustimmt* (zum Beispiel durch Bestellen eines [Organspendeausweises](www.organspende-info.de/organspendeausweis-download-und-bestellen/)). Im Vorschlag des neuen Systems könnten auch nach der Veränderung alle weiterhin frei entscheiden, ob sie ihre Organe spenden möchten oder nicht. Wie in Österreich wäre die Alternative eine *Widerspruchslösung*, das heißt, alle Personen sind per se Organspender und müssen diesem Status aktiv *widersprechen*.
 

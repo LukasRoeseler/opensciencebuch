@@ -6,9 +6,7 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
-# Probleme, die im Rahmen der Revolution identifiziert wurden
-
-Im folgenden werden zahlreiche Probleme des Wissenschaftssystems erklärt und aufgelistet. Manche der Probleme sind seit vielen Jahrzehnten bekannt und andere erst seit wenigen Jahren. Es sei bei der Lektüre zu beachten, dass es zu *allen* diesen Problemen bereits ausgearbeitete und teilweise auch ausgeführte Lösungsansätze gibt. Wie die Lösungsansätze aussehen und welche Lösungen auf welche Probleme zugeschnitten sind, wird ausführlich im Kapitel *Lösungen* erläutert.
+Im folgenden werden zahlreiche Probleme des Wissenschaftssystems erklärt und aufgelistet, die Forschende bei der Auseinandersetzung mit der Wissenschaft identifiziert haben. Manche der Probleme sind seit vielen Jahrzehnten bekannt und andere erst seit wenigen Jahren. Es sei bei der Lektüre zu beachten, dass es zu *allen* diesen Problemen bereits ausgearbeitete und teilweise auch ausgeführte Lösungsansätze gibt. Wie die Lösungsansätze aussehen und welche Lösungen auf welche Probleme zugeschnitten sind, wird ausführlich im Kapitel *Lösungen* erläutert.
 
 Probleme und Lösungen sind jeweils nach verschiedenen Ebenen aufgeteilt, die in der folgenden Tabelle dargestellt sind.
 
