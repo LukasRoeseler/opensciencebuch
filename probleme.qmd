@@ -11,7 +11,7 @@ Im folgenden werden zahlreiche Probleme des Wissenschaftssystems erklärt und au
 Probleme und Lösungen sind jeweils nach verschiedenen Ebenen aufgeteilt, die in der folgenden Tabelle dargestellt sind.
 
 | Ebene | Erklärung |
-|------------------------------------|------------------------------------|
+|----|----|
 | System | Damit Menschen in einer Gesellschaft Wissenschaft als Beruf ausüben können, braucht es ein Gerüst, mittels welchem die Tätigkeit organisiert wird. Dazu gehört beispielsweise die im Grundgesetz verankerte Wissenschaftsfreiheit, die Finanzierung von Forschung aus Steuergeldern, Universitäten, Studiengänge, die Verknüpfung von Forschung und Lehre, aber auch wissenschaftliche Zeitschriften und Bücher. |
 | Methode | Wie Wissenschaftler\*innen zu Wissen gelangen, wird in der jeweiligen Methode beschrieben. Methoden sind Werkzeuge, die an die vorliegenden Probleme angepasst sind, sich über die Zeit verändern, und für sich genommen nicht gut oder schlecht sind. Beispiele für Methoden sind Teleskope, Röntgengeräte, Fragebögen, aber auch Computermodelle, Algorithmen, und statistische oder mathematische Modelle. |
 | Theorie | Unter einer wissenschaftlichen Theorie versteht man eine begründete Vermutung über die Funktionsweise eines bestimmten Zusammenhanges oder Gegenstandes. Begründet heißt, dass Theorien nur solange verwendet werden, wie sie mit den Beobachtungen übereinstimmen (bzw. solange es keine bessere Erklärung dafür gibt). Sie sind also nie endgültig. Beispiele für Theorien sind die Evolutionstheorie über die Angepasstheit von Organismen an ihre Umwelt oder die Dissonanztheorie aus der Psychologie. |
