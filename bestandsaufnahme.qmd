@@ -18,55 +18,32 @@ Zahlreiche Verbünde folgten. Einige Projekte konzentrierten sich auf einzelne P
 
 **Liste großer Replikationsprojekte (siehe auch [FORRT Replication Hub](https://forrt.org/replication-hub/))**
 
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| **Projekt**                         | **Thema**                                       | **Link**                                                                                            |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Reproducibility Project: Psychology | Psychologie                                     | <https://osf.io/ezcuj/>                                                                             |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| CORE                                | Entscheidungsforschung                          | <https://osf.io/5z4a8/>                                                                             |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Data Replicada                      | Konsumentenverhalten und Entscheidungsforschung | <https://datacolada.org/archives/category/replication>                                              |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Many Labs 1                         | Psychologie                                     | <https://osf.io/wx7ck/>                                                                             |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Many Labs 2                         | Psychologie                                     | <https://osf.io/8cd4r/>                                                                             |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Many Labs 3                         | Psychologie                                     | <https://osf.io/ct89g/>                                                                             |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Many Labs 4                         | Psychologie                                     | <https://osf.io/8ccnw/>                                                                             |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Many Labs 5                         | Psychologie                                     | <https://osf.io/7a6rd/>                                                                             |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Soto                                | Persönlichkeitspsychologie                      | <https://doi.org/10.1177/0956797619831612>                                                          |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Social Sciences Replication Project | Verhaltensforschung                             | [http://www.socialsciencesreplicationproject.com](http://www.socialsciencesreplicationproject.com/) |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Registered Replication Reports      | Verschiedene                                    | --                                                                                                  |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Many Babies 1                       | Entwicklungspsychologie                         | [https://manybabies.org](https://manybabies.org/)                                                   |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Sports Sciences Replications        | Sportwissenschaften                             | [https://ssreplicationcentre.com](https://ssreplicationcentre.com/)                                 |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Hagen Cumulative Science Project    | Psychologie                                     | <https://osf.io/d7za8/>                                                                             |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| I4R Replications                    | Politikwissenschaften                           | <https://i4replication.org/reports.html>                                                            |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Experimental Philosophy             | Experimentelle Philosophie                      | h[ttps://doi.org/10.1007/s13164-018-0400-9](https://doi.org/10.1007/s13164-018-0400-9)              |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Reproducibility Project: Cancer     | Krebsforschung (Medizin)                        | <https://www.cos.io/rpcb>                                                                           |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| SCORE                               | Sozialwissenschaften                            | <https://www.cos.io/score>                                                                          |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| REPEAT                              | Gesundheitssystem                               | [https://www.repeatinitiative.org](https://www.repeatinitiative.org/)                               |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| CREP                                | Psychologie                                     | [https://www.crep-psych.org](https://www.crep-psych.org/)                                           |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Boyce et al., 2023                  | Psychologie                                     | <https://doi.org/10.1098/rsos.231240>                                                               |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| ReproSci                            | Biologie                                        | [https://reprosci.epfl.ch](https://reprosci.epfl.ch/)                                               |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
-| Boyce et al. 2024                   | Psychologie                                     | <https://doi.org/10.31234/osf.io/an3yb>                                                             |
-+-------------------------------------+-------------------------------------------------+-----------------------------------------------------------------------------------------------------+
+|  |  |  |
+|----|----|----|
+| **Projekt** | **Thema** | **Link** |
+| Reproducibility Project: Psychology | Psychologie | <https://osf.io/ezcuj/> |
+| CORE | Entscheidungsforschung | <https://osf.io/5z4a8/> |
+| Data Replicada | Konsumentenverhalten und Entscheidungsforschung | <https://datacolada.org/archives/category/replication> |
+| Many Labs 1 | Psychologie | <https://osf.io/wx7ck/> |
+| Many Labs 2 | Psychologie | <https://osf.io/8cd4r/> |
+| Many Labs 3 | Psychologie | <https://osf.io/ct89g/> |
+| Many Labs 4 | Psychologie | <https://osf.io/8ccnw/> |
+| Many Labs 5 | Psychologie | <https://osf.io/7a6rd/> |
+| Soto | Persönlichkeitspsychologie | <https://doi.org/10.1177/0956797619831612> |
+| Social Sciences Replication Project | Verhaltensforschung | [http://www.socialsciencesreplicationproject.com](http://www.socialsciencesreplicationproject.com/) |
+| Registered Replication Reports | Verschiedene | -- |
+| Many Babies 1 | Entwicklungspsychologie | [https://manybabies.org](https://manybabies.org/) |
+| Sports Sciences Replications | Sportwissenschaften | [https://ssreplicationcentre.com](https://ssreplicationcentre.com/) |
+| Hagen Cumulative Science Project | Psychologie | <https://osf.io/d7za8/> |
+| I4R Replications | Politikwissenschaften | <https://i4replication.org/reports.html> |
+| Experimental Philosophy | Experimentelle Philosophie | h[ttps://doi.org/10.1007/s13164-018-0400-9](https://doi.org/10.1007/s13164-018-0400-9) |
+| Reproducibility Project: Cancer | Krebsforschung (Medizin) | <https://www.cos.io/rpcb> |
+| SCORE | Sozialwissenschaften | <https://www.cos.io/score> |
+| REPEAT | Gesundheitssystem | [https://www.repeatinitiative.org](https://www.repeatinitiative.org/) |
+| CREP | Psychologie | [https://www.crep-psych.org](https://www.crep-psych.org/) |
+| Boyce et al., 2023 | Psychologie | <https://doi.org/10.1098/rsos.231240> |
+| ReproSci | Biologie | [https://reprosci.epfl.ch](https://reprosci.epfl.ch/) |
+| Boyce et al. 2024 | Psychologie | <https://doi.org/10.31234/osf.io/an3yb> |
 
 ### Definition von Replizierbarkeit
 
