@@ -8,6 +8,8 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
+![](images/cover.jpg)
+
 ::: callout-caution
 ## Warnung
 
