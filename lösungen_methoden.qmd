@@ -97,7 +97,7 @@ Mit sogenannten *Push-Button-Replications* ist gemeint, dass Ergebnisse ohne gro
 
 #### Großangelegte Reproduktionsprojekte
 
-In verschiedenen Forschungsdisziplinen gibt es großangelegte Projekte, Reproduzierbarkeit für vollständige Disziplinen zu schätzen. Ein Pionier auf dem Gebiet war das ReplicationWiki von Höffler (https://replication.uni-goettingen.de/). Nachfolgende Projekte wie das Replication Network (replicationnetwork3.wordpress.com) stützten sich weitesgehend auf die dort zusammengefassten Daten. Für die Wirtschaftswissenschaften berichteten @brodeur2024mass eine Reproduzierbarkeitsrate von 70% und in den Management Sciences bei 55% [@fivsar2024reproducibility]. Mit dem Insitute for Replication (I4R) überschneidet sich außerdem die Social Science Reproduction Platform des Berkley Initiative for Transparency in the Social Sciences (BITSS); https://www.bitss.org/resources/social-science-reproduction-platform/). Während das I4R voraussichtlich 2024 eine Datenbank mit allen Ergebnissen veröffentlicht, ist die Plattform der BITSS bereits verfügbar.
+In verschiedenen Forschungsdisziplinen gibt es großangelegte Projekte, Reproduzierbarkeit für vollständige Disziplinen zu schätzen. Ein Pionier auf dem Gebiet war das ReplicationWiki von Höffler ([https://replication.uni-goettingen.de](https://replication.uni-goettingen.de/)). Nachfolgende Projekte wie das Replication Network (<https://replicationnetwork.com>) stützten sich weitesgehend auf die dort zusammengefassten Daten. Für die Wirtschaftswissenschaften berichteten @brodeur2024mass eine Reproduzierbarkeitsrate von 70% und in den Management Sciences bei 55% [@fivsar2024reproducibility]. Mit dem Insitute for Replication (I4R) überschneidet sich außerdem die Social Science Reproduction Platform des Berkley Initiative for Transparency in the Social Sciences (BITSS); <https://www.bitss.org/resources/social-science-reproduction-platform>). Während das I4R 2024 eine Datenbank mit allen Ergebnissen veröffentlichte, ist die Plattform der BITSS bereits verfügbar. Neben diesen vorwiegend wirtschafts- und politikwissenschaftlichen Initiativen wird in dem interdisziplinären Projekt Multi100 die Robustheit von 100 Ergebnissen aus verschiedenen Bereichen erforscht ([https://osf.io/q5h2c](https://osf.io/q5h2c/)). Ein aus der Psychologie stammendes und abgeschlossenes Projekt war das Angebot einer Universität, Arbeiten von Forschenden auf Reproduzierbarkeit zu prüfen [@baker2023reproduceme]. In den Geowissenschaften bietet CODECHECK (<https://codecheck.org.uk>) eine Community, in welcher Forschende die einmalige Reproduzierbarkeit von Code zertifizieren. Eine Zeitschrift, die Reproduzierbarkeitsprüfungen veröffentlicht, ist Rescience C (<https://rescience.github.io>).
 
 #### Open Code
 
@@ -172,7 +172,7 @@ Die wichtigsten Voraussetzungen dafür, dass Forschende Daten teilen können, si
 Je nach Fach und Institution werden Forschungsdaten an unterschiedlichen Stellen archiviert. Universitäten haben häufig eigene Services, für die Auffindbarkeit bieten sich aber üblicherweise fachspezifische Repositorien an: Psycholog\*innen nutzen häufig das [Open Science Framework (OSF)](https://osf.io/), [PsychArchives](https://www.psycharchives.org) vom Leibniz-Institut für Psychologie, oder [Researchbox.org](researchbox.org). Für die Wirtschaftswissenschaften bietet das Leibniz-Institut für Sozialwissenschaften mit [GESIS](https://www.gesis.org/datenservices/daten-teilen) verschiedene Hilfen. Mit [LISTER](https://www.nfdi4chem.de/de/lister-halbautomatische-metadatenextraktion-aus-kommentierter-experimentdokumentation-in-elabftw/) wird in der Chemie an Software gearbeitet, mittels derer Daten auf Basis von elektronischen Laborbüchern halbautomatisiert beschrieben werden können. [Re3data](https://www.re3data.org) bietet eine Übersicht über Forschungsdatenrepositorien (z.B. nach Fächern).
 
 | Fach/Disziplin | Repositorium |
-|----|----|
+|------------------------------------|------------------------------------|
 | Psychologie | osf.io |
 | Sozialwissenschaften | data.gesis.org |
 | Politik- und Sozialwissenschaften | icpsr.umich.edu |
@@ -332,7 +332,7 @@ Open Source bedeutet dabei, dass der Quelltext eines Programmes lesbar und koste
 Kurz: Für die Forschung, bei welcher die Nachvollziehbarkeit eine vorrangige Rolle spielt, sollte wenn möglich nur auf Open Source Software zurückgegriffen werden. Für manche Methoden ist das aktuell nicht möglich, dort ist es Aufgabe der Hochschulbibliotheken als Verwalterinnen des Wissens [@Quan2021-tp] und Fachgesellschaften als Anlaufstelle der Disziplinen, die nötige Infrastruktur zu stellen oder entwickeln zu lassen.
 
 | Infrastruktur | Kommerzielle Software | Non-Kommerzielle Software |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Literaturdatenbank | SCOPUS | OpenAlex [@priem2022openalex] |
 | Literaturverwaltung | Citavi, Mendeley | Zotero [@puckett2011zotero] |
 | Datenerhebung | Unipark, Millisecond Inquisit | PsychoPy [@peirce2022building] |
