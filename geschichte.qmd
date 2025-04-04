@@ -11,11 +11,8 @@ Im Rahmen dieses Buches wird die Open Science-Bewegung also als eine Reaktion au
 ## Weiterführende Informationen
 
 -   Die Geschichte der Replikationskrise beschreiben @Nelson.2018 und @Schimmack.2020. Eine positive Perspektive nehmen @Korbmacher.2023 ein.
-
 -   Der hohe Wert von Replikationsstudien wurde in den Politikwissenschaften bereits 1995 diskutiert [@king1995replication].
-
--   Ein Fall von Datenmanipulation bei einer hoch angesehenen Forschungseinrichtung in der Physik, der im Jahr 2000 bekannt wurde, wird in einer Online-Dokumentation (<https://www.youtube.com/watch?v=nfDoml-Db64>) und einem Buch beschrieben \[@sarachik2009plastic\].
-
-    \]
+-   Ein Fall von Datenmanipulation bei einer hoch angesehenen Forschungseinrichtung in der Physik, der im Jahr 2000 bekannt wurde, wird in einer Online-Dokumentation (<https://www.youtube.com/watch?v=nfDoml-Db64>) und einem Buch beschrieben [@sarachik2009plastic].
+-   Die Geschichte der Open-Access-Bewegung wurde vom Open-Access Netzwerk aufbereitet: <https://open-access.network/informieren/open-access-grundlagen/geschichte-des-open-access#:~:text=In%20der%20sog.,zu%20einer%20Verschlechterung%20der%20Literaturversorgung.>
 
 ------------------------------------------------------------------------
