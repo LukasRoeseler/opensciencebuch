@@ -483,4 +483,6 @@ Unter den verschiedenen Akteuren im Bereich Open Educational Resources ist beson
 
 -   Eine Website, die das Öffnen und Auswerten von Forschungsdaten ermöglicht, wird zur Zeit in den Niederlanden entwickelt: <https://opendataexplorer.org/>
 
+-   Bernhard Mittermaier diskutiert in einem Artikel, weshalb Transformationsverträge eine Sackgasse sind [@Mittermaier2025-uu].
+
     ------------------------------------------------------------------------
