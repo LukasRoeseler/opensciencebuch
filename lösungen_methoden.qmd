@@ -345,7 +345,7 @@ Eines der wertvollsten Tools in den Sozialwissenschaften ist das Open Science Fr
 :::
 
 | Infrastruktur | Kommerzielle Software | Non-Kommerzielle Software |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Literaturdatenbank | SCOPUS | OpenAlex [@priem2022openalex] |
 | Literaturverwaltung | Citavi, Mendeley | Zotero [@puckett2011zotero] |
 | Datenerhebung | Unipark, Millisecond Inquisit | PsychoPy [@peirce2022building] |
