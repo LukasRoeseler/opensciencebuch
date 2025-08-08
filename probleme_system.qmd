@@ -67,7 +67,7 @@ Das soziale Dilemma besteht nun in der Schwierigkeit, dieses System zu veränder
 ::: callout-note
 ## Verschwendung von Steuergeldern an kommerzielle Verlage?
 
-In der Wissenschaftssendung [Maithink X](https://www.youtube.com/watch?v=qtXABkcRpnE) wird erklärt, weshalb im aktuellen System Steuergelder verschwendet werden. Beispielsweise betrug die Höhe des APCs, also Publikationskosten für Artikel in Open Access Zeitschriften - darunter nicht Subskriptionskosten für Bibliotheken, Buchveröffentlichungen, und vieles mehr - schätzungsweise weltweit über 2.5 Milliarden US Dollar und sind von 2019 zu 2023 um mehr als das Dreifache angestiegen \[@haustein2024estimatingglobalarticleprocessing\]. Zu kurz kommen in der Sendung die Lösungsansätze (siehe dazu das Kapitel [Lösungen \> Das System](https://lukasroeseler.github.io/opensciencebuch/lösungen_system.html)).
+In der Wissenschaftssendung [Maithink X](https://www.youtube.com/watch?v=qtXABkcRpnE) wird erklärt, weshalb im aktuellen System Steuergelder verschwendet werden. Beispielsweise betrug die Höhe des APCs, also Publikationskosten für Artikel in Open Access Zeitschriften - darunter nicht Subskriptionskosten für Bibliotheken, Buchveröffentlichungen, und vieles mehr - schätzungsweise weltweit über 2.5 Milliarden US Dollar und sind von 2019 zu 2023 um mehr als das Dreifache angestiegen [@haustein2024estimatingglobalarticleprocessing]. Zu kurz kommen in der Sendung die Lösungsansätze (siehe dazu das Kapitel [Lösungen \> Das System](https://lukasroeseler.github.io/opensciencebuch/lösungen_system.html)).
 :::
 
 ### Wissenschaftliche Qualitätskontrolle
