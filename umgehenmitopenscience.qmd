@@ -16,7 +16,7 @@ Bevor wir in die Details fortschreiten, ist es außerdem wichtig festzuhalten, d
 
 Ich verstehe Open Science als eine große Trigger-Warnung, die vor die Sozialwissenschaften vorgeschaltet sein sollte und lautet: Achtung, wir haben hier gerade sehr große Probleme. Es ist gut möglich, dass die Hälfte von allem, was wir zu wissen glauben, schlichtweg falsch ist. Meinungen über die Open Science-Bewegung sind aber keineswegs homogen: Es lässt sich hier ein Spektrum spannen zwischen "Sollen wir wirklich die nächsten 20 Jahre damit verbringen, herauszufinden, welche Erkenntnisse der letzten 100 Jahre korrekt sind? Fangen wir doch einfach nochmal bei Null an." und "Eigentlich ist das ganz normal, ich sehe keinen Grund, hier von einer 'Krise' zu sprechen".
 
-![Spektrum der Reaktionen auf die Replikationskrise](images/spektrumreaktionen.jpg)
+![Spektrum der Reaktionen auf die Replikationskrise.](images/spektrumreaktionen.jpg){width="100%"}
 
 Besonders groß ist das Problem bei Lehrbüchern: Stellen Sie sich vor, sie haben ein Buch über einen Teil der Psychologie (Aushängeschild ist hier oft die Sozialpsychologie) verfasst, das auf Jahrzehnten an Forschung besteht, hunderten Veröffentlichungen, und tausenden Studien. Hier hilft es kaum, das Buch komplett zu ignorieren. Praktikabel, alle Studien selbst zu replizieren, ist es allerdings auch nicht. Klar ist den meisten Wissenschaftler\*innen hierbei: So wie es bisher gelaufen ist, kann es nicht weitergehen. Eine fünfzig prozentige Garantie für wissenschaftliche Erkenntnisse sollte nicht der Anspruch von etwas sein, das sich Wissenschaft nennt. Von vorne müssen wir aber auch nicht starten.
 
@@ -26,8 +26,6 @@ Besonders groß ist das Problem bei Lehrbüchern: Stellen Sie sich vor, sie habe
 Mit "Science" sind im Englischen nur die Naturwissenschaften gemeint, weshalb der "Open Science" streng genommen die Geisteswissenschaften ausschließt. Während im Englischen deshalb häufig alle gemeinsam mit "Science and Humanities" angesprochen werden, wird im Bezug auf Open Science häufig auf den Begriff "[Open Scholarship](https://forrt.org/glossary/german/open_scholarship/)" (deutsch: Gelehrsamkeit, Schülerschaft) ausgewichen [@Parsons.2022].
 :::
 
-### Weiterführende Informationen
-
--   Reaktionen verschiedener Mitglieder der Deutschen Gesellschaft für Psychologie (DGPs) auf die Stellungnahme des Vorstands aus einem Diskussionsforum sind online nachlesbar: https://replicationindex.com/wp-content/uploads/2022/12/DGPs_Diskussionsforum.pdf
+Weiterführende Information: Reaktionen verschiedener Mitglieder der Deutschen Gesellschaft für Psychologie (DGPs) auf die Stellungnahme des Vorstands aus einem Diskussionsforum sind online nachlesbar: <https://replicationindex.com/wp-content/uploads/2022/12/DGPs_Diskussionsforum.pdf>.
 
 ------------------------------------------------------------------------

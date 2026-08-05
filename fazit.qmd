@@ -6,15 +6,23 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
-Wissenschaftler\*innen arbeiten unter starkem Druck und das wissenschaftliche System belohnt Sorgfalt und Offenheit weniger als Innovation und klare Ergebnisse. In den Sozialwissenschaften tun sich immer mehr Forschende zusammen, diese Probleme zu lösen. Aus der Vertrauenskrise hervorgehend befindet sich große Teile der Psychologie bereits in einer Renaissance. Täglich werden Diskussionen auf persönlicher, institutioneller, und politischer Ebene darüber geführt, wie Wissenschaft betrieben werden sollte. Es ist dabei klar geworden, dass es in der Wissenschaft nicht wie in manch einem ökonomischen Markt eine "unsichtbare Hand" gibt, die dafür sorgt, dass alles ins Gleichgewicht findet - stattdessen sind es die Forschenden, die sich aktiv um die Selbstkorrektur von Wissenschaft bemühen. Bevor jedoch eine Intervention zur Verbesserung von Forschung stattfinden kann, wird zuerst eine Inventur (Wo sind Verbesserungen nötig?) und anschließend eine Beobachtung benötigt. Eine Inventur über Probleme und Lösungsvorschläge biete ich mit diesem Buch an. Es ist nun die Rolle der *Meta-Wissenschaft*, also Wissenschaft über Wissenschaft, zu prüfen, welche Lösungsansätze wie gut funktionieren.
+```{=latex}
+\markboth{Fazit und Ausblick}{Fazit und Ausblick}
+```
+
+Wissenschaftler\*innen arbeiten unter starkem Druck und das wissenschaftliche System belohnt Sorgfalt und Offenheit weniger als Innovation und klare Ergebnisse. In den Sozialwissenschaften tun sich immer mehr Forschende zusammen, diese Probleme zu lösen. Aus der Vertrauenskrise hervorgehend befinden sich große Teile der Psychologie bereits in einer Renaissance. Täglich werden Diskussionen auf persönlicher, institutioneller, und politischer Ebene darüber geführt, wie Wissenschaft betrieben werden sollte. Es ist dabei klar geworden, dass es in der Wissenschaft nicht wie in manch einem ökonomischen Markt eine "unsichtbare Hand" gibt, die dafür sorgt, dass alles ins Gleichgewicht findet – stattdessen sind es die Forschenden, die sich aktiv um die Selbstkorrektur von Wissenschaft bemühen. Bevor jedoch eine Intervention zur Verbesserung von Forschung stattfinden kann, wird zuerst eine Inventur (Wo sind Verbesserungen nötig?) und anschließend eine Beobachtung benötigt. Eine Inventur über Probleme und Lösungsvorschläge biete ich mit diesem Buch an. Es ist nun die Rolle der *Meta-Wissenschaft*, also Wissenschaft über Wissenschaft, zu prüfen, welche Lösungsansätze wie gut funktionieren.
+
+```{=latex}
+\phantomsection
+```
 
 ### Exzellente Forschung ist Offene Forschung
 
-In einigen Bereichen hat sich Open Science von etwas Positivem, das nicht vermisst wurde, wenn es gefehlt hat, zu etwas Selbstverständlichem entwickelt. Im Diskurs wird gelegentlich vom Open Science-[Kano-Modell](https://de.wikipedia.org/wiki/Kano-Modell) gesprochen. Während das nicht für alle Facetten von Open Science gilt (z.B. nicht für Citizen Science), ist eine Sache klar: Um einen (schnellen) Wissenszuwachs zu ermöglichen, muss das Wissen prüfbar sein. Das geht nur mit offenen Forschungsberichten (Open Access), offenen Daten (Open Data), und nachprüfbaren Berechnungen (Open Code, Reproducibility).
+In einigen Bereichen hat sich Open Science von etwas Positivem, das nicht vermisst wurde, wenn es gefehlt hat, zu etwas Selbstverständlichem entwickelt. Im Diskurs wird gelegentlich vom Open Science-[Kano-Modell](https://de.wikipedia.org/wiki/Kano-Modell) gesprochen. Während das nicht für alle Facetten von Open Science gilt (z.\ B. nicht für Citizen Science), ist eine Sache klar: Um einen (schnellen) Wissenszuwachs zu ermöglichen, muss das Wissen prüfbar sein. Das geht nur mit offenen Forschungsberichten (Open Access), offenen Daten (Open Data), und nachprüfbaren Berechnungen (Open Code, Reproducibility).
 
 ### Was hat sich verbessert?
 
-Ich hoffe, dass die Kapitel zu den Lösungen klar gemacht haben, dass es kein Problem gibt, für dass es nicht mindestens einen Lösungsvorschlag gibt und dass diese bereits vielfältig umgesetzt werden [@Korbmacher.2023]. Beispielsweise wurden für Replikationsforschung Leitfäden erarbeitet und Replikationen werden seltener als persönliche Attacken und mehr als sinnvolles Werkzeug angesehen [@Nosek2022-zg]. Strengere Vorgaben bei Berichten statistischer Tests haben sich deutlich auf deren Nachvollziehbarkeit ausgewirkt [@Giofre2023-jt], Präregistrierungen haben P-Hacking reduziert [@brodeur2024preregistration], und vereinzelt konnten mit modernen Methoden extrem hohe Replikationsraten erreicht werden [@Protzko.2023; siehe aber dazu die Kritik von @bak2023causal]. Wie Forschende in der Psychologie diese Ansätze nutzen, ist zwischen 2010 und 2020 von 49% auf 87% stark angestiegen [@Ferguson2023-qh].
+Ich hoffe, dass die Kapitel zu den Lösungen klar gemacht haben, dass es kein Problem gibt, für das es nicht mindestens einen Lösungsvorschlag gibt und dass diese bereits vielfältig umgesetzt werden [@Korbmacher.2023]. Beispielsweise wurden für Replikationsforschung Leitfäden erarbeitet und Replikationen werden seltener als persönliche Attacken und mehr als sinnvolles Werkzeug angesehen [@Nosek2022-zg]. Strengere Vorgaben bei Berichten statistischer Tests haben sich deutlich auf deren Nachvollziehbarkeit ausgewirkt [@Giofre2023-jt], Präregistrierungen haben P-Hacking reduziert [@brodeur2024preregistration], und vereinzelt konnten mit modernen Methoden extrem hohe Replikationsraten erreicht werden [@Protzko.2023; siehe aber dazu die Kritik von @bak2023causal]. Der Anteil der Forschenden in der Psychologie, die diese Ansätze nutzen, ist zwischen 2010 und 2020 von 49% auf 87% stark angestiegen [@Ferguson2023-qh].
 
 ### Was ist noch zu tun?
 
@@ -22,12 +30,12 @@ Bei vielen Disziplinen ist die aktive Auseinandersetzung mit Open Science noch a
 
 Allgemein gilt: Um Diskussionen dabei mehr als nur intuitiv sinnvoll zu führen, ist eine meta-wissenschaftliche Evaluation der neuen Methoden unabdingbar [@Phaf2024-dl; @Soderberg.2021; @Dudda2024-lb]. Dabei kommt wieder das *Spektrum der möglichen Reaktionen auf Replikationsfehlschläge* auf: Sollte eine Theorie nach einem Replikationsfehlschlag sofort verworfen werden, oder ist das zu radikal und eine Beharrungstendenz von Forschenden könnte helfen, starke Theorien zu etablieren [@phaf2024positive]? Ebenfalls ist eine interdisziplinäre Zusammenarbeit sinnvoll: Beispielsweise würde es viel Arbeit ersparen, wenn Terminologien fächerübergreifend entwickelt werden, statt wie aktuell einzeln (und stark redundant) für Psychologie [@Huffmeier.2016], Geisteswissenschaften [@Schoch.2023], und Marketing [@urminsky2024taking]. In einigen Bereichen ist sogar gänzlich unklar, wie Replikationserfolg aussieht, es lässt sich also kaum beurteilen, ob zwei Studien, die dasselbe untersuchen, zum selben Ergebnis kommen. Selbst dort wo es klar ist, hängt die Erfolgsrate stark davon ab, wie Replikationserfolg gemessen wird (<https://forrt.org/FReD/articles/success_criteria.html>).
 
-Open Science wird gelegentlich mit *Open Access* gleichgestellt. Zwar ist Open Science viel mehr als das, allerdings ist die Diskussion um Open Access eine der ältesten und stückweit unabhängig von Problemen wissenschaftlicher Integrität. Das soziale Dilemma, also wie sich Forschende von kommerziellen Verlagen unabhängig machen können, ist weit davon gelöst zu werden. Ob Abkommen zwischen Universitäten und Verlagen (z.B. DEAL Verträge) erfolgreich werden, ist noch ungewiss.
+Open Science wird gelegentlich mit *Open Access* gleichgestellt. Zwar ist Open Science viel mehr als das, allerdings ist die Diskussion um Open Access eine der ältesten und stückweit unabhängig von Problemen wissenschaftlicher Integrität. Das soziale Dilemma, also wie sich Forschende von kommerziellen Verlagen unabhängig machen können, ist noch weit davon entfernt, gelöst zu werden. Ob Abkommen zwischen Universitäten und Verlagen (z.\ B. DEAL Verträge) erfolgreich werden, ist noch ungewiss.
 
 ::: callout-warning
 ## Open Washing
 
-Selbst Forschung, die sich mit dem Thema Open Science befasst, hält sich manchmal nicht an die Kriterien, die sie fordert. Beispielsweise steht ein Artikel von Open Science Verfechtern [@Protzko.2023] in der [Kritik](https://statmodeling.stat.columbia.edu/2023/11/21/of-course-its-preregistered-just-give-me-a-sec/), weil dort - ohne transparent darüber zu berichten - von der Präregistrierung abgewichen wurde.
+Selbst Forschung, die sich mit dem Thema Open Science befasst, hält sich manchmal nicht an die Kriterien, die sie fordert. Beispielsweise steht ein Artikel von Open Science Verfechtern [@Protzko.2023] in der [Kritik](https://statmodeling.stat.columbia.edu/2023/11/21/of-course-its-preregistered-just-give-me-a-sec/), weil dort – ohne transparent darüber zu berichten – von der Präregistrierung abgewichen wurde.
 :::
 
 ### Was geschieht jetzt gerade?
@@ -39,33 +47,33 @@ Die hier diskutierten Ideen und Befunde sind ein aktueller Schnappschuss eines d
 
 Ein aktuell noch relativ wenig behandeltes Thema ist das des Krieges. Viele Forschungsinstitutionen unterliegen einem Embargo, durch welches Kollaborationen mit Forschenden aus bestimmten Ländern wie China oder Russland gemeldet oder sogar unterlassen werden müssen. Je nach epistemologischem Standpunkt sind verschiedene Entwicklungen möglich:
 
--   Positivismus: Davon ausgehend, dass es *die eine Wahrheit* gäbe [@Wittgenstein.19222004], der nur alle auf die Schliche kommen müssen, sind gegnerische Nationen als Konkurrenten zu sehen, mit denen Wissen nicht geteilt werden sollte. Ihnen gegenüber müsste sich Wissenschaft also verschließen. Wie das mit Datenbanken im Internet zu bewerkstelligen ist, ist vorwiegend eine technische Frage.
+- Positivismus: Davon ausgehend, dass es *die eine Wahrheit* gäbe [@Wittgenstein.19222004], der nur alle auf die Schliche kommen müssen, sind gegnerische Nationen als Konkurrenten zu sehen, mit denen Wissen nicht geteilt werden sollte. Ihnen gegenüber müsste sich Wissenschaft also verschließen. Wie das mit Datenbanken im Internet zu bewerkstelligen ist, ist vorwiegend eine technische Frage.
 
--   Relationistisch: Im Sinne von @Fleck.19352015, ist Wahrheit gesellschaftlich verankert und verschiedene Gesellschaften können theoretisch mit verschiedenen Wahrheiten arbeiten. Die Forschenden von gegnerischen Nationen könnten sich dadurch möglicherweise gar nicht für die Sichtweisen der anderen interessieren oder diese als politisch durchtränkt abtun.
+- Relationistisch: Im Sinne von @Fleck.19352015, ist Wahrheit gesellschaftlich verankert und verschiedene Gesellschaften können theoretisch mit verschiedenen Wahrheiten arbeiten. Die Forschenden von gegnerischen Nationen könnten sich dadurch möglicherweise gar nicht für die Sichtweisen der anderen interessieren oder diese als politisch durchtränkt abtun.
 
--   Nationalistisch: Aus dieser Perspektive ließe sich anbringen, dass eine Gesellschaft, die die Wissenschaft finanziert, primär davon profitieren sollte.
+- Nationalistisch: Aus dieser Perspektive ließe sich anbringen, dass eine Gesellschaft, die die Wissenschaft finanziert, primär davon profitieren sollte.
 
--   Altruistisch/Idealistisch: In Anlehnung an die Mertonschen Normen [@Merton.1968] lässt sich Wissenschaft als ein Gemeingut von allen Menschen verstehen, auf das niemand privilegierten Zugriff hat (Kommunismus des wissenschaftlichen Wissens) und wovon alle Menschen profitieren können. Bei dieser Haltung macht Wissenschaft an politischen Grenzen keinen Halt. Aus dieser Perspektive ließe sich Open Science als diplomatische Strategie zum wissenschaftlichen Austausch trotz politischer Differenzen verstehen.
+- Altruistisch/Idealistisch: In Anlehnung an die Mertonschen Normen [@Merton.1968] lässt sich Wissenschaft als ein Gemeingut von allen Menschen verstehen, auf das niemand privilegierten Zugriff hat (Kommunismus des wissenschaftlichen Wissens) und wovon alle Menschen profitieren können. Bei dieser Haltung macht Wissenschaft an politischen Grenzen keinen Halt. Aus dieser Perspektive ließe sich Open Science als diplomatische Strategie zum wissenschaftlichen Austausch trotz politischer Differenzen verstehen.
 
-Welche Perspektive sich langfristig herauskristallisiert, ist noch ungewiss. Im Zuge des Krieges in Israel und Gaza und eines offenen Briefes von Wissenschaftler\*innen dazu erstellte das Bildungsministerium im Juni 2024 Listen von Hochschullehrenden mit bestimmter politischer Einstellung sind und [prüfte die Möglichkeit der Kürzung von Forschungsgeldern](https://www.tagesschau.de/investigativ/panorama/bmbf-stark-watzinger-foerdergelder-100.html). Diese Fördergeld-Affäre wird aus der Wissenschaft heraus - ungeachtet der politischen Hintergründe - als eine Bedrohung der Freiheit der Wissenschaft wahrgenommen und ist eher mit nationalistischen und positivistischen Perspektiven vereinbar.
+Welche Perspektive sich langfristig herauskristallisiert, ist noch ungewiss. Im Zuge des Krieges in Israel und Gaza und eines offenen Briefes von Wissenschaftler\*innen dazu erstellte das Bildungsministerium im Juni 2024 Listen von Hochschullehrenden mit bestimmter politischer Einstellung und [prüfte die Möglichkeit der Kürzung von Forschungsgeldern](https://www.tagesschau.de/investigativ/panorama/bmbf-stark-watzinger-foerdergelder-100.html). Diese Fördergeld-Affäre wird aus der Wissenschaft heraus – ungeachtet der politischen Hintergründe – als eine Bedrohung der Freiheit der Wissenschaft wahrgenommen und ist eher mit nationalistischen und positivistischen Perspektiven vereinbar.
 :::
 
-In der Kommunikation zwischen Wissenschaftler\*innen und der Gesellschaft besteht dabei ein Spannungsverhältnis: Untereinander müssen Forschende kommunizieren, dass Reformen und Verbesserungen in der Wissenschaft nötig sind - was am einfachsten mit Hinweisen auf die Probleme funktioniert. Im Dialog mit der Gesellschaft kann ein Hinweis auf diese Probleme jedoch das Vertrauen in Wissenschaft gefährden [@penders2024scandal]. Es bleibt hierbei also zu betonen, dass Wissenschaft nicht abgeschlossen (genau genommen *nie* abgeschlossen) ist, das aber nicht bedeutet, dass es weniger vertrauenswürdig als Gerüchte, Verschwörungstheorien, Einzelerfahrungen, oder Religion ist. Die selbst-kritische Haltung ist stattdessen ein zentraler Bestandteil von Wissenschaft und ein Zeichen dafür, dass die Selbstkorrektur-Mechanismen funktionieren.
+In der Kommunikation zwischen Wissenschaftler\*innen und der Gesellschaft besteht dabei ein Spannungsverhältnis: Untereinander müssen Forschende kommunizieren, dass Reformen und Verbesserungen in der Wissenschaft nötig sind – was am einfachsten mit Hinweisen auf die Probleme funktioniert. Im Dialog mit der Gesellschaft kann ein Hinweis auf diese Probleme jedoch das Vertrauen in Wissenschaft gefährden [@penders2024scandal]. Es bleibt hierbei also zu betonen, dass Wissenschaft nicht abgeschlossen (genau genommen *nie* abgeschlossen) ist, das aber nicht bedeutet, dass es weniger vertrauenswürdig als Gerüchte, Verschwörungstheorien, Einzelerfahrungen, oder Religion ist. Die selbst-kritische Haltung ist stattdessen ein zentraler Bestandteil von Wissenschaft und ein Zeichen dafür, dass die Selbstkorrektur-Mechanismen funktionieren.
 
-#### Weiterführende Informationen
+### Weiterführende Informationen
 
--   Über aktuelle Neuigkeiten zu Fehler in der Forschung berichtet Retractionwatch: https://retractionwatch.com
+- Über aktuelle Neuigkeiten zu Fehler in der Forschung berichtet Retractionwatch: <https://retractionwatch.com>.
 
--   Auf ihrem Youtube-Kanal diskutiert Mai Thi Nguyen-Kim Probleme wie Publikationsbias und Selbstkorrekturmechanismen: <https://www.youtube.com/watch?v=DHyRaUeHcGY>
+- Auf ihrem Youtube-Kanal diskutiert Mai Thi Nguyen-Kim Probleme wie Publikationsbias und Selbstkorrekturmechanismen: <https://www.youtube.com/watch?v=DHyRaUeHcGY>.
 
--   Sabine Hossenfelder behandelt in einem Youtube-Video das Problem, wie Klima-Wissenschaftler\*innen ihre Befunde kommunizieren (sollten): <https://www.youtube.com/watch?v=gMOjD_Lt8qY>
+- Sabine Hossenfelder behandelt in einem Youtube-Video das Problem, wie Klima-Wissenschaftler\*innen ihre Befunde kommunizieren (sollten): <https://www.youtube.com/watch?v=gMOjD_Lt8qY>.
 
--   Forschende für Vorträge und Workshops zum Thema Open Science vermittelt das deutsche Netzwerk der Open-Science Initiativen: [https://osf.io/tbkzh/wiki/home](https://osf.io/tbkzh/wiki/home/)
+- Forschende für Vorträge und Workshops zum Thema Open Science vermittelt das deutsche Netzwerk der Open-Science Initiativen: [https://osf.io/tbkzh/wiki/home](https://osf.io/tbkzh/wiki/home/).
 
--   Eine Einführung in das Thema Open Science für Studierende (englisch) bieten @pennington2023student, @noauthor_2024-bm, und @chambers2017seven.
+- Eine Einführung in das Thema Open Science für Studierende (englisch) bieten @pennington2023student, @noauthor_2024-bm, und @chambers2017seven.
 
--   Ein deutsches Glossar mit Open Science Begriffen ist online via FORRT verfügbar: <https://forrt.org/glossary/german>
+- Ein deutsches Glossar mit Open Science Begriffen ist online via FORRT verfügbar: <https://forrt.org/glossary/german>.
 
--   Open Science ist noch nicht die Norm, wie jeder dazu beitragen kann, fassen @Kohrs2023-mf zusammen.
+- Open Science ist noch nicht die Norm, wie jeder dazu beitragen kann, fassen @Kohrs2023-mf zusammen.
 
 ------------------------------------------------------------------------

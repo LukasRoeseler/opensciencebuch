@@ -6,56 +6,27 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
-Eine ähnliche Vertrauenskrise gab es in der Sozialpsychologie in den 1960er-Jahren [@Lakens.2023]. Ein entscheidender Unterschied zwischen der alten Krise und der aktuellen ist Bestandsaufnahme: Parallel zu den eigenartigen Befunden zur Zukunftsvorhersage von Bem vernetzten sich Psycholog\*innen um Brian Nosek international und untersuchten die Replizierbarkeit von 100 Studien aus namhaften psychologischen Fachzeitschriften [@OpenScienceCollaboration.2015]. Sie fanden heraus, dass sich nur 39 der 100 Originalbefunde replizieren ließen. Bei allen anderen Studien waren die Replikationsergebnisse anders als die ursprünglichen Ergebnisse. Viele weitere Großprojekte folgten, alle mit ähnlichen Ergebnissen: Die Replikationsraten lagen weit unter den gewünschten.
+Eine ähnliche Vertrauenskrise gab es in der Sozialpsychologie in den 1960er-Jahren [@Lakens.2023]. Ein entscheidender Unterschied zwischen der alten Krise und der aktuellen ist die Bestandsaufnahme: Parallel zu den eigenartigen Befunden zur Zukunftsvorhersage von Bem vernetzten sich Psycholog\*innen um Brian Nosek international und untersuchten die Replizierbarkeit von 100 Studien aus namhaften psychologischen Fachzeitschriften [@OpenScienceCollaboration.2015]. Sie fanden heraus, dass sich nur 39 der 100 Originalbefunde replizieren ließen. Bei allen anderen Studien waren die Replikationsergebnisse anders als die ursprünglichen Ergebnisse. Viele weitere Großprojekte folgten, alle mit ähnlichen Ergebnissen: Die Replikationsraten lagen weit unter den gewünschten.
 
 ::: callout-note
 ## Kritische Betrachtung der Open Science Collaboration, 2015
 
-Obgleich dieses „Reproducibility Project Psychology" die gesamte Fachgemeinschaft zutiefst erschütterte und den Weg für einen Paradigmenwechsel ebnete, bemängeln manche Forschende auch negative Auswirkungen auf nachfolgende Replikationsforschung. Indem 100 Studien gleichzeitig von einer Gruppe aus über 100 Forschenden veröffentlicht wurden, setzte das Projekt unrealistische Maßstäbe für Replikationsforschung. Gleichzeitig war die Qualitätskontrolle dabei weniger streng, da die einzelnen Studien nicht alle in dem Maße begutachtet werden konnten, wie es bei einer traditionellen Veröffentlichung der Fall gewesen wäre (z.B. @Roseler.2022d). Einige gleichermaßen ambitionierte Vorhaben wurden veröffentlicht, wie zum Beispiel die ManyLabs Studien (z.B. @Klein.2014; @Klein.2018), oder Versuche, bei denen unabhängige Gruppen dieselben Hypothesen testeten und replizierten [@Landy.2020]. Oft beschränken sich diese Vorhaben auf Studien, die sich im Rahmen einer Online-Befragung replizieren lassen. Formate wie Längsschnittstudien oder Verhaltensbeobachtungen sind dabei aufgrund der schwierigeren Machbrakeit unterrepräsentiert.
+Obgleich dieses „Reproducibility Project Psychology" die gesamte Fachgemeinschaft zutiefst erschütterte und den Weg für einen Paradigmenwechsel ebnete, bemängeln manche Forschende auch negative Auswirkungen auf nachfolgende Replikationsforschung. Indem 100 Studien gleichzeitig von einer Gruppe aus über 100 Forschenden veröffentlicht wurden, setzte das Projekt unrealistische Maßstäbe für Replikationsforschung. Gleichzeitig war die Qualitätskontrolle dabei weniger streng, da die einzelnen Studien nicht alle in dem Maße begutachtet werden konnten, wie es bei einer traditionellen Veröffentlichung der Fall gewesen wäre (z.\ B. @Roseler.2022d). Einige gleichermaßen ambitionierte Vorhaben wurden veröffentlicht, wie zum Beispiel die ManyLabs Studien (z.\ B. @Klein.2014; @Klein.2018), oder Versuche, bei denen unabhängige Gruppen dieselben Hypothesen testeten und replizierten [@Landy.2020]. Oft beschränken sich diese Vorhaben auf Studien, die sich im Rahmen einer Online-Befragung replizieren lassen. Formate wie Längsschnittstudien oder Verhaltensbeobachtungen sind dabei aufgrund der schwierigeren Machbarkeit unterrepräsentiert.
 :::
 
-Zahlreiche Verbünde folgten. Einige Projekte konzentrierten sich auf einzelne Phänomene. Beispielsweise haben sich 17 Forschungsgruppen zusammengetan, um den Befund des *Facial Feedback* [@Strack.1988] zu replizieren [@Wagenmakers.2016]. Bei diesem Experiment geht darum, dass Personen einen Stift mit den Zähnen festhalten und dabei je nach Ausrichtung des Stiftes entweder diejenigen Muskeln anspannen, die sie auch zum Lachen benötigen oder eben nicht. In der "Lachen"-Bedingung fanden die Versuchspersonen im Anschluss Comics witziger. Die Replikation schlug fehl. 2022 wurde eine weitere Studie mit über 3000 Versuchspersonen aus 19 Ländern veröffentlicht - diesmal auch mit direkter Beteiligung von Fritz Strack, der die Originalstudie durchgeführt hatte [@Coles.2022]. Wieder zeigte sich, dass die Position eines Stiftes im Mund sich nicht auf die Bewertung von Stimuli auswirkt. Jenseits von sozialpsychologischen Befunden konzentrierten sich Forschende auch auf Bereiche wie Forschung mit Babys [@byers2020building] oder auf Studien bestimmter Zeitschriften [@Camerer.2018].
-
-**Liste großer Replikationsprojekte (siehe auch [FORRT Replication Hub](https://forrt.org/replication-hub/))**
-
-|  |  |  |
-|----|----|----|
-| **Projekt** | **Thema** | **Link** |
-| Reproducibility Project: Psychology | Psychologie | <https://osf.io/ezcuj/> |
-| CORE | Entscheidungsforschung | <https://osf.io/5z4a8/> |
-| Data Replicada | Konsumentenverhalten und Entscheidungsforschung | <https://datacolada.org/archives/category/replication> |
-| Many Labs 1 | Psychologie | <https://osf.io/wx7ck/> |
-| Many Labs 2 | Psychologie | <https://osf.io/8cd4r/> |
-| Many Labs 3 | Psychologie | <https://osf.io/ct89g/> |
-| Many Labs 4 | Psychologie | <https://osf.io/8ccnw/> |
-| Many Labs 5 | Psychologie | <https://osf.io/7a6rd/> |
-| Soto | Persönlichkeitspsychologie | <https://doi.org/10.1177/0956797619831612> |
-| Social Sciences Replication Project | Verhaltensforschung | [http://www.socialsciencesreplicationproject.com](http://www.socialsciencesreplicationproject.com/) |
-| Registered Replication Reports | Verschiedene | -- |
-| Many Babies 1 | Entwicklungspsychologie | [https://manybabies.org](https://manybabies.org/) |
-| Sports Sciences Replications | Sportwissenschaften | [https://ssreplicationcentre.com](https://ssreplicationcentre.com/) |
-| Hagen Cumulative Science Project | Psychologie | <https://osf.io/d7za8/> |
-| I4R Replications | Politikwissenschaften | <https://i4replication.org/reports.html> |
-| Experimental Philosophy | Experimentelle Philosophie | h[ttps://doi.org/10.1007/s13164-018-0400-9](https://doi.org/10.1007/s13164-018-0400-9) |
-| Reproducibility Project: Cancer | Krebsforschung (Medizin) | <https://www.cos.io/rpcb> |
-| SCORE | Sozialwissenschaften | <https://www.cos.io/score> |
-| REPEAT | Gesundheitssystem | [https://www.repeatinitiative.org](https://www.repeatinitiative.org/) |
-| CREP | Psychologie | [https://www.crep-psych.org](https://www.crep-psych.org/) |
-| Boyce et al., 2023 | Psychologie | <https://doi.org/10.1098/rsos.231240> |
-| ReproSci | Biologie | [https://reprosci.epfl.ch](https://reprosci.epfl.ch/) |
-| Boyce et al. 2024 | Psychologie | <https://doi.org/10.31234/osf.io/an3yb> |
+Zahlreiche Verbünde folgten. Einige Projekte konzentrierten sich auf einzelne Phänomene. Beispielsweise haben sich 17 Forschungsgruppen zusammengetan, um den Befund des *Facial Feedback* [@Strack.1988] zu replizieren [@Wagenmakers.2016]. Bei diesem Experiment geht es darum, dass Personen einen Stift mit den Zähnen festhalten und dabei je nach Ausrichtung des Stiftes entweder diejenigen Muskeln anspannen, die sie auch zum Lachen benötigen oder eben nicht. In der "Lachen"-Bedingung fanden die Versuchspersonen im Anschluss Comics witziger. Die Replikation schlug fehl. 2022 wurde eine weitere Studie mit über 3000 Versuchspersonen aus 19 Ländern veröffentlicht – diesmal auch mit direkter Beteiligung von Fritz Strack, der die Originalstudie durchgeführt hatte [@Coles.2022]. Wieder zeigte sich, dass die Position eines Stiftes im Mund sich nicht auf die Bewertung von Stimuli auswirkt. Jenseits von sozialpsychologischen Befunden konzentrierten sich Forschende auch auf Bereiche wie Forschung mit Babys [@byers2020building] oder auf Studien bestimmter Zeitschriften [@Camerer.2018].
 
 ### Definition von Replizierbarkeit
 
-Zu sagen, was repliziert werden konnte und was nicht, ist erst nach einer Definition von *Replikationserfolg* möglich. Im Sprachgebrauch von Forschenden wird mit „wurde repliziert" gemeint, dass ein eine Studie, die dieselbe Forschungsfrage untersucht hat, zu gleichen Ergebnissen wie eine Originalstudie gekommen ist. Zu Replikationsfehlschlägen wird „konnte nicht repliziert werden" gesagt. Subtil davon abweichend kann „wurde nicht repliziert" meinen, dass keine Replikationsversuche existieren oder sie gar nicht erst durchgeführt werden konnten, weil die Originalstudie zentrale Punkte nicht ausreichend beschrieben haben [@Errington.2021]. Für eine Wissenschaft, die über 100 Jahre alt ist, scheint es überraschend, dass noch immer keine klare Definition wichtiger Konzepte rund um das Thema Replikation vorliegt, geschweige denn es zur Routine gehört, Studien zu replizieren. Während sich in verschiedenen Feldern abweichende Taxonomien, also Modelle zur Einordnung verschiedener Arten von Replikationen, durchgesetzt haben, werden Begriffe rund um *Replikation* in diesem Buch wie in der Tabelle beschrieben verwendet. Je nachdem, ob dieselben oder andere Daten und dieselben oder andere Analysen verwendet werden ergibt sich, ob von Reproduzierbarkeit, Replizierbarkeit, Robustheit, oder Verallgemeinerbarkeit die Rede ist.
+Zu sagen, was repliziert werden konnte und was nicht, ist erst nach einer Definition von *Replikationserfolg* möglich. Im Sprachgebrauch von Forschenden wird mit „wurde repliziert" gemeint, dass eine Studie, die dieselbe Forschungsfrage untersucht hat, zu gleichen Ergebnissen wie eine Originalstudie gekommen ist. Zu Replikationsfehlschlägen wird „konnte nicht repliziert werden" gesagt. Subtil davon abweichend kann „wurde nicht repliziert" meinen, dass keine Replikationsversuche existieren oder sie gar nicht erst durchgeführt werden konnten, weil die Originalstudie zentrale Punkte nicht ausreichend beschrieben hat [@Errington.2021]. Für eine Wissenschaft, die über 100 Jahre alt ist, scheint es überraschend, dass noch immer keine klare Definition wichtiger Konzepte rund um das Thema Replikation vorliegt, geschweige denn es zur Routine gehört, Studien zu replizieren. Während sich in verschiedenen Feldern abweichende Taxonomien, also Modelle zur Einordnung verschiedener Arten von Replikationen, durchgesetzt haben, werden Begriffe rund um *Replikation* in diesem Buch wie in der Tabelle beschrieben verwendet. Je nachdem, ob dieselben oder andere Daten und dieselben oder andere Analysen verwendet werden ergibt sich, ob von Reproduzierbarkeit, Replizierbarkeit, Robustheit, oder Verallgemeinerbarkeit die Rede ist.
 
-|             |                 | Daten          |                   |
+| | | **Daten** | |
 |-------------|-----------------|----------------|-------------------|
-|             |                 | gleich         | unterschiedlich   |
-| **Analyse** | gleich          | reproduzierbar | replizierbar      |
-|             | unterschiedlich | robust         | verallgemeinerbar |
+| | | gleich | unterschiedlich |
+| **Analyse** | gleich | reproduzierbar | replizierbar |
+| | unterschiedlich | robust | verallgemeinerbar |
 
-: Replikations-Taxonomie nach Turing Way [@turingwaycommunity2024illustrations]
+: Replikations-Taxonomie nach Turing Way [@turingwaycommunity2024illustrations].
 
 ::: callout-note
 ## Statistischer Vergleich von Original- und Replikationsbefunden
@@ -76,7 +47,8 @@ Für eine systematischere, in den Informationswissenschaften verankerte Taxonomi
 |                                                                                                      |                                                                               |
 |                                                                                                      | Unklar oder gemischt                                                          |
 +------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| Nähe einer Replikationsstudie zur Originalstudie (in Anlehnung an Lebel REF und Hüffmeier et al REF) | **Direkte Replikation**\                                                      |
+| Nähe einer Replikationsstudie zur Originalstudie (in Anlehnung an LeBel et al. [2019] und Hüffmeier  | **Direkte Replikation**\                                                      |
+| et al. [2016])                                                                                       |                                                                               |
 |                                                                                                      | (selbe Versuchsleiter\*innen,\                                                |
 |                                                                                                      | selbe Versuchsmaterialien,\                                                   |
 |                                                                                                      | neue Versuchspersonen)                                                        |
@@ -98,53 +70,29 @@ Für eine systematischere, in den Informationswissenschaften verankerte Taxonomi
 |                                                                                                      | Mit anderen Daten zu denselben Ergebnissen gelangen                           |
 +------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
-: Replikationstaxonomie
+: Replikationstaxonomie.
 
 ### „Eine Schwalbe macht noch keinen Sommer"
 
-Ob an einem wissenschaftlichen Befund „etwas dran ist", er also einen Wahrheitsanspruch hat, hängt -- neben seiner eigentlichen Art der Etablierung -- bei der Replikationsforschung von vielen Faktoren ab. Was waren die Ergebnisse der Replikationsstudie? Wie viele und wie unterschiedliche Studien wurden durchgeführt? Wie sahen die genauen Methoden aus? Was waren die Unterschiede zwischen Replikationen und Originalstudie? Während Einzelstudien immer einen Erkenntnisgewinn liefern (mindestens, ob eine bestimmte Methode praktikabel ist, [@Sikorski2023-qp], können sie je nach Forschungsgebiet stark variieren [@McShane2022-yd, @Landy.2020]. Für das Gesamtbild braucht es mehr, wie zum Beispiel eine statistische Zusammenfassung vieler einzelner Studien zu einer Gesamtstudie (*Meta-Analyse*). Ein Beispiel mit Fantasiedaten befindet sich dazu in der folgenden Abbildung.
+Ob an einem wissenschaftlichen Befund „etwas dran ist", er also einen Wahrheitsanspruch hat, hängt -- neben seiner eigentlichen Art der Etablierung -- bei der Replikationsforschung von vielen Faktoren ab. Was waren die Ergebnisse der Replikationsstudie? Wie viele und wie unterschiedliche Studien wurden durchgeführt? Wie sahen die genauen Methoden aus? Was waren die Unterschiede zwischen Replikationen und Originalstudie? Während Einzelstudien immer einen Erkenntnisgewinn liefern (mindestens, ob eine bestimmte Methode praktikabel ist [@Sikorski2023-qp]), können sie je nach Forschungsgebiet stark variieren [@McShane2022-yd, @Landy.2020]. Für das Gesamtbild braucht es mehr, wie zum Beispiel eine statistische Zusammenfassung vieler einzelner Studien zu einer Gesamtstudie (*Meta-Analyse*). Ein Beispiel mit Fantasiedaten befindet sich dazu in der folgenden Abbildung.
 
-Betrachtet man viele Studien, die den Zusammenhang zweier Dinge, wie zum Beispiel Einkommen und Bildungsabschluss, untersucht haben, so werden sich die Studien hinsichtlich der Details unterscheiden: Was wurde alles zum Einkommen gezählt (Netto, Brutto, Sozialleistungen, Einkommen von Familienangehörigen, Werte über einen Zeitraum oder von einem bestimmten Zeitpunkt aus der Vergangenheit, usw.) oder auch welche Personen befragt wurden (Studierende, Berufstätige, wurden Befragte bezahlt, usw.). All diese Unterschiede wirken sich möglicherweise auf den Zusammenhang aus, und selbst wenn sie es nicht tun, unterliegen Zusammenhänge oft Schwankungen, die sich durch die Messmethoden ergeben. In dem Beispiel lässt sich die Stärke des Zusammenhangs auf eine Zahl und eine dazugehörige Präzision herunterbrechen. Die Zahl heißt hier "Korrelation" und die Schärfe "Fehlerbalken". In dem Wald-Diagramm (*Forest Plot / Blobbogram*) sind mögliche Korrelationen aus verschiedenen Studien abgebildet. Im Rahmen einer Meta-Analyse können Studienergebnisse anschließend kombiniert und Unterschiede untersucht werden.
+Betrachtet man viele Studien, die den Zusammenhang zweier Dinge, wie zum Beispiel Einkommen und Bildungsabschluss, untersucht haben, so werden sich die Studien hinsichtlich der Details unterscheiden: Was wurde alles zum Einkommen gezählt (Netto, Brutto, Sozialleistungen, Einkommen von Familienangehörigen, Werte über einen Zeitraum oder von einem bestimmten Zeitpunkt aus der Vergangenheit, usw.) oder auch welche Personen befragt wurden (Studierende, Berufstätige, wurden Befragte bezahlt, usw.). All diese Unterschiede wirken sich möglicherweise auf den Zusammenhang aus, und selbst wenn sie es nicht tun, unterliegen Zusammenhänge oft Schwankungen, die sich durch die Messmethoden ergeben. In dem Beispiel lässt sich die Stärke des Zusammenhangs auf eine Zahl und eine dazugehörige Präzision herunterbrechen. Die Zahl heißt hier "Korrelation" und die Präzision "Fehlerbalken". In dem Wald-Diagramm (*Forest Plot / Blobbogram*) sind mögliche Korrelationen aus verschiedenen Studien abgebildet. Im Rahmen einer Meta-Analyse können Studienergebnisse anschließend kombiniert und Unterschiede untersucht werden.
 
-```{r message=FALSE}
-#| echo: false
-library(ggplot2)
-library(metafor)
-set.seed(10)
-k <- 15
-cors <- data.frame("Stichprobenumfang" = round(rchisq(n = k, df = 2, ncp = 0)*5+10, digits = 0)
-                   , "Korrelation" = rnorm(n = k, mean = .05, sd = .3)
-                   , "Studie" = paste("Studie", toupper(letters[1:k]), sep = " ")
-                   , "yi" = NA
-                   , "vi" = NA
-                   )
-
-cors[, 4:5] <- metafor::escalc(ni = cors$Stichprobenumfang, ri = cors$Korrelation, measure = "COR")
-cors$ucb <- cors$yi + qnorm(.975)*cors$vi
-cors$lcb <- cors$yi - qnorm(.975)*cors$vi
-
-
-
-ggplot(cors, aes(x = Korrelation, y = reorder(Studie, Korrelation))) + 
-  geom_point() + geom_errorbar(xmin = cors$lcb, xmax = cors$ucb) + 
-  geom_vline(xintercept = 0, lty = 2) + theme_classic() + ylab("") + 
-  xlim(c(-.4, .6))
-
-```
+![Wald-Diagramm (Forest Plot) mit simulierten Korrelationen aus 15 fiktiven Studien.](images/pdf-figuren/bestandsaufnahme-forestplot.png){#fig-forestplot width="100%"}
 
 ### Phänomen-zentrierte Replikationsprojekte
 
-Im Gegensatz zu dem breit gefächerten *Reproducibility Project Psychology* [@OpenScienceCollaboration.2015] und anderen Versuchen, die Replikationsrate für ganze Felder zu schätzen [@Camerer.2016; @Feldman.2021; @brodeur2024mass], haben sich andere Versuche auf grundlegende Phänomene fokussiert. Dutzende Gruppen auf der ganzen Welt haben sich in solchen Fällen zusammengeschlossen, auf einen Versuchsaufbau geeinigt, und führen die Studien mit einer enormen Anzahl an Versuchspersonen durch. Die meisten dieser Vorhaben stammen aus der Psychologie. Während die dabei gefundenen Effektstärken, also sozusagen die Deutlichkeit eines Zusammenhanges oder Befundes, in fast allen Fällen weit unter denen bisheriger Studien lagen [@Kvarven.2020], waren sie zudem beim Großteil der Studien null, die Phänomene waren also „nicht sichtbar" [@Alogna.2014; @Eerland.2016; @Bouwmeester.2017; @ODonnell.2018; @Wagenmakers.2016.; @Cheung.2016; @vaidis2024multilab; @rife2024registered]. So konnte beispielsweise mit einer enormen Präzision gezeigt werden, dass eine Geschichte über einen Professor Versuchspersonen in einem anschließenden Leistungstest *nicht* schlauer macht [@ODonnell.2018].
+Im Gegensatz zu dem breit gefächerten *Reproducibility Project Psychology* [@OpenScienceCollaboration.2015] und anderen Versuchen, die Replikationsrate für ganze Felder zu schätzen [@Camerer.2016; @Feldman.2021; @brodeur2024mass], haben sich andere Versuche auf grundlegende Phänomene fokussiert. Dutzende Gruppen auf der ganzen Welt haben sich in solchen Fällen zusammengeschlossen, sich auf einen Versuchsaufbau geeinigt, und die Studien mit einer enormen Anzahl an Versuchspersonen durchgeführt. Die meisten dieser Vorhaben stammen aus der Psychologie. Während die dabei gefundenen Effektstärken, also sozusagen die Deutlichkeit eines Zusammenhanges oder Befundes, in fast allen Fällen weit unter denen bisheriger Studien lagen [@Kvarven.2020], waren sie zudem beim Großteil der Studien null, die Phänomene waren also „nicht sichtbar" [@Alogna.2014; @Eerland.2016; @Bouwmeester.2017; @ODonnell.2018; @Wagenmakers.2016.; @Cheung.2016; @vaidis2024multilab; @rife2024registered]. So konnte beispielsweise mit einer enormen Präzision gezeigt werden, dass eine Geschichte über einen Professor Versuchspersonen in einem anschließenden Leistungstest *nicht* schlauer macht [@ODonnell.2018].
 
 ::: callout-note
 ## Effiziente Nutzung von Ressourcen?
 
-Wie geht man mit Ressourcen bei Replikationen um? Bei Zusammenschlüssen vieler Forschenden stellt sich diese Frage unweigerlich. Erstellen alle Gruppen unabhängig voneinander die Studie? Halten sich alle an ein zuvor abgestimmtes Protokoll? Führen sie die Studie nacheinander durch, um voneinander zu lernen? Bei *Registered Replication Reports* wird für gewöhnlich zuvor mit anderen Forschenden (z.B. den Autor\*innen der Originalstudie) ein Versuchsaufbau abgestimmt. In anderen Fällen wird gemeinsam ein Versuchsaufbau erarbeitet, der zum Testen der Theorie ideal sein sollte [*Creative Destruction Approach*, @tierney2020creative]. Teams in verschiedenen Ländern übersetzen das Protokoll dann und halten sich bei der Durchführung eng daran. Diese Protokolle sind manchmal nicht im Vorhinein getestet [@Buttliere2024-iq], basieren oft aber auf erfolgreichen, namhaften Studien. Das hat den Vorteil, dass Unterschiede zwischen den Gruppen nicht auf Unterschiede in der Durchführung zurückzuführen sind und sich Kulturen vergleichen lassen [@Kakinohana.2022]. Ein Nachteil dabei ist jedoch, dass, wenn an einem, zwei, oder fünf Standorten das Experiment schon nicht funktioniert, es fraglich ist, ob die übrigen 30 Gruppen es auch probieren sollten. In den Worten von @Buttliere2024-iq: "Wer bekommt bessere Ergebnisse? 39 Personen, die etwas zum ersten Mal tun, oder eine Person, die etwas 39 Mal tut?"
+Wie geht man mit Ressourcen bei Replikationen um? Bei Zusammenschlüssen vieler Forschenden stellt sich diese Frage unweigerlich. Erstellen alle Gruppen unabhängig voneinander die Studie? Halten sich alle an ein zuvor abgestimmtes Protokoll? Führen sie die Studie nacheinander durch, um voneinander zu lernen? Bei *Registered Replication Reports* wird für gewöhnlich zuvor mit anderen Forschenden (z.\ B. den Autor\*innen der Originalstudie) ein Versuchsaufbau abgestimmt. In anderen Fällen wird gemeinsam ein Versuchsaufbau erarbeitet, der zum Testen der Theorie ideal sein sollte [*Creative Destruction Approach*, @tierney2020creative]. Teams in verschiedenen Ländern übersetzen das Protokoll dann und halten sich bei der Durchführung eng daran. Diese Protokolle sind manchmal nicht im Vorhinein getestet [@Buttliere2024-iq], basieren oft aber auf erfolgreichen, namhaften Studien. Das hat den Vorteil, dass Unterschiede zwischen den Gruppen nicht auf Unterschiede in der Durchführung zurückzuführen sind und sich Kulturen vergleichen lassen [@Kakinohana.2022]. Ein Nachteil dabei ist jedoch, dass, wenn an einem, zwei, oder fünf Standorten das Experiment schon nicht funktioniert, es fraglich ist, ob die übrigen 30 Gruppen es auch probieren sollten. In den Worten von @Buttliere2024-iq: "Wer bekommt bessere Ergebnisse? 39 Personen, die etwas zum ersten Mal tun, oder eine Person, die etwas 39 Mal tut?"
 :::
 
 ### Disziplin-zentrierte Replikationsprojekte
 
-Ungefähr die Hälfte aller psychologischen Befunde ist also nicht replizierbar. Heißt das, alle sozialwissenschaftlichen Lehrbücher aus allen Disziplinen sind zur Hälfte falsch? Die klare Antwort heißt *nein*. Die akkurate Antwort lautet *kommt darauf an*.
+Nicht einmal die Hälfte aller psychologischen Befunde ist also replizierbar. Heißt das, alle sozialwissenschaftlichen Lehrbücher aus allen Disziplinen sind zur Hälfte falsch? Die klare Antwort heißt *nein*. Die akkurate Antwort lautet *kommt darauf an*.
 
 #### Jenseits der Psychologie
 
