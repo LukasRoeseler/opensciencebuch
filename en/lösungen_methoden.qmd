@@ -38,7 +38,7 @@ An approach that works not only for meta-analyses but for almost all statistical
 
 ### Forensic Meta-Science
 
-Various fields have developed methods for identifying implausible data patterns. Such techniques check, for instance, whether reported values are even *possible*: if 10 people each have a value of either 0 or 1, the mean of those 10 values cannot be 0.15, but only 0, 0.1, 0.2, 0.3, ... 1.0. A collection of guides for checking such problems is COSIG ([Collection of Open Science Integrity Guides](https://osf.io/2kdez/wiki/home/), @cosig_commentary).
+Various fields have developed methods for identifying implausible data patterns. Such techniques check, for instance, whether reported values are even *possible*: if 10 people each have a value of either 0 or 1, the mean of those 10 values cannot be 0.15, but only 0, 0.1, 0.2, 0.3, ... 1.0. A collection of guides for checking such problems is COSIG ([Collection of Open Science Integrity Guides](https://osf.io/2kdez/wiki/home/)) [@cosig_commentary].
 
 ### Rules of Thumb for Assessing Individual Articles
 
@@ -147,6 +147,7 @@ Merely uploading research data to a website is not enough to make research more 
 
 The table below shows an excerpt from a fictional dataset with three variables. Real datasets usually contain many more variables (e.g., high school GPA broken down by subject, demographic data such as age and gender, date of the survey, and sometimes variables with cryptic names like "V1_Z01" or "V0815"). Here, the three variables (i.e., columns) are "ID," a sequential number identifying each participant; "IQ," the measured IQ score from a particular intelligence test; and "high school GPA," which participants reported themselves. The codebook contains this information.
 
+::: {.content-visible unless-format="pdf"}
 | **ID** | **IQ** | **High school GPA** |
 |-----|-----|------------|
 | 1 | 103 | 2.6 |
@@ -154,6 +155,25 @@ The table below shows an excerpt from a fictional dataset with three variables. 
 | 3 | 112 | 1.8 |
 
 : Example of a dataset.
+:::
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{ID} & \textbf{IQ} & \textbf{High school GPA} \\
+\midrule
+1 & 103 & 2.6 \\
+2 & 86 & 2.4 \\
+3 & 112 & 1.8 \\
+\bottomrule
+\end{tabular}
+\caption{Example of a dataset.}
+\end{table}
+```
+:::
 
 #### FAIR and CARE
 

@@ -95,7 +95,7 @@ Die Chance, signifikante p-Werte zu kriegen, ohne dass die getestete Hypothese �
 ::: callout-tip
 ## Daten fälschen für Dummys
 
-Hussey und Hughes [-@Hussey.2018] (und darauf aufbauend Sarstedt und Adler [-@sarstedt2023advanced]) schlugen selbstironisch bereits Methoden vor, um P-Hacking noch stärker zu erleichtern. Auf dieser Website können Benutzer\*innen Zufallszahlen in dem gewünschten Bereich generieren: <https://mktg.shinyapps.io/extra-p_ointless/>.
+Hussey und Hughes [-@Hussey.2018], und darauf aufbauend Sarstedt und Adler [-@sarstedt2023advanced], schlugen selbstironisch bereits Methoden vor, um P-Hacking noch stärker zu erleichtern. Auf dieser Website können Benutzer\*innen Zufallszahlen in dem gewünschten Bereich generieren: <https://mktg.shinyapps.io/extra-p_ointless/>.
 :::
 
 ### Selektives Berichten (*Selective Reporting*)

@@ -95,6 +95,7 @@ format:
         \usepackage{xurl}
         \usepackage{etoolbox}
         \usepackage{chngcntr}
+        \usepackage{float}
         \counterwithout{figure}{chapter}
         \counterwithout{table}{chapter}
         \usepackage{fvextra}

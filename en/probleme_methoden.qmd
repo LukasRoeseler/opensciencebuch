@@ -95,7 +95,7 @@ The chance of obtaining significant p-values even when the tested hypothesis is 
 ::: callout-tip
 ## Faking data for dummies
 
-Hussey and Hughes [-@Hussey.2018] (and, building on this, Sarstedt and Adler [-@sarstedt2023advanced]) self-mockingly proposed methods to make p-hacking even easier. On this website, users can generate random numbers within a desired range: <https://mktg.shinyapps.io/extra-p_ointless/>.
+Hussey and Hughes [-@Hussey.2018], and building on this, Sarstedt and Adler [-@sarstedt2023advanced], self-mockingly proposed methods to make p-hacking even easier. On this website, users can generate random numbers within a desired range: <https://mktg.shinyapps.io/extra-p_ointless/>.
 :::
 
 ### Selective reporting

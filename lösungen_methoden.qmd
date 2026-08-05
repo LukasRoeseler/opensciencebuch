@@ -38,7 +38,7 @@ Ein Ansatz, welcher nicht nur bei Meta-Analysen sondern bei fast allen statistis
 
 ### Forensische Meta-Wissenschaft
 
-Ausgehend von verschiedenen Wissenschaften wurden Methoden entwickelt, unplausible Datenmuster zu identifizieren. Bei solchen Techniken wird beispielsweise geprüft, ob berichtete Werte *möglich* sind: Wenn 10 Personen entweder den Wert 0 oder 1 haben, kann der Mittelwert der 10 Werte beispielsweise nicht 0.15 sein, sondern nur 0, 0.1, 0.2, 0.3, ... 1.0. Eine Sammlung von Leitfäden zur Prüfung auf solche Probleme ist die COSIG ([Collection of Open Science Integrity Guides](https://osf.io/2kdez/wiki/home/), @cosig_commentary).
+Ausgehend von verschiedenen Wissenschaften wurden Methoden entwickelt, unplausible Datenmuster zu identifizieren. Bei solchen Techniken wird beispielsweise geprüft, ob berichtete Werte *möglich* sind: Wenn 10 Personen entweder den Wert 0 oder 1 haben, kann der Mittelwert der 10 Werte beispielsweise nicht 0.15 sein, sondern nur 0, 0.1, 0.2, 0.3, ... 1.0. Eine Sammlung von Leitfäden zur Prüfung auf solche Probleme ist die COSIG ([Collection of Open Science Integrity Guides](https://osf.io/2kdez/wiki/home/)) [@cosig_commentary].
 
 ### Daumenregeln für Beurteilung einzelner Artikel
 
@@ -147,6 +147,7 @@ Das bloße Hochladen von Forschungsdaten auf eine Website reicht nicht aus, um F
 
 Die Tabelle zeigt einen Ausschnitt aus einem Fantasie-Datensatz mit drei Variablen. Üblicherweise enthalten Datensätze viele weitere Daten (z.\ B. die Abiturnote aufgeteilt in verschiedene Fächer, Demografische Daten wie Alter und Geschlecht, Datum der Befragung, ggf. Variablen mit kryptischen Namen wie "V1_Z01", "V0815"). Hier sind die drei Variablen (also Spalten) "ID", welche eine fortlaufende Zahl ist um verschiedene Versuchspersonen zu kennzeichnen, IQ, mit welchem ein gemessener IQ von einem bestimmten Intelligenztest angegeben wird, und die Abiturnote, die Personen selbst berichten sollten. Das Codebuch enthält diese Informationen.
 
+::: {.content-visible unless-format="pdf"}
 | **ID** | **IQ** | **Abiturnote** |
 |-----|-----|------------|
 | 1 | 103 | 2,6 |
@@ -154,6 +155,25 @@ Die Tabelle zeigt einen Ausschnitt aus einem Fantasie-Datensatz mit drei Variabl
 | 3 | 112 | 1,8 |
 
 : Beispiel für einen Datensatz.
+:::
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{ID} & \textbf{IQ} & \textbf{Abiturnote} \\
+\midrule
+1 & 103 & 2,6 \\
+2 & 86 & 2,4 \\
+3 & 112 & 1,8 \\
+\bottomrule
+\end{tabular}
+\caption{Beispiel für einen Datensatz.}
+\end{table}
+```
+:::
 
 #### FAIR und CARE
 

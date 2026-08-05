@@ -90,6 +90,6 @@ Besides publications, researchers can also buy citations or artificially inflate
 
 - Retractions from the Retraction Watch Database can be viewed visually by country and type in the Retraction Dashboard: <https://retraction-dashboard.netlify.app>.
 
-- In an interview, Jasmin Schmitz explains various types of scientific misconduct: [www.youtube.com/watch?v=EqW7vP6dizU](www.youtube.com/watch?v=EqW7vP6dizU)
+- In an interview, Jasmin Schmitz explains various types of scientific misconduct: [www.youtube.com/watch?v=EqW7vP6dizU](www.youtube.com/watch?v=EqW7vP6dizU).
 
 ------------------------------------------------------------------------

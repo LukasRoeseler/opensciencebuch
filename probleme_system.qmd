@@ -90,6 +90,6 @@ Neben Publikationen können Forschende auch Zitationen kaufen oder selbst künst
 
 - Retractions der Retractionwatch Database können im Retraction Dashboard visuell nach Land und nach Typ angeschaut werden: <https://retraction-dashboard.netlify.app>.
 
-- Jasmin Schmitz erklärt im Interview verschiedene Typen wissenschaftlichen Fehlverhaltens: [www.youtube.com/watch?v=EqW7vP6dizU](www.youtube.com/watch?v=EqW7vP6dizU)
+- Jasmin Schmitz erklärt im Interview verschiedene Typen wissenschaftlichen Fehlverhaltens: [www.youtube.com/watch?v=EqW7vP6dizU](www.youtube.com/watch?v=EqW7vP6dizU).
 
 ------------------------------------------------------------------------
