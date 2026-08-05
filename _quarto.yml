@@ -93,6 +93,9 @@ format:
     include-in-header:
       text: |
         \usepackage{xurl}
+        \makeatletter
+        \def\UrlBreaks{\do\/}
+        \makeatother
         \usepackage{etoolbox}
         \usepackage{chngcntr}
         \usepackage{float}
