@@ -1,0 +1,17 @@
+---
+title: "Solutions"
+editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+```{=latex}
+\markboth{Solutions}{Solutions}
+```
+
+Let us take a look at what has changed in the sciences since 2012. Many of the developments discussed originate from psychology. The changes are categorized according to which part of the problem they primarily address: is the purpose of a new requirement to improve the system, the methodology, or the theories of research? Some solutions are linked to many problems simultaneously, while others are tailored to specific issues. The figure provides a rough breakdown.
+
+![Approaches to solutions and which problem in science they address.](images/lösungsansätze.png){width="100%"}
+
+------------------------------------------------------------------------

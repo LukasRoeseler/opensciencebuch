@@ -1,0 +1,79 @@
+---
+title: "Conclusion and Outlook"
+editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+```{=latex}
+\markboth{Conclusion and Outlook}{Conclusion and Outlook}
+```
+
+Researchers work under considerable pressure, and the scientific system rewards innovation and clear-cut results more than it rewards care and openness. In the social sciences, more and more researchers are joining forces to address these problems. Emerging from the trust crisis, large parts of psychology already find themselves in a renaissance. Discussions are being held every day, at the personal, institutional, and political level, about how science should be conducted. It has become clear that, unlike some economic markets, science does not have an "invisible hand" that brings everything into balance – instead, it is researchers themselves who actively work toward the self-correction of science. Before an intervention to improve research can take place, however, an inventory is first needed (where are improvements necessary?), followed by observation. This book offers an inventory of problems and proposed solutions. It is now the role of *meta-science*, that is, science about science, to examine which approaches work, and how well.
+
+```{=latex}
+\phantomsection
+```
+
+### Excellent Research Is Open Research
+
+In some areas, Open Science has developed from something positive that was not missed when absent into something taken for granted. In the discourse, this is occasionally referred to as the Open Science [Kano model](https://de.wikipedia.org/wiki/Kano-Modell). While this does not hold for all facets of Open Science (for example, not for citizen science), one thing is clear: enabling a (rapid) growth of knowledge requires that knowledge be verifiable. This is only possible with open research reports (Open Access), open data (Open Data), and verifiable calculations (Open Code, reproducibility).
+
+### What Has Improved?
+
+I hope the chapters on solutions have made clear that there is no problem for which at least one proposed solution does not already exist, and that these solutions are already being implemented in diverse ways [@Korbmacher.2023]. For example, guidelines have been developed for replication research, and replications are increasingly seen not as personal attacks but as a useful tool [@Nosek2022-zg]. Stricter requirements for reporting statistical tests have had a marked effect on their traceability [@Giofre2023-jt], preregistration has reduced p-hacking [@brodeur2024preregistration], and in some cases extremely high replication rates have been achieved using modern methods [@Protzko.2023; see also the critique by @bak2023causal]. The proportion of researchers in psychology using these approaches rose sharply between 2010 and 2020, from 49% to 87% [@Ferguson2023-qh].
+
+### What Remains to Be Done?
+
+In many disciplines, active engagement with Open Science is still pending. While social and personality psychology play a pioneering role among the social sciences, engagement in consumer psychology, or beyond psychology in medicine, education science, or sociology, only began a few years ago. And even within psychology, substantial gaps remain. For example, only 34 of 88 journals published replication studies, which accounted for just 0.2% of all published studies overall [@clarke2023prevalence; @Feldman2024-tr].
+
+In general: to move these discussions beyond mere intuition, a meta-scientific evaluation of the new methods is indispensable [@Phaf2024-dl; @Soderberg.2021; @Dudda2024-lb]. This brings us back to the *spectrum of possible reactions to replication failures*: should a theory be discarded immediately after a failed replication, or would that be too radical, with a certain persistence on the part of researchers instead helping to establish strong theories [@phaf2024positive]? Interdisciplinary collaboration would also be valuable: for instance, it would save a great deal of effort if terminology were developed across disciplines rather than separately (and with much redundancy) for psychology [@Huffmeier.2016], the humanities [@Schoch.2023], and marketing [@urminsky2024taking]. In some areas it remains entirely unclear what replication success even looks like, making it difficult to judge whether two studies examining the same question arrive at the same result. Even where this is clear, the success rate depends heavily on how replication success is measured (<https://forrt.org/FReD/articles/success_criteria.html>).
+
+Open Science is occasionally equated with *Open Access*. While Open Science is much more than that, the debate over Open Access is one of the oldest and, to some extent, independent of issues of scientific integrity. The social dilemma of how researchers can become independent of commercial publishers is still far from resolved. Whether agreements between universities and publishers (for example, DEAL agreements) will succeed remains uncertain.
+
+::: callout-warning
+## Open Washing
+
+Even research that addresses the topic of Open Science sometimes fails to meet the very criteria it calls for. For example, an article by Open Science advocates [@Protzko.2023] has drawn [criticism](https://statmodeling.stat.columbia.edu/2023/11/21/of-course-its-preregistered-just-give-me-a-sec/) because it deviated from its preregistration without transparently reporting this.
+:::
+
+### What Is Happening Right Now?
+
+The ideas and findings discussed here are a current snapshot of a dynamic discourse. More and more universities are founding Open Science centers and engaging with the associated topics. As part of a priority program on meta-science and replicability, LMU Munich is funding research projects. The American Center for Open Science is working on numerous projects, and within the European FORRT initiative, projects and teams are being organized. It is now only a matter of time before all researchers become aware of the problems and proposed solutions and take part in improving science.
+
+::: callout-tip
+## War and Open Science
+
+A topic still relatively little addressed at present is that of war. Many research institutions are subject to embargoes that require collaborations with researchers from certain countries, such as China or Russia, to be reported or even avoided altogether. Depending on one's epistemological standpoint, different developments are conceivable:
+
+- Positivism: Assuming that there is *one single truth* [@Wittgenstein.19222004] that everyone merely needs to uncover, opposing nations must be seen as competitors with whom knowledge should not be shared. Science would therefore need to close itself off toward them. How this could be achieved with respect to online databases is primarily a technical question.
+
+- Relationist: In the sense of @Fleck.19352015, truth is socially anchored, and different societies can, in theory, operate with different truths. Researchers from opposing nations might, as a result, have no interest at all in each other's viewpoints, or might dismiss them as politically tainted.
+
+- Nationalist: From this perspective, one could argue that a society that funds science should be the primary beneficiary of it.
+
+- Altruistic/idealistic: Drawing on the Mertonian norms [@Merton.1968], science can be understood as a commons belonging to all people, to which no one has privileged access (the communism of scientific knowledge) and from which all people can benefit. Under this view, science does not stop at political borders. From this perspective, Open Science could be understood as a diplomatic strategy for scientific exchange despite political differences.
+
+Which perspective will ultimately prevail remains uncertain. In the context of the war in Israel and Gaza and an open letter from researchers on the subject, the German Federal Ministry of Education and Research compiled, in June 2024, lists of university faculty with particular political views and [examined the possibility of cutting their research funding](https://www.tagesschau.de/investigativ/panorama/bmbf-stark-watzinger-foerdergelder-100.html). This funding affair is perceived within the scientific community – irrespective of its political background – as a threat to the freedom of science, and is more compatible with nationalist and positivist perspectives.
+:::
+
+There is a tension in the communication between researchers and society: among themselves, researchers must communicate that reforms and improvements in science are necessary – which is most easily achieved by pointing to problems. In dialogue with society, however, pointing to these problems can undermine trust in science [@penders2024scandal]. It is therefore worth emphasizing that science is not finished (indeed, strictly speaking, it is *never* finished), but this does not mean it is any less trustworthy than rumors, conspiracy theories, individual experiences, or religion. Rather, a self-critical stance is a central component of science and a sign that its self-correction mechanisms are working.
+
+### Further Information
+
+- Retractionwatch reports on current news about errors in research: <https://retractionwatch.com>.
+
+- On her YouTube channel, Mai Thi Nguyen-Kim discusses problems such as publication bias and self-correction mechanisms: <https://www.youtube.com/watch?v=DHyRaUeHcGY>.
+
+- Sabine Hossenfelder addresses, in a YouTube video, the question of how climate scientists (should) communicate their findings: <https://www.youtube.com/watch?v=gMOjD_Lt8qY>.
+
+- The German network of Open Science initiatives connects researchers for talks and workshops on Open Science: [https://osf.io/tbkzh/wiki/home](https://osf.io/tbkzh/wiki/home/).
+
+- An introduction to Open Science for students (in English) is offered by @pennington2023student, @noauthor_2024-bm, and @chambers2017seven.
+
+- A German glossary of Open Science terms is available online via FORRT: <https://forrt.org/glossary/german>.
+
+- Open Science is not yet the norm; @Kohrs2023-mf summarize how everyone can contribute to it.
+
+------------------------------------------------------------------------

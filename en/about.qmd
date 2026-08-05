@@ -1,0 +1,29 @@
+---
+title: "About the Book"
+editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+Science is funded to a significant extent by the members of a society, for example through tax revenue. This means that a community supports individual people so that they can gain a deeper understanding of themselves and the world, and in return receives help in solving various problems. As a result, scientists owe a certain degree of accountability to society. This does not mean that every scientific finding necessarily has to bear fruit, but rather that it meets scientific quality criteria and is, at the very least, comprehensible and verifiable for other researchers. To what extent this is the case in various disciplines, and how people are working to make this accountability possible, is what I aim to lay out in this book.
+
+This book itself is meant to be part of open science. In the context of the problems and solutions, I explain what the profession of *scientist* looks like, how the scientific system works, and discuss, using selected examples, scientific debates. Openness also means that the book is freely accessible.
+
+::: callout-note
+## Acknowledgments
+
+This book would not have been possible without the support of my wife, Jessica. My optimism and my strength to advocate for an open, transparent, and fair science draw on her.
+
+I thank Lena Röseler, Celina Wagner, Helga Röseler, and Anna Wentzel for proofreading and their countless suggestions for improvement, Wibke Fellermann for advice on style and layout, and Victoria Moser for reworking the figures.
+
+In the examples, notes, and remarks, I have also drawn on numerous examples that I discussed with colleagues and friends. I thank Daniel Wolf, Johannes Leder, Thomas Lösch, Matthias Borgstede, Astrid Schütz, Ulrike Starker, Georg Felser, Viola Voß, Mitja Back, Jan H. Höffler, Helene Richter, Janik Goltermann, Gilad Feldman, Flavio Azevedo, Lukas Wallrich, and many others for the engaging conversations!
+:::
+
+::: callout-note
+## Use of AI
+
+Claude Sonnet 5 was used to adjust the layout and identify spelling errors. An English translation currently in progress was also produced using Claude Sonnet 5.
+:::
+
+------------------------------------------------------------------------

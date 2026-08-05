@@ -65,11 +65,11 @@ div.csl-indent {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -96,32 +96,30 @@ div.csl-indent {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./geschichte.html">Die Geschichte der Open Science-Bewegung</a></li><li class="breadcrumb-item"><a href="./bestandsaufnahme.html"><span class="chapter-title">Bestandsaufnahme</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">Open Science: Wie sich die Wissenschaft öffnet</a> 
-        <div class="sidebar-tools-main tools-wide">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Open Science: Wie sich die Wissenschaft öffnet</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Suchen"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./en/index.html"> 
+<span class="menu-text">English</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools tools-wide">
     <a href="https://github.com/LukasRoeseler/opensciencebuch" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
     <a href="./Open-Science-DIN-A5.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Lesemodus umschalten">
@@ -130,13 +128,23 @@ div.csl-indent {
   </div>
 </a>
 </div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./geschichte.html">Die Geschichte der Open Science-Bewegung</a></li><li class="breadcrumb-item"><a href="./bestandsaufnahme.html"><span class="chapter-title">Bestandsaufnahme</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Suchen"></div>
-        </div>
-        </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -324,7 +332,7 @@ Kritische Betrachtung der Open Science Collaboration, 2015
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Obgleich dieses „Reproducibility Project Psychology” die gesamte Fachgemeinschaft zutiefst erschütterte und den Weg für einen Paradigmenwechsel ebnete, bemängeln manche Forschende auch negative Auswirkungen auf nachfolgende Replikationsforschung. Indem 100 Studien gleichzeitig von einer Gruppe aus über 100 Forschenden veröffentlicht wurden, setzte das Projekt unrealistische Maßstäbe für Replikationsforschung. Gleichzeitig war die Qualitätskontrolle dabei weniger streng, da die einzelnen Studien nicht alle in dem Maße begutachtet werden konnten, wie es bei einer traditionellen Veröffentlichung der Fall gewesen wäre (z.&nbsp;B. <span class="citation" data-cites="Roseler.2022d">Röseler et al. (<a href="#ref-Roseler.2022d" role="doc-biblioref">2022</a>)</span>). Einige gleichermaßen ambitionierte Vorhaben wurden veröffentlicht, wie zum Beispiel die ManyLabs Studien (z.&nbsp;B. <span class="citation" data-cites="Klein.2014">Klein et al. (<a href="#ref-Klein.2014" role="doc-biblioref">2014</a>)</span>; <span class="citation" data-cites="Klein.2018">Klein et al. (<a href="#ref-Klein.2018" role="doc-biblioref">2018</a>)</span>), oder Versuche, bei denen unabhängige Gruppen dieselben Hypothesen testeten und replizierten <span class="citation" data-cites="Landy.2020">(<a href="#ref-Landy.2020" role="doc-biblioref">Landy et al., 2020</a>)</span>. Oft beschränken sich diese Vorhaben auf Studien, die sich im Rahmen einer Online-Befragung replizieren lassen. Formate wie Längsschnittstudien oder Verhaltensbeobachtungen sind dabei aufgrund der schwierigeren Machbarkeit unterrepräsentiert.</p>
+<p>Obgleich dieses „Reproducibility Project Psychology” die gesamte Fachgemeinschaft zutiefst erschütterte und den Weg für einen Paradigmenwechsel ebnete, bemängeln manche Forschende auch negative Auswirkungen auf nachfolgende Replikationsforschung. Indem 100 Studien gleichzeitig von einer Gruppe aus über 100 Forschenden veröffentlicht wurden, setzte das Projekt unrealistische Maßstäbe für Replikationsforschung. Gleichzeitig war die Qualitätskontrolle dabei weniger streng, da die einzelnen Studien nicht alle in dem Maße begutachtet werden konnten, wie es bei einer traditionellen Veröffentlichung der Fall gewesen wäre, z.&nbsp;B. <span class="citation" data-cites="Roseler.2022d">(<a href="#ref-Roseler.2022d" role="doc-biblioref">Röseler et al., 2022</a>)</span>. Einige gleichermaßen ambitionierte Vorhaben wurden veröffentlicht, wie zum Beispiel die ManyLabs Studien, z.&nbsp;B. <span class="citation" data-cites="Klein.2014 Klein.2018">(<a href="#ref-Klein.2014" role="doc-biblioref">Klein et al., 2014</a>; <a href="#ref-Klein.2018" role="doc-biblioref">Klein et al., 2018</a>)</span>, oder Versuche, bei denen unabhängige Gruppen dieselben Hypothesen testeten und replizierten <span class="citation" data-cites="Landy.2020">(<a href="#ref-Landy.2020" role="doc-biblioref">Landy et al., 2020</a>)</span>. Oft beschränken sich diese Vorhaben auf Studien, die sich im Rahmen einer Online-Befragung replizieren lassen. Formate wie Längsschnittstudien oder Verhaltensbeobachtungen sind dabei aufgrund der schwierigeren Machbarkeit unterrepräsentiert.</p>
 </div>
 </div>
 <p>Zahlreiche Verbünde folgten. Einige Projekte konzentrierten sich auf einzelne Phänomene. Beispielsweise haben sich 17 Forschungsgruppen zusammengetan, um den Befund des <em>Facial Feedback</em> <span class="citation" data-cites="Strack.1988">(<a href="#ref-Strack.1988" role="doc-biblioref">Strack et al., 1988</a>)</span> zu replizieren <span class="citation" data-cites="Wagenmakers.2016">(<a href="#ref-Wagenmakers.2016" role="doc-biblioref">Wagenmakers et al., 2016</a>)</span>. Bei diesem Experiment geht es darum, dass Personen einen Stift mit den Zähnen festhalten und dabei je nach Ausrichtung des Stiftes entweder diejenigen Muskeln anspannen, die sie auch zum Lachen benötigen oder eben nicht. In der “Lachen”-Bedingung fanden die Versuchspersonen im Anschluss Comics witziger. Die Replikation schlug fehl. 2022 wurde eine weitere Studie mit über 3000 Versuchspersonen aus 19 Ländern veröffentlicht – diesmal auch mit direkter Beteiligung von Fritz Strack, der die Originalstudie durchgeführt hatte <span class="citation" data-cites="Coles.2022">(<a href="#ref-Coles.2022" role="doc-biblioref">Coles et al., 2022</a>)</span>. Wieder zeigte sich, dass die Position eines Stiftes im Mund sich nicht auf die Bewertung von Stimuli auswirkt. Jenseits von sozialpsychologischen Befunden konzentrierten sich Forschende auch auf Bereiche wie Forschung mit Babys <span class="citation" data-cites="byers2020building">(<a href="#ref-byers2020building" role="doc-biblioref">Byers-Heinlein et al., 2020</a>)</span> oder auf Studien bestimmter Zeitschriften <span class="citation" data-cites="Camerer.2018">(<a href="#ref-Camerer.2018" role="doc-biblioref">Camerer et al., 2018</a>)</span>.</p>

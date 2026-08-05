@@ -26,6 +26,10 @@ book:
   repo-url: https://github.com/LukasRoeseler/opensciencebuch
   repo-branch: main
   repo-actions: [issue]
+  navbar:
+    right:
+      - text: "English"
+        href: "en/index.html"
   chapters:
     - index.qmd
 

@@ -65,11 +65,11 @@ div.csl-indent {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -96,32 +96,30 @@ div.csl-indent {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lösungen.html">Lösungen</a></li><li class="breadcrumb-item"><a href="./lösungen_system.html"><span class="chapter-title">Das System</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">Open Science: Wie sich die Wissenschaft öffnet</a> 
-        <div class="sidebar-tools-main tools-wide">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Open Science: Wie sich die Wissenschaft öffnet</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Suchen"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./en/index.html"> 
+<span class="menu-text">English</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools tools-wide">
     <a href="https://github.com/LukasRoeseler/opensciencebuch" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
     <a href="./Open-Science-DIN-A5.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Lesemodus umschalten">
@@ -130,13 +128,23 @@ div.csl-indent {
   </div>
 </a>
 </div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lösungen.html">Lösungen</a></li><li class="breadcrumb-item"><a href="./lösungen_system.html"><span class="chapter-title">Das System</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Suchen"></div>
-        </div>
-        </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -684,7 +692,7 @@ Unberechtigte Sorge vor Ideenklau
 <figcaption>Klassischer Forschungsprozess im Vergleich zu Registered Reports und dem PRC-Modell. Dabei findet bei Registered Reports ein zusätzlicher Begutachtung vor der Studiendurchführung statt. Bei PRC-Modellen findet die Veröffentlichung vor dem Review statt.</figcaption>
 </figure>
 </div>
-<p>Ein radikalerer Ansatz als die Begutachtung ohne Ergebnisteil ist die Begutachtung des Artikels, ohne dass Ergebnisse überhaupt existieren. Dieses Format heißt <em>Registered Report</em>. Dabei wird das Manuskript mit der zu prüfenden Theorie, Methodik, und dem Analyseplan bei der Zeitschrift eingereicht, ohne dass überhaupt Daten erhoben wurden. Kommt es zur Akzeptanz dieses „halbfertigen” Artikels (<em>in principle acceptance</em>), werden die Daten gesammelt, wie geplant ausgewertet, und es folgt eine weitere Begutachtungsrunde. Hierbei ist vorgeschrieben, dass die Autor*innen nichts an den bereits verfassten Teilen verändern dürfen und die Gutachter*innen im Nachhinein keine Kritik am bereits geprüften Vorgehen üben dürfen. Es geht nur noch darum, ob der Plan eingehalten wurde und ob die Schlussfolgerungen auf den geplanten Analysen fußen. Damit soll verhindert werden, dass Artikel abgelehnt werden, weil die Ergebnisse nicht spannend genug, innovativ genug, oder den Erwartungen entsprechend sind. Erste Untersuchungen können bereits nachweisen, dass sich damit die Qualität der Forschung gegenüber dem traditionellen Vorgehen verbessert <span class="citation" data-cites="Soderberg.2021">(<a href="#ref-Soderberg.2021" role="doc-biblioref">Soderberg et al., 2021</a>)</span>. Eine Übersicht über Zeitschriften, die dieses Format anbieten ist online verfügbar (<a href="https://www.cos.io/initiatives/registered-reports" class="uri">https://www.cos.io/initiatives/registered-reports</a> → Participating Journals; <span class="citation" data-cites="Chambers2018">Chambers (<a href="#ref-Chambers2018" role="doc-biblioref">o.&nbsp;J.</a>)</span>; <span class="citation" data-cites="chambers2022past">Chambers &amp; Tzavella (<a href="#ref-chambers2022past" role="doc-biblioref">2022</a>)</span>).&nbsp; Ebenfalls wird dadurch deutlich, dass Forschung einem massiven Publikationsbias unterliegt (d.&nbsp;h. es werden vor allem Studien veröffentlicht, die ihre Vermutungen bestätigen konnten und kaum Studien, in denen das nicht geschah): <span class="citation" data-cites="scheel2021excess">Scheel et al. (<a href="#ref-scheel2021excess" role="doc-biblioref">2021</a>)</span> zeigten, dass der Anteil erwartungskonformer Ergebnisse bei Registered Reports mit 44% deutlich unter den in der Psychologie üblichen 96% liegt.</p>
+<p>Ein radikalerer Ansatz als die Begutachtung ohne Ergebnisteil ist die Begutachtung des Artikels, ohne dass Ergebnisse überhaupt existieren. Dieses Format heißt <em>Registered Report</em>. Dabei wird das Manuskript mit der zu prüfenden Theorie, Methodik, und dem Analyseplan bei der Zeitschrift eingereicht, ohne dass überhaupt Daten erhoben wurden. Kommt es zur Akzeptanz dieses „halbfertigen” Artikels (<em>in principle acceptance</em>), werden die Daten gesammelt, wie geplant ausgewertet, und es folgt eine weitere Begutachtungsrunde. Hierbei ist vorgeschrieben, dass die Autor*innen nichts an den bereits verfassten Teilen verändern dürfen und die Gutachter*innen im Nachhinein keine Kritik am bereits geprüften Vorgehen üben dürfen. Es geht nur noch darum, ob der Plan eingehalten wurde und ob die Schlussfolgerungen auf den geplanten Analysen fußen. Damit soll verhindert werden, dass Artikel abgelehnt werden, weil die Ergebnisse nicht spannend genug, innovativ genug, oder den Erwartungen entsprechend sind. Erste Untersuchungen können bereits nachweisen, dass sich damit die Qualität der Forschung gegenüber dem traditionellen Vorgehen verbessert <span class="citation" data-cites="Soderberg.2021">(<a href="#ref-Soderberg.2021" role="doc-biblioref">Soderberg et al., 2021</a>)</span>. Eine Übersicht über Zeitschriften, die dieses Format anbieten ist online verfügbar <span class="citation" data-cites="Chambers2018 chambers2022past">(<a href="https://www.cos.io/initiatives/registered-reports" class="uri" role="doc-biblioref">https://www.cos.io/initiatives/registered-reports</a> → Participating Journals, <a href="#ref-Chambers2018" role="doc-biblioref">Chambers, 2018</a>; <a href="#ref-chambers2022past" role="doc-biblioref">Chambers &amp; Tzavella, 2022</a>)</span>.&nbsp; Ebenfalls wird dadurch deutlich, dass Forschung einem massiven Publikationsbias unterliegt (d.&nbsp;h. es werden vor allem Studien veröffentlicht, die ihre Vermutungen bestätigen konnten und kaum Studien, in denen das nicht geschah): <span class="citation" data-cites="scheel2021excess">Scheel et al. (<a href="#ref-scheel2021excess" role="doc-biblioref">2021</a>)</span> zeigten, dass der Anteil erwartungskonformer Ergebnisse bei Registered Reports mit 44% deutlich unter den in der Psychologie üblichen 96% liegt.</p>
 </section>
 <section id="pre-print-basierte-modelle" class="level4">
 <h4 class="anchored" data-anchor-id="pre-print-basierte-modelle">Pre-Print basierte Modelle</h4>
@@ -1139,7 +1147,7 @@ Carriquiry, A. L., Daniels, M. J., &amp; Reid, N. (2023). Editorial: Special Iss
 Carter, E. C., Schönbrodt, F. D., Gervais, W. M., &amp; Hilgard, J. (2019). Correcting for Bias in Psychology: A Comparison of Meta-Analytic Methods. <em>Advances in Methods and Practices in Psychological Science</em>, <em>2</em>(2), 115–144. <a href="https://doi.org/10.1177/2515245919847196">https://doi.org/10.1177/2515245919847196</a>
 </div>
 <div id="ref-Chambers2018" class="csl-entry" role="listitem">
-Chambers, C. D. (o.&nbsp;J.). <em>Registered Reports Guidelines JESP 2018</em>.
+Chambers, C. D. (2018). <em>Registered Reports Guidelines JESP 2018</em>.
 </div>
 <div id="ref-chambers2022past" class="csl-entry" role="listitem">
 Chambers, C. D., &amp; Tzavella, L. (2022). The past, present and future of Registered Reports. <em>Nature human behaviour</em>, <em>6</em>(1), 29–42.

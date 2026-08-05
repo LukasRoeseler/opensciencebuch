@@ -1,0 +1,13 @@
+---
+title: "The World"
+editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+Having discussed systemic, methodological, and theoretical reasons for the replication crisis, the discussion ends with a general, ontological point: the expectation that findings must be repeatedly reproducible rests on the assumption, or theory, that the world -- or at least the particular regularity being studied -- is stable. Given fluctuating patterns in the world or in human behavior, replication failures are unsurprising. For psychology, for instance, @Smedslund.2015 has criticized this assumption as false and has cited this *historicity* as one of the reasons why psychology cannot be a natural science. @gergen1973social made a similar argument. Both perspectives may have their origin in the foundational debates of psychology: at the beginning of the 20th century, as psychology gradually distanced itself from philosophy and worked increasingly empirically (that is, through observation rather than mere reasoning), @dilthey1970aufbau divided the natural sciences and the humanities on the grounds that the natural sciences are not concerned with re-experiencing and understanding, but with abstract, general (*nomothetic*) laws. The humanities, by contrast, examine processes within a concrete and unique (*idiographic*) context, together with all their particular features. In the long run, it was the natural-scientific approach that became established, one that had already yielded fruitful insights 50 years earlier [@Fechner.1860].
+
+Chance also plays a special role in generalizing from individual observations to universally valid regularities. What is distinctive about statistical methods, for example, is that uncertainty is expressed as a number and thereby *quantified*. The important question in the context of replication problems is whether differences between findings arise by chance or because of some actual difference. These two kinds of chance are referred to as ontological and epistemic chance. Ontological chance means that there simply is no reason, whereas with epistemic chance we merely do not know the reason. The outcome of a coin flip -- that is, whether the coin lands on heads or tails -- is, for example, a case of epistemic chance: if we knew all the relevant parameters (the height of the hand, the force of the throw, which side faces up when tossed, and so on), we could predict with certainty how the coin would land. Incidentally, fair coins mostly land on the same side they started on [@Bartos2023-jt].
+
+------------------------------------------------------------------------

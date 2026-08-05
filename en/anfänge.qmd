@@ -1,0 +1,37 @@
+---
+title: "Beginnings of a Revolution"
+editor: visual
+format: html
+execute:
+  echo: false
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+Around the year 2010, a series of events accumulated in psychology that, taken individually, could have been dismissed as isolated incidents, but that together painted a negative picture of the science. These cases fall into two categories: the Stapel affair was a clear case of fraud through the "invention" of data or the reporting of studies that were never conducted. The other cases were not clear-cut fraud; instead, they involved methods that were, at the time, accepted within the field, used to produce results.
+
+### The Stapel Affair
+
+By chance, in 2011 early-career researchers discovered that the data for a study by their colleague, Diederik Stapel, had never been collected by anyone. It had been invented, or fabricated. As of July 2024, 58 of Stapel's journal articles have been identified and retracted for containing fabricated or manipulated data.[^anfänge-1] Scientific institutions such as peer review, whose purpose is quality assurance, had failed. Since the incident, several further cases have come to light, in part through renewed analysis of the data from the studies in question [@o2021honesty], and often through whistleblowers—that is, people with knowledge of the wrongdoing who wish to remain anonymous for their own protection. Surveys of researchers in the Netherlands have found that up to 10% of all researchers have engaged in the fabrication or manipulation of data [@Gopalakrishna.2021b]. It should be noted here that fabricated data tend to make studies especially innovative, surprising, or clear-cut—properties that increase the likelihood of publication in a journal.
+
+[^anfänge-1]: Retracted articles can be searched by topic, author, journal, etc. using the Retraction Database: <http://retractiondatabase.org/>.
+
+### Bem: Feeling the Future
+
+A short time later, Daryl Bem—known for foundational psychological and philosophical theories such as self-perception theory [@Bem.1967]—published the finding that people can predict the future [@Bem.2011]. More precisely, some people, under certain conditions, can predict the future. Across nine studies, the research group found that people could make predictions about erotic images. The results were published in the highly regarded *Journal of Personality and Social Psychology*. For many psychologists, it was immediately clear: either fundamental assumptions of their worldview were wrong ("people cannot predict the future"), or something was wrong with the results. Several researchers attempted to explain how these results had come about. Analyses of the published data using alternative statistical methods arrived at the same conclusion [@Wagenmakers.2011], yet replications by independent researchers failed [@robinson2011not, @muhmenthaler2022future, @roe2012feeling].
+
+### Bargh: Influence through *Priming*
+
+His studies were celebrated in marketing and sold as neuroscientific insights: people who drink a hot beverage (compared to a cold one) rate other people as "warmer" (more generous, more considerate) [@williams2008experiencing]. People who solve anagrams related to old age (e.g., "TREEMTIRNE" instead of "RETIREMENT," or "YARG" instead of "GRAY," or, to try it yourself, "NOISER") subsequently walk more slowly [@bargh1996automaticity]. Many of these studies were not replicated: researchers noticed, in the anagram study, that Bargh and colleagues had measured walking time with stopwatches while knowing which participants had solved the "old age" words and which had solved the neutral anagrams—even though every first-year psychology student learns that this should not be the case, and that experimenters should be "blind" to the purpose of the study and to which condition each participant was assigned. In their replication [@Doyen.2012], Doyen and colleagues first measured time themselves, just as Bargh et al. had in the original study: this problematic measurement approach produced the same result. When they instead had time measured using light barriers, without the experimenters knowing which hypothesis was being tested or which participant was solving which anagrams, the effect could not be replicated.
+
+::: callout-important
+## Important Events beyond Psychology
+
+In behavioral biology, @Crabbe1999-ao showed much earlier that findings on the influence of genes on behavior depended strongly on which laboratory the mice were tested in. Although calls for improvements to the research process have recurred ever since [@Kafkafi2018-yr], a revolution comparable to that in psychology never materialized.
+
+A somewhat different problem arose in the course of sequencing human DNA: there, companies filed for intellectual property rights while the research process was still underway. The negative social and scientific consequences were discussed early on [@Moore2000-pr] and remain [part of scientific and political debate](https://www.ip.mpg.de/en/research/research-news/position-statement-on-new-genomic-techniques-and-intellectual-property-law.html) to this day.
+
+Problems with reproducibility—that is, confirming published results based on the same data—are also known from preclinical animal studies of various drugs (biology), cancer research (medicine), genetics (biology), treatments for ALS (neurology), and widely cited medical interventions (medicine) [@royal2018replication, p. 22, Table 1].
+:::
+
+------------------------------------------------------------------------

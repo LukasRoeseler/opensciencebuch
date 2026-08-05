@@ -1,0 +1,25 @@
+---
+title: "Theories"
+editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+In science, theories often serve the function of a signpost. They make it possible to estimate what the results of a study will look like before it is conducted. If the results are therefore not as expected—for example, when a replication fails—there is a suspicion that the theory might be wrong or incomplete. In psychology, where theories are frequently formulated in everyday language rather than formalized (i.e., as mathematical formulas), the value of formal variants has long been debated [@Meehl.2004; @platt1964strong; @Wilcox2024-kx], and replication failures are attributed to theories being too imprecise, ambiguous, and poorly developed. The prevailing motto is that theories are like toothbrushes, and one should never use someone else's. This problem has existed for decades without much having changed [@Lakens.2023; @Muthukrishna.2019]. In the meantime, however, there are efforts to solve the problem as well [@ap2024replication; @Erkan2023-bf], for example by highlighting the advantages of established formal theories [@Robinaugh.2021], developing tools for formalizing theories (<https://www.theorymaps.org>), or through the efforts of individual researchers. The value of replication studies is seen, within the context of the "theory crisis," in the fact that only repeated investigation can establish the conditions under which a particular phenomenon can be demonstrated [@Erkan2023-bf].
+
+### Specification and Formalization
+
+The problem of a theory expressed in everyday language can be illustrated as follows: @Wagenmakers.2016 attempted to replicate a study on the facial feedback hypothesis. The hypothesis states that people find things funnier when they hold a pen in their mouth in a way that engages the muscles also used when grinning, compared to holding the pen differently. To check whether participants held their pens correctly in their mouths, they were filmed in the replication study. This was not the case in the original study. The replication studies failed, and the authors of the original study cited the difference in camera presence as the reason the replication failed [@Strack.2016]. Whether and how the presence of a camera in the experimental setup is relevant was not part of the theory or hypothesis. Because the theory is formulated in ordinary language, an infinite number of such "post hoc" explanations can be introduced into the discussion, explanations that relativize any replication failure. Such misunderstandings are rarer with a formal theory.
+
+The fact that theories are hard to understand and not very informative results in most theories never being falsified, yet also never being investigated further ["zombie theories", @Ferguson.2012]. Something similar applies to psychological scales, most of which are used only once [@Elson.2023]. Flexible theories also make p-hacking easier: since the theory contains no specification for how the data should be processed, whichever variant confirms the theory can be chosen [@Van_den_Akker2022-gz].
+
+### Adversarial Collaborations
+
+One approach intended to prevent uninformative studies from being conducted and to keep discussions from focusing on differing interpretations of theories is adversarial collaboration [*adversarial collaborations*, @cleeremans2022theory]. In this approach, proponents of two incompatible positions work together, for example to design a study intended to settle the conflict [@Cowan.2020; @mellers2001frequency].
+
+#### Further Information
+
+- @Trafimow2016-ol describe how replications are possible even without a theory.
+
+    ------------------------------------------------------------------------

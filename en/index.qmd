@@ -1,0 +1,21 @@
+---
+title: "Summary"
+execute:
+  echo: false
+editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+Many scientific disciplines have changed considerably in recent years. New journals, methods, initiatives, societies, structures, and much more have emerged. There is talk of a "crisis" [@Mede.2020], a revolution [@nosek2018preregistration], or a renaissance [@Nelson.2018]. Together, all these changes have led to a greater degree of openness and transparency and have substantially transformed the scientific system.
+
+This book provides an accessible explanation of the concept of openness, the origins of this change, and the Open Science movement. It explains the background of the scientific system, newly developed methods, and problems with currently established methods, drawing mainly on examples and developments from psychology.
+
+::: callout-note
+## About this translation
+
+While this entire book was written without any AI assistance, this English translation was produced with the help of Claude Sonnet 5 and has not yet been fully reviewed by the author. If you notice any translation errors or awkward phrasing, please refer to the [German original](../index.html) or get in touch.
+:::
+
+------------------------------------------------------------------------

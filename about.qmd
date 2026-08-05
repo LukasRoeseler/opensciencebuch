@@ -20,4 +20,10 @@ Ich danke Lena Röseler, Celina Wagner, Helga Röseler, und Anna Wentzel für da
 In Beispielen, Hinweisen, und Anmerkungen stütze ich mich zudem auf zahlreiche Beispiele, die ich mit Kolleginnen, Kollegen, Freundinnen und Freunden diskutiert habe. Ich danke Daniel Wolf, Johannes Leder, Thomas Lösch, Matthias Borgstede, Astrid Schütz, Ulrike Starker, Georg Felser, Viola Voß, Mitja Back, Jan H. Höffler, Helene Richter, Janik Goltermann, Gilad Feldman, Flavio Azevedo, Lukas Wallrich und vielen anderen für die spannenden Gespräche!
 :::
 
+::: callout-note
+## Nutzung von KI
+
+Claude Sonnet 5 wurde benutzt, um das Layout anzupassen und Rechtschreibfehler zu identifizieren. Eine in Bearbeitung befindliche englische Übersetzung wurde ebenfalls mit Claude Sonnet 5 erstellt.
+:::
+
 ------------------------------------------------------------------------

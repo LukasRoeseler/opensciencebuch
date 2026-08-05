@@ -1,0 +1,25 @@
+---
+title: "Epistemic Problems"
+editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+Epistemology is the theory of knowledge and a subfield of philosophy. It examines how science works, how knowledge can be produced, and what the difference is between knowledge and belief. Epistemological explanations for replication failures go beyond the problems arising from the scientific system or scientific methods, but they are also subject to different standards of testability. Whereas approaches from the philosophy of science sometimes allow for predictions that can be tested empirically (that is, through observation), the philosophical problems themselves can only be thought through and discussed.
+
+### Robustness and Historicity of Phenomena
+
+Under what conditions is it unsurprising that replication attempts fail? One possibility is to assume that the phenomena under investigation are extremely sensitive or unstable. Discovering regularities in human behavior analogous to planetary motion may simply not be possible [@Smedslund.2015]. The current assumption held by many social scientists is that regularities exist that do not apply to every single person without exception but hold "on average." In this regard, @Lewin.1930 distinguishes between *Aristotelian* and *Galilean* lawfulness, with *Aristotelian* regularities being the ones predominantly studied in the social sciences. A regularity or natural law in the Aristotelian sense might be, for example, that men are taller than women.
+
+An even more extreme theory holds that people are aware of the knowledge that exists about them and dynamically adjust their behavior accordingly, meaning that the behavioral sciences are always historical, or time-bound: if it is discovered that people tend not to change their decisions even when doing so would improve their situation, this fact is brought to their attention through science, and they can then adjust their behavior. This, incidentally, is the status quo bias, whereby people prefer the current situation over an alternative one [@Samuelson.1988; @Xiao.2021]. Another example is the gender pay gap, that is, salary differences between men and women independent of qualification. Ideally, once people become aware of the problem, they change the system so that the pay gap no longer exists. This perspective cannot be applied to all areas of the social sciences, however. For instance, knowing about one's own pain sensitivity, intelligence, or personality has no influence on that very trait.
+
+How strongly phenomena can differ due to seemingly minor differences in study design has already been examined at the meta-scientific level. @Landy.2020 had several hypotheses tested by several different researchers, and factors that, according to the underlying theories, should have made no difference at all led to opposite results. Applied to replication research, this means that in certain research areas it may be entirely unclear under which conditions particular relationships can be observed. An even more extreme example is a study by @Breznau.2022. The researchers had 73 teams use the same data to test the hypothesis that "immigration reduces public support for social policy measures." The findings ranged from large negative to large positive associations and could not be explained by methodological choices. They recommend exercising modesty when researching complex human behavior.
+
+### Further Reading
+
+- @Fleck.19352015 proposes a theory of scientific progress in which knowledge is always subject to a so-called thought style that is optimal for the given social situation. In doing so, he draws on elements of evolutionary theory, sociology, and psychology.
+
+- @shiffrin2018scientific discusses the apparent paradox between fallibility -- that is, the fact that science is not always right -- and scientific progress.
+
+    ------------------------------------------------------------------------

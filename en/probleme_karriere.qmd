@@ -1,0 +1,44 @@
+---
+title: "Career in Academia"
+editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+A career in academia usually requires a relevant degree (bachelor's and master's) and begins with a doctorate. During the doctoral phase, one learns the craft of research and earns the doctoral degree: studies are conducted, data are analyzed, and research articles are published. In many cases, doctoral candidates work in a 50–66% position as research assistants, review articles and grant applications on behalf of their supervisors, write their own grant applications, spend several months abroad, create, supervise, and grade exams, supervise theses, and take part in university self-governance by attending meetings and serving on committees. Positions or scholarships are usually set for a term of three years. At the start of my own doctorate, I was told that with a 40-hour week you won't manage to finish your doctorate in the intended time -- in other words, 50% pay for more than 100% of a full-time workload, on a fixed-term contract. Yet contracts are not always limited to the duration of the doctorate. Many people find out only a few months before their contract ends what percentage of a salary they will receive next, how extensive their teaching load will be, and how long the next contract will run. In short: working conditions are not optimal, and choosing a path into academia requires a high degree of flexibility.
+
+Working conditions in academia are also often described as *precarious*, meaning delicate or problematic. The idea behind the strong competition is that pressure fosters productivity. Yet built into the rules of the system is also the recognition that pressure does not lead to good science. In the (presumably rare) extreme case, researchers commit fraud (e.g., by fabricating data, as in the [Stapel affair](https://de.wikipedia.org/wiki/Diederik_Stapel#Wissenschaftliches_Fehlverhalten) or the [Himalayan fossil hoax](https://en.wikipedia.org/wiki/Himalayan_fossil_hoax)).
+
+### Double dependency
+
+There are various ways to fund the doctoral phase: some pursue a doctorate alongside employment at a company, or scholarships that pay for a limited time to cover basic living costs (e.g., €1,100 over 36 months under the graduate funding scheme of the state of Saxony-Anhalt, on top of which come additional social security costs). The most common path, however, is a position as a research assistant. In that case, the supervising person is also the person who evaluates the doctoral thesis. The 120 first-year exams one is assigned to grade can, in extreme cases, come into conflict with the time needed to work on one's own research. Doctoral candidates therefore usually depend on their supervising professors both through their employment *and* through the evaluation of their work -- a situation referred to as *double dependency*.
+
+::: callout-tip
+## Family-unfriendly scholarships
+
+Fixed-term positions, double dependency, meager scholarships, and performance pressure all have clear negative effects on the health of researchers, and thus on the quality of science. What about doctoral scholarships? Scholarships often run for one year with an option for extension, or for up to three years. Researchers who pursue a doctorate directly after school and their degree are about 24 years old, may already have a partner, and may wish to start a family. Under such uncertain contractual conditions, that is difficult. Scholarships often provide no option for parental leave and must then simply be paused -- or they keep running with no extra time added at the end. They forbid additional income, which means parental allowance then drops to the statutory minimum. On top of that, they stipulate that the funded person -- *including their spouse* -- must not exceed a certain maximum level of assets, so that funding through personal savings is not an option either.
+:::
+
+### Depression, burnout, and #IchbinHanna
+
+Across disciplines, a movement developed under the hashtag #IchbinHanna ("I am Hanna") in response to a since-deleted explainer video from the German Federal Ministry of Education and Research about the Academic Fixed-Term Contract Act (WissZeitVG). The movement sharply criticized both the video's matter-of-fact explanation (<https://www.youtube.com/watch?v=PIq5GlY4h4E>) and working conditions in academia more broadly. The video stated: "so that up-and-coming researchers also have a chance to acquire this qualification, and so that one generation doesn't block all the positions, universities and research institutions are permitted to conclude fixed-term contracts under the special rules of the WissZeitVG. This creates turnover, which fosters innovative capacity." 90% of all researchers are employed on fixed-term contracts (<https://www.youtube.com/watch?v=H1wJmqpGhJc>).
+
+Does planning insecurity combined with massive competitive pressure really foster innovative capacity? That seems unlikely: mental illnesses such as burnout [@Jaremka.2020] and signs of anxiety disorders and depression are widespread among researchers. According to a review study by @Satinsky.2021, between 18 and 31% of doctoral candidates suffer from depression.
+
+::: callout-caution
+## Who can help?
+
+Quick help for psychological difficulties is available, for example, through the crisis hotline of [TelefonSeelsorge](https://www.telefonseelsorge.de) (a German telephone counseling service). Some universities have their own dedicated support offices, and cities often have local psychotherapy outpatient clinics and counseling centers.
+:::
+
+### Top-down change
+
+Those who could change the system -- that is, everyone with a permanent contract -- no longer suffer under it. For those who do suffer under the system, it is unwise to try to change it by turning to professors, since these are precisely the people who, as members of appointment committees, decide whether someone stays in academia by awarding professorships. In extreme cases, this can lead someone to hold back criticism of the work of more senior researchers out of fear of diminishing their own chances at a professorship. On the other hand, professors have proven that they are very good at playing by the rules of the game. Admitting that they obtained one of the rare and highly sought-after positions through the quantity rather than the quality of their research would mean devaluing themselves.
+
+### Further information
+
+- The association Respect Science e.V. advocates for improving the working conditions of researchers.
+- TED Talk on publication culture and Open Science: <https://www.youtube.com/watch?v=c-bemNZ-IqA>.
+
+------------------------------------------------------------------------

@@ -1,0 +1,234 @@
+project:
+  type: book
+  output-dir: ../docs/en
+
+csl: apa.csl
+reference-section-title: "References"
+crossref:
+  chapters: false
+
+book:
+  title: "Open Science: How Science Is Opening Up"
+  output-file: "Open-Science-DIN-A5-EN"
+  language: en-US
+  author: "Lukas Röseler"
+  description: "Trust crisis, replication revolution, and open science explained simply and comprehensively"
+  reader-mode: true
+
+  page-footer:
+    left: |
+       Röseler, L. (in preparation). Open Science: Wie sich die Wissenschaft öffnet (0.5th ed.). https://doi.org/10.17605/OSF.IO/2QXWV
+    right: |
+      Built with <a href="https://quarto.org/">Quarto</a>. License: CC-By Attribution 4.0 International.
+  favicon: images/favicon_os.jpg
+  cookie-consent: false
+  site-url: lukasroeseler.github.io/opensciencebuch/en/
+  repo-url: https://github.com/LukasRoeseler/opensciencebuch
+  repo-branch: main
+  repo-actions: [issue]
+  navbar:
+    right:
+      - text: "Deutsch"
+        href: "../index.html"
+  chapters:
+    - index.qmd
+
+    - about.qmd
+
+    - part: einleitung.qmd
+      chapters:
+        - wasistopenscience.qmd
+        - umgehenmitopenscience.qmd
+
+    - part: geschichte.qmd
+      chapters:
+        - anfänge.qmd
+        - bestandsaufnahme.qmd
+        - wandel.qmd
+        - struktur.qmd
+
+    - part: probleme.qmd
+      chapters:
+        - probleme_system.qmd
+        - probleme_karriere.qmd
+        - probleme_methoden.qmd
+        - probleme_theorien.qmd
+        - probleme_epistemische.qmd
+
+    - part: lösungen.qmd
+      chapters:
+        - lösungen_system.qmd
+        - lösungen_methoden.qmd
+        - lösungen_theorien.qmd
+        - lösungen_welt.qmd
+
+    - part: fazit.qmd
+
+  downloads: [pdf]
+
+
+format:
+  html:
+    theme:
+      - cosmo
+    code-link: true
+    author-meta: "Lukas Röseler"
+    callout-appearance: simple
+    css: styles.css
+    number-sections: false
+  pdf:
+    documentclass: scrbook
+    classoption: [twoside, openright, a5paper]
+    papersize: a5paper
+    fontsize: 10.5pt
+    mainfont: "Times New Roman"
+    linestretch: 1.29
+    number-sections: false
+    geometry:
+      - a5paper
+      - top=1.46cm
+      - bottom=1.79cm
+      - inner=2cm
+      - outer=1.5cm
+    include-in-header:
+      text: |
+        \usepackage{xurl}
+        \usepackage{etoolbox}
+        \usepackage{chngcntr}
+        \counterwithout{figure}{chapter}
+        \counterwithout{table}{chapter}
+        \usepackage{fvextra}
+        \fvset{breaklines=true, breakanywhere=true}
+        \usepackage{scrlayer-scrpage}
+        \pagestyle{scrheadings}
+        \clearscrheadfoot
+        \automark[chapter]{chapter}
+        \ohead{\headmark}
+        \ofoot{\pagemark}
+        \setkomafont{pageheadfoot}{\fontsize{9}{11}\selectfont}
+        \setkomafont{caption}{\fontsize{9}{11}\selectfont}
+        \setkomafont{captionlabel}{\fontsize{9}{11}\selectfont\bfseries}
+        \usepackage{caption}
+        \captionsetup{justification=raggedright, singlelinecheck=false, hangindent=1em}
+        \AtBeginDocument{%
+          \let\oldaddcontentsline\addcontentsline
+          \renewcommand{\addcontentsline}[3]{\phantomsection\oldaddcontentsline{#1}{#2}{#3}}%
+        }
+        \widowpenalty=10000
+        \clubpenalty=10000
+        \setlength{\arrayrulewidth}{0.75pt}
+        \raggedbottom
+        \usepackage{microtype}
+        \exhyphenpenalty=10000
+        \lefthyphenmin=3
+        \righthyphenmin=4
+        \hyphenation{%
+        Abbey-Lee Abbott Abdallah Abdinov Abduh Abebe Aben Abolins AbouZeid Abramowicz Abreu Abugaber Ackerman Ackermann Acosta
+        Aczel Adams Adelina Adem Adetula Adler Adriaans Aert Agassi Aguirre Ainsworth Akhtar Akker Al-Hoorie Al-Tamimi
+        AlShakhori Albayrak-Aydemir Albert Alberts Albohn Alcaraz Aldrovandi Allard Allbritton Allum Alogna Alotaibi Alper Alperin Alquist
+        Alsalti Alshaif Alter Altmiller Altschul Alvarez-Benjumea Amaral Amos-Landgraf Andersen Anderson Andringa Anggono Ankel-Peters Antoniewska Anvari
+        Apartis Aquarius Arabi Arantes Arekar Ariely Arinze Armengou Arnal Arslan Arts Assen Athanasopoulou Atkins Atkinson
+        Attaya Aucoin Auer Augusteijn Aust Aveyard Ayala Azevedo Babalola Babincak Baese-Berk Bahnsen Bailey Bak-Coleman Baker
+        Bakker Balatekin Baldwin Balliet Balzer Banik Banker Banks Barberia Barbosa Barbour Bargh Bargheer Barker Barnett
+        Barreiro Barrett Bartkiewicz Baskin Batailler Bauch Bauer Baumann Baumeister Baumert Baute Beall Beaudry Beek Beier
+        Beitner Bell Belletier Bello Benavides Benjamin Benker Benning Benoit BensonMeyer Bentvelzen Benway Berauer Berent Berg
+        Berger Bergh Bergmann Bergquist Berk Berkessel Berkman Berman Bernauer Berning Berntsson Berry Berthold Bertram Bethke
+        Biegert Bilc Bilder Billman Bing Birke Birling Birt Bjorndahl Blake Bliard Blinzler Blouin-Hudon Blumenberg Bobzien
+        Bohman Bohorquez Bollen Bolyanatz Bonisoli-Alquati Bonnet Borgstede Borsboom Bostic Bottesini Boulter Bourazas Bouter Bouwmeester Bowman
+        Boyce Brain Brandt Breckler Brembs Breznau Brierley Brizi Brockman Brodeur Brohmer Brown Bruckner Bryan Bryda
+        Brzeska Brzozowska Buchholz Buchner Buck Buczny Bukowska Bulnes Bunton-Stasyshyn Bunyi Burgdorf Burger Burke Burrows Busch
+        Bushman Butler Buttliere Buttrick Buzbas Byers-Heinlein Byrne Cabanac Calder Caldwell Calin-Jageman Calvillo Camerer Campbell Capaldi
+        Capezza Carfagno Carlisle Carlos-Castillo Carlsson Carlucci Carollo Carriquiry Carter Casadevall Cashin Casillas Cesario Chambers Champely
+        Chan Chandrashekar Chang Charlton Chasten Chatzisarantis Chen Cheng Chesler Cheung Chiarelli Chin Chiu Choi Choja
+        Choma Chopik Chorbotowicz Christensen Christmann Christopher Christopherson Claesen Clark Clarke Cleeremans Clemente Cobey Cohen Colavizza
+        Cole Coles Collaboration Collaborators Colombelli Community Connell Connelly Consonni Contestabile Cook Corcoran Coretta Corker Cortina
+        Cowan Coyne Crabbe Cranston Crispo Crocker Cronbach Crusio Cruyff Cuijpers Cumberledge Cunningham Czymara Dafoe Damian
+        Dang Daniels Danielsson Davies DeBell DeCicco DeHaven DeMarree DeStefano DeVito Debener Deldossi Delerue Denis Deriemaecker
+        Desikan Devezer Dewi Dewitte Diamantopoulos Dietvorst Dijk Dijkhoff Dijksterhuis Dijkstra Dilthey Ding Dirnagl Doherty Dougherty
+        Doyen Drage Dreber Dropmann Dudda Dudek Durglishvili Earp Easley Ebersole Ebert Ecker Edelmann Eerland Eger
+        Eggertson Ehmann Eich Eilam Eklund El-Osta Ellerbrock Elman Elsherif Elson Engleton English Ensinck Enting Erdfelder
+        Eren Erkan Errington Esposito Esterling Etzel Evans Fanelli Fang Farach Farrow Faul Fecher Fechner Feest
+        Fehlmann Feld Feldman Ferguson Ferretti Feyerabend Fidler Fiebach Fiedler Filimoniak Filip Finley Fischer Fisher Fishwick
+        Fleck Fletcher Forke Foroni Forrt Forscher Forschungsgemeinschaft Forsell Forster Francis Frank Franke Frankenbach Franzen Fraser
+        Freeman Freese Friese Friesike Furukawa Gaasendam Gainsbury Galang Garcia Gavras Gawronski Gayle Geller Gerlai Gessler
+        Giacomantonio Gieseler Gigerenzer Giner-Sorolla Gingold Giuliani Glennerster Gnambs Gneezy Godefroidt Golani Goldman Goldstein Gollwitzer Gomez-Marin
+        Gong Goodman-Williams Gopalakrishna Gordon Goroff Gould Gourdon-Kanhukamwe Grahe Grange Grant Green Greene Greenland Greenwald Gregory
+        Grierson Griffith Gronau Grose-Hodge Grosjean Grossmann Gruber Guay Gärtner Hagger Hamidi Hamlin Hansford Hanson Hardwicke
+        Hare Harhoff Harrer Harrison Hartgerink Hartley Hartman Hartmann Haslbeck Hassanzadeh Hasselman Haustein Heathers Heck Hedges
+        Heene Hegarty Heirene Held Heller Henderson Hendlin Henne Henrich Henriques Hertwig Hess Hesse Heyes Heyman
+        Hicks Himi Himmelstein Hirst Hoch Hoebel Hofer Holcombe Holford Holmes Holsinger Holst Holzmeister Homan Horner
+        Hostler Howard Hoyningen-Huene Hrynaszkiewicz Hsing Huber Hughes Hume Humphreys Hunter Hussey Hutchins Hwang IJzerman Ihle
+        Iley Imhoff Inceler Innes-Ker Inzlicht Ioannidis Iorns Iraqi Isager Ishiyama Ismail Ivanovic Ivory Jacobsen Jaljuli
+        Jamil Janz Jaremka Jauk Javorka Jekel Johannesson John Johnson Jones Kafkafi Kahneman Kahrass Kakinohana Kalandadze
+        Kaminski Kapp Karlan Karlsson Karp Keen Keener Kekecs Kelly Kempe Kepes Kiang Kibbe Kidwell Kievit
+        Kimura Kincaid King Kitzes Klebel Klein Kleinberg Kletke Kline Klonsky Knaack Knepp Knutsson Kobrock Koch
+        Kominsky Korb Korbmacher Korell Kormann Kosie Koukouraki Kovacs Kozula Krammer Kraut Kray Kristanto Krosnick Kubiak
+        Kuhn Kularatna Kurby Kurvers Kvarven LaPlante Laakso Lagisz Lakens Lalu Lambert Landy Lang Lange Larres
+        Larsen Laverty Lazarevic LeBel Leavitt Legate Leising Leung Levendis Levernier Levy Lew-Williams Lewin Lewinski Liao
+        Liengaard Light Lindsay Littman Livingston Loewenstein Loffreda Lohmann Lomas Lombardi Lonsdorf Lopez-Nicolas Lorenz-Spreen Loschelder Lott
+        Louderback Love Ludwig Lund Lundmark Lupia Maas Mabry MacAskill MacInnis MacKinney Madden Madon Madsen Maerten
+        Magliano Maier Makel Malhotra Malicki Malkoc March Marefat Marmolejo-Ramos Marques Marsden Marsman Martin Mathur Matus
+        Mauhe Maxwell Mayo-Wilson Mazei McDaniel McDiarmid McGillivray McLaughlin McLean McNeeley McNutt McShane Mede Meehl Meerpohl
+        Mejlgaard Melcher Mellers Mellor Merton Metz Metzler Michael Micheli Middleton Miguel Mikola Miranda Mischkowski Mitchell
+        Mittermaier Moher Mokady Molina Montoya Moore Morgan Morgan-Short Moshontz Mounier Mueller-Langer Muhmenthaler Mulder Munafo Munro
+        Muthukrishna Mynatt Naddaf Nagy Nakagawa Navarro Ndukaihe Nederbragt Neequaye Neiriz Nelson Neoh Neves Neylon Nguyen
+        Nichols Nicholson Nickerson Noorden Nosek Nuijten Nury Oliveira Oliwia Olsnes Olszewska Ongchoco Openness
+        Orben Oswald Paluck Panchanathan Panno Parker Parsons Pawel Pearman Pedder Peirce Penders Pennington Perezgonzalez Perfecto
+        Perfito Peroni Perugini Petersen Peterson Pezzuto Pfaff Pfeiffer Phaf Phan Phillips Piara Pilati Pillemer Pitt
+        Piwowar Platt Plucker Poirier Polka Popper Postmes Pownall Prelec Prenoveau Priem Primbs Protzko Przybylski Puckett
+        Puebla Pustejovsky Pölönen Quan Quinn Quintana Rafols Rahal Ramminger Rassi Ratliff Redden Reed Reggev Reid
+        Reinecke Reinold Rhemtulla Rice Richardson Richter Riedel Rife Ringle Rinke Robertson Robinaugh Robinson Rodriguez Roeder
+        Roessig Roettger Romero Rooryck Rosenthal Ross-Hellauer Rousselet Rudan Rudolph Rule Ryan Sabel Salholz-Hillel Samuelson Sangma
+        Sarachik Sarafoglou Sarstedt Satinsky Savourat Scanff Schares Scheel Schiavone Schijen Schimmack Schleicher Schmeichel Schmidt Schmitt
+        Schneider Scholl Scholz Schooler Schubert Schwenn Schönbrodt Schönfelder Sciences Segala Selker Senanayake Serafimovska Serra-Garcia Shang
+        Shao Sherrill Shiffrin Shimabukuro Shotton Siems Sikora Sikorski Silveira Silverstein Simmons Simons Simonsen Simonsohn Sleegers
+        Smaldino Smedslund Smith Snow Sobkow Soderberg Soergel Sondervan Soto Sotola Souyioultzoglou Spears Spellman Spies Spijker
+        Sprenger Srivastava Staden Stark Stavrova Steinberg Steltenpohl Stephens Stepper Sterling Stewart Stiedl Stiff Stodden Stoop
+        Storms Strack Strand Strech Strecker Stroebe Sultan Surowski Swanson Sweeny Syed Symonds Szaszi Taburet Tang
+        Tarantino Teal Team Teboul Thelwall Thibault Thomas Thompson Thorn Thériault Tierney Ting Tiokhin Tipton Tomlinson
+        Torka Torras Trafimow Tropp Tsai Tucci Tuerlinckx Tukanova Tullett Tump Turitto Tversky Tweney Tybout Tyler
+        Tzavella UNESCO Umpierre Urminsky Vaidis Valdar Vandekerckhove VandenBos Vanpaemel Varachkina Vasilev Vazire Veer Veldkamp Verhagen
+        Verkoeijen Verliefde Vermorgen Vesk Vevea Vianello Vick Viganola Vink Vohs Wagenmakers Wagge Wagner Wahlsten Wallach
+        Walleczek Walter-Terrill Waltman Wang Warner Weerasuriya Weisberg Weller Welp Westwood Wetzels Whitaker Whitt Wicherts Wiernik
+        Wieschowski Wiggins Wilcox Wiley Williams Willighagen Willinsky Willis Wilson Wittgenstein Wong Wood Woodall Wouters Wrzesinski
+        Wuttke Xiao Yagnik Yamashita Yarkoni Yaver Yeung Zachariae Zacher Zavalis Zeckhauser Zeng Zhang Zhao Zhipeng
+        Ziano Ziemann Zimmermann Zumstein Zwaan others Ševkušić%
+        }
+        \makeatletter
+        \setlength{\@fptop}{0pt}
+        \makeatother
+        \urlstyle{same}
+        \AtBeginDocument{%
+          \urlstyle{same}%
+          \lefthyphenmin=3
+          \righthyphenmin=4
+        }
+        \emergencystretch=3em
+        \makeatletter
+        \Urlmuskip=0mu
+        \makeatother
+        \AtBeginDocument{\Urlmuskip=0mu}
+        \AtBeginEnvironment{CSLReferences}{\fontsize{9}{11}\selectfont}
+        \AtBeginEnvironment{longtable}{\fontsize{9}{11}\selectfont}
+        \AtBeginEnvironment{tabular}{\fontsize{9}{11}\selectfont}
+        \deffootnote[1.2em]{1.2em}{0em}{\thefootnotemark.\ }
+        \RedeclareSectionCommand[
+          beforeskip=-2.5ex plus -1ex minus -.2ex,
+          afterskip=1.5ex plus .2ex,
+          font=\normalfont\fontsize{14}{16}\selectfont\bfseries]{chapter}
+        \definecolor{quarto-callout-color}{HTML}{5A5A5A}
+        \definecolor{quarto-callout-note-color}{HTML}{3D5A75}
+        \definecolor{quarto-callout-important-color}{HTML}{7A3B3B}
+        \definecolor{quarto-callout-warning-color}{HTML}{8A6A2E}
+        \definecolor{quarto-callout-tip-color}{HTML}{3D6B52}
+        \definecolor{quarto-callout-caution-color}{HTML}{8A4A2E}
+        \definecolor{quarto-callout-color-frame}{HTML}{C7C7C7}
+        \definecolor{quarto-callout-note-color-frame}{HTML}{A9BDCE}
+        \definecolor{quarto-callout-important-color-frame}{HTML}{D3B3B3}
+        \definecolor{quarto-callout-warning-color-frame}{HTML}{D9C7A3}
+        \definecolor{quarto-callout-tip-color-frame}{HTML}{B0C9BC}
+        \definecolor{quarto-callout-caution-color-frame}{HTML}{D9BBA8}
+        \renewcommand{\maketitle}{}
+  docx:
+    number-sections: false
+    toc: true

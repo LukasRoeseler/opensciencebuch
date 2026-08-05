@@ -1,0 +1,22 @@
+---
+title: "The History of the Open Science Movement"
+editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+```{=latex}
+\markboth{The History of the Open Science Movement}{The History of the Open Science Movement}
+```
+
+In this book, the open science movement is understood as a reaction to identified problems, and thus as a self-correcting process within science. At its center is a lack of trust in findings published in scientific journals. Some of these problems have been known in similar form for decades. However, it took decisive events before they were publicly discussed and proposed solutions were developed. Because of difficulties in *replicating* past results that had been considered reliable (that is, arriving at the same result in repeated investigations), this is often referred to as a *replication crisis*. Due to the uncertainty about the exact causes of low replication rates, the term "crisis of confidence" is sometimes preferred instead [@feest2019replication].
+
+Further reading:
+
+- The history of the replication crisis is described by @Nelson.2018 and @Schimmack.2020. A more positive perspective is taken by @Korbmacher.2023.
+- The high value of replication studies was already being discussed in political science in 1995 [@king1995replication].
+- A case of data manipulation at a highly regarded physics research institution, which came to light in 2002, is described in an online documentary (<https://www.youtube.com/watch?v=nfDoml-Db64>) and a book [@sarachik2009plastic].
+- The history of the open-access movement has been documented by the Open Access Network: <https://open-access.network/informieren/open-access-grundlagen/geschichte-des-open-access#:~:text=In%20der%20sog.,zu%20einer%20Verschlechterung%20der%20Literaturversorgung.>
+
+------------------------------------------------------------------------

@@ -1,0 +1,26 @@
+---
+title: "Problems"
+editor: visual
+format: html
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+```{=latex}
+\markboth{Problems}{Problems}
+```
+
+In the following, numerous problems of the scientific system are explained and listed, ones that researchers have identified while grappling with science itself. Some of these problems have been known for many decades, others only for a few years. It should be noted while reading that for *all* of these problems, solutions have already been developed and, in some cases, already implemented. What these solutions look like, and which solutions are tailored to which problems, is explained in detail in the chapter *Solutions*.
+
+Problems and solutions are each divided according to different levels, which are shown in the following table.
+
+| **Level** | **Explanation** |
+|----|----|
+| System | For people in a society to be able to pursue science as a profession, a framework is needed through which this activity is organized. This includes, for example, the freedom of science enshrined in the Basic Law (Grundgesetz), the funding of research through tax revenue, universities, degree programs, the link between research and teaching, but also scientific journals and books. |
+| Method | How scientists arrive at knowledge is described by the respective method. Methods are tools that are adapted to the problems at hand, change over time, and are, in themselves, neither good nor bad. Examples of methods include telescopes, X-ray machines, questionnaires, but also computer models, algorithms, and statistical or mathematical models. |
+| Theory | A scientific theory is understood as a well-founded assumption about how a particular relationship or phenomenon works. "Well-founded" means that theories are only used for as long as they agree with observations (or as long as there is no better explanation for them). They are therefore never final. Examples of theories include the theory of evolution regarding the adaptation of organisms to their environment, or dissonance theory from psychology. |
+| World / Epistemology | Epistemology, or the theory of knowledge, discusses what people can know. It is relevant to science insofar as things that cannot be known also cannot be researched. |
+
+: Levels of problems and solutions.
+
+------------------------------------------------------------------------
