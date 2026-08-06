@@ -161,6 +161,7 @@ Die Tabelle zeigt einen Ausschnitt aus einem Fantasie-Datensatz mit drei Variabl
 ```{=latex}
 \begin{table}[H]
 \centering
+\caption{Beispiel für einen Datensatz.}
 \begin{tabular}{@{}lll@{}}
 \toprule
 \textbf{ID} & \textbf{IQ} & \textbf{Abiturnote} \\
@@ -170,7 +171,6 @@ Die Tabelle zeigt einen Ausschnitt aus einem Fantasie-Datensatz mit drei Variabl
 3 & 112 & 1,8 \\
 \bottomrule
 \end{tabular}
-\caption{Beispiel für einen Datensatz.}
 \end{table}
 ```
 :::
