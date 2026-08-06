@@ -86,8 +86,8 @@ format:
     number-sections: false
     geometry:
       - a5paper
-      - top=1.46cm
-      - bottom=1.79cm
+      - top=1.485cm
+      - bottom=1.84cm
       - inner=2cm
       - outer=1.5cm
     include-in-header:
@@ -99,6 +99,8 @@ format:
         \usepackage{etoolbox}
         \usepackage{chngcntr}
         \usepackage{float}
+        \usepackage{needspace}
+        \usepackage{pdflscape}
         \counterwithout{figure}{chapter}
         \counterwithout{table}{chapter}
         \usepackage{fvextra}
@@ -220,6 +222,13 @@ format:
           beforeskip=-2.5ex plus -1ex minus -.2ex,
           afterskip=1.5ex plus .2ex,
           font=\normalfont\fontsize{14}{16}\selectfont\bfseries]{chapter}
+        \makeatletter
+        \let\original@schapter\@schapter
+        \renewcommand{\@schapter}[1]{%
+          \original@schapter{#1}%
+          \markboth{#1}{#1}%
+        }
+        \makeatother
         \definecolor{quarto-callout-color}{HTML}{5A5A5A}
         \definecolor{quarto-callout-note-color}{HTML}{3D5A75}
         \definecolor{quarto-callout-important-color}{HTML}{7A3B3B}

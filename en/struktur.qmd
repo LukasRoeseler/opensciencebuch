@@ -10,6 +10,6 @@ In a conversation about preregistration -- a method for increasing the replicabi
 
 The process leading from precarious working conditions to low replication rates is illustrated here. In the following chapters, the problems and possible solutions are discussed in detail.
 
-![The incentive system of science as a cause of replication failures.](images/struktur.jpg){#fig-struktur height="15cm"}
+![The incentive system of science as a cause of replication failures.](images/struktur.png){#fig-struktur height="95%"}
 
 ------------------------------------------------------------------------

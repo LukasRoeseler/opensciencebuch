@@ -225,7 +225,21 @@ For animal studies, the ARRIVE guidelines were developed. Building on these, the
 
 Research is either confirmatory (i.e., researchers have thought through in advance which data they will collect, which analyses they will run, and what the possible results might be) or exploratory (i.e., researchers try to approach a topic without preconceptions, generating questions for future, possibly confirmatory, research). Whenever research is confirmatory, it should be *preregistered*. This means that all the thinking researchers should have done in advance should be written down before data collection begins. Preregistrations are meant to prevent researchers from ending up in a *garden of forking paths* — or rather, they help fix the path in advance, so that it is no longer possible afterward to change the path in order to produce the desired results.
 
+::: {.content-visible unless-format="pdf"}
 ![Preregistration fixes the path through the garden of forking paths in advance.](images/gardenofforkingpaths_prereg.jpg){#fig-forkingpaths-prereg width="100%"}
+:::
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{landscape}
+```
+
+![Preregistration fixes the path through the garden of forking paths in advance.](images/gardenofforkingpaths_prereg.jpg){#fig-forkingpaths-prereg width="17.5cm"}
+
+```{=latex}
+\end{landscape}
+```
+:::
 
 A good preregistration is characterized by researchers stripping themselves of all degrees of freedom [@Wicherts.2016] and specifying in advance all the decisions they will make on the way from data to results. Preregistrations should also be well structured, so that other people can easily verify what was determined beforehand [@Simmons.2020b]. To record all necessary decisions (e.g., how to handle missing values or the planned number of participants) in a structured way, preregistration templates exist. These exist for all kinds of areas, such as social-psychological experiments [@vantVeer.2016] or replication studies [@Brandt.2014]. A collection of more than 20 templates along with their intended uses is available [here](https://osf.io/7xrn9). Researchers with little experience in a given area are supported by such templates. For instance, preregistration templates for meta-analyses include overviews of literature databases and already incorporate gold standards for transparent reporting [PRISMA, @DavidMoher2015]. Moreover, the preregistration materials can later be reused for the manuscript itself.
 
@@ -246,6 +260,10 @@ Analysis code is based on a particular program and corresponding programming lan
 A broad infrastructure already exists for preregistering studies. Researchers can, for example, preregister studies via the Open Science Framework (osf.io) and also upload data, materials, analyses, and manuscripts there, as well as later publish preprints. Projects and preregistrations can also remain private or anonymized, and preregistrations can be placed under a multi-year embargo — a period during which the preregistration is not yet public and can only be accessed via a special link. All public preregistrations are automatically indexed by Google Scholar and are thereafter findable, citable, and also visible in the [OSF search engine](https://osf.io/registries). Within OSF, either open templates or specific existing templates, such as the one by @Brandt.2014, can be used for preregistration ([further templates](https://www.cos.io/blog/call-for-submission-for-preregistration-templates) will be incorporated in the future).
 
 Another preregistration provider is aspredicted.org, though no files can be attached there, and its 11 questions are primarily suited to classic psychological studies. Medical studies are registered — usually without the details that are important for genuine preregistration — via <https://clinicaltrials.gov>, and meta-analyses via PROSPERO (<http://www.crd.york.ac.uk/PROSPERO/>).
+
+```{=latex}
+\needspace{10\baselineskip}
+```
 
 ::: callout-note
 ## Preregistration Checklist

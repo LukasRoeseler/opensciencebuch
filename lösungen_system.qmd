@@ -415,6 +415,8 @@ Themenspezifisch haben sich vor allem in der Psychologie Datenbanken etabliert, 
 | Metadataset | [metadataset.com](https://www.metadataset.com/) | Landwirtschaft |
 | METAPSY | <https://www.metapsy.org> | Psychotherapie |
 
+: Ausgewählte Meta-Analyse- und Replikationsdatenbanken.
+
 Inzwischen werden auch Werkzeuge entwickelt, die Forschenden helfen, solche Datenbanken zu erstellen. Werkzeuge wie *MetaUI*, *Dynameta,* oder *Breathing Life into Meta-Analyses* erleichtern das erstellen einer Website, auf welche Daten interaktiv analysiert und heruntergeladen werden können [metaUI, <https://github.com/lukaswallrich/metaui>; Dynameta, <https://github.com/gls21/Dynameta>; *Breathing Life into Meta-Analyses, @Allbritton2024-nu*]. Weitere Materialien erarbeitet das Project PsychOpen CAMA (<https://cama.psychopen.eu>).
 
 ### Umgang mit Fehlern

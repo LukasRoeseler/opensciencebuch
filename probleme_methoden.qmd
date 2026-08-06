@@ -62,7 +62,21 @@ Diese Fragen entsprechen Freiheitsgraden -- Forschende sind also dahingehend fle
 
 Im Datenanalyseprozess wird die Analogie des „garden of forking paths" verwendet. In einem vereinfachten (!) Beispiel in @fig-forkingpaths haben wir 3x4x4x4 = 192 verschiedene Ergebnisse, die das gesamte Spektrum der Schlussfolgerungen abdecken werden -- egal, ob unsere Hypothese stimmt oder nicht.
 
+::: {.content-visible unless-format="pdf"}
 ![192 verschiedene Wege von einem Datensatz zum (gewünschten) Ergebnis.](images/gardenofforkingpaths.jpg){#fig-forkingpaths width="100%"}
+:::
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{landscape}
+```
+
+![192 verschiedene Wege von einem Datensatz zum (gewünschten) Ergebnis.](images/gardenofforkingpaths.jpg){#fig-forkingpaths width="17.5cm"}
+
+```{=latex}
+\end{landscape}
+```
+:::
 
 Demonstrationen des *garden of forking paths* existieren für verschiedenste Felder. Die Abhängigkeit der Ergebnisse wurde bereits für die Felder Evolutionsbiologie [@Gould.2023], Sozialpolitik [@Breznau.2022], Strukturgleichungsmodelle [@Sarstedt2024-ov], und Sprachanalysen [@Coretta.2023] nachgewiesen.
 

@@ -10,6 +10,6 @@ Im Gespräch über Präregistrierungen -- eine Methode zur Erhöhung der Replizi
 
 Der Prozess von prekären Arbeitsbedingungen bis zur niedrigen Replikationsrate ist hier veranschaulicht. In den folgenden Kapiteln werden die Probleme und Lösungsansätze im Detail diskutiert.
 
-![Das Anreizsystem der Wissenschaft als Ursache für Replikationsfehlschläge.](images/struktur.jpg){#fig-struktur height="15cm"}
+![Das Anreizsystem der Wissenschaft als Ursache für Replikationsfehlschläge.](images/struktur.png){#fig-struktur height="95%"}
 
 ------------------------------------------------------------------------

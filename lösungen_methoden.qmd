@@ -225,7 +225,21 @@ Für Tierstudien wurden die ARRIVE Richtlinien entwickelt. Darauf aufbauend ziel
 
 Forschung ist entweder konfirmatorisch (d.\ h. Forschende haben sich im Vorhinein klare Gedanken dazu gemacht, welche Daten sie erheben, welche Analysen sie rechnen, und was dabei die möglichen Ergebnisse sein könnten), oder exploratorisch (d.\ h. Forschende versuchen, unvoreingenommen an eine Sache heranzugehen und dabei Fragen für zukünftige, möglicherweise konfirmatorische Forschung, zu generieren). Wann immer Forschung konfirmatorisch ist, sollte sie *präregistriert* sein. Das bedeutet, dass alle Gedanken, die sich Forschende im Vorhinein gemacht haben sollten, vor der Datenerhebung niedergeschrieben werden sollten. Präregistrierungen sollen damit verhindern, dass sich Forschende in einem *Garden of Forking Paths* befinden, bzw. helfen sie, den Pfad im Vorhinein festzulegen, damit es im Nachhinein nicht mehr möglich ist, den Pfad zu ändern, um die gewünschten Ergebnisse zu generieren.
 
+::: {.content-visible unless-format="pdf"}
 ![Präregistrierung legt den Pfad im Garden of Forking Paths vorab fest.](images/gardenofforkingpaths_prereg.jpg){#fig-forkingpaths-prereg width="100%"}
+:::
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{landscape}
+```
+
+![Präregistrierung legt den Pfad im Garden of Forking Paths vorab fest.](images/gardenofforkingpaths_prereg.jpg){#fig-forkingpaths-prereg width="17.5cm"}
+
+```{=latex}
+\end{landscape}
+```
+:::
 
 Eine gute Präregistrierung ist dadurch gekennzeichnet, dass Forschende sich damit aller Freiheitsgrade berauben [@Wicherts.2016] und alle Entscheidungen, die sie auf dem Weg von den Daten zu den Ergebnissen fällen, vorweg nehmen. Darüber hinaus sollten Präregistrierungen gut strukturiert sein, damit andere Personen leicht nachprüfen können, was vorher festgelegt wurde [@Simmons.2020b]. Um alle nötigen Entscheidungen (z.\ B. Umgang mit fehlenden Werten oder geplante Anzahl an befragten Personen) strukturiert festzuhalten, gibt es Präregistrierungs-Vorlagen (Templates). Diese existieren für alle möglichen Bereiche, wie sozialpsychologische Experimente [@vantVeer.2016] oder Replikationsstudien [@Brandt.2014]. Eine Sammlung von über 20 Vorlagen mit Verwendungszwecken ist [hier](https://osf.io/7xrn9) verfügbar. Forschende, die noch wenig Erfahrung in bestimmten Bereichen haben, werden durch das Template unterstützt. Beispielsweise enthalten Preregistration-Templates für Meta-Analysen Übersichten von Literaturdatenbanken und beinhalten bereits Goldstandards zu transparenten Berichten [PRISMA, @DavidMoher2015]. Darüber hinaus können die Unterlagen der Präregistrierung für das Manuskript weiterverwendet werden.
 
@@ -246,6 +260,10 @@ Der Analyse-Code basiert auf einem bestimmten Programm und einer entsprechenden 
 Für die Präregistrierung von Studien existiert bereits eine breite Infrastruktur. Forschende können Studien beispielsweise über das Open Science Framework (osf.io) präregistrieren und dort ebenfalls Daten, Materialien, Analysen, und Manuskripte hochladen sowie später Pre-Prints veröffentlichen. Projekte und Präregistrierungen können dabei auch privat oder anonymisiert bleiben, wobei für Präregistrierungen ein mehrjähriges Embargo festgelegt werden kann, also eine Zeit, in der die Präregistrierung noch nicht öffentlich ist und nur mit einem speziellen Link abgerufen werden kann. Alle öffentlichen Präregistrierungen werden automatisch von Google Scholar indiziert und sind danach auch auffindbar, zitierbar, und auch in der [OSF-Suchmaschine](https://osf.io/registries) sichtbar. Im OSF können offene Vorlagen aber auch spezifische existierende Vorlagen wie von @Brandt.2014 für die Präregistrierung verwendet werden ([weitere Templates](https://www.cos.io/blog/call-for-submission-for-preregistration-templates) werden zukünftig eingearbeitet).
 
 Ein weiterer Anbieter von Präregistrierungen ist aspredicted.org, wobei dort keine Dateien angehängt werden können und die 11 Fragen vor allem für klassische psychologische Untersuchungen passend sind. Medizinische Studien werden – meistens ohne die für eine eigentliche Präregistrierung wichtigen Angaben – via <https://clinicaltrials.gov> und Meta-Analysen via PROSPERO (<http://www.crd.york.ac.uk/PROSPERO/>) registriert.
+
+```{=latex}
+\needspace{10\baselineskip}
+```
 
 ::: callout-note
 ## Checkliste zum Präregistrieren

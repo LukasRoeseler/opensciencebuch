@@ -12,6 +12,20 @@ bibliographystyle: apa
 
 Werfen wir einen Blick darauf, was sich seit 2012 in den Wissenschaften verändert hat. Viele der diskutierten Entwicklungen stammen dabei aus der Psychologie. Eingeteilt sind die Veränderungen dahingehend, welchen Teil des Problems sie vor allem betreffen: Ist der Zweck einer neuen Vorgabe, das System, die Methodik, oder die Theorien der Forschung zu verbessern? Einige Lösungen sind mit vielen Problemen gleichzeitig verknüpft und manche sind auf bestimmte Angelegenheiten maßgeschneidert. Die Abbildung enthält eine grobe Unterteilung.
 
-![Lösungsansätze und welches Problem in der Wissenschaft sie aufgreifen.](images/lösungsansätze.png){width="100%"}
+::: {.content-visible unless-format="pdf"}
+![Lösungsansätze und welches Problem in der Wissenschaft sie aufgreifen.](images/lösungsansätze.png){#fig-lösungsansätze height="85%"}
+:::
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{landscape}
+```
+
+![Lösungsansätze und welches Problem in der Wissenschaft sie aufgreifen.](images/lösungsansätze.png){#fig-lösungsansätze height="12cm"}
+
+```{=latex}
+\end{landscape}
+```
+:::
 
 ------------------------------------------------------------------------
