@@ -6,9 +6,9 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
-Science is funded to a significant extent by the members of a society, for example through tax revenue. This means that a community supports individual people so that they can gain a deeper understanding of themselves and the world, and in return receives help in solving various problems. As a result, scientists owe a certain degree of accountability to society. This does not mean that every scientific finding necessarily has to bear fruit, but rather that it meets scientific quality criteria and is, at the very least, comprehensible and verifiable for other researchers. To what extent this is the case in various disciplines, and how people are working to make this accountability possible, is what I aim to lay out in this book.
+Academic research is funded to a significant extent by the members of a society, for example through tax revenue. This means that a community supports individual people so that they can gain a deeper understanding of themselves and the world, and in return receives help in solving various problems. As a result, researchers owe a certain degree of accountability to society. This does not mean that every scholarly finding necessarily has to bear fruit, but rather that it meets scholarly quality criteria and is, at the very least, comprehensible and verifiable for other researchers. To what extent this is the case in various disciplines, and how people are working to make this accountability possible, is what I aim to lay out in this book.
 
-This book itself is meant to be part of open science. In the context of the problems and solutions, I explain what the profession of *scientist* looks like, how the scientific system works, and discuss, using selected examples, scientific debates. Openness also means that the book is freely accessible.
+This book itself is meant to be part of open science. In the context of the problems and solutions, I explain what the profession of *academic researcher* looks like, how the academic system works, and discuss, using selected examples, scholarly debates. Openness also means that the book is freely accessible.
 
 ::: callout-note
 ## Acknowledgments

@@ -23,7 +23,7 @@ The problem is especially large for textbooks. Imagine you have written a book a
 ::: callout-tip
 ## Open Science vs. Open Scholarship
 
-In English, "science" refers only to the natural sciences, which means that, strictly speaking, "Open Science" excludes the humanities. While in English all fields are therefore often addressed jointly as "Science and Humanities," when it comes to Open Science the term "[Open Scholarship](https://forrt.org/glossary/german/open_scholarship/)" is often used instead [@Parsons.2022].
+Unlike German *Wissenschaft*, which covers all scholarly disciplines, English "science" is usually taken to mean only the natural sciences, so that, strictly speaking, "Open Science" excludes the humanities. Because English therefore has to address all fields jointly as "Science and Humanities," the term "[Open Scholarship](https://forrt.org/glossary/english/open_scholarship/)" is often used instead [@Parsons.2022].
 :::
 
 Further information: reactions from various members of the German Psychological Society (DGPs) to the board's official statement, taken from a discussion forum, can be read online: <https://replicationindex.com/wp-content/uploads/2022/12/DGPs_Diskussionsforum.pdf>.

@@ -8,14 +8,16 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
-Many scientific disciplines have changed considerably in recent years. New journals, methods, initiatives, societies, structures, and much more have emerged. There is talk of a "crisis" [@Mede.2020], a revolution [@nosek2018preregistration], or a renaissance [@Nelson.2018]. Together, all these changes have led to a greater degree of openness and transparency and have substantially transformed the scientific system.
+Many academic disciplines have changed considerably in recent years. New journals, methods, initiatives, societies, structures, and much more have emerged. There is talk of a "crisis" [@Mede.2020], a revolution [@nosek2018preregistration], or a renaissance [@Nelson.2018]. Together, all these changes have led to a greater degree of openness and transparency and have substantially transformed the academic system.
 
-This book provides an accessible explanation of the concept of openness, the origins of this change, and the Open Science movement. It explains the background of the scientific system, newly developed methods, and problems with currently established methods, drawing mainly on examples and developments from psychology.
+This book provides an accessible explanation of the concept of openness, the origins of this change, and the Open Science movement. It explains the background of the academic system, newly developed methods, and problems with currently established methods, drawing mainly on examples and developments from psychology.
 
 ::: callout-note
 ## About this translation
 
 While this entire book was written without any AI assistance, this English translation was produced with the help of Claude Sonnet 5 and has not yet been fully reviewed by the author. If you notice any translation errors or awkward phrasing, please refer to the [German original](../index.html) or get in touch.
+
+Two things to know about this translation: First, German *Wissenschaft* has no exact English equivalent — it covers the natural sciences, social sciences, and humanities alike. Where the original says *Wissenschaft*, this translation generally uses "academia," "scholarship," or "research" rather than "science," and *Wissenschaftler\*in* is rendered as "researcher" or "scholar" rather than "scientist." Second, the figures throughout this English edition still carry their original German labels — the diagrams have not yet been redrawn in English.
 :::
 
 ------------------------------------------------------------------------
