@@ -12,20 +12,6 @@ bibliographystyle: apa
 
 Let us take a look at what has changed across the academic disciplines since 2012. Many of the developments discussed originate from psychology. The changes are categorized according to which part of the problem they primarily address: is the purpose of a new requirement to improve the system, the methodology, or the theories of research? Some solutions are linked to many problems simultaneously, while others are tailored to specific issues. The figure provides a rough breakdown.
 
-::: {.content-visible unless-format="pdf"}
-![Approaches to solutions and which problem in science they address.](images/lösungsansätze.png){#fig-lösungsansätze height="85%"}
-:::
-
-::: {.content-visible when-format="pdf"}
-```{=latex}
-\begin{landscape}
-```
-
-![Approaches to solutions and which problem in science they address.](images/lösungsansätze.png){#fig-lösungsansätze height="12cm"}
-
-```{=latex}
-\end{landscape}
-```
-:::
+![Proposed solutions and the problems in research they address.](images/lösungsansätze.png){#fig-lösungsansätze height="15cm"}
 
 ------------------------------------------------------------------------

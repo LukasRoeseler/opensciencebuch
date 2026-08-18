@@ -52,7 +52,7 @@ Replication failures can be explained via the following paths:
 
 1. Type I error in the original study: The original finding was merely a chance finding or arose through scientific misconduct (see the chapter "Researchers' Degrees of Freedom").
 
-2. Type I error in the replication study: The original study was correct; the replication study made an error (e.g., too small a sample, poor calibration of instruments, or scientific misconduct).
+2. Type II error in the replication study: The original study was correct; the replication study made an error (e.g., too small a sample, poor calibration of instruments, or scientific misconduct).
 
 3. Boundary condition of the phenomenon: Both studies are trustworthy. The replication study *differs* in a way that matters for the theory (e.g., the replication study was conducted with people from a different country, and the theory only holds for people from the "original country").
 
