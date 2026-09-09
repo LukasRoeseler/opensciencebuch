@@ -77,6 +77,7 @@ format:
     css: styles.css
     number-sections: false
     include-after-body: sidebar-part-links.html
+    lightbox: auto
   pdf:
     csquotes: true
     documentclass: scrbook

@@ -64,6 +64,9 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -377,7 +380,7 @@ div.csl-indent {
 <div id="fig-paradigmenwechsel" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-paradigmenwechsel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/paradigmenwechsel.jpg" class="img-fluid figure-img" style="width:100.0%">
+<a href="images/paradigmenwechsel.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1: Scientific revolution according to @Kuhn.19701996, figure adapted from @Fiorentino2014-lr."><img src="images/paradigmenwechsel.jpg" class="img-fluid figure-img" style="width:100.0%"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-paradigmenwechsel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Scientific revolution according to <span class="citation" data-cites="Kuhn.19701996">Kuhn (<a href="#ref-Kuhn.19701996" role="doc-biblioref">1970/1996</a>)</span>, figure adapted from <span class="citation" data-cites="Fiorentino2014-lr">Fiorentino &amp; Montana Hoyos (<a href="#ref-Fiorentino2014-lr" role="doc-biblioref">2014</a>)</span>.
@@ -388,7 +391,7 @@ Figure&nbsp;1: Scientific revolution according to <span class="citation" data-ci
 <div id="fig-entehase" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-entehase-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/entehase-01.jpg" class="img-fluid figure-img" style="width:100.0%">
+<a href="images/entehase-01.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;2: Duck-rabbit ambiguous image, freely adapted from Wittgenstein: the protrusions on the left side can be interpreted either as the beak of a duck facing left or as the ears of a rabbit facing right."><img src="images/entehase-01.jpg" class="img-fluid figure-img" style="width:100.0%"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-entehase-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2: Duck-rabbit ambiguous image, freely adapted from Wittgenstein: the protrusions on the left side can be interpreted either as the beak of a duck facing left or as the ears of a rabbit facing right.
@@ -953,6 +956,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","selector":".lightbox","descPosition":"bottom","closeEffect":"zoom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

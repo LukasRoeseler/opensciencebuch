@@ -64,6 +64,9 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -353,7 +356,7 @@ div.csl-indent {
 <div id="fig-funnelplot" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-funnelplot-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/pdf-figuren/loesungen-methoden-funnelplot.png" class="img-fluid figure-img" style="width:100.0%">
+<a href="images/pdf-figuren/loesungen-methoden-funnelplot.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Abbildung&nbsp;1: Trichter-Diagramm (Funnel Plot) für den Zusammenhang zwischen Angst vor Mathematik und Leistung in Mathematik."><img src="images/pdf-figuren/loesungen-methoden-funnelplot.png" class="img-fluid figure-img" style="width:100.0%"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-funnelplot-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Abbildung&nbsp;1: Trichter-Diagramm (Funnel Plot) für den Zusammenhang zwischen Angst vor Mathematik und Leistung in Mathematik.
@@ -391,7 +394,7 @@ Abbildung&nbsp;1: Trichter-Diagramm (Funnel Plot) für den Zusammenhang zwischen
 <div id="fig-ci-breite" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ci-breite-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/pdf-figuren/loesungen-methoden-ci-breite.png" class="img-fluid figure-img" style="width:100.0%">
+<a href="images/pdf-figuren/loesungen-methoden-ci-breite.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Abbildung&nbsp;2: Breite von Konfidenzintervallen je nach Korrelationsgröße für N = 250."><img src="images/pdf-figuren/loesungen-methoden-ci-breite.png" class="img-fluid figure-img" style="width:100.0%"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ci-breite-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Abbildung&nbsp;2: Breite von Konfidenzintervallen je nach Korrelationsgröße für N = 250.
@@ -447,7 +450,7 @@ Reproduktion auf Knopfdruck
 <div id="fig-robustheit" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-robustheit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/pdf-figuren/loesungen-methoden-robustheit.png" class="img-fluid figure-img" style="width:100.0%">
+<a href="images/pdf-figuren/loesungen-methoden-robustheit.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Abbildung&nbsp;3: Ergebnisse verschiedener Analysemethoden für einen festen, fiktiven Datensatz."><img src="images/pdf-figuren/loesungen-methoden-robustheit.png" class="img-fluid figure-img" style="width:100.0%"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-robustheit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Abbildung&nbsp;3: Ergebnisse verschiedener Analysemethoden für einen festen, fiktiven Datensatz.
@@ -658,7 +661,7 @@ Transparente Berichte
 <div id="fig-forkingpaths-prereg" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-forkingpaths-prereg-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/gardenofforkingpaths_prereg.jpg" class="img-fluid figure-img" style="width:100.0%">
+<a href="images/gardenofforkingpaths_prereg.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Abbildung&nbsp;4: Präregistrierung legt den Pfad im Garden of Forking Paths vorab fest."><img src="images/gardenofforkingpaths_prereg.jpg" class="img-fluid figure-img" style="width:100.0%"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forkingpaths-prereg-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Abbildung&nbsp;4: Präregistrierung legt den Pfad im Garden of Forking Paths vorab fest.
@@ -1649,6 +1652,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","closeEffect":"zoom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

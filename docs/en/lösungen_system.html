@@ -64,6 +64,9 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -344,7 +347,7 @@ div.csl-indent {
 <p>… in that order. How the various approaches look in practice for the different actors — politics, universities, or journals — is discussed below.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/pyramide.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><a href="images/pyramide.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Culture change in science, according to Nosek (https://www.cos.io/blog/strategy-for-culture-change)."><img src="images/pyramide.jpg" class="img-fluid figure-img" style="width:100.0%" alt="Culture change in science, according to Nosek (https://www.cos.io/blog/strategy-for-culture-change)."></a></p>
 <figcaption>Culture change in science, according to Nosek (<a href="https://www.cos.io/blog/strategy-for-culture-change" class="uri">https://www.cos.io/blog/strategy-for-culture-change</a>).</figcaption>
 </figure>
 </div>
@@ -689,7 +692,7 @@ Unwarranted fear of idea theft
 <h4 class="anchored" data-anchor-id="registered-report">Registered Report</h4>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/peerreview.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><a href="images/peerreview.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Classic research process compared to Registered Reports and the PRC model. With Registered Reports, an additional review takes place before the study is conducted. With PRC models, publication takes place before review."><img src="images/peerreview.jpg" class="img-fluid figure-img" style="width:100.0%" alt="Classic research process compared to Registered Reports and the PRC model. With Registered Reports, an additional review takes place before the study is conducted. With PRC models, publication takes place before review."></a></p>
 <figcaption>Classic research process compared to Registered Reports and the PRC model. With Registered Reports, an additional review takes place before the study is conducted. With PRC models, publication takes place before review.</figcaption>
 </figure>
 </div>
@@ -1028,7 +1031,7 @@ Comprehensive reports by Feldman and colleagues <span class="citation" data-cite
 <p>When a retraction occurs, a short text is published explaining why the article was retracted. Such texts are hardly standardized and are often opaque. The Committee on Publication Ethics (<a href="https://publicationethics.org" class="uri">https://publicationethics.org</a>) has developed recommendations on the conditions under which articles should be retracted, and <span class="citation" data-cites="ivory2024tale">Ivory &amp; Elson (<a href="#ref-ivory2024tale" role="doc-biblioref">2024</a>)</span> recommend standardized texts to lay out the reasons for a retraction. A worrying development is the alteration of scientific articles by publishers without any notification. Aquarius and colleagues document such covert corrections as “stealth corrections” <span class="citation" data-cites="Aquarius2025-xt">(<a href="#ref-Aquarius2025-xt" role="doc-biblioref">Aquarius et al., 2025</a>)</span>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/retraction.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><a href="images/retraction.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="The retraction process for articles: after publication, editors can raise concerns based on reports, and then investigate them. If the concerns are confirmed, the article is retracted. In rare cases, it turns out there was no error after all, and the retraction can itself be withdrawn (reinstatement)."><img src="images/retraction.jpg" class="img-fluid figure-img" style="width:100.0%" alt="The retraction process for articles: after publication, editors can raise concerns based on reports, and then investigate them. If the concerns are confirmed, the article is retracted. In rare cases, it turns out there was no error after all, and the retraction can itself be withdrawn (reinstatement)."></a></p>
 <figcaption>The retraction process for articles: after publication, editors can raise concerns based on reports, and then investigate them. If the concerns are confirmed, the article is retracted. In rare cases, it turns out there was no error after all, and the retraction can itself be withdrawn (reinstatement).</figcaption>
 </figure>
 </div>
@@ -1960,6 +1963,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":false});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

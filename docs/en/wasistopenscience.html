@@ -64,6 +64,9 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -321,7 +324,7 @@ div.csl-indent {
 <p>Overall, Open Science is understood as a solution to numerous current, often interrelated problems – first and foremost among them the problem that roughly 50% of all psychological studies cannot be replicated <span class="citation" data-cites="OpenScienceCollaboration.2015">(<a href="#ref-OpenScienceCollaboration.2015" role="doc-biblioref">Open Science Collaboration, 2015</a>)</span>, meaning that repeating a study produces different results. Fecher and Friesike <span class="citation" data-cites="fecher2014open">(<a href="#ref-fecher2014open" role="doc-biblioref">2014, p. 19</a>)</span> speak of five “schools of thought,” that is, communities with different understandings that pursue different goals: infrastructure (e.g., platforms for storing or publishing research materials), public engagement and the involvement of society in the scientific process (e.g., by having citizens participate in conducting a study; <em>citizen science</em>), measurability of scientific success (e.g., alternatives to commonly used metrics such as the <em>impact factor</em>), democracy (e.g., access to knowledge), and pragmatism (e.g., greater efficiency of science through publicly available research data). An overview of the facets of Open Science is shown below. Precise estimates are difficult, but roughly speaking: if one picks a random social science study from an academic journal, reruns it according to the scientific gold standard, and tests the hypothesis examined in it once more, the probability of arriving at the same result is about as high as getting “tails” (vs.&nbsp;heads) on a coin flip. Problems partly associated with this include fraud in scientific publications <span class="citation" data-cites="Gopalakrishna.2021">(<a href="#ref-Gopalakrishna.2021" role="doc-biblioref">Gopalakrishna et al., 2021</a>)</span> and mental health problems among early-career researchers <span class="citation" data-cites="Satinsky.2021">(<a href="#ref-Satinsky.2021" role="doc-biblioref">Satinsky et al., 2021</a>)</span>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/facetten.jpg" class="img-fluid figure-img" style="width:88.0%"></p>
+<p><a href="images/facetten.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Facets of Open Science."><img src="images/facetten.jpg" class="img-fluid figure-img" style="width:100.0%" alt="Facets of Open Science."></a></p>
 <figcaption>Facets of Open Science.</figcaption>
 </figure>
 </div>
@@ -825,6 +828,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

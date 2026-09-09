@@ -64,6 +64,9 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -344,7 +347,7 @@ div.csl-indent {
 <p>gemacht werden sollen. Wie die verschiedenen Ansätze bei den verschiedenen Akteuren, also Politik, Universitäten, oder Zeitschriften konkret aussehen, wird im Folgenden diskutiert.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/pyramide.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><a href="images/pyramide.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Kulturwandel in der Wissenschaft nach Nosek (https://www.cos.io/blog/strategy-for-culture-change)."><img src="images/pyramide.jpg" class="img-fluid figure-img" style="width:100.0%" alt="Kulturwandel in der Wissenschaft nach Nosek (https://www.cos.io/blog/strategy-for-culture-change)."></a></p>
 <figcaption>Kulturwandel in der Wissenschaft nach Nosek (<a href="https://www.cos.io/blog/strategy-for-culture-change" class="uri">https://www.cos.io/blog/strategy-for-culture-change</a>).</figcaption>
 </figure>
 </div>
@@ -689,7 +692,7 @@ Unberechtigte Sorge vor Ideenklau
 <h4 class="anchored" data-anchor-id="registered-report">Registered Report</h4>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/peerreview.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><a href="images/peerreview.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Klassischer Forschungsprozess im Vergleich zu Registered Reports und dem PRC-Modell. Dabei findet bei Registered Reports ein zusätzlicher Begutachtung vor der Studiendurchführung statt. Bei PRC-Modellen findet die Veröffentlichung vor dem Review statt."><img src="images/peerreview.jpg" class="img-fluid figure-img" style="width:100.0%" alt="Klassischer Forschungsprozess im Vergleich zu Registered Reports und dem PRC-Modell. Dabei findet bei Registered Reports ein zusätzlicher Begutachtung vor der Studiendurchführung statt. Bei PRC-Modellen findet die Veröffentlichung vor dem Review statt."></a></p>
 <figcaption>Klassischer Forschungsprozess im Vergleich zu Registered Reports und dem PRC-Modell. Dabei findet bei Registered Reports ein zusätzlicher Begutachtung vor der Studiendurchführung statt. Bei PRC-Modellen findet die Veröffentlichung vor dem Review statt.</figcaption>
 </figure>
 </div>
@@ -1028,7 +1031,7 @@ Umfangreiche Berichte von Feldman und Kolleg*innen <span class="citation" data-c
 <p>In den Fällen, in denen es zu Retractions kommt, wird ein kurzer Text veröffentlicht, in dem erklärt wird, weshalb ein Artikel zurückgezogen wird. Solche Texte sind kaum standardisiert und oft intransparent. Das Committee of Publishing Ethics (<a href="https://publicationethics.org" class="uri">https://publicationethics.org</a>) hat Empfehlungen erarbeitet, unter welchen Bedingungen Artikel zurückgezogen werden und <span class="citation" data-cites="ivory2024tale">Ivory &amp; Elson (<a href="#ref-ivory2024tale" role="doc-biblioref">2024</a>)</span> empfehlen standardisierte Texte, um die Gründe für die Retraction darzulegen. Eine besorgniserregende Entwicklung ist die Veränderung wissenschaftlicher Artikel durch Verlage ohne eine Benachrichtigung darüber. Aquarius und Kolleg*innen dokumentieren solche heimlichen Korrekturen als Stealth-Corrections <span class="citation" data-cites="Aquarius2025-xt">(<a href="#ref-Aquarius2025-xt" role="doc-biblioref">Aquarius et al., 2025</a>)</span>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/retraction.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><a href="images/retraction.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Prozess der Retraction von Artikeln: Nach der Veröffentlichung können Herausgeber*innen aufgrund von Hinweisen Bedenken äußern und die anschließend prüfen. Falls sich die Sorgen bewahrheiten, wird der Artikel zurückgezogen (Retraction). In seltenen Fällen handelte es sich doch nicht um einen Fehler und der die Retraction kann zurückgezogen werden (Reinstation)."><img src="images/retraction.jpg" class="img-fluid figure-img" style="width:100.0%" alt="Prozess der Retraction von Artikeln: Nach der Veröffentlichung können Herausgeber*innen aufgrund von Hinweisen Bedenken äußern und die anschließend prüfen. Falls sich die Sorgen bewahrheiten, wird der Artikel zurückgezogen (Retraction). In seltenen Fällen handelte es sich doch nicht um einen Fehler und der die Retraction kann zurückgezogen werden (Reinstation)."></a></p>
 <figcaption>Prozess der Retraction von Artikeln: Nach der Veröffentlichung können Herausgeber*innen aufgrund von Hinweisen Bedenken äußern und die anschließend prüfen. Falls sich die Sorgen bewahrheiten, wird der Artikel zurückgezogen (Retraction). In seltenen Fällen handelte es sich doch nicht um einen Fehler und der die Retraction kann zurückgezogen werden (Reinstation).</figcaption>
 </figure>
 </div>
@@ -1960,6 +1963,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"descPosition":"bottom","openEffect":"zoom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
