@@ -326,6 +326,7 @@ div.csl-indent {
 </header>
 
 
+<p><img src="images/cover.jpg" class="book-cover img-fluid" alt="Book cover: Open Science - How Science Is Opening Up"></p>
 <p>Many academic disciplines have changed considerably in recent years. New journals, methods, initiatives, societies, structures, and much more have emerged. There is talk of a “crisis” <span class="citation" data-cites="Mede.2020">(<a href="#ref-Mede.2020" role="doc-biblioref">Mede et al., 2020</a>)</span>, a revolution <span class="citation" data-cites="nosek2018preregistration">(<a href="#ref-nosek2018preregistration" role="doc-biblioref">Nosek et al., 2018</a>)</span>, or a renaissance <span class="citation" data-cites="Nelson.2018">(<a href="#ref-Nelson.2018" role="doc-biblioref">Nelson et al., 2018</a>)</span>. Together, all these changes have led to a greater degree of openness and transparency and have substantially transformed the academic system.</p>
 <p>This book provides an accessible explanation of the concept of openness, the origins of this change, and the Open Science movement. It explains the background of the academic system, newly developed methods, and problems with currently established methods, drawing mainly on examples and developments from psychology.</p>
 <div class="callout callout-style-simple callout-note callout-titled">
@@ -361,6 +362,35 @@ Nosek, B. A., Ebersole, C. R., DeHaven, A. C., &amp; Mellor, D. T. (2018). The p
 </section>
 
 </main> <!-- /main -->
+<script>
+// Quarto rendert einen Buchteil ohne Unterkapitel in der Seitenleiste als <span>
+// statt als <a> - die Seite ist damit nur ueber "weiter" erreichbar.
+// Dieses Skript macht solche Eintraege anklickbar. Reine HTML-Ebene, betrifft das PDF nicht.
+(function () {
+  var TARGETS = {
+    "Fazit und Ausblick": "./fazit.html",
+    "Conclusion and Outlook": "./fazit.html"
+  };
+  function fix() {
+    document.querySelectorAll("li.sidebar-item-section > span.sidebar-item-text").forEach(function (span) {
+      if (span.querySelector("a")) return;
+      var href = TARGETS[span.textContent.trim()];
+      if (!href) return;
+      var a = document.createElement("a");
+      a.className = "sidebar-item-text sidebar-link";
+      a.setAttribute("href", href);
+      a.innerHTML = span.innerHTML;
+      var box = document.createElement("div");
+      box.className = "sidebar-item-container";
+      box.appendChild(a);
+      span.replaceWith(box);
+    });
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", fix);
+  } else { fix(); }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

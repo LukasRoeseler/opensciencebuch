@@ -357,7 +357,7 @@ Um klar anzugeben, wer was getan hat, können Forschende die Contributor Roles T
 
 - Mit dem FAIR-Aware Quiz (<https://fairaware.dans.knaw.nl>) können Forschende ihr Wissen zum Teilen von Forschungsdaten testen.
 
-- Offene Lehrmaterialien zu FAIR Data werden von [Jürgen Schneider](https://j-5chneider.github.io/PTOS-open-data/) und von der [Universitätsbibliothek Mannheim](https://github.com/UB-Mannheim/awesome-RDM) bereitgestellt
+- Offene Lehrmaterialien zu FAIR Data werden von [Jürgen Schneider](https://j-5chneider.github.io/PTOS-open-data/) und von der [Universitätsbibliothek Mannheim](https://github.com/UB-Mannheim/awesome-RDM) bereitgestellt.
 
 - Beispiele für Citizen Science und Möglichkeiten zum Mitmachen sind auf [mitforschen.org](www.mitforschen.org/) und [Wissenschaft-im-Dialog.de](https://wissenschaft-im-dialog.de/mitmachen/).
 

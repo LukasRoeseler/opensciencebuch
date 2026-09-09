@@ -806,7 +806,7 @@ Eine „Kopie“ des Open Science Frameworks
 <li><p><a href="https://www.datalad.org" class="uri">https://www.datalad.org</a> ist ein kostenloses Programm, das automatisch dokumentiert, wie aus Daten Wissen gewonnen wird.</p></li>
 <li><p>Typische Mythen offener Daten werden in einem Blog Post von Elina Takola diskutiert: <a href="https://www.sortee.org/blog/2024/04/12/2024_open_data_myths/" class="uri">https://www.sortee.org/blog/2024/04/12/2024_open_data_myths/</a>.</p></li>
 <li><p>Mit dem FAIR-Aware Quiz (<a href="https://fairaware.dans.knaw.nl" class="uri">https://fairaware.dans.knaw.nl</a>) können Forschende ihr Wissen zum Teilen von Forschungsdaten testen.</p></li>
-<li><p>Offene Lehrmaterialien zu FAIR Data werden von <a href="https://j-5chneider.github.io/PTOS-open-data/">Jürgen Schneider</a> und von der <a href="https://github.com/UB-Mannheim/awesome-RDM">Universitätsbibliothek Mannheim</a> bereitgestellt</p></li>
+<li><p>Offene Lehrmaterialien zu FAIR Data werden von <a href="https://j-5chneider.github.io/PTOS-open-data/">Jürgen Schneider</a> und von der <a href="https://github.com/UB-Mannheim/awesome-RDM">Universitätsbibliothek Mannheim</a> bereitgestellt.</p></li>
 <li><p>Beispiele für Citizen Science und Möglichkeiten zum Mitmachen sind auf <a href="www.mitforschen.org/">mitforschen.org</a> und <a href="https://wissenschaft-im-dialog.de/mitmachen/">Wissenschaft-im-Dialog.de</a>.</p></li>
 <li><p>Einen Überblick und Übersetzungen der Contributor Roles Taxonomy gibt es online: <a href="https://github.com/contributorshipcollaboration/credit-translation" class="uri">https://github.com/contributorshipcollaboration/credit-translation</a>.</p></li>
 <li><p>Ein Leitfaden zu Open Source Software stellt Bitkom e.V. bereit: <a href="https://www.bitkom.org/Bitkom/Publikationen/Open-Source-Leitfaden-Praxisempfehlungen-fuer-Open-Source-Software" class="uri">https://www.bitkom.org/Bitkom/Publikationen/Open-Source-Leitfaden-Praxisempfehlungen-fuer-Open-Source-Software</a>.</p></li>
@@ -1174,6 +1174,35 @@ Zhang, Z., &amp; Mai, Y. (2022). <em>WebPower: Basic and Advanced Statistical Po
 </section>
 
 </main> <!-- /main -->
+<script>
+// Quarto rendert einen Buchteil ohne Unterkapitel in der Seitenleiste als <span>
+// statt als <a> - die Seite ist damit nur ueber "weiter" erreichbar.
+// Dieses Skript macht solche Eintraege anklickbar. Reine HTML-Ebene, betrifft das PDF nicht.
+(function () {
+  var TARGETS = {
+    "Fazit und Ausblick": "./fazit.html",
+    "Conclusion and Outlook": "./fazit.html"
+  };
+  function fix() {
+    document.querySelectorAll("li.sidebar-item-section > span.sidebar-item-text").forEach(function (span) {
+      if (span.querySelector("a")) return;
+      var href = TARGETS[span.textContent.trim()];
+      if (!href) return;
+      var a = document.createElement("a");
+      a.className = "sidebar-item-text sidebar-link";
+      a.setAttribute("href", href);
+      a.innerHTML = span.innerHTML;
+      var box = document.createElement("div");
+      box.className = "sidebar-item-container";
+      box.appendChild(a);
+      span.replaceWith(box);
+    });
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", fix);
+  } else { fix(); }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

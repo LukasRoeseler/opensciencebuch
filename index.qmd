@@ -8,6 +8,10 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
+::: {.content-visible when-format="html"}
+![](images/cover.jpg){.book-cover fig-alt="Buchcover: Open Science - Wie sich die Wissenschaft oeffnet"}
+:::
+
 Viele wissenschaftliche Disziplinen haben sich in den letzten Jahren stark verändert. Neue Zeitschriften, Methoden, Initiativen, Gesellschaften, Strukturen, und vieles mehr sind entstanden. Es ist die Rede von einer "Krise" [@Mede.2020], einer Revolution [@nosek2018preregistration] oder einer Renaissance [@Nelson.2018]. All diese Veränderungen haben gemeinsam zu einem stärkeren Grad an Offenheit und Transparenz geführt und das Wissenschaftssystem maßgeblich verändert.
 
 In diesem Buch werden niedrigschwellig der Begriff der Offenheit, die Ursprünge des Wandels, und die Open Science Bewegung erklärt. Es werden Hintergründe des wissenschaftlichen Systems, neu entwickelte Methoden, und Probleme amtierender Methoden erläutert. Dabei wird vorwiegend auf Beispiele und Entwicklungen aus der Psychologie zurückgegriffen.

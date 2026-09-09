@@ -366,6 +366,35 @@ Xiao, Q., Lam, C. S., Piara, M., &amp; Feldman, G. (2021). Revisiting status quo
 </section>
 
 </main> <!-- /main -->
+<script>
+// Quarto rendert einen Buchteil ohne Unterkapitel in der Seitenleiste als <span>
+// statt als <a> - die Seite ist damit nur ueber "weiter" erreichbar.
+// Dieses Skript macht solche Eintraege anklickbar. Reine HTML-Ebene, betrifft das PDF nicht.
+(function () {
+  var TARGETS = {
+    "Fazit und Ausblick": "./fazit.html",
+    "Conclusion and Outlook": "./fazit.html"
+  };
+  function fix() {
+    document.querySelectorAll("li.sidebar-item-section > span.sidebar-item-text").forEach(function (span) {
+      if (span.querySelector("a")) return;
+      var href = TARGETS[span.textContent.trim()];
+      if (!href) return;
+      var a = document.createElement("a");
+      a.className = "sidebar-item-text sidebar-link";
+      a.setAttribute("href", href);
+      a.innerHTML = span.innerHTML;
+      var box = document.createElement("div");
+      box.className = "sidebar-item-container";
+      box.appendChild(a);
+      span.replaceWith(box);
+    });
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", fix);
+  } else { fix(); }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

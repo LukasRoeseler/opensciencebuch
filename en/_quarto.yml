@@ -76,6 +76,7 @@ format:
     callout-appearance: simple
     css: styles.css
     number-sections: false
+    include-after-body: sidebar-part-links.html
   pdf:
     csquotes: true
     documentclass: scrbook
@@ -87,15 +88,14 @@ format:
     number-sections: false
     geometry:
       - a5paper
-      - top=1.485cm
-      - bottom=1.84cm
+      - top=1.75cm
+      - bottom=2.30cm
       - inner=2cm
       - outer=1.5cm
     include-in-header:
       text: |
         \usepackage{xurl}
         \makeatletter
-        \def\UrlBreaks{\do\/\do\_\do\#\do\?\do\&\do\=\do\+}
         \makeatother
         \usepackage{etoolbox}
         \usepackage{chngcntr}
@@ -215,7 +215,7 @@ format:
         \Urlmuskip=0mu
         \makeatother
         \AtBeginDocument{\Urlmuskip=0mu}
-        \AtBeginEnvironment{CSLReferences}{\fontsize{9}{11}\selectfont}
+        \AtBeginEnvironment{CSLReferences}{\fontsize{9}{11}\selectfont\def\UrlBreaks{\do\/}}
         \AtBeginEnvironment{longtable}{\fontsize{9}{11}\selectfont}
         \AtBeginEnvironment{tabular}{\fontsize{9}{11}\selectfont}
         \deffootnote[1.2em]{1.2em}{0em}{\thefootnotemark.\ }

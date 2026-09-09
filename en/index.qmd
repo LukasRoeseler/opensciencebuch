@@ -8,6 +8,10 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
+::: {.content-visible when-format="html"}
+![](images/cover.jpg){.book-cover fig-alt="Book cover: Open Science - How Science Is Opening Up"}
+:::
+
 Many academic disciplines have changed considerably in recent years. New journals, methods, initiatives, societies, structures, and much more have emerged. There is talk of a "crisis" [@Mede.2020], a revolution [@nosek2018preregistration], or a renaissance [@Nelson.2018]. Together, all these changes have led to a greater degree of openness and transparency and have substantially transformed the academic system.
 
 This book provides an accessible explanation of the concept of openness, the origins of this change, and the Open Science movement. It explains the background of the academic system, newly developed methods, and problems with currently established methods, drawing mainly on examples and developments from psychology.
