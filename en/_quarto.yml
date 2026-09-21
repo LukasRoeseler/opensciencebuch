@@ -25,7 +25,6 @@ book:
   site-url: lukasroeseler.github.io/opensciencebuch/en/
   repo-url: https://github.com/LukasRoeseler/opensciencebuch
   repo-branch: main
-  repo-actions: [issue]
   navbar:
     right:
       - text: "Deutsch"

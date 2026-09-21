@@ -25,6 +25,24 @@
 .navbar-nav .dropdown-menu .dropdown-item:focus {
   background-color: #222222;
 }
+/* Suchsymbol im Header weiß */
+#quarto-header .aa-DetachedSearchButton,
+#quarto-header .aa-DetachedSearchButton svg,
+#quarto-header .aa-DetachedSearchButtonIcon {
+  color: #ffffff !important;
+}
+/* Sekundäre Navigationsleiste (Kapitel-Umschalter/TOC-Symbol) ebenfalls schwarz mit weißer Schrift */
+.quarto-secondary-nav {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+.quarto-secondary-nav .quarto-btn-toggle,
+.quarto-secondary-nav .quarto-btn-toggle i,
+.quarto-secondary-nav .quarto-page-breadcrumbs,
+.quarto-secondary-nav .quarto-page-breadcrumbs a,
+.quarto-secondary-nav .chapter-title {
+  color: #ffffff !important;
+}
 /* Titelbild auf der Startseite */
 .book-cover {
   display: block;
